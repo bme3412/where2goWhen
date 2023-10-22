@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>European Cities</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>European Cities</h1>
+
+        <!-- Language Filter Dropdown -->
+        <select id="languageFilter">
+            <option value="all">All Languages</option>
+            <option value="English">English</option>
+            <option value="French">French</option>
+            <option value="German">German</option>
+            <option value="Spanish">Spanish</option>
+            <option value="Italian">Italian</option>
+            <option value="Portuguese">Portuguese</option>
+            <option value="Czech">Czech</option>
+        </select>
+        <span class="spacer" style="margin-right: 10px;"></span>
+        <button id="clearFilterButton" >Reset Language</button> <!-- Clear Filter Button -->
+
+        <!-- Cards Container -->
+        <div class="cards" id="cardsContainer">
+
+        </div>
+
+        <!-- Modal structure -->
+        <div class="modal" id="cityModal">
+            <div class="modal-content">
+                <span class="close-btn" id="closeBtn">&times;</span>
+                <h2 id="cityName"></h2>
+
+                <!-- Tabs in the Modal -->
+                <div class="tabs">
+                    <button class="tab-button active" data-target="modal-info">Info</button>
+                    <button class="tab-button" data-target="modal-weather">Weather</button>
+                    <button class="tab-button" data-target="modal-language">Language</button>
+                    <button class="tab-button" data-target="modal-things-to-do">Things to Do</button>
+                </div>
+
+                <!-- Tab Contents -->
+                <div class="tab-content active" id="modal-info">General info about the city.</div>
+                <div class="tab-content" id="modal-weather">Weather details.</div>
+                <div class="tab-content" id="modal-language">Official languages.</div>
+                <div class="tab-content" id="modal-things-to-do">
+                    <div class="photo-grid" id="photoGrid"></div>
+                </div>
+
+                <div id="attractionPopup" class="attraction-popup">
+                    <div class="attraction-popup-content">
+                        <span class="close-popup-btn" onclick="document.getElementById('attractionPopup').style.display='none'">&times;</span>
+                        <h3 id="attractionName"></h3>
+                        <div class="details-grid">
+                            <div>Price: <span id="attractionPrice"></span></div>
+                            <div>Hours: <span id="attractionHours"></span></div>
+                            <div>Address: <span id="attractionAddress"></span></div>
+                            <div>Metro Stop: <span id="attractionMetro"></span></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <!-- External Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
