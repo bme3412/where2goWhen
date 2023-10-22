@@ -1,0 +1,296 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    height:325px; /* Adjust as needed */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent black */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card-overlay h2 {
+    color: white;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-details > div {
+    display: flex;
+    align-items: center;
+}
+
+.card-icon {
+    font-size: 18px;  /* Adjust as required */
+    margin-right: 10px;
+    color: white;  /* White color for better visibility on overlay */
+}
+
+.card-info {
+    color: white; /* White color for better visibility on overlay */
+}
+
+.card-price {
+    text-align: right; /* Align to the right of the card */
+    font-weight: bold; /* Make the text bolder */
+}
+
+.card-image {
+    width: 100%;
+    height: 70%;
+    object-fit: cover; /* This will make sure the image scales and crops to fit the div */
+    margin-bottom: 10px;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+/* Language Filter Dropdown Styling */
+#languageFilter {
+    display: block;
+    margin-right: 10px;  /* Adjust as needed */
+    width: 250px;
+    height: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    background: linear-gradient(to bottom, #ffffff 0%, #f3f3f3 100%);
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    appearance: none; /* Removes the default OS styling */
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+#languageFilter:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    outline: none; /* Removes the blue outline on focus */
+}
+
+/* Modal tabs */
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 80%;
+}
+
+.close-btn {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s;
+}
+
+.tab-button.active, 
+.tab-button:hover {
+    background-color: #f4f4f4;
+}
+
+.tab-content {
+    display: none;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+#clearFilterButton {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: none;  /* initially hidden */
+    
+}
+
+#clearFilterButton:hover {
+    background-color: #0056b3;
+}
+
+#clearFilterButton:active {
+    background-color: #004085;
+}
+
+.expanded-modal .modal-content {
+    max-width: 800px; /* Increase the width when the modal is expanded */
+    width: 90%; /* Adjust to take up more of the screen */
+    height: 80%; /* Increase the height */
+    overflow-y: auto; /* Add vertical scrolling if necessary */
+}
+
+
+/* Photo Grid */
+.photo-grid {
+    max-height: calc(100% - 50px); /* Leave some space for the tabs and the title */
+    overflow-y: auto; /* Enable vertical scrolling */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.photo-grid-item {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.photo-grid-item img {
+    width: 100%; /* This ensures the image takes up the full width of its container. */
+    height: auto; /* This will maintain the aspect ratio of the image. */
+    border-radius: 15px; /* This will add rounded corners to the image. */
+    object-fit: cover; /* This ensures the image covers the area of its container without distorting its aspect ratio. */
+    transition: transform 0.3s; /* Optional: This will smooth out the zoom effect. */
+}
+.photo-grid-item:hover img {
+    transform: scale(1.05); /* Optional: This will slightly zoom in on the image when it's hovered over. */
+}
+
+.photo-grid-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.photo-grid-item:hover .overlay {
+    opacity: 1;
+}
+
+/* Attraction pop-up */
+.attraction-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    overflow: auto; /* Allow scrolling if the content is too tall */
+}
+
+.attraction-popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    margin: auto; /* Center the content vertically */
+    position: relative; /* Position relative to its normal position */
+}
+
+.attraction-popup.active {
+    width: 80%; /* Adjust as needed */
+    height: 80%; /* Adjust as needed */
+    top: 10%; /* Center the popup */
+    left: 10%; /* Center the popup */
+}
+
+.close-popup-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px;
+    margin-top: 10px; /* Add some space between the title and the grid */
+    align-items: center; /* Vertically center the content */
+}
+
+.details-grid div {
+    background: #f9f9f9; /* Light grey background */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+}
