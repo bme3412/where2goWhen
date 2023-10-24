@@ -4,75 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>European Cities</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Where To Go When</title>
+    <style>
+        
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <h1>European Cities</h1>
+    <video autoplay loop muted id="bgvideo">
+        <source src="baloons.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <header>
+        <!-- Inserted Logo Here -->
+        <!-- <img src="images/whereToGoWhen.png" alt="Where To Go When Logo" id="logo"> -->
 
-        <!-- Language Filter Dropdown -->
-        <select id="languageFilter">
-            <option value="all">All Languages</option>
-            <option value="English">English</option>
-            <option value="French">French</option>
-            <option value="German">German</option>
-            <option value="Spanish">Spanish</option>
-            <option value="Italian">Italian</option>
-            <option value="Portuguese">Portuguese</option>
-            <option value="Czech">Czech</option>
-        </select>
-        <span class="spacer" style="margin-right: 10px;"></span>
-        <button id="clearFilterButton" >Reset Language</button> <!-- Clear Filter Button -->
+        <!-- Airbnb Search Replica Code Starts Here -->
+        
+<div class="search-container">
+    <div class="tabs">
+        <div></div>
 
-        <!-- Cards Container -->
-        <div class="cards" id="cardsContainer">
+    </div>
+    <div class="search-fields">
+        <div><input type="text" placeholder="Current Location"></div>
+        <div><input type="text" placeholder="Start date"></div>
+        <div><input type="text" placeholder="Length of trip"></div>
+        <div><input type="text" placeholder="Who"></div>
+        <div><button class="search-btn">Q</button></div>
+    </div>
+</div>
 
-        </div>
+</div>
+    
+    </header>
+    <div class="travel-form">
+        <button>Travel ideas for...</button>
+        <input type="text" placeholder="Current City...">
 
-        <!-- Modal structure -->
-        <div class="modal" id="cityModal">
-            <div class="modal-content">
-                <span class="close-btn" id="closeBtn">&times;</span>
-                <h2 id="cityName"></h2>
-
-                <!-- Tabs in the Modal -->
-                <div class="tabs">
-                    <button class="tab-button active" data-target="modal-info">Info</button>
-                    <button class="tab-button" data-target="modal-weather">Weather</button>
-                    <button class="tab-button" data-target="modal-language">Language</button>
-                    <button class="tab-button" data-target="modal-things-to-do">Things to Do</button>
-                </div>
-
-                <!-- Tab Contents -->
-                <div class="tab-content active" id="modal-info">General info about the city.</div>
-                <div class="tab-content" id="modal-weather">Weather details.</div>
-                <div class="tab-content" id="modal-language">Official languages.</div>
-                <div class="tab-content" id="modal-things-to-do">
-                    <div class="photo-grid" id="photoGrid"></div>
-                </div>
-
-                <div id="attractionPopup" class="attraction-popup">
-                    <div class="attraction-popup-content">
-                        <span class="close-popup-btn" onclick="document.getElementById('attractionPopup').style.display='none'">&times;</span>
-                        <h3 id="attractionName"></h3>
-                        <div class="details-grid">
-                            <div>Price: <span id="attractionPrice"></span></div>
-                            <div>Hours: <span id="attractionHours"></span></div>
-                            <div>Address: <span id="attractionAddress"></span></div>
-                            <div>Metro Stop: <span id="attractionMetro"></span></div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
+        <!-- Trip Preference buttons -->
+        <div>
+            Trip Preference: 
+            <button class="toggle" data-preference="beach">Beach</button>
+            <button class="toggle" data-preference="mountains">Mountains</button>
+            <button class="toggle" data-preference="city">City</button>
+            <!-- Add more buttons as needed -->
         </div>
 
     </div>
 
-    <!-- External Scripts -->
-    <script src="script.js"></script>
+    <div class="email-form">
+        <h2>WhereToGoWhen</h2>
+        <p>Plan out the trip of a lifetime and minimize the stress</p>
+        <input type="text" placeholder="Type your email...">
+        <button>Join WhereToGoWhen Email</button>
+        <p>Already a member? <a href="#">Log in</a></p>
+    </div>
+    <script>
+        // Toggle button functionality
+        const toggles = document.querySelectorAll('.toggle');
+        toggles.forEach(toggle => {
+            toggle.addEventListener('click', function() {
+                this.classList.toggle('selected');
+            });
+        });
+    </script>
 </body>
 
 </html>

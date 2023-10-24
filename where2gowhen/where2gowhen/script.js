@@ -19,13 +19,73 @@ document.addEventListener('DOMContentLoaded', function() {
             metro: 'Bir-Hakeim'
         },
         {
-            name: 'Louvre Museum',
-            image: '/images/louvre.jpg',
-            description: 'Home to thousands of works of art, including the Mona Lisa and The Venus de Milo.',
+            name: 'Luxembourg Gardens',
+            image: '/images/luxembourg_gardens.png',
+            description: 'A serene place for both the locals and tourists, offering a peaceful retreat in the heart of Paris.',
+            price: 'Free',
+            hours: '7:30 AM - 9:30 PM',
+            address: '75006 Paris, France',
+            metro: 'Notre-Dame-des-Champs'
         },
-        // ... add more attractions
+        
+        {
+            name: 'Seine River Cruise',
+            image: '/images/bateau_mouche.png',
+            description: 'Enjoy the beauty of Paris from the river, cruising under numerous bridges while admiring the cityscape.',
+            price: 'Varies',
+            hours: 'Varies',
+            address: 'Various locations along the Seine River',
+            metro: 'Varies'
+        },
+        {
+            name: 'Musée de la Vie Romantique',
+            image: '/images/musee_vie_romantique.png',
+            description: 'Dive into the romantic era of Paris through art and poetry in a unique setting with a pavilion.',
+            price: 'Varies',
+            hours: '10:00 AM - 6:00 PM',
+            address: '16 Rue Chaptal, 75009 Paris, France',
+            metro: 'Pigalle'
+        },
+        {
+            name: 'Les Deux Magots',
+            image: '/images/les_deux_magots.png',
+            description: 'A popular café offering a taste of authentic French cuisine in a cozy setting.',
+            price: 'Varies',
+            hours: '7:30 AM - 1:00 AM',
+            address: '6 Place Saint-Germain des Prés, 75006 Paris, France',
+            metro: 'Saint-Germain-des-Prés'
+        },
+        {
+            name: 'Palace of Versailles',
+            image: '/images/versailles.png',
+            description: 'A symbol of the absolute monarchy of the Ancien Régime, showcasing luxurious rooms and extensive gardens.',
+            price: '€20',
+            hours: '9:00 AM - 6:30 PM',
+            address: 'Place d"Armes, 78000 Versailles, France',
+            metro: 'RER C to Versailles Rive Gauche'
+        },
+        {
+            name: 'Wall of Love',
+            image: '/images/wall_of_love.png',
+            description: 'A unique wall featuring "I Love You" written in over 250 languages, a popular spot for proposals.',
+            price: 'Free',
+            hours: 'Open 24 hours',
+            address: 'Square Jehan Rictus, 75018 Paris, France',
+            metro: 'Abbesses'
+        },
+        {
+            name: 'Montmartre',
+            image: '/images/montmartre.png',
+            description: 'A historic and artistic neighborhood offering picturesque streets and a vibrant arts scene.',
+            price: 'Free',
+            hours: 'Open 24 hours',
+            address: 'Montmartre, 75018 Paris, France',
+            metro: 'Abbesses'
+        },
     ];
     
+
+    // Photo Grid
     function populateThingsToDo(cityName) {
         const attractionPopup = document.getElementById('attractionPopup');
         const photoGrid = document.getElementById('photoGrid');
@@ -35,9 +95,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const gridItem = document.createElement('div');
             gridItem.classList.add('photo-grid-item');
             gridItem.innerHTML = `
-                <img src="${attraction.image}" alt="${attraction.name}">
-                <div class="overlay"></div>
-            `;
+            <img src="${attraction.image}" alt="${attraction.name || 'Attraction'}">`;
+
             gridItem.addEventListener('click', () => {
                 attractionPopup.style.display = 'block';
                 document.getElementById('attractionName').innerText = attraction.name;
@@ -204,32 +263,42 @@ document.addEventListener('DOMContentLoaded', function() {
     
         // Logic for switching between tabs in the modal
         const tabButtons = document.querySelectorAll('.tab-button');
-    tabButtons.forEach(button => {
-        button.addEventListener('click', function() {
+        const modalContent = modal.querySelector('.modal-content');
+        tabButtons.forEach(button => {
+            button.addEventListener('click', function() {
             
             // Deactivate all tab contents
-            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
             
-            // Deactivate all tab buttons
-            tabButtons.forEach(btn => btn.classList.remove('active'));
+        // Deactivate all tab buttons
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+
+        // Activate the clicked tab content
+        const targetContent = document.getElementById(button.dataset.target);
+        targetContent.classList.add('active');
             
-            // Activate the clicked tab content
-            document.getElementById(button.dataset.target).classList.add('active');
-            
-            // Activate the clicked tab button
-            button.classList.add('active');
-            
-            const attractionPopup = document.getElementById('attractionPopup');
-            if (button.dataset.target === 'modal-things-to-do') {
-                attractionPopup.classList.add('active');
-                modal.classList.add('expanded-modal');  // Expand the modal
-            } else {
-                attractionPopup.classList.remove('active');
-                modal.classList.remove('expanded-modal');  // Restore the modal size
-            }
-        });
+        // Activate the clicked tab button
+        button.classList.add('active');
+
+        if (button.dataset.target === 'modal-things-to-do') {
+            modalContent.classList.add('expanded');  // Expand the modal when "Things to Do" tab is active
+        } else {
+            modalContent.classList.remove('expanded');  // Contract the modal when other tabs are active
+        }
     });
-    
+});
+document.querySelector('[data-target="modal-things-to-do"]').addEventListener('click', function() {
+    document.getElementById('cityModal').querySelector('.modal-content').classList.add('expanded-modal-content');
+});
+
+// For other tabs, remove the expanded class
+var otherTabs = document.querySelectorAll('.tab-button:not([data-target="modal-things-to-do"])');
+for (let i = 0; i < otherTabs.length; i++) {
+    otherTabs[i].addEventListener('click', function() {
+        document.getElementById('cityModal').querySelector('.modal-content').classList.remove('expanded-modal-content');
+    });
+}
+
         closeModal.addEventListener('click', function() {
             modal.style.display = 'none';
         });

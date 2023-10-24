@@ -1,8 +1,115 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url('path_to_your_background_image.jpg');
     background-color: #f4f4f4;
+    background-size: cover;
     margin: 0;
     padding: 0;
+    color: white;
+}
+
+#bgvideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.email-form {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    border-radius: 10px;
+}
+
+.email-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.email-form button {
+    padding: 10px 15px;
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.email-form p {
+    text-align: center;
+}
+
+.travel-form {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    position: relative;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.travel-form input[type="text"],
+.travel-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.travel-form button.toggle {
+    padding: 5px 10px;
+    background-color: #ccc;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.travel-form button.toggle.selected {
+    background-color: red;
 }
 
 .container {
@@ -13,6 +120,10 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+h1 {
+    text-align: center;
+}
+
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -21,7 +132,7 @@ body {
 
 .card {
     position: relative;
-    height:325px; /* Adjust as needed */
+    height: 300px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -35,7 +146,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.4); /* Semi-transparent black */
+    background: rgba(0, 0, 0, 0.4);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -58,24 +169,24 @@ body {
 }
 
 .card-icon {
-    font-size: 18px;  /* Adjust as required */
+    font-size: 18px;
     margin-right: 10px;
-    color: white;  /* White color for better visibility on overlay */
+    color: white;
 }
 
 .card-info {
-    color: white; /* White color for better visibility on overlay */
+    color: white;
 }
 
 .card-price {
-    text-align: right; /* Align to the right of the card */
-    font-weight: bold; /* Make the text bolder */
+    text-align: right;
+    font-weight: bold;
 }
 
 .card-image {
     width: 100%;
     height: 70%;
-    object-fit: cover; /* This will make sure the image scales and crops to fit the div */
+    object-fit: cover;
     margin-bottom: 10px;
 }
 
@@ -85,15 +196,9 @@ body {
     width: 100%;
 }
 
-
-h1 {
-    text-align: center;
-}
-
-/* Language Filter Dropdown Styling */
 #languageFilter {
     display: block;
-    margin-right: 10px;  /* Adjust as needed */
+    margin-right: 10px;
     width: 250px;
     height: 40px;
     margin: 20px auto;
@@ -104,14 +209,14 @@ h1 {
     font-size: 16px;
     color: #555;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    appearance: none; /* Removes the default OS styling */
+    appearance: none;
     cursor: pointer;
     transition: box-shadow 0.3s ease;
 }
 
 #languageFilter:focus {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    outline: none; /* Removes the blue outline on focus */
+    outline: none;
 }
 
 /* Modal tabs */
@@ -137,6 +242,13 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 400px;
     width: 80%;
+    overflow: auto;
+    transition: max-height 0.3s ease-in-out; 
+}
+
+.modal-content.expanded {
+    max-height: 90vh; /* Adjusted value to fit more content */
+    width: 90%; /* Adjust as per your design requirements */
 }
 
 .close-btn {
@@ -161,14 +273,30 @@ h1 {
 }
 
 .tab-content {
-    display: none;
+    display: none;    /* Default is hidden */
     padding: 10px 0;
     border-top: 1px solid #eee;
 }
 
+#modal-things-to-do {
+    display: block;    /* Always displayed, but starts as invisible */
+    opacity: 0;        /* Start invisible */
+    pointer-events: none; /* Ensure that the invisible content doesn't interfere with user actions */
+}
+
 .tab-content.active {
     display: block;
+    opacity: 1;    /* Makes content fully visible */
+    pointer-events: auto; /* Makes content interactable */
+    transition: opacity 1.5s ease-in; /* Gradual ease-in transition effect on opacity when becoming active */
 }
+
+#modal-things-to-do.active {
+    opacity: 1;    /* Makes the "Things to Do" content visible */
+    pointer-events: auto; /* Makes the "Things to Do" content interactable */
+}
+
+
 
 #clearFilterButton {
     font-size: 16px;
@@ -193,8 +321,15 @@ h1 {
     background-color: #004085;
 }
 
+
+.expanded-modal-content {
+    max-width: 80%;   /* Reduced to 80% from 90% */
+    max-height: 70vh; /* Reduced height */
+    width: 75%;       /* Reduced width */
+}
+
 .expanded-modal .modal-content {
-    max-width: 800px; /* Increase the width when the modal is expanded */
+    max-width: 1200px; /* Increase the width when the modal is expanded */
     width: 90%; /* Adjust to take up more of the screen */
     height: 80%; /* Increase the height */
     overflow-y: auto; /* Add vertical scrolling if necessary */
@@ -203,26 +338,34 @@ h1 {
 
 /* Photo Grid */
 .photo-grid {
-    max-height: calc(100% - 50px); /* Leave some space for the tabs and the title */
-    overflow-y: auto; /* Enable vertical scrolling */
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* Ensures each column takes up an equal fraction of the container width */
+    gap: 2px; 
 }
+
+
 
 .photo-grid-item {
     position: relative;
-    cursor: pointer;
-    overflow: hidden;
+    width: 100;  /* Dividing the width into thirds, accounting for gaps */
+    min-height: 150px; /* Providing a minimum height for grid items */
+    padding-bottom: 0;
 }
 
 .photo-grid-item img {
-    width: 100%; /* This ensures the image takes up the full width of its container. */
-    height: auto; /* This will maintain the aspect ratio of the image. */
-    border-radius: 15px; /* This will add rounded corners to the image. */
-    object-fit: cover; /* This ensures the image covers the area of its container without distorting its aspect ratio. */
-    transition: transform 0.3s; /* Optional: This will smooth out the zoom effect. */
+    position: relative; /* Position within the grid item */
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%; /* Ensure the image takes up the full height of its container. */
+    border-radius: 15px;
+    object-fit: cover;
+    transition: transform 0.3s;
 }
+
+
+
+
 .photo-grid-item:hover img {
     transform: scale(1.05); /* Optional: This will slightly zoom in on the image when it's hovered over. */
 }
@@ -260,17 +403,17 @@ h1 {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    width: 80%;
-    max-width: 500px;
+    width: 90%;
+    max-width: 700px;
     margin: auto; /* Center the content vertically */
     position: relative; /* Position relative to its normal position */
 }
 
 .attraction-popup.active {
-    width: 80%; /* Adjust as needed */
-    height: 80%; /* Adjust as needed */
-    top: 10%; /* Center the popup */
-    left: 10%; /* Center the popup */
+    width: 90%; /* Adjust as needed */
+    height: 90%; /* Adjust as needed */
+    top: 5%; /* Center the popup */
+    left: 5%; /* Center the popup */
 }
 
 .close-popup-btn {
@@ -293,4 +436,56 @@ h1 {
     background: #f9f9f9; /* Light grey background */
     padding: 10px;
     border-radius: 5px; /* Rounded corners */
+}
+
+/* Airbnb Search Replica Code Starts Here */
+.search-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.search-fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-fields div {
+    flex-basis: 24%;
+}
+
+.search-btn {
+    background-color: #ff5a5f;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 60px;
+    width: 120px;
 }
