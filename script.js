@@ -7,7 +7,52 @@ function getCurrencySymbol(currencyCode) {
         default: return '$';  // Default to dollar symbol if currency code is not recognized
     }
 }
+
 document.addEventListener('DOMContentLoaded', function() {
+    const photoGrid = document.getElementById('photoGrid');
+    const attractionPopup = document.getElementById('attractionPopup');
+
+    photoGrid.addEventListener('click', (event) => {
+        const gridItem = event.target.closest('.photo-grid-item');
+        if (!gridItem) return; // Not clicked on a photo
+
+        // Handle closing of popup if close button is clicked
+        if (event.target.matches('.close-popup')) {
+            attractionPopup.style.display = 'none';
+            gridItem.classList.remove('clicked');
+            const img = gridItem.querySelector('img');
+            img.classList.remove('photo-animation');
+            return;
+        }
+        if (gridItem.classList.contains('clicked')) {
+            gridItem.classList.remove('clicked');
+            const img = gridItem.querySelector('img');
+            img.classList.remove('photo-animation');
+        } else {
+            gridItem.classList.add('clicked');
+            const img = gridItem.querySelector('img');
+            img.classList.add('photo-animation');
+
+            // Make the popup a child of the clicked grid item
+            gridItem.appendChild(attractionPopup);
+
+            // ... Retrieve attraction data and update popup content
+            const attraction = parisAttractions.find(attr => attr.image === img.getAttribute('src'));
+            if (attraction) {
+                document.getElementById('attractionName').innerText = attraction.name;
+                document.getElementById('attractionPrice').innerText = attraction.price;
+                document.getElementById('attractionHours').innerText = attraction.hours;
+                document.getElementById('attractionAddress').innerText = attraction.address;
+                document.getElementById('attractionMetro').innerText = attraction.metro;
+            
+                // Make the popup visible
+                attractionPopup.style.display = 'flex';
+            }
+        }
+    });
+
+
+
     const parisAttractions = [
         {
             name: 'Eiffel Tower',
@@ -88,26 +133,33 @@ document.addEventListener('DOMContentLoaded', function() {
     // Photo Grid
     function populateThingsToDo(cityName) {
         const attractionPopup = document.getElementById('attractionPopup');
-        const photoGrid = document.getElementById('photoGrid');
-    photoGrid.innerHTML = '';  // Clear any existing content
-    if (cityName === 'Paris') {
-        parisAttractions.forEach(attraction => {
-            const gridItem = document.createElement('div');
-            gridItem.classList.add('photo-grid-item');
-            gridItem.innerHTML = `
-            <img src="${attraction.image}" alt="${attraction.name || 'Attraction'}">`;
+        photoGrid.innerHTML = '';  // Clear any existing content
+        
+        if (cityName === 'Paris') {
+            parisAttractions.forEach(attraction => {
+                const gridItem = document.createElement('div');
+                gridItem.classList.add('photo-grid-item');
+                gridItem.innerHTML = `
+                <img src="${attraction.image}" alt="${attraction.name || 'Attraction'}">`;
 
-            gridItem.addEventListener('click', () => {
-                attractionPopup.style.display = 'block';
-                document.getElementById('attractionName').innerText = attraction.name;
-                document.getElementById('attractionPrice').innerText = attraction.price;
-                document.getElementById('attractionHours').innerText = attraction.hours;
-                document.getElementById('attractionAddress').innerText = attraction.address;
-                document.getElementById('attractionMetro').innerText = attraction.metro;
+                gridItem.addEventListener('click', (event) => {
+                    // Make the popup a child of the clicked grid item
+                    gridItem.appendChild(attractionPopup);
+                
+                    // Update popup content
+                    document.getElementById('attractionName').innerText = attraction.name;
+                    document.getElementById('attractionPrice').innerText = attraction.price;
+                    document.getElementById('attractionHours').innerText = attraction.hours;
+                    document.getElementById('attractionAddress').innerText = attraction.address;
+                    document.getElementById('attractionMetro').innerText = attraction.metro;
+                
+                    // Make the popup visible
+                    attractionPopup.style.display = 'flex';
+                });
+
+                photoGrid.appendChild(gridItem);
             });
-            photoGrid.appendChild(gridItem);
-        });
-    }
+        }
         // ... handle other cities
     }
     

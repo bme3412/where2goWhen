@@ -147,7 +147,7 @@ h1 {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -156,6 +156,7 @@ h1 {
 
 .card-overlay h2 {
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .card-details {
@@ -345,12 +346,30 @@ h1 {
 }
 
 
-
 .photo-grid-item {
     position: relative;
-    width: 100;  /* Dividing the width into thirds, accounting for gaps */
-    min-height: 150px; /* Providing a minimum height for grid items */
-    padding-bottom: 0;
+    overflow: hidden;
+}
+
+
+.photo-animation:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 0;
+    }
 }
 
 .photo-grid-item img {
@@ -386,35 +405,60 @@ h1 {
     opacity: 1;
 }
 
+.overlay-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+
+.photo-grid-item.clicked .overlay-info {
+    opacity: 1;
+}
+
+
+
 /* Attraction pop-up */
 .attraction-popup {
     display: none;
-    position: fixed;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    justify-content: center;
-    align-items: center;
-    overflow: auto; /* Allow scrolling if the content is too tall */
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    border-radius: 15px;  /* Match with photo border-radius */
+    z-index: 10;
 }
+
 
 .attraction-popup-content {
     background-color: #fff;
+    color: #000;             /* This will set the text color to black */
     padding: 20px;
     border-radius: 5px;
-    width: 90%;
-    max-width: 700px;
-    margin: auto; /* Center the content vertically */
-    position: relative; /* Position relative to its normal position */
+    max-width: 300px;        /* You can adjust this if you want the pop-up to be wider or narrower */
+    margin: auto;            /* This, combined with flexbox on the parent, centers the content */
+    position: relative;      /* Allows for the close button to be positioned in the top-right corner */
+}
+
+.attraction-popup-content h3 {
+    color: #000; /* This will set the h3 text color to black */
 }
 
 .attraction-popup.active {
-    width: 90%; /* Adjust as needed */
-    height: 90%; /* Adjust as needed */
-    top: 5%; /* Center the popup */
-    left: 5%; /* Center the popup */
+    display: flex; /* Makes the popup visible when active */
 }
 
 .close-popup-btn {
@@ -424,6 +468,44 @@ h1 {
     font-size: 30px;
     cursor: pointer;
 }
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.close-popup:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#attractionPopup {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s forwards;
+}
+
+#attractionPopup h2,
+#attractionPopup p {
+    margin: 10px 0;
+}
+
 
 .details-grid {
     display: grid;
