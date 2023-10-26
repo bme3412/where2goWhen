@@ -11,7 +11,7 @@
 <body>
     <!-- Background Video -->
     <video autoplay loop muted id="bgvideo">
-        <source src="baloons.mp4" type="video/mp4">
+        <source src="video/background_video.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
@@ -32,24 +32,23 @@
         </nav>
 
 
-        <!-- Europe Button -->
-        <div class="europe-btn-container">
-            <button class="toggle europe-button" onclick="location.href='europe.html'">Europe</button>
-        </div>
+        <!-- Region Button -->
+        <!-- Region Button -->
+<!-- Region Button -->
+    <div class="btn-container">
+        <a href="asia.html" class="toggle asia-button">Asia</a>
+        <a href="europe.html" class="toggle europe-button">Europe</a>
+        <a href="caribbean.html" class="toggle">Caribbean</a>
+        <a href="southamerica.html" class="toggle">South America</a>
+        <a href="africa.html" class="toggle">Africa</a>
+        <a href="pacific.html" class="toggle">Pacific</a>
+        <a href="surprise.html" class="toggle surprise-button">Surprise Me!</a>
+    </div>
+
     </header>
 
     <main>
-        <!-- Travel Form with Trip Preferences -->
-        <section class="travel-form">
-            <button aria-label="Travel Ideas">Travel ideas for...</button>
-            <input type="text" placeholder="Current City..." aria-label="Current City">
-            <div>
-                Trip Preference: 
-                <button class="toggle" data-preference="beach">Beach</button>
-                <button class="toggle" data-preference="mountains">Mountains</button>
-                <button class="toggle" data-preference="city">City</button>
-            </div>
-        </section>
+        
 
         <!-- Email Signup Form -->
         <section class="email-form">
