@@ -11,7 +11,7 @@
 <body>
     <!-- Background Video -->
     <video autoplay loop muted id="bgvideo">
-        <source src="video/background_video.mp4" type="video/mp4">
+        <source src="assets/video/background_video.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
@@ -23,13 +23,22 @@
         <nav aria-label="Primary Navigation" class="search-container">
             <div class="tabs"></div>
             <div class="search-fields">
-                <div class="search-field-item"><input type="text" placeholder="Current Location" aria-label="Current Location"></div>
-                <div class="search-field-item"><input type="date" placeholder="Start date" aria-label="Start Date"></div>
-                <div class="search-field-item"><input type="number" placeholder="Length of trip" aria-label="Length of Trip"></div>
-                <div class="search-field-item"><input type="text" placeholder="Who" aria-label="Who"></div>
-                <div class="search-field-item"><button class="search-btn" aria-label="Search">Q</button></div>
+                <div class="search-field-item">
+                    <input type="text" placeholder="Current Location" aria-label="Current Location">
+                </div>
+                <div class="search-field-item">
+                    <input type="date" placeholder="Day 1 of Trip" aria-label="Start Date">
+                </div>
+                <div class="search-field-item length-of-trip-container">
+                    <input type="number" placeholder="Length of trip" aria-label="Length of Trip">
+                    <span class="days-label"> days</span>
+                </div>
+                <div class="search-field-item">
+                    <button class="search-btn" aria-label="Search">Q</button>
+                </div>
             </div>
         </nav>
+        
 
 
         <!-- Region Button -->
