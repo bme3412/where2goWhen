@@ -9,16 +9,28 @@
 </head>
 
 <body>
+    <section class="date-display">
+        <p>Hello world. Today is <span id="todayDate"></span>. See below for recommended trips <span id="monthsOut">1</span> month(s) out.</p>
+        <label for="monthSelect">Select months out:</label>
+        <select id="monthSelect">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+    </section>
+    
+    
     <!-- Background Video -->
     <video autoplay loop muted id="bgvideo">
         <source src="assets/video/background_video.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-
+    
+    
     <header>
-        <!-- Logo Placeholder (uncomment to use) -->
-        <!-- <img src="images/whereToGoWhen.png" alt="Where To Go When Logo" id="logo"> -->
-
         <!-- Airbnb-style Search Box -->
         <nav aria-label="Primary Navigation" class="search-container">
             <div class="tabs"></div>
@@ -38,44 +50,31 @@
                 </div>
             </div>
         </nav>
-        
-
 
         <!-- Region Button -->
-        <!-- Region Button -->
-<!-- Region Button -->
-    <div class="btn-container">
-        <a href="asia.html" class="toggle asia-button">Asia</a>
-        <a href="europe.html" class="toggle europe-button">Europe</a>
-        <a href="caribbean.html" class="toggle">Caribbean</a>
-        <a href="southamerica.html" class="toggle">South America</a>
-        <a href="africa.html" class="toggle">Africa</a>
-        <a href="pacific.html" class="toggle">Pacific</a>
-        <a href="surprise.html" class="toggle surprise-button">Surprise Me!</a>
-    </div>
-
+        <div class="btn-container">
+            <a href="asia.html" class="toggle asia-button">Asia</a>
+            <a href="europe.html" class="toggle europe-button">Europe</a>
+            <a href="caribbean.html" class="toggle">Caribbean</a>
+            <a href="southamerica.html" class="toggle">South America</a>
+            <a href="africa.html" class="toggle">Africa</a>
+            <a href="pacific.html" class="toggle">Pacific</a>
+            <a href="surprise.html" class="toggle surprise-button">Surprise Me!</a>
+        </div>
     </header>
 
-    <main>
-        
-
-        <!-- Email Signup Form -->
-        <section class="email-form">
-            <h2>WhereToGoWhen</h2>
-            <p>Plan out the trip of a lifetime and minimize the stress</p>
-            <input type="email" placeholder="Type your email..." aria-label="Your Email">
-            <button aria-label="Join Email List">Join WhereToGoWhen Email</button>
-            <p>Already a member? <a href="#">Log in</a></p>
-        </section>
-    </main>
+    <aside class="email-form">
+        <h2>WhereToGoWhen</h2>
+        <p>Plan out the trip of a lifetime and minimize the stress</p>
+        <input type="email" placeholder="Type your email..." aria-label="Your Email">
+        <button aria-label="Join Email List">Join WhereToGoWhen Email</button>
+        <p>Already a member? <a href="#">Log in</a></p>
+    </aside>
 
     <!-- Script for Toggle Buttons -->
     <script>
-        const toggles = document.querySelectorAll('.toggle');
-        toggles.forEach(toggle => {
-            toggle.addEventListener('click', function() {
-                this.classList.toggle('selected');
-            });
+        document.querySelector('.email-close-btn').addEventListener('click', function() {
+            document.querySelector('.email-form').style.display = 'none';
         });
     </script>
 </body>
