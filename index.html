@@ -10,17 +10,10 @@
 
 <body>
     <section class="date-display">
-        <p>Hello world. Today is <span id="todayDate"></span>. See below for recommended trips <span id="monthsOut">1</span> month(s) out.</p>
-        <label for="monthSelect">Select months out:</label>
-        <select id="monthSelect">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-        </select>
+        <p>Hello, world! Today is <span id="todayDate"></span>.</p>
+        <p>See below for recommended trips <span id="monthsOut">1</span> month(s) out.</p>
     </section>
+    
     
     
     <!-- Background Video -->
@@ -63,6 +56,7 @@
         </div>
     </header>
 
+    <!-- Moved email-form below header -->
     <aside class="email-form">
         <h2>WhereToGoWhen</h2>
         <p>Plan out the trip of a lifetime and minimize the stress</p>
@@ -77,6 +71,7 @@
             document.querySelector('.email-form').style.display = 'none';
         });
     </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
