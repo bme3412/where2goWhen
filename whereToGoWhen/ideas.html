@@ -39,6 +39,33 @@
             </div>
         </div>
     </nav>
+
+ <!-- Filter Button, Search Field, and Filter Content -->
+<div class="filter-search-container">
+    <button id="filterButton">Filter By</button>
+    <input type="text" class="search-field" placeholder="Search or filter">
+    <button class="action-button">+</button>
+    
+    <!-- Filter Content (Hidden by default) -->
+    <div class="filter-content" style="left: -100%; position: absolute;">
+        <!-- ... existing filters ... -->
+
+        <div class="type-of-trip">
+            <label>Type of Trip:</label>
+            <div class="trip-buttons">
+                <button class="trip-filter" data-type="history">History</button>
+                <button class="trip-filter" data-type="culture">Culture</button>
+                <button class="trip-filter" data-type="outdoors">Outdoors</button>
+                <button class="trip-filter" data-type="relaxation">Relaxation</button>
+                <button class="trip-filter" data-type="physically-active">Physically Active</button>
+                <button class="trip-filter" data-type="wellness">Wellness</button>
+            </div>
+        </div>
+        
+        <button id="applyFilters">Apply Filters</button>
+    </div>
+</div>
+
     
 
      <!-- Region Button -->
