@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Added the stylesheet from city-grid.html -->
+    <title>Where To Go When</title>
+</head>
+<body>
+<header>
+    <!-- Airbnb-style Search Box -->
+    <nav aria-label="Primary Navigation" class="search-container">
+        <p class="date-message">Today is <span id="currentDate"></span>. Either select a specific date, or filter for best travel ideas in 
+            <select id="monthSelection">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            month(s):
+        </p>
+        <div class="tabs"></div>
+        <div class="search-fields">
+            <div class="search-field-item">
+                <input type="text" placeholder="Current Location" aria-label="Current Location">
+            </div>
+            <div class="search-field-item">
+                <input type="date" placeholder="Day 1 of Trip" aria-label="Start Date">
+            </div>
+            <div class="search-field-item length-of-trip-container">
+                <input type="number" placeholder="Length of trip" aria-label="Length of Trip">
+                <span class="days-label"> days</span>
+            </div>
+            <div class="search-field-item">
+                <button class="search-btn" aria-label="Search">Q</button>
+            </div>
+        </div>
+    </nav>
+    
+
+     <!-- Region Button -->
+     <div class="btn-container">
+        <a href="asia.html" class="toggle asia-button">Asia</a>
+        <a href="europe.html" class="toggle europe-button">Europe</a>
+        <a href="caribbean.html" class="toggle">Caribbean</a>
+        <a href="southamerica.html" class="toggle">South America</a>
+        <a href="africa.html" class="toggle">Africa</a>
+        <a href="pacific.html" class="toggle">Pacific</a>
+        <a href="surprise.html" class="toggle surprise-button">Surprise Me!</a>
+    </div>
+</header>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get the current date
+        const today = new Date();
+        const dd = String(today.getDate()).padStart(2, '0');
+        const mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        const yyyy = today.getFullYear();
+
+        // Format the date in the desired format: e.g., "October 28, 2023"
+        const formattedDate = `${mm}/${dd}/${yyyy}`;
+
+        // Populate the date in the HTML
+        document.getElementById('currentDate').textContent = formattedDate;
+    });
+</script>
+</body>
+</html>
