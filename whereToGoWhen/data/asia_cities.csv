@@ -1,0 +1,832 @@
+Region,Country,City
+Caucasus,Abkhazia,Sukhumi
+Caucasus,Abkhazia,Gudauta
+Caucasus,Abkhazia,Gagra
+Caucasus,Abkhazia,Pitsunda
+Caucasus,Abkhazia,New Athos
+Caucasus,Abkhazia,Ochamchire
+Caucasus,Abkhazia,Auadhare
+Caucasus,Abkhazia,Lake Ritsa
+Caucasus,Armenia,Yerevan
+Caucasus,Armenia,Alaverdi
+Caucasus,Armenia,Dilijan
+Caucasus,Armenia,Echmiadzin
+Caucasus,Armenia,Goris
+Caucasus,Armenia,Gyumri
+Caucasus,Armenia,Jermuk
+Caucasus,Armenia,Tsaghkadzor
+Caucasus,Armenia,Vanadzor
+Caucasus,Azerbaijan,Baku
+Caucasus,Azerbaijan,Ganja
+Caucasus,Azerbaijan,Lankaran
+Caucasus,Azerbaijan,Nakhchivan
+Caucasus,Azerbaijan,Qabala
+Caucasus,Azerbaijan,Sheki
+Caucasus,Azerbaijan,Shemakha
+Caucasus,Azerbaijan,Sumqayit
+Caucasus,Azerbaijan,Khinalug
+Caucasus,Azerbaijan,Nabran
+Caucasus,Azerbaijan,Quba
+Caucasus,Azerbaijan,Lahich
+Caucasus,Azerbaijan,Qax
+Caucasus,Azerbaijan,Naftalan
+Caucasus,South Ossetia,Tskhinvali
+Caucasus,South Ossetia,Leningor
+Caucasus,South Ossetia,Java
+Caucasus,Russia,Moscow
+Caucasus,Russia,Irkutsk
+Caucasus,Russia,Kazan
+Caucasus,Russia,Nizhny Novgorod
+Caucasus,Russia,Saint Petersburg
+Caucasus,Russia,Sochi
+Caucasus,Russia,Vladivostok
+Caucasus,Russia,Volgograd
+Caucasus,Russia,Yekaterinburg
+Caucasus,Russia,Border of Europe and Asia
+Caucasus,Russia,Golden Ring
+Caucasus,Russia,Kamchatka
+Caucasus,Russia,Kizhi
+Caucasus,Russia,Komi Virgin Forests
+Caucasus,Russia,Lake Baikal
+Caucasus,Russia,Mamaev Kurgan
+Caucasus,Russia,Solovetsky Islands
+Central Asia,Afghanistan,Kabul
+Central Asia,Afghanistan,Balkh
+Central Asia,Afghanistan,Bamiyan
+Central Asia,Afghanistan,Ghazni
+Central Asia,Afghanistan,Herat
+Central Asia,Afghanistan,Jalalabad
+Central Asia,Afghanistan,Kandahar
+Central Asia,Afghanistan,Kunduz
+Central Asia,Afghanistan,Mazar-e Sharif
+Central Asia,Afghanistan,Band-e Amir National Park
+Central Asia,Afghanistan,Khyber Pass
+Central Asia,Afghanistan,Minaret of Jam
+Central Asia,Afghanistan,Nuristan
+Central Asia,Afghanistan,Panjshir Valley
+Central Asia,Afghanistan,Salang Pass
+Central Asia,Afghanistan,Shamali Plain
+Central Asia,Afghanistan,Wakhan National Park
+Central Asia,Kazakhstan,Astana
+Central Asia,Kazakhstan,Almaty
+Central Asia,Kazakhstan,Aktobe
+Central Asia,Kazakhstan,Atyrau
+Central Asia,Kazakhstan,Pavlodar
+Central Asia,Kazakhstan,Semey
+Central Asia,Kazakhstan,Shymkent
+Central Asia,Kazakhstan,Turkestan
+Central Asia,Kazakhstan,Ust-Kamenogorsk
+Central Asia,Kazakhstan,Aksu-Zhabagly
+Central Asia,Kazakhstan,Altai Mountains
+Central Asia,Kazakhstan,Baikonur
+Central Asia,Kazakhstan,Karkaraly National Park
+Central Asia,Kazakhstan,Talgar
+Central Asia,Kazakhstan,Zailiysky Alatau
+Central Asia,Kyrgyzstan,Bishkek
+Central Asia,Kyrgyzstan,Arslanbob
+Central Asia,Kyrgyzstan,Balykchy
+Central Asia,Kyrgyzstan,Jalal-Abad
+Central Asia,Kyrgyzstan,Karakol
+Central Asia,Kyrgyzstan,Kochkor
+Central Asia,Kyrgyzstan,Naryn
+Central Asia,Kyrgyzstan,Osh
+Central Asia,Kyrgyzstan,Talas
+Central Asia,Kyrgyzstan,Issyk Kul
+Central Asia,Kyrgyzstan,Song Kul
+Central Asia,Kyrgyzstan,Kol'ukok
+Central Asia,Kyrgyzstan,Tash Rabat
+Central Asia,Kyrgyzstan,Sary-Chelek Nature Reserve
+Central Asia,Kyrgyzstan,Burana Tower
+Central Asia,Kyrgyzstan,Ala Archa National Park
+Central Asia,Kyrgyzstan,Suusamyr Valley
+Central Asia,Tajikistan,Dushanbe
+Central Asia,Tajikistan,Bokhtar
+Central Asia,Tajikistan,Isfara
+Central Asia,Tajikistan,Istaravshan
+Central Asia,Tajikistan,Khorugh
+Central Asia,Tajikistan,Khujand
+Central Asia,Tajikistan,Konibodom
+Central Asia,Tajikistan,Kulob
+Central Asia,Tajikistan,Panjakent
+Central Asia,Tajikistan,Pamir
+Central Asia,Tajikistan,Zeravshan Valley
+Central Asia,Turkmenistan,Ashgabat
+Central Asia,Turkmenistan,Balkanabat
+Central Asia,Turkmenistan,Daşoguz
+Central Asia,Turkmenistan,Mary
+Central Asia,Turkmenistan,Türkmenabat
+Central Asia,Turkmenistan,Turkmenbashi
+Central Asia,Turkmenistan,Darvaza
+Central Asia,Turkmenistan,Altin Depe
+Central Asia,Turkmenistan,Anau
+Central Asia,Turkmenistan,Gonur Depe
+Central Asia,Turkmenistan,Merv
+Central Asia,Turkmenistan,Nissa
+Central Asia,Turkmenistan,Geok-tepe
+Central Asia,Turkmenistan,Konye Urgench
+Central Asia,Turkmenistan,Köýtendag Nature Reserve
+Central Asia,Uzbekistan,Tashkent
+Central Asia,Uzbekistan,Andijan
+Central Asia,Uzbekistan,Bukhara
+Central Asia,Uzbekistan,Khiva
+Central Asia,Uzbekistan,Namangan
+Central Asia,Uzbekistan,Nukus
+Central Asia,Uzbekistan,Samarkand
+Central Asia,Uzbekistan,Shakhrisabz
+Central Asia,Uzbekistan,Termez
+Central Asia,Uzbekistan,Aral Sea
+East Asia,China,Beijing
+East Asia,China,Chengdu
+East Asia,China,Guangzhou
+East Asia,China,Hangzhou
+East Asia,China,Harbin
+East Asia,China,Kashgar
+East Asia,China,Nanjing
+East Asia,China,Shanghai
+East Asia,China,Xi'an
+East Asia,China,Great Wall of China
+East Asia,China,Hainan
+East Asia,China,Jiuzhaigou Nature Reserve
+East Asia,China,Leshan
+East Asia,China,Mount Everest
+East Asia,China,Mount Tai
+East Asia,China,Tibet
+East Asia,China,Yungang Grottoes
+East Asia,China,Guilin
+East Asia,Hong Kong,
+East Asia,Hong Kong,
+East Asia,Hong Kong,
+East Asia,Hong Kong,
+East Asia,Hong Kong,
+East Asia,Hong Kong,
+East Asia,Hong Kong,
+East Asia,Hong Kong,
+East Asia,Hong Kong,
+East Asia,Hong Kong,
+East Asia,Japan,Tokyo
+East Asia,Japan,Hiroshima
+East Asia,Japan,Kanazawa
+East Asia,Japan,Kyoto
+East Asia,Japan,Nagasaki
+East Asia,Japan,Nara
+East Asia,Japan,Osaka
+East Asia,Japan,Sapporo
+East Asia,Japan,Sendai
+East Asia,Japan,Miyajima
+East Asia,Japan,Mount Fuji
+East Asia,Japan,Mount Koya
+East Asia,Japan,Naoshima
+East Asia,Japan,Sado Island
+East Asia,Japan,Shirakawa-go
+East Asia,Japan,Shiretoko National Park
+East Asia,Japan,Yaeyama Islands
+East Asia,Japan,Yakushima
+East Asia,Macau,
+East Asia,Macau,
+East Asia,Mongolia,Ulaanbaatar
+East Asia,Mongolia,Choibalsan
+East Asia,Mongolia,Erdenet
+East Asia,Mongolia,Hovd
+East Asia,Mongolia,Karakorum
+East Asia,Mongolia,Mörön
+East Asia,Mongolia,Ölgii
+East Asia,Mongolia,Chinggis
+East Asia,Mongolia,Tsetserleg
+East Asia,Mongolia,Khogno Khan National Park
+East Asia,Mongolia,Altai Tavan Bogd National Park
+East Asia,Mongolia,Uvs province
+East Asia,Mongolia,Gun-Galuut Nature Reserve
+East Asia,Mongolia,Gorkhi-Terelj National Park
+East Asia,Mongolia,Khustain Nuruu National Park
+East Asia,Mongolia,Gobi Gurvan Saikhan National Park
+East Asia,North Korea,Pyongyang
+East Asia,North Korea,Chongjin
+East Asia,North Korea,Hamhung
+East Asia,North Korea,Kaechon
+East Asia,North Korea,Kaesong
+East Asia,North Korea,Nampho
+East Asia,North Korea,Rason
+East Asia,North Korea,Sinuiju
+East Asia,North Korea,Wonsan
+East Asia,North Korea,Kumgangsan
+East Asia,North Korea,Baekdu Mountains
+East Asia,North Korea,Panmunjom
+East Asia,South Korea,Seoul
+East Asia,South Korea,Busan
+East Asia,South Korea,Chuncheon
+East Asia,South Korea,Daegu
+East Asia,South Korea,Daejeon
+East Asia,South Korea,Gwangju
+East Asia,South Korea,Gyeongju
+East Asia,South Korea,Incheon
+East Asia,South Korea,Jeonju
+East Asia,South Korea,Seoraksan National Park
+East Asia,South Korea,Andong
+East Asia,South Korea,Ansan
+East Asia,South Korea,Panmunjeom
+East Asia,South Korea,Yeosu
+East Asia,South Korea,Jindo
+East Asia,South Korea,Ulleungdo
+East Asia,South Korea,Pyeongchang
+East Asia,Taiwan,Taipei
+East Asia,Taiwan,Miaoli
+East Asia,Taiwan,Hualien
+East Asia,Taiwan,Jiufen
+East Asia,Taiwan,Kaohsiung
+East Asia,Taiwan,Taichung
+East Asia,Taiwan,Puli
+East Asia,Taiwan,Tainan
+East Asia,Taiwan,Taitung
+East Asia,Taiwan,Alishan
+East Asia,Taiwan,Kenting National Park
+East Asia,Taiwan,Shei-pa National Park
+East Asia,Taiwan,Sun Moon Lake
+East Asia,Taiwan,Taroko Gorge
+East Asia,Taiwan,Yangmingshan National Park
+East Asia,Taiwan,Yushan
+Middle East,Bahrain,Manama
+Middle East,Bahrain,Hamad Town
+Middle East,Bahrain,Isa Town
+Middle East,Bahrain,Muharraq
+Middle East,Bahrain,Riffa
+Middle East,Bahrain,Sitra
+Middle East,Bahrain,Southern Governorate
+Middle East,Bahrain,Hawar Islands
+Middle East,Egypt,Cairo
+Middle East,Egypt,Alexandria
+Middle East,Egypt,Aswan
+Middle East,Egypt,Hurghada
+Middle East,Egypt,Luxor
+Middle East,Egypt,Port Said
+Middle East,Egypt,Sharm el Sheikh
+Middle East,Egypt,Quseir
+Middle East,Egypt,Abu Simbel
+Middle East,Egypt,Dahab
+Middle East,Egypt,Karnak
+Middle East,Egypt,Memphis
+Middle East,Egypt,Memphis
+Middle East,Egypt,Siwa
+Middle East,Egypt,St. Katherine
+Middle East,Egypt,Taba Heights
+Middle East,Egypt,Valley of the Kings
+Middle East,Iran,Tehran
+Middle East,Iran,Hamedan
+Middle East,Iran,Isfahan
+Middle East,Iran,Kerman
+Middle East,Iran,Mashad
+Middle East,Iran,Qom
+Middle East,Iran,Shiraz
+Middle East,Iran,Tabriz
+Middle East,Iran,Yazd
+Middle East,Iran,Alamut
+Middle East,Iran,Dizin
+Middle East,Iran,Kish Island
+Middle East,Iran,Qeshm Island
+Middle East,Iran,Pasargad
+Middle East,Iran,Persepolis
+Middle East,Iran,Susa
+Middle East,Iraq,Baghdad
+Middle East,Iraq,Ar Rutba
+Middle East,Iraq,Basra
+Middle East,Iraq,Dahuk
+Middle East,Iraq,Erbil
+Middle East,Iraq,Fallujah
+Middle East,Iraq,Karbala
+Middle East,Iraq,Kirkuk
+Middle East,Iraq,Mosul
+Middle East,Iraq,Ashur
+Middle East,Iraq,Babylon
+Middle East,Iraq,Ctesiphon
+Middle East,Iraq,Hatra
+Middle East,Iraq,Lalish
+Middle East,Iraq,Nineveh
+Middle East,Iraq,Ur
+Middle East,Iraq,Uruk
+Middle East,Israel,Jerusalem
+Middle East,Israel,Tel Aviv
+Middle East,Israel,Akko
+Middle East,Israel,Be'er Sheva
+Middle East,Israel,Eilat
+Middle East,Israel,Haifa
+Middle East,Israel,Nazareth
+Middle East,Israel,Safed
+Middle East,Israel,Tiberias
+Middle East,Israel,Old City of Jerusalem
+Middle East,Israel,Old City of Acre
+Middle East,Israel,Sea of Galilee region
+Middle East,Israel,Dead Sea
+Middle East,Israel,Jezreel Valley
+Middle East,Israel,Judaean Desert
+Middle East,Israel,Bahá'í Gardens and World Center
+Middle East,Israel,Masada
+Middle East,Israel,Ein Avdat
+Middle East,Israel,Caesarea National Park
+Middle East,Israel,Beth Shean Valley
+Middle East,Israel,Belvoir Fortress
+Middle East,Israel,Nimrod Fortress
+Middle East,Israel,Rosh Haniqra
+Middle East,Israel,Ramon Crater
+Middle East,Israel,Mount Hermon
+Middle East,Israel,Carmel Range
+Middle East,Jordan,Amman
+Middle East,Jordan,Aqaba
+Middle East,Jordan,Irbid
+Middle East,Jordan,Jerash
+Middle East,Jordan,Kerak
+Middle East,Jordan,Madaba
+Middle East,Jordan,Salt
+Middle East,Jordan,Ajlun
+Middle East,Jordan,Azraq Wetland Reserves
+Middle East,Jordan,Dana Nature Reserve
+Middle East,Jordan,Dead Sea
+Middle East,Jordan,Petra
+Middle East,Jordan,Umm Qais
+Middle East,Jordan,Wadi Rum
+Middle East,Kuwait,Kuwait City
+Middle East,Kuwait,Jahra
+Middle East,Kuwait,Ahmadi
+Middle East,Kuwait,Hawalli
+Middle East,Kuwait,Farwaniya
+Middle East,Kuwait,Mubarak al-Kabeer
+Middle East,Kuwait,Shuwaikh
+Middle East,Kuwait,Farwaniyah
+Middle East,Kuwait,Salmiya
+Middle East,Kuwait,Rai
+Middle East,Lebanon,Beirut
+Middle East,Lebanon,Tripoli
+Middle East,Lebanon,Sidon
+Middle East,Lebanon,Tyre
+Middle East,Lebanon,Byblos
+Middle East,Lebanon,Jounieh
+Middle East,Lebanon,Jezzine
+Middle East,Lebanon,Zahle
+Middle East,Lebanon,Jeita
+Middle East,Lebanon,Deir el Qamar
+Middle East,Lebanon,Baalbek
+Middle East,Oman,Muscat
+Middle East,Oman,Bahla
+Middle East,Oman,Buraimi
+Middle East,Oman,Ibra
+Middle East,Oman,Nizwa
+Middle East,Oman,Salalah
+Middle East,Oman,Sohar
+Middle East,Oman,Sur
+Middle East,Oman,Hajar Mountains
+Middle East,Oman,Madha
+Middle East,Oman,Masirah Island
+Middle East,Oman,Musandam Peninsula
+Middle East,Oman,Wahiba Sands
+Middle East,Oman,Al Ain
+Middle East,Palestinian Territories,Bethlehem
+Middle East,Palestinian Territories,Hebron
+Middle East,Palestinian Territories,Jenin
+Middle East,Palestinian Territories,Jericho
+Middle East,Palestinian Territories,Nablus
+Middle East,Palestinian Territories,Ramallah
+Middle East,Palestinian Territories,Dead Sea
+Middle East,Palestinian Territories,Judaean Desert
+Middle East,Qatar,Doha
+Middle East,Qatar,Al Khor
+Middle East,Qatar,Al Shamal
+Middle East,Qatar,Al Shahaniyah
+Middle East,Qatar,Al Wakrah
+Middle East,Qatar,Dukhan
+Middle East,Qatar,Mesaieed
+Middle East,Qatar,Umm Salal Mohammed
+Middle East,Saudi Arabia,Riyadh
+Middle East,Saudi Arabia,Abha
+Middle East,Saudi Arabia,Dhahran
+Middle East,Saudi Arabia,Jeddah
+Middle East,Saudi Arabia,Jubail
+Middle East,Saudi Arabia,Mecca
+Middle East,Saudi Arabia,Medina
+Middle East,Saudi Arabia,Najran
+Middle East,Saudi Arabia,Ta'if
+Middle East,Saudi Arabia,Empty Quarter
+Middle East,Saudi Arabia,Hajj
+Middle East,Saudi Arabia,Madain Saleh
+Middle East,Saudi Arabia,
+Middle East,Saudi Arabia,
+Middle East,Saudi Arabia,
+Middle East,Saudi Arabia,
+Middle East,Syria,Damascus
+Middle East,Syria,Aleppo
+Middle East,Syria,Deir-az-Zur
+Middle East,Syria,Hama
+Middle East,Syria,Homs
+Middle East,Syria,Latakia
+Middle East,Syria,Tartous
+Middle East,Syria,Raqqa
+Middle East,Syria,Apamea
+Middle East,Syria,Bosra
+Middle East,Syria,Dead Cities
+Middle East,Syria,Krak des Chevaliers
+Middle East,Syria,Palmyra
+Middle East,Turkey,Ankara
+Middle East,Turkey,Antalya
+Middle East,Turkey,Bodrum
+Middle East,Turkey,Edirne
+Middle East,Turkey,Istanbul
+Middle East,Turkey,Izmir
+Middle East,Turkey,Konya
+Middle East,Turkey,Trabzon
+Middle East,Turkey,Urfa
+Middle East,Turkey,Ani
+Middle East,Turkey,Cappadocia
+Middle East,Turkey,Ephesus
+Middle East,Turkey,Gallipoli
+Middle East,Turkey,Mount Nemrut
+Middle East,Turkey,Ölüdeniz
+Middle East,Turkey,Pamukkale
+Middle East,Turkey,Sümela
+Middle East,Turkey,Uludağ
+Middle East,United Arab Emirates,Abu Dhabi
+Middle East,United Arab Emirates,Dubai
+Middle East,United Arab Emirates,Sharjah
+Middle East,United Arab Emirates,Ajman
+Middle East,United Arab Emirates,Umm al Quwain
+Middle East,United Arab Emirates,Ra's al Khaymah
+Middle East,United Arab Emirates,Fujairah
+Middle East,United Arab Emirates,Al Ain
+Middle East,United Arab Emirates,Hatta
+Middle East,United Arab Emirates,Khor Fakkan
+Middle East,United Arab Emirates,Liwa Oasis
+Middle East,United Arab Emirates,Ruwais
+Middle East,Yemen,Sana'a
+Middle East,Yemen,Aden
+Middle East,Yemen,Al Hudayda
+Middle East,Yemen,Al Mukalla
+Middle East,Yemen,Dhamar
+Middle East,Yemen,Ibb
+Middle East,Yemen,Kawkaban
+Middle East,Yemen,Mokha
+Middle East,Yemen,Shibam
+Middle East,Yemen,Ta'izz
+Middle East,Yemen,Haraz Mountains
+Russia,Central Russia,Moscow
+Russia,Central Russia,Ryazan
+Russia,Central Russia,Sergiev Posad
+Russia,Central Russia,Smolensk
+Russia,Central Russia,Suzdal
+Russia,Central Russia,Tula
+Russia,Central Russia,Tver
+Russia,Central Russia,Vladimir
+Russia,Central Russia,Yaroslavl
+Russia,Central Russia,Bogolyubovo
+Russia,Central Russia,Kulikovo Pole
+Russia,Central Russia,Lake Seliger
+Russia,Central Russia,Meschera
+Russia,Central Russia,Optina Pustyn
+Russia,Central Russia,Plescheevo Ozero National Park
+Russia,Central Russia,Prioksko-Terrasny Nature Reserve
+Russia,Central Russia,Yasnaya Polyana
+Russia,Chernozemye,Voronezh
+Russia,Chernozemye,Lipetsk
+Russia,Chernozemye,Oryol
+Russia,Chernozemye,Tambov
+Russia,Chernozemye,Belgorod
+Russia,Chernozemye,Bryansk
+Russia,Chernozemye,Kursk
+Russia,Chernozemye,Belye Berega
+Russia,Chernozemye,Divnogorye
+Russia,Chernozemye,Mikhailovsky iron open cut
+Russia,Chernozemye,Orlovskoye Polesye National Park
+Russia,Chernozemye,Prokhorovka
+Russia,Chernozemye,Spasskoye-Lutovinovo
+Russia,Chernozemye,Tsentralno-Chernozemny Biosphere Reserve
+Russia,Chernozemye,Voronezh Nature Reserve
+Russia,Northwestern Russia,Saint Petersburg
+Russia,Northwestern Russia,Arkhangelsk
+Russia,Northwestern Russia,Murmansk
+Russia,Northwestern Russia,Novgorod
+Russia,Northwestern Russia,Petrozavodsk
+Russia,Northwestern Russia,Pskov
+Russia,Northwestern Russia,Veliky Ustyug
+Russia,Northwestern Russia,Vologda
+Russia,Northwestern Russia,Vyborg
+Russia,Northwestern Russia,Kirillo-Belozersky Monastery
+Russia,Northwestern Russia,Kizhi
+Russia,Northwestern Russia,Kizhi
+Russia,Northwestern Russia,Lake Ladoga
+Russia,Northwestern Russia,Pushkinskie Gory
+Russia,Northwestern Russia,Solovki
+Russia,Northwestern Russia,Saint Petersburg
+Russia,Northwestern Russia,Saint Petersburg
+Russia,Northwestern Russia,Saint Petersburg
+Russia,Northwestern Russia,Valaam
+Russia,Northwestern Russia,Valday National Park
+Russia,Northwestern Russia,Virgin Komi Forests
+Russia,Kaliningrad Oblast,Kaliningrad
+Russia,Kaliningrad Oblast,Pionerskiy
+Russia,Kaliningrad Oblast,Primorsk
+Russia,Kaliningrad Oblast,Sovetsk
+Russia,Kaliningrad Oblast,Svetlogorsk
+Russia,Kaliningrad Oblast,Zelenogradsk
+Russia,Kaliningrad Oblast,Zheleznodorozhniy
+Russia,Kaliningrad Oblast,Chernyakhovsk
+Russia,Kaliningrad Oblast,Gusev
+Russia,Kaliningrad Oblast,Baltiysk
+Russia,Kaliningrad Oblast,Curonian Spit
+Russia,Kaliningrad Oblast,Lake Vištytis
+Russia,Southern Russia,Elista
+Russia,Southern Russia,Derbent
+Russia,Southern Russia,Krasnodar
+Russia,Southern Russia,Makhachkala
+Russia,Southern Russia,Mineralnye Vody
+Russia,Southern Russia,Rostov-on-Don
+Russia,Southern Russia,Sochi
+Russia,Southern Russia,Stavropol
+Russia,Southern Russia,Vladikavkaz
+Russia,Southern Russia,Dombai
+Russia,Volga Region,Nizhny Novgorod
+Russia,Volga Region,Izhevsk
+Russia,Volga Region,Kazan
+Russia,Volga Region,Kirov
+Russia,Volga Region,Penza
+Russia,Volga Region,Samara
+Russia,Volga Region,Saratov
+Russia,Volga Region,Volgograd
+Russia,Volga Region,Ulyanovsk
+Russia,Volga Region,Astrakhan
+Russia,Volga Region,Samarskaya Luka National Park
+Russia,Siberia,Novosibirsk
+Russia,Siberia,Barnaul
+Russia,Siberia,Irkutsk
+Russia,Siberia,Krasnoyarsk
+Russia,Siberia,Kemerovo
+Russia,Siberia,Novokuznetsk
+Russia,Siberia,Omsk
+Russia,Siberia,Tomsk
+Russia,Siberia,Ulan Ude
+Russia,Siberia,Lake Baikal
+Russia,Russian Far East,Khabarovsk
+Russia,Russian Far East,Birobidzhan
+Russia,Russian Far East,Blagoveshchensk
+Russia,Russian Far East,Komsomolsk-on-Amur
+Russia,Russian Far East,Magadan
+Russia,Russian Far East,Petropavlovsk-Kamchatsky
+Russia,Russian Far East,Vladivostok
+Russia,Russian Far East,Yakutsk
+Russia,Russian Far East,Yuzhno-Sakhalinsk
+Russia,Russian Far East,Atlasov Island
+Russia,Russian Far East,The National Parks of Kamchatka
+Russia,Russian Far East,Kolyma
+Russia,Russian Far East,Pole of Cold
+Russia,Russian Far East,The Sikhote-Alin mountain range
+Russia,Russian Far East,Wrangel Island
+South Asia,Bangladesh,Dhaka
+South Asia,Bangladesh,Barisal
+South Asia,Bangladesh,Chittagong
+South Asia,Bangladesh,Jessore
+South Asia,Bangladesh,Khulna
+South Asia,Bangladesh,Mymensingh
+South Asia,Bangladesh,Rajshahi
+South Asia,Bangladesh,Rangpur
+South Asia,Bangladesh,Sylhet
+South Asia,Bangladesh,Cox's Bazar
+South Asia,Bangladesh,Bagerhat
+South Asia,Bangladesh,Padna Meghna River Estuarine
+South Asia,Bangladesh,Somapura Mahavihara
+South Asia,Bangladesh,Saint Martins Island
+South Asia,Bangladesh,Sundarbans
+South Asia,Bhutan,Thimphu
+South Asia,Bhutan,Jakar
+South Asia,Bhutan,Mongar
+South Asia,Bhutan,Paro
+South Asia,Bhutan,Punakha
+South Asia,Bhutan,Phuentsholing
+South Asia,Bhutan,Samdrup Jongkhar
+South Asia,Bhutan,Trashigang
+South Asia,Bhutan,Trongsa
+South Asia,Bhutan,Jigme Dorji National Park
+South Asia,Bhutan,Jigme Singye Wangchuck National Park
+South Asia,Bhutan,Royal Manas National Park
+South Asia,Bhutan,Phrumsengla National Park
+South Asia,Bhutan,Bumdeling Wildlife Sanctuary
+South Asia,Bhutan,Sakteng Wildlife Sanctuary
+South Asia,Bhutan,Jigme Khesar Strict Nature Reserve
+South Asia,India,Delhi
+South Asia,India,Bangalore
+South Asia,India,Chennai
+South Asia,India,Hyderabad
+South Asia,India,Jaipur
+South Asia,India,Kolkata
+South Asia,India,Mumbai
+South Asia,India,Shimla
+South Asia,India,Varanasi
+South Asia,India,Bodh Gaya
+South Asia,India,Ellora
+South Asia,India,Ellora
+South Asia,India,Golden Temple
+South Asia,India,Hampi
+South Asia,India,Khajuraho
+South Asia,India,Konark
+South Asia,India,Meenakshi Temple
+South Asia,India,Taj Mahal
+South Asia,Maldives,Malé
+South Asia,Maldives,Addu
+South Asia,Maldives,Fuvahmulah
+South Asia,Maldives,Kulhudhuffushi
+South Asia,Maldives,Kuredu 
+South Asia,Maldives,Mathiveri
+South Asia,Maldives,Rasdhoo
+South Asia,Maldives,Thoddoo
+South Asia,Maldives,Ukulhas
+South Asia,Nepal,Kathmandu
+South Asia,Nepal,Bhaktapur
+South Asia,Nepal,Biratnagar
+South Asia,Nepal,Janakpur
+South Asia,Nepal,Namche Bazaar
+South Asia,Nepal,Nepalgunj
+South Asia,Nepal,Patan
+South Asia,Nepal,Pokhara
+South Asia,Nepal,Annapurna
+South Asia,Nepal,Chitwan National Park
+South Asia,Nepal,Daman
+South Asia,Nepal,Haleshi
+South Asia,Nepal,Lumbini
+South Asia,Nepal,Mount Everest
+South Asia,Nepal,Nagarkot
+South Asia,Nepal,Parping
+South Asia,Nepal,Tangting
+South Asia,Pakistan,Islamabad
+South Asia,Pakistan,Faisalabad
+South Asia,Pakistan,Karachi
+South Asia,Pakistan,Lahore
+South Asia,Pakistan,Multan
+South Asia,Pakistan,Muzaffarabad
+South Asia,Pakistan,Peshawar
+South Asia,Pakistan,Quetta
+South Asia,Pakistan,Sialkot
+South Asia,Pakistan,Karakoram Highway
+South Asia,Pakistan,Murree
+South Asia,Pakistan,Khewra Salt Mine
+South Asia,Pakistan,Mohenjo-daro
+South Asia,Pakistan,Taxila
+South Asia,Pakistan,Changa Manga
+South Asia,Pakistan,Nankana Sahib
+South Asia,Sri Lanka,Sri Jayawardenapura Kotte
+South Asia,Sri Lanka,Anuradhapura
+South Asia,Sri Lanka,Batticaloa
+South Asia,Sri Lanka,Colombo
+South Asia,Sri Lanka,Galle
+South Asia,Sri Lanka,Jaffna
+South Asia,Sri Lanka,Kandy
+South Asia,Sri Lanka,Negombo
+South Asia,Sri Lanka,Nuwara Eliya
+South Asia,Sri Lanka,Arugam Bay
+South Asia,Sri Lanka,Dambulla
+South Asia,Sri Lanka,Horton Plains
+South Asia,Sri Lanka,Mirissa
+South Asia,Sri Lanka,Kumana National Park
+South Asia,Sri Lanka,Unawatuna
+South Asia,Sri Lanka,Yala National Park
+Southeast Asia,Brunei,Bandar Seri Begawan
+Southeast Asia,Brunei,Bangar
+Southeast Asia,Brunei,Kuala Belait
+Southeast Asia,Brunei,Muara
+Southeast Asia,Brunei,Seria
+Southeast Asia,Brunei,Tutong
+Southeast Asia,Brunei,Ulu Temburong National Park
+Southeast Asia,Cambodia,Phnom Penh
+Southeast Asia,Cambodia,Banlung
+Southeast Asia,Cambodia,Battambang
+Southeast Asia,Cambodia,Kampot
+Southeast Asia,Cambodia,Koh Kong
+Southeast Asia,Cambodia,Kampong Thom
+Southeast Asia,Cambodia,Kratie
+Southeast Asia,Cambodia,Siem Reap
+Southeast Asia,Cambodia,Sihanoukville
+Southeast Asia,Cambodia,Angkor Archaeological Park
+Southeast Asia,Cambodia,Bokor National Park
+Southeast Asia,Cambodia,Kampong Cham
+Southeast Asia,Cambodia,Kep
+Southeast Asia,Cambodia,Koh Ker
+Southeast Asia,Cambodia,Poipet
+Southeast Asia,Cambodia,Preah Vihear
+Southeast Asia,Cambodia,Tonle Sap Lake
+Southeast Asia,East Timor,Dili
+Southeast Asia,East Timor,Baucau
+Southeast Asia,East Timor,Ermera
+Southeast Asia,East Timor,Gleno
+Southeast Asia,East Timor,Liquiçá
+Southeast Asia,East Timor,Lospalos
+Southeast Asia,East Timor,Maliana
+Southeast Asia,East Timor,Suai
+Southeast Asia,Indonesia,Jakarta
+Southeast Asia,Indonesia,Bandung
+Southeast Asia,Indonesia,Banjarmasin
+Southeast Asia,Indonesia,Jayapura
+Southeast Asia,Indonesia,Kuta
+Southeast Asia,Indonesia,Makassar
+Southeast Asia,Indonesia,Medan
+Southeast Asia,Indonesia,Palembang
+Southeast Asia,Indonesia,Yogyakarta
+Southeast Asia,Indonesia,Baliem Valley
+Southeast Asia,Indonesia,Borobudur
+Southeast Asia,Indonesia,Bromo-Tengger-Semeru National Park
+Southeast Asia,Indonesia,Bunaken
+Southeast Asia,Indonesia,Kerinci Seblat National Park
+Southeast Asia,Indonesia,Komodo National Park
+Southeast Asia,Indonesia,Lake Toba
+Southeast Asia,Indonesia,Lombok
+Southeast Asia,Indonesia,Tana Toraja
+Southeast Asia,Laos,Vientiane
+Southeast Asia,Laos,Huay Xai
+Southeast Asia,Laos,Luang Namtha
+Southeast Asia,Laos,Luang Prabang
+Southeast Asia,Laos,Muang Xay
+Southeast Asia,Laos,Pakbeng
+Southeast Asia,Laos,Pakse
+Southeast Asia,Laos,Savannakhet
+Southeast Asia,Laos,Tha Khaek
+Southeast Asia,Laos,Ban Nalan Trail
+Southeast Asia,Laos,Bolaven Plateau
+Southeast Asia,Laos,Champasak
+Southeast Asia,Laos,Nong Khiaw
+Southeast Asia,Laos,Plain of Jars
+Southeast Asia,Laos,Si Phan Don
+Southeast Asia,Laos,Vang Vieng
+Southeast Asia,Laos,Vieng Xai
+Southeast Asia,Malaysia,Kuala Lumpur
+Southeast Asia,Malaysia,George Town
+Southeast Asia,Malaysia,Malacca
+Southeast Asia,Malaysia,Ipoh
+Southeast Asia,Malaysia,Johor Bahru
+Southeast Asia,Malaysia,Kuantan
+Southeast Asia,Malaysia,Kota Kinabalu
+Southeast Asia,Malaysia,Kuching
+Southeast Asia,Malaysia,Miri
+Southeast Asia,Malaysia,Cameron Highlands
+Southeast Asia,Malaysia,Perhentian Islands
+Southeast Asia,Malaysia,Taman Negara
+Southeast Asia,Malaysia,Kinabalu National Park
+Southeast Asia,Malaysia,Langkawi
+Southeast Asia,Malaysia,Sipadan
+Southeast Asia,Malaysia,Redang
+Southeast Asia,Malaysia,Tioman
+Southeast Asia,Malaysia,Fraser's Hill
+Southeast Asia,Myanmar,Naypyidaw
+Southeast Asia,Myanmar,Bago
+Southeast Asia,Myanmar,Kawthaung
+Southeast Asia,Myanmar,Mandalay
+Southeast Asia,Myanmar,Mawlamyine
+Southeast Asia,Myanmar,Pyin U Lwin
+Southeast Asia,Myanmar,Taunggyi
+Southeast Asia,Myanmar,Twante
+Southeast Asia,Myanmar,Yangon
+Southeast Asia,Myanmar,Bagan
+Southeast Asia,Myanmar,Inle Lake
+Southeast Asia,Myanmar,Kengtung
+Southeast Asia,Myanmar,Kyaiktiyo
+Southeast Asia,Myanmar,Mount Popa
+Southeast Asia,Myanmar,Mrauk U
+Southeast Asia,Myanmar,Ngapali
+Southeast Asia,Myanmar,Ngwe Saung
+Southeast Asia,Myanmar,Pyay
+Southeast Asia,Myanmar,Pathein
+Southeast Asia,Philippines,Metro Manila
+Southeast Asia,Philippines,Bacolod
+Southeast Asia,Philippines,Baguio
+Southeast Asia,Philippines,Cagayan de Oro
+Southeast Asia,Philippines,Cebu City
+Southeast Asia,Philippines,Davao
+Southeast Asia,Philippines,Tagbilaran
+Southeast Asia,Philippines,Vigan
+Southeast Asia,Philippines,Zamboanga
+Southeast Asia,Philippines,Banaue
+Southeast Asia,Philippines,Boracay
+Southeast Asia,Philippines,Donsol
+Southeast Asia,Philippines,El Nido
+Southeast Asia,Philippines,Malapascua
+Southeast Asia,Philippines,Mayon Volcano
+Southeast Asia,Philippines,Panglao Island
+Southeast Asia,Philippines,Puerto Galera
+Southeast Asia,Philippines,Taal Volcano
+Southeast Asia,Thailand,Bangkok
+Southeast Asia,Thailand,Ayutthaya
+Southeast Asia,Thailand,Chiang Mai
+Southeast Asia,Thailand,Chiang Rai
+Southeast Asia,Thailand,Hat Yai
+Southeast Asia,Thailand,Kanchanaburi
+Southeast Asia,Thailand,Nakhon Ratchasima
+Southeast Asia,Thailand,Pattaya
+Southeast Asia,Thailand,Sukhothai
+Southeast Asia,Thailand,Khao Sok National Park
+Southeast Asia,Thailand,Khao Yai National Park
+Southeast Asia,Thailand,Ko Chang
+Southeast Asia,Thailand,Ko Lipe
+Southeast Asia,Thailand,Ko Pha Ngan
+Southeast Asia,Thailand,Ko Samet
+Southeast Asia,Thailand,Ko Samui
+Southeast Asia,Thailand,Krabi Province
+Southeast Asia,Thailand,Phuket
+Southeast Asia,Vietnam,Hanoi
+Southeast Asia,Vietnam,Ho Chi Minh City
+Southeast Asia,Vietnam,Da Nang
+Southeast Asia,Vietnam,Dalat
+Southeast Asia,Vietnam,Haiphong
+Southeast Asia,Vietnam,Hoi An
+Southeast Asia,Vietnam,Hue
+Southeast Asia,Vietnam,Nha Trang
+Southeast Asia,Vietnam,Vinh

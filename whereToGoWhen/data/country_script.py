@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 
 # URL of the website
-url = "https://en.wikivoyage.org/wiki/Europe"
+url = "https://en.wikivoyage.org/wiki/Asia"
 
 response = requests.get(url)
 
@@ -54,6 +54,6 @@ for region in region_names:
 df = pd.DataFrame(data)
 
 # Save the dataframe to CSV
-df.to_csv('cities.csv', index=False)
+df.to_csv('asia_cities.csv', index=False)
 
-print("Saved data to cities.csv")
+print("Saved data to asia_cities.csv")
