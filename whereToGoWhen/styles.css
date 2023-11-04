@@ -11,9 +11,6 @@ body {
     font-family: Arial, sans-serif; /* Added a default font */
 }
 
-html, body {
-    overflow-x: hidden;
-}
 
 .intro-section {
     position: absolute;
@@ -87,6 +84,13 @@ html, body {
     margin-bottom: 5px; /* Additional space under the border if needed */
     display: inline-block; /* Needed to apply padding and border properly */
 }
+
+/* Specific styles for Blog and About to remove the underline */
+.top-nav ul li a[href="blog.html"],
+.top-nav ul li a[href="about.html"] {
+    border-bottom: none; /* Remove the underline */
+}
+
 
 /* Add a media query if you need to adjust sizes for smaller screens */
 @media (max-width: 768px) {
@@ -325,7 +329,7 @@ input[type="number"] {
     transition: left 0.3s ease-in-out;
     z-index: 1000;
     /* Removed display: none to allow for transition */
-    overflow: hidden; /* Prevents scrolling on the hidden content */
+
 }
 
 /* When active, slide in */
@@ -407,14 +411,27 @@ input[type="number"] {
     outline: none;
 }
 
+/* Initial state of the filter widget */
 .filter-widget {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
+    display: none;
+    position: fixed;
+    left: -100%; /* Start off-screen to the left */
+    top: 0;
+    width: 250px; /* Set to the width of your filter widget */
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+    transition: left 0.5s ease; /* Smooth transition for left property */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  /* Class to apply when the filter is active */
+  .filter-widget.active {
+    left: 0; /* Bring into view */
+  }
+  
+
+  
 
 .filter-section {
     border: none;

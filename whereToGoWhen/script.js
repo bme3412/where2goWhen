@@ -1,15 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
-  loadIdeasContent();
+  loadIdeasContent().then(() => {
+    attachFilterEventListeners(); // This will only be called after the ideas content is loaded
+  });
   attachFilterButtonEvent();
 });
 
 function loadIdeasContent() {
-  fetch('ideas.html')
+  return fetch('ideas.html') // Make sure to return the promise here
     .then(response => response.text())
     .then(content => {
       document.querySelector('.ideas-content').innerHTML = content;
       populateDate();
-      attachIdeaEventListeners();
+
       fetchDataAndDisplay();
     })
     .catch(error => {
@@ -130,27 +132,7 @@ function attachFilterEventListeners() {
 attachFilterEventListeners();
 
 
-function fetchDataAndDisplay(region) {
-    // Fetch data from the server
-    fetch('http://localhost:3000/data')
-        .then(response => response.json())
-        .then(data => {
-            // Filter data for the selected region
-            let filteredData;
-            if (region === 'Surprise Me!') {
-                // Implement logic for surprise me or simply select a random region
-                const regions = ['Asia', 'Europe', 'Americas', 'Latin America', 'Africa', 'Pacific'];
-                const randomRegion = regions[Math.floor(Math.random() * regions.length)];
-                filteredData = data.filter(row => row.Continent === randomRegion);
-            } else {
-                filteredData = data.filter(row => row.Continent === region);
-            }
-            displayDataInGrid(filteredData);
-        })
-        .catch(error => {
-            console.error('Error fetching data:', error);
-        });
-}
+
 
 /**
  * Fetches data and updates the display based on the selected region.

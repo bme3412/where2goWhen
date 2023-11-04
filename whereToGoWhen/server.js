@@ -12,7 +12,7 @@ app.use('/assets', express.static('/Users/brendan/Desktop - Brendan’s MacBook 
 app.get('/data', (req, res) => {
     const results = [];
 
-    fs.createReadStream("/Users/brendan/Desktop - Brendan’s MacBook Air/whereToGoWhen/data/euro_photos.csv")
+    fs.createReadStream("/Users/brendan/Desktop - Brendan’s MacBook Air/whereToGoWhen/data/city_photos.csv")
         .pipe(csv())
         .on('data', (data) => results.push(data))
         .on('end', () => {
