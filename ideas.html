@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Added the stylesheet from city-grid.html -->
+    
+    <title>Where To Go When</title>
+ 
+</head>
+<body>
+
+<header>
+    <!-- Input Search Box -->
+    <nav aria-label="Primary Navigation" class="search-container">
+        <p class="date-message">Today is <span id="currentDate"></span>. Filter for best travel ideas in 
+            <select id="monthSelection">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            month(s):
+        </p>
+        <p class="date-message">You can also select an exact date for suggested trips.</p>
+        <div class="tabs"></div>
+        <div class="search-fields">
+            <div class="search-field-item">
+                <input type="text" placeholder="Current Location" aria-label="Current Location">
+            </div>
+            <div class="search-field-item">
+                <input type="date" placeholder="Day 1 of Trip" aria-label="Start Date">
+            </div>
+            <div class="search-field-item length-of-trip-container">
+                <input type="number" placeholder="Length of trip" aria-label="Length of Trip">
+                <span class="days-label"> days</span>
+            </div>
+            <div class="search-field-item">
+                <button class="search-btn" aria-label="Search">Q</button>
+            </div>
+        </div>
+             <!-- Region Buttons -->
+<div class="btn-container">
+    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Asia');">Asia</a>
+    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Europe');">Europe</a>
+    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Americas');">Americas</a>
+    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Latin America');">Latin America</a>
+    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Africa');">Africa</a>
+    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Pacific');">Pacific</a>
+    <a href="#" class="toggle surprise-button" onclick="fetchDataAndDisplay('Surprise Me!');">Surprise Me!</a>
+</div>
+
+    </nav>
+
+<!-- Filter Button and Filter Content -->
+<div class="filter-search-container">
+    <button id="filterButton">Filter By</button>
+
+    <!-- Filters Container (Hidden by default) -->
+    <div class="filter-widget">
+        <!-- Climate Filter Section -->
+        <fieldset class="filter-section climate-filters">
+            <legend class="filter-title">Climate</legend>
+            <div class="filter-options">
+                <button type="button" class="filter-option" aria-pressed="false">Winter</button>
+                <button type="button" class="filter-option" aria-pressed="false">Summer</button>
+                <button type="button" class="filter-option" aria-pressed="false">Wet</button>
+                <button type="button" class="filter-option" aria-pressed="false">Dry</button>
+            </div>
+        </fieldset>
+    
+        <!-- Activities Filter Section -->
+        <fieldset class="filter-section activity-filters">
+            <legend class="filter-title">Activities</legend>
+            <div class="filter-options">
+                <button type="button" class="filter-option" aria-pressed="false">Mountains</button>
+                <button type="button" class="filter-option" aria-pressed="false">Beach</button>
+                <button type="button" class="filter-option" aria-pressed="false">Urban</button>
+                <button type="button" class="filter-option" aria-pressed="false">Laid Back</button>
+            </div>
+        </fieldset>
+    
+        <!-- Language Filter Section -->
+        <fieldset class="filter-section language-filters">
+            <legend class="filter-title">Language</legend>
+            <div class="filter-options">
+                <button type="button" class="filter-option" aria-pressed="false">English</button>
+                <button type="button" class="filter-option" aria-pressed="false">Spanish</button>
+                <button type="button" class="filter-option" aria-pressed="false">French</button>
+                <button type="button" class="filter-option" aria-pressed="false">German</button>
+            </div>
+        </fieldset>
+    </div>
+    
+    <button id="applyFilters">Apply Filters</button>
+</div>
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get the current date
+        const today = new Date();
+        const dd = String(today.getDate()).padStart(2, '0');
+        const mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        const yyyy = today.getFullYear();
+
+        // Format the date in the desired format: e.g., "October 28, 2023"
+        const formattedDate = `${mm}/${dd}/${yyyy}`;
+
+        // Populate the date in the HTML
+        document.getElementById('currentDate').textContent = formattedDate;
+    });
+</script>
+</body>
+</html>

@@ -4,74 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="styles.css"> <!-- Added the stylesheet from city-grid.html -->
     <title>Where To Go When</title>
 </head>
 
 <body>
-    <section class="date-display">
-        <p>Hello, world! Today is <span id="todayDate"></span>.</p>
-        <p>See below for recommended trips <span id="monthsOut">1</span> month(s) out.</p>
-    </section>
-    
-    
-    
+    <nav class="top-nav">
+        <ul>
+            <li><a href="bucketlist.html">Ultimate Bucket List</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+
+
+
     <!-- Background Video -->
-    <video autoplay loop muted id="bgvideo">
-        <source src="assets/video/background_video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    
-    
-    <header>
-        <!-- Airbnb-style Search Box -->
-        <nav aria-label="Primary Navigation" class="search-container">
-            <div class="tabs"></div>
-            <div class="search-fields">
-                <div class="search-field-item">
-                    <input type="text" placeholder="Current Location" aria-label="Current Location">
-                </div>
-                <div class="search-field-item">
-                    <input type="date" placeholder="Day 1 of Trip" aria-label="Start Date">
-                </div>
-                <div class="search-field-item length-of-trip-container">
-                    <input type="number" placeholder="Length of trip" aria-label="Length of Trip">
-                    <span class="days-label"> days</span>
-                </div>
-                <div class="search-field-item">
-                    <button class="search-btn" aria-label="Search">Q</button>
-                </div>
-            </div>
-        </nav>
+    <div class="video-container">
+        <video autoplay loop muted id="bgvideo">
+            <source src="assets/video/background_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
-        <!-- Region Button -->
-        <div class="btn-container">
-            <a href="asia.html" class="toggle asia-button">Asia</a>
-            <a href="europe.html" class="toggle europe-button">Europe</a>
-            <a href="caribbean.html" class="toggle">Caribbean</a>
-            <a href="southamerica.html" class="toggle">South America</a>
-            <a href="africa.html" class="toggle">Africa</a>
-            <a href="pacific.html" class="toggle">Pacific</a>
-            <a href="surprise.html" class="toggle surprise-button">Surprise Me!</a>
-        </div>
-    </header>
 
-    <!-- Moved email-form below header -->
+  <div class="ideas-content">
+    <!-- This will be populated with the content from ideas.html when the button is clicked -->
+</div>
+
+    <div class="intro-section">
+        <h1>WhereToGoWhen 🌎</h1>
+        <p>Plan the trip of a lifetime. </p>
+        <p>Find the best place to go, at the optimal time of year.</p>
+        <p>Minimize the stress, maximize the experience.</p>
+    </div>
+    
     <aside class="email-form">
-        <h2>WhereToGoWhen</h2>
-        <p>Plan out the trip of a lifetime and minimize the stress</p>
+        <h2>WhereToGoWhen 🌎</h2>
+        <p>Stay up to date with the latest travel suggestions.</p>
         <input type="email" placeholder="Type your email..." aria-label="Your Email">
-        <button aria-label="Join Email List">Join WhereToGoWhen Email</button>
+        <button aria-label="Join Email List">Sign up for Email updates</button>
         <p>Already a member? <a href="#">Log in</a></p>
     </aside>
 
-    <!-- Script for Toggle Buttons -->
-    <script>
-        document.querySelector('.email-close-btn').addEventListener('click', function() {
-            document.querySelector('.email-form').style.display = 'none';
-        });
-    </script>
+   
     <script src="script.js"></script>
 </body>
-
 </html>
