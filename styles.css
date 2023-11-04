@@ -1,57 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('path_to_your_background_image.jpg');
-    background-color: #f4f4f4;
-    background-size: cover;
     margin: 0;
     padding: 0;
-    color: white;
-
+    min-height: 100vh;
+    background-color: #000; /* Changed to black to match video background */
+    font-family: Arial, sans-serif; /* Added a default font */
 }
 
 
-#bgvideo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-    object-fit: cover;
-}
-
-header {
-    display: flex;
-    flex-direction: column;  /* Stack children vertically */
-    align-items: center;     /* Center children horizontally */
-    justify-content: center; /* Center children vertically */
-    padding: 20px 5%;
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
+.intro-section {
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    top: 20%;
+    left: 5%;
+    z-index: 2;
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+.intro-section h1 {
+    font-size: 2.5em; /* Adjust to your preferred size */
+    margin-bottom: 10px;
+    color: white;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+.intro-section p {
+    font-size: 1.2em; /* Adjust to your preferred size */
+    max-width: 250px; /* You can set a max width to control the text width */
+    color: white;
 }
 
 .email-form {
@@ -60,16 +37,24 @@ header {
     background-color: white;
     color: black;
     position: absolute;
-    right: 10%;
-    bottom: 20%;
+    top: 40%;
+    right: 20px;
+    transform: translateY(-50%);
     border-radius: 10px;
+    border-top: 8px solid red;
+    z-index: 3;
 }
 
-.email-form input[type="text"] {
+
+.email-form input[type="text"], .email-form input[type="email"] {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     box-sizing: border-box;
+}
+
+.email-form p {
+    text-align: center;
 }
 
 .email-form button {
@@ -81,456 +66,146 @@ header {
     width: 100%;
 }
 
-.email-form p {
-    text-align: center;
+.top-nav {
+    position: absolute; /* Make it appear over the video */
+    top: 0; /* Align it to the top */
+    width: 100%; /* Full width */
+    z-index: 3; /* Above the intro section */
+    text-align: center; /* Center the navigation */
 }
 
-.travel-form {
-    width: 300px;
-    padding: 20px;
-    background-color: white;
-    color: black;
-    position: relative;
-    border-radius: 10px;
+.top-nav ul li a {
+    font-size: 1.1em; /* Make the font larger but not as large as the intro section */
+    font-weight: bold; /* Make the font bold */
+    color: white; /* Assuming you want the same color as the intro section for consistency */
+    text-decoration: none; /* Remove default underline */
+    padding-bottom: 5px; /* Space under the text */
+    border-bottom: 2px solid white; /* Custom underline */
+    margin-bottom: 5px; /* Additional space under the border if needed */
+    display: inline-block; /* Needed to apply padding and border properly */
+}
+
+/* Specific styles for Blog and About to remove the underline */
+.top-nav ul li a[href="blog.html"],
+.top-nav ul li a[href="about.html"] {
+    border-bottom: none; /* Remove the underline */
+}
+
+
+/* Add a media query if you need to adjust sizes for smaller screens */
+@media (max-width: 768px) {
+    .top-nav ul li a {
+        font-size: 0.9em; /* Smaller font for mobile devices */
+    }
+}
+
+
+
+.top-nav ul {
+    padding: 10px 0; /* Added some padding for better appearance */
+}
+
+.top-nav li {
     display: inline-block;
-    margin-left: 20px;
+    margin: 0 20px;
 }
 
-.travel-form input[type="text"],
-.travel-form select {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    box-sizing: border-box;
+.top-nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: color 0.3s;
 }
 
-.travel-form button.toggle {
-    background-color: #ccc;
+.top-nav a:hover {
+    color: #B0C4DE;
+}
+
+
+
+.video-container {
+    overflow: hidden; /* Prevent any overflow */
+    position: relative; /* Relative positioning context for video */
+    z-index: 1; /* Below other elements */
+    width: 100%; /* Full width */
+    height: 100vh; /* Full viewport height */
+}
+
+#bgvideo {
+    position: absolute; /* Absolute positioning */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Ensure video covers the entire container */
+}
+
+/* Updated styles for the navigation that appears over the video */
+.video-overlay-nav {
+    position: absolute;  /* Overlay the nav on top of the video */
+    top: 0;  /* Align to the top of the video */
+    width: 100%;  /* Full width to cover the video */
+    z-index: 2;  /* Place it above the video */
+}
+
+.video-overlay-nav ul {
+    list-style-type: none;
     margin: 0;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-.travel-form button.toggle.selected {
-    background-color: red;
-}
-
-.container {
-    max-width: 1000px;
-    margin: 50px auto;
-    background: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
+    padding: 0;
     text-align: center;
 }
 
-.cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+.video-overlay-nav li {
+    display: inline-block;
+    margin: 0 20px;
 }
 
-.card {
-    position: relative;
-    height: 300px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    overflow: hidden;
+.video-overlay-nav a {
+    text-decoration: none;
+    color: #FFFFFF;  /* White text for visibility */
+    font-size: 1.5em;  /* Increase font size for better visibility */
+    transition: color 0.3s;
+    padding: 10px 15px;  /* Add some padding */
+    background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent black background */
+    border-radius: 5px;  /* Rounded corners */
 }
 
-.card-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.video-overlay-nav a:hover {
+    color: #B0C4DE;
+}
+
+
+.ideas-content {
+    /* Add desired styles here, e.g.: */
     padding: 20px;
-}
-
-.card-overlay h2 {
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.card-details {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.card-details > div {
-    display: flex;
-    align-items: center;
-}
-
-.card-icon {
-    font-size: 18px;
-    margin-right: 10px;
-    color: white;
-}
-
-.card-info {
-    color: white;
-}
-
-.card-price {
-    text-align: right;
-    font-weight: bold;
-}
-
-.card-image {
-    width: 100%;
-    height: 70%;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
-.card-text {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-}
-
-#languageFilter {
-    display: block;
-    margin-right: 10px;
-    width: 250px;
-    height: 40px;
-    margin: 20px auto;
-    padding: 10px;
-    background: linear-gradient(to bottom, #ffffff 0%, #f3f3f3 100%);
-    border: 1px solid #d9d9d9;
-    border-radius: 5px;
-    font-size: 16px;
-    color: #555;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    appearance: none;
-    cursor: pointer;
-    transition: box-shadow 0.3s ease;
-}
-
-#languageFilter:focus {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    outline: none;
-}
-
-/* Modal tabs */
-
-.modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    overflow: auto;
-}
-
-.modal-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    width: 80%;
-    overflow: auto;
-    transition: max-height 0.3s ease-in-out; 
 }
 
-.modal-content.expanded {
-    max-height: 90vh; /* Adjusted value to fit more content */
-    width: 90%; /* Adjust as per your design requirements */
-}
-
-.close-btn {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    cursor: pointer;
-}
-
-.tab-button {
-    background: none;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    outline: none;
-    transition: background 0.3s;
-}
-
-.tab-button.active, 
-.tab-button:hover {
-    background-color: #f4f4f4;
-}
-
-.tab-content {
-    display: none;    /* Default is hidden */
-    padding: 10px 0;
-    border-top: 1px solid #eee;
-}
-
-#modal-things-to-do {
-    display: block;    /* Always displayed, but starts as invisible */
-    opacity: 0;        /* Start invisible */
-    pointer-events: none; /* Ensure that the invisible content doesn't interfere with user actions */
-}
-
-.tab-content.active {
-    display: block;
-    opacity: 1;    /* Makes content fully visible */
-    pointer-events: auto; /* Makes content interactable */
-    transition: opacity 1.5s ease-in; /* Gradual ease-in transition effect on opacity when becoming active */
-}
-
-#modal-things-to-do.active {
-    opacity: 1;    /* Makes the "Things to Do" content visible */
-    pointer-events: auto; /* Makes the "Things to Do" content interactable */
-}
-
-
-
-#clearFilterButton {
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 20px; 
-    color: #fff;
-    background-color: #007BFF;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    display: none;  /* initially hidden */
-    
-}
-
-#clearFilterButton:hover {
-    background-color: #0056b3;
-}
-
-#clearFilterButton:active {
-    background-color: #004085;
-}
-
-
-.expanded-modal-content {
-    max-width: 80%;   /* Reduced to 80% from 90% */
-    max-height: 70vh; /* Reduced height */
-    width: 75%;       /* Reduced width */
-}
-
-.expanded-modal .modal-content {
-    max-width: 1200px; /* Increase the width when the modal is expanded */
-    width: 90%; /* Adjust to take up more of the screen */
-    height: 80%; /* Increase the height */
-    overflow-y: auto; /* Add vertical scrolling if necessary */
-}
-
-
-/* Photo Grid */
-.photo-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr)); /* Ensures each column takes up an equal fraction of the container width */
-    gap: 2px; 
-}
-
-
-.photo-grid-item {
-    position: relative;
-    overflow: hidden;
-}
-
-
-.photo-animation:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    animation: fadeIn 1s forwards;
-}
-
-@keyframes fadeIn {
-    0% {
-        top: -100%;
-    }
-    100% {
-        top: 0;
-    }
-}
-
-.photo-grid-item img {
-    position: relative; /* Position within the grid item */
-    top: 0; 
-    left: 0;
-    width: 100%;
-    height: 100%; /* Ensure the image takes up the full height of its container. */
-    border-radius: 15px;
-    object-fit: cover;
-    transition: transform 0.3s;
-}
-
-
-
-
-.photo-grid-item:hover img {
-    transform: scale(1.05); /* Optional: This will slightly zoom in on the image when it's hovered over. */
-}
-
-.photo-grid-item .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.photo-grid-item:hover .overlay {
-    opacity: 1;
-}
-
-.overlay-info {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.2); 
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.5s;
-}
-
-
-.photo-grid-item.clicked .overlay-info {
-    opacity: 1;
-}
-
-
-
-/* Attraction pop-up */
-.attraction-popup {
-    display: none;
-    background-color: rgba(255, 255, 255, 0.9);
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding: 20px;
-    border-radius: 15px;  /* Match with photo border-radius */
-    z-index: 10;
-}
-
-
-.attraction-popup-content {
-    background-color: #fff;
-    color: #000;             /* This will set the text color to black */
-    padding: 20px;
-    border-radius: 5px;
-    max-width: 300px;        /* You can adjust this if you want the pop-up to be wider or narrower */
-    margin: auto;            /* This, combined with flexbox on the parent, centers the content */
-    position: relative;      /* Allows for the close button to be positioned in the top-right corner */
-}
-
-.attraction-popup-content h3 {
-    color: #000; /* This will set the h3 text color to black */
-}
-
-.attraction-popup.active {
-    display: flex; /* Makes the popup visible when active */
-}
-
-.close-popup-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-.close-popup {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-.close-popup:hover {
-    background: rgba(0, 0, 0, 0.8);
-}
-
-#attractionPopup {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    color: white;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    animation: fadeIn 1s forwards;
-}
-
-#attractionPopup h2,
-#attractionPopup p {
-    margin: 10px 0;
-}
-
-
-.details-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    gap: 10px;
-    margin-top: 10px; /* Add some space between the title and the grid */
-    align-items: center; /* Vertically center the content */
-}
-
-.details-grid div {
-    background: #f9f9f9; /* Light grey background */
-    padding: 10px;
-    border-radius: 5px; /* Rounded corners */
-}
-
+/* idea.html */
 /* Airbnb Search Replica Code Starts Here */
 .search-container {
-    max-width: 1000px;
-    margin: 30px auto;
     background-color: #fff;
-    padding: 10px 20px;
-    border-radius: 30px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    width: 70%;
+    margin: 0 auto 20px; /* Reduced top margin to 0 and kept the bottom margin as 50px */
+    text-align: center; /* Center the text */
+}
+
+
+.date-message {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styling the select dropdown */
+#monthSelection {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: #f4f4f4;
 }
 
 .tabs {
@@ -538,83 +213,69 @@ h1 {
     justify-content: space-around;
     border-bottom: 1px solid #ebebeb;
     padding-bottom: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Increased margin for more space below the tabs */
 }
 
+/* Styling the input fields */
 .search-fields {
     display: flex;
-    justify-content: space-between;
-    gap: 5px; /* Added a small gap for minimal spacing between search boxes */
+    justify-content: center; /* Centering the items horizontally */
+    align-items: center; /* Centering the items vertically */
+    gap: 10px; /* Spacing between items */
 }
 
-.search-fields div {
-    flex-basis: calc(25% - 5px); /* Distribute the space equally minus the gap */
+.search-field-item {
+    flex: 1;
+    margin: 0 10px;
 }
 
-.search-btn {
-    background-color: #ff5a5f;
-    color: #fff;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-input {
+input[type="text"],
+input[type="date"],
+input[type="number"] {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ebebeb;
-    border-radius: 20px;
-    font-size: 14px;
-    box-sizing: border-box; /* Ensure the total width includes padding and borders */
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: #f4f4f4;
 }
 
-#logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    height: 60px;
-    width: 120px;
+/* Styling the search button */
+.search-btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.travel-form button.toggle {
-    padding: 5px 10px;
-    background-color: #ccc;
-    margin: 5px;
-    border-radius: 5px;
+.search-btn:hover {
+    background-color: #0056b3;
 }
-
-.travel-form button.toggle.selected {
-    background-color: red;
-}
-
-.europe-button {
-    background-color: blue;
-    color: white;
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-.main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* To center the children horizontally */
-}
-
 
 .search-fields input[type="text"],
 .search-fields input[type="date"],
 .search-fields input[type="number"] {
-    width: 80%; /* You can adjust this value to your liking. */
-    padding: 14px; /* This adds some space inside the input, making it larger. */
-    box-sizing: border-box; /* Ensures that padding and border are included in the element's total width and height. */
+    width: 100%; /* Makes sure the input takes the full width */
+    padding: 10px; /* Padding inside the input */
+    border-radius: 20px; /* Rounded corners */
+    border: 1px solid #ebebeb; /* Subtle border */
+    box-sizing: border-box; /* Include padding and border in the input's total width and height */
 }
 
-.search-fields .search-btn {
-    margin-left: 5px; /* Adjust this value based on your desired spacing between the last input and the button. */
-    padding: 10px 18px; /* This adds some space inside the button, making it larger. */
+.search-fields .length-of-trip-container {
+    display: flex;
+    align-items: center; /* Aligns the input and the label vertically */
 }
+
+.days-label {
+    margin-left: 10px; /* Space between the input and the label */
+}
+
+/* Region buttons */
 
 .btn-container {
     display: flex;
@@ -624,47 +285,343 @@ input {
     margin-top: 20px; 
 }
 
-.toggle, a.toggle {
-    width: 110px;  /* setting fixed width for both buttons and anchor tags */
-    height: 15px;
-    padding: 10px 15px;
-    background-color: red;
-    border: 2px solid white;
-    color: white;
+.btn-container {
+    display: flex;             /* Flex layout to align items */
+    flex-wrap: wrap;           /* Allow wrapping of items */
+    justify-content: center;   /* Center the items */
+    align-items: center;       /* Vertically align the items */
+    padding: 10px;             /* Some padding for breathing space */
+    position: relative;        /* Set position context */
+}
+
+.btn-container .toggle {
+    color: white;              /* White font color */
+    background-color: red;     /* Red background for all buttons */
+    text-decoration: none;     /* Remove underlines from links */
+    margin: 5px;               /* Some margin between links */
+    padding: 8px 12px;         /* Padding for each button */
+    border-radius: 20px;       /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s;    /* Smooth transition on hover */
+}
+
+.btn-container .toggle:hover {
+    color: #B0C4DE;            /* Color change on hover */
+}
+
+/* Specific style for the "Surprise Me!" button */
+.btn-container .surprise-button {
+    background-color: blue;    /* Blue background */
+}
+
+.btn-container .surprise-button:hover {
+    background-color: darkblue; /* Darker blue on hover */
+}
+
+/* ideas.html Filter button */
+/* Base state of the filter content, hidden by default */
+.filter-content {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Hidden to the left */
+    bottom: 0;
+    width: 300px;
+    background-color: #f9f9f9;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+    /* Removed display: none to allow for transition */
+
+}
+
+/* When active, slide in */
+.filter-content.active {
+    left: 0; /* Slides in */
+    animation: slideInFromLeft 0.3s ease forwards;
+}
+
+#filterButton {
+    padding: 10px 20px;
+    background-color: #386641;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
     cursor: pointer;
-    border-radius: 10px;
-    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin: 0 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    font-weight: bold;
+}
+
+
+#filterButton:hover {
+    background-color: #388E3C; /* Darker shade of green for hover effect */
+}
+
+/* Adjust the top padding of the main content when the filter is active */
+.main-content.active {
+    padding-top: 300px; /* Space for the filter content */
+    transition: padding-top 0.3s ease-in-out;
+}
+
+
+
+
+/* Styles for the filters container */
+.filters-container {
+    display: flex; /* This will align the child .filter-section divs side by side */
+    flex-wrap: wrap; /* This allows wrapping elements to the next line if the container's width is exceeded */
+  }
+  
+  .filter-section {
+    margin-right: 20px; /* Adjust spacing between the filter sections */
+    flex: 1; /* This makes each .filter-section grow to fill the space, adjust as needed */
+  }
+
+
+
+/* Styles for filter group within each section */
+.filter-group {
+    display: flex;
+    flex-direction: column; /* Stacks buttons vertically */
+    gap: 10px;
+}
+
+/* Styles for filter buttons */
+.filter-button{
+    width: 100%; /* Takes the full width of the filter group */
+    padding: 10px;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
     text-align: center;
-    display: inline-flex;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Space between buttons */
+}
+
+
+
+/* Interactive states for filter buttons */
+.filter-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-color: #aaa;
+    outline: none;
+}
+
+/* Initial state of the filter widget */
+.filter-widget {
+    display: none;
+    position: fixed;
+    left: -100%; /* Start off-screen to the left */
+    top: 0;
+    width: 250px; /* Set to the width of your filter widget */
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+    transition: left 0.5s ease; /* Smooth transition for left property */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  /* Class to apply when the filter is active */
+  .filter-widget.active {
+    left: 0; /* Bring into view */
+  }
+  
+
+  
+
+.filter-section {
+    border: none;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.filter-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-option {
+    padding: 10px 15px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.filter-option:hover, .filter-option[aria-pressed="true"] {
+    background-color: #e1e1e1;
+    border-color: #ccc;
+}
+
+
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .filter-button, .trip-filter {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+}
+
+
+
+@keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
+
+
+/* Styling for the Apply Filters button */
+#applyFilters {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FIlter search field */
+.filter-search-container {
+    display: flex;
+    align-items: center; /* Vertically center the elements */
+    gap: 5px; /* Reduced space between items for lesser space between search field and action button */
+}
+
+
+.search-field {
+    flex: 0 1 33%; /* Flex-grow, Flex-shrink, Flex-basis. This will make it take up 1/3 of the container */
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1em;
+}
+
+.search-field:focus {
+    border-color: #007BFF; /* Change border color on focus */
+}
+
+.action-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.5em; /* Make the + sign bigger */
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-radius: 50%; /* Make the button circular */
+    width: 40px; /* Fixed width */
+    height: 40px; /* Fixed height */
+    display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 0.3s ease;
-    text-decoration: none;  /* removing underline for anchor tags */
 }
 
-.toggle:hover, a.toggle:hover {
-    background-color: darkred;
+.action-button:hover {
+    background-color: #0056b3; /* Slightly darker blue on hover */
 }
 
-.toggle.surprise-button, a.toggle.surprise-button {
-    background-color: blue;
+
+/* City Photo Grid */
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-between;  /* to handle any leftover space */
+    /* Improved aesthetics */
+    margin: 0 auto; /* Center the grid in its container */
 }
 
-.toggle.surprise-button:hover, a.toggle.surprise-button:hover {
-    background-color: darkblue;
+.grid-tile {
+    position: relative;
+    background-color: #f5f5f5; /* A lighter grey for a more professional look */
+    width: calc(33% - 20px);   /* 25% minus the gap, adjust if necessary */
+    height: auto;              /* let the height adjust based on the width to maintain the aspect ratio */
+    border-radius: 8px;
+    overflow: hidden; /* Ensure nothing spills out of the border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
 }
 
-/* Widen the search buttons */
-.search-box .search-btn {
-    width: 150px; /* Adjust the width to make buttons wider */
+/* Scale the grid items on hover */
+.grid-tile:hover {
+    transform: scale(1.05); /* Slightly enlarge tiles on hover */
+    z-index: 10; /* Ensure the hovered item is above the others */
 }
 
-/* Minimize the space between search buttons */
-.search-box .search-btn:not(:last-child) {
-    margin-right: 5px; /* Reduce the right margin to minimize space */
+.grid-label {
+    font-weight: bold;
+    font-family: 'Arial', sans-serif; /* Choose a font that fits the professional theme */
 }
 
-/* Reduce the vertical space between Airbnb search box and Europe button */
-.europe-btn-container {
-    margin-top: 2px; /* Reduce the space above the Europe button */
+.photo-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 75%; /* This creates a responsive aspect ratio box */
+}
+
+.grid-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire space of the tile */
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly less opaque for subtlety */
+    color: white;
+    font-family: 'Arial', sans-serif; /* Consistent font for overlays */
+    transition: background-color 0.3s; /* Smooth transition for overlay effect */
+}
+
+.overlay-label {
+    margin: 5px 0; /* Add some space between labels */
+}
+
+/* Brighten the overlay on hover to make text easier to read */
+.grid-tile:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Optional: Add a text-shadow to the overlay labels to improve legibility */
+.overlay-label {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }

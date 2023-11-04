@@ -1,371 +1,282 @@
-function getCurrencySymbol(currencyCode) {
-    switch (currencyCode) {
-        case 'GBP': return '£';
-        case 'EUR': return '€';
-        case 'CZK': return 'Kč';
-        // ... other currency codes
-        default: return '$';  // Default to dollar symbol if currency code is not recognized
-    }
-}
-
 document.addEventListener('DOMContentLoaded', function() {
-    const photoGrid = document.getElementById('photoGrid');
-    const attractionPopup = document.getElementById('attractionPopup');
-
-    photoGrid.addEventListener('click', (event) => {
-        const gridItem = event.target.closest('.photo-grid-item');
-        if (!gridItem) return; // Not clicked on a photo
-
-        // Handle closing of popup if close button is clicked
-        if (event.target.matches('.close-popup')) {
-            attractionPopup.style.display = 'none';
-            gridItem.classList.remove('clicked');
-            const img = gridItem.querySelector('img');
-            img.classList.remove('photo-animation');
-            return;
-        }
-        if (gridItem.classList.contains('clicked')) {
-            gridItem.classList.remove('clicked');
-            const img = gridItem.querySelector('img');
-            img.classList.remove('photo-animation');
-        } else {
-            gridItem.classList.add('clicked');
-            const img = gridItem.querySelector('img');
-            img.classList.add('photo-animation');
-
-            // Make the popup a child of the clicked grid item
-            gridItem.appendChild(attractionPopup);
-
-            // ... Retrieve attraction data and update popup content
-            const attraction = parisAttractions.find(attr => attr.image === img.getAttribute('src'));
-            if (attraction) {
-                document.getElementById('attractionName').innerText = attraction.name;
-                document.getElementById('attractionPrice').innerText = attraction.price;
-                document.getElementById('attractionHours').innerText = attraction.hours;
-                document.getElementById('attractionAddress').innerText = attraction.address;
-                document.getElementById('attractionMetro').innerText = attraction.metro;
-            
-                // Make the popup visible
-                attractionPopup.style.display = 'flex';
-            }
-        }
-    });
-
-
-
-    const parisAttractions = [
-        {
-            name: 'Eiffel Tower',
-            image: '/images/eiffel_tower.png',
-            description: 'An iconic landmark of Paris.',
-            price: '$25',
-            hours: '9:30 AM - 11:00 PM',
-            address: 'Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France',
-            metro: 'Bir-Hakeim'
-        },
-        {
-            name: 'Luxembourg Gardens',
-            image: '/images/luxembourg_gardens.png',
-            description: 'A serene place for both the locals and tourists, offering a peaceful retreat in the heart of Paris.',
-            price: 'Free',
-            hours: '7:30 AM - 9:30 PM',
-            address: '75006 Paris, France',
-            metro: 'Notre-Dame-des-Champs'
-        },
-        
-        {
-            name: 'Seine River Cruise',
-            image: '/images/bateau_mouche.png',
-            description: 'Enjoy the beauty of Paris from the river, cruising under numerous bridges while admiring the cityscape.',
-            price: 'Varies',
-            hours: 'Varies',
-            address: 'Various locations along the Seine River',
-            metro: 'Varies'
-        },
-        {
-            name: 'Musée de la Vie Romantique',
-            image: '/images/musee_vie_romantique.png',
-            description: 'Dive into the romantic era of Paris through art and poetry in a unique setting with a pavilion.',
-            price: 'Varies',
-            hours: '10:00 AM - 6:00 PM',
-            address: '16 Rue Chaptal, 75009 Paris, France',
-            metro: 'Pigalle'
-        },
-        {
-            name: 'Les Deux Magots',
-            image: '/images/les_deux_magots.png',
-            description: 'A popular café offering a taste of authentic French cuisine in a cozy setting.',
-            price: 'Varies',
-            hours: '7:30 AM - 1:00 AM',
-            address: '6 Place Saint-Germain des Prés, 75006 Paris, France',
-            metro: 'Saint-Germain-des-Prés'
-        },
-        {
-            name: 'Palace of Versailles',
-            image: '/images/versailles.png',
-            description: 'A symbol of the absolute monarchy of the Ancien Régime, showcasing luxurious rooms and extensive gardens.',
-            price: '€20',
-            hours: '9:00 AM - 6:30 PM',
-            address: 'Place d"Armes, 78000 Versailles, France',
-            metro: 'RER C to Versailles Rive Gauche'
-        },
-        {
-            name: 'Wall of Love',
-            image: '/images/wall_of_love.png',
-            description: 'A unique wall featuring "I Love You" written in over 250 languages, a popular spot for proposals.',
-            price: 'Free',
-            hours: 'Open 24 hours',
-            address: 'Square Jehan Rictus, 75018 Paris, France',
-            metro: 'Abbesses'
-        },
-        {
-            name: 'Montmartre',
-            image: '/images/montmartre.png',
-            description: 'A historic and artistic neighborhood offering picturesque streets and a vibrant arts scene.',
-            price: 'Free',
-            hours: 'Open 24 hours',
-            address: 'Montmartre, 75018 Paris, France',
-            metro: 'Abbesses'
-        },
-    ];
-    
-
-    // Photo Grid
-    function populateThingsToDo(cityName) {
-        const attractionPopup = document.getElementById('attractionPopup');
-        photoGrid.innerHTML = '';  // Clear any existing content
-        
-        if (cityName === 'Paris') {
-            parisAttractions.forEach(attraction => {
-                const gridItem = document.createElement('div');
-                gridItem.classList.add('photo-grid-item');
-                gridItem.innerHTML = `
-                <img src="${attraction.image}" alt="${attraction.name || 'Attraction'}">`;
-
-                gridItem.addEventListener('click', (event) => {
-                    // Make the popup a child of the clicked grid item
-                    gridItem.appendChild(attractionPopup);
-                
-                    // Update popup content
-                    document.getElementById('attractionName').innerText = attraction.name;
-                    document.getElementById('attractionPrice').innerText = attraction.price;
-                    document.getElementById('attractionHours').innerText = attraction.hours;
-                    document.getElementById('attractionAddress').innerText = attraction.address;
-                    document.getElementById('attractionMetro').innerText = attraction.metro;
-                
-                    // Make the popup visible
-                    attractionPopup.style.display = 'flex';
-                });
-
-                photoGrid.appendChild(gridItem);
-            });
-        }
-        // ... handle other cities
-    }
-    
-    const cities = [
-        {
-            name: 'London',
-            population: '8.9 million',
-            language: 'English',
-            currency: 'GBP',
-            weather: 'Temperate maritime climate',
-            imageUrl: '/images/london.png'
-        },
-        {
-            name: 'Paris',
-            population: '9.9 million',
-            language: 'French',
-            currency: 'EUR',
-            weather: 'rainy',
-            imageUrl: '/images/paris.png'
-        },
-        {
-            name: 'Berlin',
-            population: '8.9 million',
-            language: 'German',
-            currency: 'EUR',
-            weather: 'grungy',
-            imageUrl: '/images/berlin.png'
-        },
-        {
-            name: 'Madrid',
-            population: '8.9 million',
-            language: 'Spanish',
-            currency: 'EUR',
-            weather: 'Temperate maritime climate',
-            imageUrl: '/images/madrid.png'
-        },
-        {
-            name: 'Rome',
-            population: '8.9 million',
-            language: 'Italian',
-            currency: 'EUR',
-            weather: 'Temperate maritime climate',
-            imageUrl: '/images/rome.png'
-        },
-        {
-            name: 'Lisbon',
-            population: '8.9 million',
-            language: 'Portuguese',
-            currency: 'EUR',
-            weather: 'Temperate maritime climate',
-            imageUrl: '/images/lisbon.png'
-        },
-        {
-            name: 'Vienna',
-            population: '8.9 million',
-            language: 'German',
-            currency: 'EUR',
-            weather: 'Temperate maritime climate',
-            imageUrl: 'images/vienna.png'
-        },
-        {
-            name: 'Prague',
-            population: '8.9 million',
-            language: 'Czech',
-            currency: 'CZK',
-            weather: 'Temperate maritime climate',
-            imageUrl: 'images/prague.png'
-        },
-        {
-            name: 'Dublin',
-            population: '8.9 million',
-            language: 'English',
-            currency: 'EUR',
-            weather: 'Temperate maritime climate',
-            imageUrl: 'images/dublin.png'
-        },
-
-        /* ... add similar data structures for other cities ... */
-    ];
-
-
-        const cardsContainer = document.getElementById('cardsContainer');
-        const modal = document.getElementById('cityModal');
-        const closeModal = document.getElementById('closeBtn');
-        const cityNameEl = document.getElementById('cityName');
-    
-        for (let city of cities) {
-            const card = document.createElement('div');
-            card.classList.add('card');
-            card.style.backgroundImage = `url('${city.imageUrl}')`;
-            card.dataset.language = city.language;
-    
-            const cardOverlay = document.createElement('div');
-            cardOverlay.classList.add('card-overlay');
-    
-            const cardName = document.createElement('h2');
-            cardName.textContent = city.name;
-            cardOverlay.appendChild(cardName);
-    
-            const cardDetails = document.createElement('div');
-            cardDetails.classList.add('card-details');
-    
-            const cardIconCurrency = document.createElement('div');
-        cardIconCurrency.classList.add('card-icon');
-        cardIconCurrency.textContent = getCurrencySymbol(city.currency);  // Utilize a function to convert currency code to symbol
-        cardDetails.appendChild(cardIconCurrency);
-    
-            cardOverlay.appendChild(cardDetails);
-            card.appendChild(cardOverlay);
-    
-            card.addEventListener('click', function() {
-                cityNameEl.innerText = city.name;
-                document.getElementById('modal-info').innerText = "Population: " + city.population;
-                document.getElementById('modal-language').innerText = city.language;
-                modal.style.display = 'block';
-                populateThingsToDo(city.name);
-            });
-    
-            cardsContainer.appendChild(card);
-        }
-    
-        const clearFilterButton = document.getElementById('clearFilterButton');
-    
-        // Logic for filtering the cities based on language selection
-        const languageFilter = document.getElementById('languageFilter');
-        languageFilter.addEventListener('change', function() {
-            const selectedLanguage = languageFilter.value;
-    
-            if (selectedLanguage === 'all') {
-                document.querySelectorAll('.card').forEach(card => card.style.display = 'block');
-                clearFilterButton.style.display = 'none';  // hide the clear filter button
-                clearFilterButton.style.marginLeft = '0';
-            } else {
-                document.querySelectorAll('.card').forEach(card => {
-                    if (card.dataset.language === selectedLanguage) {
-                        card.style.display = 'block';
-                    } else {
-                        card.style.display = 'none';
-                    }
-                });
-                clearFilterButton.style.display = 'inline-block';  // show the clear filter button
-                clearFilterButton.style.marginLeft = '10px';
-            }
-        });
-    
-        // Reset the language filter to "all" when the clear filter button is clicked
-        clearFilterButton.addEventListener('click', function() {
-            languageFilter.value = 'all';
-            clearFilterButton.style.display = 'none';  // hide the clear filter button
-            document.querySelectorAll('.card').forEach(card => card.style.display = 'block');  // show all cards
-        });
-    
-    
-        // Logic for switching between tabs in the modal
-        const tabButtons = document.querySelectorAll('.tab-button');
-        const modalContent = modal.querySelector('.modal-content');
-        tabButtons.forEach(button => {
-            button.addEventListener('click', function() {
-            
-            // Deactivate all tab contents
-        document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
-            
-        // Deactivate all tab buttons
-        tabButtons.forEach(btn => btn.classList.remove('active'));
-
-        // Activate the clicked tab content
-        const targetContent = document.getElementById(button.dataset.target);
-        targetContent.classList.add('active');
-            
-        // Activate the clicked tab button
-        button.classList.add('active');
-
-        if (button.dataset.target === 'modal-things-to-do') {
-            modalContent.classList.add('expanded');  // Expand the modal when "Things to Do" tab is active
-        } else {
-            modalContent.classList.remove('expanded');  // Contract the modal when other tabs are active
-        }
-    });
-});
-document.querySelector('[data-target="modal-things-to-do"]').addEventListener('click', function() {
-    document.getElementById('cityModal').querySelector('.modal-content').classList.add('expanded-modal-content');
+  loadIdeasContent().then(() => {
+    attachFilterEventListeners(); // This will only be called after the ideas content is loaded
+  });
+  attachFilterButtonEvent();
 });
 
-// For other tabs, remove the expanded class
-var otherTabs = document.querySelectorAll('.tab-button:not([data-target="modal-things-to-do"])');
-for (let i = 0; i < otherTabs.length; i++) {
-    otherTabs[i].addEventListener('click', function() {
-        document.getElementById('cityModal').querySelector('.modal-content').classList.remove('expanded-modal-content');
+function loadIdeasContent() {
+  return fetch('ideas.html') // Make sure to return the promise here
+    .then(response => response.text())
+    .then(content => {
+      document.querySelector('.ideas-content').innerHTML = content;
+      populateDate();
+
+      fetchDataAndDisplay();
+    })
+    .catch(error => {
+      console.error('There was an error fetching the content:', error);
     });
 }
 
-        closeModal.addEventListener('click', function() {
-            modal.style.display = 'none';
-        });
-    
-        window.addEventListener('click', function(event) {
-            if (event.target === modal) {
-                modal.style.display = 'none';
-            }
-        });
-    
+function attachFilterButtonEvent() {
+  const filterButton = document.getElementById('filterButton');
+  const filtersContainer = document.querySelector('.filters-container');
+
+  filterButton.addEventListener('click', function() {
+    filtersContainer.classList.toggle('active');
+  });
+
+  // Hide filters when clicking outside of the filters container
+  window.addEventListener('click', function(event) {
+    if (!filterButton.contains(event.target) && filtersContainer.classList.contains('active')) {
+      filtersContainer.classList.remove('active');
+    }
+  });
+}
+
+function populateDate() {
+    // Get the current date
+    const today = new Date();
+    const dd = String(today.getDate()).padStart(2, '0');
+    const mm = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
+    const yyyy = today.getFullYear();
+    const monthNames = ["January", "February", "March", "April", "May", "June",
+                        "July", "August", "September", "October", "November", "December"];
+
+    // Format the current date in the desired format: e.g., "October 28, 2023"
+    const currentFormattedDate = `${monthNames[today.getMonth()]} ${dd}, ${yyyy}`;
+
+    // Set the date for the "Today is" section
+    const currentDateElement = document.getElementById('currentDate');
+    if (currentDateElement) {
+        currentDateElement.textContent = currentFormattedDate;
+    }
+
+    // Get the number of months selected from the dropdown
+    const monthsToAdd = parseInt(document.getElementById('monthSelection').value, 10);
+
+    // Calculate the date "monthsToAdd" months from now, adjusting for the end of the month.
+    const futureDate = new Date(yyyy, today.getMonth() + monthsToAdd, dd);
+    // Check if the month rolled over unexpectedly due to adding months (e.g., Jan 31 + 1 month = Mar 03)
+    if (futureDate.getDate() !== today.getDate()) {
+        // Adjust to the last day of the previous month
+        futureDate.setDate(0);
+    }
+
+    const futureDD = String(futureDate.getDate()).padStart(2, '0');
+    const futureMM = String(futureDate.getMonth() + 1).padStart(2, '0'); 
+    const futureYYYY = futureDate.getFullYear();
+
+    // Format the future date in the format required for the date input
+    const futureFormattedDate = `${futureYYYY}-${futureMM}-${futureDD}`;
+
+    // Set the default date for the search container input
+    const startDateElement = document.querySelector('input[aria-label="Start Date"]');
+    if (startDateElement) {
+        startDateElement.value = futureFormattedDate;
+    }
+}
+
+function attachFilterEventListeners() {
+  const filterButton = document.getElementById('filterButton'); // Make sure 'filterButton' is the correct ID for your button
+  const filterWidget = document.querySelector('.filter-widget'); // Updated to the new class for the filters container
+
+  // Hide filter content initially
+  function hideFilterContent() {
+    filterWidget.classList.add('deactivating');
+    setTimeout(() => {
+      filterWidget.classList.remove('active', 'deactivating');
+      filterWidget.style.display = 'none';
+    }, 500); // Ensure this matches your animation duration
+  }
+
+  // Show filter content
+  function showFilterContent() {
+    filterWidget.classList.add('active');
+    filterWidget.style.display = 'block'; // Updated to block if you're not using flex here
+    filterWidget.classList.remove('deactivating');
+  }
+
+  // Toggle filter content visibility
+  function toggleFilterContent() {
+    const isHidden = filterWidget.style.display === 'none' || filterWidget.classList.contains('deactivating');
+    if (isHidden) {
+      showFilterContent();
+    } else {
+      hideFilterContent();
+    }
+  }
+
+  // Event listener for the filter button
+  filterButton.addEventListener('click', (event) => {
+    event.stopPropagation();
+    toggleFilterContent();
+  });
+
+  // Hide filter content when clicking outside of the widget
+  function handleCloseFilters(event) {
+    if (!filterWidget.contains(event.target) && filterWidget.classList.contains('active')) {
+      hideFilterContent();
+    }
+  }
+
+  // Hide filter content on load
+  hideFilterContent();
+
+  // Event listener for closing filters when clicking outside
+  document.addEventListener('click', handleCloseFilters);
+}
+
+// Initialize the event listeners
+attachFilterEventListeners();
+
+
+
+
+/**
+ * Fetches data and updates the display based on the selected region.
+ * @param {string} region - The region for which to fetch and display data.
+ */
+function fetchDataAndDisplay(region) {
+    const dataEndpoint = 'http://localhost:3000/data';
+    const errorMessage = 'Error occurred while fetching data:';
+  
+    fetch(dataEndpoint)
+      .then(response => response.json())
+      .then(data => {
+        const filteredData = filterDataByRegion(data, region);
+        updateGridDisplay(filteredData);
+      })
+      .catch(error => console.error(`${errorMessage} ${error}`));
+  }
+  
+  /**
+   * Filters data by region or selects a random region if 'Surprise Me!' is chosen.
+   * @param {Array} data - The data to be filtered.
+   * @param {string} region - The selected region to filter by.
+   * @returns {Array} - The filtered data.
+   */
+  function filterDataByRegion(data, region) {
+    if (region === 'Surprise Me!') {
+      const regions = ['Asia', 'Europe', 'Americas', 'Latin America', 'Africa', 'Pacific'];
+      const randomRegion = regions[Math.floor(Math.random() * regions.length)];
+      return data.filter(item => item.Continent === randomRegion);
+    }
+    return data.filter(item => item.Continent === region);
+  }
+  
+  /**
+   * Updates the grid display with the provided data.
+   * @param {Array} data - The data to be displayed.
+   */
+  function updateGridDisplay(data) {
+    // Sort the data alphabetically by city name
+    const sortedData = data.sort((a, b) => a.CityServed.localeCompare(b.CityServed));
+  
+    const gridSelector = '.ideas-content .photo-grid';
+    const gridContainer = createOrReplaceGrid(gridSelector);
+  
+    const observer = initializeIntersectionObserver();
+  
+    // Use sortedData instead of data for creating grid tiles
+    sortedData.forEach(item => {
+      const gridTile = createGridTile(item, observer);
+      gridContainer.appendChild(gridTile);
     });
-    
-    
+  
+    document.querySelector('.ideas-content').appendChild(gridContainer);
+  }
 
-    
-        
-
-    
+  
+  
+  /**
+   * Creates or replaces the existing grid container.
+   * @param {string} selector - The CSS selector for the grid.
+   * @returns {HTMLElement} - The created grid container.
+   */
+  function createOrReplaceGrid(selector) {
+    let grid = document.querySelector(selector);
+    if (grid) {
+      grid.remove();
+    }
+    grid = document.createElement('div');
+    grid.className = 'photo-grid';
+    return grid;
+  }
+  
+  /**
+   * Initializes an intersection observer for lazy loading images.
+   * @returns {IntersectionObserver} - The initialized observer.
+   */
+  function initializeIntersectionObserver() {
+    const observerOptions = {
+      rootMargin: '100px',
+      threshold: 0.1
+    };
+  
+    return new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const image = entry.target;
+          if (!image.src) { // Check if the image src is not already set
+            image.classList.add('lazy-loaded');
+            image.src = image.dataset.src;
+          }
+          observer.unobserve(image); // Stop observing the image that has been loaded
+        }
+      });
+    }, observerOptions);
+  }
+  
+  
+  /**
+   * Creates a grid tile element with lazy-loaded image.
+   * @param {Object} dataItem - An object containing the data for the grid tile.
+   * @param {IntersectionObserver} observer - The observer for lazy loading.
+   * @returns {HTMLElement} - The created grid tile element.
+   */
+  function createGridTile(dataItem, observer) {
+    const tile = document.createElement('div');
+    tile.className = 'grid-tile';
+  
+    if (dataItem.PhotoURL) {
+      const photoWrapper = document.createElement('div');
+      photoWrapper.className = 'photo-wrapper';
+  
+      const photo = document.createElement('img');
+      photo.dataset.src = dataItem.PhotoURL;
+      photo.alt = `${dataItem.CityServed} photo`;
+      photo.className = 'grid-photo lazy';
+      observer.observe(photo);
+  
+      photoWrapper.appendChild(photo);
+      photoWrapper.appendChild(createOverlay(dataItem));
+      tile.appendChild(photoWrapper);
+    }
+  
+    return tile;
+  }
+  
+  /**
+   * Creates an overlay element with country and city labels.
+   * @param {Object} dataItem - An object containing the country and city data.
+   * @returns {HTMLElement} - The created overlay element.
+   */
+  function createOverlay(dataItem) {
+    const overlay = document.createElement('div');
+    overlay.className = 'overlay';
+  
+    const countryLabel = document.createElement('div');
+    countryLabel.className = 'grid-label overlay-label';
+    countryLabel.textContent = dataItem.CityServed;
+  
+    const cityLabel = document.createElement('div');
+    cityLabel.className = 'grid-label overlay-label';
+    cityLabel.textContent = dataItem.Country;
+  
+    overlay.appendChild(countryLabel);
+    overlay.appendChild(cityLabel);
+  
+    return overlay;
+  }
