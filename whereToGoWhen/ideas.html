@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"> <!-- Added the stylesheet from city-grid.html -->
+    
     <title>Where To Go When</title>
+ 
 </head>
 <body>
 <header>
-    <!-- Airbnb-style Search Box -->
+    <!-- Input Search Box -->
     <nav aria-label="Primary Navigation" class="search-container">
-        <p class="date-message">Today is <span id="currentDate"></span>. Either select a specific date, or filter for best travel ideas in 
+        <p class="date-message">Today is <span id="currentDate"></span>. Filter for best travel ideas in 
             <select id="monthSelection">
                 <option value="1" selected>1</option>
                 <option value="2">2</option>
@@ -22,6 +24,7 @@
             </select>
             month(s):
         </p>
+        <p class="date-message">You can also select an exact date for suggested trips.</p>
         <div class="tabs"></div>
         <div class="search-fields">
             <div class="search-field-item">
@@ -38,47 +41,42 @@
                 <button class="search-btn" aria-label="Search">Q</button>
             </div>
         </div>
+             <!-- Region Buttons -->
+<div class="btn-container">
+    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Asia');">Asia</a>
+    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Europe');">Europe</a>
+    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Americas');">Americas</a>
+    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Latin America');">Latin America</a>
+    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Africa');">Africa</a>
+    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Pacific');">Pacific</a>
+    <a href="#" class="toggle surprise-button" onclick="fetchDataAndDisplay('Surprise Me!');">Surprise Me!</a>
+</div>
+
     </nav>
 
- <!-- Filter Button, Search Field, and Filter Content -->
+<!-- Filter Button and Filter Content -->
 <div class="filter-search-container">
     <button id="filterButton">Filter By</button>
-    <input type="text" class="search-field" placeholder="Search or filter">
-    <button class="action-button">+</button>
-    
-    <!-- Filter Content (Hidden by default) -->
-    <div class="filter-content" style="left: -100%; position: absolute;">
-        <!-- ... existing filters ... -->
 
-        <div class="type-of-trip">
-            <label>Type of Trip:</label>
-            <div class="trip-buttons">
-                <button class="trip-filter" data-type="history">History</button>
-                <button class="trip-filter" data-type="culture">Culture</button>
-                <button class="trip-filter" data-type="outdoors">Outdoors</button>
-                <button class="trip-filter" data-type="relaxation">Relaxation</button>
-                <button class="trip-filter" data-type="physically-active">Physically Active</button>
-                <button class="trip-filter" data-type="wellness">Wellness</button>
+    <!-- Filters Container (Hidden by default) -->
+    <div class="filters-container">
+        <div class="filter-section">
+            <span class="filter-label">Filter 1:</span>
+            <div class="filter-group">
+                <button class="filter-button">Filter 1</button>
+                <button class="filter-button">Filter 2</button>
+                <button class="filter-button">Filter 3</button>
+                <button class="filter-button">Filter 4</button>
             </div>
         </div>
         
-        <button id="applyFilters">Apply Filters</button>
+        <!-- ... Additional filter sections for other categories like currency ... -->
     </div>
+    <button id="applyFilters">Apply Filters</button>
 </div>
 
-    
 
-     <!-- Region Button -->
-     <div class="btn-container">
-        <a href="asia.html" class="toggle asia-button">Asia</a>
-        <a href="europe.html" class="toggle europe-button">Europe</a>
-        <a href="caribbean.html" class="toggle">Caribbean</a>
-        <a href="southamerica.html" class="toggle">South America</a>
-        <a href="africa.html" class="toggle">Africa</a>
-        <a href="pacific.html" class="toggle">Pacific</a>
-        <a href="surprise.html" class="toggle surprise-button">Surprise Me!</a>
-    </div>
-</header>
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Get the current date

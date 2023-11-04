@@ -73,9 +73,29 @@ html, body {
     position: absolute; /* Make it appear over the video */
     top: 0; /* Align it to the top */
     width: 100%; /* Full width */
-    z-index: 2; /* Above the video */
+    z-index: 3; /* Above the intro section */
     text-align: center; /* Center the navigation */
 }
+
+.top-nav ul li a {
+    font-size: 1.1em; /* Make the font larger but not as large as the intro section */
+    font-weight: bold; /* Make the font bold */
+    color: white; /* Assuming you want the same color as the intro section for consistency */
+    text-decoration: none; /* Remove default underline */
+    padding-bottom: 5px; /* Space under the text */
+    border-bottom: 2px solid white; /* Custom underline */
+    margin-bottom: 5px; /* Additional space under the border if needed */
+    display: inline-block; /* Needed to apply padding and border properly */
+}
+
+/* Add a media query if you need to adjust sizes for smaller screens */
+@media (max-width: 768px) {
+    .top-nav ul li a {
+        font-size: 0.9em; /* Smaller font for mobile devices */
+    }
+}
+
+
 
 .top-nav ul {
     padding: 10px 0; /* Added some padding for better appearance */
@@ -149,24 +169,6 @@ html, body {
     color: #B0C4DE;
 }
 
-#nextPageButton {
-    position: absolute; /* Absolute positioning */
-    bottom: 50px; /* Align it to the bottom of the page with a little space */
-    left: 50%; /* Center it horizontally */
-    transform: translateX(-50%); /* Adjust for the button's own width to ensure it's perfectly centered */
-    z-index: 3; /* Above the video and other elements */
-    padding: 10px 20px; /* Some padding for a better look */
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-    color: white; /* White text */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Cursor style */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-}
-
-#nextPageButton:hover {
-    background-color: rgba(0, 0, 0, 0.9); /* Darker background on hover */
-}
 
 .ideas-content {
     /* Add desired styles here, e.g.: */
@@ -309,4 +311,255 @@ input[type="number"] {
 
 .btn-container .surprise-button:hover {
     background-color: darkblue; /* Darker blue on hover */
+}
+
+/* ideas.html Filter button */
+/* Base state of the filter content, hidden by default */
+.filter-content {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Hidden to the left */
+    bottom: 0;
+    width: 300px;
+    background-color: #f9f9f9;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+    /* Removed display: none to allow for transition */
+    overflow: hidden; /* Prevents scrolling on the hidden content */
+}
+
+/* When active, slide in */
+.filter-content.active {
+    left: 0; /* Slides in */
+    animation: slideInFromLeft 0.3s ease forwards;
+}
+
+#filterButton {
+    padding: 10px 20px;
+    background-color: #386641;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin: 0 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    font-weight: bold;
+}
+
+
+#filterButton:hover {
+    background-color: #388E3C; /* Darker shade of green for hover effect */
+}
+
+/* Adjust the top padding of the main content when the filter is active */
+.main-content.active {
+    padding-top: 300px; /* Space for the filter content */
+    transition: padding-top 0.3s ease-in-out;
+}
+
+
+
+
+/* Styles for the filters container */
+.filters-container {
+    display: flex; /* This will align the child .filter-section divs side by side */
+    flex-wrap: wrap; /* This allows wrapping elements to the next line if the container's width is exceeded */
+  }
+  
+  .filter-section {
+    margin-right: 20px; /* Adjust spacing between the filter sections */
+    flex: 1; /* This makes each .filter-section grow to fill the space, adjust as needed */
+  }
+
+
+
+/* Styles for filter group within each section */
+.filter-group {
+    display: flex;
+    flex-direction: column; /* Stacks buttons vertically */
+    gap: 10px;
+}
+
+/* Styles for filter buttons */
+.filter-button{
+    width: 100%; /* Takes the full width of the filter group */
+    padding: 10px;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Space between buttons */
+}
+
+
+
+/* Interactive states for filter buttons */
+.filter-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-color: #aaa;
+    outline: none;
+}
+
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .filter-button, .trip-filter {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+}
+
+
+
+@keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
+
+
+/* Styling for the Apply Filters button */
+#applyFilters {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FIlter search field */
+.filter-search-container {
+    display: flex;
+    align-items: center; /* Vertically center the elements */
+    gap: 5px; /* Reduced space between items for lesser space between search field and action button */
+}
+
+
+.search-field {
+    flex: 0 1 33%; /* Flex-grow, Flex-shrink, Flex-basis. This will make it take up 1/3 of the container */
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1em;
+}
+
+.search-field:focus {
+    border-color: #007BFF; /* Change border color on focus */
+}
+
+.action-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.5em; /* Make the + sign bigger */
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-radius: 50%; /* Make the button circular */
+    width: 40px; /* Fixed width */
+    height: 40px; /* Fixed height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-button:hover {
+    background-color: #0056b3; /* Slightly darker blue on hover */
+}
+
+
+/* City Photo Grid */
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-between;  /* to handle any leftover space */
+    /* Improved aesthetics */
+    margin: 0 auto; /* Center the grid in its container */
+}
+
+.grid-tile {
+    position: relative;
+    background-color: #f5f5f5; /* A lighter grey for a more professional look */
+    width: calc(33% - 20px);   /* 25% minus the gap, adjust if necessary */
+    height: auto;              /* let the height adjust based on the width to maintain the aspect ratio */
+    border-radius: 8px;
+    overflow: hidden; /* Ensure nothing spills out of the border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Scale the grid items on hover */
+.grid-tile:hover {
+    transform: scale(1.05); /* Slightly enlarge tiles on hover */
+    z-index: 10; /* Ensure the hovered item is above the others */
+}
+
+.grid-label {
+    font-weight: bold;
+    font-family: 'Arial', sans-serif; /* Choose a font that fits the professional theme */
+}
+
+.photo-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 75%; /* This creates a responsive aspect ratio box */
+}
+
+.grid-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire space of the tile */
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly less opaque for subtlety */
+    color: white;
+    font-family: 'Arial', sans-serif; /* Consistent font for overlays */
+    transition: background-color 0.3s; /* Smooth transition for overlay effect */
+}
+
+.overlay-label {
+    margin: 5px 0; /* Add some space between labels */
+}
+
+/* Brighten the overlay on hover to make text easier to read */
+.grid-tile:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Optional: Add a text-shadow to the overlay labels to improve legibility */
+.overlay-label {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
