@@ -76,47 +76,58 @@ function populateDate() {
     }
 }
 
-function attachIdeaEventListeners() {
-  const filterButton = document.getElementById('filterButton');
-  const filtersContainer = document.querySelector('.filters-container');
+function attachFilterEventListeners() {
+  const filterButton = document.getElementById('filterButton'); // Make sure 'filterButton' is the correct ID for your button
+  const filterWidget = document.querySelector('.filter-widget'); // Updated to the new class for the filters container
 
-  // Initially hide filter content
+  // Hide filter content initially
   function hideFilterContent() {
-    filtersContainer.style.display = 'none';
+    filterWidget.classList.add('deactivating');
+    setTimeout(() => {
+      filterWidget.classList.remove('active', 'deactivating');
+      filterWidget.style.display = 'none';
+    }, 500); // Ensure this matches your animation duration
+  }
+
+  // Show filter content
+  function showFilterContent() {
+    filterWidget.classList.add('active');
+    filterWidget.style.display = 'block'; // Updated to block if you're not using flex here
+    filterWidget.classList.remove('deactivating');
   }
 
   // Toggle filter content visibility
   function toggleFilterContent() {
-    const isHidden = filtersContainer.style.display === 'none';
-    filtersContainer.style.display = isHidden ? 'block' : 'none';
-  }
-
-  // Event listener for the filter button
-  if (filterButton) {
-    filterButton.addEventListener('click', (event) => {
-      event.stopPropagation();
-      toggleFilterContent();
-    });
-  }
-
-  // Hide the filter content when clicking outside
-  function handleCloseFilters(event) {
-    if (!filtersContainer.contains(event.target)) {
+    const isHidden = filterWidget.style.display === 'none' || filterWidget.classList.contains('deactivating');
+    if (isHidden) {
+      showFilterContent();
+    } else {
       hideFilterContent();
     }
   }
 
-  // Call hideFilterContent on load to ensure filter contents are hidden
+  // Event listener for the filter button
+  filterButton.addEventListener('click', (event) => {
+    event.stopPropagation();
+    toggleFilterContent();
+  });
+
+  // Hide filter content when clicking outside of the widget
+  function handleCloseFilters(event) {
+    if (!filterWidget.contains(event.target) && filterWidget.classList.contains('active')) {
+      hideFilterContent();
+    }
+  }
+
+  // Hide filter content on load
   hideFilterContent();
 
-  document.body.addEventListener('click', handleCloseFilters);
+  // Event listener for closing filters when clicking outside
+  document.addEventListener('click', handleCloseFilters);
 }
 
-
-document.getElementById('filterButton').addEventListener('click', function() {
-  document.querySelector('.filter-content').classList.toggle('active');
-  document.querySelector('.main-content').classList.toggle('active');
-});
+// Initialize the event listeners
+attachFilterEventListeners();
 
 
 function fetchDataAndDisplay(region) {

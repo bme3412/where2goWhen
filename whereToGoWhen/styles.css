@@ -407,6 +407,51 @@ input[type="number"] {
     outline: none;
 }
 
+.filter-widget {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.filter-section {
+    border: none;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.filter-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-option {
+    padding: 10px 15px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.filter-option:hover, .filter-option[aria-pressed="true"] {
+    background-color: #e1e1e1;
+    border-color: #ccc;
+}
+
+
 
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {

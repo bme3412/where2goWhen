@@ -59,21 +59,44 @@
     <button id="filterButton">Filter By</button>
 
     <!-- Filters Container (Hidden by default) -->
-    <div class="filters-container">
-        <div class="filter-section">
-            <span class="filter-label">Filter 1:</span>
-            <div class="filter-group">
-                <button class="filter-button">Filter 1</button>
-                <button class="filter-button">Filter 2</button>
-                <button class="filter-button">Filter 3</button>
-                <button class="filter-button">Filter 4</button>
+    <div class="filter-widget">
+        <!-- Climate Filter Section -->
+        <fieldset class="filter-section climate-filters">
+            <legend class="filter-title">Climate</legend>
+            <div class="filter-options">
+                <button type="button" class="filter-option" aria-pressed="false">Winter</button>
+                <button type="button" class="filter-option" aria-pressed="false">Summer</button>
+                <button type="button" class="filter-option" aria-pressed="false">Wet</button>
+                <button type="button" class="filter-option" aria-pressed="false">Dry</button>
             </div>
-        </div>
-        
-        <!-- ... Additional filter sections for other categories like currency ... -->
+        </fieldset>
+    
+        <!-- Activities Filter Section -->
+        <fieldset class="filter-section activity-filters">
+            <legend class="filter-title">Activities</legend>
+            <div class="filter-options">
+                <button type="button" class="filter-option" aria-pressed="false">Mountains</button>
+                <button type="button" class="filter-option" aria-pressed="false">Beach</button>
+                <button type="button" class="filter-option" aria-pressed="false">Urban</button>
+                <button type="button" class="filter-option" aria-pressed="false">Laid Back</button>
+            </div>
+        </fieldset>
+    
+        <!-- Language Filter Section -->
+        <fieldset class="filter-section language-filters">
+            <legend class="filter-title">Language</legend>
+            <div class="filter-options">
+                <button type="button" class="filter-option" aria-pressed="false">English</button>
+                <button type="button" class="filter-option" aria-pressed="false">Spanish</button>
+                <button type="button" class="filter-option" aria-pressed="false">French</button>
+                <button type="button" class="filter-option" aria-pressed="false">German</button>
+            </div>
+        </fieldset>
     </div>
+    
     <button id="applyFilters">Apply Filters</button>
 </div>
+
 
 
 
