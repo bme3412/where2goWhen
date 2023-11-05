@@ -5,12 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About</title>
 <style>
-  /* Add CSS styles here */
-body, html {
-  height: 100%;
+/* Existing CSS styles */
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A more modern font */
+}
 .bg-image {
   /* The image used */
   background-image: url('assets/images/about/about.png');
@@ -22,6 +27,61 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.travel-table-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  color: black; /* Text color */
+  border-radius: 10px; /* Rounded corners */
+  position: absolute;
+  top: 60%; /* Adjust as necessary */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%; /* Adjust as necessary */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Add a subtle shadow for depth */
+  overflow: hidden; /* Ensures the box-shadow is not cut off */
+}
+
+/* Styles for the travel recommendations table */
+.travel-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1); /* Subtle shadow for the table */
+}
+
+
+.travel-table th, .travel-table td {
+  padding: 12px 15px; /* More padding for a spacious look */
+  text-align: left;
+  font-size: 0.95em; /* Slightly smaller font-size for a more professional look */
+}
+
+.travel-table th {
+  background-color: #4a69bd; /* A modern shade of blue */
+  color: white;
+  letter-spacing: 0.5px; /* Spacing out letters for the header */
+}
+
+.travel-table td {
+  color: #333; /* A darker font color for better readability */
+}
+
+
+.travel-table tr:nth-child(even) {
+  background-color: #f3f3f3; /* A lighter shade for even rows */
+}
+
+.travel-table tr:hover {
+  background-color: #e1e1e1; /* A hover effect for rows */
+}
+
+.rationale {
+  font-size: 0.85em;
+  color: #555;
 }
 
 /* Position text in the center of the page/image */
@@ -47,6 +107,116 @@ body, html {
 
 <div class="bg-image"></div>
 
+<!-- Container for the travel recommendations table -->
+<div class="travel-table-container">
+  <h2>Monthly Travel Recommendations</h2>
+  <table class="travel-table">
+    <tr>
+      <th>Month</th>
+      <th>Optimal Destinations</th>
+      <th>Places to Avoid</th>
+      <th>Rationale for Optimal Destinations</th>
+      <th>Rationale for Places to Avoid</th>
+    </tr>
+    <tr>
+      <td>January</td>
+      <td>Buenos Aires, Lima, Tenerife</td>
+      <td>Berlin, Copenhagen, Stockholm</td>
+      <td class="rationale">Warm summer weather in South America and mild climate in Tenerife.</td>
+      <td class="rationale">Cold and dark winter in Northern Europe.</td>
+    </tr>
+
+    <tr>
+      <td>February</td>
+      <td>Lisbon, Madrid, Mexico City</td>
+      <td>Helsinki, Moscow, Warsaw</td>
+      <td class="rationale">Mild climate in Southern Europe, dry season in Mexico City.</td>
+      <td class="rationale">Freezing temperatures in Northern and Eastern Europe.</td>
+    </tr>
+
+    <tr>
+      <td>March</td>
+      <td>Rome, Athens, Sao Paulo</td>
+      <td>Bucharest, Prague, Amsterdam</td>
+      <td class="rationale">Springtime in Southern Europe, end of the rainy season in Sao Paulo.</td>
+      <td class="rationale">Still cold in Eastern Europe, unpredictable weather in Amsterdam.</td>
+    </tr>
+
+    <tr>
+      <td>April</td>
+      <td>Seville, Malaga, Catania</td>
+      <td>Brussels, Dusseldorf, Frankfurt</td>
+      <td class="rationale">Warm weather without the intense heat of summer in Southern Europe.v</td>
+      <td class="rationale">Rainy spring in Western Europe.</td>
+    </tr>
+
+
+    <tr>
+      <td>May</td>
+      <td>Naples, Valencia, Lisbon</td>
+      <td>Bogota, San Jose, Panama City</td>
+      <td class="rationale">Pleasant springtime weather in Southern Europe.</td>
+      <td class="rationale">Rainy season in parts of Central and South America.</td>
+    </tr>
+
+    <tr>
+      <td>June</td>
+      <td>Barcelona, Nice, Ibiza</td>
+      <td>Salvador, Fortaleza, Recife</td>
+      <td class="rationale">Early summer with good weather before peak tourist season.</td>
+      <td class="rationale">Rainy season in Northern Brazil.</td>
+    </tr>
+
+    <tr>
+      <td>July</td>
+      <td>Palermo, Heraklion, Alicante</td>
+      <td>Buenos Aires, Santiago, Porto Alegre</td>
+      <td class="rationale">Hot summer perfect for beach destinations.</td>
+      <td class="rationale">Winter in Southern Hemisphere, although milder.</td>
+    </tr>
+
+
+    <tr>
+      <td>August</td>
+      <td>Mallorca, Athens, Thessaloniki</td>
+      <td>Mexico City, Monterrey, Guadalajara</td>
+      <td class="rationale">Peak of summer with lots of sun and events in Mediterranean.</td>
+      <td class="rationale">Rainy season in parts of Mexico.</td>
+    </tr>
+
+    <tr>
+      <td>September</td>
+      <td>Porto, Venice, Rome</td>
+      <td>Cancun, Punta Cana, Cartagena</td>
+      <td class="rationale">Less crowded, still warm and pleasant in Southern Europe.</td>
+      <td class="rationale">Hurricane season in the Caribbean.</td>
+    </tr>
+
+    <tr>
+      <td>October</td>
+      <td>Madrid, Toulouse, Lyon</td>
+      <td>Dublin, Copenhagen, Stockholm</td>
+      <td class="rationale">Mild autumn weather in Southern and Central Europe.</td>
+      <td class="rationale">Getting colder and wetter in Northern Europe.</td>
+    </tr>
+
+    <tr>
+      <td>November</td>
+      <td>Buenos Aires, Rio de Janeiro, Santiago</td>
+      <td>Berlin, Warsaw, Moscow</td>
+      <td class="rationale">Spring in Southern Hemisphere, vibrant city life.</td>
+      <td class="rationale">Cold and approaching winter in Northern and Eastern Europe.</td>
+    </tr>
+
+    <tr>
+      <td>December</td>
+      <td>Mexico City, Sao Paulo, San Juan</td>
+      <td>Helsinki, Reykjavik, Oslo</td>
+      <td class="rationale">Pleasant weather in Central and South America, festive atmosphere.</td>
+      <td class="rationale">Very cold, although winter wonderlands in Nordic countries have their charm.</td>
+    </tr>
+  </table>
+</div>
 
 </body>
 </html>
