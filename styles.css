@@ -17,6 +17,22 @@ body {
     top: 20%;
     left: 5%;
     z-index: 2;
+    /* Add a semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.1); /* This is white with 10% opacity */
+    
+    /* Add some padding and a border radius */
+    padding: 20px;
+    border-radius: 15px;
+
+    /* If your layout allows, consider adding a width to the container */
+    /* width: 50%; */
+
+    /* Optional: Add a box-shadow for a subtle depth effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    /* Optional: Add a backdrop filter for a frosted glass effect */
+    /* Note that this does not work in all browsers */
+    backdrop-filter: blur(5px);
 }
 
 .intro-section h1 {
@@ -67,30 +83,101 @@ body {
 }
 
 .top-nav {
-    position: absolute; /* Make it appear over the video */
-    top: 0; /* Align it to the top */
-    width: 100%; /* Full width */
-    z-index: 3; /* Above the intro section */
-    text-align: center; /* Center the navigation */
+    position: absolute; /* or fixed, depending on your needs */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between; /* Positions the nav-container in the center and auth-links to the right */
+    align-items: center;
+    padding: 0 20px; /* Add padding to the sides of the navigation */
 }
 
-.top-nav ul li a {
-    font-size: 1.1em; /* Make the font larger but not as large as the intro section */
-    font-weight: bold; /* Make the font bold */
-    color: white; /* Assuming you want the same color as the intro section for consistency */
-    text-decoration: none; /* Remove default underline */
-    padding-bottom: 5px; /* Space under the text */
-    border-bottom: 2px solid white; /* Custom underline */
-    margin-bottom: 5px; /* Additional space under the border if needed */
-    display: inline-block; /* Needed to apply padding and border properly */
+.nav-container {
+    flex: 1; /* Takes up the available space, pushing auth-links to the side */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Specific styles for Blog and About to remove the underline */
-.top-nav ul li a[href="blog.html"],
-.top-nav ul li a[href="about.html"] {
-    border-bottom: none; /* Remove the underline */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Ensures no default margin is affecting the centering */
 }
 
+/* Authentication links */
+.auth-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-links li a,
+.auth-links li a {
+    font-size: 1.1em; /* Adjust font size as needed */
+    font-weight: bold; /* Makes font bold */
+    color: white; /* Text color */
+    text-decoration: none; /* Removes underline */
+    padding: 10px 15px; /* Padding for the items */
+    transition: color 0.3s; /* Transition for hover effect */
+}
+
+.nav-links li a:hover,
+.auth-links li a:hover {
+    color: #B0C4DE; /* Hover color */
+}
+
+
+/* Only "Ultimate Bucket List" has the underline */
+.nav-links li:first-child a {
+    border-bottom: 2px solid white;
+}
+
+/* Other links do not have an underline */
+.nav-links li:not(:first-child) a {
+    border-bottom: none;
+}
+
+/* Style for "Get Started" button */
+.get-started {
+    padding: 10px 20px;
+    background-color: transparent; /* Default background */
+    border: 2px solid white; /* Border color */
+    border-radius: 25px; /* Rounded corners */
+    color: white;
+    text-transform: uppercase; /* Optional: makes text uppercase */
+    font-weight: bold; /* Makes font bold */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+}
+
+.get-started:hover {
+    background-color: white; /* Background color on hover */
+    color: #000; /* Text color on hover */
+    text-decoration: none; /* Removes underline on hover */
+}
+
+/* Additional hover effect for the links */
+.nav-links li a:hover,
+.auth-links li a:hover {
+    color: #B0C4DE;
+}
+
+/* Adjust the right margin of the "Get Started" button */
+.top-nav li:last-child {
+    margin-right: 20px;
+}
+
+/* Adjust the spacing of the menu items */
+.top-nav li:not(:last-child) {
+    margin-right: 10px; /* Reduces space between items */
+}
 
 /* Add a media query if you need to adjust sizes for smaller screens */
 @media (max-width: 768px) {
@@ -99,26 +186,6 @@ body {
     }
 }
 
-
-
-.top-nav ul {
-    padding: 10px 0; /* Added some padding for better appearance */
-}
-
-.top-nav li {
-    display: inline-block;
-    margin: 0 20px;
-}
-
-.top-nav a {
-    text-decoration: none;
-    color: #FFFFFF;
-    transition: color 0.3s;
-}
-
-.top-nav a:hover {
-    color: #B0C4DE;
-}
 
 
 
@@ -625,3 +692,15 @@ input[type="number"] {
 .overlay-label {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+.popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1000; /* Make sure it's on top of other elements */
+  }
+  
