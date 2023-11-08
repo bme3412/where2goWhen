@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bucket List</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            color: #333;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 1rem;
+            color: #666;
+        }
+
+        .country-button {
+            display: block;
+            width: 90%;
+            max-width: 300px;
+            margin: 10px auto;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid #ddd;
+            color: #333;
+            text-align: center;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 4px;
+        }
+
+        .country-button:hover {
+            background-color: #e9e9e9;
+        }
+
+        .country-container {
+            border-radius: 4px;
+            padding: 20px;
+            margin: 10px auto;
+            display: none;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            max-width: 600px;
+        }
+
+        .activity {
+            background-color: #fff;
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: background-color 0.2s ease;
+        }
+
+        .activity:hover {
+            background-color: #f9f9f9;
+        }
+
+        .visited {
+            background-color: #dff0d8;
+            color: #3c763d;
+        }
+
+        button {
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            border-radius: 2px;
+            cursor: pointer;
+            background-color: #f8f8f8;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #e9e9e9;
+        }
+
+        button.visited {
+            border-color: #3c763d;
+        }
+        /* Style for the bucket list table */
+        .bucket-list-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .bucket-list-table th,
+        .bucket-list-table td {
+            text-align: left;
+            padding: 12px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+
+        .bucket-list-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .bucket-list-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .bucket-list-table tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Welcome to My Travel Blog</h1>
+<p>Explore my bucket list by selecting a country below.</p>
+
+<button class="country-button" onclick="toggleCountry('Germany')">Germany</button>
+<div id="Germany" class="country-container"></div>
+
+<button class="country-button" onclick="toggleCountry('France')">France</button>
+<div id="France" class="country-container"></div>
+
+<button class="country-button" onclick="toggleCountry('Italy')">Italy</button>
+<div id="Italy" class="country-container"></div>
+
+
+<script>
+    // Function to fetch bucket list for a given country from an external JSON file
+    function fetchBucketList(country) {
+        fetch(`data/json/${country.toLowerCase()}.json`)
+            .then(response => response.json())
+            .then(data => renderBucketList(country, data))
+            .catch(error => console.error('Fetching error: ', error));
+    }
+
+    // Function to render the bucket list in HTML
+    function renderBucketList(country, bucketList) {
+    var container = document.getElementById(country);
+    container.innerHTML = ''; // Clear existing content
+
+    // Create table elements
+    var table = document.createElement('table');
+    table.className = 'bucket-list-table';
+    var thead = document.createElement('thead');
+    var tbody = document.createElement('tbody');
+
+    // Create header row
+    var headerRow = document.createElement('tr');
+    headerRow.innerHTML = `
+        <th>Activity</th>
+        <th>Location</th>
+        <th>Description</th>
+        <th>Score</th>
+        <th>Status</th>
+    `;
+    thead.appendChild(headerRow);
+
+    // Append activities to the table body
+    bucketList.forEach(function(bucketListItem) { // Rename the variable here to avoid conflict
+        var activityRow = document.createElement('tr');
+        activityRow.innerHTML = `
+    <td>${bucketListItem.activity}</td>
+    <td>${bucketListItem.location}</td>
+    <td>${bucketListItem.description}</td>
+    <td>${bucketListItem.bucket_list_score}</td>
+    <td>
+        <button onclick="toggleVisited(this, ${bucketListItem.id})">Not Visited</button>
+    </td>
+`;
+        tbody.appendChild(activityRow);
+    });
+
+    // Append thead and tbody to table
+    table.appendChild(thead);
+    table.appendChild(tbody);
+    container.appendChild(table);
+}
+
+
+    // Function to toggle the visited state
+    function toggleVisited(button, id) {
+        button.classList.toggle('visited');
+        button.textContent = button.classList.contains('visited') ? 'Visited' : 'Not Visited';
+    }
+
+    // Function to show/hide the bucket list for a country
+    function toggleCountry(country) {
+        var container = document.getElementById(country);
+        var isVisible = container.style.display === 'block';
+        container.style.display = isVisible ? 'none' : 'block';
+        if (!isVisible) {
+            fetchBucketList(country); // Fetch content when showing the container
+        }
+    }
+
+    // Modified function to render the bucket list in a table format
+    function renderBucketList(country, bucketList) {
+        var container = document.getElementById(country);
+        container.innerHTML = ''; // Clear existing content
+
+        // Create table elements
+        var table = document.createElement('table');
+        table.className = 'bucket-list-table';
+        var thead = document.createElement('thead');
+        var tbody = document.createElement('tbody');
+
+        // Create header row
+        var headerRow = document.createElement('tr');
+        headerRow.innerHTML = `
+            <th>Activity</th>
+            <th>Location</th>
+            <th>Description</th>
+            <th>Score</th>
+            <th>Status</th>
+        `;
+        thead.appendChild(headerRow);
+
+        // Append activities to the table body
+        bucketList.forEach(function(activity) {
+            var activityRow = document.createElement('tr');
+            activityRow.innerHTML = `
+                <td>${activity.activity}</td>
+                <td>${activity.location}</td>
+                <td>${activity.description}</td>
+                <td>${activity.bucket_list_score}</td>
+                <td>
+                    <button onclick="toggleVisited(this, ${activity.id})">Not Visited</button>
+                </td>
+            `;
+            tbody.appendChild(activityRow);
+        });
+
+        // Append thead and tbody to table
+        table.appendChild(thead);
+        table.appendChild(tbody);
+        container.appendChild(table);
+    }
+</script>
+
+</body>
+</html>
