@@ -14,47 +14,33 @@
 <header>
     <!-- Input Search Box -->
     <nav aria-label="Primary Navigation" class="search-container">
-        <p class="date-message">Today is <span id="currentDate"></span>. Filter for best travel ideas in 
-            <select id="monthSelection">
-                <option value="1" selected>1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-            </select>
-            month(s):
+        <p class="date-message">Today is <span id="currentDate"></span>. Filter for the best travel ideas within the next 
+            <select id="monthSelection" class="month-selector">
+                <option value="1" selected>1 month</option>
+                <option value="2">2 months</option>
+                <!-- Add remaining months with proper labeling -->
+            </select>:
         </p>
-        <p class="date-message">You can also select an exact date for suggested trips.</p>
-        <div class="tabs"></div>
+        <p class="date-message secondary-message">Or select an exact date for personalized trip suggestions:</p>
         <div class="search-fields">
-            <div class="search-field-item">
-                <input type="text" placeholder="Current Location" aria-label="Current Location">
+            <input type="text" class="input-field" placeholder="Enter Current Location" aria-label="Current Location">
+            <input type="date" class="input-field" aria-label="Start Date" placeholder="Day 1 of Trip">
+            <div class="length-of-trip-container">
+                <input type="number" class="input-field" placeholder="Enter Length of Trip" aria-label="Length of Trip">
+                <span class="days-label">days</span>
             </div>
-            <div class="search-field-item">
-                <input type="date" placeholder="Day 1 of Trip" aria-label="Start Date">
-            </div>
-            <div class="search-field-item length-of-trip-container">
-                <input type="number" placeholder="Length of trip" aria-label="Length of Trip">
-                <span class="days-label"> days</span>
-            </div>
-            <div class="search-field-item">
-                <button class="search-btn" aria-label="Search">Q</button>
-            </div>
+            <button class="search-btn" aria-label="Search">&#x1F50D;</button>
         </div>
-             <!-- Region Buttons -->
-<div class="btn-container">
-    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Asia');">Asia</a>
-    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Europe');">Europe</a>
-    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Americas');">Americas</a>
-    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Latin America');">Latin America</a>
-    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Africa');">Africa</a>
-    <a href="#" class="toggle" onclick="fetchDataAndDisplay('Pacific');">Pacific</a>
-    <a href="#" class="toggle surprise-button" onclick="fetchDataAndDisplay('Surprise Me!');">Surprise Me!</a>
-</div>
-
+        <div class="btn-container">
+            <a href="#" class="region-toggle" onclick="fetchDataAndDisplay('Asia');">Asia</a>
+            <a href="#" class="region-toggle" onclick="fetchDataAndDisplay('Europe');">Europe</a>
+            <a href="#" class="region-toggle" onclick="fetchDataAndDisplay('Americas');">Americas</a>
+            <a href="#" class="region-toggle" onclick="fetchDataAndDisplay('Latin America');">Latin America</a>
+            <a href="#" class="region-toggle" onclick="fetchDataAndDisplay('Africa');">Africa</a>
+            <a href="#" class="region-toggle" onclick="fetchDataAndDisplay('Pacific');">Pacific</a>
+            <a href="#" class="region-toggle surprise-button" onclick="fetchDataAndDisplay('Surprise Me!');">Surprise Me!</a>
+        </div>
     </nav>
-
 <!-- Filter Button and Filter Content -->
 <div class="filter-search-container">
     <button id="filterButton">Filter By</button>
@@ -99,8 +85,14 @@
 </div>
 
 
-
-
+<!-- Popup container -->
+<div id="city-popup" class="popup-container" style="display:none;">
+    <div id="city-info">
+      <!-- City info will be populated here -->
+    </div>
+    <button onclick="closePopup()">Close</button>
+  </div>
+  
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Get the current date

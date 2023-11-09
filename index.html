@@ -14,8 +14,9 @@
         <!-- Centered Links -->
         <div class="nav-container">
             <ul class="nav-links">
-                <li><a href="bucketlist.html">Ultimate Bucket List</a></li>
                 <li><a href="paris_visit_guide.html">About</a></li>
+                <li><a href="bucket_list.html">Ultimate Bucket List</a></li>
+                
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="blog.html">Pricing</a></li>
             </ul>
@@ -24,7 +25,7 @@
         <!-- Authentication Links to the right -->
         <ul class="auth-links">
             <li><a href="login.html">Login</a></li>
-            <li><a href="get_started.html" class="get-started">Get Started</a></li>
+            <li><a href="register.html" class="get-started">Get Started</a></li>
         </ul>
     </nav>
     
@@ -37,7 +38,7 @@
             Your browser does not support the video tag.
         </video>
     </div>
-
+    <!-- <div class="overview"></div> -->
 
   <div class="ideas-content">
     <!-- This will be populated with the content from ideas.html when the button is clicked -->
@@ -57,8 +58,18 @@
         <button aria-label="Join Email List">Sign up for Email updates</button>
         <p>Already a member? <a href="#">Log in</a></p>
     </aside>
+    <script>
+        fetch('overview.html')
+            .then(function(response) {
+                return response.text();
+            })
+            .then(function(html) {
+                document.querySelector('.overview').innerHTML = html;
+            })
+            .catch(function(err) {
+                console.error('Failed to load overview content:', err);
+            });
+    </script>
 
-   
     <script src="script.js"></script>
-</body>
 </html>

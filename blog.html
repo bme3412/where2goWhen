@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Paris Visit Attractiveness by Month</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h2>Best Months to Visit Paris - A Visual Guide (Synthetic Data)</h2>
+    <canvas id="visitChart" width="800" height="400"></canvas>
+
+    <script>
+        var months = ['January', 'February', 'March', 'April', 'May', 'June', 
+                      'July', 'August', 'September', 'October', 'November', 'December'];
+        var averageTemperature = [/* Insert the synthetic average temperature data here */];
+        var touristNumbers = [/* Insert the synthetic tourist numbers data here */];
+
+        var ctx = document.getElementById('visitChart').getContext('2d');
+        var visitChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: months,
+                datasets: [{
+                    label: 'Average Temperature (°C)',
+                    data: averageTemperature,
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 1
+                }, {
+                    label: 'Tourist Numbers',
+                    data: touristNumbers,
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    type: 'line', // This will add a line chart on top of the bar chart
+                    yAxisID: 'y-axis-tourists'
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    },
+                    'y-axis-tourists': {
+                        type: 'linear',
+                        display: true,
+                        position: 'right',
+                        grid: {
+                            drawOnChartArea: false // Only show the grid for the first dataset
+                        }
+                    }
+                },
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            // This will show tourist numbers in the tooltip
+                            afterBody: function(context) {
+                                return 'Tourist Numbers: ' + touristNumbers[context[0].dataIndex];
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
