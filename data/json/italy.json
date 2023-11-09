@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Tasting Authentic Pizza in Naples",
+        "category": "Gastronomy",
+        "score": 5,
+        "description": "Enjoy the original taste of true Neapolitan pizza in the city where it all began.",
+        "city": "Naples",
+        "longitude": 14.2681,
+        "latitude": 40.8518,
+        "cost": "$"
+    },
+    {
+        "name": "Gondola Ride in Venice",
+        "category": "Leisure",
+        "score": 5,
+        "description": "Experience the romance of Venice with a classic gondola ride through its iconic canals.",
+        "city": "Venice",
+        "longitude": 12.3365,
+        "latitude": 45.4408,
+        "cost": "$$$"
+    },
+    {
+        "name": "Exploring the Colosseum in Rome",
+        "category": "Culture",
+        "score": 4,
+        "description": "Walk through the ancient amphitheatre that was once the site of Roman gladiatorial battles.",
+        "city": "Rome",
+        "longitude": 12.4923,
+        "latitude": 41.8902,
+        "cost": "$$"
+    },
+    {
+        "name": "Hiking the Cinque Terre",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Discover the five picturesque villages perched on the rugged Italian Riviera coastline.",
+        "city": "Cinque Terre",
+        "longitude": 9.7225,
+        "latitude": 44.1025,
+        "cost": "$$"
+    },
+    {
+        "name": "Taking a Wine Tour in Tuscany",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Savor the flavors of Tuscany's world-famous Chianti and Brunello di Montalcino wines.",
+        "city": "Tuscany",
+        "longitude": 11.2558,
+        "latitude": 43.7696,
+        "cost": "$$$"
+    },
+    {
+        "name": "Visiting the Uffizi Gallery in Florence",
+        "category": "Culture",
+        "score": 3,
+        "description": "Admire the works of the great masters like Botticelli and Michelangelo at one of the most renowned art galleries in the world.",
+        "city": "Florence",
+        "longitude": 11.2558,
+        "latitude": 43.7696,
+        "cost": "$$"
+    },
+    {
+        "name": "Skiing in the Dolomites",
+        "category": "Adventure",
+        "score": 3,
+        "description": "Experience the thrill of skiing in the stunning mountain range of the Dolomites, a UNESCO World Heritage site.",
+        "city": "Dolomites",
+        "longitude": 11.8768,
+        "latitude": 46.6193,
+        "cost": "$$$"
+    },
+    {
+        "name": "Relaxing on the Amalfi Coast",
+        "category": "Leisure",
+        "score": 2,
+        "description": "Enjoy the sun and the sea in one of the most beautiful coastal areas in the world.",
+        "city": "Amalfi Coast",
+        "longitude": 14.6000,
+        "latitude": 40.6333,
+        "cost": "$$$"
+    },
+    {
+        "name": "Touring the Vatican Museums",
+        "category": "Culture",
+        "score": 2,
+        "description": "Explore the vast collections of art and historical artifacts within the sacred walls of Vatican City.",
+        "city": "Vatican City",
+        "longitude": 12.4534,
+        "latitude": 41.9029,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Ruins of Pompeii",
+        "category": "Culture",
+        "score": 1,
+        "description": "Step back in time with a visit to the well-preserved ruins of the ancient city that was frozen in time by a volcanic eruption.",
+        "city": "Pompeii",
+        "longitude": 14.4846,
+        "latitude": 40.7515,
+        "cost": "$$"
+    }
+]

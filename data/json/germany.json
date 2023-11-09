@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Beer Tasting in Munich",
+        "category": "Gastronomy",
+        "score": 5,
+        "description": "Immerse yourself in Bavarian beer culture with a tasting tour in Munich, the heart of Oktoberfest.",
+        "city": "Munich",
+        "longitude": 11.581981,
+        "latitude": 48.135125,
+        "cost": "$$"
+    },
+    {
+        "name": "Castle Tour in Bavaria",
+        "category": "Culture",
+        "score": 5,
+        "description": "Explore the fairy-tale castles of Bavaria, including the famous Neuschwanstein Castle.",
+        "city": "Füssen",
+        "longitude": 10.700433,
+        "latitude": 47.569648,
+        "cost": "$$$"
+    },
+    {
+        "name": "Cruise on the Rhine River",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Take a scenic cruise down the Rhine River, lined with medieval castles, vineyards, and charming towns.",
+        "city": "Cologne",
+        "longitude": 6.960279,
+        "latitude": 50.937531,
+        "cost": "$$"
+    },
+    {
+        "name": "Hiking in the Black Forest",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Discover the dense woodlands and picturesque villages of the Black Forest, a haven for nature lovers.",
+        "city": "Baden-Baden",
+        "longitude": 8.239761,
+        "latitude": 48.765649,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Berlin Wall",
+        "category": "Culture",
+        "score": 3,
+        "description": "Learn about German history with a visit to the remains of the Berlin Wall and the Checkpoint Charlie Museum.",
+        "city": "Berlin",
+        "longitude": 13.383068,
+        "latitude": 52.520007,
+        "cost": "$"
+    },
+    {
+        "name": "Attending a Classical Music Concert",
+        "category": "Culture",
+        "score": 3,
+        "description": "Enjoy the rich musical heritage of Germany by attending a concert at one of its renowned classical music halls.",
+        "city": "Hamburg",
+        "longitude": 9.993682,
+        "latitude": 53.551086,
+        "cost": "$$$"
+    },
+    {
+        "name": "Christmas Market in Nuremberg",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Experience the festive spirit and traditional crafts at the Christkindlesmarkt, one of the oldest Christmas markets in the world.",
+        "city": "Nuremberg",
+        "longitude": 11.076750,
+        "latitude": 49.452030,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Island of Rügen",
+        "category": "Leisure",
+        "score": 2,
+        "description": "Visit the chalk cliffs of Rügen, the largest island in Germany, known for its natural beauty and historical resorts.",
+        "city": "Rügen",
+        "longitude": 13.610768,
+        "latitude": 54.440675,
+        "cost": "$$"
+    },
+    {
+        "name": "Automotive Museum in Stuttgart",
+        "category": "Culture",
+        "score": 2,
+        "description": "Delve into the world of automobiles and see the impressive collections at the Mercedes-Benz or Porsche Museum.",
+        "city": "Stuttgart",
+        "longitude": 9.181332,
+        "latitude": 48.775846,
+        "cost": "$$"
+    },
+    {
+        "name": "Sailing on Lake Constance",
+        "category": "Adventure",
+        "score": 1,
+        "description": "Enjoy the serene waters of Lake Constance (Bodensee) and the spectacular views of the Alps on the horizon.",
+        "city": "Lake Constance",
+        "longitude": 9.378000,
+        "latitude": 47.650000,
+        "cost": "$$"
+    }
+]

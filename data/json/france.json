@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Sipping Champagne in the Champagne Region",
+        "category": "Gastronomy",
+        "score": 5,
+        "description": "Experience the exclusivity of tasting authentic Champagne in the picturesque region where it is produced.",
+        "city": "Reims",
+        "longitude": 4.0347,
+        "latitude": 49.2583,
+        "cost": "$$$"
+    },
+    {
+        "name": "Dining at a Michelin Star Restaurant in Paris",
+        "category": "Gastronomy",
+        "score": 5,
+        "description": "Indulge in an unparalleled culinary experience at one of Paris's many Michelin-starred restaurants.",
+        "city": "Paris",
+        "longitude": 2.3522,
+        "latitude": 48.8566,
+        "cost": "$$$$"
+    },
+    {
+        "name": "Exploring the Palace of Versailles",
+        "category": "Culture",
+        "score": 4,
+        "description": "Walk through the opulent halls of the Palace of Versailles, which was once the centre of political power in France.",
+        "city": "Versailles",
+        "longitude": 2.1204,
+        "latitude": 48.8046,
+        "cost": "$$"
+    },
+    {
+        "name": "Skiing in the French Alps",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Hit the slopes in the world-renowned ski resorts of the French Alps, offering some of the best skiing experiences on the planet.",
+        "city": "Chamonix",
+        "longitude": 6.8694,
+        "latitude": 45.9237,
+        "cost": "$$$"
+    },
+    {
+        "name": "Attending a Cooking Class in Lyon",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Learn the art of French cooking in Lyon, considered the gastronomic capital of France.",
+        "city": "Lyon",
+        "longitude": 4.8357,
+        "latitude": 45.7640,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Louvre Museum",
+        "category": "Culture",
+        "score": 3,
+        "description": "See the Mona Lisa and thousands of other masterpieces at the world's most visited museum.",
+        "city": "Paris",
+        "longitude": 2.3364,
+        "latitude": 48.8606,
+        "cost": "$"
+    },
+    {
+        "name": "Wine Tasting in Bordeaux",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Enjoy a variety of wine tasting tours in the Bordeaux region, famous for its vineyards and fine wines.",
+        "city": "Bordeaux",
+        "longitude": -0.5792,
+        "latitude": 44.8378,
+        "cost": "$$"
+    },
+    {
+        "name": "Sunbathing in Nice on the French Riviera",
+        "category": "Leisure",
+        "score": 2,
+        "description": "Relax on the beautiful beaches of Nice or stroll along the Promenade des Anglais.",
+        "city": "Nice",
+        "longitude": 7.2620,
+        "latitude": 43.7102,
+        "cost": "$$"
+    },
+    {
+        "name": "Taking a River Cruise on the Seine",
+        "category": "Leisure",
+        "score": 2,
+        "description": "See the sights of Paris from a different perspective on a scenic river cruise.",
+        "city": "Paris",
+        "longitude": 2.3522,
+        "latitude": 48.8566,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring Mont Saint-Michel",
+        "category": "Culture",
+        "score": 1,
+        "description": "Visit the iconic island commune in Normandy, a UNESCO World Heritage Site.",
+        "city": "Mont Saint-Michel",
+        "longitude": -1.5115,
+        "latitude": 48.6355,
+        "cost": "$$"
+    }
+]
