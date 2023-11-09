@@ -6,13 +6,11 @@
     <style>
         * {
             box-sizing: border-box;
-            margin: 0;
-            padding: 0;
         }
 
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f7f7;
             color: #333;
             line-height: 1.6;
             padding: 20px;
@@ -21,138 +19,201 @@
         h1 {
             text-align: center;
             margin-bottom: 1rem;
-            font-size: 2rem;
+            font-size: 2.5rem;
             color: #333;
         }
 
         p {
             text-align: center;
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
             color: #666;
         }
 
+        .main-content {
+    margin-left: 220px; /* Adjusted to sidebar width + some margin */
+    padding: 20px;
+}
+
         .country-button {
             display: block;
-            width: 90%;
-            max-width: 300px;
-            margin: 10px auto;
-            padding: 10px;
-            background: #fff;
-            border: 1px solid #ddd;
-            color: #333;
+            width: 200px;
+            margin: 20px auto;
+            padding: 15px;
+            background: #0056b3;
+            border: none;
+            color: #fff;
             text-align: center;
             font-size: 18px;
             cursor: pointer;
-            transition: all 0.3s ease;
-            border-radius: 4px;
+            transition: background-color 0.3s ease;
+            border-radius: 20px;
+            text-transform: uppercase;
+            font-weight: 600;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
         }
 
         .country-button:hover {
-            background-color: #e9e9e9;
+            background-color: #003d82;
         }
 
         .country-container {
-            border-radius: 4px;
+            background-color: #fff;
             padding: 20px;
-            margin: 10px auto;
+            margin: 20px auto;
             display: none;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            max-width: 800px;
         }
 
-        .activity {
-            background-color: #fff;
-            color: #333;
-            border-bottom: 1px solid #eee;
-            padding: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            transition: background-color 0.2s ease;
+
+        /* New styles for side panel with buttons */
+        .sidebar {
+            position: fixed; /* Fixed sidebar (stay in place on scroll) */
+            left: 0;
+            top: 0;
+            width: 200px; /* Set the width of the sidebar */
+            height: 100%; /* Full-height sidebar */
+            padding: 20px 10px;
+            background-color: #f1f1f1;
+            overflow-x: hidden; /* Disable horizontal scroll */
         }
 
-        .activity:hover {
-            background-color: #f9f9f9;
-        }
-
-        .visited {
-            background-color: #dff0d8;
-            color: #3c763d;
+        /* Style for the buttons in the sidebar */
+        .country-button {
+            /* ... other styles ... */
+            display: block; /* Full-width sidebar links */
+            width: 100%; /* Full width */
+            margin: 10px 0; /* Add some top and bottom margin */
+            box-shadow: none; /* No shadow for flat design */
+            border-radius: 0; /* Remove border radius for flat design */
+            background-size: cover;
+            background-position: center;
         }
 
         button {
-            padding: 5px 10px;
-            border: 1px solid #ddd;
-            border-radius: 2px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
             cursor: pointer;
             background-color: #f8f8f8;
             color: #333;
-            transition: all 0.3s ease;
+            transition: background-color 0.3s ease;
+            font-size: 14px;
+            font-weight: 600;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
         }
 
         button:hover {
-            background-color: #e9e9e9;
+            background-color: #e2e2e2;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transform: translateY(-2px);
         }
 
         button.visited {
-            border-color: #3c763d;
+            background-color: #4CAF50;
+            color: white;
+            background: linear-gradient(145deg, #34a853, #5cb860);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
-        /* Style for the bucket list table */
+        .visited {
+    background-image: url('assets/images/flags/passport_stamp.png'); /* Path to your stamp image */
+    background-size: cover; /* Resize the background image to cover the button */
+    color: white; /* Change the text color to white or any other contrasting color */
+}
+
         .bucket-list-table {
-            width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
+            width: 100%;
+            text-align: left;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            background: #f7f7f7;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
 
-        .bucket-list-table th,
+        /* Style for table headers with interactive cues */
+        .bucket-list-table th {
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+            position: sticky;
+            top: 0;
+            user-select: none; /* prevent text select when clicking fast */
+            background: linear-gradient(145deg, #006be1, #008fff);
+            transition: background-color 0.3s ease;
+        }
+    
         .bucket-list-table td {
             text-align: left;
-            padding: 12px;
+            padding: 15px;
             border: 1px solid #ddd;
             font-size: 16px;
         }
 
-        .bucket-list-table th {
-            background-color: #4CAF50;
-            color: white;
+        /* Hover effect for table headers */
+        .bucket-list-table th:hover {
+            background-color: #0056b3;
+            background: linear-gradient(145deg, #004da1, #006bd1);
         }
 
+ 
+        /* Improved table row styling */
         .bucket-list-table tr:nth-child(even) {
-            background-color: #f2f2f2;
+            background-color: #f0f0f0;
         }
 
         .bucket-list-table tr:hover {
-            background-color: #ddd;
+            background-color: #e7f3fe;
+            transition: background-color 0.3s ease;
         }
-    </style>
+
+
+    </style><link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    
 </head>
 <body>
+    <!-- Sidebar with country buttons -->
+    <div class="sidebar">
+        <!-- Sidebar buttons will trigger displaying the content in the main area -->
+        <button class="country-button" onclick="toggleCountry('Germany')" style="background-image: url('assets/images/flags/germany_flag.png');">Germany</button>
+        <button class="country-button" onclick="toggleCountry('France')" style="background-image: url('assets/images/flags/france_flag.png');">France</button>
+        <button class="country-button" onclick="toggleCountry('Italy')" style="background-image: url('assets/images/flags/italy_flag.png');">Italy</button>
+        <!-- Add more buttons as needed -->
+    </div>
 
-<h1>Welcome to My Travel Blog</h1>
-<p>Explore my bucket list by selecting a country below.</p>
+    <!-- Main content area where the country's bucket list and map will be displayed -->
+    <div class="main-content">
+        <h1>So much world to see</h1>
 
-<button class="country-button" onclick="toggleCountry('Germany')">Germany</button>
-<div id="Germany" class="country-container"></div>
-
-<button class="country-button" onclick="toggleCountry('France')">France</button>
-<div id="France" class="country-container"></div>
-
-<button class="country-button" onclick="toggleCountry('Italy')">Italy</button>
-<div id="Italy" class="country-container"></div>
-
-
-<script>
-    // Function to fetch bucket list for a given country from an external JSON file
-    function fetchBucketList(country) {
-        fetch(`data/json/${country.toLowerCase()}.json`)
-            .then(response => response.json())
-            .then(data => renderBucketList(country, data))
-            .catch(error => console.error('Fetching error: ', error));
-    }
-
-    // Function to render the bucket list in HTML
-    function renderBucketList(country, bucketList) {
+        <!-- Content containers for each country's bucket list -->
+        <div id="Germany" class="country-container" style="display: none;"></div>
+        <div id="France" class="country-container" style="display: none;"></div>
+        <div id="Italy" class="country-container" style="display: none;"></div>
+    </div>
+    
+    <script>
+        // Function to fetch bucket list for a given country from an external JSON file
+        function fetchBucketList(country) {
+            fetch(`data/json/${country.toLowerCase()}.json`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => renderBucketList(country, data))
+                .catch(error => console.error('Fetching error: ', error));
+        }
+    
+        // Function to render the bucket list in HTML
+function renderBucketList(country, bucketList) {
     var container = document.getElementById(country);
     container.innerHTML = ''; // Clear existing content
 
@@ -165,26 +226,30 @@
     // Create header row
     var headerRow = document.createElement('tr');
     headerRow.innerHTML = `
-        <th>Activity</th>
-        <th>Location</th>
-        <th>Description</th>
+        <th>Name</th>
+        <th>Category</th>
+        <th>City</th>
+        <th>Cost</th>
         <th>Score</th>
+        <th>Description</th>
         <th>Status</th>
     `;
     thead.appendChild(headerRow);
 
     // Append activities to the table body
-    bucketList.forEach(function(bucketListItem) { // Rename the variable here to avoid conflict
+    bucketList.forEach(function(bucketListItem) {
         var activityRow = document.createElement('tr');
         activityRow.innerHTML = `
-    <td>${bucketListItem.activity}</td>
-    <td>${bucketListItem.location}</td>
-    <td>${bucketListItem.description}</td>
-    <td>${bucketListItem.bucket_list_score}</td>
-    <td>
-        <button onclick="toggleVisited(this, ${bucketListItem.id})">Not Visited</button>
-    </td>
-`;
+            <td>${bucketListItem.name}</td>
+            <td>${bucketListItem.category}</td>
+            <td>${bucketListItem.city}</td>
+            <td>${bucketListItem.cost}</td>
+            <td>${bucketListItem.score}</td>
+            <td>${bucketListItem.description}</td>
+            <td>
+                <button onclick="toggleVisited(this, '${bucketListItem.id}')">Not Visited</button>
+            </td>
+        `;
         tbody.appendChild(activityRow);
     });
 
@@ -194,66 +259,74 @@
     container.appendChild(table);
 }
 
-
-    // Function to toggle the visited state
-    function toggleVisited(button, id) {
-        button.classList.toggle('visited');
-        button.textContent = button.classList.contains('visited') ? 'Visited' : 'Not Visited';
+    
+        // Function to toggle the visited state and change button background
+function toggleVisited(button, id) {
+    button.classList.toggle('visited');
+    if (button.classList.contains('visited')) {
+        button.textContent = 'Visited';
+        button.style.backgroundImage = "url('assets/images/flags/passport_stamp.png)";
+        button.style.color = "white"; // Change text color for better visibility
+    } else {
+        button.textContent = 'Not Visited';
+        button.style.backgroundImage = "none";
+        button.style.color = "black"; // Revert text color back to default
     }
+}
 
-    // Function to show/hide the bucket list for a country
-    function toggleCountry(country) {
-        var container = document.getElementById(country);
-        var isVisible = container.style.display === 'block';
-        container.style.display = isVisible ? 'none' : 'block';
-        if (!isVisible) {
-            fetchBucketList(country); // Fetch content when showing the container
+        // Function to show/hide the bucket list for a country
+        function toggleCountry(country) {
+    // Hide all country containers
+    var containers = document.querySelectorAll('.country-container');
+    containers.forEach(function(container) {
+        container.style.display = 'none';
+    });
+
+    // Show the selected country's container
+    var selectedContainer = document.getElementById(country);
+    selectedContainer.style.display = 'block';
+    
+    // Fetch content when showing the container
+    fetchBucketList(country);
+}
+
+// Add new function to sort the table by column
+function sortTableByColumn(table, column, asc = true) {
+            const dirModifier = asc ? 1 : -1;
+            const tBody = table.tBodies[0];
+            const rows = Array.from(tBody.querySelectorAll('tr'));
+
+            // Sort each row
+            const sortedRows = rows.sort((a, b) => {
+                const aColText = a.querySelector(`td:nth-child(${column + 1})`).textContent.trim();
+                const bColText = b.querySelector(`td:nth-child(${column + 1})`).textContent.trim();
+
+                return aColText > bColText ? (1 * dirModifier) : (-1 * dirModifier);
+            });
+            // Remove all existing TRs from the table
+            while (tBody.firstChild) {
+                tBody.removeChild(tBody.firstChild);
+            }
+
+            // Re-add the newly sorted rows
+            tBody.append(...sortedRows);
+
+            // Remember how the column is currently sorted
+            table.querySelectorAll('th').forEach(th => th.classList.remove('th-sort-asc', 'th-sort-desc'));
+            table.querySelector(`th:nth-child(${column + 1})`).classList.toggle('th-sort-asc', asc);
+            table.querySelector(`th:nth-child(${column + 1})`).classList.toggle('th-sort-desc', !asc);
         }
-    }
 
-    // Modified function to render the bucket list in a table format
-    function renderBucketList(country, bucketList) {
-        var container = document.getElementById(country);
-        container.innerHTML = ''; // Clear existing content
+        document.querySelectorAll('.bucket-list-table th').forEach(headerCell => {
+            headerCell.addEventListener('click', () => {
+                const tableElement = headerCell.parentElement.parentElement.parentElement;
+                const headerIndex = Array.prototype.indexOf.call(headerCell.parentElement.children, headerCell);
+                const currentIsAscending = headerCell.classList.contains('th-sort-asc');
 
-        // Create table elements
-        var table = document.createElement('table');
-        table.className = 'bucket-list-table';
-        var thead = document.createElement('thead');
-        var tbody = document.createElement('tbody');
-
-        // Create header row
-        var headerRow = document.createElement('tr');
-        headerRow.innerHTML = `
-            <th>Activity</th>
-            <th>Location</th>
-            <th>Description</th>
-            <th>Score</th>
-            <th>Status</th>
-        `;
-        thead.appendChild(headerRow);
-
-        // Append activities to the table body
-        bucketList.forEach(function(activity) {
-            var activityRow = document.createElement('tr');
-            activityRow.innerHTML = `
-                <td>${activity.activity}</td>
-                <td>${activity.location}</td>
-                <td>${activity.description}</td>
-                <td>${activity.bucket_list_score}</td>
-                <td>
-                    <button onclick="toggleVisited(this, ${activity.id})">Not Visited</button>
-                </td>
-            `;
-            tbody.appendChild(activityRow);
+                sortTableByColumn(tableElement, headerIndex, !currentIsAscending);
+            });
         });
 
-        // Append thead and tbody to table
-        table.appendChild(thead);
-        table.appendChild(tbody);
-        container.appendChild(table);
-    }
-</script>
 
-</body>
-</html>
+    </script>
+    
