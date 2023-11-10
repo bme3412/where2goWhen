@@ -91,87 +91,130 @@
             background-size: cover;
             background-position: center;
         }
-
         button {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 20px;
-            cursor: pointer;
-            background-color: #f8f8f8;
-            color: #333;
-            transition: background-color 0.3s ease;
-            font-size: 14px;
-            font-weight: 600;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-            transition: box-shadow 0.3s ease, transform 0.3s ease;
-        }
-
-        button:hover {
-            background-color: #e2e2e2;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-            transform: translateY(-2px);
-        }
-
-        button.visited {
-            background-color: #4CAF50;
-            color: white;
-            background: linear-gradient(145deg, #34a853, #5cb860);
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
-        .visited {
-    background-image: url('assets/images/flags/passport_stamp.png'); /* Path to your stamp image */
-    background-size: cover; /* Resize the background image to cover the button */
-    color: white; /* Change the text color to white or any other contrasting color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #f8f8f8;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    position: relative; /* Position relative to allow absolute positioning inside */
+    overflow: visible; /* Let the ::after content overflow */
 }
 
-        .bucket-list-table {
-            border-collapse: collapse;
-            margin-top: 20px;
-            width: 100%;
-            text-align: left;
-            position: relative;
-            overflow: hidden;
-            border-radius: 10px;
-            background: #f7f7f7;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
+button:hover {
+    background-color: #e2e2e2;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+}
 
-        /* Style for table headers with interactive cues */
-        .bucket-list-table th {
-            cursor: pointer;
-            background-color: #007bff;
-            color: white;
-            font-size: 16px;
-            position: sticky;
-            top: 0;
-            user-select: none; /* prevent text select when clicking fast */
-            background: linear-gradient(145deg, #006be1, #008fff);
-            transition: background-color 0.3s ease;
-        }
-    
-        .bucket-list-table td {
-            text-align: left;
-            padding: 15px;
-            border: 1px solid #ddd;
-            font-size: 16px;
-        }
+button.visited::after {
+    content: ''; /* Needed to generate the box */
+    position: absolute;
+    top: 50%; /* Center the image */
+    left: 50%;
+    width: 150px; /* Your desired width */
+    height: 150px; /* Your desired height */
+    transform: translate(-50%, -50%); /* Center the pseudo-element */
+    background-image: url('assets/images/flags/passport_stamp.png');
+    background-size: contain; /* Contain the image within the pseudo-element */
+    background-repeat: no-repeat;
+    z-index: 10; /* Make sure it's above the button */
+}
 
-        /* Hover effect for table headers */
-        .bucket-list-table th:hover {
-            background-color: #0056b3;
-            background: linear-gradient(145deg, #004da1, #006bd1);
-        }
+button.visited {
+    color: transparent; /* Make the button text transparent when visited */
+    background-color: transparent; /* Optional: Make the button background transparent */
+    box-shadow: none; /* Optional: Remove the shadow if desired */
+}
 
- 
-        /* Improved table row styling */
-        .bucket-list-table tr:nth-child(even) {
-            background-color: #f0f0f0;
-        }
 
-        .bucket-list-table tr:hover {
-            background-color: #e7f3fe;
-            transition: background-color 0.3s ease;
-        }
+
+.bucket-list-table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: calc(100% - 40px); /* Adjusting width to account for padding */
+    text-align: left;
+    border-radius: 10px; /* Rounded corners for the table */
+    background: #ffffff; /* White background for the table */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Subtle shadow for depth */
+    overflow: hidden; /* Ensures the border radius clips the content */
+}
+
+.bucket-list-table th,
+.bucket-list-table td {
+    padding: 12px 15px; /* Uniform padding for cells */
+    border-bottom: 1px solid #dddddd; /* Light border for cell separation */
+}
+
+/* Header styles */
+.bucket-list-table th {
+    background-color: #007bff; /* Header background */
+    color: white;
+    font-size: 16px;
+    position: sticky; /* Ensures header sticks at the top */
+    top: 0;
+    user-select: none; /* Disable text selection on headers */
+}
+
+        /* Interactive cues for sortable headers */
+.bucket-list-table th.sortable:hover {
+    background-color: #0056b3; /* Darker shade on hover for interaction */
+    cursor: pointer; /* Changes cursor to signify clickable headers */
+}
+
+/* Hover effect for table rows */
+.bucket-list-table tr:hover:not(:first-child) {
+    background-color: #f2f2f2; /* Light grey background on hover for rows */
+}
+
+/* Removing the last border for a cleaner look */
+.bucket-list-table tr:last-child td {
+    border-bottom: none;
+}
+/* Zebra striping for rows */
+.bucket-list-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Make table headers non-selectable */
+.bucket-list-table th {
+    user-select: none;
+}
+
+/* Ensuring that the sticky table header has a backdrop */
+.bucket-list-table th {
+    background-color: #007bff;
+    z-index: 1;
+}
+.continent-button {
+    display: block;
+    width: 100%;
+    padding: 20px; /* Increase padding to make button bigger */
+    margin-bottom: 10px;
+    background: url('assets/images/flags/europe_flag.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px; /* Increase font size for bigger appearance */
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adjust for aesthetic */
+    /* Other styles remain the same */
+}
+
+.continent-button:hover {
+    background-color: #3e8e41; /* This will affect the color overlay on hover */
+    /* Add this line if you want to keep the image visible on hover */
+    background-image: url('assets/images/flags/europe_flag.png');
+}
+
 
 
     </style><link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
@@ -181,11 +224,24 @@
 <body>
     <!-- Sidebar with country buttons -->
     <div class="sidebar">
-        <!-- Sidebar buttons will trigger displaying the content in the main area -->
+        <!-- Europe button -->
+        <button class="continent-button" onclick="toggleContinent('Europe')">Europe</button>
+    <!-- Europe country buttons, initially hidden -->
+    <div id="Europe-country-buttons" class="country-buttons" style="display: none;">
         <button class="country-button" onclick="toggleCountry('Germany')" style="background-image: url('assets/images/flags/germany_flag.png');">Germany</button>
         <button class="country-button" onclick="toggleCountry('France')" style="background-image: url('assets/images/flags/france_flag.png');">France</button>
         <button class="country-button" onclick="toggleCountry('Italy')" style="background-image: url('assets/images/flags/italy_flag.png');">Italy</button>
         <!-- Add more buttons as needed -->
+    </div>
+        <!-- Latin America button -->
+        <button class="continent-button" onclick="toggleContinent('LatinAmerica')" style="background-image: url('assets/images/flags/latin_america_flag.png');">Latin America</button>
+
+        <div id="LatinAmerica-country-buttons" style="display: none;">
+            <!-- Add buttons for Latin American countries here -->
+            <button class="country-button" onclick="toggleCountry('Brazil')"style="background-image: url('assets/images/flags/brazil_flag.png');">Brazil</button>
+            <button class="country-button" onclick="toggleCountry('Argentina')"style="background-image: url('assets/images/flags/argentina_flag.png');">Argentina</button>
+            <button class="country-button" onclick="toggleCountry('Peru')"style="background-image: url('assets/images/flags/peru_flag.png');">Peru</button>
+        </div>
     </div>
 
     <!-- Main content area where the country's bucket list and map will be displayed -->
@@ -199,6 +255,23 @@
     </div>
     
     <script>
+        // JavaScript to toggle continents and countries
+        function toggleContinent(continent) {
+    // Find all the country-buttons divs
+    var allCountryButtons = document.querySelectorAll('.country-buttons');
+    // Loop through all the divs and hide them
+    allCountryButtons.forEach(function(div) {
+        // If the div is not the one that should be toggled, hide it
+        if (div.id !== continent + '-country-buttons') {
+            div.style.display = 'none';
+        }
+    });
+
+    // Toggle the display of the clicked continent's country buttons
+    var continentButtonsDiv = document.getElementById(continent + '-country-buttons');
+    continentButtonsDiv.style.display = continentButtonsDiv.style.display === 'none' ? 'block' : 'none';
+}
+        
         // Function to fetch bucket list for a given country from an external JSON file
         function fetchBucketList(country) {
             fetch(`data/json/${country.toLowerCase()}.json`)
@@ -261,35 +334,75 @@ function renderBucketList(country, bucketList) {
 
     
         // Function to toggle the visited state and change button background
-function toggleVisited(button, id) {
+        function toggleVisited(button, id) {
     button.classList.toggle('visited');
     if (button.classList.contains('visited')) {
         button.textContent = 'Visited';
-        button.style.backgroundImage = "url('assets/images/flags/passport_stamp.png)";
-        button.style.color = "white"; // Change text color for better visibility
     } else {
         button.textContent = 'Not Visited';
-        button.style.backgroundImage = "none";
-        button.style.color = "black"; // Revert text color back to default
     }
 }
+ // Function to fetch weather data using OpenWeatherMap API
 
+
+ function get_weather(api_key, city) {
+        const base_url = "http://api.openweathermap.org/data/2.5/weather?";
+        const complete_url = `${base_url}appid=${api_key}&q=${city}&units=imperial`;
+
+        return fetch(complete_url)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const temperature = data['main']['temp'];
+                const weather_condition = data['weather'][0]['description'];
+                return `The current temperature in ${city} is ${temperature}°C with ${weather_condition}`;
+            })
+            .catch(error => {
+                console.error('Fetch operation failed:', error);
+                return "Weather data not available";
+            });
+    }
         // Function to show/hide the bucket list for a country
-        function toggleCountry(country) {
+function toggleCountry(country) {
     // Hide all country containers
     var containers = document.querySelectorAll('.country-container');
     containers.forEach(function(container) {
         container.style.display = 'none';
     });
 
-    // Show the selected country's container
+    // Define selectedContainer before using it
     var selectedContainer = document.getElementById(country);
+
+    // Fetch and display weather data for the selected country
+    const apiKey = 'b8c7d88227a34aa268f693c64f746122'; // Replace with your actual API key
+    const majorCity = getMajorCity(country); // Function to get major city based on country
+    get_weather(apiKey, majorCity).then(weatherInfo => {
+        const weatherContainer = document.createElement('div');
+        weatherContainer.innerHTML = `<p>${weatherInfo}</p>`;
+        selectedContainer.appendChild(weatherContainer);
+    });
+
+    // Show the selected country's container
     selectedContainer.style.display = 'block';
-    
+
     // Fetch content when showing the container
     fetchBucketList(country);
 }
 
+
+function getMajorCity(country) {
+        const cityMap = {
+            'Germany': 'Berlin',
+            'France': 'Paris',
+            'Italy': 'Rome',
+            // Add more countries and cities as needed
+        };
+        return cityMap[country] || 'London'; // Default to London if country not in map
+    }
 // Add new function to sort the table by column
 function sortTableByColumn(table, column, asc = true) {
             const dirModifier = asc ? 1 : -1;
