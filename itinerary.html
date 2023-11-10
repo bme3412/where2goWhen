@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>European Trip Itinerary Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f3f3f3;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        label, select, input {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        #itineraryResult {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>European Trip Itinerary Generator</h1>
+        <form id="itineraryForm">
+            <label for="country">Choose a country:</label>
+            <select id="country" name="country">
+                <option value="Portugal">Portugal</option>
+                <option value="Spain">Spain</option>
+                <option value="France">France</option>
+                <!-- Add more European countries -->
+            </select>
+            <label for="days">Number of days:</label>
+            <input type="number" id="days" name="days" min="1" max="30">
+            <label>Preferred activities:</label>
+            <input type="checkbox" id="culture" name="activities" value="Culture">
+            <label for="culture">Culture</label>
+            <input type="checkbox" id="adventure" name="activities" value="Adventure">
+            <label for="adventure">Adventure</label>
+            <input type="checkbox" id="relaxation" name="activities" value="Relaxation">
+            <label for="relaxation">Relaxation</label>
+            <!-- Add more activity types -->
+            <input type="submit" value="Generate Itinerary">
+        </form>
+
+        <div id="itineraryResult">
+            <!-- The itinerary will be displayed here -->
+        </div>
+    </div>
+
+    <script>
+         // Event listener for the form submission
+document.getElementById('itineraryForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const country = document.getElementById('country').value;
+    const activities = Array.from(document.querySelectorAll('input[name="activities"]:checked')).map(el => el.value);
+
+    let itineraryResult;
+    if (country === "France") {
+        itineraryResult = generateParisItinerary(activities);
+    } else {
+        // Placeholder for other countries' logic
+        itineraryResult = { morning: [], afternoon: [], evening: [] };
+    }
+
+    // Displaying the itinerary
+    document.getElementById('itineraryResult').innerHTML = generateItineraryDisplay(itineraryResult);
+});
+
+// Function to generate the Paris itinerary
+function generateParisItinerary(userPreferences) {
+    let itinerary = {
+        morning: ["Louvre Museum", "Coffee at a nearby café"],
+        afternoon: ["Stroll through the Tuileries Garden"],
+        evening: ["Dinner in the Latin Quarter", "Visit to the Eiffel Tower"]
+    };
+
+    if (userPreferences.includes("Cultural")) {
+        itinerary.afternoon.push("Visit the Orsay Museum");
+    } else {
+        itinerary.afternoon.push("Boat cruise on the Seine");
+    }
+
+    return itinerary;
+}
+
+// Function to generate HTML display for the itinerary
+function generateItineraryDisplay(itinerary) {
+    let htmlContent = `<h2>Your Itinerary</h2>`;
+
+    Object.keys(itinerary).forEach(partOfDay => {
+        htmlContent += `<h3>${partOfDay.charAt(0).toUpperCase() + partOfDay.slice(1)}</h3><ul>`;
+        itinerary[partOfDay].forEach(activity => {
+            htmlContent += `<li>${activity}</li>`;
+        });
+        htmlContent += `</ul>`;
+    });
+
+    return htmlContent;
+}
+
+    </script>
+</body>
+</html>
