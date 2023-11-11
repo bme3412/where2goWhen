@@ -1,313 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Bucket List</title>
     <style>
-        * {
-            box-sizing: border-box;
-        }
+      * {
+        box-sizing: border-box;
+      }
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f7f7f7;
-            color: #333;
-            line-height: 1.6;
-            padding: 20px;
-        }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f7f7f7;
+        color: #333;
+        line-height: 1.6;
+        padding: 20px;
+      }
 
-        h1 {
-            text-align: center;
-            margin-bottom: 1rem;
-            font-size: 2.5rem;
-            color: #333;
-        }
+      h1 {
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+        color: #333;
+      }
 
-        p {
-            text-align: center;
-            margin-bottom: 2rem;
-            font-size: 1.1rem;
-            color: #666;
-        }
+      p {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+        color: #666;
+      }
 
-        .main-content {
-    margin-left: 220px; /* Adjusted to sidebar width + some margin */
-    padding: 20px;
-}
+      .main-content {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 200px; /* Shift the main content to the right of the sidebar */
+        width: calc(100% - 200px);
+      }
 
-        .country-button {
-            display: block;
-            width: 200px;
-            margin: 20px auto;
-            padding: 15px;
-            background: #0056b3;
-            border: none;
-            color: #fff;
-            text-align: center;
-            font-size: 18px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-            border-radius: 20px;
-            text-transform: uppercase;
-            font-weight: 600;
-            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-        }
+      .country-button {
+        display: block;
+        width: 200px;
+        margin: 20px auto;
+        padding: 15px;
+        background: #0056b3;
+        border: none;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border-radius: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+      }
 
-        .country-button:hover {
-            background-color: #003d82;
-        }
+      .country-button:hover {
+        background-color: #003d82;
+      }
 
-        .country-container {
-            background-color: #fff;
-            padding: 20px;
-            margin: 20px auto;
-            display: none;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            max-width: 800px;
-        }
+      /* Style for the country container */
+      .country-container {
+        display: flex;
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: flex-start; /* Align buttons to the start */
+        gap: 10px; /* Space between buttons */
+        margin-right: 20px; /* Space between the container and the map */
+        order: 1; /* Ensure this appears first */
+        flex-grow: 1; /* Allow the container to grow if needed */
+      }
 
+      #map {
+        order: 2; /* Ensure this appears second */
+        width: 50%; /* Adjust the width as per your requirement */
+        height: 400px; /* Adjust the height as per your requirement */
+      }
 
-        /* New styles for side panel with buttons */
-        .sidebar {
-            position: fixed; /* Fixed sidebar (stay in place on scroll) */
-            left: 0;
-            top: 0;
-            width: 200px; /* Set the width of the sidebar */
-            height: 100%; /* Full-height sidebar */
-            padding: 20px 10px;
-            background-color: #f1f1f1;
-            overflow-x: hidden; /* Disable horizontal scroll */
-        }
+      .bucket-list-button {
+        display: block; /* Make buttons block-level for full-width */
+        width: calc(100% - 30px); /* Full width accounting for padding */
+        padding: 15px 15px; /* Uniform padding */
+        margin: 5px 0; /* Minimal vertical space between buttons */
+        border-radius: 5px;
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        border: none;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        background-size: 100% 1000%; /* Scale the background to fit 10 slices */
+        height: 50px; /* Adjust the height as needed */
+        overflow: hidden;
+      }
 
-        /* Style for the buttons in the sidebar */
-        .country-button {
-            /* ... other styles ... */
-            display: block; /* Full-width sidebar links */
-            width: 100%; /* Full width */
-            margin: 10px 0; /* Add some top and bottom margin */
-            box-shadow: none; /* No shadow for flat design */
-            border-radius: 0; /* Remove border radius for flat design */
-            background-size: cover;
-            background-position: center;
-        }
-        button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color: #f8f8f8;
-    color: #333;
-    font-size: 14px;
-    font-weight: 600;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    transition: all 0.3s ease;
-    position: relative; /* Position relative to allow absolute positioning inside */
-    overflow: visible; /* Let the ::after content overflow */
-}
+      .bucket-list-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+      .adventure {
+        background-color: #ff7e67; /* Warm red-orange */
+      }
 
-button:hover {
-    background-color: #e2e2e2;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    transform: translateY(-2px);
-}
+      .culture {
+        background-color: #6ac4ae; /* Soft teal */
+      }
 
-button.visited::after {
-    content: ''; /* Needed to generate the box */
-    position: absolute;
-    top: 50%; /* Center the image */
-    left: 50%;
-    width: 150px; /* Your desired width */
-    height: 150px; /* Your desired height */
-    transform: translate(-50%, -50%); /* Center the pseudo-element */
-    background-image: url('assets/images/flags/passport_stamp.png');
-    background-size: contain; /* Contain the image within the pseudo-element */
-    background-repeat: no-repeat;
-    z-index: 10; /* Make sure it's above the button */
-}
+      .gastronomy {
+        background: linear-gradient(
+          to right,
+          #f2994a,
+          #f2c94c
+        ); /* Warm orange-yellow gradient */
+        color: white; /* White text for contrast */
+        display: flex; /* Use flexbox for layout */
+        align-items: center; /* Vertically center content */
+        justify-content: center; /* Horizontally center text */
+        position: relative; /* Position relative for absolute positioning of the icon */
+        padding-left: 40px; /* Extra padding to accommodate icon */
+      }
+      /* Style for the gastronomy icon inside the button */
+      .gastronomy-icon {
+        position: absolute;
+        left: 10px; /* Position icon to the left */
+        width: 24px; /* Icon size */
+        height: 24px; /* Icon size */
+        background-image: url("assets/images/bucketlist/gastro.png"); /* Replace with the actual URL of the icon */
+        background-size: cover;
+        background-position: center;
+      }
 
-button.visited {
-    color: transparent; /* Make the button text transparent when visited */
-    background-color: transparent; /* Optional: Make the button background transparent */
-    box-shadow: none; /* Optional: Remove the shadow if desired */
-}
+      .leisure {
+        background-color: #7a6ff0; /* Gentle purple */
+      }
 
+      .nature {
+        background-color: #f0e76a; /* Sunny yellow */
+      }
 
+      /* Add more categories with unique gradients here */
 
-.bucket-list-table {
-    border-collapse: collapse;
-    margin: 20px auto;
-    width: calc(100% - 40px); /* Adjusting width to account for padding */
-    text-align: left;
-    border-radius: 10px; /* Rounded corners for the table */
-    background: #ffffff; /* White background for the table */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Subtle shadow for depth */
-    overflow: hidden; /* Ensures the border radius clips the content */
-}
+      .default-category {
+        background-color: #95a5a6; /* Default grey */
+      }
 
-.bucket-list-table th,
-.bucket-list-table td {
-    padding: 12px 15px; /* Uniform padding for cells */
-    border-bottom: 1px solid #dddddd; /* Light border for cell separation */
-}
+      .item-name {
+        font-weight: bold;
+      }
+      .item-city {
+        color: #007bff;
+      }
+      .item-score {
+        color: #28a745;
+      }
+      .item-cost {
+        color: #dc3545;
+      }
 
-/* Header styles */
-.bucket-list-table th {
-    background-color: #007bff; /* Header background */
-    color: white;
-    font-size: 16px;
-    position: sticky; /* Ensures header sticks at the top */
-    top: 0;
-    user-select: none; /* Disable text selection on headers */
-}
+      .bucket-list-button span {
+        display: block;
+        margin: 5px 0;
+      }
+      /* New styles for side panel with buttons */
+      .sidebar {
+        position: fixed; /* Fixed sidebar (stay in place on scroll) */
+        left: 0;
+        top: 0;
+        width: 200px; /* Set the width of the sidebar */
+        height: 100%; /* Full-height sidebar */
+        padding: 20px 10px;
+        background-color: #f1f1f1;
+        overflow-x: hidden; /* Disable horizontal scroll */
+      }
 
-        /* Interactive cues for sortable headers */
-.bucket-list-table th.sortable:hover {
-    background-color: #0056b3; /* Darker shade on hover for interaction */
-    cursor: pointer; /* Changes cursor to signify clickable headers */
-}
+      /* Style for the buttons in the sidebar */
+      .country-button {
+        /* ... other styles ... */
+        display: block; /* Full-width sidebar links */
+        width: 100%; /* Full width */
+        margin: 10px 0; /* Add some top and bottom margin */
+        box-shadow: none; /* No shadow for flat design */
+        border-radius: 0; /* Remove border radius for flat design */
+        background-size: cover;
+        background-position: center;
+      }
 
-/* Hover effect for table rows */
-.bucket-list-table tr:hover:not(:first-child) {
-    background-color: #f2f2f2; /* Light grey background on hover for rows */
-}
+      #Europe-country-buttons {
+        overflow-y: auto;
+        max-height: 300px; /* Adjust based on your design */
+      }
 
-/* Removing the last border for a cleaner look */
-.bucket-list-table tr:last-child td {
-    border-bottom: none;
-}
-/* Zebra striping for rows */
-.bucket-list-table tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
+      .show-all-button {
+        display: block; /* Full-width sidebar links */
+        width: 100%; /* Full width */
+        margin: 10px 0; /* Add some top and bottom margin */
+        box-shadow: none; /* No shadow for flat design */
+        border-radius: 0; /* Remove border radius for flat design */
+        background-size: cover;
+        background-position: center;
+      }
 
-/* Make table headers non-selectable */
-.bucket-list-table th {
-    user-select: none;
-}
+      button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #f8f8f8;
+        color: #333;
+        font-size: 14px;
+        font-weight: 600;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        position: relative; /* Position relative to allow absolute positioning inside */
+        overflow: visible; /* Let the ::after content overflow */
+      }
 
-/* Ensuring that the sticky table header has a backdrop */
-.bucket-list-table th {
-    background-color: #007bff;
-    z-index: 1;
-}
-.continent-button {
-    display: block;
-    width: 100%;
-    padding: 20px; /* Increase padding to make button bigger */
-    margin-bottom: 10px;
-    background: url('assets/images/flags/europe_flag.png') no-repeat center center;
-    background-size: cover;
-    color: white;
-    border: none;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 20px; /* Increase font size for bigger appearance */
-    font-weight: 600;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adjust for aesthetic */
-    /* Other styles remain the same */
-}
+      button:hover {
+        background-color: #e2e2e2;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        transform: translateY(-2px);
+      }
 
-.continent-button:hover {
-    background-color: #3e8e41; /* This will affect the color overlay on hover */
-    /* Add this line if you want to keep the image visible on hover */
-    background-image: url('assets/images/flags/europe_flag.png');
-}
+      button.visited::after {
+        content: ""; /* Needed to generate the box */
+        position: absolute;
+        top: 50%; /* Center the image */
+        left: 50%;
+        width: 150px; /* Your desired width */
+        height: 150px; /* Your desired height */
+        transform: translate(-50%, -50%); /* Center the pseudo-element */
+        background-image: url("assets/images/flags/passport_stamp.png");
+        background-size: contain; /* Contain the image within the pseudo-element */
+        background-repeat: no-repeat;
+        z-index: 10; /* Make sure it's above the button */
+      }
 
+      button.visited {
+        color: transparent; /* Make the button text transparent when visited */
+        background-color: transparent; /* Optional: Make the button background transparent */
+        box-shadow: none; /* Optional: Remove the shadow if desired */
+      }
 
+      .bucket-list-table {
+        border-collapse: collapse;
+        margin: 20px auto;
+        width: calc(100% - 40px); /* Adjusting width to account for padding */
+        text-align: left;
+        border-radius: 10px; /* Rounded corners for the table */
+        background: #ffffff; /* White background for the table */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+        overflow: hidden; /* Ensures the border radius clips the content */
+      }
 
-    </style><link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+      .bucket-list-table th,
+      .bucket-list-table td {
+        padding: 12px 15px; /* Uniform padding for cells */
+        border-bottom: 1px solid #dddddd; /* Light border for cell separation */
+      }
+
+      /* Header styles */
+      .bucket-list-table th {
+        background-color: #007bff; /* Header background */
+        color: white;
+        font-size: 16px;
+        position: sticky; /* Ensures header sticks at the top */
+        top: 0;
+        user-select: none; /* Disable text selection on headers */
+      }
+
+      /* Interactive cues for sortable headers */
+      .bucket-list-table th.sortable:hover {
+        background-color: #0056b3; /* Darker shade on hover for interaction */
+        cursor: pointer; /* Changes cursor to signify clickable headers */
+      }
+
+      /* Hover effect for table rows */
+      .bucket-list-table tr:hover:not(:first-child) {
+        background-color: #f2f2f2; /* Light grey background on hover for rows */
+      }
+
+      /* Removing the last border for a cleaner look */
+      .bucket-list-table tr:last-child td {
+        border-bottom: none;
+      }
+      /* Zebra striping for rows */
+      .bucket-list-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      /* Make table headers non-selectable */
+      .bucket-list-table th {
+        user-select: none;
+      }
+
+      /* Ensuring that the sticky table header has a backdrop */
+      .bucket-list-table th {
+        background-color: #007bff;
+        z-index: 1;
+      }
+      .continent-button {
+        display: block;
+        width: 100%;
+        padding: 20px; /* Increase padding to make button bigger */
+        margin-bottom: 10px;
+        background: url("assets/images/flags/europe_flag.png") no-repeat center
+          center;
+        background-size: cover;
+        color: white;
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 20px; /* Increase font size for bigger appearance */
+        font-weight: 600;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust for aesthetic */
+        /* Other styles remain the same */
+      }
+
+      .continent-button:hover {
+        background-color: #3e8e41; /* This will affect the color overlay on hover */
+        /* Add this line if you want to keep the image visible on hover */
+        background-image: url("assets/images/flags/europe_flag.png");
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    
-</head>
-<body>
+  </head>
+  <body>
     <!-- Sidebar with country buttons -->
     <div class="sidebar">
-        <!-- Europe button -->
-        <button class="continent-button" onclick="toggleContinent('Europe')">Europe</button>
-    <!-- Europe country buttons, initially hidden -->
-    <div id="Europe-country-buttons" class="country-buttons" style="display: none;">
-        <button class="country-button" onclick="toggleCountry('Germany')" style="background-image: url('assets/images/flags/germany_flag.png');">Germany</button>
-        <button class="country-button" onclick="toggleCountry('France')" style="background-image: url('assets/images/flags/france_flag.png');">France</button>
-        <button class="country-button" onclick="toggleCountry('Italy')" style="background-image: url('assets/images/flags/italy_flag.png');">Italy</button>
-        <button class="country-button" onclick="toggleCountry('Spain')" style="background-image: url('assets/images/flags/spain_flag.png');">Spain</button>
-        <button class="country-button" onclick="toggleCountry('Portugal')" style="background-image: url('assets/images/flags/portugal_flag.png');">Portugal</button>
-        <button class="country-button" onclick="toggleCountry('Greece')" style="background-image: url('assets/images/flags/greece_flag.png');">Greece</button>
-        <button class="country-button" onclick="toggleCountry('Sweden')" style="background-image: url('assets/images/flags/sweden_flag.png');">Sweden</button>
-        <button class="country-button" onclick="toggleCountry('Switzerland')" style="background-image: url('assets/images/flags/switzerland_flag.png');">Switzerland</button>
-        <button class="country-button" onclick="toggleCountry('Norway')" style="background-image: url('assets/images/flags/norway_flag.png');">Norway</button>
-        <button class="country-button" onclick="toggleCountry('Finland')" style="background-image: url('assets/images/flags/finland_flag.png');">Finland</button>
-        <button class="country-button" onclick="toggleCountry('Denmark')" style="background-image: url('assets/images/flags/denmark_flag.png');">Denmark</button>
-        <button class="country-button" onclick="toggleCountry('Netherlands')" style="background-image: url('assets/images/flags/netherlands_flag.png');">Netherlands</button>
-        <!-- Add more buttons as needed -->
-    </div>
-        <!-- Latin America button -->
-        <button class="continent-button" onclick="toggleContinent('LatinAmerica')" style="background-image: url('assets/images/flags/latin_america_flag.png');">Latin America</button>
+      <!-- Europe button -->
+      <button class="continent-button" onclick="toggleContinent('Europe')">
+        Europe
+      </button>
+      <!-- Europe country buttons, initially hidden -->
+      <div
+        id="Europe-country-buttons"
+        class="country-buttons"
+        style="display: block; overflow-y: auto; max-height: 300px"
+      >
+        <button
+          class="country-button"
+          onclick="toggleCountry('Germany')"
+          style="background-image: url('assets/images/flags/germany_flag.png')"
+        >
+          Germany
+        </button>
+        <button
+          class="country-button"
+          onclick="toggleCountry('France')"
+          style="background-image: url('assets/images/flags/france_flag.png')"
+        >
+          France
+        </button>
+        <button
+          class="country-button"
+          onclick="toggleCountry('Italy')"
+          style="background-image: url('assets/images/flags/italy_flag.png')"
+        >
+          Italy
+        </button>
+        <button
+          class="country-button"
+          onclick="toggleCountry('Spain')"
+          style="background-image: url('assets/images/flags/spain_flag.png')"
+        >
+          Spain
+        </button>
+        <button
+          class="country-button"
+          onclick="toggleCountry('Portugal')"
+          style="background-image: url('assets/images/flags/portugal_flag.png')"
+        >
+          Portugal
+        </button>
+        <button
+          class="country-button"
+          onclick="toggleCountry('Greece')"
+          style="background-image: url('assets/images/flags/greece_flag.png')"
+        >
+          Greece
+        </button>
+        <button
+          class="country-button"
+          onclick="toggleCountry('Sweden')"
+          style="background-image: url('assets/images/flags/sweden_flag.png')"
+        >
+          Sweden
+        </button>
+        <button
+          class="country-button"
+          onclick="toggleCountry('Switzerland')"
+          style="
+            background-image: url('assets/images/flags/switzerland_flag.png');
+          "
+        >
+          Switzerland
+        </button>
+        <button
+          class="country-button"
+          onclick="toggleCountry('Norway')"
+          style="background-image: url('assets/images/flags/norway_flag.png')"
+        >
+          Norway
+        </button>
+        <button
+          class="country-button"
+          onclick="toggleCountry('Finland')"
+          style="background-image: url('assets/images/flags/finland_flag.png')"
+        >
+          Finland
+        </button>
+        <button
+          class="country-button"
+          onclick="toggleCountry('Denmark')"
+          style="background-image: url('assets/images/flags/denmark_flag.png')"
+        >
+          Denmark
+        </button>
+        <button
+          class="country-button"
+          onclick="toggleCountry('Netherlands')"
+          style="
+            background-image: url('assets/images/flags/netherlands_flag.png');
+          "
+        >
+          Netherlands
+        </button>
 
-        <div id="LatinAmerica-country-buttons" style="display: none;">
-            <!-- Add buttons for Latin American countries here -->
-            <button class="country-button" onclick="toggleCountry('Brazil')"style="background-image: url('assets/images/flags/brazil_flag.png');">Brazil</button>
-            <button class="country-button" onclick="toggleCountry('Argentina')"style="background-image: url('assets/images/flags/argentina_flag.png');">Argentina</button>
-            <button class="country-button" onclick="toggleCountry('Peru')"style="background-image: url('assets/images/flags/peru_flag.png');">Peru</button>
-        </div>
+        <!-- Add more buttons as needed -->
+      </div>
+      <!-- Latin America button -->
+      <button
+        class="continent-button"
+        onclick="toggleContinent('LatinAmerica')"
+        style="
+          background-image: url('assets/images/flags/latin_america_flag.png');
+        "
+      >
+        Latin America
+      </button>
+
+      <div id="LatinAmerica-country-buttons" style="display: none">
+        <!-- Add buttons for Latin American countries here -->
+        <button
+          class="country-button"
+          onclick="toggleCountry('Brazil')"
+          style="background-image: url('assets/images/flags/brazil_flag.png')"
+        >
+          Brazil
+        </button>
+        <button
+          class="country-button"
+          onclick="toggleCountry('Argentina')"
+          style="
+            background-image: url('assets/images/flags/argentina_flag.png');
+          "
+        >
+          Argentina
+        </button>
+        <button
+          class="country-button"
+          onclick="toggleCountry('Peru')"
+          style="background-image: url('assets/images/flags/peru_flag.png')"
+        >
+          Peru
+        </button>
+      </div>
     </div>
 
     <!-- Main content area where the country's bucket list and map will be displayed -->
     <div class="main-content">
-        <h1>So much world to see</h1>
+      <h1></h1>
 
-        <!-- Content containers for each country's bucket list -->
-        <div id="Germany" class="country-container" style="display: none;"></div>
-        <div id="France" class="country-container" style="display: none;"></div>
-        <div id="Italy" class="country-container" style="display: none;"></div>
+      <!-- Content containers for each country's bucket list -->
+      <div id="Germany" class="country-container" style="display: none"></div>
+      <div id="France" class="country-container" style="display: none"></div>
+      <div id="Italy" class="country-container" style="display: none"></div>
+      <div id="Spain" class="country-container" style="display: none"></div>
+      <div id="Portugal" class="country-container" style="display: none"></div>
+      <div id="Greece" class="country-container" style="display: none"></div>
+      <div id="Sweden" class="country-container" style="display: none"></div>
+      <div
+        id="Switzerland"
+        class="country-container"
+        style="display: none"
+      ></div>
+      <div id="Norway" class="country-container" style="display: none"></div>
+      <div id="Finland" class="country-container" style="display: none"></div>
+      <div id="Denmark" class="country-container" style="display: none"></div>
+      <div
+        id="Netherlands"
+        class="country-container"
+        style="display: none"
+      ></div>
+
+      <div id="map" style="height: 400px; width: 50%"></div>
     </div>
-    
+
     <script>
-        // JavaScript to toggle continents and countries
-        function toggleContinent(continent) {
-    // Find all the country-buttons divs
-    var allCountryButtons = document.querySelectorAll('.country-buttons');
-    // Loop through all the divs and hide them
-    allCountryButtons.forEach(function(div) {
-        // If the div is not the one that should be toggled, hide it
-        if (div.id !== continent + '-country-buttons') {
-            div.style.display = 'none';
+      // Function to dynamically load the Google Maps script
+      function loadGoogleMapsApi() {
+        fetch("/api/maps-key") // Fetch the API key from your server endpoint
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.apiKey) {
+              var script = document.createElement("script");
+              script.src = `https://maps.googleapis.com/maps/api/js?key=${data.apiKey}&callback=initMap`;
+              script.async = true;
+              script.defer = true;
+              document.head.appendChild(script);
+            }
+          })
+          .catch((error) => console.error("Error fetching API key:", error));
+      }
+
+      function toggleContinent(continent) {
+        var continentButtonsDiv = document.getElementById(
+          continent + "-country-buttons"
+        );
+
+        if (continent === "Europe") {
+          if (
+            continentButtonsDiv.style.display === "none" ||
+            continentButtonsDiv.style.display === ""
+          ) {
+            // Show the first five buttons and hide the rest
+            showFirstFiveButtons(continentButtonsDiv);
+          } else {
+            // Hide all buttons
+            hideAllButtons(continentButtonsDiv);
+          }
+        } else {
+          // For other continents (if any)
+          continentButtonsDiv.style.display =
+            continentButtonsDiv.style.display === "none" ? "block" : "none";
         }
-    });
+      }
 
-    // Toggle the display of the clicked continent's country buttons
-    var continentButtonsDiv = document.getElementById(continent + '-country-buttons');
-    continentButtonsDiv.style.display = continentButtonsDiv.style.display === 'none' ? 'block' : 'none';
-}
-        
-        // Function to fetch bucket list for a given country from an external JSON file
-        function fetchBucketList(country) {
-            fetch(`data/json/${country.toLowerCase()}.json`)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-                    return response.json();
-                })
-                .then(data => renderBucketList(country, data))
-                .catch(error => console.error('Fetching error: ', error));
+      function showFirstFiveButtons(continentButtonsDiv) {
+        let europeButtons = continentButtonsDiv.children;
+        // Set all buttons to display block
+        for (let i = 0; i < europeButtons.length; i++) {
+          europeButtons[i].style.display = "block";
         }
-    
-        // Function to render the bucket list in HTML
-function renderBucketList(country, bucketList) {
-    var container = document.getElementById(country);
-    container.innerHTML = ''; // Clear existing content
+        continentButtonsDiv.style.display = "block";
+      }
 
-    // Create table elements
-    var table = document.createElement('table');
-    table.className = 'bucket-list-table';
-    var thead = document.createElement('thead');
-    var tbody = document.createElement('tbody');
+      function hideAllButtons(continentButtonsDiv) {
+        let buttons = continentButtonsDiv.children;
+        for (let i = 0; i < buttons.length; i++) {
+          buttons[i].style.display = "none";
+        }
+        continentButtonsDiv.style.display = "none";
+      }
 
-    // Create header row
-    var headerRow = document.createElement('tr');
-    headerRow.innerHTML = `
+      // Function to fetch bucket list for a given country from an external JSON file
+      function fetchBucketList(country) {
+        return fetch(`data/json/${country.toLowerCase()}.json`)
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+          })
+          .then((data) => {
+            // Sort the data by score in descending order
+            return data.sort((a, b) => b.score - a.score);
+          })
+          .catch((error) => {
+            console.error("Fetching error: ", error);
+            return []; // Return an empty array in case of an error
+          });
+      }
+
+      function getCategoryStyle(category) {
+        switch (category) {
+          case "Adventure":
+            return "background-color: #4a90e2; color: white;";
+          case "Culture":
+            return "background-color: #e67e22; color: white;";
+          case "Gastronomy":
+            return "background-color: #2ecc71; color: white;";
+          // Add more categories with their styles here
+          default:
+            return "background-color: #95a5a6; color: white;"; // Default style
+        }
+      }
+
+      // Function to render the bucket list in HTML
+      function renderBucketList(country, bucketList) {
+        var container = document.getElementById(country);
+        container.innerHTML = ""; // Clear existing content
+
+        // Create table elements
+        var table = document.createElement("table");
+        table.className = "bucket-list-table";
+        var thead = document.createElement("thead");
+        var tbody = document.createElement("tbody");
+
+        // Create header row
+        var headerRow = document.createElement("tr");
+        headerRow.innerHTML = `
         <th>Name</th>
         <th>Category</th>
         <th>City</th>
@@ -316,12 +613,12 @@ function renderBucketList(country, bucketList) {
         <th>Description</th>
         <th>Status</th>
     `;
-    thead.appendChild(headerRow);
+        thead.appendChild(headerRow);
 
-    // Append activities to the table body
-    bucketList.forEach(function(bucketListItem) {
-        var activityRow = document.createElement('tr');
-        activityRow.innerHTML = `
+        // Append activities to the table body
+        bucketList.forEach(function (bucketListItem) {
+          var activityRow = document.createElement("tr");
+          activityRow.innerHTML = `
             <td>${bucketListItem.name}</td>
             <td>${bucketListItem.category}</td>
             <td>${bucketListItem.city}</td>
@@ -332,123 +629,207 @@ function renderBucketList(country, bucketList) {
                 <button onclick="toggleVisited(this, '${bucketListItem.id}')">Not Visited</button>
             </td>
         `;
-        tbody.appendChild(activityRow);
-    });
-
-    // Append thead and tbody to table
-    table.appendChild(thead);
-    table.appendChild(tbody);
-    container.appendChild(table);
-}
-
-    
-        // Function to toggle the visited state and change button background
-        function toggleVisited(button, id) {
-    button.classList.toggle('visited');
-    if (button.classList.contains('visited')) {
-        button.textContent = 'Visited';
-    } else {
-        button.textContent = 'Not Visited';
-    }
-}
- // Function to fetch weather data using OpenWeatherMap API
-
-
- function get_weather(api_key, city) {
-        const base_url = "http://api.openweathermap.org/data/2.5/weather?";
-        const complete_url = `${base_url}appid=${api_key}&q=${city}&units=imperial`;
-
-        return fetch(complete_url)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => {
-                const temperature = data['main']['temp'];
-                const weather_condition = data['weather'][0]['description'];
-                return `The current temperature in ${city} is ${temperature}°C with ${weather_condition}`;
-            })
-            .catch(error => {
-                console.error('Fetch operation failed:', error);
-                return "Weather data not available";
-            });
-    }
-        // Function to show/hide the bucket list for a country
-function toggleCountry(country) {
-    // Hide all country containers
-    var containers = document.querySelectorAll('.country-container');
-    containers.forEach(function(container) {
-        container.style.display = 'none';
-    });
-
-    // Define selectedContainer before using it
-    var selectedContainer = document.getElementById(country);
-
-    // Fetch and display weather data for the selected country
-    const apiKey = 'b8c7d88227a34aa268f693c64f746122'; // Replace with your actual API key
-    const majorCity = getMajorCity(country); // Function to get major city based on country
-    get_weather(apiKey, majorCity).then(weatherInfo => {
-        const weatherContainer = document.createElement('div');
-        weatherContainer.innerHTML = `<p>${weatherInfo}</p>`;
-        selectedContainer.appendChild(weatherContainer);
-    });
-
-    // Show the selected country's container
-    selectedContainer.style.display = 'block';
-
-    // Fetch content when showing the container
-    fetchBucketList(country);
-}
-
-
-function getMajorCity(country) {
-        const cityMap = {
-            'Germany': 'Berlin',
-            'France': 'Paris',
-            'Italy': 'Rome',
-            // Add more countries and cities as needed
-        };
-        return cityMap[country] || 'London'; // Default to London if country not in map
-    }
-// Add new function to sort the table by column
-function sortTableByColumn(table, column, asc = true) {
-            const dirModifier = asc ? 1 : -1;
-            const tBody = table.tBodies[0];
-            const rows = Array.from(tBody.querySelectorAll('tr'));
-
-            // Sort each row
-            const sortedRows = rows.sort((a, b) => {
-                const aColText = a.querySelector(`td:nth-child(${column + 1})`).textContent.trim();
-                const bColText = b.querySelector(`td:nth-child(${column + 1})`).textContent.trim();
-
-                return aColText > bColText ? (1 * dirModifier) : (-1 * dirModifier);
-            });
-            // Remove all existing TRs from the table
-            while (tBody.firstChild) {
-                tBody.removeChild(tBody.firstChild);
-            }
-
-            // Re-add the newly sorted rows
-            tBody.append(...sortedRows);
-
-            // Remember how the column is currently sorted
-            table.querySelectorAll('th').forEach(th => th.classList.remove('th-sort-asc', 'th-sort-desc'));
-            table.querySelector(`th:nth-child(${column + 1})`).classList.toggle('th-sort-asc', asc);
-            table.querySelector(`th:nth-child(${column + 1})`).classList.toggle('th-sort-desc', !asc);
-        }
-
-        document.querySelectorAll('.bucket-list-table th').forEach(headerCell => {
-            headerCell.addEventListener('click', () => {
-                const tableElement = headerCell.parentElement.parentElement.parentElement;
-                const headerIndex = Array.prototype.indexOf.call(headerCell.parentElement.children, headerCell);
-                const currentIsAscending = headerCell.classList.contains('th-sort-asc');
-
-                sortTableByColumn(tableElement, headerIndex, !currentIsAscending);
-            });
+          tbody.appendChild(activityRow);
         });
 
+        // Append thead and tbody to table
+        table.appendChild(thead);
+        table.appendChild(tbody);
+        container.appendChild(table);
+      }
 
+      // Function to toggle the visited state and change button background
+      function toggleVisited(button, id) {
+        button.classList.toggle("visited");
+        if (button.classList.contains("visited")) {
+          button.textContent = "Visited";
+        } else {
+          button.textContent = "Not Visited";
+        }
+      }
+
+      function toggleCountry(country) {
+        // Hide all country containers
+        var containers = document.querySelectorAll(".country-container");
+        containers.forEach(function (container) {
+          container.style.display = "none";
+        });
+        var selectedContainer = document.getElementById(country);
+        selectedContainer.innerHTML = ""; // Clear existing content
+        selectedContainer.style.display = "flex"; // Display as flex to align buttons horizontally
+
+        // Fetch bucket list and populate map
+        fetchBucketList(country)
+          .then((bucketList) => {
+            bucketList.forEach((item, index) => {
+              let button = document.createElement("button");
+              button.className = `bucket-list-button ${
+                item.category.toLowerCase() || "default-category"
+              }`;
+              button.style.backgroundImage = `url('assets/images/bucketlist/germany.png')`;
+              button.style.backgroundPosition = `0 ${-100 * index}%`;
+              button.textContent = item.name;
+              button.onclick = () => zoomToLocation(item);
+              selectedContainer.appendChild(button);
+            });
+
+            // Populate map with points from the bucket list
+            plotPointsOnMap(bucketList);
+          })
+          .catch((error) =>
+            console.error("Error fetching bucket list: ", error)
+          );
+      }
+
+      function plotPointsOnMap(bucketList) {
+        clearMarkers(); // Clear existing markers
+
+        var bounds = new google.maps.LatLngBounds();
+        bucketList.forEach((item) => {
+          var position = new google.maps.LatLng(item.latitude, item.longitude);
+          var marker = new google.maps.Marker({
+            position: position,
+            map: map,
+            title: item.name,
+          });
+
+          markers.push(marker); // Add marker to the global array
+          bounds.extend(position); // Extend the bounds for each marker
+        });
+
+        map.fitBounds(bounds); // Adjust the map to new bounds
+      }
+
+      function clearMarkers() {
+        for (let i = 0; i < markers.length; i++) {
+          markers[i].setMap(null);
+        }
+        markers = [];
+      }
+
+      var map;
+      var markers = []; // Global array to store markers
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 6,
+          center: { lat: 48.8566, lng: 2.3522 }, // Example: Center on Paris
+        });
+      }
+      // Fetch the API key from your server
+      fetch("/api/maps-key")
+        .then((response) => response.json())
+        .then((data) => {
+          if (data.apiKey) {
+            loadGoogleMapsApi(data.apiKey);
+          }
+        })
+        .catch((error) => console.error("Error fetching API key:", error));
+      function zoomToLocation(item) {
+        // Define original zoom level to show the entire country
+        const originalZoomLevel = 6; // Adjust as needed for the best country view
+        const detailedZoomLevel = 7; // Closer view zoom level
+
+        // Step 1: Zoom out to the original level
+        map.setZoom(originalZoomLevel);
+
+        // Define the position for the new location
+        const position = new google.maps.LatLng(item.latitude, item.longitude);
+
+        // Step 2: After a short delay, zoom in to the new location
+        setTimeout(() => {
+          map.setCenter(position);
+          map.setZoom(detailedZoomLevel);
+
+          // Reset and highlight markers as needed
+          markers.forEach((marker) => {
+            marker.setIcon(null); // Reset to default icon
+          });
+
+          const selectedMarker = markers.find(
+            (marker) => marker.getTitle() === item.name
+          );
+          if (selectedMarker) {
+            selectedMarker.setIcon(
+              "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+            ); // Change marker icon
+          }
+        }, 500); // Delay in milliseconds (1000 ms = 1 second)
+      }
+
+      function getMajorCity(country) {
+        const cityMap = {
+          Germany: "Berlin",
+          France: "Paris",
+          Italy: "Rome",
+          Spain: "Barcelona",
+          Portugal: "Lisbon",
+          Greece: "Athens",
+          Sweden: "Stockholm",
+          Norway: "Oslo",
+          Finland: "Helsinki",
+          Switzerland: "Bern",
+          Denmark: "Copenhagen",
+          Netherlands: "Amsterdam",
+          Belgium: "Brussels",
+          // Add more countries and cities as needed
+        };
+        return cityMap[country] || "London"; // Default to London if country not in map
+      }
+      // Add new function to sort the table by column
+      function sortTableByColumn(table, column, asc = true) {
+        const dirModifier = asc ? 1 : -1;
+        const tBody = table.tBodies[0];
+        const rows = Array.from(tBody.querySelectorAll("tr"));
+
+        // Sort each row
+        const sortedRows = rows.sort((a, b) => {
+          const aColText = a
+            .querySelector(`td:nth-child(${column + 1})`)
+            .textContent.trim();
+          const bColText = b
+            .querySelector(`td:nth-child(${column + 1})`)
+            .textContent.trim();
+
+          return aColText > bColText ? 1 * dirModifier : -1 * dirModifier;
+        });
+        // Remove all existing TRs from the table
+        while (tBody.firstChild) {
+          tBody.removeChild(tBody.firstChild);
+        }
+
+        // Re-add the newly sorted rows
+        tBody.append(...sortedRows);
+
+        // Remember how the column is currently sorted
+        table
+          .querySelectorAll("th")
+          .forEach((th) => th.classList.remove("th-sort-asc", "th-sort-desc"));
+        table
+          .querySelector(`th:nth-child(${column + 1})`)
+          .classList.toggle("th-sort-asc", asc);
+        table
+          .querySelector(`th:nth-child(${column + 1})`)
+          .classList.toggle("th-sort-desc", !asc);
+      }
+
+      document
+        .querySelectorAll(".bucket-list-table th")
+        .forEach((headerCell) => {
+          headerCell.addEventListener("click", () => {
+            const tableElement =
+              headerCell.parentElement.parentElement.parentElement;
+            const headerIndex = Array.prototype.indexOf.call(
+              headerCell.parentElement.children,
+              headerCell
+            );
+            const currentIsAscending =
+              headerCell.classList.contains("th-sort-asc");
+
+            sortTableByColumn(tableElement, headerIndex, !currentIsAscending);
+          });
+        });
+      loadGoogleMapsApi();
     </script>
-    
+  </body>
+</html>
