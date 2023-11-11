@@ -1,14 +1,24 @@
 const express = require('express');
 const csv = require('csv-parser');
 const fs = require('fs');
-const cors = require('cors');  // Add this line
+const cors = require('cors');
+const dotenv = require('dotenv'); // Add dotenv for environment variables
+
+// Load environment variables
+dotenv.config();
 
 const app = express();
 const PORT = 3000;
 
-app.use(cors());  // Add this line
-app.use('/assets', express.static('/Users/brendan/Desktop - Brendan’s MacBook Air/whereToGoWhen/assets'));
+app.use(cors()); // Enable CORS
+app.use('/assets', express.static("/Users/brendan/Desktop - Brendan’s MacBook Air/whereToGoWhen/assets"));
 
+app.get('/api/maps-key', (req, res) => {
+    res.json({ apiKey: process.env.API_KEY });
+});
+
+
+// Existing endpoint to serve city_photos.csv
 app.get('/data', (req, res) => {
     const results = [];
 
