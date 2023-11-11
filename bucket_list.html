@@ -64,7 +64,7 @@
         display: flex;
         flex-direction: column; /* Stack buttons vertically */
         align-items: flex-start; /* Align buttons to the start */
-        gap: 10px; /* Space between buttons */
+        gap: 1px 0; /* Space between buttons */
         margin-right: 20px; /* Space between the container and the map */
         order: 1; /* Ensure this appears first */
         flex-grow: 1; /* Allow the container to grow if needed */
@@ -79,55 +79,53 @@
       .bucket-list-button {
         display: block; /* Make buttons block-level for full-width */
         width: calc(100% - 30px); /* Full width accounting for padding */
-        padding: 15px 15px; /* Uniform padding */
+        padding: 15px 15px 15px 15px; /* Uniform padding on all sides */
         margin: 5px 0; /* Minimal vertical space between buttons */
         border-radius: 5px;
         cursor: pointer;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-        color: white;
         font-weight: bold;
-        text-align: center;
+        text-align: left; /* Align text to the left */
         border: none;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        background-size: 100% 1000%; /* Scale the background to fit 10 slices */
+        background-size: 100% 1000%; /* Size adjusted for the number of items */
         height: 50px; /* Adjust the height as needed */
         overflow: hidden;
+        position: relative;
+        color: #0000ff; /* Vibrant blue color for text */
+        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+          1px 1px 0 #fff; /* White outline effect */
+        
+        font-weight: 900; /* Maximum boldness */
       }
 
       .bucket-list-button:hover {
         transform: translateY(-2px);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
       }
+
+      .bucket-list-button::after {
+        content: attr(data-text); /* Use a data attribute for the text */
+        position: absolute;
+        left: 15px;
+        bottom: 10px;
+        background: rgba(
+          255,
+          255,
+          255,
+          0.5
+        ); /* Semi-transparent white background */
+        color: #0000ff;
+        padding: 5px;
+        border-radius: 5px;
+      }
+
       .adventure {
         background-color: #ff7e67; /* Warm red-orange */
       }
 
       .culture {
         background-color: #6ac4ae; /* Soft teal */
-      }
-
-      .gastronomy {
-        background: linear-gradient(
-          to right,
-          #f2994a,
-          #f2c94c
-        ); /* Warm orange-yellow gradient */
-        color: white; /* White text for contrast */
-        display: flex; /* Use flexbox for layout */
-        align-items: center; /* Vertically center content */
-        justify-content: center; /* Horizontally center text */
-        position: relative; /* Position relative for absolute positioning of the icon */
-        padding-left: 40px; /* Extra padding to accommodate icon */
-      }
-      /* Style for the gastronomy icon inside the button */
-      .gastronomy-icon {
-        position: absolute;
-        left: 10px; /* Position icon to the left */
-        width: 24px; /* Icon size */
-        height: 24px; /* Icon size */
-        background-image: url("assets/images/bucketlist/gastro.png"); /* Replace with the actual URL of the icon */
-        background-size: cover;
-        background-position: center;
       }
 
       .leisure {
@@ -503,19 +501,12 @@
 
     <script>
       // Function to dynamically load the Google Maps script
-      function loadGoogleMapsApi() {
-        fetch("/api/maps-key") // Fetch the API key from your server endpoint
-          .then((response) => response.json())
-          .then((data) => {
-            if (data.apiKey) {
-              var script = document.createElement("script");
-              script.src = `https://maps.googleapis.com/maps/api/js?key=${data.apiKey}&callback=initMap`;
-              script.async = true;
-              script.defer = true;
-              document.head.appendChild(script);
-            }
-          })
-          .catch((error) => console.error("Error fetching API key:", error));
+      function loadGoogleMapsApi(apiKey) {
+        var script = document.createElement("script");
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initMap`;
+        script.async = true;
+        script.defer = true;
+        document.head.appendChild(script);
       }
 
       function toggleContinent(continent) {
@@ -638,16 +629,6 @@
         container.appendChild(table);
       }
 
-      // Function to toggle the visited state and change button background
-      function toggleVisited(button, id) {
-        button.classList.toggle("visited");
-        if (button.classList.contains("visited")) {
-          button.textContent = "Visited";
-        } else {
-          button.textContent = "Not Visited";
-        }
-      }
-
       function toggleCountry(country) {
         // Hide all country containers
         var containers = document.querySelectorAll(".country-container");
@@ -659,26 +640,33 @@
         selectedContainer.style.display = "flex"; // Display as flex to align buttons horizontally
 
         // Fetch bucket list and populate map
+        // Fetch bucket list and populate map
         fetchBucketList(country)
           .then((bucketList) => {
+            bucketList.sort((a, b) => b.score - a.score);
+            const numItems = bucketList.length;
             bucketList.forEach((item, index) => {
               let button = document.createElement("button");
               button.className = `bucket-list-button ${
                 item.category.toLowerCase() || "default-category"
               }`;
-              button.style.backgroundImage = `url('assets/images/bucketlist/germany.png')`;
-              button.style.backgroundPosition = `0 ${-100 * index}%`;
-              button.textContent = item.name;
+
+              let countryImage = `assets/images/bucketlist/${country.toLowerCase()}.png`;
+              button.style.backgroundImage = `url('${countryImage}')`;
+              button.style.backgroundSize = `100% ${numItems * 100}%`;
+              button.style.backgroundPosition = `0% ${
+                index * (100 / numItems)
+              }%`;
+              button.textContent = item.name; // Directly set the text content
+
               button.onclick = () => zoomToLocation(item);
               selectedContainer.appendChild(button);
             });
-
-            // Populate map with points from the bucket list
             plotPointsOnMap(bucketList);
           })
-          .catch((error) =>
-            console.error("Error fetching bucket list: ", error)
-          );
+          .catch((error) => {
+            console.error("Error fetching bucket list: ", error);
+          });
       }
 
       function plotPointsOnMap(bucketList) {
@@ -710,38 +698,42 @@
       var map;
       var markers = []; // Global array to store markers
 
+      // Initialization function for the map
       function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {
           zoom: 6,
-          center: { lat: 48.8566, lng: 2.3522 }, // Example: Center on Paris
+          center: { lat: 48.8566, lng: 2.3522 }, // Center on Paris
         });
       }
-      // Fetch the API key from your server
-      fetch("/api/maps-key")
-        .then((response) => response.json())
-        .then((data) => {
-          if (data.apiKey) {
-            loadGoogleMapsApi(data.apiKey);
-          }
-        })
-        .catch((error) => console.error("Error fetching API key:", error));
+
+      // Function to fetch the API key and load the Google Maps script
+      function fetchAndLoadGoogleMapsApi() {
+        fetch("http://localhost:3000/api/maps-key")
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.apiKey) {
+              loadGoogleMapsApi(data.apiKey);
+            }
+          })
+          .catch((error) => console.error("Error fetching API key:", error));
+      }
+      // Function to zoom to a specific location
       function zoomToLocation(item) {
-        // Define original zoom level to show the entire country
-        const originalZoomLevel = 6; // Adjust as needed for the best country view
+        const originalZoomLevel = 6; // Original zoom level for the entire country view
         const detailedZoomLevel = 7; // Closer view zoom level
 
-        // Step 1: Zoom out to the original level
+        // Zoom out to the original level
         map.setZoom(originalZoomLevel);
 
         // Define the position for the new location
         const position = new google.maps.LatLng(item.latitude, item.longitude);
 
-        // Step 2: After a short delay, zoom in to the new location
+        // Zoom in to the new location after a short delay
         setTimeout(() => {
           map.setCenter(position);
           map.setZoom(detailedZoomLevel);
 
-          // Reset and highlight markers as needed
+          // Reset and highlight markers
           markers.forEach((marker) => {
             marker.setIcon(null); // Reset to default icon
           });
@@ -756,80 +748,12 @@
           }
         }, 500); // Delay in milliseconds (1000 ms = 1 second)
       }
+      // Global variable for the map
+      var map;
+      var markers = []; // Global array to store markers
 
-      function getMajorCity(country) {
-        const cityMap = {
-          Germany: "Berlin",
-          France: "Paris",
-          Italy: "Rome",
-          Spain: "Barcelona",
-          Portugal: "Lisbon",
-          Greece: "Athens",
-          Sweden: "Stockholm",
-          Norway: "Oslo",
-          Finland: "Helsinki",
-          Switzerland: "Bern",
-          Denmark: "Copenhagen",
-          Netherlands: "Amsterdam",
-          Belgium: "Brussels",
-          // Add more countries and cities as needed
-        };
-        return cityMap[country] || "London"; // Default to London if country not in map
-      }
-      // Add new function to sort the table by column
-      function sortTableByColumn(table, column, asc = true) {
-        const dirModifier = asc ? 1 : -1;
-        const tBody = table.tBodies[0];
-        const rows = Array.from(tBody.querySelectorAll("tr"));
-
-        // Sort each row
-        const sortedRows = rows.sort((a, b) => {
-          const aColText = a
-            .querySelector(`td:nth-child(${column + 1})`)
-            .textContent.trim();
-          const bColText = b
-            .querySelector(`td:nth-child(${column + 1})`)
-            .textContent.trim();
-
-          return aColText > bColText ? 1 * dirModifier : -1 * dirModifier;
-        });
-        // Remove all existing TRs from the table
-        while (tBody.firstChild) {
-          tBody.removeChild(tBody.firstChild);
-        }
-
-        // Re-add the newly sorted rows
-        tBody.append(...sortedRows);
-
-        // Remember how the column is currently sorted
-        table
-          .querySelectorAll("th")
-          .forEach((th) => th.classList.remove("th-sort-asc", "th-sort-desc"));
-        table
-          .querySelector(`th:nth-child(${column + 1})`)
-          .classList.toggle("th-sort-asc", asc);
-        table
-          .querySelector(`th:nth-child(${column + 1})`)
-          .classList.toggle("th-sort-desc", !asc);
-      }
-
-      document
-        .querySelectorAll(".bucket-list-table th")
-        .forEach((headerCell) => {
-          headerCell.addEventListener("click", () => {
-            const tableElement =
-              headerCell.parentElement.parentElement.parentElement;
-            const headerIndex = Array.prototype.indexOf.call(
-              headerCell.parentElement.children,
-              headerCell
-            );
-            const currentIsAscending =
-              headerCell.classList.contains("th-sort-asc");
-
-            sortTableByColumn(tableElement, headerIndex, !currentIsAscending);
-          });
-        });
-      loadGoogleMapsApi();
+      // Call the function to start the process
+      fetchAndLoadGoogleMapsApi();
     </script>
   </body>
 </html>
