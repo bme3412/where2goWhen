@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Port Wine Tasting in Porto",
+        "category": "Gastronomy",
+        "score": 5,
+        "description": "Experience the rich taste of authentic Port wine in its city of origin, along the scenic Douro River.",
+        "city": "Porto",
+        "longitude": -8.611,
+        "latitude": 41.1495,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Historic Center of Lisbon",
+        "category": "Culture",
+        "score": 5,
+        "description": "Wander through the charming streets of Lisbon's historic center, filled with centuries-old architecture and vibrant culture.",
+        "city": "Lisbon",
+        "longitude": -9.1393,
+        "latitude": 38.7223,
+        "cost": "$$"
+    },
+    {
+        "name": "Surfing in Nazaré",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Catch some of the world's largest waves at Nazaré, a globally renowned surfing destination.",
+        "city": "Nazaré",
+        "longitude": -9.0701,
+        "latitude": 39.602,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Monastery of Batalha",
+        "category": "Culture",
+        "score": 4,
+        "description": "Explore the majestic Monastery of Batalha, a masterpiece of Gothic and Manueline architecture.",
+        "city": "Batalha",
+        "longitude": -8.8245,
+        "latitude": 39.6603,
+        "cost": "$"
+    },
+    {
+        "name": "Seafood Dining in the Algarve",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Enjoy fresh, locally-sourced seafood in the beautiful coastal region of the Algarve.",
+        "city": "Algarve",
+        "longitude": -8.102,
+        "latitude": 37.0194,
+        "cost": "$$$"
+    },
+    {
+        "name": "Exploring Madeira's Laurisilva Forest",
+        "category": "Adventure",
+        "score": 3,
+        "description": "Hike through the ancient and UNESCO-protected Laurisilva Forest in Madeira.",
+        "city": "Madeira",
+        "longitude": -16.9097,
+        "latitude": 32.7607,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Belém Tower",
+        "category": "Culture",
+        "score": 2,
+        "description": "Discover the iconic Belém Tower, a symbol of Portugal's Age of Discoveries.",
+        "city": "Lisbon",
+        "longitude": -9.2159,
+        "latitude": 38.6937,
+        "cost": "$"
+    },
+    {
+        "name": "Wine Tasting in the Dão Region",
+        "category": "Gastronomy",
+        "score": 2,
+        "description": "Sample exquisite wines in the Dão region, known for its exceptional wine production.",
+        "city": "Dão",
+        "longitude": -7.9621,
+        "latitude": 40.4908,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Azores Archipelago",
+        "category": "Adventure",
+        "score": 1,
+        "description": "Embark on an adventure across the stunning and diverse Azores archipelago.",
+        "city": "Azores",
+        "longitude": -28.6348,
+        "latitude": 38.7216,
+        "cost": "$$$"
+    },
+    {
+        "name": "Strolling through the Village of Óbidos",
+        "category": "Culture",
+        "score": 1,
+        "description": "Walk along the cobbled streets of the picturesque and historic village of Óbidos.",
+        "city": "Óbidos",
+        "longitude": -9.1569,
+        "latitude": 39.3606,
+        "cost": "$"
+    }
+]

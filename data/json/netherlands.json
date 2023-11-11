@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Touring the Canals of Amsterdam",
+        "category": "Leisure",
+        "score": 5,
+        "description": "Explore the iconic canals of Amsterdam by boat, experiencing the city's historic charm and architecture.",
+        "city": "Amsterdam",
+        "longitude": 4.9041,
+        "latitude": 52.3676,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Keukenhof Gardens",
+        "category": "Leisure",
+        "score": 5,
+        "description": "Witness the stunning beauty of Keukenhof, one of the world's largest flower gardens, especially famous for its tulips.",
+        "city": "Lisse",
+        "longitude": 4.5464,
+        "latitude": 52.2725,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Van Gogh Museum",
+        "category": "Culture",
+        "score": 4,
+        "description": "Discover the largest collection of Vincent van Gogh's artworks in Amsterdam's renowned Van Gogh Museum.",
+        "city": "Amsterdam",
+        "longitude": 4.8815,
+        "latitude": 52.3586,
+        "cost": "$$"
+    },
+    {
+        "name": "Cycling through the Dutch Countryside",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Experience the Netherlands like a local by cycling through picturesque villages and lush countryside.",
+        "city": "Various",
+        "longitude": 5.2913,
+        "latitude": 52.1326,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Anne Frank House",
+        "category": "Culture",
+        "score": 3,
+        "description": "Learn about the history of World War II and Anne Frank's life at the Anne Frank House in Amsterdam.",
+        "city": "Amsterdam",
+        "longitude": 4.9106,
+        "latitude": 52.3752,
+        "cost": "$$"
+    },
+    {
+        "name": "Cheese Tasting in Gouda",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Sample the famous Gouda cheese and visit the traditional cheese market in the town of Gouda.",
+        "city": "Gouda",
+        "longitude": 4.7105,
+        "latitude": 52.0116,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Historic City of Utrecht",
+        "category": "Culture",
+        "score": 2,
+        "description": "Discover the medieval architecture and vibrant cultural scene of Utrecht, including its iconic Dom Tower.",
+        "city": "Utrecht",
+        "longitude": 5.1214,
+        "latitude": 52.0907,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Windmills of Kinderdijk",
+        "category": "Culture",
+        "score": 2,
+        "description": "See the iconic Dutch windmills at Kinderdijk, a UNESCO World Heritage Site representing Netherlands' water management history.",
+        "city": "Kinderdijk",
+        "longitude": 4.6473,
+        "latitude": 51.8835,
+        "cost": "$"
+    },
+    {
+        "name": "Walking through the Fields of Tulips in Flevoland",
+        "category": "Leisure",
+        "score": 1,
+        "description": "Stroll through the colorful tulip fields in Flevoland during spring, a beautiful and iconic Dutch experience.",
+        "city": "Flevoland",
+        "longitude": 5.4767,
+        "latitude": 52.5279,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Delft Blue Pottery Factory",
+        "category": "Culture",
+        "score": 1,
+        "description": "Learn about the traditional Dutch Delftware at the famous Delft Blue Pottery Factory in Delft.",
+        "city": "Delft",
+        "longitude": 4.3571,
+        "latitude": 52.0116,
+        "cost": "$"
+    }
+]

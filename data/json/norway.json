@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Viewing the Northern Lights in Tromsø",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Experience the magical Northern Lights in Tromsø, one of the best places in the world for aurora viewing.",
+        "city": "Tromsø",
+        "longitude": 18.9553,
+        "latitude": 69.6492,
+        "cost": "$$$"
+    },
+    {
+        "name": "Fjord Cruise in the Western Fjords",
+        "category": "Leisure",
+        "score": 5,
+        "description": "Take a breathtaking cruise through Norway's iconic fjords, such as Geirangerfjord or Nærøyfjord, surrounded by dramatic landscapes.",
+        "city": "Western Fjords",
+        "longitude": 6.1495,
+        "latitude": 61.1553,
+        "cost": "$$$"
+    },
+    {
+        "name": "Hiking to Pulpit Rock (Preikestolen)",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Hike to Pulpit Rock, a stunning natural viewpoint overlooking the Lysefjord, offering panoramic views.",
+        "city": "Stavanger",
+        "longitude": 6.2712,
+        "latitude": 58.969,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Historic City of Bergen",
+        "category": "Culture",
+        "score": 4,
+        "description": "Discover the charm of Bergen, with its historic Bryggen wharf, colorful houses, and vibrant cultural scene.",
+        "city": "Bergen",
+        "longitude": 5.3221,
+        "latitude": 60.3913,
+        "cost": "$$"
+    },
+    {
+        "name": "Dog Sledding in Svalbard",
+        "category": "Adventure",
+        "score": 3,
+        "description": "Embark on an exhilarating dog sledding adventure across the Arctic landscapes of Svalbard.",
+        "city": "Svalbard",
+        "longitude": 15.6355,
+        "latitude": 78.2207,
+        "cost": "$$$$"
+    },
+    {
+        "name": "Visiting the Viking Ship Museum in Oslo",
+        "category": "Culture",
+        "score": 3,
+        "description": "Explore Norway's Viking heritage at the Viking Ship Museum in Oslo, featuring well-preserved Viking ships.",
+        "city": "Oslo",
+        "longitude": 10.7522,
+        "latitude": 59.9139,
+        "cost": "$$"
+    },
+    {
+        "name": "Road Trip Along the Atlantic Road",
+        "category": "Leisure",
+        "score": 2,
+        "description": "Drive along the Atlantic Road, renowned for its stunning scenery and engineering marvels.",
+        "city": "Molde",
+        "longitude": 7.1618,
+        "latitude": 62.7375,
+        "cost": "$$"
+    },
+    {
+        "name": "Skiing in Lillehammer",
+        "category": "Adventure",
+        "score": 2,
+        "description": "Enjoy skiing in Lillehammer, a town famous for hosting the 1994 Winter Olympics, with excellent slopes and facilities.",
+        "city": "Lillehammer",
+        "longitude": 10.4658,
+        "latitude": 61.1153,
+        "cost": "$$$"
+    },
+    {
+        "name": "Exploring the Lofoten Islands",
+        "category": "Culture",
+        "score": 1,
+        "description": "Discover the stunning beauty and traditional fishing villages of the Lofoten Islands, a unique Arctic experience.",
+        "city": "Lofoten",
+        "longitude": 13.6116,
+        "latitude": 68.2512,
+        "cost": "$$$"
+    },
+    {
+        "name": "Visiting the Arctic Cathedral in Tromsø",
+        "category": "Culture",
+        "score": 1,
+        "description": "See the iconic Arctic Cathedral, an architectural masterpiece in Tromsø, known for its distinctive peaked roof and striking interior.",
+        "city": "Tromsø",
+        "longitude": 18.9553,
+        "latitude": 69.6492,
+        "cost": "$$"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Experiencing the Northern Lights in Lapland",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Witness the breathtaking Northern Lights in the Finnish Lapland, a magical winter wonderland.",
+        "city": "Lapland",
+        "longitude": 25.8475,
+        "latitude": 66.5039,
+        "cost": "$$$"
+    },
+    {
+        "name": "Visiting Santa Claus Village in Rovaniemi",
+        "category": "Leisure",
+        "score": 5,
+        "description": "Meet Santa Claus and cross the Arctic Circle at the Santa Claus Village in Rovaniemi, a unique experience for all ages.",
+        "city": "Rovaniemi",
+        "longitude": 25.7261,
+        "latitude": 66.5039,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring Helsinki's Design District",
+        "category": "Culture",
+        "score": 4,
+        "description": "Discover the creative and stylish Design District in Helsinki, showcasing Finnish design and craftsmanship.",
+        "city": "Helsinki",
+        "longitude": 24.941,
+        "latitude": 60.1699,
+        "cost": "$$"
+    },
+    {
+        "name": "Island Hopping in the Turku Archipelago",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Explore the scenic Turku Archipelago, a cluster of thousands of islands offering natural beauty and tranquility.",
+        "city": "Turku",
+        "longitude": 22.2666,
+        "latitude": 60.4518,
+        "cost": "$$"
+    },
+    {
+        "name": "Sauna Experience by a Finnish Lake",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Relax in a traditional Finnish sauna by a serene lake, an integral part of Finnish culture.",
+        "city": "Lakeland",
+        "longitude": 26.995,
+        "latitude": 61.9241,
+        "cost": "$$"
+    },
+    {
+        "name": "Hiking in the Finnish National Parks",
+        "category": "Adventure",
+        "score": 3,
+        "description": "Explore Finland's stunning national parks, such as Oulanka or Nuuksio, offering diverse landscapes and wildlife.",
+        "city": "Various",
+        "longitude": 25.7482,
+        "latitude": 64.2149,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Old Town of Porvoo",
+        "category": "Culture",
+        "score": 2,
+        "description": "Visit the charming old town of Porvoo, with its colorful wooden houses and cobblestone streets.",
+        "city": "Porvoo",
+        "longitude": 25.6605,
+        "latitude": 60.3955,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Fortress of Suomenlinna",
+        "category": "Culture",
+        "score": 2,
+        "description": "Discover the historic sea fortress of Suomenlinna near Helsinki, a UNESCO World Heritage Site.",
+        "city": "Helsinki",
+        "longitude": 24.9848,
+        "latitude": 60.1458,
+        "cost": "$"
+    },
+    {
+        "name": "Skiing in Levi",
+        "category": "Adventure",
+        "score": 1,
+        "description": "Enjoy skiing and other winter sports in Levi, one of Finland's most popular ski resorts.",
+        "city": "Levi",
+        "longitude": 24.8093,
+        "latitude": 67.804,
+        "cost": "$$$"
+    },
+    {
+        "name": "Cruising the Baltic Sea from Helsinki",
+        "category": "Leisure",
+        "score": 1,
+        "description": "Take a cruise from Helsinki across the Baltic Sea, exploring the beautiful coastline and nearby cities.",
+        "city": "Helsinki",
+        "longitude": 24.941,
+        "latitude": 60.1699,
+        "cost": "$$"
+    }
+]

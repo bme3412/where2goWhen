@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Exploring The Little Mermaid and Nyhavn in Copenhagen",
+        "category": "Culture",
+        "score": 5,
+        "description": "Visit the iconic Little Mermaid statue and the picturesque Nyhavn harbor, symbols of Copenhagen's rich heritage.",
+        "city": "Copenhagen",
+        "longitude": 12.5683,
+        "latitude": 55.6761,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting LEGOLAND in Billund",
+        "category": "Leisure",
+        "score": 5,
+        "description": "Experience the original LEGOLAND park, a fantastic destination for families and LEGO enthusiasts.",
+        "city": "Billund",
+        "longitude": 9.1108,
+        "latitude": 55.7308,
+        "cost": "$$$"
+    },
+    {
+        "name": "Biking through the Streets of Copenhagen",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Explore Copenhagen's famous bike-friendly streets and experience the city like a local.",
+        "city": "Copenhagen",
+        "longitude": 12.5683,
+        "latitude": 55.6761,
+        "cost": "$"
+    },
+    {
+        "name": "Discovering the Cliffs of Møns Klint",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Visit the stunning white cliffs of Møns Klint, offering breathtaking views and nature trails.",
+        "city": "Møn",
+        "longitude": 12.4333,
+        "latitude": 54.9842,
+        "cost": "$"
+    },
+    {
+        "name": "Tasting Danish Cuisine in Aarhus",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Sample traditional and modern Danish cuisine in Aarhus, a city known for its culinary scene.",
+        "city": "Aarhus",
+        "longitude": 10.2039,
+        "latitude": 56.1629,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Viking Ship Museum in Roskilde",
+        "category": "Culture",
+        "score": 3,
+        "description": "Learn about Denmark's Viking history at the Viking Ship Museum, featuring well-preserved Viking ships.",
+        "city": "Roskilde",
+        "longitude": 12.0803,
+        "latitude": 55.6415,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Hans Christian Andersen Museum in Odense",
+        "category": "Culture",
+        "score": 2,
+        "description": "Explore the life and works of Hans Christian Andersen in his birthplace, Odense.",
+        "city": "Odense",
+        "longitude": 10.4024,
+        "latitude": 55.4038,
+        "cost": "$"
+    },
+    {
+        "name": "Experiencing the Nightlife of Aalborg",
+        "category": "Leisure",
+        "score": 2,
+        "description": "Enjoy the vibrant nightlife and cultural scene in Aalborg, a lively university city.",
+        "city": "Aalborg",
+        "longitude": 9.9217,
+        "latitude": 57.0488,
+        "cost": "$$"
+    },
+    {
+        "name": "Relaxing on the Beaches of Bornholm",
+        "category": "Leisure",
+        "score": 1,
+        "description": "Unwind on the beautiful beaches of Bornholm, an idyllic island known for its laid-back atmosphere.",
+        "city": "Bornholm",
+        "longitude": 14.9098,
+        "latitude": 55.1667,
+        "cost": "$$"
+    },
+    {
+        "name": "Walking through the Old Town of Ribe",
+        "category": "Culture",
+        "score": 1,
+        "description": "Stroll through the cobblestone streets of Ribe, Denmark's oldest town, rich in medieval history.",
+        "city": "Ribe",
+        "longitude": 8.7608,
+        "latitude": 55.3292,
+        "cost": "$"
+    }
+]

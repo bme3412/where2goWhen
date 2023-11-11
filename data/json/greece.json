@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Exploring the Acropolis of Athens",
+        "category": "Culture",
+        "score": 5,
+        "description": "Visit the ancient Acropolis, a symbol of classical spirit and civilization, offering panoramic views of Athens.",
+        "city": "Athens",
+        "longitude": 23.7275,
+        "latitude": 37.9838,
+        "cost": "$$"
+    },
+    {
+        "name": "Santorini Sunset Cruise",
+        "category": "Leisure",
+        "score": 5,
+        "description": "Experience a breathtaking sunset cruise around the stunning island of Santorini, famed for its beauty and unique architecture.",
+        "city": "Santorini",
+        "longitude": 25.4615,
+        "latitude": 36.3932,
+        "cost": "$$$"
+    },
+    {
+        "name": "Touring the Palace of Knossos in Crete",
+        "category": "Culture",
+        "score": 4,
+        "description": "Explore the legendary Palace of Knossos, the heart of the Minoan civilization and mythology.",
+        "city": "Crete",
+        "longitude": 25.1488,
+        "latitude": 35.3387,
+        "cost": "$$"
+    },
+    {
+        "name": "Hiking the Samaria Gorge",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Trek through the Samaria Gorge, one of Europe's longest canyons, offering spectacular natural scenery.",
+        "city": "Crete",
+        "longitude": 24.079,
+        "latitude": 35.2506,
+        "cost": "$"
+    },
+    {
+        "name": "Greek Food Tour in Thessaloniki",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Enjoy a culinary journey through Thessaloniki, sampling traditional Greek cuisine.",
+        "city": "Thessaloniki",
+        "longitude": 22.9444,
+        "latitude": 40.6401,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Oracle of Delphi",
+        "category": "Culture",
+        "score": 3,
+        "description": "Discover the ancient site of Delphi, home to the famous oracle and a center of the Greek world.",
+        "city": "Delphi",
+        "longitude": 22.5012,
+        "latitude": 38.4824,
+        "cost": "$$"
+    },
+    {
+        "name": "Wine Tasting in the Peloponnese",
+        "category": "Gastronomy",
+        "score": 2,
+        "description": "Explore the rich wine heritage of the Peloponnese region, tasting local varieties in scenic vineyards.",
+        "city": "Peloponnese",
+        "longitude": 22.245,
+        "latitude": 37.5112,
+        "cost": "$$"
+    },
+    {
+        "name": "Island Hopping in the Cyclades",
+        "category": "Leisure",
+        "score": 2,
+        "description": "Embark on an island-hopping adventure across the beautiful Cyclades, experiencing diverse landscapes and cultures.",
+        "city": "Cyclades",
+        "longitude": 25.1485,
+        "latitude": 37.4636,
+        "cost": "$$$"
+    },
+    {
+        "name": "Exploring the Medieval City of Rhodes",
+        "category": "Culture",
+        "score": 1,
+        "description": "Wander through the medieval streets of Rhodes City, a blend of Gothic and Byzantine architecture.",
+        "city": "Rhodes",
+        "longitude": 28.2245,
+        "latitude": 36.434,
+        "cost": "$$"
+    },
+    {
+        "name": "Relaxing on the Beaches of Mykonos",
+        "category": "Leisure",
+        "score": 1,
+        "description": "Enjoy the vibrant beach scene and crystal-clear waters of Mykonos, a famous Greek island getaway.",
+        "city": "Mykonos",
+        "longitude": 25.3287,
+        "latitude": 37.4467,
+        "cost": "$$"
+    }
+]

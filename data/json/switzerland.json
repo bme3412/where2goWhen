@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Exploring the Matterhorn and Zermatt",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Experience the iconic Matterhorn and the charming mountain village of Zermatt, a must-visit for mountain enthusiasts.",
+        "city": "Zermatt",
+        "longitude": 7.7486,
+        "latitude": 46.0207,
+        "cost": "$$$"
+    },
+    {
+        "name": "Boat Cruise on Lake Geneva",
+        "category": "Leisure",
+        "score": 5,
+        "description": "Enjoy a scenic boat cruise on Lake Geneva, offering stunning views of the surrounding Alps and vineyards.",
+        "city": "Geneva",
+        "longitude": 6.1466,
+        "latitude": 46.2044,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Jungfraujoch - Top of Europe",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Ascend to the Jungfraujoch, known as the 'Top of Europe', and experience breathtaking views of the Aletsch Glacier.",
+        "city": "Jungfrau Region",
+        "longitude": 7.9612,
+        "latitude": 46.5475,
+        "cost": "$$$$"
+    },
+    {
+        "name": "Exploring the Old Town of Bern",
+        "category": "Culture",
+        "score": 4,
+        "description": "Stroll through the medieval streets of Bern's Old Town, a UNESCO World Heritage Site.",
+        "city": "Bern",
+        "longitude": 7.4515,
+        "latitude": 46.948,
+        "cost": "$"
+    },
+    {
+        "name": "Chocolate and Cheese Tasting in Gruyères",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Indulge in Switzerland's famous chocolate and cheese in the picturesque town of Gruyères.",
+        "city": "Gruyères",
+        "longitude": 7.0821,
+        "latitude": 46.5841,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Château de Chillon, Montreux",
+        "category": "Culture",
+        "score": 3,
+        "description": "Explore the historic Château de Chillon on the shores of Lake Geneva near Montreux.",
+        "city": "Montreux",
+        "longitude": 6.9083,
+        "latitude": 46.4312,
+        "cost": "$$"
+    },
+    {
+        "name": "Hiking in the Swiss National Park",
+        "category": "Adventure",
+        "score": 2,
+        "description": "Discover the stunning landscapes and wildlife of the Swiss National Park in the Engadin Valley.",
+        "city": "Engadin",
+        "longitude": 10.1386,
+        "latitude": 46.6973,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring Lucerne and the Chapel Bridge",
+        "category": "Culture",
+        "score": 2,
+        "description": "Visit the picturesque city of Lucerne and walk across the famous Chapel Bridge.",
+        "city": "Lucerne",
+        "longitude": 8.3093,
+        "latitude": 47.0502,
+        "cost": "$$"
+    },
+    {
+        "name": "Skiing in St. Moritz",
+        "category": "Adventure",
+        "score": 1,
+        "description": "Enjoy world-class skiing and the glamorous lifestyle in the luxurious resort town of St. Moritz.",
+        "city": "St. Moritz",
+        "longitude": 9.8372,
+        "latitude": 46.4983,
+        "cost": "$$$$"
+    },
+    {
+        "name": "Relaxing at the Thermal Baths in Bad Ragaz",
+        "category": "Leisure",
+        "score": 1,
+        "description": "Unwind in the therapeutic thermal baths of Bad Ragaz, nestled in the picturesque Heidiland region.",
+        "city": "Bad Ragaz",
+        "longitude": 9.5015,
+        "latitude": 47.0135,
+        "cost": "$$"
+    }
+]

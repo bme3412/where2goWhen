@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Visiting the Vasa Museum in Stockholm",
+        "category": "Culture",
+        "score": 5,
+        "description": "Explore the Vasa Museum, home to the world's best-preserved 17th-century ship, offering a unique glimpse into maritime history.",
+        "city": "Stockholm",
+        "longitude": 18.0686,
+        "latitude": 59.3293,
+        "cost": "$$"
+    },
+    {
+        "name": "Northern Lights Viewing in Abisko",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Witness the spectacular Northern Lights in Abisko, one of the best places in the world for aurora viewing.",
+        "city": "Abisko",
+        "longitude": 18.8167,
+        "latitude": 68.35,
+        "cost": "$$$"
+    },
+    {
+        "name": "Exploring the Archipelago of Gothenburg",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Discover the beautiful archipelago near Gothenburg, with its picturesque fishing villages and stunning natural scenery.",
+        "city": "Gothenburg",
+        "longitude": 11.9746,
+        "latitude": 57.7089,
+        "cost": "$$"
+    },
+    {
+        "name": "Skiing in Åre",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Enjoy world-class skiing in Åre, known for its excellent slopes and vibrant apres-ski scene.",
+        "city": "Åre",
+        "longitude": 13.081,
+        "latitude": 63.3983,
+        "cost": "$$$"
+    },
+    {
+        "name": "Fika and Swedish Pastry Tasting in Malmö",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Experience the Swedish tradition of 'fika' and taste local pastries in the cozy cafés of Malmö.",
+        "city": "Malmö",
+        "longitude": 13.0038,
+        "latitude": 55.605,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Medieval Town of Visby",
+        "category": "Culture",
+        "score": 3,
+        "description": "Walk through the cobblestone streets of Visby, a well-preserved medieval town on the island of Gotland.",
+        "city": "Visby",
+        "longitude": 18.2948,
+        "latitude": 57.6348,
+        "cost": "$$"
+    },
+    {
+        "name": "Boat Tour in the Stockholm Archipelago",
+        "category": "Leisure",
+        "score": 2,
+        "description": "Take a boat tour through the Stockholm Archipelago, featuring over 30,000 islands, islets, and rocks.",
+        "city": "Stockholm",
+        "longitude": 18.0686,
+        "latitude": 59.3293,
+        "cost": "$$"
+    },
+    {
+        "name": "Hiking in Sarek National Park",
+        "category": "Adventure",
+        "score": 2,
+        "description": "Embark on a hiking adventure in Sarek National Park, known for its dramatic landscapes and diverse wildlife.",
+        "city": "Sarek",
+        "longitude": 17.8004,
+        "latitude": 67.3596,
+        "cost": "$"
+    },
+    {
+        "name": "Cultural Tour of Uppsala",
+        "category": "Culture",
+        "score": 1,
+        "description": "Discover the rich history and academic heritage of Uppsala, home to Scandinavia's oldest university.",
+        "city": "Uppsala",
+        "longitude": 17.6389,
+        "latitude": 59.8586,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Icehotel in Jukkasjärvi",
+        "category": "Leisure",
+        "score": 1,
+        "description": "Visit the Icehotel in Jukkasjärvi, a unique hotel and art exhibition made of ice and snow.",
+        "city": "Jukkasjärvi",
+        "longitude": 20.6028,
+        "latitude": 67.8557,
+        "cost": "$$$"
+    }
+]
