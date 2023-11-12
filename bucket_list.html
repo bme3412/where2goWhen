@@ -95,7 +95,7 @@
         color: #0000ff; /* Vibrant blue color for text */
         text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
           1px 1px 0 #fff; /* White outline effect */
-        
+
         font-weight: 900; /* Maximum boldness */
       }
 
@@ -120,20 +120,28 @@
         border-radius: 5px;
       }
 
-      .adventure {
-        background-color: #ff7e67; /* Warm red-orange */
+      .dropdown-content {
+        display: none; /* Initially hidden */
+        background-color: #f9f9f9; /* Light background for the content */
+        border: 1px solid #ddd; /* A subtle border */
+        border-radius: 4px; /* Rounded corners */
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* A light shadow for depth */
+        padding: 10px; /* Some padding for internal spacing */
+        margin-top: 5px; /* Space between the button and dropdown */
+        width: 250px; /* Width of the dropdown */
+        z-index: 1; /* Ensures dropdown is on top of other elements */
       }
 
-      .culture {
-        background-color: #6ac4ae; /* Soft teal */
+      .dropdown-content p {
+        margin: 0 0 10px; /* Space between paragraphs */
+        line-height: 1.4; /* Line height for readability */
+        color: #333; /* Dark color for text for better contrast */
       }
 
-      .leisure {
-        background-color: #7a6ff0; /* Gentle purple */
-      }
-
-      .nature {
-        background-color: #f0e76a; /* Sunny yellow */
+      .bucket-list-button:hover,
+      .bucket-list-button:focus {
+        background-color: #e7e7e7; /* Slightly darker on hover */
+        cursor: pointer; /* Change cursor to indicate clickability */
       }
 
       /* Add more categories with unique gradients here */
@@ -321,11 +329,6 @@
         background-image: url("assets/images/flags/europe_flag.png");
       }
     </style>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-    />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   </head>
   <body>
     <!-- Sidebar with country buttons -->
@@ -342,18 +345,12 @@
       >
         <button
           class="country-button"
-          onclick="toggleCountry('Germany')"
-          style="background-image: url('assets/images/flags/germany_flag.png')"
-        >
-          Germany
-        </button>
-        <button
-          class="country-button"
           onclick="toggleCountry('France')"
           style="background-image: url('assets/images/flags/france_flag.png')"
         >
           France
         </button>
+
         <button
           class="country-button"
           onclick="toggleCountry('Italy')"
@@ -370,48 +367,87 @@
         </button>
         <button
           class="country-button"
-          onclick="toggleCountry('Portugal')"
-          style="background-image: url('assets/images/flags/portugal_flag.png')"
+          onclick="toggleCountry('Germany')"
+          style="background-image: url('assets/images/flags/germany_flag.png')"
         >
-          Portugal
+          Germany
         </button>
         <button
           class="country-button"
-          onclick="toggleCountry('Greece')"
-          style="background-image: url('assets/images/flags/greece_flag.png')"
+          onclick="toggleCountry('Albania')"
+          style="background-image: url('assets/images/flags/albania_flag.png')"
         >
-          Greece
+          Albania
         </button>
+
         <button
           class="country-button"
-          onclick="toggleCountry('Sweden')"
-          style="background-image: url('assets/images/flags/sweden_flag.png')"
+          onclick="toggleCountry('Andorra')"
+          style="background-image: url('assets/images/flags/andorra_flag.png')"
         >
-          Sweden
+          Andorra
         </button>
+
         <button
           class="country-button"
-          onclick="toggleCountry('Switzerland')"
+          onclick="toggleCountry('Belarus')"
+          style="background-image: url('assets/images/flags/belarus_flag.png')"
+        >
+          Belarus
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Belgium')"
+          style="background-image: url('assets/images/flags/belgium_flag.png')"
+        >
+          Belgium
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Bosnia')"
+          style="background-image: url('assets/images/flags/bosnia_flag.png')"
+        >
+          Bosnia
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Bulgaria')"
+          style="background-image: url('assets/images/flags/bulgaria_flag.png')"
+        >
+          Bulgaria
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Cyprus')"
+          style="background-image: url('assets/images/flags/cyprus_flag.png')"
+        >
+          Cyprus
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Czech')"
           style="
-            background-image: url('assets/images/flags/switzerland_flag.png');
+            background-image: url('assets/images/flags/czech_republic_flag.png');
           "
         >
-          Switzerland
+          Czech Republic
         </button>
+
+        
+
         <button
           class="country-button"
-          onclick="toggleCountry('Norway')"
-          style="background-image: url('assets/images/flags/norway_flag.png')"
+          onclick="toggleCountry('Croatia')"
+          style="background-image: url('assets/images/flags/croatia_flag.png')"
         >
-          Norway
+          Croatia
         </button>
-        <button
-          class="country-button"
-          onclick="toggleCountry('Finland')"
-          style="background-image: url('assets/images/flags/finland_flag.png')"
-        >
-          Finland
-        </button>
+
         <button
           class="country-button"
           onclick="toggleCountry('Denmark')"
@@ -419,6 +455,23 @@
         >
           Denmark
         </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Finland')"
+          style="background-image: url('assets/images/flags/finland_flag.png')"
+        >
+          Finland
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Greece')"
+          style="background-image: url('assets/images/flags/greece_flag.png')"
+        >
+          Greece
+        </button>
+
         <button
           class="country-button"
           onclick="toggleCountry('Netherlands')"
@@ -427,6 +480,40 @@
           "
         >
           Netherlands
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Norway')"
+          style="background-image: url('assets/images/flags/norway_flag.png')"
+        >
+          Norway
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Portugal')"
+          style="background-image: url('assets/images/flags/portugal_flag.png')"
+        >
+          Portugal
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Sweden')"
+          style="background-image: url('assets/images/flags/sweden_flag.png')"
+        >
+          Sweden
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Switzerland')"
+          style="
+            background-image: url('assets/images/flags/switzerland_flag.png');
+          "
+        >
+          Switzerland
         </button>
 
         <!-- Add more buttons as needed -->
@@ -475,23 +562,37 @@
       <h1></h1>
 
       <!-- Content containers for each country's bucket list -->
-      <div id="Germany" class="country-container" style="display: none"></div>
-      <div id="France" class="country-container" style="display: none"></div>
-      <div id="Italy" class="country-container" style="display: none"></div>
-      <div id="Spain" class="country-container" style="display: none"></div>
-      <div id="Portugal" class="country-container" style="display: none"></div>
-      <div id="Greece" class="country-container" style="display: none"></div>
-      <div id="Sweden" class="country-container" style="display: none"></div>
+      <div id="Albania" class="country-container" style="display: none"></div>
+      <div id="Andorra" class="country-container" style="display: none"></div>
+      <div id="Austria" class="country-container" style="display: none"></div>
+      <div id="Belarus" class="country-container" style="display: none"></div>
+      <div id="Belgium" class="country-container" style="display: none"></div>
+      <div id="Bosnia" class="country-container" style="display: none"></div>
+      <div id="Bulgaria" class="country-container" style="display: none"></div>
+      <div id="Croatia" class="country-container" style="display: none"></div>
+      <div id="Cyprus" class="country-container" style="display: none"></div>
       <div
-        id="Switzerland"
+        id="Czech"
+        class="country-container"
+        style="display: none"
+      ></div>
+      <div id="Denmark" class="country-container" style="display: none"></div>
+      <div id="Finland" class="country-container" style="display: none"></div>
+      <div id="France" class="country-container" style="display: none"></div>
+      <div id="Germany" class="country-container" style="display: none"></div>
+      <div id="Greece" class="country-container" style="display: none"></div>
+      <div id="Italy" class="country-container" style="display: none"></div>
+      <div
+        id="Netherlands"
         class="country-container"
         style="display: none"
       ></div>
       <div id="Norway" class="country-container" style="display: none"></div>
-      <div id="Finland" class="country-container" style="display: none"></div>
-      <div id="Denmark" class="country-container" style="display: none"></div>
+      <div id="Portugal" class="country-container" style="display: none"></div>
+      <div id="Spain" class="country-container" style="display: none"></div>
+      <div id="Sweden" class="country-container" style="display: none"></div>
       <div
-        id="Netherlands"
+        id="Switzerland"
         class="country-container"
         style="display: none"
       ></div>
@@ -568,107 +669,62 @@
           });
       }
 
-      function getCategoryStyle(category) {
-        switch (category) {
-          case "Adventure":
-            return "background-color: #4a90e2; color: white;";
-          case "Culture":
-            return "background-color: #e67e22; color: white;";
-          case "Gastronomy":
-            return "background-color: #2ecc71; color: white;";
-          // Add more categories with their styles here
-          default:
-            return "background-color: #95a5a6; color: white;"; // Default style
-        }
-      }
-
-      // Function to render the bucket list in HTML
-      function renderBucketList(country, bucketList) {
-        var container = document.getElementById(country);
-        container.innerHTML = ""; // Clear existing content
-
-        // Create table elements
-        var table = document.createElement("table");
-        table.className = "bucket-list-table";
-        var thead = document.createElement("thead");
-        var tbody = document.createElement("tbody");
-
-        // Create header row
-        var headerRow = document.createElement("tr");
-        headerRow.innerHTML = `
-        <th>Name</th>
-        <th>Category</th>
-        <th>City</th>
-        <th>Cost</th>
-        <th>Score</th>
-        <th>Description</th>
-        <th>Status</th>
-    `;
-        thead.appendChild(headerRow);
-
-        // Append activities to the table body
-        bucketList.forEach(function (bucketListItem) {
-          var activityRow = document.createElement("tr");
-          activityRow.innerHTML = `
-            <td>${bucketListItem.name}</td>
-            <td>${bucketListItem.category}</td>
-            <td>${bucketListItem.city}</td>
-            <td>${bucketListItem.cost}</td>
-            <td>${bucketListItem.score}</td>
-            <td>${bucketListItem.description}</td>
-            <td>
-                <button onclick="toggleVisited(this, '${bucketListItem.id}')">Not Visited</button>
-            </td>
-        `;
-          tbody.appendChild(activityRow);
-        });
-
-        // Append thead and tbody to table
-        table.appendChild(thead);
-        table.appendChild(tbody);
-        container.appendChild(table);
-      }
-
       function toggleCountry(country) {
         // Hide all country containers
         var containers = document.querySelectorAll(".country-container");
         containers.forEach(function (container) {
           container.style.display = "none";
         });
+
         var selectedContainer = document.getElementById(country);
         selectedContainer.innerHTML = ""; // Clear existing content
         selectedContainer.style.display = "flex"; // Display as flex to align buttons horizontally
 
         // Fetch bucket list and populate map
-        // Fetch bucket list and populate map
         fetchBucketList(country)
           .then((bucketList) => {
             bucketList.sort((a, b) => b.score - a.score);
             const numItems = bucketList.length;
+
             bucketList.forEach((item, index) => {
+              // Create the button for each bucket list item
               let button = document.createElement("button");
               button.className = `bucket-list-button ${
                 item.category.toLowerCase() || "default-category"
               }`;
-
               let countryImage = `assets/images/bucketlist/${country.toLowerCase()}.png`;
               button.style.backgroundImage = `url('${countryImage}')`;
               button.style.backgroundSize = `100% ${numItems * 100}%`;
               button.style.backgroundPosition = `0% ${
                 index * (100 / numItems)
               }%`;
-              button.textContent = item.name; // Directly set the text content
+              button.textContent = item.name; // Set the text content
 
-              button.onclick = () => zoomToLocation(item);
+              // Create a container for the dropdown content
+              let dropdownContent = document.createElement("div");
+              dropdownContent.className = "dropdown-content";
+              dropdownContent.style.display = "none"; // Initially hidden
+              dropdownContent.innerHTML = `<p>${item.description}</p>`;
+
+              // Event listener to toggle the dropdown content and zoom to location
+              button.onclick = () => {
+                let isVisible = dropdownContent.style.display === "flex";
+                dropdownContent.style.display = isVisible ? "none" : "flex";
+
+                // Call the function to re-center and zoom the map
+                zoomToLocation(item);
+              };
+
               selectedContainer.appendChild(button);
+              selectedContainer.appendChild(dropdownContent);
             });
+
             plotPointsOnMap(bucketList);
           })
           .catch((error) => {
             console.error("Error fetching bucket list: ", error);
           });
       }
-
       function plotPointsOnMap(bucketList) {
         clearMarkers(); // Clear existing markers
 
@@ -678,7 +734,17 @@
           var marker = new google.maps.Marker({
             position: position,
             map: map,
-            title: item.name,
+            title: item.name, // Tooltip text on hover
+          });
+
+          // Creating an InfoWindow for each marker
+          var infoWindow = new google.maps.InfoWindow({
+            content: item.name, // Name of the bucket list activity
+          });
+
+          // Adding a click event listener to the marker
+          marker.addListener("click", function () {
+            infoWindow.open(map, marker);
           });
 
           markers.push(marker); // Add marker to the global array
@@ -687,6 +753,8 @@
 
         map.fitBounds(bounds); // Adjust the map to new bounds
       }
+
+      // Rest of your existing code remains the same
 
       function clearMarkers() {
         for (let i = 0; i < markers.length; i++) {
@@ -718,8 +786,9 @@
           .catch((error) => console.error("Error fetching API key:", error));
       }
       // Function to zoom to a specific location
+      // Function to zoom to a specific location and highlight the marker
       function zoomToLocation(item) {
-        const originalZoomLevel = 6; // Original zoom level for the entire country view
+        const originalZoomLevel = 5; // Original zoom level for the entire country view
         const detailedZoomLevel = 7; // Closer view zoom level
 
         // Zoom out to the original level
@@ -733,21 +802,19 @@
           map.setCenter(position);
           map.setZoom(detailedZoomLevel);
 
-          // Reset and highlight markers
+          // Reset all markers to the default icon and highlight the selected one
           markers.forEach((marker) => {
             marker.setIcon(null); // Reset to default icon
+            if (marker.getTitle() === item.name) {
+              // Change marker icon for the selected item
+              marker.setIcon(
+                "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+              );
+            }
           });
-
-          const selectedMarker = markers.find(
-            (marker) => marker.getTitle() === item.name
-          );
-          if (selectedMarker) {
-            selectedMarker.setIcon(
-              "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
-            ); // Change marker icon
-          }
         }, 500); // Delay in milliseconds (1000 ms = 1 second)
       }
+
       // Global variable for the map
       var map;
       var markers = []; // Global array to store markers
