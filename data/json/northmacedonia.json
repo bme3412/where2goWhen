@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Explore the Ohrid Old Town and Lake",
+        "category": "Cultural",
+        "score": 5,
+        "description": "Discover the UNESCO World Heritage site of Ohrid, known for its picturesque lake, ancient churches, and historic architecture.",
+        "city": "Ohrid",
+        "longitude": 20.7984,
+        "latitude": 41.1172,
+        "cost": "$$"
+    },
+    {
+        "name": "Visit Skopje's Old Bazaar",
+        "category": "Cultural",
+        "score": 3,
+        "description": "Stroll through the Old Bazaar in Skopje, a bustling market offering a mix of history, culture, and local crafts.",
+        "city": "Skopje",
+        "longitude": 21.4331,
+        "latitude": 42.0038,
+        "cost": "$"
+    },
+    {
+        "name": "Hiking in Mavrovo National Park",
+        "category": "Nature",
+        "score": 4,
+        "description": "Enjoy the natural beauty of Mavrovo National Park, featuring stunning landscapes ideal for hiking and outdoor activities.",
+        "city": "Mavrovo",
+        "longitude": 20.7303,
+        "latitude": 41.6103,
+        "cost": "$"
+    },
+    {
+        "name": "Matka Canyon Adventure",
+        "category": "Nature",
+        "score": 4,
+        "description": "Explore the Matka Canyon near Skopje, a popular spot for hiking, boating, and enjoying the serene natural environment.",
+        "city": "Skopje",
+        "longitude": 21.3352,
+        "latitude": 41.9675,
+        "cost": "$$"
+    },
+    {
+        "name": "Bitola's Shirok Sokak Street",
+        "category": "Leisure",
+        "score": 2,
+        "description": "Walk down Shirok Sokak Street in Bitola, known for its vibrant atmosphere, historic buildings, and cafes.",
+        "city": "Bitola",
+        "longitude": 21.3347,
+        "latitude": 41.0314,
+        "cost": "$"
+    },
+    {
+        "name": "Heraclea Lyncestis Visit",
+        "category": "History",
+        "score": 3,
+        "description": "Discover the ancient ruins of Heraclea Lyncestis near Bitola, featuring well-preserved mosaics and historical significance.",
+        "city": "Bitola",
+        "longitude": 21.3403,
+        "latitude": 41.0275,
+        "cost": "$"
+    },
+    {
+        "name": "Wine Tasting in Tikveš Region",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Experience wine tasting in the Tikveš wine region, known for its high-quality wines and beautiful vineyards.",
+        "city": "Tikveš",
+        "longitude": 21.9647,
+        "latitude": 41.5127,
+        "cost": "$$"
+    },
+    {
+        "name": "Visit Saint Naum Monastery",
+        "category": "Cultural",
+        "score": 4,
+        "description": "Explore the historic Saint Naum Monastery, located on the shores of Lake Ohrid, known for its stunning architecture and spiritual significance.",
+        "city": "Ohrid",
+        "longitude": 20.7892,
+        "latitude": 40.9172,
+        "cost": "$$"
+    },
+    {
+        "name": "Kokino Observatory Experience",
+        "category": "History",
+        "score": 4,
+        "description": "Visit the ancient Kokino Observatory, recognized by NASA as one of the oldest observatories in the world, offering a unique historical perspective.",
+        "city": "Kumanovo",
+        "longitude": 21.9950,
+        "latitude": 42.2619,
+        "cost": "$"
+    },
+    {
+        "name": "Stobi Archaeological Site",
+        "category": "History",
+        "score": 3,
+        "description": "Discover the ancient city of Stobi, a significant archaeological site with well-preserved Roman and Byzantine ruins.",
+        "city": "Gradsko",
+        "longitude": 21.8403,
+        "latitude": 41.4653,
+        "cost": "$"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Visiting the Great Wall of China",
+        "category": "History/Culture",
+        "score": 5,
+        "description": "Walk along the Great Wall of China, an iconic symbol of ancient Chinese history and an architectural marvel.",
+        "city": "Beijing",
+        "longitude": 116.5704,
+        "latitude": 40.4319,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Taj Mahal",
+        "category": "Culture/History",
+        "score": 5,
+        "description": "Visit the Taj Mahal in India, a UNESCO World Heritage site and a monument of love, known for its stunning architecture.",
+        "city": "Agra",
+        "longitude": 78.0421,
+        "latitude": 27.1751,
+        "cost": "$"
+    },
+    {
+        "name": "Trekking to Mount Everest Base Camp",
+        "category": "Adventure/Nature",
+        "score": 5,
+        "description": "Embark on a trek to Everest Base Camp in Nepal for breathtaking views and a once-in-a-lifetime adventure.",
+        "city": "Solukhumbu",
+        "longitude": 86.9226,
+        "latitude": 27.9881,
+        "cost": "$$$"
+    },
+    {
+        "name": "Diving in the Maldives",
+        "category": "Adventure/Nature",
+        "score": 4,
+        "description": "Experience the underwater world of the Maldives, known for its vibrant coral reefs and diverse marine life.",
+        "city": "Malé",
+        "longitude": 73.5093,
+        "latitude": 4.1755,
+        "cost": "$$$"
+    },
+    {
+        "name": "Experiencing Tokyo's Culture and Technology",
+        "category": "Culture/Technology",
+        "score": 4,
+        "description": "Immerse yourself in the unique blend of traditional culture and cutting-edge technology in Tokyo, Japan.",
+        "city": "Tokyo",
+        "longitude": 139.6917,
+        "latitude": 35.6895,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting Angkor Wat",
+        "category": "History/Culture",
+        "score": 5,
+        "description": "Explore Angkor Wat in Cambodia, the largest religious monument in the world and a testament to Khmer architectural skill.",
+        "city": "Siem Reap",
+        "longitude": 103.867,
+        "latitude": 13.4125,
+        "cost": "$"
+    },
+    {
+        "name": "Floating in the Dead Sea",
+        "category": "Nature/Wellness",
+        "score": 4,
+        "description": "Experience the unique sensation of floating effortlessly in the Dead Sea, known for its high salt content and therapeutic properties.",
+        "city": "Dead Sea Region",
+        "longitude": 35.5500,
+        "latitude": 31.5000,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Bali Islands",
+        "category": "Culture/Nature",
+        "score": 4,
+        "description": "Discover the beauty of Bali, Indonesia, with its stunning beaches, cultural heritage, and lush landscapes.",
+        "city": "Denpasar",
+        "longitude": 115.2167,
+        "latitude": -8.6563,
+        "cost": "$$"
+    },
+    {
+        "name": "Discovering the Historic City of Petra",
+        "category": "History/Adventure",
+        "score": 5,
+        "description": "Visit the ancient city of Petra in Jordan, carved out of red sandstone cliffs and known for its archaeological significance.",
+        "city": "Petra",
+        "longitude": 35.4444,
+        "latitude": 30.3286,
+        "cost": "$$"
+    },
+    {
+        "name": "Cruising on the Ha Long Bay",
+        "category": "Nature/Relaxation",
+        "score": 4,
+        "description": "Take a cruise through Vietnam's Ha Long Bay, renowned for its emerald waters and thousands of towering limestone islands.",
+        "city": "Quảng Ninh",
+        "longitude": 107.1839,
+        "latitude": 20.9101,
+        "cost": "$$"
+    }
+]

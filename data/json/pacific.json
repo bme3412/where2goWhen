@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Exploring the Great Barrier Reef",
+        "category": "Nature/Adventure",
+        "score": 5,
+        "description": "Dive or snorkel in the Great Barrier Reef, the world's largest coral reef system, located off the coast of Queensland, Australia.",
+        "city": "Cairns",
+        "longitude": 145.7750,
+        "latitude": -16.9203,
+        "cost": "$$$"
+    },
+    {
+        "name": "Visiting Uluru (Ayers Rock)",
+        "category": "Culture/Nature",
+        "score": 5,
+        "description": "Experience the spiritual and cultural significance of Uluru, a massive sandstone monolith in the heart of the Australian Outback.",
+        "city": "Northern Territory",
+        "longitude": 131.0347,
+        "latitude": -25.3444,
+        "cost": "$$"
+    },
+    {
+        "name": "Hiking in New Zealand's Fiordland",
+        "category": "Nature/Adventure",
+        "score": 5,
+        "description": "Trek through Fiordland National Park in New Zealand, known for its dramatic fjords, rugged terrain, and breathtaking scenery.",
+        "city": "Southland",
+        "longitude": 167.7181,
+        "latitude": -45.4145,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Bay of Islands",
+        "category": "Nature/Relaxation",
+        "score": 4,
+        "description": "Discover the Bay of Islands in New Zealand, a stunning area known for its beautiful beaches, Maori cultural artifacts, and marine life.",
+        "city": "Northland",
+        "longitude": 174.1230,
+        "latitude": -35.1844,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Sydney Opera House",
+        "category": "Culture/Architecture",
+        "score": 4,
+        "description": "Explore the iconic Sydney Opera House in Australia, a masterpiece of modern architecture and a center for the performing arts.",
+        "city": "Sydney",
+        "longitude": 151.2153,
+        "latitude": -33.8568,
+        "cost": "$$"
+    },
+    {
+        "name": "Adventure in Queenstown",
+        "category": "Adventure/Nature",
+        "score": 4,
+        "description": "Experience the thrill of adventure sports in Queenstown, New Zealand, known as the 'adventure capital of the world'.",
+        "city": "Queenstown",
+        "longitude": 168.6615,
+        "latitude": -45.0312,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring Bora Bora",
+        "category": "Nature/Relaxation",
+        "score": 5,
+        "description": "Relax in the tropical paradise of Bora Bora, French Polynesia, known for its crystal-clear waters, coral reefs, and luxury resorts.",
+        "city": "Bora Bora",
+        "longitude": -151.7415,
+        "latitude": -16.5004,
+        "cost": "$$$$"
+    },
+    {
+        "name": "Tasmanian Wilderness Adventure",
+        "category": "Nature/Wildlife",
+        "score": 4,
+        "description": "Explore the pristine wilderness of Tasmania, Australia, home to unique wildlife and untouched landscapes.",
+        "city": "Tasmania",
+        "longitude": 146.3159,
+        "latitude": -41.4545,
+        "cost": "$$"
+    },
+    {
+        "name": "Witnessing the Southern Lights in Tasmania",
+        "category": "Nature",
+        "score": 5,
+        "description": "Observe the Southern Lights, or Aurora Australis, a natural light display in the Southern Hemisphere, best viewed from Tasmania.",
+        "city": "Tasmania",
+        "longitude": 146.3159,
+        "latitude": -41.4545,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Tongariro Alpine Crossing",
+        "category": "Nature/Adventure",
+        "score": 4,
+        "description": "Hike the Tongariro Alpine Crossing in New Zealand, renowned for its volcanic landscape, emerald lakes, and Maori cultural significance.",
+        "city": "North Island",
+        "longitude": 175.6322,
+        "latitude": -39.2908,
+        "cost": "$"
+    }
+]

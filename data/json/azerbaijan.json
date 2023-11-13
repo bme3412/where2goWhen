@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Visit the Gobustan Rock Art Cultural Landscape",
+        "category": "Cultural",
+        "score": 5,
+        "description": "Explore ancient petroglyphs and mud volcanoes in Gobustan, a UNESCO World Heritage site.",
+        "city": "Gobustan",
+        "longitude": 49.3874,
+        "latitude": 40.1126,
+        "cost": "$$"
+    },
+    {
+        "name": "Flame Towers View",
+        "category": "Architecture",
+        "score": 4,
+        "description": "Admire the iconic Flame Towers, a symbol of modern Baku, with stunning architecture and lighting.",
+        "city": "Baku",
+        "longitude": 49.8376,
+        "latitude": 40.3669,
+        "cost": "$"
+    },
+    {
+        "name": "Old City (Icherisheher) Exploration",
+        "category": "History",
+        "score": 5,
+        "description": "Walk through the ancient streets of Baku's Old City, a UNESCO site with rich history and culture.",
+        "city": "Baku",
+        "longitude": 49.8336,
+        "latitude": 40.3669,
+        "cost": "$"
+    },
+    {
+        "name": "Sheki Khan's Palace Visit",
+        "category": "Cultural",
+        "score": 4,
+        "description": "Visit the magnificent Sheki Khan's Palace, famous for its intricate designs and stained glass work.",
+        "city": "Sheki",
+        "longitude": 47.1706,
+        "latitude": 41.1954,
+        "cost": "$$"
+    },
+    {
+        "name": "Caspian Sea Cruise",
+        "category": "Nature",
+        "score": 3,
+        "description": "Enjoy a scenic cruise on the Caspian Sea, offering beautiful views and a relaxing experience.",
+        "city": "Baku",
+        "longitude": 49.8671,
+        "latitude": 40.3777,
+        "cost": "$$$"
+    },
+    {
+        "name": "Carpet Museum Tour",
+        "category": "Art",
+        "score": 3,
+        "description": "Discover Azerbaijan's rich weaving history at the Carpet Museum in Baku.",
+        "city": "Baku",
+        "longitude": 49.8512,
+        "latitude": 40.3725,
+        "cost": "$"
+    },
+    {
+        "name": "Yanar Dag (Burning Mountain)",
+        "category": "Natural Phenomenon",
+        "score": 4,
+        "description": "Witness the mesmerizing natural flames of Yanar Dag, a mountain that has been burning for centuries.",
+        "city": "Baku",
+        "longitude": 49.7230,
+        "latitude": 40.5618,
+        "cost": "$"
+    },
+    {
+        "name": "Mud Volcanoes Visit",
+        "category": "Nature",
+        "score": 4,
+        "description": "Explore Azerbaijan's unique and bizarre mud volcanoes, a rare natural phenomenon.",
+        "city": "Gobustan",
+        "longitude": 49.3769,
+        "latitude": 40.0968,
+        "cost": "$"
+    },
+    {
+        "name": "Azerbaijan National Museum of History",
+        "category": "History",
+        "score": 3,
+        "description": "Immerse in Azerbaijan's rich history and culture at the National Museum in Baku.",
+        "city": "Baku",
+        "longitude": 49.8458,
+        "latitude": 40.3777,
+        "cost": "$"
+    },
+    {
+        "name": "Quba & Khinalug Village Tour",
+        "category": "Cultural",
+        "score": 3,
+        "description": "Discover the remote and picturesque village of Khinalug, nestled in the Caucasus Mountains near Quba.",
+        "city": "Quba",
+        "longitude": 48.5263,
+        "latitude": 41.3597,
+        "cost": "$$"
+    }
+]

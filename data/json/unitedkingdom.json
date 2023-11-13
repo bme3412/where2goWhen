@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Visit the British Museum",
+        "category": "Culture",
+        "score": 4,
+        "description": "Explore the British Museum in London, one of the world's leading museums, showcasing a vast collection of art and artifacts from across the globe.",
+        "city": "London",
+        "longitude": -0.1269,
+        "latitude": 51.5194,
+        "cost": "$"
+    },
+    {
+        "name": "Explore Edinburgh Castle",
+        "category": "History",
+        "score": 4,
+        "description": "Discover Edinburgh Castle, a historic fortress dominating the skyline of Edinburgh and offering stunning views of the city.",
+        "city": "Edinburgh",
+        "longitude": -3.2000,
+        "latitude": 55.9486,
+        "cost": "$$"
+    },
+    {
+        "name": "Stonehenge Experience",
+        "category": "History",
+        "score": 4,
+        "description": "Visit Stonehenge, the prehistoric stone circle in Wiltshire, one of the wonders of the world and the best-known prehistoric monument in Europe.",
+        "city": "Wiltshire",
+        "longitude": -1.8262,
+        "latitude": 51.1789,
+        "cost": "$$"
+    },
+    {
+        "name": "Lake District National Park Hiking",
+        "category": "Nature",
+        "score": 4,
+        "description": "Hike in the Lake District National Park, renowned for its stunning lakes, mountains, and literary associations.",
+        "city": "Lake District",
+        "longitude": -3.0738,
+        "latitude": 54.4609,
+        "cost": "$"
+    },
+    {
+        "name": "Tour the Tower of London",
+        "category": "History",
+        "score": 4,
+        "description": "Explore the Tower of London, a historic castle on the north bank of the River Thames, known for its deep history and the Crown Jewels.",
+        "city": "London",
+        "longitude": -0.0761,
+        "latitude": 51.5081,
+        "cost": "$$"
+    },
+    {
+        "name": "Giant's Causeway Visit",
+        "category": "Nature",
+        "score": 4,
+        "description": "Experience the Giant's Causeway in Northern Ireland, an area of about 40,000 interlocking basalt columns, a result of an ancient volcanic eruption.",
+        "city": "Antrim",
+        "longitude": -6.5146,
+        "latitude": 55.2408,
+        "cost": "$$"
+    },
+    {
+        "name": "Stratford-upon-Avon Shakespeare Tour",
+        "category": "Culture",
+        "score": 3,
+        "description": "Visit Stratford-upon-Avon, the birthplace of William Shakespeare, and explore the town's rich theatrical heritage.",
+        "city": "Stratford-upon-Avon",
+        "longitude": -1.7073,
+        "latitude": 52.1917,
+        "cost": "$$"
+    },
+    {
+        "name": "Bath Roman Baths and City Tour",
+        "category": "History",
+        "score": 4,
+        "description": "Tour the Roman Baths and the historic city of Bath, known for its stunning Georgian architecture and ancient hot springs.",
+        "city": "Bath",
+        "longitude": -2.3590,
+        "latitude": 51.3813,
+        "cost": "$$"
+    },
+    {
+        "name": "York Minster and Medieval Streets",
+        "category": "History",
+        "score": 3,
+        "description": "Explore York Minster, one of the largest cathedrals in Northern Europe, and walk through York's well-preserved medieval streets.",
+        "city": "York",
+        "longitude": -1.0808,
+        "latitude": 53.9623,
+        "cost": "$"
+    },
+    {
+        "name": "Snowdonia National Park Adventure",
+        "category": "Nature",
+        "score": 4,
+        "description": "Embark on an adventure in Snowdonia National Park in Wales, offering breathtaking landscapes, hiking, and outdoor activities.",
+        "city": "Snowdonia",
+        "longitude": -4.0767,
+        "latitude": 52.9180,
+        "cost": "$"
+    }
+]

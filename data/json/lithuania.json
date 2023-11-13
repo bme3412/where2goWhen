@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Vilnius Old Town Exploration",
+        "category": "Cultural",
+        "score": 4,
+        "description": "Wander through the historic streets of Vilnius Old Town, a UNESCO World Heritage site known for its medieval architecture.",
+        "city": "Vilnius",
+        "longitude": 25.2799,
+        "latitude": 54.6872,
+        "cost": "$$"
+    },
+    {
+        "name": "Trakai Island Castle Visit",
+        "category": "History",
+        "score": 4,
+        "description": "Explore the picturesque Trakai Island Castle, located on an island in Lake Galvė.",
+        "city": "Trakai",
+        "longitude": 24.9342,
+        "latitude": 54.6528,
+        "cost": "$$"
+    },
+    {
+        "name": "Curonian Spit National Park",
+        "category": "Nature",
+        "score": 5,
+        "description": "Discover the unique natural beauty of the Curonian Spit, a UNESCO World Heritage site known for its sand dunes and rich wildlife.",
+        "city": "Klaipeda",
+        "longitude": 21.0094,
+        "latitude": 55.3966,
+        "cost": "$$"
+    },
+    {
+        "name": "Hill of Crosses Pilgrimage",
+        "category": "Spiritual",
+        "score": 4,
+        "description": "Visit the Hill of Crosses, a site of pilgrimage and a symbol of Lithuanian Catholicism and resilience.",
+        "city": "Siauliai",
+        "longitude": 23.4167,
+        "latitude": 56.0153,
+        "cost": "$"
+    },
+    {
+        "name": "Kaunas Old Town",
+        "category": "Cultural",
+        "score": 3,
+        "description": "Stroll through the historic Old Town of Kaunas, rich in architectural and cultural heritage.",
+        "city": "Kaunas",
+        "longitude": 23.9000,
+        "latitude": 54.8985,
+        "cost": "$"
+    },
+    {
+        "name": "Aukstaitija National Park",
+        "category": "Nature",
+        "score": 4,
+        "description": "Explore Aukstaitija National Park, known for its lakes, forests, and traditional villages.",
+        "city": "Ignalina",
+        "longitude": 26.0000,
+        "latitude": 55.3000,
+        "cost": "$"
+    },
+    {
+        "name": "Druskininkai Spa Town",
+        "category": "Wellness",
+        "score": 3,
+        "description": "Relax in Druskininkai, a renowned spa town famous for its mineral springs and wellness facilities.",
+        "city": "Druskininkai",
+        "longitude": 24.0311,
+        "latitude": 54.0167,
+        "cost": "$$"
+    },
+    {
+        "name": "Kernave Archaeological Site",
+        "category": "History",
+        "score": 4,
+        "description": "Discover the Kernave Archaeological Site, a UNESCO World Heritage site representing early medieval Baltic history.",
+        "city": "Kernave",
+        "longitude": 24.8154,
+        "latitude": 54.8876,
+        "cost": "$"
+    },
+    {
+        "name": "Palanga Amber Museum",
+        "category": "Culture",
+        "score": 3,
+        "description": "Visit the Palanga Amber Museum, showcasing a wide collection of amber pieces and inclusions.",
+        "city": "Palanga",
+        "longitude": 21.0524,
+        "latitude": 55.9191,
+        "cost": "$"
+    },
+    {
+        "name": "Nida Beaches and Dunes",
+        "category": "Nature",
+        "score": 3,
+        "description": "Enjoy the serene beaches and impressive dunes of Nida, a charming town on the Curonian Spit.",
+        "city": "Nida",
+        "longitude": 21.0094,
+        "latitude": 55.3086,
+        "cost": "$$"
+    }
+]

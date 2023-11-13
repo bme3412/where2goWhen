@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Monte Carlo Casino Visit",
+        "category": "Entertainment",
+        "score": 5,
+        "description": "Experience the glamour and excitement of the Monte Carlo Casino, a world-famous gambling and entertainment complex.",
+        "city": "Monte Carlo",
+        "longitude": 7.4264,
+        "latitude": 43.7396,
+        "cost": "$$$"
+    },
+    {
+        "name": "Stroll in the Jardin Exotique",
+        "category": "Nature",
+        "score": 3,
+        "description": "Explore the Jardin Exotique, home to a rich collection of exotic plants and offering spectacular views over Monaco.",
+        "city": "Monaco",
+        "longitude": 7.4181,
+        "latitude": 43.7314,
+        "cost": "$$"
+    },
+    {
+        "name": "Tour the Prince's Palace",
+        "category": "History",
+        "score": 4,
+        "description": "Visit the Prince's Palace of Monaco, a historic site and the official residence of the ruling prince, showcasing elegant architecture and history.",
+        "city": "Monaco",
+        "longitude": 7.4238,
+        "latitude": 43.7311,
+        "cost": "$$"
+    },
+    {
+        "name": "Oceanographic Museum Visit",
+        "category": "Culture",
+        "score": 4,
+        "description": "Discover the Oceanographic Museum of Monaco, an institution dedicated to marine sciences and oceanography, with impressive aquariums and exhibits.",
+        "city": "Monaco",
+        "longitude": 7.4256,
+        "latitude": 43.7314,
+        "cost": "$$"
+    },
+    {
+        "name": "Larvotto Beach Relaxation",
+        "category": "Leisure",
+        "score": 2,
+        "description": "Enjoy a day at Larvotto Beach, Monaco's most popular beach, known for its calm waters and pebbly shores.",
+        "city": "Monaco",
+        "longitude": 7.4386,
+        "latitude": 43.7500,
+        "cost": "$"
+    },
+    {
+        "name": "Monaco Grand Prix Experience",
+        "category": "Entertainment",
+        "score": 5,
+        "description": "Experience the thrill of the Monaco Grand Prix, one of the most prestigious automobile races in the world, held annually on the Circuit de Monaco.",
+        "city": "Monte Carlo",
+        "longitude": 7.4206,
+        "latitude": 43.7374,
+        "cost": "$$$"
+    },
+    {
+        "name": "Japanese Garden Walk",
+        "category": "Nature",
+        "score": 3,
+        "description": "Stroll through the serene Japanese Garden, a peaceful oasis in Monaco, featuring traditional Japanese landscape design.",
+        "city": "Monaco",
+        "longitude": 7.4394,
+        "latitude": 43.7511,
+        "cost": "$"
+    },
+    {
+        "name": "Monte Carlo Harbor Promenade",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Walk along the Monte Carlo Harbor, admiring luxury yachts and enjoying the vibrant atmosphere of the waterfront.",
+        "city": "Monte Carlo",
+        "longitude": 7.4269,
+        "latitude": 43.7397,
+        "cost": "$"
+    },
+    {
+        "name": "Cathedral of Our Lady Immaculate Visit",
+        "category": "History",
+        "score": 3,
+        "description": "Visit the Cathedral of Our Lady Immaculate, also known as Monaco Cathedral, a Romanesque-Byzantine church home to the tombs of past sovereigns.",
+        "city": "Monaco",
+        "longitude": 7.4180,
+        "latitude": 43.7312,
+        "cost": "$"
+    },
+    {
+        "name": "Monte Carlo Opera Experience",
+        "category": "Culture",
+        "score": 4,
+        "description": "Attend a performance at the Monte Carlo Opera, a cultural institution offering a diverse range of operatic and ballet performances.",
+        "city": "Monte Carlo",
+        "longitude": 7.4272,
+        "latitude": 43.7394,
+        "cost": "$$$"
+    }
+]

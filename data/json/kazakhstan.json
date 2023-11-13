@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Visit the Bayterek Tower",
+        "category": "Architecture",
+        "score": 4,
+        "description": "Explore the iconic Bayterek Tower in Nur-Sultan, symbolizing the tree of life and offering panoramic views of the city.",
+        "city": "Nur-Sultan",
+        "longitude": 71.4691,
+        "latitude": 51.1284,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring Charyn Canyon",
+        "category": "Nature",
+        "score": 5,
+        "description": "Discover the stunning Charyn Canyon, often compared to the Grand Canyon for its impressive landscapes.",
+        "city": "Almaty Region",
+        "longitude": 79.0800,
+        "latitude": 43.3500,
+        "cost": "$$"
+    },
+    {
+        "name": "Big Almaty Lake Visit",
+        "category": "Nature",
+        "score": 4,
+        "description": "Experience the serene beauty of Big Almaty Lake, a natural alpine reservoir surrounded by majestic mountains.",
+        "city": "Almaty",
+        "longitude": 76.6173,
+        "latitude": 43.0536,
+        "cost": "$"
+    },
+    {
+        "name": "Tour of the Mausoleum of Khoja Ahmed Yasawi",
+        "category": "History",
+        "score": 5,
+        "description": "Visit the Mausoleum of Khoja Ahmed Yasawi in Turkestan, one of the most important examples of Timurid architecture.",
+        "city": "Turkestan",
+        "longitude": 68.2775,
+        "latitude": 43.2964,
+        "cost": "$$"
+    },
+    {
+        "name": "Medeu Skating Rink and Ski resort",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Enjoy outdoor activities at Medeu, the world's highest skating rink and a popular ski resort near Almaty.",
+        "city": "Almaty",
+        "longitude": 76.8533,
+        "latitude": 43.1683,
+        "cost": "$$"
+    },
+    {
+        "name": "Astana Opera House",
+        "category": "Culture",
+        "score": 3,
+        "description": "Experience a performance at the Astana Opera House, a cultural landmark in the capital city of Nur-Sultan.",
+        "city": "Nur-Sultan",
+        "longitude": 71.4081,
+        "latitude": 51.1286,
+        "cost": "$$$"
+    },
+    {
+        "name": "Hiking in the Altai Mountains",
+        "category": "Nature",
+        "score": 5,
+        "description": "Embark on a hiking adventure in the Altai Mountains, known for their stunning natural beauty and diverse wildlife.",
+        "city": "East Kazakhstan",
+        "longitude": 85.0000,
+        "latitude": 49.0000,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Aisha Bibi Mausoleum",
+        "category": "History",
+        "score": 3,
+        "description": "Explore the Aisha Bibi Mausoleum, a unique architectural monument and a symbol of love in Taraz.",
+        "city": "Taraz",
+        "longitude": 71.3667,
+        "latitude": 42.9000,
+        "cost": "$"
+    },
+    {
+        "name": "Tamgaly Tas Rock Carvings",
+        "category": "History",
+        "score": 4,
+        "description": "Discover ancient rock carvings at Tamgaly Tas, a cultural heritage site near the Ili River.",
+        "city": "Almaty Region",
+        "longitude": 76.0000,
+        "latitude": 43.3500,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Kolsai Lakes",
+        "category": "Nature",
+        "score": 4,
+        "description": "Visit the Kolsai Lakes, a series of three beautiful mountain lakes, known as the 'Pearls of the Tien Shan'.",
+        "city": "Almaty Region",
+        "longitude": 77.5858,
+        "latitude": 42.9794,
+        "cost": "$$"
+    }
+]

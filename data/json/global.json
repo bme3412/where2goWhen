@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Exploring the Antarctic Peninsula",
+        "category": "Adventure/Nature",
+        "score": 5,
+        "description": "Embark on an expedition to the Antarctic Peninsula, a unique journey to the most remote and pristine area of the world.",
+        "city": "Antarctica",
+        "longitude": -60.5500,
+        "latitude": -64.8000,
+        "cost": "$$$$"
+    },
+    {
+        "name": "Witnessing the Northern Lights in Scandinavia",
+        "category": "Nature",
+        "score": 5,
+        "description": "Experience the awe-inspiring Northern Lights, one of the most spectacular natural phenomena, best viewed from Scandinavia.",
+        "city": "Tromsø",
+        "longitude": 18.9553,
+        "latitude": 69.6492,
+        "cost": "$$"
+    },
+    {
+        "name": "Safari in the Serengeti and Maasai Mara",
+        "category": "Wildlife/Nature",
+        "score": 5,
+        "description": "Go on a safari in the Serengeti and Maasai Mara, the ultimate wildlife viewing experience in Africa's vast savannas.",
+        "city": "Serengeti",
+        "longitude": 34.8342,
+        "latitude": -2.3333,
+        "cost": "$$$"
+    },
+    {
+        "name": "Trekking to Everest Base Camp",
+        "category": "Adventure/Nature",
+        "score": 5,
+        "description": "Take on the challenge of trekking to Everest Base Camp, an exhilarating and rewarding experience in the Himalayas of Nepal.",
+        "city": "Solukhumbu",
+        "longitude": 86.9226,
+        "latitude": 27.9881,
+        "cost": "$$$"
+    },
+    {
+        "name": "Visiting the Great Wall of China",
+        "category": "History/Culture",
+        "score": 5,
+        "description": "Walk along the Great Wall of China, an ancient world wonder stretching over thousands of miles.",
+        "city": "Beijing",
+        "longitude": 116.5704,
+        "latitude": 40.4319,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Galapagos Islands",
+        "category": "Wildlife/Nature",
+        "score": 5,
+        "description": "Discover the unique ecosystem of the Galapagos Islands, a living museum of evolutionary changes, with a diversity of native species.",
+        "city": "Galapagos",
+        "longitude": -90.3518,
+        "latitude": -0.3832,
+        "cost": "$$$$"
+    },
+    {
+        "name": "Cruising the Amazon River",
+        "category": "Nature/Adventure",
+        "score": 5,
+        "description": "Experience a cruise along the Amazon River, exploring the heart of the Amazon rainforest and its incredible biodiversity.",
+        "city": "Manaus",
+        "longitude": -60.0217,
+        "latitude": -3.0444,
+        "cost": "$$$"
+    },
+    {
+        "name": "Visiting the Taj Mahal",
+        "category": "Culture/History",
+        "score": 5,
+        "description": "See the Taj Mahal in India, a magnificent symbol of love and one of the most beautiful architectural masterpieces.",
+        "city": "Agra",
+        "longitude": 78.0421,
+        "latitude": 27.1751,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Great Barrier Reef",
+        "category": "Nature/Adventure",
+        "score": 5,
+        "description": "Dive or snorkel in the Great Barrier Reef, the world's largest coral reef system, teeming with marine life, off the coast of Australia.",
+        "city": "Cairns",
+        "longitude": 145.7750,
+        "latitude": -16.9203,
+        "cost": "$$$"
+    },
+    {
+        "name": "Touring the vineyards of Bordeaux",
+        "category": "Culinary/Culture",
+        "score": 4,
+        "description": "Savor the world-renowned wines and beautiful landscapes of the Bordeaux region, a must-visit for wine enthusiasts.",
+        "city": "Bordeaux",
+        "longitude": -0.5792,
+        "latitude": 44.8378,
+        "cost": "$$"
+    }
+]

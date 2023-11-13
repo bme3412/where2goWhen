@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Kyiv's Historic Sites Tour",
+        "category": "Cultural",
+        "score": 4,
+        "description": "Explore Kyiv's rich history by visiting landmarks like Saint Sophia Cathedral, Kyiv Pechersk Lavra, and Maidan Nezalezhnosti.",
+        "city": "Kyiv",
+        "longitude": 30.5238,
+        "latitude": 50.4501,
+        "cost": "$"
+    },
+    {
+        "name": "Lviv Old Town Exploration",
+        "category": "History",
+        "score": 4,
+        "description": "Stroll through the UNESCO-listed Lviv Old Town, renowned for its medieval architecture, vibrant culture, and charming coffeehouses.",
+        "city": "Lviv",
+        "longitude": 24.0315,
+        "latitude": 49.8397,
+        "cost": "$"
+    },
+    {
+        "name": "Odesa Opera and Ballet Theater Performance",
+        "category": "Culture",
+        "score": 3,
+        "description": "Attend a performance at the Odesa National Opera and Ballet Theater, an architectural masterpiece and cultural hub.",
+        "city": "Odesa",
+        "longitude": 30.7326,
+        "latitude": 46.4825,
+        "cost": "$$"
+    },
+    {
+        "name": "Visit the Carpathian Mountains",
+        "category": "Nature",
+        "score": 4,
+        "description": "Explore the natural beauty of the Carpathian Mountains, ideal for hiking, skiing, and immersing in the serene mountain landscapes.",
+        "city": "Carpathians",
+        "longitude": 24.5557,
+        "latitude": 48.5709,
+        "cost": "$$"
+    },
+    {
+        "name": "Chernobyl Exclusion Zone Tour",
+        "category": "History",
+        "score": 5,
+        "description": "Take a guided tour of the Chernobyl Exclusion Zone, a unique and poignant experience exploring the site of the 1986 nuclear disaster.",
+        "city": "Chernobyl",
+        "longitude": 30.2241,
+        "latitude": 51.2763,
+        "cost": "$$$"
+    },
+    {
+        "name": "Kamianets-Podilskyi Castle",
+        "category": "History",
+        "score": 3,
+        "description": "Visit Kamianets-Podilskyi Castle, a historic fortress known for its picturesque and strategic setting on a river loop.",
+        "city": "Kamianets-Podilskyi",
+        "longitude": 26.5793,
+        "latitude": 48.6843,
+        "cost": "$"
+    },
+    {
+        "name": "Sofiyivka Park in Uman",
+        "category": "Nature",
+        "score": 3,
+        "description": "Wander through Sofiyivka Park in Uman, a scenic landscape park and a scientific research institute of the National Academy of Sciences.",
+        "city": "Uman",
+        "longitude": 30.2218,
+        "latitude": 48.7486,
+        "cost": "$"
+    },
+    {
+        "name": "Poltava Battle History Museum",
+        "category": "Culture",
+        "score": 3,
+        "description": "Explore the Poltava Battle History Museum, dedicated to the 1709 battle, featuring exhibits and a historical battlefield.",
+        "city": "Poltava",
+        "longitude": 34.5514,
+        "latitude": 49.5883,
+        "cost": "$"
+    },
+    {
+        "name": "Pechersk Landscape Park in Kyiv",
+        "category": "Leisure",
+        "score": 2,
+        "description": "Relax in Pechersk Landscape Park in Kyiv, offering beautiful views of the Dnieper River and the city, with walking paths and sculptures.",
+        "city": "Kyiv",
+        "longitude": 30.5287,
+        "latitude": 50.4275,
+        "cost": "$"
+    },
+    {
+        "name": "Tunnel of Love in Klevan",
+        "category": "Nature",
+        "score": 4,
+        "description": "Visit the Tunnel of Love in Klevan, a picturesque natural train tunnel surrounded by green arches, popular for romantic walks.",
+        "city": "Klevan",
+        "longitude": 25.9335,
+        "latitude": 50.7453,
+        "cost": "$"
+    }
+]

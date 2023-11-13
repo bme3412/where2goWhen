@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Explore the Three Towers of San Marino",
+        "category": "History",
+        "score": 5,
+        "description": "Visit the iconic Three Towers of San Marino, located on the peaks of Monte Titano, offering panoramic views and rich history.",
+        "city": "San Marino",
+        "longitude": 12.4583,
+        "latitude": 43.9356,
+        "cost": "$$"
+    },
+    {
+        "name": "Stroll Through the Historic Center",
+        "category": "Cultural",
+        "score": 4,
+        "description": "Wander through the narrow streets of San Marino's historic center, a UNESCO World Heritage site with medieval architecture and charming shops.",
+        "city": "San Marino",
+        "longitude": 12.4418,
+        "latitude": 43.9320,
+        "cost": "$"
+    },
+    {
+        "name": "Basilica di San Marino Visit",
+        "category": "Spiritual",
+        "score": 3,
+        "description": "Explore the Basilica di San Marino, a neoclassical church housing the relics of Saint Marinus, the founder of the Republic.",
+        "city": "San Marino",
+        "longitude": 12.4464,
+        "latitude": 43.9361,
+        "cost": "$"
+    },
+    {
+        "name": "Piazza della Libertà and Public Palace",
+        "category": "History",
+        "score": 3,
+        "description": "Visit Piazza della Libertà and the Public Palace, the heart of San Marino's political life and home to the changing of the guard ceremony.",
+        "city": "San Marino",
+        "longitude": 12.4472,
+        "latitude": 43.9367,
+        "cost": "$"
+    },
+    {
+        "name": "Monte Titano Cable Car Ride",
+        "category": "Adventure",
+        "score": 3,
+        "description": "Take a cable car ride up Monte Titano, enjoying stunning views of the surrounding countryside and the Adriatic coast.",
+        "city": "San Marino",
+        "longitude": 12.4528,
+        "latitude": 43.9347,
+        "cost": "$$"
+    },
+    {
+        "name": "Museum of Curiosities Visit",
+        "category": "Education",
+        "score": 2,
+        "description": "Explore the Museum of Curiosities in San Marino, offering a collection of unusual and intriguing artifacts from around the world.",
+        "city": "San Marino",
+        "longitude": 12.4411,
+        "latitude": 43.9369,
+        "cost": "$"
+    },
+    {
+        "name": "San Marino Nature Walks",
+        "category": "Nature",
+        "score": 3,
+        "description": "Enjoy the natural beauty of San Marino's landscapes through various walking and hiking trails around the country.",
+        "city": "San Marino",
+        "longitude": 12.4500,
+        "latitude": 43.9350,
+        "cost": "$"
+    },
+    {
+        "name": "Torture Museum Exploration",
+        "category": "History",
+        "score": 2,
+        "description": "Visit the Torture Museum in San Marino, displaying historical torture devices and offering a unique perspective on medieval and Renaissance history.",
+        "city": "San Marino",
+        "longitude": 12.4417,
+        "latitude": 43.9375,
+        "cost": "$"
+    },
+    {
+        "name": "State Museum of San Marino",
+        "category": "Culture",
+        "score": 3,
+        "description": "Discover the State Museum of San Marino, showcasing archaeological finds, art collections, and historical artifacts representing the country's heritage.",
+        "city": "San Marino",
+        "longitude": 12.4433,
+        "latitude": 43.9364,
+        "cost": "$"
+    },
+    {
+        "name": "Shopping in San Marino",
+        "category": "Leisure",
+        "score": 2,
+        "description": "Experience shopping in San Marino, known for its variety of shops offering everything from souvenirs to luxury goods, often at tax-free prices.",
+        "city": "San Marino",
+        "longitude": 12.4411,
+        "latitude": 43.9360,
+        "cost": "$$"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Explore Tallinn's Old Town",
+        "category": "Cultural",
+        "score": 5,
+        "description": "Wander through the cobblestone streets of Tallinn's medieval Old Town, a UNESCO World Heritage site.",
+        "city": "Tallinn",
+        "longitude": 24.745,
+        "latitude": 59.437,
+        "cost": "$$"
+    },
+    {
+        "name": "Lahemaa National Park Visit",
+        "category": "Nature",
+        "score": 4,
+        "description": "Explore the diverse landscapes of Lahemaa National Park, featuring forests, bogs, and coastline.",
+        "city": "Lahemaa",
+        "longitude": 25.9319,
+        "latitude": 59.535,
+        "cost": "$"
+    },
+    {
+        "name": "Saaremaa Island Escape",
+        "category": "Nature",
+        "score": 4,
+        "description": "Discover the serene beauty of Saaremaa, Estonia's largest island, known for its windmills and castles.",
+        "city": "Saaremaa",
+        "longitude": 22.7492,
+        "latitude": 58.5417,
+        "cost": "$$"
+    },
+    {
+        "name": "Visit Pärnu Beach",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Relax on the sandy beaches of Pärnu, a popular summer retreat with a charming town.",
+        "city": "Pärnu",
+        "longitude": 24.5085,
+        "latitude": 58.3859,
+        "cost": "$"
+    },
+    {
+        "name": "Tartu University Visit",
+        "category": "Education",
+        "score": 3,
+        "description": "Explore the historic Tartu University, a hub of Estonian culture and education.",
+        "city": "Tartu",
+        "longitude": 26.7175,
+        "latitude": 58.3776,
+        "cost": "$"
+    },
+    {
+        "name": "Kadriorg Palace and Park",
+        "category": "History",
+        "score": 4,
+        "description": "Admire the baroque architecture of Kadriorg Palace, surrounded by beautifully landscaped gardens.",
+        "city": "Tallinn",
+        "longitude": 24.8061,
+        "latitude": 59.4369,
+        "cost": "$$"
+    },
+    {
+        "name": "Kumu Art Museum",
+        "category": "Art",
+        "score": 3,
+        "description": "Visit Kumu, the award-winning art museum in Tallinn, showcasing Estonian art.",
+        "city": "Tallinn",
+        "longitude": 24.8074,
+        "latitude": 59.4366,
+        "cost": "$"
+    },
+    {
+        "name": "Soomaa National Park Canoeing",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Canoe through the picturesque wetlands of Soomaa National Park, famous for its ‘fifth season’ floods.",
+        "city": "Soomaa",
+        "longitude": 25.1892,
+        "latitude": 58.4814,
+        "cost": "$$"
+    },
+    {
+        "name": "Tour the Narva Castle",
+        "category": "History",
+        "score": 3,
+        "description": "Explore the imposing Narva Castle on the border with Russia, offering rich history and great views.",
+        "city": "Narva",
+        "longitude": 28.1863,
+        "latitude": 59.3772,
+        "cost": "$"
+    },
+    {
+        "name": "Setomaa Cultural Experience",
+        "category": "Cultural",
+        "score": 5,
+        "description": "Immerse in the unique culture of the Seto people in southeastern Estonia, known for their traditions and cuisine.",
+        "city": "Setomaa",
+        "longitude": 27.6361,
+        "latitude": 57.8403,
+        "cost": "$$"
+    }
+]

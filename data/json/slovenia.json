@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Lake Bled and Bled Castle",
+        "category": "Nature",
+        "score": 5,
+        "description": "Experience the iconic Lake Bled, known for its stunning island church, medieval castle perched atop a cliff, and breathtaking alpine scenery.",
+        "city": "Bled",
+        "longitude": 14.1080,
+        "latitude": 46.3683,
+        "cost": "$$"
+    },
+    {
+        "name": "Ljubljana Old Town Exploration",
+        "category": "Cultural",
+        "score": 3,
+        "description": "Stroll through Ljubljana's charming Old Town, featuring historic architecture, the Ljubljana Castle, and picturesque bridges over the Ljubljanica river.",
+        "city": "Ljubljana",
+        "longitude": 14.5058,
+        "latitude": 46.0569,
+        "cost": "$"
+    },
+    {
+        "name": "Postojna Cave Adventure",
+        "category": "Nature",
+        "score": 4,
+        "description": "Discover the wonders of Postojna Cave, one of the largest and most visited cave systems in Europe, known for its unique karst formations.",
+        "city": "Postojna",
+        "longitude": 14.2069,
+        "latitude": 45.7827,
+        "cost": "$$"
+    },
+    {
+        "name": "Visit Piran's Venetian Architecture",
+        "category": "History",
+        "score": 3,
+        "description": "Explore the coastal town of Piran, known for its Venetian architecture, vibrant main square, and beautiful views of the Adriatic Sea.",
+        "city": "Piran",
+        "longitude": 13.5667,
+        "latitude": 45.5283,
+        "cost": "$"
+    },
+    {
+        "name": "Triglav National Park Hiking",
+        "category": "Nature",
+        "score": 4,
+        "description": "Hike in Triglav National Park, Slovenia's only national park, offering stunning alpine landscapes, diverse wildlife, and outdoor activities.",
+        "city": "Triglav",
+        "longitude": 13.8378,
+        "latitude": 46.3783,
+        "cost": "$"
+    },
+    {
+        "name": "Škocjan Caves UNESCO Site",
+        "category": "Nature",
+        "score": 4,
+        "description": "Visit the Škocjan Caves, a UNESCO World Heritage site, known for its enormous underground canyon and unique karst landscape.",
+        "city": "Škocjan",
+        "longitude": 13.9896,
+        "latitude": 45.6639,
+        "cost": "$$"
+    },
+    {
+        "name": "Soča Valley River Sports",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Enjoy water sports in the Soča Valley, renowned for its emerald green river, offering rafting, kayaking, and canyoning experiences.",
+        "city": "Bovec",
+        "longitude": 13.5528,
+        "latitude": 46.3375,
+        "cost": "$$"
+    },
+    {
+        "name": "Predjama Castle Exploration",
+        "category": "History",
+        "score": 4,
+        "description": "Explore Predjama Castle, a remarkable Renaissance castle built within a cave mouth, offering a unique blend of natural wonders and architectural marvel.",
+        "city": "Predjama",
+        "longitude": 14.1275,
+        "latitude": 45.8131,
+        "cost": "$$"
+    },
+    {
+        "name": "Ptuj Historical Town Visit",
+        "category": "Cultural",
+        "score": 3,
+        "description": "Discover Ptuj, Slovenia's oldest town, known for its rich history, medieval castle, and vibrant cultural festivals.",
+        "city": "Ptuj",
+        "longitude": 15.8700,
+        "latitude": 46.4201,
+        "cost": "$"
+    },
+    {
+        "name": "Maribor Wine Region Experience",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Tour the wine region of Maribor, home to the world's oldest grapevine, and enjoy tasting local wines in picturesque vineyard settings.",
+        "city": "Maribor",
+        "longitude": 15.6500,
+        "latitude": 46.5500,
+        "cost": "$$"
+    }
+]

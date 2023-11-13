@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Exploring the Acropolis of Athens",
+        "category": "Culture",
+        "score": 5,
+        "description": "Visit the ancient Acropolis, a symbol of classical spirit and civilization, offering panoramic views of Athens.",
+        "city": "Athens",
+        "longitude": 23.7275,
+        "latitude": 37.9838,
+        "cost": "$$"
+    },
+    {
+        "name": "Witnessing the Northern Lights in Iceland",
+        "category": "Nature",
+        "score": 5,
+        "description": "Experience the spectacular Northern Lights, a unique natural phenomenon in the Icelandic sky.",
+        "city": "Reykjavik",
+        "longitude": -21.9426,
+        "latitude": 64.1466,
+        "cost": "$$$"
+    },
+    {
+        "name": "Venice Gondola Ride",
+        "category": "Romance/Culture",
+        "score": 4,
+        "description": "A gondola ride through the iconic canals of Venice, offering a unique perspective of this romantic city.",
+        "city": "Venice",
+        "longitude": 12.3155,
+        "latitude": 45.4408,
+        "cost": "$$"
+    },
+    {
+        "name": "Touring the Louvre Museum",
+        "category": "Art/Culture",
+        "score": 4,
+        "description": "Explore the world's largest art museum and a historic monument in Paris, home to the Mona Lisa.",
+        "city": "Paris",
+        "longitude": 2.3358,
+        "latitude": 48.8611,
+        "cost": "$$"
+    },
+    {
+        "name": "Hiking the Swiss Alps",
+        "category": "Adventure/Nature",
+        "score": 5,
+        "description": "Embark on a hiking adventure in the Swiss Alps, experiencing breathtaking landscapes and pristine nature.",
+        "city": "Zermatt",
+        "longitude": 7.7486,
+        "latitude": 46.0207,
+        "cost": "$$$"
+    },
+    {
+        "name": "Visiting the Colosseum in Rome",
+        "category": "History/Culture",
+        "score": 5,
+        "description": "Explore the ancient Roman Colosseum, a symbol of architectural prowess and historical significance.",
+        "city": "Rome",
+        "longitude": 12.4922,
+        "latitude": 41.8902,
+        "cost": "$$"
+    },
+    {
+        "name": "Enjoying Flamenco in Andalusia",
+        "category": "Culture/Music",
+        "score": 4,
+        "description": "Experience the passion and art of Flamenco in its birthplace, offering an authentic taste of Spanish culture.",
+        "city": "Seville",
+        "longitude": -5.9845,
+        "latitude": 37.3891,
+        "cost": "$$"
+    },
+    {
+        "name": "Sailing the Norwegian Fjords",
+        "category": "Nature/Adventure",
+        "score": 5,
+        "description": "Sail through the Norwegian Fjords, experiencing one of the planet's most awe-inspiring natural wonders.",
+        "city": "Bergen",
+        "longitude": 5.3221,
+        "latitude": 60.3913,
+        "cost": "$$$"
+    },
+    {
+        "name": "Attending Oktoberfest in Munich",
+        "category": "Culture/Festival",
+        "score": 3,
+        "description": "Join the world's largest Volksfest for beer, culture, and festivities in Munich.",
+        "city": "Munich",
+        "longitude": 11.5761,
+        "latitude": 48.1372,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Scottish Highlands",
+        "category": "Nature/History",
+        "score": 4,
+        "description": "Discover the rugged beauty and rich history of the Scottish Highlands, with its stunning landscapes and castles.",
+        "city": "Inverness",
+        "longitude": -4.2247,
+        "latitude": 57.4778,
+        "cost": "$$"
+    }
+]

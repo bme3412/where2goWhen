@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Hagia Sophia and Blue Mosque Visit",
+        "category": "Cultural",
+        "score": 5,
+        "description": "Explore the Hagia Sophia and Blue Mosque in Istanbul, iconic symbols of the city's rich history, offering stunning architectural beauty.",
+        "city": "Istanbul",
+        "longitude": 28.9790,
+        "latitude": 41.0086,
+        "cost": "$"
+    },
+    {
+        "name": "Cappadocia Hot Air Balloon Ride",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Experience a hot air balloon ride over Cappadocia, known for its unique fairy chimneys, rock formations, and breathtaking landscapes.",
+        "city": "Cappadocia",
+        "longitude": 34.8406,
+        "latitude": 38.6466,
+        "cost": "$$$"
+    },
+    {
+        "name": "Ephesus Ancient City Tour",
+        "category": "History",
+        "score": 4,
+        "description": "Discover the ancient city of Ephesus, one of the largest Roman archaeological sites in the eastern Mediterranean.",
+        "city": "Selçuk",
+        "longitude": 27.3404,
+        "latitude": 37.9397,
+        "cost": "$$"
+    },
+    {
+        "name": "Pamukkale Thermal Pools",
+        "category": "Nature",
+        "score": 4,
+        "description": "Visit the Pamukkale thermal pools, famous for their terraces of carbonate minerals and therapeutic waters.",
+        "city": "Pamukkale",
+        "longitude": 29.1187,
+        "latitude": 37.9136,
+        "cost": "$$"
+    },
+    {
+        "name": "Topkapi Palace Exploration",
+        "category": "History",
+        "score": 4,
+        "description": "Explore Topkapi Palace in Istanbul, the primary residence of the Ottoman sultans for nearly 400 years, showcasing opulent courtyards and rich exhibits.",
+        "city": "Istanbul",
+        "longitude": 28.9842,
+        "latitude": 41.0136,
+        "cost": "$$"
+    },
+    {
+        "name": "Grand Bazaar Shopping Experience",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Shop at Istanbul's Grand Bazaar, one of the largest and oldest covered markets in the world, offering a variety of traditional goods and souvenirs.",
+        "city": "Istanbul",
+        "longitude": 28.9674,
+        "latitude": 41.0107,
+        "cost": "$"
+    },
+    {
+        "name": "Antalya Old Town and Beaches",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Enjoy the historic Old Town of Antalya, Kaleiçi, and relax on the beautiful beaches along the Turkish Riviera.",
+        "city": "Antalya",
+        "longitude": 30.7133,
+        "latitude": 36.8969,
+        "cost": "$$"
+    },
+    {
+        "name": "Sumela Monastery Visit",
+        "category": "Cultural",
+        "score": 4,
+        "description": "Discover the Sumela Monastery, a stunning Greek Orthodox monastery perched on a cliff in the Maçka district of Trabzon.",
+        "city": "Trabzon",
+        "longitude": 39.7108,
+        "latitude": 40.9889,
+        "cost": "$$"
+    },
+    {
+        "name": "Göbekli Tepe Archaeological Site",
+        "category": "History",
+        "score": 5,
+        "description": "Visit Göbekli Tepe, one of the world's oldest temple complexes, offering insights into early human settlements and civilizations.",
+        "city": "Şanlıurfa",
+        "longitude": 38.9225,
+        "latitude": 37.2236,
+        "cost": "$"
+    },
+    {
+        "name": "Mount Nemrut Sunrise or Sunset Tour",
+        "category": "Nature",
+        "score": 4,
+        "description": "Witness a breathtaking sunrise or sunset at Mount Nemrut, known for its giant head statues and a UNESCO World Heritage site.",
+        "city": "Kahta",
+        "longitude": 38.7406,
+        "latitude": 37.9814,
+        "cost": "$$"
+    }
+]

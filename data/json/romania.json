@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Visit Bran Castle",
+        "category": "History",
+        "score": 4,
+        "description": "Explore Bran Castle, often associated with the Dracula legend, offering a mix of myth and history in a picturesque setting.",
+        "city": "Bran",
+        "longitude": 25.3690,
+        "latitude": 45.5161,
+        "cost": "$$"
+    },
+    {
+        "name": "Peles Castle Tour",
+        "category": "History",
+        "score": 5,
+        "description": "Visit Peles Castle in Sinaia, a masterpiece of German neo-Renaissance architecture and one of the most stunning castles in Europe.",
+        "city": "Sinaia",
+        "longitude": 25.5497,
+        "latitude": 45.3548,
+        "cost": "$$"
+    },
+    {
+        "name": "Transfagarasan Highway Drive",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Drive along the Transfagarasan Highway, known as one of the most spectacular roads in the world, offering breathtaking views and thrilling turns.",
+        "city": "Transfagarasan",
+        "longitude": 24.6122,
+        "latitude": 45.5989,
+        "cost": "$$"
+    },
+    {
+        "name": "Explore the Danube Delta",
+        "category": "Nature",
+        "score": 4,
+        "description": "Discover the Danube Delta, a UNESCO World Heritage site, known for its rich biodiversity and unique landscapes.",
+        "city": "Tulcea",
+        "longitude": 29.6533,
+        "latitude": 45.1795,
+        "cost": "$$"
+    },
+    {
+        "name": "Walking in Brasov Old Town",
+        "category": "Cultural",
+        "score": 3,
+        "description": "Stroll through the charming streets of Brasov's Old Town, surrounded by medieval walls and filled with historical landmarks.",
+        "city": "Brasov",
+        "longitude": 25.5887,
+        "latitude": 45.6573,
+        "cost": "$"
+    },
+    {
+        "name": "Wooden Churches of Maramures",
+        "category": "Culture",
+        "score": 4,
+        "description": "Visit the Wooden Churches of Maramures, unique examples of religious architecture and part of Romania's cultural heritage.",
+        "city": "Maramures",
+        "longitude": 23.9333,
+        "latitude": 47.6667,
+        "cost": "$"
+    },
+    {
+        "name": "Corvin Castle Visit",
+        "category": "History",
+        "score": 4,
+        "description": "Explore Corvin Castle, one of the largest and best-preserved medieval castles in Europe, boasting a rich history and Gothic architecture.",
+        "city": "Hunedoara",
+        "longitude": 22.8900,
+        "latitude": 45.7489,
+        "cost": "$$"
+    },
+    {
+        "name": "Sighisoara Medieval Citadel",
+        "category": "History",
+        "score": 4,
+        "description": "Discover Sighisoara Citadel, a well-preserved medieval town and UNESCO World Heritage site, known for its colorful buildings and rich history.",
+        "city": "Sighisoara",
+        "longitude": 24.7914,
+        "latitude": 46.2197,
+        "cost": "$"
+    },
+    {
+        "name": "Turda Salt Mine",
+        "category": "History",
+        "score": 3,
+        "description": "Visit the Turda Salt Mine, a unique underground attraction with a history dating back to the Middle Ages, now offering an amusement park and boat rides.",
+        "city": "Turda",
+        "longitude": 23.7871,
+        "latitude": 46.5875,
+        "cost": "$"
+    },
+    {
+        "name": "Painted Monasteries of Bucovina",
+        "category": "Culture",
+        "score": 4,
+        "description": "Explore the Painted Monasteries of Bucovina, famous for their exterior frescoes depicting biblical scenes, and recognized as UNESCO World Heritage sites.",
+        "city": "Bucovina",
+        "longitude": 25.6973,
+        "latitude": 47.6533,
+        "cost": "$$"
+    }
+]

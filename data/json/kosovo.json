@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Visit the Visoki Dečani Monastery",
+        "category": "Cultural",
+        "score": 5,
+        "description": "Explore the Visoki Dečani Monastery, a UNESCO World Heritage site known for its well-preserved medieval frescoes.",
+        "city": "Dečani",
+        "longitude": 20.2597,
+        "latitude": 42.5525,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring Prizren's Old Town",
+        "category": "Cultural",
+        "score": 4,
+        "description": "Wander through the charming streets of Prizren's Old Town, rich in history and cultural heritage.",
+        "city": "Prizren",
+        "longitude": 20.7417,
+        "latitude": 42.2139,
+        "cost": "$"
+    },
+    {
+        "name": "Hiking in the Rugova Valley",
+        "category": "Nature",
+        "score": 4,
+        "description": "Discover the stunning landscapes of the Rugova Valley, offering excellent hiking and outdoor activities.",
+        "city": "Peć",
+        "longitude": 20.2906,
+        "latitude": 42.6603,
+        "cost": "$"
+    },
+    {
+        "name": "Bear Sanctuary Visit",
+        "category": "Wildlife",
+        "score": 3,
+        "description": "Visit the Bear Sanctuary near Prishtina, providing a haven for rescued bears.",
+        "city": "Prishtina",
+        "longitude": 21.1669,
+        "latitude": 42.6675,
+        "cost": "$$"
+    },
+    {
+        "name": "Tour of the Gračanica Monastery",
+        "category": "History",
+        "score": 5,
+        "description": "Explore the Gračanica Monastery, a masterpiece of Serbian medieval architecture and a UNESCO World Heritage site.",
+        "city": "Gračanica",
+        "longitude": 21.1103,
+        "latitude": 42.6281,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Gadime Caves",
+        "category": "Nature",
+        "score": 3,
+        "description": "Visit the Gadime Caves, known for their unique stalactites and stalagmites formations.",
+        "city": "Gadime",
+        "longitude": 21.1553,
+        "latitude": 42.4636,
+        "cost": "$"
+    },
+    {
+        "name": "National Library of Kosovo",
+        "category": "Architecture",
+        "score": 3,
+        "description": "See the unique architecture of the National Library of Kosovo in Prishtina, with its distinctive domes and cubes.",
+        "city": "Prishtina",
+        "longitude": 21.1669,
+        "latitude": 42.6639,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Ethnological Museum (Muzeu Etnologjik)",
+        "category": "Culture",
+        "score": 3,
+        "description": "Explore Kosovo's rich cultural heritage at the Ethnological Museum in Prishtina.",
+        "city": "Prishtina",
+        "longitude": 21.1653,
+        "latitude": 42.6629,
+        "cost": "$"
+    },
+    {
+        "name": "Mirusha Waterfalls",
+        "category": "Nature",
+        "score": 4,
+        "description": "Enjoy the beauty of the Mirusha Waterfalls, a series of cascades in a scenic valley.",
+        "city": "Mirusha",
+        "longitude": 20.6500,
+        "latitude": 42.4500,
+        "cost": "$"
+    },
+    {
+        "name": "Brezovica Ski Resort",
+        "category": "Adventure",
+        "score": 3,
+        "description": "Experience skiing or snowboarding at Brezovica Ski Resort, one of the most popular winter sports destinations in Kosovo.",
+        "city": "Brezovica",
+        "longitude": 21.0300,
+        "latitude": 42.2400,
+        "cost": "$$"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Bay of Kotor Exploration",
+        "category": "Nature",
+        "score": 5,
+        "description": "Discover the Bay of Kotor, a UNESCO World Heritage site known for its stunning natural beauty and picturesque towns.",
+        "city": "Kotor",
+        "longitude": 18.7712,
+        "latitude": 42.4247,
+        "cost": "$$"
+    },
+    {
+        "name": "Visit the Ostrog Monastery",
+        "category": "Spiritual",
+        "score": 4,
+        "description": "Experience the Ostrog Monastery, a significant Serbian Orthodox monastery carved into a cliff, attracting pilgrims and tourists alike.",
+        "city": "Niksic",
+        "longitude": 18.8408,
+        "latitude": 42.6750,
+        "cost": "$"
+    },
+    {
+        "name": "Durmitor National Park Hiking",
+        "category": "Nature",
+        "score": 5,
+        "description": "Explore Durmitor National Park, a UNESCO World Heritage site, offering stunning landscapes for hiking, rafting, and skiing.",
+        "city": "Zabljak",
+        "longitude": 19.1225,
+        "latitude": 43.1548,
+        "cost": "$"
+    },
+    {
+        "name": "Sveti Stefan Beach",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Visit the iconic Sveti Stefan, a picturesque islet and resort, renowned for its beautiful beaches and historical significance.",
+        "city": "Sveti Stefan",
+        "longitude": 18.8912,
+        "latitude": 42.2597,
+        "cost": "$$$"
+    },
+    {
+        "name": "Budva Old Town Visit",
+        "category": "Cultural",
+        "score": 3,
+        "description": "Stroll through Budva's Old Town, known for its medieval architecture, vibrant nightlife, and Adriatic Sea views.",
+        "city": "Budva",
+        "longitude": 18.8371,
+        "latitude": 42.2776,
+        "cost": "$"
+    },
+    {
+        "name": "Lovcen National Park Adventure",
+        "category": "Nature",
+        "score": 4,
+        "description": "Discover Lovcen National Park, home to the Njegos Mausoleum and offering panoramic views of Montenegro.",
+        "city": "Cetinje",
+        "longitude": 18.9361,
+        "latitude": 42.3931,
+        "cost": "$"
+    },
+    {
+        "name": "Skadar Lake Boat Trip",
+        "category": "Nature",
+        "score": 4,
+        "description": "Take a boat trip on Skadar Lake, the largest lake in the Balkans, known for its diverse ecosystem and birdlife.",
+        "city": "Skadar",
+        "longitude": 19.3564,
+        "latitude": 42.2025,
+        "cost": "$$"
+    },
+    {
+        "name": "Perast Small Town Exploration",
+        "category": "History",
+        "score": 3,
+        "description": "Visit the charming coastal town of Perast, famous for its Baroque architecture and the nearby Our Lady of the Rocks islet.",
+        "city": "Perast",
+        "longitude": 18.7050,
+        "latitude": 42.4896,
+        "cost": "$"
+    },
+    {
+        "name": "Tara River Canyon Rafting",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Experience rafting in the Tara River Canyon, one of the deepest river canyons in Europe, offering thrilling outdoor adventure.",
+        "city": "Durmitor",
+        "longitude": 19.0503,
+        "latitude": 43.3500,
+        "cost": "$$"
+    },
+    {
+        "name": "Cetinje Historical Tour",
+        "category": "Culture",
+        "score": 3,
+        "description": "Explore Cetinje, the historical capital of Montenegro, rich in cultural heritage and home to several museums and monasteries.",
+        "city": "Cetinje",
+        "longitude": 18.9225,
+        "latitude": 42.3906,
+        "cost": "$"
+    }
+]

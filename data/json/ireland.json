@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Cliffs of Moher Visit",
+        "category": "Nature",
+        "score": 5,
+        "description": "Experience the stunning Cliffs of Moher, one of Ireland's most famous natural attractions, offering breathtaking views of the Atlantic Ocean.",
+        "city": "County Clare",
+        "longitude": -9.4194,
+        "latitude": 52.9715,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Ring of Kerry",
+        "category": "Nature",
+        "score": 4,
+        "description": "Drive along the scenic Ring of Kerry, a circular route known for its picturesque landscapes and charming villages.",
+        "city": "County Kerry",
+        "longitude": -9.5833,
+        "latitude": 52.1545,
+        "cost": "$$"
+    },
+    {
+        "name": "Guinness Storehouse Experience",
+        "category": "Gastronomy",
+        "score": 4,
+        "description": "Discover the history of Guinness at the Guinness Storehouse in Dublin and enjoy a pint with a view at the Gravity Bar.",
+        "city": "Dublin",
+        "longitude": -6.2867,
+        "latitude": 53.3419,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Rock of Cashel",
+        "category": "History",
+        "score": 3,
+        "description": "Explore the Rock of Cashel, an ancient royal site with medieval architecture and stunning views of the surrounding countryside.",
+        "city": "County Tipperary",
+        "longitude": -7.8904,
+        "latitude": 52.5200,
+        "cost": "$"
+    },
+    {
+        "name": "Hiking in the Connemara National Park",
+        "category": "Nature",
+        "score": 3,
+        "description": "Hike through the rugged and beautiful landscapes of Connemara National Park, known for its mountains, bogs, and heathlands.",
+        "city": "County Galway",
+        "longitude": -9.8319,
+        "latitude": 53.5384,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Giant's Causeway",
+        "category": "Nature",
+        "score": 5,
+        "description": "Witness the unique basalt columns of the Giant's Causeway, a UNESCO World Heritage Site in Northern Ireland.",
+        "city": "County Antrim",
+        "longitude": -6.5112,
+        "latitude": 55.2408,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting Blarney Castle",
+        "category": "History",
+        "score": 3,
+        "description": "Kiss the Blarney Stone at Blarney Castle, a historic castle near Cork known for its legendary stone of eloquence.",
+        "city": "County Cork",
+        "longitude": -8.5615,
+        "latitude": 51.9291,
+        "cost": "$$"
+    },
+    {
+        "name": "Touring the Aran Islands",
+        "category": "Culture",
+        "score": 4,
+        "description": "Experience the traditional Irish culture and unspoiled nature of the Aran Islands, located off the west coast of Ireland.",
+        "city": "County Galway",
+        "longitude": -9.6725,
+        "latitude": 53.1289,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Burren",
+        "category": "Nature",
+        "score": 4,
+        "description": "Discover the unique karst landscape of the Burren, an area rich in natural beauty and ancient history.",
+        "city": "County Clare",
+        "longitude": -9.1644,
+        "latitude": 53.0071,
+        "cost": "$"
+    },
+    {
+        "name": "Walking in Killarney National Park",
+        "category": "Nature",
+        "score": 3,
+        "description": "Enjoy the stunning scenery of Killarney National Park, with its lakes, mountains, and woodlands.",
+        "city": "County Kerry",
+        "longitude": -9.5064,
+        "latitude": 52.0209,
+        "cost": "$"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Visiting Machu Picchu",
+        "category": "History/Culture",
+        "score": 5,
+        "description": "Explore the ancient Incan city of Machu Picchu, set high in the Andes Mountains, a symbol of the Incan Empire's sophistication.",
+        "city": "Cusco",
+        "longitude": -72.5449,
+        "latitude": -13.1631,
+        "cost": "$$$"
+    },
+    {
+        "name": "Exploring the Amazon Rainforest",
+        "category": "Nature/Adventure",
+        "score": 5,
+        "description": "Embark on an adventure in the Amazon Rainforest, the world's largest tropical rainforest, known for its biodiversity.",
+        "city": "Manaus",
+        "longitude": -60.0217,
+        "latitude": -3.0444,
+        "cost": "$$$"
+    },
+    {
+        "name": "Witnessing Iguazu Falls",
+        "category": "Nature",
+        "score": 5,
+        "description": "Experience the stunning Iguazu Falls, one of the most impressive natural wonders in the world, located on the border of Argentina and Brazil.",
+        "city": "Foz do Iguaçu",
+        "longitude": -54.5889,
+        "latitude": -25.6953,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Galapagos Islands",
+        "category": "Wildlife/Nature",
+        "score": 5,
+        "description": "Discover the unique wildlife and pristine nature of the Galapagos Islands, a volcanic archipelago in the Pacific Ocean.",
+        "city": "Galapagos",
+        "longitude": -90.3518,
+        "latitude": -0.3832,
+        "cost": "$$$$"
+    },
+    {
+        "name": "Visiting the Salt Flats of Uyuni",
+        "category": "Nature",
+        "score": 4,
+        "description": "Explore the surreal landscape of Salar de Uyuni, the world's largest salt flat, in Bolivia.",
+        "city": "Uyuni",
+        "longitude": -67.6205,
+        "latitude": -20.1338,
+        "cost": "$$"
+    },
+    {
+        "name": "Discovering Rio de Janeiro",
+        "category": "Culture/Nature",
+        "score": 4,
+        "description": "Experience the vibrant culture, beautiful beaches, and the iconic Christ the Redeemer statue in Rio de Janeiro, Brazil.",
+        "city": "Rio de Janeiro",
+        "longitude": -43.1729,
+        "latitude": -22.9068,
+        "cost": "$$"
+    },
+    {
+        "name": "Hiking the Torres del Paine",
+        "category": "Adventure/Nature",
+        "score": 4,
+        "description": "Trek through the stunning landscapes of Torres del Paine National Park in Chile, known for its mountains, glaciers, and lakes.",
+        "city": "Patagonia",
+        "longitude": -73.0554,
+        "latitude": -51.2538,
+        "cost": "$$$"
+    },
+    {
+        "name": "Exploring the Mayan Ruins of Tikal",
+        "category": "History/Culture",
+        "score": 4,
+        "description": "Visit the ancient Mayan city of Tikal, one of the largest archaeological sites of the pre-Columbian Maya civilization, located in Guatemala.",
+        "city": "Tikal",
+        "longitude": -89.6216,
+        "latitude": 17.2220,
+        "cost": "$"
+    },
+    {
+        "name": "Carnival in Rio de Janeiro",
+        "category": "Culture/Festival",
+        "score": 5,
+        "description": "Join the lively and colorful Carnival celebration in Rio de Janeiro, famous for its parades, costumes, and samba.",
+        "city": "Rio de Janeiro",
+        "longitude": -43.1729,
+        "latitude": -22.9068,
+        "cost": "$$$"
+    },
+    {
+        "name": "Visiting the Atacama Desert",
+        "category": "Nature/Adventure",
+        "score": 4,
+        "description": "Explore the Atacama Desert in Chile, the driest non-polar desert in the world, known for its lunar-like landscapes.",
+        "city": "San Pedro de Atacama",
+        "longitude": -68.1997,
+        "latitude": -22.9087,
+        "cost": "$$"
+    }
+]

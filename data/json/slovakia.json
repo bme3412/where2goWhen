@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Bratislava Old Town Exploration",
+        "category": "Cultural",
+        "score": 3,
+        "description": "Wander through the charming streets of Bratislava's Old Town, featuring historical buildings, cozy cafes, and the iconic Bratislava Castle.",
+        "city": "Bratislava",
+        "longitude": 17.1077,
+        "latitude": 48.1486,
+        "cost": "$"
+    },
+    {
+        "name": "High Tatras National Park Hiking",
+        "category": "Nature",
+        "score": 5,
+        "description": "Discover the natural beauty of the High Tatras, Slovakia's highest mountain range, offering spectacular hiking trails and stunning scenery.",
+        "city": "High Tatras",
+        "longitude": 20.2734,
+        "latitude": 49.1660,
+        "cost": "$$"
+    },
+    {
+        "name": "Spiš Castle Visit",
+        "category": "History",
+        "score": 4,
+        "description": "Explore Spiš Castle, one of the largest castle complexes in Central Europe, a UNESCO World Heritage site with a rich history.",
+        "city": "Spiš",
+        "longitude": 20.7681,
+        "latitude": 49.0015,
+        "cost": "$"
+    },
+    {
+        "name": "Slovak Paradise National Park Adventure",
+        "category": "Nature",
+        "score": 4,
+        "description": "Experience the diverse landscapes of Slovak Paradise National Park, known for its hiking trails, gorges, and waterfalls.",
+        "city": "Slovak Paradise",
+        "longitude": 20.4167,
+        "latitude": 48.9167,
+        "cost": "$"
+    },
+    {
+        "name": "Bojnice Castle Fairytale Experience",
+        "category": "History",
+        "score": 3,
+        "description": "Visit Bojnice Castle, a fairy-tale like structure, one of the most visited and beautiful castles in Slovakia, known for its romantic architecture.",
+        "city": "Bojnice",
+        "longitude": 18.5740,
+        "latitude": 48.7804,
+        "cost": "$$"
+    },
+    {
+        "name": "Bardejov Historic Center",
+        "category": "Cultural",
+        "score": 3,
+        "description": "Stroll through the historic center of Bardejov, a well-preserved example of a fortified medieval town, featuring Gothic architecture.",
+        "city": "Bardejov",
+        "longitude": 21.2728,
+        "latitude": 49.2918,
+        "cost": "$"
+    },
+    {
+        "name": "Banská Štiavnica Town Visit",
+        "category": "History",
+        "score": 3,
+        "description": "Explore Banská Štiavnica, a UNESCO-listed town that was a silver mining center in the Middle Ages, now known for its historical buildings and mines.",
+        "city": "Banská Štiavnica",
+        "longitude": 18.8948,
+        "latitude": 48.4584,
+        "cost": "$"
+    },
+    {
+        "name": "Demanovska Cave of Liberty Tour",
+        "category": "Nature",
+        "score": 4,
+        "description": "Discover the Demanovska Cave of Liberty, a stunning cave system in the Low Tatras, known for its impressive rock formations and underground streams.",
+        "city": "Low Tatras",
+        "longitude": 19.5725,
+        "latitude": 48.9614,
+        "cost": "$$"
+    },
+    {
+        "name": "Thermal Park Bešeňová Relaxation",
+        "category": "Wellness",
+        "score": 3,
+        "description": "Unwind in Thermal Park Bešeňová, offering thermal pools, wellness facilities, and water attractions, set amidst the scenic backdrop of the Low Tatras.",
+        "city": "Bešeňová",
+        "longitude": 19.4814,
+        "latitude": 49.0850,
+        "cost": "$$"
+    },
+    {
+        "name": "Košice City Tour",
+        "category": "Cultural",
+        "score": 3,
+        "description": "Visit Košice, Slovakia's second-largest city, featuring a rich cultural heritage, beautiful architecture, and the impressive St. Elisabeth Cathedral.",
+        "city": "Košice",
+        "longitude": 21.2581,
+        "latitude": 48.7164,
+        "cost": "$"
+    }
+]

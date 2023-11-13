@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Exploring the Grand Canyon",
+        "category": "Nature",
+        "score": 5,
+        "description": "Experience the majestic Grand Canyon, a natural wonder offering breathtaking views and hiking trails.",
+        "city": "Arizona",
+        "longitude": -112.1401,
+        "latitude": 36.0544,
+        "cost": "$$"
+    },
+    {
+        "name": "Witnessing the Northern Lights in Alaska",
+        "category": "Nature",
+        "score": 5,
+        "description": "Observe the stunning Northern Lights in Alaska, a spectacular natural light show in the Arctic region.",
+        "city": "Fairbanks",
+        "longitude": -147.7164,
+        "latitude": 64.8378,
+        "cost": "$$"
+    },
+    {
+        "name": "Experiencing Niagara Falls",
+        "category": "Nature",
+        "score": 4,
+        "description": "Witness the power of Niagara Falls, one of the world's most famous waterfalls, located on the border of Ontario, Canada, and New York, USA.",
+        "city": "Ontario/New York",
+        "longitude": -79.0849,
+        "latitude": 43.0962,
+        "cost": "$$"
+    },
+    {
+        "name": "Surfing in Hawaii",
+        "category": "Adventure/Nature",
+        "score": 4,
+        "description": "Catch the waves on Hawaii's famous beaches, known for some of the best surfing spots in the world.",
+        "city": "Honolulu",
+        "longitude": -157.8583,
+        "latitude": 21.3069,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring Yellowstone National Park",
+        "category": "Nature/Wildlife",
+        "score": 5,
+        "description": "Visit Yellowstone, America's first national park, known for its wildlife and unique geothermal features.",
+        "city": "Wyoming",
+        "longitude": -110.5885,
+        "latitude": 44.4280,
+        "cost": "$$"
+    },
+    {
+        "name": "Hiking in Banff National Park",
+        "category": "Adventure/Nature",
+        "score": 4,
+        "description": "Explore the stunning beauty of Banff National Park with its mountains, glaciers, and lakes.",
+        "city": "Alberta",
+        "longitude": -115.5788,
+        "latitude": 51.1784,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Mayan Ruins in Mexico",
+        "category": "History/Culture",
+        "score": 4,
+        "description": "Explore the ancient Mayan ruins, a testament to a sophisticated civilization and its architectural prowess.",
+        "city": "Yucatan",
+        "longitude": -89.0000,
+        "latitude": 20.0000,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Canadian Rocky Mountains",
+        "category": "Nature/Adventure",
+        "score": 5,
+        "description": "Discover the breathtaking landscapes of the Canadian Rockies, ideal for hiking, wildlife viewing, and photography.",
+        "city": "British Columbia",
+        "longitude": -116.1836,
+        "latitude": 51.4170,
+        "cost": "$$"
+    },
+    {
+        "name": "Scuba Diving in the Caribbean",
+        "category": "Adventure/Nature",
+        "score": 4,
+        "description": "Dive into the clear waters of the Caribbean, home to vibrant coral reefs and diverse marine life.",
+        "city": "Bahamas",
+        "longitude": -77.3963,
+        "latitude": 25.0343,
+        "cost": "$$$"
+    },
+    {
+        "name": "Visiting the Statue of Liberty in New York",
+        "category": "History/Culture",
+        "score": 3,
+        "description": "See the iconic Statue of Liberty, a symbol of freedom and democracy, located in New York Harbor.",
+        "city": "New York",
+        "longitude": -74.0445,
+        "latitude": 40.6892,
+        "cost": "$"
+    }
+]

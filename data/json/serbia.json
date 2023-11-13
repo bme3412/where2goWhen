@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Belgrade Fortress Visit",
+        "category": "History",
+        "score": 4,
+        "description": "Explore the Belgrade Fortress, a historic citadel with panoramic views of the confluence of the River Sava and Danube.",
+        "city": "Belgrade",
+        "longitude": 20.4506,
+        "latitude": 44.7872,
+        "cost": "$"
+    },
+    {
+        "name": "Stroll Through Novi Sad and Petrovaradin Fortress",
+        "category": "Cultural",
+        "score": 3,
+        "description": "Discover Novi Sad, Serbia's second-largest city, known for its vibrant culture and the historic Petrovaradin Fortress.",
+        "city": "Novi Sad",
+        "longitude": 19.8335,
+        "latitude": 45.2671,
+        "cost": "$"
+    },
+    {
+        "name": "Niš Fortress and Ćele Kula Tour",
+        "category": "History",
+        "score": 3,
+        "description": "Visit Niš Fortress and the unique and historical Ćele Kula (Skull Tower), a structure embedded with human skulls from the Ottoman era.",
+        "city": "Niš",
+        "longitude": 21.8963,
+        "latitude": 43.3209,
+        "cost": "$"
+    },
+    {
+        "name": "Drvengrad and Mokra Gora Exploration",
+        "category": "Cultural",
+        "score": 4,
+        "description": "Explore Drvengrad and Mokra Gora, known for their traditional wooden architecture and the scenic Šargan Eight railway.",
+        "city": "Mokra Gora",
+        "longitude": 19.5181,
+        "latitude": 43.7866,
+        "cost": "$$"
+    },
+    {
+        "name": "Uvac Canyon Adventure",
+        "category": "Nature",
+        "score": 4,
+        "description": "Experience the natural beauty of Uvac Canyon, famous for its meandering river, hiking trails, and Griffon vulture colony.",
+        "city": "Uvac",
+        "longitude": 19.9853,
+        "latitude": 43.3433,
+        "cost": "$"
+    },
+    {
+        "name": "Studenica Monastery Pilgrimage",
+        "category": "Spiritual",
+        "score": 3,
+        "description": "Visit Studenica Monastery, a UNESCO World Heritage site, known for its well-preserved medieval frescoes and significant religious history.",
+        "city": "Kraljevo",
+        "longitude": 20.5514,
+        "latitude": 43.5161,
+        "cost": "$"
+    },
+    {
+        "name": "Devil's Town Natural Landmark",
+        "category": "Nature",
+        "score": 3,
+        "description": "Explore Devil's Town (Đavolja Varoš), a natural wonder featuring peculiar rock formations and a unique landscape.",
+        "city": "Kuršumlija",
+        "longitude": 21.4131,
+        "latitude": 43.0143,
+        "cost": "$"
+    },
+    {
+        "name": "Zlatibor Mountain Retreat",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Relax in Zlatibor, a popular mountain resort area, known for its fresh air, natural beauty, and outdoor activities.",
+        "city": "Zlatibor",
+        "longitude": 19.7014,
+        "latitude": 43.7314,
+        "cost": "$$"
+    },
+    {
+        "name": "Subotica Art Nouveau Tour",
+        "category": "Culture",
+        "score": 3,
+        "description": "Discover the Art Nouveau architecture of Subotica, featuring colorful buildings, decorative facades, and the stunning Raichle Palace.",
+        "city": "Subotica",
+        "longitude": 19.6636,
+        "latitude": 46.1004,
+        "cost": "$"
+    },
+    {
+        "name": "Vrnjačka Banja Spa Experience",
+        "category": "Wellness",
+        "score": 3,
+        "description": "Enjoy the healing waters of Vrnjačka Banja, Serbia's most famous spa town, known for its thermal mineral springs.",
+        "city": "Vrnjačka Banja",
+        "longitude": 20.8956,
+        "latitude": 43.6222,
+        "cost": "$$"
+    }
+]

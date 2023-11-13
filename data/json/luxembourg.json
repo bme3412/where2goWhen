@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Explore Luxembourg City's Old Quarters and Fortifications",
+        "category": "History",
+        "score": 5,
+        "description": "Discover the UNESCO-listed Old Quarters and Fortifications of Luxembourg City, showcasing its rich history and architectural beauty.",
+        "city": "Luxembourg City",
+        "longitude": 6.1296,
+        "latitude": 49.6116,
+        "cost": "$$"
+    },
+    {
+        "name": "Visit the Bock Casemates",
+        "category": "Historical",
+        "score": 4,
+        "description": "Explore the Bock Casemates, a series of underground tunnels and fortifications in Luxembourg City.",
+        "city": "Luxembourg City",
+        "longitude": 6.1333,
+        "latitude": 49.6139,
+        "cost": "$"
+    },
+    {
+        "name": "Mullerthal Trail Hiking",
+        "category": "Nature",
+        "score": 4,
+        "description": "Hike the scenic Mullerthal Trail, known as Luxembourg's Little Switzerland, famous for its unique rock formations.",
+        "city": "Mullerthal",
+        "longitude": 6.3667,
+        "latitude": 49.8333,
+        "cost": "$"
+    },
+    {
+        "name": "Echternach Abbey Visit",
+        "category": "Culture",
+        "score": 3,
+        "description": "Visit the historic Echternach Abbey, an important cultural site founded in the 7th century.",
+        "city": "Echternach",
+        "longitude": 6.4214,
+        "latitude": 49.8153,
+        "cost": "$"
+    },
+    {
+        "name": "Moselle Valley Wine Tasting",
+        "category": "Gastronomy",
+        "score": 4,
+        "description": "Enjoy wine tasting in the Moselle Valley, known for its exquisite white and sparkling wines.",
+        "city": "Moselle Valley",
+        "longitude": 6.3667,
+        "latitude": 49.5000,
+        "cost": "$$"
+    },
+    {
+        "name": "Vianden Castle Exploration",
+        "category": "History",
+        "score": 4,
+        "description": "Discover the majestic Vianden Castle, one of Europe's largest and most beautiful feudal residences of the Gothic period.",
+        "city": "Vianden",
+        "longitude": 6.2028,
+        "latitude": 49.9353,
+        "cost": "$$"
+    },
+    {
+        "name": "Philharmonie Luxembourg Concert",
+        "category": "Culture",
+        "score": 3,
+        "description": "Experience a world-class concert at the Philharmonie Luxembourg, a renowned concert hall featuring contemporary architecture.",
+        "city": "Luxembourg City",
+        "longitude": 6.1432,
+        "latitude": 49.6186,
+        "cost": "$$$"
+    },
+    {
+        "name": "National Museum of History and Art",
+        "category": "Culture",
+        "score": 3,
+        "description": "Visit the National Museum of History and Art in Luxembourg City, offering an extensive collection of archaeological, historical, and artistic artifacts.",
+        "city": "Luxembourg City",
+        "longitude": 6.1296,
+        "latitude": 49.6100,
+        "cost": "$"
+    },
+    {
+        "name": "Upper Sûre Natural Park",
+        "category": "Nature",
+        "score": 3,
+        "description": "Explore the Upper Sûre Natural Park, a haven for nature lovers with its lush forests and lake.",
+        "city": "Upper Sûre",
+        "longitude": 5.9419,
+        "latitude": 49.9097,
+        "cost": "$"
+    },
+    {
+        "name": "Remich Promenade",
+        "category": "Leisure",
+        "score": 2,
+        "description": "Stroll along the Remich Promenade by the Moselle River, known for its pleasant atmosphere and cafes.",
+        "city": "Remich",
+        "longitude": 6.3667,
+        "latitude": 49.5450,
+        "cost": "$"
+    }
+]

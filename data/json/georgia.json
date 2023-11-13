@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Visit the Gergeti Trinity Church",
+        "category": "Cultural",
+        "score": 5,
+        "description": "Explore the iconic Gergeti Trinity Church, set against the stunning backdrop of Mount Kazbek.",
+        "city": "Stepantsminda",
+        "longitude": 44.6499,
+        "latitude": 42.6603,
+        "cost": "$$"
+    },
+    {
+        "name": "Wine Tasting in Kakheti",
+        "category": "Gastronomy",
+        "score": 5,
+        "description": "Experience the rich wine-making tradition of Kakheti, the heart of Georgia's wine country.",
+        "city": "Kakheti",
+        "longitude": 45.7876,
+        "latitude": 41.9154,
+        "cost": "$$"
+    },
+    {
+        "name": "Explore Tbilisi's Old Town",
+        "category": "Cultural",
+        "score": 4,
+        "description": "Wander through the narrow streets of Tbilisi's Old Town, brimming with history and charm.",
+        "city": "Tbilisi",
+        "longitude": 44.8095,
+        "latitude": 41.6935,
+        "cost": "$"
+    },
+    {
+        "name": "Batumi Botanical Garden",
+        "category": "Nature",
+        "score": 3,
+        "description": "Visit one of the largest botanical gardens in the former Soviet Union, located in Batumi.",
+        "city": "Batumi",
+        "longitude": 41.6761,
+        "latitude": 41.6410,
+        "cost": "$"
+    },
+    {
+        "name": "Uplistsikhe Cave Town",
+        "category": "History",
+        "score": 4,
+        "description": "Discover the ancient rock-hewn town of Uplistsikhe, dating back to the early Iron Age.",
+        "city": "Uplistsikhe",
+        "longitude": 44.2468,
+        "latitude": 41.9676,
+        "cost": "$"
+    },
+    {
+        "name": "Svetitskhoveli Cathedral",
+        "category": "Cultural",
+        "score": 5,
+        "description": "Visit the historic Svetitskhoveli Cathedral in Mtskheta, a masterpiece of the Early Middle Ages.",
+        "city": "Mtskheta",
+        "longitude": 44.7180,
+        "latitude": 41.8435,
+        "cost": "$"
+    },
+    {
+        "name": "Prometheus Cave Tour",
+        "category": "Nature",
+        "score": 4,
+        "description": "Explore the stunning Prometheus Cave, known for its breathtaking stalactites and stalagmites.",
+        "city": "Kutaisi",
+        "longitude": 42.6366,
+        "latitude": 42.2894,
+        "cost": "$$"
+    },
+    {
+        "name": "Visit Ananuri Fortress",
+        "category": "History",
+        "score": 3,
+        "description": "Explore the medieval Ananuri Fortress, located along the Aragvi River.",
+        "city": "Ananuri",
+        "longitude": 44.7069,
+        "latitude": 42.1667,
+        "cost": "$"
+    },
+    {
+        "name": "Vardzia Cave Monastery",
+        "category": "Cultural",
+        "score": 5,
+        "description": "Discover the impressive Vardzia Cave Monastery, a remarkable example of medieval Georgian architecture.",
+        "city": "Vardzia",
+        "longitude": 43.3600,
+        "latitude": 41.3761,
+        "cost": "$$"
+    },
+    {
+        "name": "Borjomi Central Park",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Relax in the scenic Borjomi Central Park, famous for its mineral water springs and natural beauty.",
+        "city": "Borjomi",
+        "longitude": 43.4176,
+        "latitude": 41.8399,
+        "cost": "$"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Visit the Hal Saflieni Hypogeum",
+        "category": "History",
+        "score": 5,
+        "description": "Explore the Hal Saflieni Hypogeum, a unique subterranean structure dating back to 3600-3000 BC, offering a glimpse into Malta's prehistoric past.",
+        "city": "Paola",
+        "longitude": 14.5053,
+        "latitude": 35.8731,
+        "cost": "$$$"
+    },
+    {
+        "name": "Mdina Old City Tour",
+        "category": "Cultural",
+        "score": 4,
+        "description": "Wander through the ancient streets of Mdina, known as the 'Silent City', a well-preserved medieval town.",
+        "city": "Mdina",
+        "longitude": 14.4039,
+        "latitude": 35.8889,
+        "cost": "$"
+    },
+    {
+        "name": "Diving in the Blue Hole",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Experience diving in the Blue Hole, one of Malta's most famous dive sites, known for its rich marine life and underwater caves.",
+        "city": "Dwejra",
+        "longitude": 14.1889,
+        "latitude": 36.0536,
+        "cost": "$$$"
+    },
+    {
+        "name": "Valletta City Exploration",
+        "category": "History",
+        "score": 4,
+        "description": "Discover Valletta, the capital of Malta, known for its historical buildings, museums, and Baroque architecture.",
+        "city": "Valletta",
+        "longitude": 14.5146,
+        "latitude": 35.8989,
+        "cost": "$$"
+    },
+    {
+        "name": "Boat Trip to the Blue Lagoon",
+        "category": "Nature",
+        "score": 4,
+        "description": "Enjoy a boat trip to the Blue Lagoon on Comino Island, famous for its crystal-clear waters and ideal for swimming and snorkeling.",
+        "city": "Comino",
+        "longitude": 14.3361,
+        "latitude": 36.0117,
+        "cost": "$$"
+    },
+    {
+        "name": "Visit the Megalithic Temples",
+        "category": "History",
+        "score": 5,
+        "description": "Explore Malta's Megalithic Temples, some of the oldest free-standing structures in the world and UNESCO World Heritage sites.",
+        "city": "Multiple locations",
+        "longitude": 14.4477,
+        "latitude": 35.8881,
+        "cost": "$$"
+    },
+    {
+        "name": "St. John's Co-Cathedral Tour",
+        "category": "Culture",
+        "score": 4,
+        "description": "Visit St. John's Co-Cathedral in Valletta, a gem of Baroque art and architecture, home to Caravaggio's masterpieces.",
+        "city": "Valletta",
+        "longitude": 14.5125,
+        "latitude": 35.8978,
+        "cost": "$"
+    },
+    {
+        "name": "Hiking in the Dingli Cliffs",
+        "category": "Nature",
+        "score": 3,
+        "description": "Enjoy a scenic hike along the Dingli Cliffs, offering stunning views of the Mediterranean Sea.",
+        "city": "Dingli",
+        "longitude": 14.3822,
+        "latitude": 35.8606,
+        "cost": "$"
+    },
+    {
+        "name": "Marsaxlokk Fish Market",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Visit the Marsaxlokk fish market, a traditional market where you can taste fresh seafood and experience local life.",
+        "city": "Marsaxlokk",
+        "longitude": 14.5431,
+        "latitude": 35.8419,
+        "cost": "$"
+    },
+    {
+        "name": "Gozo Island Day Trip",
+        "category": "Nature",
+        "score": 4,
+        "description": "Take a day trip to Gozo, Malta's sister island, known for its scenic landscapes, historical sites, and relaxed atmosphere.",
+        "city": "Gozo",
+        "longitude": 14.2650,
+        "latitude": 36.0443,
+        "cost": "$$"
+    }
+]

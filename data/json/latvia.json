@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Explore Riga's Old Town",
+        "category": "Cultural",
+        "score": 4,
+        "description": "Wander through the cobblestone streets of Riga's Old Town, a UNESCO World Heritage site known for its Art Nouveau architecture.",
+        "city": "Riga",
+        "longitude": 24.1069,
+        "latitude": 56.9496,
+        "cost": "$$"
+    },
+    {
+        "name": "Gauja National Park Adventure",
+        "category": "Nature",
+        "score": 4,
+        "description": "Explore Gauja National Park, Latvia's largest national park, offering stunning natural scenery and outdoor activities.",
+        "city": "Sigulda",
+        "longitude": 24.8074,
+        "latitude": 57.1569,
+        "cost": "$"
+    },
+    {
+        "name": "Jurmala Beach Relaxation",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Enjoy the sandy beaches and resort atmosphere of Jurmala, a popular seaside destination near Riga.",
+        "city": "Jurmala",
+        "longitude": 23.7128,
+        "latitude": 56.9710,
+        "cost": "$$"
+    },
+    {
+        "name": "Rundāle Palace Tour",
+        "category": "History",
+        "score": 4,
+        "description": "Visit Rundāle Palace, a stunning example of Baroque architecture, known for its beautiful gardens and rich history.",
+        "city": "Pilsrundale",
+        "longitude": 24.0141,
+        "latitude": 56.4154,
+        "cost": "$$"
+    },
+    {
+        "name": "Cesis Medieval Castle",
+        "category": "History",
+        "score": 4,
+        "description": "Explore the historic Cesis Medieval Castle, a significant symbol of Latvian heritage with a history dating back to the 13th century.",
+        "city": "Cesis",
+        "longitude": 25.2746,
+        "latitude": 57.3129,
+        "cost": "$"
+    },
+    {
+        "name": "Liepaja Naval Port (Karosta)",
+        "category": "History",
+        "score": 3,
+        "description": "Discover the historical and architectural significance of Karosta, a former Soviet naval base in Liepaja.",
+        "city": "Liepaja",
+        "longitude": 21.0108,
+        "latitude": 56.5411,
+        "cost": "$"
+    },
+    {
+        "name": "Kuldiga's Old Town and Venta Rapid",
+        "category": "Nature",
+        "score": 3,
+        "description": "Visit the charming town of Kuldiga, known for its picturesque old town and the Venta Rapid, Europe's widest waterfall.",
+        "city": "Kuldiga",
+        "longitude": 21.9750,
+        "latitude": 56.9680,
+        "cost": "$"
+    },
+    {
+        "name": "Sigulda Bobsleigh and Luge Track",
+        "category": "Adventure",
+        "score": 3,
+        "description": "Experience the thrill of the bobsleigh and luge track in Sigulda, open for public rides and offering a unique adrenaline rush.",
+        "city": "Sigulda",
+        "longitude": 24.8339,
+        "latitude": 57.1550,
+        "cost": "$$"
+    },
+    {
+        "name": "Turaida Museum Reserve",
+        "category": "Culture",
+        "score": 4,
+        "description": "Explore the Turaida Museum Reserve in the Gauja Valley, featuring a medieval castle, historical buildings, and scenic gardens.",
+        "city": "Sigulda",
+        "longitude": 24.8458,
+        "latitude": 57.1872,
+        "cost": "$"
+    },
+    {
+        "name": "Aglona Basilica Pilgrimage",
+        "category": "Spiritual",
+        "score": 3,
+        "description": "Visit the Aglona Basilica, one of the most important Catholic spiritual centers in Latvia, especially during the Assumption of Mary festival.",
+        "city": "Aglona",
+        "longitude": 27.0183,
+        "latitude": 56.1306,
+        "cost": "$"
+    }
+]

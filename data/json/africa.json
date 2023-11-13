@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Climbing Mount Kilimanjaro",
+        "category": "Adventure/Nature",
+        "score": 5,
+        "description": "Trek to the summit of Mount Kilimanjaro, Africa's highest peak, offering breathtaking views and a sense of achievement.",
+        "city": "Kilimanjaro Region",
+        "longitude": 37.3556,
+        "latitude": -3.0674,
+        "cost": "$$$"
+    },
+    {
+        "name": "Exploring the Pyramids of Giza",
+        "category": "History/Culture",
+        "score": 5,
+        "description": "Visit the Great Pyramids of Giza, one of the most famous archaeological sites in the world and a testament to ancient Egyptian civilization.",
+        "city": "Cairo",
+        "longitude": 31.1342,
+        "latitude": 29.9792,
+        "cost": "$$"
+    },
+    {
+        "name": "Safari in the Serengeti",
+        "category": "Wildlife/Nature",
+        "score": 5,
+        "description": "Embark on a safari in the Serengeti, Tanzania, to witness the incredible wildlife, including the Great Migration.",
+        "city": "Serengeti",
+        "longitude": 34.8342,
+        "latitude": -2.3333,
+        "cost": "$$$"
+    },
+    {
+        "name": "Visiting Victoria Falls",
+        "category": "Nature/Adventure",
+        "score": 5,
+        "description": "Experience the awe-inspiring Victoria Falls, one of the largest and most famous waterfalls in the world.",
+        "city": "Livingstone",
+        "longitude": 25.8500,
+        "latitude": -17.9333,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring Marrakech",
+        "category": "Culture/History",
+        "score": 4,
+        "description": "Discover the vibrant city of Marrakech, Morocco, with its historic medina, bustling souks, and rich culture.",
+        "city": "Marrakech",
+        "longitude": -7.9811,
+        "latitude": 31.6295,
+        "cost": "$$"
+    },
+    {
+        "name": "Diving in the Red Sea",
+        "category": "Adventure/Nature",
+        "score": 4,
+        "description": "Dive into the crystal-clear waters of the Red Sea, famous for its colorful coral reefs and diverse marine life.",
+        "city": "Sharm El Sheikh",
+        "longitude": 34.3176,
+        "latitude": 27.9158,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Okavango Delta",
+        "category": "Nature/Wildlife",
+        "score": 5,
+        "description": "Experience the unique ecosystem of the Okavango Delta in Botswana, a UNESCO World Heritage site rich in wildlife.",
+        "city": "Maun",
+        "longitude": 23.4167,
+        "latitude": -19.5833,
+        "cost": "$$$"
+    },
+    {
+        "name": "Cape Town and Table Mountain",
+        "category": "Nature/Culture",
+        "score": 4,
+        "description": "Visit Cape Town, South Africa, and take a cable car to the top of Table Mountain for spectacular views of the city and coast.",
+        "city": "Cape Town",
+        "longitude": 18.4241,
+        "latitude": -33.9249,
+        "cost": "$$"
+    },
+    {
+        "name": "Trekking in the Atlas Mountains",
+        "category": "Adventure/Nature",
+        "score": 4,
+        "description": "Trek through the stunning landscapes of the Atlas Mountains in Morocco, offering challenging trails and cultural encounters.",
+        "city": "Marrakech",
+        "longitude": -7.9811,
+        "latitude": 31.6295,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Ancient City of Carthage",
+        "category": "History/Culture",
+        "score": 3,
+        "description": "Discover the ruins of Carthage in Tunisia, once a powerful city-state and a center of the ancient Mediterranean world.",
+        "city": "Tunis",
+        "longitude": 10.3236,
+        "latitude": 36.8570,
+        "cost": "$"
+    }
+]

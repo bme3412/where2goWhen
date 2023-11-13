@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Explore the Old Orhei (Orheiul Vechi) Archaeological Complex",
+        "category": "History",
+        "score": 5,
+        "description": "Discover the Old Orhei archaeological complex, showcasing a mix of historical and natural wonders, including ancient fortifications, monasteries, and caves.",
+        "city": "Orhei",
+        "longitude": 28.8353,
+        "latitude": 47.3834,
+        "cost": "$"
+    },
+    {
+        "name": "Wine Tasting in Cricova Winery",
+        "category": "Gastronomy",
+        "score": 5,
+        "description": "Experience the vast underground wine cellars of Cricova Winery, famous for its extensive collection of wines and unique subterranean tasting tours.",
+        "city": "Cricova",
+        "longitude": 28.8589,
+        "latitude": 47.1389,
+        "cost": "$$"
+    },
+    {
+        "name": "Chisinau City Tour",
+        "category": "Culture",
+        "score": 3,
+        "description": "Explore the capital city Chisinau, known for its Soviet-style architecture, green parks, and cultural landmarks.",
+        "city": "Chisinau",
+        "longitude": 28.8575,
+        "latitude": 47.0105,
+        "cost": "$"
+    },
+    {
+        "name": "Visit Soroca Fortress",
+        "category": "History",
+        "score": 4,
+        "description": "Tour the Soroca Fortress, a historical fort that played a crucial role in Moldova's history, offering picturesque views of the Dniester River.",
+        "city": "Soroca",
+        "longitude": 29.7072,
+        "latitude": 48.1556,
+        "cost": "$"
+    },
+    {
+        "name": "Capriana Monastery Pilgrimage",
+        "category": "Spiritual",
+        "score": 3,
+        "description": "Visit the Capriana Monastery, one of the oldest monasteries in Moldova, known for its beautiful architecture and serene surroundings.",
+        "city": "Capriana",
+        "longitude": 28.6978,
+        "latitude": 47.1795,
+        "cost": "$"
+    },
+    {
+        "name": "Tiraspol City Exploration",
+        "category": "Culture",
+        "score": 3,
+        "description": "Discover Tiraspol, the capital of the breakaway region of Transnistria, showcasing a unique blend of Moldovan and Soviet influences.",
+        "city": "Tiraspol",
+        "longitude": 29.6383,
+        "latitude": 46.8403,
+        "cost": "$"
+    },
+    {
+        "name": "Bender Fortress Visit",
+        "category": "History",
+        "score": 4,
+        "description": "Explore the historical Bender Fortress, an important cultural and historical landmark located on the right bank of the Dniester River.",
+        "city": "Bender",
+        "longitude": 29.4778,
+        "latitude": 46.8250,
+        "cost": "$"
+    },
+    {
+        "name": "Tipova Monastery",
+        "category": "Spiritual",
+        "score": 3,
+        "description": "Visit the scenic Tipova Monastery, one of the oldest monastic establishments in Moldova, situated in a picturesque cliff-side setting.",
+        "city": "Tipova",
+        "longitude": 29.1564,
+        "latitude": 47.5000,
+        "cost": "$"
+    },
+    {
+        "name": "Gagauzia Cultural Tour",
+        "category": "Culture",
+        "score": 3,
+        "description": "Experience the unique culture of Gagauzia, an autonomous region in Moldova, known for its distinct traditions, cuisine, and wine.",
+        "city": "Comrat",
+        "longitude": 28.6565,
+        "latitude": 46.3003,
+        "cost": "$"
+    },
+    {
+        "name": "Milestii Mici Wine Cellars",
+        "category": "Gastronomy",
+        "score": 5,
+        "description": "Visit Milestii Mici, home to the largest wine cellar by collection in the world, offering an unforgettable wine tasting experience.",
+        "city": "Milestii Mici",
+        "longitude": 28.8575,
+        "latitude": 46.9575,
+        "cost": "$$"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Vaduz Castle Visit",
+        "category": "History",
+        "score": 4,
+        "description": "Explore Vaduz Castle, the official residence of the Prince of Liechtenstein, offering panoramic views of the capital.",
+        "city": "Vaduz",
+        "longitude": 9.5215,
+        "latitude": 47.1410,
+        "cost": "$$"
+    },
+    {
+        "name": "Hiking in the Liechtenstein Alps",
+        "category": "Nature",
+        "score": 4,
+        "description": "Enjoy the stunning natural beauty of the Liechtenstein Alps, offering a range of hiking trails and outdoor activities.",
+        "city": "Malbun",
+        "longitude": 9.5554,
+        "latitude": 47.1028,
+        "cost": "$"
+    },
+    {
+        "name": "Kunstmuseum Liechtenstein",
+        "category": "Culture",
+        "score": 3,
+        "description": "Visit the Kunstmuseum Liechtenstein in Vaduz, a museum of modern and contemporary art with an international collection.",
+        "city": "Vaduz",
+        "longitude": 9.5247,
+        "latitude": 47.1390,
+        "cost": "$$"
+    },
+    {
+        "name": "Liechtenstein National Museum",
+        "category": "History",
+        "score": 3,
+        "description": "Explore the history and culture of Liechtenstein at the National Museum, located in the capital city of Vaduz.",
+        "city": "Vaduz",
+        "longitude": 9.5209,
+        "latitude": 47.1368,
+        "cost": "$"
+    },
+    {
+        "name": "Wine Tasting in the Vineyards",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Experience wine tasting in Liechtenstein's picturesque vineyards, known for producing high-quality wines.",
+        "city": "Vaduz",
+        "longitude": 9.5167,
+        "latitude": 47.1333,
+        "cost": "$$"
+    },
+    {
+        "name": "Skiing in Malbun",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Enjoy skiing and snowboarding in Malbun, Liechtenstein's main winter sports resort, suitable for all levels.",
+        "city": "Malbun",
+        "longitude": 9.5554,
+        "latitude": 47.1028,
+        "cost": "$$"
+    },
+    {
+        "name": "Gutenberg Castle",
+        "category": "History",
+        "score": 3,
+        "description": "Visit the medieval Gutenberg Castle in Balzers, one of Liechtenstein's most important historical landmarks.",
+        "city": "Balzers",
+        "longitude": 9.5025,
+        "latitude": 47.0667,
+        "cost": "$"
+    },
+    {
+        "name": "Hiking the Fürstensteig",
+        "category": "Nature",
+        "score": 4,
+        "description": "Take on the challenging yet rewarding Fürstensteig hiking trail, offering spectacular views of the Rhine Valley.",
+        "city": "Gaflei",
+        "longitude": 9.5536,
+        "latitude": 47.1026,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Postage Stamp Museum",
+        "category": "Culture",
+        "score": 2,
+        "description": "Explore Liechtenstein's rich philatelic history at the Postage Stamp Museum in Vaduz.",
+        "city": "Vaduz",
+        "longitude": 9.5209,
+        "latitude": 47.1368,
+        "cost": "$"
+    },
+    {
+        "name": "The Red House in Vaduz",
+        "category": "History",
+        "score": 3,
+        "description": "See the iconic Red House in Vaduz, a landmark building known for its distinctive architecture and vineyards.",
+        "city": "Vaduz",
+        "longitude": 9.5111,
+        "latitude": 47.1372,
+        "cost": "$"
+    }
+]

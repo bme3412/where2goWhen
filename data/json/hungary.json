@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Bathing in the Széchenyi Thermal Bath",
+        "category": "Wellness",
+        "score": 5,
+        "description": "Enjoy a relaxing day at the Széchenyi Thermal Bath, one of the largest spa complexes in Europe, located in Budapest.",
+        "city": "Budapest",
+        "longitude": 19.0810,
+        "latitude": 47.5189,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring Buda Castle",
+        "category": "History",
+        "score": 4,
+        "description": "Visit the historic Buda Castle, a UNESCO World Heritage site, offering stunning views of Budapest.",
+        "city": "Budapest",
+        "longitude": 19.0399,
+        "latitude": 47.4967,
+        "cost": "$$"
+    },
+    {
+        "name": "Wine Tasting in Eger",
+        "category": "Gastronomy",
+        "score": 4,
+        "description": "Sample the famous Bull's Blood wine and other local varieties in the historic town of Eger.",
+        "city": "Eger",
+        "longitude": 20.3707,
+        "latitude": 47.9025,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Great Synagogue in Dohány Street",
+        "category": "Culture",
+        "score": 3,
+        "description": "Explore the Great Synagogue in Dohány Street, the largest synagogue in Europe, located in Budapest.",
+        "city": "Budapest",
+        "longitude": 19.0613,
+        "latitude": 47.4958,
+        "cost": "$"
+    },
+    {
+        "name": "Hiking in the Danube Bend",
+        "category": "Nature",
+        "score": 3,
+        "description": "Enjoy scenic hikes and breathtaking views in the Danube Bend, a picturesque region near Budapest.",
+        "city": "Danube Bend",
+        "longitude": 18.9631,
+        "latitude": 47.7933,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring Hortobágy National Park",
+        "category": "Nature",
+        "score": 4,
+        "description": "Discover the unique flora and fauna of Hortobágy National Park, the largest semi-natural grassland in Europe.",
+        "city": "Hortobágy",
+        "longitude": 21.1551,
+        "latitude": 47.5825,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting Lake Balaton",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Relax and enjoy water sports at Lake Balaton, Central Europe's largest lake and a popular holiday destination.",
+        "city": "Lake Balaton",
+        "longitude": 17.9110,
+        "latitude": 46.9100,
+        "cost": "$$"
+    },
+    {
+        "name": "Touring the Hungarian Parliament Building",
+        "category": "Architecture",
+        "score": 5,
+        "description": "Take a guided tour of the stunning Hungarian Parliament Building, a remarkable example of Neo-Gothic architecture.",
+        "city": "Budapest",
+        "longitude": 19.0456,
+        "latitude": 47.5071,
+        "cost": "$"
+    },
+    {
+        "name": "Caving in Budapest",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Experience unique underground caving adventures in the natural caves beneath Budapest.",
+        "city": "Budapest",
+        "longitude": 19.0300,
+        "latitude": 47.5000,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting Pécs Cathedral",
+        "category": "History",
+        "score": 3,
+        "description": "Explore the Pécs Cathedral, a magnificent example of Romanesque architecture in the cultural city of Pécs.",
+        "city": "Pécs",
+        "longitude": 18.2251,
+        "latitude": 46.0727,
+        "cost": "$"
+    }
+]

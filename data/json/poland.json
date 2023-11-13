@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Wawel Castle Exploration",
+        "category": "History",
+        "score": 5,
+        "description": "Discover the historic Wawel Castle in Krakow, a symbol of Polish heritage and a mix of medieval, renaissance, and baroque architecture.",
+        "city": "Krakow",
+        "longitude": 19.9354,
+        "latitude": 50.0540,
+        "cost": "$$"
+    },
+    {
+        "name": "Visit the Auschwitz-Birkenau Memorial and Museum",
+        "category": "History",
+        "score": 5,
+        "description": "Pay respects at the Auschwitz-Birkenau Memorial and Museum, a poignant reminder of the horrors of the Holocaust and World War II.",
+        "city": "Oswiecim",
+        "longitude": 19.2023,
+        "latitude": 50.0269,
+        "cost": "$"
+    },
+    {
+        "name": "Bialowieza Forest Adventure",
+        "category": "Nature",
+        "score": 4,
+        "description": "Explore the Bialowieza Forest, a UNESCO World Heritage site, one of the last and largest remaining parts of the immense primeval forest in Europe.",
+        "city": "Bialowieza",
+        "longitude": 23.8433,
+        "latitude": 52.7011,
+        "cost": "$"
+    },
+    {
+        "name": "Gdansk Old Town Visit",
+        "category": "Cultural",
+        "score": 3,
+        "description": "Stroll through the historic Old Town of Gdansk, known for its distinctive architecture, maritime history, and the iconic Neptune's Fountain.",
+        "city": "Gdansk",
+        "longitude": 18.6466,
+        "latitude": 54.3520,
+        "cost": "$"
+    },
+    {
+        "name": "Wieliczka Salt Mine Exploration",
+        "category": "History",
+        "score": 4,
+        "description": "Tour the Wieliczka Salt Mine near Krakow, a UNESCO site famous for its underground chapels, sculptures, and lakes all carved from salt.",
+        "city": "Wieliczka",
+        "longitude": 20.0532,
+        "latitude": 49.9840,
+        "cost": "$$"
+    },
+    {
+        "name": "Zakopane and Tatra Mountains",
+        "category": "Nature",
+        "score": 4,
+        "description": "Visit Zakopane, a resort town at the base of the Tatra Mountains, known for its wooden villas, mountain activities, and stunning natural beauty.",
+        "city": "Zakopane",
+        "longitude": 19.9500,
+        "latitude": 49.2992,
+        "cost": "$$"
+    },
+    {
+        "name": "Malbork Castle Tour",
+        "category": "History",
+        "score": 4,
+        "description": "Explore Malbork Castle, the largest castle in the world by land area and a stunning example of medieval fortress architecture.",
+        "city": "Malbork",
+        "longitude": 19.0290,
+        "latitude": 54.0359,
+        "cost": "$$"
+    },
+    {
+        "name": "Warsaw Old Town Exploration",
+        "category": "Cultural",
+        "score": 3,
+        "description": "Discover the charm of Warsaw's Old Town, beautifully reconstructed after WWII, featuring colorful buildings, cafes, and historical landmarks.",
+        "city": "Warsaw",
+        "longitude": 21.0175,
+        "latitude": 52.2319,
+        "cost": "$"
+    },
+    {
+        "name": "Lazienki Park and Palace",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Relax in Lazienki Park in Warsaw, home to the Lazienki Palace, beautiful gardens, and free-roaming peacocks.",
+        "city": "Warsaw",
+        "longitude": 21.0362,
+        "latitude": 52.2146,
+        "cost": "$"
+    },
+    {
+        "name": "Copernicus Science Center Visit",
+        "category": "Education",
+        "score": 3,
+        "description": "Enjoy interactive exhibits at the Copernicus Science Center in Warsaw, a modern science museum encouraging hands-on learning.",
+        "city": "Warsaw",
+        "longitude": 21.0063,
+        "latitude": 52.2489,
+        "cost": "$$"
+    }
+]

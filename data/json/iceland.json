@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Witnessing the Northern Lights",
+        "category": "Nature",
+        "score": 5,
+        "description": "Experience the breathtaking Northern Lights, a natural phenomenon best viewed from rural areas in Iceland.",
+        "city": "Reykjavik",
+        "longitude": -21.8277,
+        "latitude": 64.1265,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Blue Lagoon",
+        "category": "Wellness",
+        "score": 5,
+        "description": "Relax in the geothermal waters of the Blue Lagoon, one of Iceland's most famous attractions.",
+        "city": "Grindavík",
+        "longitude": -22.4458,
+        "latitude": 63.8804,
+        "cost": "$$$"
+    },
+    {
+        "name": "Golden Circle Tour",
+        "category": "Nature",
+        "score": 4,
+        "description": "Explore the Golden Circle, featuring Thingvellir National Park, the Geysir Geothermal Area, and Gullfoss Waterfall.",
+        "city": "Thingvellir",
+        "longitude": -21.1183,
+        "latitude": 64.2559,
+        "cost": "$$"
+    },
+    {
+        "name": "Hiking in Vatnajökull National Park",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Discover the diverse landscapes of Vatnajökull National Park, including glaciers, volcanoes, and waterfalls.",
+        "city": "Vatnajökull",
+        "longitude": -16.9719,
+        "latitude": 64.4219,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting Jökulsárlón Glacier Lagoon",
+        "category": "Nature",
+        "score": 5,
+        "description": "Marvel at the icebergs of Jökulsárlón Glacier Lagoon, one of Iceland's most stunning natural wonders.",
+        "city": "Jökulsárlón",
+        "longitude": -16.1791,
+        "latitude": 64.0483,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring Reykjavik",
+        "category": "Culture",
+        "score": 3,
+        "description": "Discover the vibrant culture and history of Reykjavik, Iceland's capital city.",
+        "city": "Reykjavik",
+        "longitude": -21.8174,
+        "latitude": 64.1265,
+        "cost": "$$"
+    },
+    {
+        "name": "Snorkeling in Silfra Fissure",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Snorkel between tectonic plates in the crystal-clear waters of the Silfra Fissure.",
+        "city": "Thingvellir",
+        "longitude": -21.1282,
+        "latitude": 64.2559,
+        "cost": "$$$"
+    },
+    {
+        "name": "Whale Watching in Husavik",
+        "category": "Nature",
+        "score": 4,
+        "description": "Embark on a whale watching adventure in Husavik, known as Europe's whale watching capital.",
+        "city": "Husavik",
+        "longitude": -17.3383,
+        "latitude": 66.0449,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Black Sand Beaches of Vik",
+        "category": "Nature",
+        "score": 3,
+        "description": "Experience the unique beauty of the black sand beaches in Vik, a stark contrast to Iceland's snowy landscapes.",
+        "city": "Vik",
+        "longitude": -19.0097,
+        "latitude": 63.4186,
+        "cost": "$"
+    },
+    {
+        "name": "Touring the Westfjords",
+        "category": "Nature",
+        "score": 4,
+        "description": "Explore the remote and stunning landscapes of the Westfjords, known for its dramatic fjords and wildlife.",
+        "city": "Westfjords",
+        "longitude": -22.2724,
+        "latitude": 65.9196,
+        "cost": "$$"
+    }
+]
