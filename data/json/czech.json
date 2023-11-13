@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Exploring Prague Castle",
+        "category": "History",
+        "score": 5,
+        "description": "Discover the majestic Prague Castle, a symbol of Czech history and the largest ancient castle in the world.",
+        "city": "Prague",
+        "longitude": 14.4040,
+        "latitude": 50.0911,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting Český Krumlov",
+        "category": "Culture",
+        "score": 5,
+        "description": "Explore the picturesque town of Český Krumlov, a UNESCO World Heritage site with a stunning medieval old town.",
+        "city": "Český Krumlov",
+        "longitude": 14.3154,
+        "latitude": 48.8127,
+        "cost": "$$"
+    },
+    {
+        "name": "Touring the Sedlec Ossuary",
+        "category": "History",
+        "score": 4,
+        "description": "Visit the unique and eerie Sedlec Ossuary, also known as the 'Bone Church', decorated with human skeletons.",
+        "city": "Kutná Hora",
+        "longitude": 15.2682,
+        "latitude": 49.9614,
+        "cost": "$"
+    },
+    {
+        "name": "Relaxing in Karlovy Vary",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Enjoy the spa town of Karlovy Vary, famous for its mineral springs and elegant architecture.",
+        "city": "Karlovy Vary",
+        "longitude": 12.8750,
+        "latitude": 50.2319,
+        "cost": "$$$"
+    },
+    {
+        "name": "Hiking in Bohemian Switzerland",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Embark on a hike through Bohemian Switzerland National Park, known for its breathtaking landscapes and rock formations.",
+        "city": "Děčín",
+        "longitude": 14.2148,
+        "latitude": 50.7816,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring Olomouc Historical Center",
+        "category": "Culture",
+        "score": 3,
+        "description": "Discover the historical center of Olomouc, a hidden gem with beautiful baroque architecture and the Holy Trinity Column.",
+        "city": "Olomouc",
+        "longitude": 17.2519,
+        "latitude": 49.5938,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Moravian Karst Caves",
+        "category": "Nature",
+        "score": 4,
+        "description": "Explore the Moravian Karst, a protected landscape area with over 1,000 caves and gorges, including the famous Punkva Caves.",
+        "city": "Blansko",
+        "longitude": 16.6476,
+        "latitude": 49.3945,
+        "cost": "$$"
+    },
+    {
+        "name": "Tasting Czech Beer in Pilsen",
+        "category": "Gastronomy",
+        "score": 4,
+        "description": "Enjoy a beer tasting experience in Pilsen, the birthplace of Pilsner beer, and explore the Pilsner Urquell Brewery.",
+        "city": "Pilsen",
+        "longitude": 13.3775,
+        "latitude": 49.7475,
+        "cost": "$"
+    },
+    {
+        "name": "Discovering Brno's Architectural Wonders",
+        "category": "Culture",
+        "score": 3,
+        "description": "Visit Brno, the Czech Republic's second city, known for its modernist architecture, including the iconic Villa Tugendhat.",
+        "city": "Brno",
+        "longitude": 16.6068,
+        "latitude": 49.1951,
+        "cost": "$"
+    },
+    {
+        "name": "Experiencing the Christmas Markets of Prague",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Immerse yourself in the festive atmosphere at Prague's Christmas markets, famous for their holiday decorations and traditional crafts.",
+        "city": "Prague",
+        "longitude": 14.4205,
+        "latitude": 50.0870,
+        "cost": "$"
+    }
+]

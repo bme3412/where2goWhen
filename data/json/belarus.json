@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Exploring Mir Castle",
+        "category": "History",
+        "score": 5,
+        "description": "Visit the iconic Mir Castle, a UNESCO World Heritage Site known for its unique blend of Gothic, Baroque, and Renaissance architecture.",
+        "city": "Mir",
+        "longitude": 26.4735,
+        "latitude": 53.4517,
+        "cost": "$$"
+    },
+    {
+        "name": "Touring the Belovezhskaya Pushcha National Park",
+        "category": "Nature",
+        "score": 5,
+        "description": "Explore the ancient forest of Belovezhskaya Pushcha, home to the rare European bison and a UNESCO World Heritage Site.",
+        "city": "Kamenets",
+        "longitude": 23.8223,
+        "latitude": 52.7011,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the National Art Museum in Minsk",
+        "category": "Culture",
+        "score": 4,
+        "description": "Discover Belarusian and international art at the National Art Museum, featuring a vast collection of paintings and sculptures.",
+        "city": "Minsk",
+        "longitude": 27.5618,
+        "latitude": 53.9022,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring Nesvizh Castle",
+        "category": "History",
+        "score": 5,
+        "description": "Discover the architectural beauty and rich history of Nesvizh Castle, a cultural heritage and UNESCO World Heritage Site.",
+        "city": "Nesvizh",
+        "longitude": 26.6914,
+        "latitude": 53.2221,
+        "cost": "$$"
+    },
+    {
+        "name": "Walking through Brest Fortress",
+        "category": "History",
+        "score": 4,
+        "description": "Visit the Brest Fortress, a symbol of Soviet resistance during World War II, now a poignant memorial site.",
+        "city": "Brest",
+        "longitude": 23.6509,
+        "latitude": 52.0833,
+        "cost": "$"
+    },
+    {
+        "name": "Discovering the Struve Geodetic Arc",
+        "category": "Science",
+        "score": 3,
+        "description": "Explore the Struve Geodetic Arc, a chain of survey triangulations stretching through Belarus and ten other countries.",
+        "city": "Various",
+        "longitude": 27.5667,
+        "latitude": 53.9000,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Dudutki Museum",
+        "category": "Culture",
+        "score": 4,
+        "description": "Experience traditional Belarusian culture and crafts at the Dudutki Museum, an open-air complex showcasing folk heritage.",
+        "city": "Ptich",
+        "longitude": 27.5648,
+        "latitude": 53.4697,
+        "cost": "$"
+    },
+    {
+        "name": "Enjoying the Minsk Sea",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Relax by the Minsk Sea, a large artificial lake offering recreational activities and scenic beauty.",
+        "city": "Minsk",
+        "longitude": 27.3181,
+        "latitude": 53.9454,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Gomel Palace and Park Ensemble",
+        "category": "History",
+        "score": 4,
+        "description": "Visit the Gomel Palace and Park Ensemble, a historic complex with beautiful gardens, an 18th-century palace, and a chapel.",
+        "city": "Gomel",
+        "longitude": 31.0191,
+        "latitude": 52.4242,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Vitebsk Marc Chagall Museum",
+        "category": "Art",
+        "score": 3,
+        "description": "Explore the life and works of Marc Chagall at the museum dedicated to the artist in his hometown of Vitebsk.",
+        "city": "Vitebsk",
+        "longitude": 30.2049,
+        "latitude": 55.1904,
+        "cost": "$"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Walking Through the Old Bridge Area of Mostar",
+        "category": "Culture",
+        "score": 5,
+        "description": "Explore the historic Old Bridge Area of Mostar, a UNESCO World Heritage site, known for its iconic Ottoman-style bridge and beautiful old town.",
+        "city": "Mostar",
+        "longitude": 17.8139,
+        "latitude": 43.3438,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Sarajevo Tunnel Museum",
+        "category": "History",
+        "score": 4,
+        "description": "Discover the Sarajevo Tunnel Museum, an underground tunnel that served as a lifeline during the Siege of Sarajevo.",
+        "city": "Sarajevo",
+        "longitude": 18.3081,
+        "latitude": 43.8563,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Srebrenica-Potočari Memorial and Cemetery",
+        "category": "History",
+        "score": 5,
+        "description": "Pay respects at the Srebrenica-Potočari Memorial and Cemetery, a poignant reminder of the tragic events of the Bosnian War.",
+        "city": "Srebrenica",
+        "longitude": 19.3006,
+        "latitude": 44.0994,
+        "cost": "$"
+    },
+    {
+        "name": "Touring the Medieval Town of Počitelj",
+        "category": "History",
+        "score": 4,
+        "description": "Visit the medieval town of Počitelj, a stunning example of Ottoman architecture and urban planning.",
+        "city": "Počitelj",
+        "longitude": 17.7719,
+        "latitude": 43.1150,
+        "cost": "$"
+    },
+    {
+        "name": "Rafting on the Neretva River",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Experience thrilling white-water rafting on the Neretva River, known for its clear green waters and breathtaking canyons.",
+        "city": "Konjic",
+        "longitude": 17.9339,
+        "latitude": 43.6500,
+        "cost": "$$"
+    },
+    {
+        "name": "Hiking in Sutjeska National Park",
+        "category": "Nature",
+        "score": 5,
+        "description": "Embark on a hike in Sutjeska National Park, home to the country's highest peak, Maglić, and the stunning Perućica rainforest.",
+        "city": "Foča",
+        "longitude": 18.7833,
+        "latitude": 43.5000,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Bascarsija in Sarajevo",
+        "category": "Culture",
+        "score": 4,
+        "description": "Stroll through Bascarsija, Sarajevo's old bazaar and historical and cultural center, known for its unique shops and cafes.",
+        "city": "Sarajevo",
+        "longitude": 18.4241,
+        "latitude": 43.8563,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Kravice Waterfalls",
+        "category": "Nature",
+        "score": 4,
+        "description": "Discover the Kravice Waterfalls, a breathtaking natural wonder and a perfect spot for swimming and picnics.",
+        "city": "Ljubuški",
+        "longitude": 17.6078,
+        "latitude": 43.1589,
+        "cost": "$"
+    },
+    {
+        "name": "Touring the Blagaj Tekija",
+        "category": "Culture",
+        "score": 4,
+        "description": "Visit the Blagaj Tekija, a Dervish monastery beside the Buna River, known for its stunning setting and serene atmosphere.",
+        "city": "Blagaj",
+        "longitude": 17.8882,
+        "latitude": 43.2584,
+        "cost": "$"
+    },
+    {
+        "name": "Experiencing the Nightlife of Sarajevo",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Enjoy the vibrant nightlife of Sarajevo, with its array of bars, clubs, and cafes offering a lively atmosphere.",
+        "city": "Sarajevo",
+        "longitude": 18.4131,
+        "latitude": 43.8563,
+        "cost": "$$"
+    }
+]

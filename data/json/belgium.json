@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Exploring the Historic Centre of Bruges",
+        "category": "Culture",
+        "score": 5,
+        "description": "Discover the medieval charm of Bruges, with its canals and cobbled streets, often referred to as the 'Venice of the North'.",
+        "city": "Bruges",
+        "longitude": 3.2247,
+        "latitude": 51.2093,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Grand Place in Brussels",
+        "category": "History",
+        "score": 5,
+        "description": "Experience the architectural grandeur of the Grand Place, a UNESCO World Heritage site and Brussels' central square.",
+        "city": "Brussels",
+        "longitude": 4.3528,
+        "latitude": 50.8466,
+        "cost": "$"
+    },
+    {
+        "name": "Touring the Royal Greenhouses of Laeken",
+        "category": "Nature",
+        "score": 4,
+        "description": "Explore the Royal Greenhouses of Laeken, a vast complex of historic greenhouses filled with exotic plants and flowers.",
+        "city": "Brussels",
+        "longitude": 4.3483,
+        "latitude": 50.8834,
+        "cost": "$$"
+    },
+    {
+        "name": "Tasting Belgian Chocolates in Brussels",
+        "category": "Gastronomy",
+        "score": 4,
+        "description": "Indulge in a chocolate-tasting tour in Brussels, renowned for its high-quality and artisanal Belgian chocolates.",
+        "city": "Brussels",
+        "longitude": 4.3517,
+        "latitude": 50.8503,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Battlefields of Ypres",
+        "category": "History",
+        "score": 4,
+        "description": "Visit the WWI battlefields of Ypres, an important site of remembrance and reflection.",
+        "city": "Ypres",
+        "longitude": 2.8857,
+        "latitude": 50.8518,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Antwerp Zoo",
+        "category": "Family",
+        "score": 3,
+        "description": "Enjoy a family-friendly day out at the Antwerp Zoo, one of the oldest and most famous zoos in Europe.",
+        "city": "Antwerp",
+        "longitude": 4.4211,
+        "latitude": 51.2157,
+        "cost": "$$"
+    },
+    {
+        "name": "Admiring Art at the Royal Museums of Fine Arts",
+        "category": "Art",
+        "score": 4,
+        "description": "Discover a wealth of art history at the Royal Museums of Fine Arts of Belgium, home to an extensive collection of Flemish and Belgian art.",
+        "city": "Brussels",
+        "longitude": 4.3580,
+        "latitude": 50.8418,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Ardennes",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Embark on outdoor adventures in the Ardennes, a region known for its dense forests, caves, and rugged terrain.",
+        "city": "Ardennes",
+        "longitude": 5.5534,
+        "latitude": 50.1175,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting Ghent's Gravensteen Castle",
+        "category": "History",
+        "score": 4,
+        "description": "Explore the medieval Gravensteen Castle in Ghent, with its impressive moat and panoramic city views.",
+        "city": "Ghent",
+        "longitude": 3.7207,
+        "latitude": 51.0575,
+        "cost": "$"
+    },
+    {
+        "name": "Discovering Comic Strip Art in Brussels",
+        "category": "Culture",
+        "score": 3,
+        "description": "Dive into the world of comic strips in Brussels, home to the Belgian Comic Strip Center and numerous comic strip murals.",
+        "city": "Brussels",
+        "longitude": 4.3601,
+        "latitude": 50.8510,
+        "cost": "$$"
+    }
+]

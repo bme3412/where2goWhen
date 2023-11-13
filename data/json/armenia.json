@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Exploring the Temple of Garni",
+        "category": "History",
+        "score": 5,
+        "description": "Discover the ancient Greco-Roman temple of Garni, a symbol of pre-Christian Armenia.",
+        "city": "Garni",
+        "longitude": 44.7289,
+        "latitude": 40.1125,
+        "cost": "$"
+    },
+    {
+        "name": "Hiking in Dilijan National Park",
+        "category": "Nature",
+        "score": 5,
+        "description": "Experience the lush landscapes and rich biodiversity of Dilijan National Park, often referred to as the 'Armenian Switzerland'.",
+        "city": "Dilijan",
+        "longitude": 44.8626,
+        "latitude": 40.7410,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Geghard Monastery",
+        "category": "Culture",
+        "score": 5,
+        "description": "Explore the Geghard Monastery, a UNESCO World Heritage site famous for its rock-cut architecture and sacred springs.",
+        "city": "Geghard",
+        "longitude": 44.8003,
+        "latitude": 40.1408,
+        "cost": "$"
+    },
+    {
+        "name": "Touring the Yerevan Brandy Company",
+        "category": "Gastronomy",
+        "score": 4,
+        "description": "Discover the secrets of Armenian brandy production with a tour and tasting at the legendary Yerevan Brandy Company.",
+        "city": "Yerevan",
+        "longitude": 44.5152,
+        "latitude": 40.1872,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Armenian Genocide Memorial",
+        "category": "History",
+        "score": 4,
+        "description": "Pay respects at the Armenian Genocide Memorial, a solemn reminder of a pivotal event in Armenia's history.",
+        "city": "Yerevan",
+        "longitude": 44.4906,
+        "latitude": 40.1876,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Echmiadzin Cathedral",
+        "category": "Culture",
+        "score": 5,
+        "description": "Visit Echmiadzin Cathedral, a spiritual center for Armenians and one of the oldest cathedrals in the world.",
+        "city": "Vagharshapat",
+        "longitude": 44.2924,
+        "latitude": 40.1584,
+        "cost": "$"
+    },
+    {
+        "name": "Hiking to Lake Parz",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Embark on a scenic hike to Lake Parz, a serene natural lake surrounded by dense forests in Dilijan National Park.",
+        "city": "Dilijan",
+        "longitude": 44.9629,
+        "latitude": 40.7825,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Noravank Monastery",
+        "category": "Culture",
+        "score": 4,
+        "description": "Visit Noravank Monastery, set in a dramatic canyon and known for its stunning medieval architecture.",
+        "city": "Yeghegnadzor",
+        "longitude": 45.2320,
+        "latitude": 39.6842,
+        "cost": "$"
+    },
+    {
+        "name": "Wine Tasting in Areni",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Enjoy the flavors of Armenian wine with a tasting tour in Areni, a region known for its ancient winemaking traditions.",
+        "city": "Areni",
+        "longitude": 45.1789,
+        "latitude": 39.7194,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Sevanavank Monastery",
+        "category": "Culture",
+        "score": 4,
+        "description": "Explore Sevanavank Monastery, located on the picturesque peninsula of Lake Sevan, offering stunning views and rich history.",
+        "city": "Sevan",
+        "longitude": 45.0047,
+        "latitude": 40.5486,
+        "cost": "$"
+    }
+]
