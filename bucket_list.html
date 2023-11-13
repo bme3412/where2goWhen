@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Bucket List</title>
+    <title>Global Bucket List</title>
     <style>
       * {
         box-sizing: border-box;
@@ -53,6 +53,9 @@
         text-transform: uppercase;
         font-weight: 600;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
       }
 
       .country-button:hover {
@@ -60,14 +63,23 @@
       }
 
       /* Style for the country container */
-      .country-container {
+      .country-container,
+      .continent-container {
         display: flex;
-        flex-direction: column; /* Stack buttons vertically */
-        align-items: flex-start; /* Align buttons to the start */
-        gap: 1px 0; /* Space between buttons */
-        margin-right: 20px; /* Space between the container and the map */
-        order: 1; /* Ensure this appears first */
-        flex-grow: 1; /* Allow the container to grow if needed */
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1px 0;
+        margin-right: 20px;
+        order: 1;
+        flex-grow: 0; /* Prevents the container from growing */
+
+        /* Background properties */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        /* Width settings */
+        min-width: 450px; /* Adjusted minimum width */
       }
 
       #map {
@@ -150,19 +162,6 @@
         background-color: #95a5a6; /* Default grey */
       }
 
-      .item-name {
-        font-weight: bold;
-      }
-      .item-city {
-        color: #007bff;
-      }
-      .item-score {
-        color: #28a745;
-      }
-      .item-cost {
-        color: #dc3545;
-      }
-
       .bucket-list-button span {
         display: block;
         margin: 5px 0;
@@ -180,30 +179,33 @@
       }
 
       /* Style for the buttons in the sidebar */
-      .country-button {
-        /* ... other styles ... */
-        display: block; /* Full-width sidebar links */
-        width: 100%; /* Full width */
-        margin: 10px 0; /* Add some top and bottom margin */
-        box-shadow: none; /* No shadow for flat design */
-        border-radius: 0; /* Remove border radius for flat design */
+      .sidebar .country-button {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        box-shadow: none;
+        border-radius: 0;
         background-size: cover;
         background-position: center;
+        color: white; /* Assuming white text */
+        font-size: 18px; /* Adjust as needed */
+        font-weight: bold; /* Bold text for better visibility */
+        text-align: center; /* Center the text */
+        padding: 15px 0; /* Add some padding */
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+          1px 1px 0 #000; /* Text outline effect */
+        transition: all 0.3s ease; /* Smooth transition for hover effects */
       }
 
-      #Europe-country-buttons {
-        overflow-y: auto;
-        max-height: 300px; /* Adjust based on your design */
-      }
-
-      .show-all-button {
-        display: block; /* Full-width sidebar links */
-        width: 100%; /* Full width */
-        margin: 10px 0; /* Add some top and bottom margin */
-        box-shadow: none; /* No shadow for flat design */
-        border-radius: 0; /* Remove border radius for flat design */
-        background-size: cover;
-        background-position: center;
+      .country-button:hover {
+        background-color: rgba(
+          255,
+          255,
+          255,
+          0.2
+        ); /* Slight highlight on hover */
+        color: #000; /* Change text color on hover */
+        text-shadow: none; /* Remove text shadow on hover for a different effect */
       }
 
       button {
@@ -227,116 +229,81 @@
         transform: translateY(-2px);
       }
 
-      button.visited::after {
-        content: ""; /* Needed to generate the box */
-        position: absolute;
-        top: 50%; /* Center the image */
-        left: 50%;
-        width: 150px; /* Your desired width */
-        height: 150px; /* Your desired height */
-        transform: translate(-50%, -50%); /* Center the pseudo-element */
-        background-image: url("assets/images/flags/passport_stamp.png");
-        background-size: contain; /* Contain the image within the pseudo-element */
-        background-repeat: no-repeat;
-        z-index: 10; /* Make sure it's above the button */
-      }
-
-      button.visited {
-        color: transparent; /* Make the button text transparent when visited */
-        background-color: transparent; /* Optional: Make the button background transparent */
-        box-shadow: none; /* Optional: Remove the shadow if desired */
-      }
-
-      .bucket-list-table {
-        border-collapse: collapse;
-        margin: 20px auto;
-        width: calc(100% - 40px); /* Adjusting width to account for padding */
-        text-align: left;
-        border-radius: 10px; /* Rounded corners for the table */
-        background: #ffffff; /* White background for the table */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
-        overflow: hidden; /* Ensures the border radius clips the content */
-      }
-
-      .bucket-list-table th,
-      .bucket-list-table td {
-        padding: 12px 15px; /* Uniform padding for cells */
-        border-bottom: 1px solid #dddddd; /* Light border for cell separation */
-      }
-
-      /* Header styles */
-      .bucket-list-table th {
-        background-color: #007bff; /* Header background */
-        color: white;
-        font-size: 16px;
-        position: sticky; /* Ensures header sticks at the top */
-        top: 0;
-        user-select: none; /* Disable text selection on headers */
-      }
-
-      /* Interactive cues for sortable headers */
-      .bucket-list-table th.sortable:hover {
-        background-color: #0056b3; /* Darker shade on hover for interaction */
-        cursor: pointer; /* Changes cursor to signify clickable headers */
-      }
-
-      /* Hover effect for table rows */
-      .bucket-list-table tr:hover:not(:first-child) {
-        background-color: #f2f2f2; /* Light grey background on hover for rows */
-      }
-
-      /* Removing the last border for a cleaner look */
-      .bucket-list-table tr:last-child td {
-        border-bottom: none;
-      }
-      /* Zebra striping for rows */
-      .bucket-list-table tr:nth-child(even) {
-        background-color: #f9f9f9;
-      }
-
-      /* Make table headers non-selectable */
-      .bucket-list-table th {
-        user-select: none;
-      }
-
-      /* Ensuring that the sticky table header has a backdrop */
-      .bucket-list-table th {
-        background-color: #007bff;
-        z-index: 1;
-      }
       .continent-button {
         display: block;
         width: 100%;
-        padding: 20px; /* Increase padding to make button bigger */
+        padding: 20px;
         margin-bottom: 10px;
         background: url("assets/images/flags/europe_flag.png") no-repeat center
-          center;
+            center,
+          linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
         background-size: cover;
         color: white;
         border: none;
         text-align: center;
         cursor: pointer;
         border-radius: 5px;
-        font-size: 20px; /* Increase font size for bigger appearance */
-        font-weight: 600;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust for aesthetic */
-        /* Other styles remain the same */
+        font-size: 20px;
+        font-weight: 700;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+          1px 1px 0 #000; /* Creating an outline effect */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
 
       .continent-button:hover {
         background-color: #3e8e41; /* This will affect the color overlay on hover */
-        /* Add this line if you want to keep the image visible on hover */
-        background-image: url("assets/images/flags/europe_flag.png");
       }
     </style>
   </head>
   <body>
     <!-- Sidebar with country buttons -->
+
     <div class="sidebar">
+      <!-- Global button -->
+      <button
+        class="continent-button"
+        onclick="toggleLocation('Global')"
+        style="background-image: url('assets/images/flags/global_flag.png')"
+      >
+        Global
+      </button>
+
+      <!-- Africa button -->
+      <button
+        class="continent-button"
+        onclick="toggleLocation('Africa')"
+        style="background-image: url('assets/images/flags/africa_flag.png')"
+      >
+        Africa
+      </button>
+
+      <!-- Asia button -->
+      <button
+        class="continent-button"
+        onclick="toggleContinent('Asia')"
+        style="background-image: url('assets/images/flags/asia_flag.png')"
+      >
+        Asia
+      </button>
+
+      <!-- Americas button -->
+      <button
+        class="continent-button"
+        onclick="toggleContinent('Americas')"
+        style="background-image: url('assets/images/flags/americas_flag.png')"
+      >
+        Americas
+      </button>
+
       <!-- Europe button -->
-      <button class="continent-button" onclick="toggleContinent('Europe')">
+      <button
+        class="continent-button"
+        onclick="toggleContinent('Europe')"
+        style="background-image: url('assets/images/flags/europe_flag.png')"
+      >
         Europe
       </button>
+
       <!-- Europe country buttons, initially hidden -->
       <div
         id="Europe-country-buttons"
@@ -390,6 +357,24 @@
 
         <button
           class="country-button"
+          onclick="toggleCountry('Armenia')"
+          style="background-image: url('assets/images/flags/armenia_flag.png')"
+        >
+          Armenia
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Azerbaijan')"
+          style="
+            background-image: url('assets/images/flags/azerbaijan_flag.png');
+          "
+        >
+          Azerbaijan
+        </button>
+
+        <button
+          class="country-button"
           onclick="toggleCountry('Belarus')"
           style="background-image: url('assets/images/flags/belarus_flag.png')"
         >
@@ -438,8 +423,6 @@
           Czech Republic
         </button>
 
-        
-
         <button
           class="country-button"
           onclick="toggleCountry('Croatia')"
@@ -466,10 +449,156 @@
 
         <button
           class="country-button"
+          onclick="toggleCountry('Estonia')"
+          style="background-image: url('assets/images/flags/estonia_flag.png')"
+        >
+          Estonia
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Georgia')"
+          style="background-image: url('assets/images/flags/georgia_flag.png')"
+        >
+          Georgia
+        </button>
+
+        <button
+          class="country-button"
           onclick="toggleCountry('Greece')"
           style="background-image: url('assets/images/flags/greece_flag.png')"
         >
           Greece
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Hungary')"
+          style="background-image: url('assets/images/flags/hungary_flag.png')"
+        >
+          Hungary
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Iceland')"
+          style="background-image: url('assets/images/flags/iceland_flag.png')"
+        >
+          Iceland
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Ireland')"
+          style="background-image: url('assets/images/flags/ireland_flag.png')"
+        >
+          Ireland
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Kazakhstan')"
+          style="
+            background-image: url('assets/images/flags/kazakhstan_flag.png');
+          "
+        >
+          Kazakhstan
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Kosovo')"
+          style="background-image: url('assets/images/flags/kosovo_flag.png')"
+        >
+          Kosovo
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Latvia')"
+          style="background-image: url('assets/images/flags/latvia_flag.png')"
+        >
+          Latvia
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Liechtenstein')"
+          style="
+            background-image: url('assets/images/flags/liechtenstein_flag.png');
+          "
+        >
+          Liechtenstein
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Luxembourg')"
+          style="
+            background-image: url('assets/images/flags/luxembourg_flag.png');
+          "
+        >
+          Luxembourg
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Malta')"
+          style="background-image: url('assets/images/flags/malta_flag.png')"
+        >
+          Malta
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Moldova')"
+          style="background-image: url('assets/images/flags/moldova_flag.png')"
+        >
+          Moldova
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Monaco')"
+          style="background-image: url('assets/images/flags/monaco_flag.png')"
+        >
+          Monaco
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Montenegro')"
+          style="
+            background-image: url('assets/images/flags/montenegro_flag.png');
+          "
+        >
+          Montenegro
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('NorthMacedonia')"
+          style="
+            background-image: url('assets/images/flags/north_macedonia_flag.png');
+          "
+        >
+          North Macedonia
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Poland')"
+          style="background-image: url('assets/images/flags/poland_flag.png')"
+        >
+          Poland
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Romania')"
+          style="background-image: url('assets/images/flags/romania_flag.png')"
+        >
+          Romania
         </button>
 
         <button
@@ -516,6 +645,74 @@
           Switzerland
         </button>
 
+        <button
+          class="country-button"
+          onclick="toggleCountry('SanMarino')"
+          style="
+            background-image: url('assets/images/flags/san_marino_flag.png');
+          "
+        >
+          San Marino
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Serbia')"
+          style="background-image: url('assets/images/flags/serbia_flag.png')"
+        >
+          Serbia
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Slovakia')"
+          style="background-image: url('assets/images/flags/slovakia_flag.png')"
+        >
+          Slovakia
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Slovenia')"
+          style="background-image: url('assets/images/flags/slovenia_flag.png')"
+        >
+          Slovenia
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Turkey')"
+          style="background-image: url('assets/images/flags/turkey_flag.png')"
+        >
+          Turkey
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('UnitedKingdom')"
+          style="
+            background-image: url('assets/images/flags/united_kingdom_flag.png');
+          "
+        >
+          United Kingdom
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Ukraine')"
+          style="background-image: url('assets/images/flags/ukraine_flag.png')"
+        >
+          Ukraine
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Vatican')"
+          style="background-image: url('assets/images/flags/vatican_flag.png')"
+        >
+          Vatican
+        </button>
+
         <!-- Add more buttons as needed -->
       </div>
       <!-- Latin America button -->
@@ -555,47 +752,150 @@
           Peru
         </button>
       </div>
+      <!-- Pacific button -->
+      <button
+        class="continent-button"
+        onclick="toggleContinent('Pacific')"
+        style="background-image: url('assets/images/flags/pacific_flag.png')"
+      >
+        Pacific
+      </button>
     </div>
 
     <!-- Main content area where the country's bucket list and map will be displayed -->
     <div class="main-content">
       <h1></h1>
 
+      <!-- Content containers for each continent's bucket list -->
+      <div id="Global" class="continent-container" style="display: none"></div>
+      <div id="Africa" class="continent-container" style="display: none"></div>
+      <div
+        id="Americas"
+        class="continent-container"
+        style="display: none"
+      ></div>
+      <div id="Asia" class="continent-container" style="display: none"></div>
+      <div id="Europe" class="continent-container" style="display: none"></div>
+      <div
+        id="Latin America"
+        class="continent-container"
+        style="display: none"
+      ></div>
+
       <!-- Content containers for each country's bucket list -->
-      <div id="Albania" class="country-container" style="display: none"></div>
-      <div id="Andorra" class="country-container" style="display: none"></div>
-      <div id="Austria" class="country-container" style="display: none"></div>
-      <div id="Belarus" class="country-container" style="display: none"></div>
-      <div id="Belgium" class="country-container" style="display: none"></div>
-      <div id="Bosnia" class="country-container" style="display: none"></div>
-      <div id="Bulgaria" class="country-container" style="display: none"></div>
-      <div id="Croatia" class="country-container" style="display: none"></div>
-      <div id="Cyprus" class="country-container" style="display: none"></div>
-      <div
-        id="Czech"
-        class="country-container"
-        style="display: none"
-      ></div>
-      <div id="Denmark" class="country-container" style="display: none"></div>
-      <div id="Finland" class="country-container" style="display: none"></div>
-      <div id="France" class="country-container" style="display: none"></div>
-      <div id="Germany" class="country-container" style="display: none"></div>
-      <div id="Greece" class="country-container" style="display: none"></div>
-      <div id="Italy" class="country-container" style="display: none"></div>
-      <div
-        id="Netherlands"
-        class="country-container"
-        style="display: none"
-      ></div>
-      <div id="Norway" class="country-container" style="display: none"></div>
-      <div id="Portugal" class="country-container" style="display: none"></div>
-      <div id="Spain" class="country-container" style="display: none"></div>
-      <div id="Sweden" class="country-container" style="display: none"></div>
-      <div
-        id="Switzerland"
-        class="country-container"
-        style="display: none"
-      ></div>
+      <div id="country-divs-container">
+        <div id="Albania" class="country-container" style="display: none"></div>
+        <div id="Andorra" class="country-container" style="display: none"></div>
+        <div id="Austria" class="country-container" style="display: none"></div>
+        <div id="Armenia" class="country-container" style="display: none"></div>
+        <div
+          id="Azerbaijan"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div id="Belarus" class="country-container" style="display: none"></div>
+        <div id="Belgium" class="country-container" style="display: none"></div>
+        <div id="Bosnia" class="country-container" style="display: none"></div>
+        <div
+          id="Bulgaria"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div id="Croatia" class="country-container" style="display: none"></div>
+        <div id="Cyprus" class="country-container" style="display: none"></div>
+        <div id="Czech" class="country-container" style="display: none"></div>
+        <div id="Denmark" class="country-container" style="display: none"></div>
+        <div id="Estonia" class="country-container" style="display: none"></div>
+        <div id="Finland" class="country-container" style="display: none"></div>
+        <div id="France" class="country-container" style="display: none"></div>
+        <div id="Georgia" class="country-container" style="display: none"></div>
+        <div id="Germany" class="country-container" style="display: none"></div>
+        <div id="Greece" class="country-container" style="display: none"></div>
+        <div id="Hungary" class="country-container" style="display: none"></div>
+        <div id="Iceland" class="country-container" style="display: none"></div>
+        <div id="Ireland" class="country-container" style="display: none"></div>
+        <div id="Italy" class="country-container" style="display: none"></div>
+        <div
+          id="Kazakhstan"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div id="Kosovo" class="country-container" style="display: none"></div>
+        <div id="Latvia" class="country-container" style="display: none"></div>
+        <div
+          id="Liechtenstein"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div
+          id="Lithuania"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div
+          id="Luxembourg"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div id="Malta" class="country-container" style="display: none"></div>
+        <div id="Moldova" class="country-container" style="display: none"></div>
+        <div id="Monaco" class="country-container" style="display: none"></div>
+        <div
+          id="Montenegro"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div
+          id="Netherlands"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div
+          id="NorthMacedonia"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div id="Norway" class="country-container" style="display: none"></div>
+        <div id="Poland" class="country-container" style="display: none"></div>
+        <div
+          id="Portugal"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div id="Romania" class="country-container" style="display: none"></div>
+        <div id="Russia" class="country-container" style="display: none"></div>
+        <div
+          id="SanMarino"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div id="Serbia" class="country-container" style="display: none"></div>
+        <div
+          id="Slovakia"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div
+          id="Slovenia"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div id="Spain" class="country-container" style="display: none"></div>
+        <div id="Sweden" class="country-container" style="display: none"></div>
+        <div
+          id="Switzerland"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div id="Turkey" class="country-container" style="display: none"></div>
+        <div id="Ukraine" class="country-container" style="display: none"></div>
+        <div
+          id="UnitedKingdom"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div id="Vatican" class="country-container" style="display: none"></div>
+      </div>
 
       <div id="map" style="height: 400px; width: 50%"></div>
     </div>
