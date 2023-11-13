@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Visiting Rila Monastery",
+        "category": "Culture",
+        "score": 5,
+        "description": "Explore the Rila Monastery, a stunning example of Bulgarian Renaissance architecture and a UNESCO World Heritage Site.",
+        "city": "Rila",
+        "longitude": 23.3406,
+        "latitude": 42.1333,
+        "cost": "$"
+    },
+    {
+        "name": "Hiking in Pirin National Park",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Discover the rugged beauty of Pirin National Park, a UNESCO site with diverse flora and fauna, and ideal for hiking and mountaineering.",
+        "city": "Bansko",
+        "longitude": 23.4855,
+        "latitude": 41.8404,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring Sofia's Historic Center",
+        "category": "History",
+        "score": 4,
+        "description": "Stroll through Sofia's historic center, featuring a mix of Roman ruins, Ottoman mosques, and Soviet-era monuments.",
+        "city": "Sofia",
+        "longitude": 23.3219,
+        "latitude": 42.6977,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Ancient City of Plovdiv",
+        "category": "Culture",
+        "score": 5,
+        "description": "Discover Plovdiv, one of Europe's oldest cities, known for its Roman theater, colorful old town, and vibrant cultural scene.",
+        "city": "Plovdiv",
+        "longitude": 24.7489,
+        "latitude": 42.1419,
+        "cost": "$"
+    },
+    {
+        "name": "Relaxing at the Sunny Beach Resort",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Enjoy the sun and sea at Sunny Beach, Bulgaria's largest and most popular beach resort.",
+        "city": "Sunny Beach",
+        "longitude": 27.7125,
+        "latitude": 42.6897,
+        "cost": "$$"
+    },
+    {
+        "name": "Tasting Bulgarian Wine in the Thracian Valley",
+        "category": "Gastronomy",
+        "score": 4,
+        "description": "Experience wine tasting in the Thracian Valley, a region known for its high-quality Bulgarian wines.",
+        "city": "Plovdiv",
+        "longitude": 25.2878,
+        "latitude": 42.1354,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring Belogradchik Rocks and Fortress",
+        "category": "Nature",
+        "score": 4,
+        "description": "Visit the Belogradchik Rocks and Fortress, a natural phenomenon of rock formations and a historical fortress with panoramic views.",
+        "city": "Belogradchik",
+        "longitude": 22.6828,
+        "latitude": 43.6244,
+        "cost": "$"
+    },
+    {
+        "name": "Touring the Boyana Church",
+        "category": "History",
+        "score": 4,
+        "description": "Explore the Boyana Church, a medieval Bulgarian Orthodox church on the outskirts of Sofia, famous for its well-preserved frescoes.",
+        "city": "Sofia",
+        "longitude": 23.2675,
+        "latitude": 42.6473,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Rose Valley",
+        "category": "Nature",
+        "score": 3,
+        "description": "Experience the Rose Valley near Kazanlak, the center of Bulgaria's rose oil production, best visited during the annual Rose Festival.",
+        "city": "Kazanlak",
+        "longitude": 25.3967,
+        "latitude": 42.6194,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Madara Rider",
+        "category": "Culture",
+        "score": 4,
+        "description": "See the Madara Rider, an early medieval large rock relief carved on the Madara Plateau and a UNESCO World Heritage Site.",
+        "city": "Shumen",
+        "longitude": 27.1806,
+        "latitude": 43.2951,
+        "cost": "$"
+    }
+]

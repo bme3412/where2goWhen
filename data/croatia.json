@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Walking the Walls of Dubrovnik",
+        "category": "Culture",
+        "score": 5,
+        "description": "Explore the famous walls of Dubrovnik, offering stunning views of the city and the Adriatic Sea.",
+        "city": "Dubrovnik",
+        "longitude": 18.0944,
+        "latitude": 42.6507,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting Plitvice Lakes National Park",
+        "category": "Nature",
+        "score": 5,
+        "description": "Discover the breathtaking beauty of Plitvice Lakes National Park, a UNESCO World Heritage site known for its cascading lakes and waterfalls.",
+        "city": "Plitvička Jezera",
+        "longitude": 15.6214,
+        "latitude": 44.8654,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring Diocletian's Palace in Split",
+        "category": "History",
+        "score": 5,
+        "description": "Walk through the ancient Roman Diocletian's Palace, a well-preserved fortress-like complex in the heart of Split.",
+        "city": "Split",
+        "longitude": 16.4378,
+        "latitude": 43.5081,
+        "cost": "$"
+    },
+    {
+        "name": "Sailing the Dalmatian Coast",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Embark on a sailing adventure along the beautiful Dalmatian Coast, dotted with picturesque islands and crystal-clear waters.",
+        "city": "Dalmatia",
+        "longitude": 15.9775,
+        "latitude": 43.5048,
+        "cost": "$$$"
+    },
+    {
+        "name": "Wine Tasting on the Pelješac Peninsula",
+        "category": "Gastronomy",
+        "score": 4,
+        "description": "Enjoy wine tasting on the Pelješac Peninsula, known for its excellent Croatian wines, particularly Plavac Mali.",
+        "city": "Pelješac",
+        "longitude": 17.2728,
+        "latitude": 42.9457,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting Pula Arena",
+        "category": "History",
+        "score": 4,
+        "description": "Explore the Pula Arena, one of the world's best-preserved Roman amphitheaters, located in the coastal city of Pula.",
+        "city": "Pula",
+        "longitude": 13.8481,
+        "latitude": 44.8749,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Historic City of Trogir",
+        "category": "Culture",
+        "score": 4,
+        "description": "Visit the historic island city of Trogir, a UNESCO World Heritage site with a well-preserved medieval old town.",
+        "city": "Trogir",
+        "longitude": 16.2502,
+        "latitude": 43.5167,
+        "cost": "$"
+    },
+    {
+        "name": "Hiking in Paklenica National Park",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Discover the rugged landscapes of Paklenica National Park, a haven for hikers and climbers with its dramatic canyons and mountain trails.",
+        "city": "Starigrad",
+        "longitude": 15.4850,
+        "latitude": 44.2965,
+        "cost": "$"
+    },
+    {
+        "name": "Discovering the Blue Cave of Biševo",
+        "category": "Nature",
+        "score": 4,
+        "description": "Experience the natural wonder of the Blue Cave on Biševo Island, known for its mesmerizing blue light.",
+        "city": "Biševo",
+        "longitude": 16.0115,
+        "latitude": 42.9639,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Island of Hvar",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Visit the island of Hvar, famous for its sunny climate, historic towns, and vibrant nightlife.",
+        "city": "Hvar",
+        "longitude": 16.4414,
+        "latitude": 43.1729,
+        "cost": "$$"
+    }
+]

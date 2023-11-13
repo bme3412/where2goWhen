@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Visiting the Tombs of the Kings",
+        "category": "History",
+        "score": 5,
+        "description": "Explore the Tombs of the Kings in Paphos, an ancient necropolis and UNESCO World Heritage site.",
+        "city": "Paphos",
+        "longitude": 32.4054,
+        "latitude": 34.7720,
+        "cost": "$"
+    },
+    {
+        "name": "Hiking in Troodos Mountains",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Embark on a scenic hike through the Troodos Mountains, known for their picturesque villages and beautiful nature trails.",
+        "city": "Troodos",
+        "longitude": 32.8631,
+        "latitude": 34.9207,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Archaeological Park of Kato Paphos",
+        "category": "Culture",
+        "score": 5,
+        "description": "Discover the rich history at the Archaeological Park of Kato Paphos, featuring well-preserved Roman villas and stunning mosaics.",
+        "city": "Paphos",
+        "longitude": 32.4085,
+        "latitude": 34.7566,
+        "cost": "$$"
+    },
+    {
+        "name": "Relaxing at Nissi Beach",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Enjoy the crystal-clear waters and golden sand of Nissi Beach, one of Cyprus's most famous beaches.",
+        "city": "Ayia Napa",
+        "longitude": 33.9618,
+        "latitude": 34.9881,
+        "cost": "$$"
+    },
+    {
+        "name": "Wine Tasting in Limassol",
+        "category": "Gastronomy",
+        "score": 4,
+        "description": "Experience wine tasting in Limassol, the heart of Cyprus's wine region, known for its Commandaria wine.",
+        "city": "Limassol",
+        "longitude": 33.0462,
+        "latitude": 34.7071,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting the Kykkos Monastery",
+        "category": "Culture",
+        "score": 4,
+        "description": "Explore the Kykkos Monastery, one of Cyprus's most important religious sites, renowned for its stunning icons and mosaics.",
+        "city": "Kykkos",
+        "longitude": 32.7318,
+        "latitude": 34.9204,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Old Town of Nicosia",
+        "category": "Culture",
+        "score": 4,
+        "description": "Stroll through the historic Old Town of Nicosia, a fascinating mix of cultures and one of the last divided capitals in the world.",
+        "city": "Nicosia",
+        "longitude": 33.3642,
+        "latitude": 35.1739,
+        "cost": "$"
+    },
+    {
+        "name": "Discovering the Akamas Peninsula",
+        "category": "Nature",
+        "score": 4,
+        "description": "Discover the natural beauty of the Akamas Peninsula, a haven for wildlife and home to stunning landscapes like the Blue Lagoon.",
+        "city": "Akamas",
+        "longitude": 32.3704,
+        "latitude": 34.9911,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting Larnaca Salt Lake",
+        "category": "Nature",
+        "score": 3,
+        "description": "See the Larnaca Salt Lake, a network of four salt lakes and a popular spot for bird watching, especially flamingos in winter.",
+        "city": "Larnaca",
+        "longitude": 33.6290,
+        "latitude": 34.9224,
+        "cost": "$"
+    },
+    {
+        "name": "Exploring the Medieval Castle of Kolossi",
+        "category": "History",
+        "score": 3,
+        "description": "Visit the Kolossi Castle, a fine example of military architecture originally built in the 13th century by the Knights of St John.",
+        "city": "Kolossi",
+        "longitude": 32.9292,
+        "latitude": 34.6703,
+        "cost": "$"
+    }
+]

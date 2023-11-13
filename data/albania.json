@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Exploring the Ruins of Butrint",
+        "category": "History",
+        "score": 5,
+        "description": "Discover the ancient city of Butrint, a UNESCO World Heritage Site, offering a journey through Greek, Roman, Byzantine, and Venetian history.",
+        "city": "Butrint",
+        "longitude": 20.0225,
+        "latitude": 39.7511,
+        "cost": "$$"
+    },
+    {
+        "name": "Hiking in the Albanian Alps",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Embark on a breathtaking hike through the Albanian Alps, known for their stunning natural beauty and challenging trails.",
+        "city": "Theth",
+        "longitude": 19.7833,
+        "latitude": 42.3667,
+        "cost": "$$"
+    },
+    {
+        "name": "Beach Day at Ksamil Islands",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Enjoy the sun and crystal-clear waters at the Ksamil Islands, Albania's premier beach destination.",
+        "city": "Ksamil",
+        "longitude": 19.9997,
+        "latitude": 39.7672,
+        "cost": "$$"
+    },
+    {
+        "name": "Visit to the National Historical Museum",
+        "category": "Culture",
+        "score": 3,
+        "description": "Gain insights into Albania's rich history and culture at the National Historical Museum in Tirana.",
+        "city": "Tirana",
+        "longitude": 19.8187,
+        "latitude": 41.3275,
+        "cost": "$"
+    },
+    {
+        "name": "Rafting in the Osumi Canyons",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Experience thrilling rafting adventures in the Osumi Canyons, known for their stunning natural beauty.",
+        "city": "Çorovodë",
+        "longitude": 20.2272,
+        "latitude": 40.5042,
+        "cost": "$$"
+    },
+    {
+        "name": "Exploring the Gjirokastër Castle",
+        "category": "History",
+        "score": 4,
+        "description": "Discover the historical Gjirokastër Castle, offering panoramic views and a glimpse into the Ottoman era.",
+        "city": "Gjirokastër",
+        "longitude": 20.1389,
+        "latitude": 40.0794,
+        "cost": "$"
+    },
+    {
+        "name": "Wine Tasting in Berat",
+        "category": "Gastronomy",
+        "score": 3,
+        "description": "Indulge in the local wines and explore the rich viticulture of Berat, a city known for its unique architecture and wineries.",
+        "city": "Berat",
+        "longitude": 19.9519,
+        "latitude": 40.7058,
+        "cost": "$$"
+    },
+    {
+        "name": "Lëkurësi Castle Sunset Views",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Enjoy breathtaking sunset views from Lëkurësi Castle, overlooking Saranda and the Ionian Sea.",
+        "city": "Saranda",
+        "longitude": 20.0064,
+        "latitude": 39.8603,
+        "cost": "$"
+    },
+    {
+        "name": "Visit to the Blue Eye Spring",
+        "category": "Nature",
+        "score": 4,
+        "description": "Witness the natural beauty of the Blue Eye Spring, a unique water spring with deep blue waters surrounded by lush forests.",
+        "city": "Muzinë",
+        "longitude": 20.0534,
+        "latitude": 39.9194,
+        "cost": "$"
+    },
+    {
+        "name": "Tour of Krujë Castle",
+        "category": "History",
+        "score": 3,
+        "description": "Explore the historic Krujë Castle, an important symbol of Albanian resistance against the Ottomans.",
+        "city": "Krujë",
+        "longitude": 19.7970,
+        "latitude": 41.5111,
+        "cost": "$"
+    }
+]

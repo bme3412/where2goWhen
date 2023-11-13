@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Skiing in Grandvalira",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Experience the thrill of skiing in Grandvalira, the largest ski area in the Pyrenees.",
+        "city": "Grandvalira",
+        "longitude": 1.7187,
+        "latitude": 42.5721,
+        "cost": "$$$"
+    },
+    {
+        "name": "Hiking in Vall de Madriu-Perafita-Claror",
+        "category": "Nature",
+        "score": 5,
+        "description": "Explore the breathtaking landscapes of the UNESCO-listed Vall de Madriu-Perafita-Claror.",
+        "city": "Escaldes-Engordany",
+        "longitude": 1.5645,
+        "latitude": 42.5063,
+        "cost": "$$"
+    },
+    {
+        "name": "Visiting Casa de la Vall",
+        "category": "History",
+        "score": 4,
+        "description": "Discover the historical and political significance of Casa de la Vall, the former seat of the Andorran Parliament.",
+        "city": "Andorra la Vella",
+        "longitude": 1.5218,
+        "latitude": 42.5073,
+        "cost": "$"
+    },
+    {
+        "name": "Relaxing at Caldea Thermal Spa",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Indulge in relaxation and wellness at Caldea, one of Europe's largest thermal spas.",
+        "city": "Escaldes-Engordany",
+        "longitude": 1.5385,
+        "latitude": 42.5093,
+        "cost": "$$$"
+    },
+    {
+        "name": "Exploring the Church of Sant Joan de Caselles",
+        "category": "Culture",
+        "score": 3,
+        "description": "Visit the Church of Sant Joan de Caselles, a remarkable example of Andorran Romanesque architecture.",
+        "city": "Canillo",
+        "longitude": 1.5976,
+        "latitude": 42.5676,
+        "cost": "$"
+    },
+    {
+        "name": "Mountain Biking in Vallnord",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Experience the adrenaline rush of mountain biking in Vallnord, known for its challenging trails and beautiful scenery.",
+        "city": "La Massana",
+        "longitude": 1.4914,
+        "latitude": 42.5450,
+        "cost": "$$"
+    },
+    {
+        "name": "Shopping in Andorra la Vella",
+        "category": "Shopping",
+        "score": 3,
+        "description": "Enjoy a day of shopping in Andorra la Vella, offering a variety of stores and duty-free shopping.",
+        "city": "Andorra la Vella",
+        "longitude": 1.5232,
+        "latitude": 42.5063,
+        "cost": "$$"
+    },
+    {
+        "name": "Touring the Tobacco Museum",
+        "category": "Culture",
+        "score": 2,
+        "description": "Learn about the history of tobacco and its impact on Andorra at the Tobacco Museum.",
+        "city": "Sant Julià de Lòria",
+        "longitude": 1.4913,
+        "latitude": 42.4634,
+        "cost": "$"
+    },
+    {
+        "name": "Visiting the Ordino-Arcalís Ski Resort",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Explore the beautiful slopes of Ordino-Arcalís, a popular ski resort offering excellent facilities.",
+        "city": "Ordino",
+        "longitude": 1.5332,
+        "latitude": 42.6270,
+        "cost": "$$$"
+    },
+    {
+        "name": "Hiking in Coma Pedrosa Nature Reserve",
+        "category": "Nature",
+        "score": 5,
+        "description": "Trek through Coma Pedrosa Nature Reserve and ascend to Andorra's highest peak, offering stunning panoramic views.",
+        "city": "Arinsal",
+        "longitude": 1.4845,
+        "latitude": 42.5727,
+        "cost": "$$"
+    }
+]
