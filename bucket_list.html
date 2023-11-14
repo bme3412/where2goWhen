@@ -262,7 +262,7 @@
       <!-- Global button -->
       <button
         class="continent-button"
-        onclick="toggleLocation('Global')"
+        onclick="toggleContinent('Global')"
         style="background-image: url('assets/images/flags/global_flag.png')"
       >
         Global
@@ -271,7 +271,7 @@
       <!-- Africa button -->
       <button
         class="continent-button"
-        onclick="toggleLocation('Africa')"
+        onclick="toggleContinent('Africa')"
         style="background-image: url('assets/images/flags/africa_flag.png')"
       >
         Africa
@@ -312,7 +312,7 @@
       >
         <button
           class="country-button"
-          onclick="toggleCountry('France')"
+          onclick="toggleCountry('France', 'Europe')"
           style="background-image: url('assets/images/flags/france_flag.png')"
         >
           France
@@ -320,28 +320,29 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Italy')"
+          onclick="toggleCountry('Italy','Europe')"
           style="background-image: url('assets/images/flags/italy_flag.png')"
         >
           Italy
         </button>
+        
         <button
           class="country-button"
-          onclick="toggleCountry('Spain')"
+          onclick="toggleCountry('Spain','Europe')"
           style="background-image: url('assets/images/flags/spain_flag.png')"
         >
           Spain
         </button>
         <button
           class="country-button"
-          onclick="toggleCountry('Germany')"
+          onclick="toggleCountry('Germany','Europe')"
           style="background-image: url('assets/images/flags/germany_flag.png')"
         >
           Germany
         </button>
         <button
           class="country-button"
-          onclick="toggleCountry('Albania')"
+          onclick="toggleCountry('Albania','Europe')"
           style="background-image: url('assets/images/flags/albania_flag.png')"
         >
           Albania
@@ -349,7 +350,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Andorra')"
+          onclick="toggleCountry('Andorra','Europe')"
           style="background-image: url('assets/images/flags/andorra_flag.png')"
         >
           Andorra
@@ -357,7 +358,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Armenia')"
+          onclick="toggleCountry('Armenia','Europe')"
           style="background-image: url('assets/images/flags/armenia_flag.png')"
         >
           Armenia
@@ -365,7 +366,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Azerbaijan')"
+          onclick="toggleCountry('Azerbaijan','Europe')"
           style="
             background-image: url('assets/images/flags/azerbaijan_flag.png');
           "
@@ -375,7 +376,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Belarus')"
+          onclick="toggleCountry('Belarus','Europe')"
           style="background-image: url('assets/images/flags/belarus_flag.png')"
         >
           Belarus
@@ -383,7 +384,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Belgium')"
+          onclick="toggleCountry('Belgium','Europe')"
           style="background-image: url('assets/images/flags/belgium_flag.png')"
         >
           Belgium
@@ -391,7 +392,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Bosnia')"
+          onclick="toggleCountry('Bosnia','Europe')"
           style="background-image: url('assets/images/flags/bosnia_flag.png')"
         >
           Bosnia
@@ -399,7 +400,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Bulgaria')"
+          onclick="toggleCountry('Bulgaria','Europe')"
           style="background-image: url('assets/images/flags/bulgaria_flag.png')"
         >
           Bulgaria
@@ -407,7 +408,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Cyprus')"
+          onclick="toggleCountry('Cyprus','Europe')"
           style="background-image: url('assets/images/flags/cyprus_flag.png')"
         >
           Cyprus
@@ -415,7 +416,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Czech')"
+          onclick="toggleCountry('Czech','Europe')"
           style="
             background-image: url('assets/images/flags/czech_republic_flag.png');
           "
@@ -425,7 +426,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Croatia')"
+          onclick="toggleCountry('Croatia','Europe')"
           style="background-image: url('assets/images/flags/croatia_flag.png')"
         >
           Croatia
@@ -433,7 +434,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Denmark')"
+          onclick="toggleCountry('Denmark','Europe')"
           style="background-image: url('assets/images/flags/denmark_flag.png')"
         >
           Denmark
@@ -441,7 +442,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Finland')"
+          onclick="toggleCountry('Finland','Europe')"
           style="background-image: url('assets/images/flags/finland_flag.png')"
         >
           Finland
@@ -449,7 +450,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Estonia')"
+          onclick="toggleCountry('Estonia','Europe')"
           style="background-image: url('assets/images/flags/estonia_flag.png')"
         >
           Estonia
@@ -457,7 +458,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Georgia')"
+          onclick="toggleCountry('Georgia','Europe')"
           style="background-image: url('assets/images/flags/georgia_flag.png')"
         >
           Georgia
@@ -465,7 +466,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Greece')"
+          onclick="toggleCountry('Greece','Europe')"
           style="background-image: url('assets/images/flags/greece_flag.png')"
         >
           Greece
@@ -473,7 +474,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Hungary')"
+          onclick="toggleCountry('Hungary','Europe')"
           style="background-image: url('assets/images/flags/hungary_flag.png')"
         >
           Hungary
@@ -481,7 +482,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Iceland')"
+          onclick="toggleCountry('Iceland','Europe')"
           style="background-image: url('assets/images/flags/iceland_flag.png')"
         >
           Iceland
@@ -489,7 +490,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Ireland')"
+          onclick="toggleCountry('Ireland','Europe')"
           style="background-image: url('assets/images/flags/ireland_flag.png')"
         >
           Ireland
@@ -497,7 +498,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Kazakhstan')"
+          onclick="toggleCountry('Kazakhstan','Europe')"
           style="
             background-image: url('assets/images/flags/kazakhstan_flag.png');
           "
@@ -507,7 +508,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Kosovo')"
+          onclick="toggleCountry('Kosovo','Europe')"
           style="background-image: url('assets/images/flags/kosovo_flag.png')"
         >
           Kosovo
@@ -515,7 +516,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Latvia')"
+          onclick="toggleCountry('Latvia','Europe')"
           style="background-image: url('assets/images/flags/latvia_flag.png')"
         >
           Latvia
@@ -523,7 +524,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Liechtenstein')"
+          onclick="toggleCountry('Liechtenstein','Europe')"
           style="
             background-image: url('assets/images/flags/liechtenstein_flag.png');
           "
@@ -533,7 +534,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Luxembourg')"
+          onclick="toggleCountry('Luxembourg','Europe')"
           style="
             background-image: url('assets/images/flags/luxembourg_flag.png');
           "
@@ -543,7 +544,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Malta')"
+          onclick="toggleCountry('Malta','Europe')"
           style="background-image: url('assets/images/flags/malta_flag.png')"
         >
           Malta
@@ -551,7 +552,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Moldova')"
+          onclick="toggleCountry('Moldova','Europe')"
           style="background-image: url('assets/images/flags/moldova_flag.png')"
         >
           Moldova
@@ -559,7 +560,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Monaco')"
+          onclick="toggleCountry('Monaco','Europe')"
           style="background-image: url('assets/images/flags/monaco_flag.png')"
         >
           Monaco
@@ -567,7 +568,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Montenegro')"
+          onclick="toggleCountry('Montenegro','Europe')"
           style="
             background-image: url('assets/images/flags/montenegro_flag.png');
           "
@@ -577,7 +578,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('NorthMacedonia')"
+          onclick="toggleCountry('NorthMacedonia','Europe')"
           style="
             background-image: url('assets/images/flags/north_macedonia_flag.png');
           "
@@ -587,7 +588,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Poland')"
+          onclick="toggleCountry('Poland','Europe')"
           style="background-image: url('assets/images/flags/poland_flag.png')"
         >
           Poland
@@ -595,7 +596,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Romania')"
+          onclick="toggleCountry('Romania','Europe')"
           style="background-image: url('assets/images/flags/romania_flag.png')"
         >
           Romania
@@ -603,7 +604,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Netherlands')"
+          onclick="toggleCountry('Netherlands','Europe')"
           style="
             background-image: url('assets/images/flags/netherlands_flag.png');
           "
@@ -613,7 +614,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Norway')"
+          onclick="toggleCountry('Norway','Europe')"
           style="background-image: url('assets/images/flags/norway_flag.png')"
         >
           Norway
@@ -621,7 +622,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Portugal')"
+          onclick="toggleCountry('Portugal','Europe')"
           style="background-image: url('assets/images/flags/portugal_flag.png')"
         >
           Portugal
@@ -629,7 +630,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Sweden')"
+          onclick="toggleCountry('Sweden','Europe')"
           style="background-image: url('assets/images/flags/sweden_flag.png')"
         >
           Sweden
@@ -637,7 +638,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Switzerland')"
+          onclick="toggleCountry('Switzerland','Europe')"
           style="
             background-image: url('assets/images/flags/switzerland_flag.png');
           "
@@ -647,7 +648,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('SanMarino')"
+          onclick="toggleCountry('SanMarino','Europe')"
           style="
             background-image: url('assets/images/flags/san_marino_flag.png');
           "
@@ -657,7 +658,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Serbia')"
+          onclick="toggleCountry('Serbia','Europe')"
           style="background-image: url('assets/images/flags/serbia_flag.png')"
         >
           Serbia
@@ -665,7 +666,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Slovakia')"
+          onclick="toggleCountry('Slovakia','Europe')"
           style="background-image: url('assets/images/flags/slovakia_flag.png')"
         >
           Slovakia
@@ -673,7 +674,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Slovenia')"
+          onclick="toggleCountry('Slovenia','Europe')"
           style="background-image: url('assets/images/flags/slovenia_flag.png')"
         >
           Slovenia
@@ -681,7 +682,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Turkey')"
+          onclick="toggleCountry('Turkey','Europe')"
           style="background-image: url('assets/images/flags/turkey_flag.png')"
         >
           Turkey
@@ -689,7 +690,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('UnitedKingdom')"
+          onclick="toggleCountry('UnitedKingdom','Europe')"
           style="
             background-image: url('assets/images/flags/united_kingdom_flag.png');
           "
@@ -699,7 +700,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Ukraine')"
+          onclick="toggleCountry('Ukraine','Europe')"
           style="background-image: url('assets/images/flags/ukraine_flag.png')"
         >
           Ukraine
@@ -707,7 +708,7 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Vatican')"
+          onclick="toggleCountry('Vatican','Europe')"
           style="background-image: url('assets/images/flags/vatican_flag.png')"
         >
           Vatican
@@ -777,7 +778,12 @@
       <div id="Asia" class="continent-container" style="display: none"></div>
       <div id="Europe" class="continent-container" style="display: none"></div>
       <div
-        id="Latin America"
+        id="LatinAmerica"
+        class="continent-container"
+        style="display: none"
+      ></div>
+      <div
+        id="Pacific"
         class="continent-container"
         style="display: none"
       ></div>
@@ -911,48 +917,78 @@
       }
 
       function toggleContinent(continent) {
-        var continentButtonsDiv = document.getElementById(
+        // Hide all country-specific data
+        var countryContainers = document.querySelectorAll(".country-container");
+        countryContainers.forEach(function (container) {
+          container.style.display = "none";
+        });
+        // Get the continent container and country buttons container
+        var continentContainer = document.getElementById(continent);
+        var continentCountryButtons = document.getElementById(
           continent + "-country-buttons"
         );
 
-        if (continent === "Europe") {
-          if (
-            continentButtonsDiv.style.display === "none" ||
-            continentButtonsDiv.style.display === ""
-          ) {
-            // Show the first five buttons and hide the rest
-            showFirstFiveButtons(continentButtonsDiv);
-          } else {
-            // Hide all buttons
-            hideAllButtons(continentButtonsDiv);
+        // Check if the clicked continent's container is already displayed
+        if (continentContainer.style.display === "flex") {
+          // If displayed, hide it along with its country buttons
+          continentContainer.style.display = "none";
+          continentContainer.innerHTML = ""; // Clear existing content
+          if (continentCountryButtons) {
+            continentCountryButtons.style.display = "none";
           }
         } else {
-          // For other continents (if any)
-          continentButtonsDiv.style.display =
-            continentButtonsDiv.style.display === "none" ? "block" : "none";
+          // Hide all other continent containers
+          var continentContainers = document.querySelectorAll(
+            ".continent-container"
+          );
+          continentContainers.forEach(function (container) {
+            container.style.display = "none";
+            container.innerHTML = ""; // Clear existing content
+          });
+          // Display the clicked continent's container and its country buttons
+          continentContainer.style.display = "flex";
+
+          if (continentCountryButtons) {
+            continentCountryButtons.style.display = "block"; // Or 'flex', depending on your layout
+          }
+          // Fetch and display continent-specific data
+          fetchBucketList(continent.toLowerCase().replace(/\s/g, "_")) // Adjust for filenames like 'latin_america'
+            .then((bucketList) => {
+              bucketList.forEach((item, index) => {
+                // Logic to create buttons and dropdown content for each item
+                let button = document.createElement("button");
+                button.className = `bucket-list-button ${
+                  item.category.toLowerCase() || "default-category"
+                }`;
+                button.textContent = item.name;
+
+                let dropdownContent = document.createElement("div");
+                dropdownContent.className = "dropdown-content";
+                dropdownContent.style.display = "none";
+                dropdownContent.innerHTML = `<p>${item.description}</p>`;
+
+                button.onclick = () => {
+                  let isVisible = dropdownContent.style.display === "flex";
+                  dropdownContent.style.display = isVisible ? "none" : "flex";
+                  // Add any additional logic as needed, e.g., zoom to location
+                };
+
+                continentContainer.appendChild(button);
+                continentContainer.appendChild(dropdownContent);
+              });
+
+              // Optional: add any additional logic to plot points on a map, etc.
+              // plotPointsOnMap(bucketList);
+            })
+            .catch((error) => {
+              console.error("Error fetching bucket list: ", error);
+            });
         }
       }
 
-      function showFirstFiveButtons(continentButtonsDiv) {
-        let europeButtons = continentButtonsDiv.children;
-        // Set all buttons to display block
-        for (let i = 0; i < europeButtons.length; i++) {
-          europeButtons[i].style.display = "block";
-        }
-        continentButtonsDiv.style.display = "block";
-      }
-
-      function hideAllButtons(continentButtonsDiv) {
-        let buttons = continentButtonsDiv.children;
-        for (let i = 0; i < buttons.length; i++) {
-          buttons[i].style.display = "none";
-        }
-        continentButtonsDiv.style.display = "none";
-      }
-
-      // Function to fetch bucket list for a given country from an external JSON file
-      function fetchBucketList(country) {
-        return fetch(`data/json/${country.toLowerCase()}.json`)
+      // Modified function to fetch data for a country or continent
+      function fetchBucketList(location) {
+        return fetch(`data/json/${location.toLowerCase()}.json`)
           .then((response) => {
             if (!response.ok) {
               throw new Error(`HTTP error! status: ${response.status}`);
@@ -968,14 +1004,24 @@
             return []; // Return an empty array in case of an error
           });
       }
-
-      function toggleCountry(country) {
+      function toggleCountry(country, continent) {
         // Hide all country containers
         var containers = document.querySelectorAll(".country-container");
         containers.forEach(function (container) {
           container.style.display = "none";
         });
 
+        // Hide the continent container if it's visible
+        if (continent) {
+          var continentContainer = document.getElementById(continent);
+          if (
+            continentContainer &&
+            continentContainer.style.display === "flex"
+          ) {
+            continentContainer.style.display = "none";
+            continentContainer.innerHTML = ""; // Clear its content
+          }
+        }
         var selectedContainer = document.getElementById(country);
         selectedContainer.innerHTML = ""; // Clear existing content
         selectedContainer.style.display = "flex"; // Display as flex to align buttons horizontally
