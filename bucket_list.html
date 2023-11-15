@@ -91,24 +91,77 @@
       .bucket-list-button {
         display: block; /* Make buttons block-level for full-width */
         width: calc(100% - 30px); /* Full width accounting for padding */
-        padding: 15px 15px 15px 15px; /* Uniform padding on all sides */
+        padding: 15px; /* Uniform padding on all sides */
         margin: 5px 0; /* Minimal vertical space between buttons */
         border-radius: 5px;
         cursor: pointer;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-        font-weight: bold;
+        font-weight: 900; /* Maximum boldness */
         text-align: left; /* Align text to the left */
         border: none;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        background-size: 100% 1000%; /* Size adjusted for the number of items */
+        background-color: #f5f5f5; /* Background color */
+        background-size: 100% 1000%; /* Adjust this for the number of items */
         height: 50px; /* Adjust the height as needed */
         overflow: hidden;
         position: relative;
         color: #0000ff; /* Vibrant blue color for text */
+        font-size: 16px; /* Font size */
         text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
           1px 1px 0 #fff; /* White outline effect */
+        background-repeat: no-repeat; /* Prevent the background image from repeating */
+      }
 
-        font-weight: 900; /* Maximum boldness */
+      .dropdown-content {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center align items */
+        text-align: center; /* Center align text */
+        font-family: Arial, sans-serif; /* Professional, clean font */
+      }
+
+      .description-container,
+      .venues-container {
+        width: 100%;
+        font-size: 0.9em;
+        margin-top: 10px; /* Space at the top */
+      }
+
+      .venues-container {
+        margin-top: 10px; /* Add some space between the description and venues */
+      }
+      .venues-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+        width: 100%; /* Full width of the container */
+      }
+
+      .venue-item {
+        margin-bottom: 5px;
+        padding: 5px;
+        border-bottom: 1px solid #eee;
+        padding: 5px;
+        text-align: left;
+      }
+
+      .venue-item:last-child {
+        border-bottom: none;
+      }
+
+      .venue-item b {
+        color: #007bff; /* Stylish blue for names */
+        font-weight: normal; /* Avoid overly bold fonts */
+      }
+
+      h3 {
+        margin-top: 0;
+        font-size: 1.1em; /* Slightly larger for headers */
       }
 
       .bucket-list-button:hover {
@@ -325,7 +378,7 @@
         >
           Italy
         </button>
-        
+
         <button
           class="country-button"
           onclick="toggleCountry('Spain','Europe')"
@@ -782,11 +835,7 @@
         class="continent-container"
         style="display: none"
       ></div>
-      <div
-        id="Pacific"
-        class="continent-container"
-        style="display: none"
-      ></div>
+      <div id="Pacific" class="continent-container" style="display: none"></div>
 
       <!-- Content containers for each country's bucket list -->
       <div id="country-divs-container">
@@ -1038,19 +1087,43 @@
               button.className = `bucket-list-button ${
                 item.category.toLowerCase() || "default-category"
               }`;
+              button.style.width = "450px"; // Set button width
               let countryImage = `assets/images/bucketlist/${country.toLowerCase()}.png`;
               button.style.backgroundImage = `url('${countryImage}')`;
-              button.style.backgroundSize = `100% ${numItems * 100}%`;
-              button.style.backgroundPosition = `0% ${
-                index * (100 / numItems)
-              }%`;
+              button.style.backgroundSize = `cover`;
+              button.style.backgroundPosition = `0% ${index * 10}%`;
               button.textContent = item.name; // Set the text content
 
               // Create a container for the dropdown content
               let dropdownContent = document.createElement("div");
               dropdownContent.className = "dropdown-content";
               dropdownContent.style.display = "none"; // Initially hidden
-              dropdownContent.innerHTML = `<p>${item.description}</p>`;
+              dropdownContent.style.width = "450px"; // Set dropdown content width
+
+              // Container for Description
+              let descriptionContainer = document.createElement("div");
+              descriptionContainer.className = "description-container";
+              descriptionContainer.innerHTML = `<p><b>Description:</b> ${item.description}</p>`;
+              dropdownContent.appendChild(descriptionContainer);
+
+              // Adding suggested venues
+              if (item.suggested_venues) {
+                let venuesContainer = document.createElement("div");
+                venuesContainer.className = "venues-container";
+                venuesContainer.innerHTML = "<h3>Details:</h3>";
+                let venuesList = document.createElement("ul");
+                venuesList.className = "venues-list";
+                item.suggested_venues.forEach((venue) => {
+                  venuesList.innerHTML += `<li class="venue-item">
+                                      <b>${venue.name}</b><br>
+                                      <i></i> ${venue.description}<br>
+                                      <i>	
+                                        📍</i> ${venue.location}
+                                    </li>`;
+                });
+                venuesContainer.appendChild(venuesList);
+                dropdownContent.appendChild(venuesContainer);
+              }
 
               // Event listener to toggle the dropdown content and zoom to location
               button.onclick = () => {
@@ -1071,6 +1144,7 @@
             console.error("Error fetching bucket list: ", error);
           });
       }
+
       function plotPointsOnMap(bucketList) {
         clearMarkers(); // Clear existing markers
 
