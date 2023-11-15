@@ -3,7 +3,13 @@ const csv = require('csv-parser');
 const fs = require('fs');
 const cors = require('cors');
 const dotenv = require('dotenv'); // Add dotenv for environment variables
-
+const corsOptions = {
+    origin: 'https://wheretogowhen.vercel.app',
+    optionsSuccessStatus: 200
+  };
+  
+  app.use(cors(corsOptions));
+  
 // Load environment variables
 dotenv.config();
 
