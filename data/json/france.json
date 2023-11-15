@@ -7,7 +7,15 @@
         "city": "Reims",
         "longitude": 4.0347,
         "latitude": 49.2583,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "suggested_venues": [
+            {"name": "Moët & Chandon", "description": "Renowned for its Impérial champagne, this historic maison offers guided tours and tastings.","location": "20 Avenue de Champagne, 51200 Épernay, France"},
+            {"name": "Veuve Clicquot", "description": "Famous for its premium labels, it provides cellar tours and a glimpse into the champagne-making process.","location": "1 Rue Albert Thomas, 51100 Reims, France"},
+            {"name": "Taittinger", "description": "A family-run house known for its Chardonnay dominant blends, offering insightful cellar tours.","location": "9 Place Saint-Nicaise, 51100 Reims, France"},
+            {"name": "Dom Pérignon", "description": "Prestigious label, offering exclusive tastings and tours by appointment, known for its vintage champagnes.","location": "Hautvillers, 51160, France"}
+        ]
     },
     {
         "name": "Dining at a Michelin Star Restaurant in Paris",
@@ -17,7 +25,39 @@
         "city": "Paris",
         "longitude": 2.3522,
         "latitude": 48.8566,
-        "cost": "$$$$"
+        "cost": "$$$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go": ["November", "December", "January", "February", "March", "April"],
+        "suggested_venues": [
+            {
+                "name": "Le Jules Verne",
+                "description": "Located in the Eiffel Tower, it offers haute cuisine with an exceptional view of Paris.",
+                "location": "Eiffel Tower, Avenue Gustave Eiffel, 75007 Paris, France",
+                "longitude": 2.2945,
+                "latitude": 48.8584
+            },
+            {
+                "name": "L'Astrance",
+                "description": "A small, intimate venue known for its innovative and artistic culinary creations.",
+                "location": "4 Rue Beethoven, 75016 Paris, France",
+                "longitude": 2.2800,
+                "latitude": 48.8554
+            },
+            {
+                "name": "Arpège",
+                "description": "Famed for its vegetable-focused menu, this restaurant offers a unique twist on French cuisine.",
+                "location": "84 Rue de Varenne, 75007 Paris, France",
+                "longitude": 2.3162,
+                "latitude": 48.8553
+            },
+            {
+                "name": "Le Cinq",
+                "description": "Elegant dining in the Four Seasons Hotel George V, known for its classic French dishes and extensive wine list.",
+                "location": "31 Avenue George V, 75008 Paris, France",
+                "longitude": 2.3008,
+                "latitude": 48.8686
+            }
+        ]
     },
     {
         "name": "Exploring the Palace of Versailles",
@@ -27,7 +67,39 @@
         "city": "Versailles",
         "longitude": 2.1204,
         "latitude": 48.8046,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "suggested_venues": [
+            {
+                "name": "Hall of Mirrors",
+                "description": "The most famous room in the palace, featuring 17 mirrored arches reflecting 17 windows overlooking the gardens.",
+                "location": "Palace of Versailles, Place d'Armes, 78000 Versailles, France",
+                "longitude": 2.1229,
+                "latitude": 48.8048
+            },
+            {
+                "name": "Gardens of Versailles",
+                "description": "Sprawling over 800 hectares, these meticulously designed gardens are a masterpiece of French landscaping.",
+                "location": "Palace of Versailles, Place d'Armes, 78000 Versailles, France",
+                "longitude": 2.1204,
+                "latitude": 48.8046
+            },
+            {
+                "name": "The Grand Trianon",
+                "description": "A smaller palace on the grounds of Versailles, known for its pink marble and French Neoclassical architecture.",
+                "location": "The Grand Trianon, Place d'Armes, 78000 Versailles, France",
+                "longitude": 2.1074,
+                "latitude": 48.8185
+            },
+            {
+                "name": "The Queen's Hamlet",
+                "description": "A rustic retreat built for Marie Antoinette, featuring a charming village with gardens and farm buildings.",
+                "location": "The Queen's Hamlet, Place d'Armes, 78000 Versailles, France",
+                "longitude": 2.1104,
+                "latitude": 48.8123
+            }
+        ]
     },
     {
         "name": "Skiing in the French Alps",
@@ -37,7 +109,39 @@
         "city": "Chamonix",
         "longitude": 6.8694,
         "latitude": 45.9237,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["December", "January", "February", "March", "April"],
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October", "November"],
+        "suggested_venues": [
+            {
+                "name": "Chamonix",
+                "description": "World-famous ski resort, offering challenging slopes and spectacular views of Mont Blanc.",
+                "location": "Chamonix-Mont-Blanc, 74400, France",
+                "longitude": 6.8700,
+                "latitude": 45.9237
+            },
+            {
+                "name": "Courchevel",
+                "description": "Part of the largest ski area in the world, known for its varied ski runs and luxury accommodations.",
+                "location": "Courchevel, 73120 Saint-Bon-Tarentaise, France",
+                "longitude": 6.6346,
+                "latitude": 45.4154
+            },
+            {
+                "name": "Val d'Isère",
+                "description": "Combines high-quality skiing with a lively apres-ski scene, suitable for all levels.",
+                "location": "Val-d'Isère, 73150, France",
+                "longitude": 7.0000,
+                "latitude": 45.4500
+            },
+            {
+                "name": "Meribel",
+                "description": "Located in the heart of the Three Valleys, known for its charming alpine architecture and extensive ski area.",
+                "location": "Méribel, 73550 Les Allues, France",
+                "longitude": 6.5655,
+                "latitude": 45.3979
+            }
+        ]
     },
     {
         "name": "Attending a Cooking Class in Lyon",
@@ -47,7 +151,39 @@
         "city": "Lyon",
         "longitude": 4.8357,
         "latitude": 45.7640,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "June", "September", "October", "November"],
+        "worst_time_to_go": ["July", "August", "December", "January", "February"],
+        "suggested_venues": [
+            {
+                "name": "Plum Lyon",
+                "description": "Offers hands-on cooking classes focusing on traditional Lyonnaise cuisine in a cozy kitchen setting.",
+                "location": "49 Rue des Tables Claudiennes, 69001 Lyon, France",
+                "longitude": 4.8275,
+                "latitude": 45.7717
+            },
+            {
+                "name": "L'Atelier des Chefs",
+                "description": "Provides a range of cooking workshops from beginner to advanced, emphasizing fresh, local ingredients.",
+                "location": "8 Rue Saint-Nizier, 69002 Lyon, France",
+                "longitude": 4.8334,
+                "latitude": 45.7623
+            },
+            {
+                "name": "Cuisine et Croix-Rousse",
+                "description": "Specializes in small group classes, teaching both classic and modern French cooking techniques.",
+                "location": "13 Grande Rue de la Croix-Rousse, 69004 Lyon, France",
+                "longitude": 4.8278,
+                "latitude": 45.7772
+            },
+            {
+                "name": "In Cuisine",
+                "description": "A unique combination of a cooking school and bookstore, offering a variety of culinary classes and events.",
+                "location": "1 Place Bellecour, 69002 Lyon, France",
+                "longitude": 4.8322,
+                "latitude": 45.7578
+            }
+        ]
     },
     {
         "name": "Visiting the Louvre Museum",
@@ -57,7 +193,39 @@
         "city": "Paris",
         "longitude": 2.3364,
         "latitude": 48.8606,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go": ["May", "June", "July", "August", "September"],
+        "suggested_venues": [
+            {
+                "name": "Plum Lyon",
+                "description": "Offers hands-on cooking classes focusing on traditional Lyonnaise cuisine in a cozy kitchen setting.",
+                "location": "49 Rue des Tables Claudiennes, 69001 Lyon, France",
+                "longitude": 4.8275,
+                "latitude": 45.7717
+            },
+            {
+                "name": "L'Atelier des Chefs",
+                "description": "Provides a range of cooking workshops from beginner to advanced, emphasizing fresh, local ingredients.",
+                "location": "8 Rue Saint-Nizier, 69002 Lyon, France",
+                "longitude": 4.8334,
+                "latitude": 45.7623
+            },
+            {
+                "name": "Cuisine et Croix-Rousse",
+                "description": "Specializes in small group classes, teaching both classic and modern French cooking techniques.",
+                "location": "13 Grande Rue de la Croix-Rousse, 69004 Lyon, France",
+                "longitude": 4.8278,
+                "latitude": 45.7772
+            },
+            {
+                "name": "In Cuisine",
+                "description": "A unique combination of a cooking school and bookstore, offering a variety of culinary classes and events.",
+                "location": "1 Place Bellecour, 69002 Lyon, France",
+                "longitude": 4.8322,
+                "latitude": 45.7578
+            }
+        ]
     },
     {
         "name": "Wine Tasting in Bordeaux",
@@ -67,7 +235,39 @@
         "city": "Bordeaux",
         "longitude": -0.5792,
         "latitude": 44.8378,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "suggested_venues": [
+            {
+                "name": "Château Margaux",
+                "description": "One of the leading wine estates in Bordeaux, offering guided tours and tastings of its prestigious wines.",
+                "location": "1 Margaux, 33460 Margaux-Cantenac, France",
+                "longitude": -0.6778,
+                "latitude": 45.0424
+            },
+            {
+                "name": "Château Latour",
+                "description": "Known for its powerful, full-bodied wines, this estate offers a deep insight into the winemaking process.",
+                "location": "Saint-Lambert, 33250 Pauillac, France",
+                "longitude": -0.7540,
+                "latitude": 45.2036
+            },
+            {
+                "name": "Château Mouton Rothschild",
+                "description": "Famous for its rich, opulent wines and the art labels on each vintage bottle.",
+                "location": "33250 Pauillac, France",
+                "longitude": -0.7617,
+                "latitude": 45.2033
+            },
+            {
+                "name": "Château Lafite Rothschild",
+                "description": "Renowned for its elegant wines, this estate combines tradition with modern winemaking techniques.",
+                "location": "33250 Pauillac, France",
+                "longitude": -0.7556,
+                "latitude": 45.1944
+            }
+        ]
     },
     {
         "name": "Sunbathing in Nice on the French Riviera",
@@ -77,7 +277,39 @@
         "city": "Nice",
         "longitude": 7.2620,
         "latitude": 43.7102,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April", "May"],
+        "suggested_venues": [
+            {
+                "name": "Promenade des Anglais",
+                "description": "A legendary waterfront promenade along the Mediterranean, perfect for strolls and beachside relaxation.",
+                "location": "Promenade des Anglais, 06000 Nice, France",
+                "longitude": 7.2600,
+                "latitude": 43.6950
+            },
+            {
+                "name": "Blue Beach",
+                "description": "A popular private beach with sun loungers, umbrellas, and a restaurant offering Mediterranean cuisine.",
+                "location": "32 Promenade des Anglais, 06000 Nice, France",
+                "longitude": 7.2651,
+                "latitude": 43.6973
+            },
+            {
+                "name": "Castel Plage",
+                "description": "Located at the foot of Castle Hill, this beach offers a more secluded spot with restaurant facilities.",
+                "location": "8 Quai des États-Unis, 06300 Nice, France",
+                "longitude": 7.2791,
+                "latitude": 43.6955
+            },
+            {
+                "name": "Ruhl Plage",
+                "description": "One of the oldest private beaches in Nice, known for its vibrant atmosphere and excellent service.",
+                "location": "1 Promenade des Anglais, 06000 Nice, France",
+                "longitude": 7.2617,
+                "latitude": 43.6958
+            }
+        ]
     },
     {
         "name": "Taking a River Cruise on the Seine",
@@ -87,7 +319,40 @@
         "city": "Paris",
         "longitude": 2.3522,
         "latitude": 48.8566,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "suggested_venues": [
+            {
+                "name": "Bateaux Parisiens",
+                "description": "Offers a variety of Seine River cruises, including sightseeing tours and dinner cruises.",
+                "location": "Port de la Bourdonnais, 75007 Paris, France",
+                "longitude": 2.2945,
+                "latitude": 48.8604
+            },
+            {
+                "name": "Vedettes de Paris",
+                "description": "Provides intimate boat tours, offering unique views of Paris's most famous landmarks.",
+                "location": "Port de Suffren, 75007 Paris, France",
+                "longitude": 2.2938,
+                "latitude": 48.8584
+            },
+            {
+                "name": "Paris en Scène",
+                "description": "Features modern, glass-covered boats for dinner cruises, providing an elegant dining experience.",
+                "location": "Ile aux Cygnes, 75015 Paris, France",
+                "longitude": 2.2823,
+                "latitude": 48.8574
+            },
+            {
+                "name": "Batobus",
+                "description": "A hop-on, hop-off riverboat service, allowing visitors to explore Paris at their own pace from the water.",
+                "location": "Port de l'Hôtel de Ville, 75004 Paris, France",
+                "longitude": 2.3524,
+                "latitude": 48.8562
+            }
+        ]
+        
     },
     {
         "name": "Exploring Mont Saint-Michel",
@@ -97,6 +362,38 @@
         "city": "Mont Saint-Michel",
         "longitude": -1.5115,
         "latitude": 48.6355,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "suggested_venues": [
+            {
+                "name": "Abbey of Mont Saint-Michel",
+                "description": "A stunning example of medieval architecture, this abbey is perched atop the island and offers breathtaking views.",
+                "location": "50170 Mont Saint-Michel, France",
+                "longitude": -1.5098,
+                "latitude": 48.6360
+            },
+            {
+                "name": "La Grande Rue",
+                "description": "The main street of the island, lined with historic buildings, shops, and eateries.",
+                "location": "Grande Rue, 50170 Mont Saint-Michel, France",
+                "longitude": -1.5105,
+                "latitude": 48.6359
+            },
+            {
+                "name": "Musée Historique",
+                "description": "A museum showcasing the history of Mont Saint-Michel, including medieval armor and old prison cells.",
+                "location": "Grande Rue, 50170 Mont Saint-Michel, France",
+                "longitude": -1.5107,
+                "latitude": 48.6362
+            },
+            {
+                "name": "Le Grand Degré",
+                "description": "The grand staircase leading to the abbey, offering a scenic route through the heart of Mont Saint-Michel.",
+                "location": "Le Grand Degré, 50170 Mont Saint-Michel, France",
+                "longitude": -1.5102,
+                "latitude": 48.6358
+            }
+        ]
     }
 ]
