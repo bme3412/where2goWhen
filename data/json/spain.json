@@ -1,102 +1,370 @@
-[
-    {
-        "name": "Flamenco Dancing in Seville",
-        "category": "Culture",
-        "score": 5,
-        "description": "Immerse yourself in the passionate world of Flamenco, experiencing an authentic performance in its birthplace.",
-        "city": "Seville",
-        "longitude": -5.9845,
-        "latitude": 37.3886,
-        "cost": "$$"
-    },
-    {
-        "name": "Gourmet Dining at a Michelin Star Restaurant in San Sebastián",
-        "category": "Gastronomy",
-        "score": 5,
-        "description": "Indulge in world-class Basque cuisine at one of San Sebastián's acclaimed Michelin-starred restaurants.",
-        "city": "San Sebastián",
-        "longitude": -1.9812,
-        "latitude": 43.3183,
-        "cost": "$$$$"
-    },
-    {
-        "name": "Exploring the Alhambra",
-        "category": "Culture",
-        "score": 4,
-        "description": "Discover the intricate Moorish architecture and beautiful gardens of the Alhambra palace.",
-        "city": "Granada",
-        "longitude": -3.592,
-        "latitude": 37.1773,
-        "cost": "$$"
-    },
-    {
-        "name": "Sailing the Balearic Islands",
-        "category": "Adventure",
-        "score": 4,
-        "description": "Charter a sailboat to explore the stunning beaches and hidden coves of the Balearic Islands.",
-        "city": "Palma de Mallorca",
-        "longitude": 2.6502,
-        "latitude": 39.5696,
-        "cost": "$$$$"
-    },
-    {
-        "name": "Attending a Cooking Workshop in Valencia",
-        "category": "Gastronomy",
-        "score": 3,
-        "description": "Learn to cook authentic Valencian paella in a hands-on cooking class.",
-        "city": "Valencia",
-        "longitude": -0.375,
-        "latitude": 39.4699,
-        "cost": "$$"
-    },
-    {
-        "name": "Visiting the Prado Museum",
-        "category": "Culture",
-        "score": 3,
-        "description": "Explore one of the world's finest art collections, featuring works by Spanish masters.",
-        "city": "Madrid",
-        "longitude": -3.7038,
-        "latitude": 40.4168,
-        "cost": "$"
-    },
-    {
-        "name": "Wine Tasting in La Rioja",
-        "category": "Gastronomy",
-        "score": 3,
-        "description": "Sample some of Spain's most famous wines in the picturesque vineyards of La Rioja.",
-        "city": "Logroño",
-        "longitude": -2.445,
-        "latitude": 42.4667,
-        "cost": "$$"
-    },
-    {
-        "name": "Sunbathing on the Beaches of Costa del Sol",
-        "category": "Leisure",
-        "score": 2,
-        "description": "Relax on the sunny Mediterranean beaches of Costa del Sol.",
-        "city": "Málaga",
-        "longitude": -4.4214,
-        "latitude": 36.7213,
-        "cost": "$$"
-    },
-    {
-        "name": "Taking a Historical Tour of Toledo",
-        "category": "Culture",
-        "score": 2,
-        "description": "Explore the ancient city of Toledo, known for its rich history and cultural diversity.",
-        "city": "Toledo",
-        "longitude": -4.0226,
-        "latitude": 39.8628,
-        "cost": "$"
-    },
-    {
-        "name": "Hiking in the Picos de Europa",
-        "category": "Adventure",
-        "score": 1,
-        "description": "Discover the natural beauty of Spain's lesser-known mountain range, perfect for outdoor enthusiasts.",
-        "city": "Asturias",
-        "longitude": -5.6615,
-        "latitude": 43.3614,
-        "cost": "$$"
-    }
+[ {
+            "name": "Flamenco Dancing in Seville",
+            "category": "Culture",
+            "score": 5,
+            "description": "Immerse yourself in the passionate world of Flamenco, experiencing an authentic performance in its birthplace.",
+            "city": "Seville",
+            "longitude": -5.9845,
+            "latitude": 37.3886,
+            "cost": "$$",
+            "best_time_to_go": ["April", "May", "September", "October"],
+            "best_time_to_go_description": "The best months to experience Flamenco dancing in Seville are April, May, September, and October. These months coincide with pleasant weather and several cultural festivals, providing an ideal atmosphere for Flamenco performances. The city is vibrant yet not overly crowded, offering a genuine cultural experience.",
+            "worst_time_to_go": ["June", "July", "August"],
+            "worst_time_to_go_description": "The summer months of June, July, and August can be extremely hot in Seville, making it less comfortable to enjoy evening Flamenco shows. The heat can be overwhelming during the day, and the city often sees a surge in tourist numbers.",
+            "suggested_venues": [
+                {
+                    "name": "Casa de la Memoria",
+                    "description": "An intimate venue known for its authentic Flamenco shows, capturing the essence of traditional Andalusian culture.",
+                    "location": "Calle Cuna, 6, 41004 Sevilla, Spain"
+                },
+                {
+                    "name": "Tablao Flamenco El Arenal",
+                    "description": "A famous Flamenco tablao offering passionate and professional performances in a classic setting.",
+                    "location": "Calle Rodo, 7, 41001 Sevilla, Spain"
+                },
+                {
+                    "name": "La Casa del Flamenco",
+                    "description": "Situated in the historic Santa Cruz neighborhood, this venue provides an authentic Flamenco experience in a charming courtyard.",
+                    "location": "Ximénez de Enciso, 28, 41004 Sevilla, Spain"
+                },
+                {
+                    "name": "Tablao Flamenco Los Gallos",
+                    "description": "One of the oldest Flamenco tablaos in Seville, known for its high-quality performances and intimate atmosphere.",
+                    "location": "Plaza de Santa Cruz, 11, 41004 Sevilla, Spain"
+                }
+            ]
+        }, 
+
+        {
+            "name": "Gourmet Dining at a Michelin Star Restaurant in San Sebastián",
+            "category": "Gastronomy",
+            "score": 5,
+            "description": "Indulge in world-class Basque cuisine at one of San Sebastián's acclaimed Michelin-starred restaurants.",
+            "city": "San Sebastián",
+            "longitude": -1.9812,
+            "latitude": 43.3183,
+            "cost": "$$$$",
+            "best_time_to_go": ["May", "June", "September", "October"],
+            "best_time_to_go_description": "The best months for gourmet dining in San Sebastián are May, June, September, and October. These months offer milder weather and fewer tourists, providing a more relaxed dining experience. The local produce is at its peak, allowing chefs to create exceptional seasonal dishes.",
+            "worst_time_to_go": ["July", "August"],
+            "worst_time_to_go_description": "July and August are the peak tourist months in San Sebastián. During this period, restaurants can be very crowded, and reservations are harder to secure. The summer heat can also detract from the overall dining experience.",
+            "suggested_venues": [
+                {
+                    "name": "Arzak",
+                    "description": "A legendary restaurant offering innovative Basque cuisine, Arzak is renowned for its creative dishes and exceptional service.",
+                    "location": "Av. Alcalde José Elosegi, 273, 20015 Donostia, San Sebastián, Spain"
+                },
+                {
+                    "name": "Mugaritz",
+                    "description": "Known for its avant-garde approach to cooking, Mugaritz provides a unique and memorable culinary experience.",
+                    "location": "Aldura Gunea Aldea, 20, 20100 Errenteria, Gipuzkoa, Spain"
+                },
+                {
+                    "name": "Akelarre",
+                    "description": "Situated with a breathtaking view of the sea, Akelarre serves exquisite dishes that blend traditional Basque flavors with modern techniques.",
+                    "location": "Paseo Padre Orcolaga, 56, 20008 Donostia, San Sebastián, Spain"
+                },
+                {
+                    "name": "Martín Berasategui",
+                    "description": "This restaurant, led by the celebrated chef Martín Berasategui, is a must-visit for food enthusiasts seeking innovative gastronomic creations.",
+                    "location": "Loidi Kalea, 4, 20160 Lasarte-Oria, Gipuzkoa, Spain"
+                }
+            ]
+        },        
+
+        {
+            "name": "Exploring the Alhambra",
+            "category": "Culture",
+            "score": 4,
+            "description": "Discover the intricate Moorish architecture and beautiful gardens of the Alhambra palace.",
+            "city": "Granada",
+            "longitude": -3.592,
+            "latitude": 37.1773,
+            "cost": "$$",
+            "best_time_to_go": ["March", "April", "May", "October"],
+            "best_time_to_go_description": "The best months to visit the Alhambra are March, April, May, and October. These months offer pleasant weather, ideal for exploring the outdoor spaces of the palace and gardens. The site is less crowded, allowing for a more peaceful and enjoyable visit.",
+            "worst_time_to_go": ["July", "August"],
+            "worst_time_to_go_description": "The worst time to visit the Alhambra is during the peak summer months of July and August. The hot weather can make exploring the extensive grounds less comfortable, and the site can be very crowded, with long lines and wait times.",
+            "suggested_venues": [
+                {
+                    "name": "Nasrid Palaces",
+                    "description": "A stunning example of Moorish architecture, these palaces are the highlight of the Alhambra, with their intricate decorations and historical significance.",
+                    "location": "Calle Real de la Alhambra, s/n, 18009 Granada, Spain"
+                },
+                {
+                    "name": "Generalife",
+                    "description": "The summer palace and gardens of the Nasrid rulers, offering serene landscapes and beautiful views of the Alhambra.",
+                    "location": "Calle Real de la Alhambra, s/n, 18009 Granada, Spain"
+                },
+                {
+                    "name": "Alcazaba",
+                    "description": "The oldest part of the Alhambra, this fortress offers panoramic views of Granada and a glimpse into the military history of the complex.",
+                    "location": "Calle Real de la Alhambra, s/n, 18009 Granada, Spain"
+                },
+                {
+                    "name": "Palace of Charles V",
+                    "description": "A Renaissance building within the Alhambra complex, known for its impressive circular courtyard and architecture contrasting with the Moorish style.",
+                    "location": "Calle Real de la Alhambra, s/n, 18009 Granada, Spain"
+                }
+            ]
+        },        
+
+        {
+            "name": "Sailing the Balearic Islands",
+            "category": "Adventure",
+            "score": 4,
+            "description": "Charter a sailboat to explore the stunning beaches and hidden coves of the Balearic Islands.",
+            "city": "Palma de Mallorca",
+            "longitude": 2.6502,
+            "latitude": 39.5696,
+            "cost": "$$$$",
+            "best_time_to_go": ["May", "June", "September", "October"],
+            "best_time_to_go_description": "The best months to go sailing in the Balearic Islands are May, June, September, and October. These months feature pleasant weather with fewer tourists, making for ideal sailing conditions and more secluded experiences in the coves and beaches.",
+            "worst_time_to_go": ["July", "August"],
+            "worst_time_to_go_description": "July and August are the peak tourist months in the Balearic Islands. During this time, the islands can become very crowded, and the temperatures can be excessively high, which might detract from the enjoyment of sailing.",
+            "suggested_venues": [
+                {
+                    "name": "Cala d'Or",
+                    "description": "A beautiful cove with crystal clear waters, perfect for anchoring a sailboat and enjoying the serene environment.",
+                    "location": "Cala d'Or, 07660 Santanyí, Mallorca, Spain"
+                },
+                {
+                    "name": "Formentera",
+                    "description": "The smallest of the Balearic Islands, known for its pristine beaches and laid-back atmosphere, ideal for a peaceful sailing day trip.",
+                    "location": "Formentera, Balearic Islands, Spain"
+                },
+                {
+                    "name": "Cala Saona",
+                    "description": "A secluded cove on Formentera, offering stunning sunsets and perfect conditions for swimming and snorkeling.",
+                    "location": "Cala Saona, Formentera, Balearic Islands, Spain"
+                },
+                {
+                    "name": "Cabrera National Park",
+                    "description": "A protected marine park south of Mallorca, offering rich marine life and unspoiled natural beauty, a must-visit for sailing enthusiasts.",
+                    "location": "Cabrera Archipelago, Balearic Islands, Spain"
+                }
+            ]
+        },        
+
+        {
+            "name": "Attending a Cooking Workshop in Valencia",
+            "category": "Gastronomy",
+            "score": 3,
+            "description": "Learn to cook authentic Valencian paella in a hands-on cooking class.",
+            "city": "Valencia",
+            "longitude": -0.375,
+            "latitude": 39.4699,
+            "cost": "$$",
+            "best_time_to_go": ["March", "April", "May", "October"],
+            "best_time_to_go_description": "The best months to attend a cooking workshop in Valencia are March, April, May, and October. The weather is pleasant during these months, making it comfortable to explore local markets and enjoy cooking classes. These periods are less crowded, offering a more personalized and immersive culinary experience.",
+            "worst_time_to_go": ["July", "August"],
+            "worst_time_to_go_description": "July and August are the hottest and most crowded months in Valencia. The high temperatures can make the cooking experience less comfortable, and the city's attractions, including cooking classes, are often overcrowded.",
+            "suggested_venues": [
+                {
+                    "name": "La Escuela de Arroces y Paella Valenciana",
+                    "description": "A renowned cooking school specializing in traditional Valencian rice dishes, particularly paella.",
+                    "location": "Avenida de los Naranjos, 1, 46011 Valencia, Spain"
+                },
+                {
+                    "name": "Mercado Central de Valencia",
+                    "description": "One of the oldest running food markets in Europe, perfect for sourcing fresh ingredients and experiencing local food culture.",
+                    "location": "Plaça de la Ciutat de Bruges, s/n, 46001 Valencia, Spain"
+                },
+                {
+                    "name": "Food & Fun Culinary School",
+                    "description": "A culinary school offering a variety of cooking workshops, including paella making, in a fun and interactive setting.",
+                    "location": "Carrer dels Juristes, 12, 46001 Valencia, Spain"
+                },
+                {
+                    "name": "Valencia Club Cocina",
+                    "description": "Offers a range of cooking classes, including traditional Spanish and Valencian dishes, in a modern and well-equipped kitchen.",
+                    "location": "Carrer del Mestre Gozalbo, 23, 46005 Valencia, Spain"
+                }
+            ]
+        },
+
+        {
+            "name": "Visiting the Prado Museum",
+            "category": "Culture",
+            "score": 3,
+            "description": "Explore one of the world's finest art collections, featuring works by Spanish masters.",
+            "city": "Madrid",
+            "longitude": -3.7038,
+            "latitude": 40.4168,
+            "cost": "$",
+            "best_time_to_go": ["January", "February", "November", "December"],
+            "best_time_to_go_description": "The best months to visit the Prado Museum are January, February, November, and December. During these months, Madrid experiences fewer tourists, resulting in shorter lines and a more intimate museum experience. The cooler weather makes indoor activities like museum visits more enjoyable.",
+            "worst_time_to_go": ["July", "August"],
+            "worst_time_to_go_description": "The peak tourist season in Madrid is July and August, making it the worst time to visit the Prado Museum. The museum becomes extremely crowded, leading to long waiting times and a less comfortable viewing experience. Additionally, the summer heat in Madrid can be intense.",
+            "suggested_venues": [
+                {
+                    "name": "Reina Sofia Museum",
+                    "description": "A museum of modern and contemporary art, home to Picasso's famous 'Guernica' and other significant works of 20th-century Spanish art.",
+                    "location": "Calle de Santa Isabel, 52, 28012 Madrid, Spain"
+                },
+                {
+                    "name": "Thyssen-Bornemisza Museum",
+                    "description": "An art museum with an extensive collection that fills the historical gaps in its counterparts' collections, featuring works from the 13th century to the late 20th century.",
+                    "location": "Paseo del Prado, 8, 28014 Madrid, Spain"
+                },
+                {
+                    "name": "Royal Palace of Madrid",
+                    "description": "The official residence of the Spanish Royal Family, offering tours of its lavishly decorated rooms and beautiful gardens.",
+                    "location": "Calle de Bailén, s/n, 28071 Madrid, Spain"
+                },
+                {
+                    "name": "El Retiro Park",
+                    "description": "A large and popular park in Madrid, ideal for a relaxing walk or a picnic after a museum visit.",
+                    "location": "Plaza de la Independencia, 7, 28001 Madrid, Spain"
+                }
+            ]
+        },
+
+        {
+            "name": "Wine Tasting in La Rioja",
+            "category": "Gastronomy",
+            "score": 3,
+            "description": "Sample some of Spain's most famous wines in the picturesque vineyards of La Rioja.",
+            "city": "Logroño",
+            "longitude": -2.445,
+            "latitude": 42.4667,
+            "cost": "$$",
+            "best_time_to_go": ["September", "October"],
+            "best_time_to_go_description": "The best time to go wine tasting in La Rioja is during the grape harvest months of September and October. Visitors can experience the vibrant atmosphere of the harvest, participate in grape picking, and enjoy the freshest wines. The weather is also pleasant during these months, perfect for touring vineyards.",
+            "worst_time_to_go": ["December", "January"],
+            "worst_time_to_go_description": "The worst time to visit La Rioja for wine tasting is in December and January. During these months, the region experiences colder weather, and many wineries reduce their hours or close for the winter season, limiting the wine tasting experience.",
+            "suggested_venues": [
+                {
+                    "name": "Bodegas Marqués de Riscal",
+                    "description": "One of the oldest and most prestigious wineries in La Rioja, known for its modern architecture and high-quality wines.",
+                    "location": "Calle Torrea, 1, 01340 Elciego, Álava, Spain"
+                },
+                {
+                    "name": "Bodegas López de Heredia Viña Tondonia",
+                    "description": "A traditional winery offering guided tours and tastings of its acclaimed aged wines, renowned for their elegance and complexity.",
+                    "location": "Avda. de Vizcaya, 3, 26200 Haro, La Rioja, Spain"
+                },
+                {
+                    "name": "Bodegas Ysios",
+                    "description": "A modern winery famous for its stunning architecture and premium wines, providing a unique wine tasting experience.",
+                    "location": "Camino de la Hoya, s/n, 01300 Guardia, Álava, Spain"
+                },
+                {
+                    "name": "Bodegas Vivanco",
+                    "description": "Known for its museum of wine culture, this winery offers an immersive experience into the history and production of Rioja wines.",
+                    "location": "Carretera Nacional 232, 26330 Briones, La Rioja, Spain"
+                }
+            ]
+        },
+
+        {
+            "name": "Sunbathing on the Beaches of Costa del Sol",
+            "category": "Leisure",
+            "score": 2,
+            "description": "Relax on the sunny Mediterranean beaches of Costa del Sol.",
+            "city": "Málaga",
+            "longitude": -4.4214,
+            "latitude": 36.7213,
+            "cost": "$$",
+            "best_time_to_go": ["May", "June", "September", "October"],
+            "best_time_to_go_description": "The best time to enjoy the beaches of Costa del Sol is during the months of May, June, September, and October. These months offer warm, sunny weather, ideal for sunbathing and swimming, with fewer crowds than the peak summer months, ensuring a more relaxed beach experience.",
+            "worst_time_to_go": ["July", "August"],
+            "worst_time_to_go_description": "July and August are the busiest months on the Costa del Sol, with beaches often becoming overcrowded. The high temperatures can also be quite intense, potentially detracting from the comfort of a leisurely beach day.",
+            "suggested_venues": [
+                {
+                    "name": "Playa de la Malagueta",
+                    "description": "A popular urban beach in Málaga, known for its lively atmosphere and proximity to city amenities.",
+                    "location": "Paseo Pablo Picasso, 29016 Málaga, Spain"
+                },
+                {
+                    "name": "Playa de Burriana",
+                    "description": "A beautiful beach in Nerja, offering clear waters and a variety of water sports activities.",
+                    "location": "Playa Burriana, 29780 Nerja, Málaga, Spain"
+                },
+                {
+                    "name": "Playa de Cabopino",
+                    "description": "A quieter beach near Marbella, known for its natural dunes and pristine conditions.",
+                    "location": "Urbanización Cabopino, 29604 Marbella, Málaga, Spain"
+                },
+                {
+                    "name": "Playa del Cristo",
+                    "description": "A small cove in Estepona, perfect for families and known for its calm waters and scenic surroundings.",
+                    "location": "Av. del Carmen, 99, 29680 Estepona, Málaga, Spain"
+                }
+            ]
+        },
+
+        {
+            "name": "Taking a Historical Tour of Toledo",
+            "category": "Culture",
+            "score": 2,
+            "description": "Explore the ancient city of Toledo, known for its rich history and cultural diversity.",
+            "city": "Toledo",
+            "longitude": -4.0226,
+            "latitude": 39.8628,
+            "cost": "$",
+            "best_time_to_go": ["March", "April", "October", "November"],
+            "best_time_to_go_description": "The best months to take a historical tour of Toledo are March, April, October, and November. During these months, the weather is mild, making it comfortable to walk and explore the city's historic sites. The tourist crowds are smaller, allowing for a more intimate and enjoyable experience.",
+            "worst_time_to_go": ["July", "August"],
+            "worst_time_to_go_description": "July and August are the hottest months in Toledo, with temperatures often becoming uncomfortably high. This can make walking tours less enjoyable. Additionally, these months are peak tourist season, so the city can become quite crowded.",
+            "suggested_venues": [
+                {
+                    "name": "Toledo Cathedral",
+                    "description": "A magnificent example of Spanish Gothic architecture, the cathedral is a must-visit for its rich history and stunning art.",
+                    "location": "Calle Cardenal Cisneros, 1, 45002 Toledo, Spain"
+                },
+                {
+                    "name": "Alcázar of Toledo",
+                    "description": "A historic fortress located at the highest point of Toledo, offering panoramic views of the city and a rich history.",
+                    "location": "Calle de la Union, s/n, 45001 Toledo, Spain"
+                },
+                {
+                    "name": "Monastery of San Juan de los Reyes",
+                    "description": "A beautiful monastery known for its ornate cloisters and significant role in the history of Toledo.",
+                    "location": "Calle Reyes Católicos, 17, 45002 Toledo, Spain"
+                },
+                {
+                    "name": "El Greco Museum",
+                    "description": "Dedicated to the life and works of the painter El Greco, this museum is situated in a beautifully preserved historic house.",
+                    "location": "Paseo del Tránsito, s/n, 45002 Toledo, Spain"
+                }
+            ]
+        },        
+
+        {
+            "name": "Hiking in the Picos de Europa",
+            "category": "Adventure",
+            "score": 1,
+            "description": "Discover the natural beauty of Spain's lesser-known mountain range, perfect for outdoor enthusiasts.",
+            "city": "Asturias",
+            "longitude": -5.6615,
+            "latitude": 43.3614,
+            "cost": "$$",
+            "best_time_to_go": ["June", "July", "August", "September"],
+            "best_time_to_go_description": "The best months to go hiking in the Picos de Europa are from June to September. During these months, the weather is typically warmer and drier, making it ideal for hiking. The mountainous landscapes are in full bloom, offering stunning scenery and wildlife spotting opportunities.",
+            "worst_time_to_go": ["December", "January", "February"],
+            "worst_time_to_go_description": "The winter months of December, January, and February are the worst for hiking in the Picos de Europa due to the cold weather and snow, which can make trails difficult and dangerous to navigate.",
+            "suggested_venues": [
+                {
+                    "name": "Lagos de Covadonga",
+                    "description": "A series of glacial lakes located in the Picos de Europa, offering picturesque hiking trails and breathtaking views.",
+                    "location": "33589 Cangas de Onís, Asturias, Spain"
+                },
+                {
+                    "name": "Ruta del Cares",
+                    "description": "A famous hiking trail in the heart of the Picos de Europa, known for its dramatic cliffs and stunning river gorges.",
+                    "location": "Picos de Europa National Park, Asturias, Spain"
+                },
+                {
+                    "name": "Fuente Dé Cable Car",
+                    "description": "Provides access to high mountain routes in the Picos de Europa, offering spectacular views and a starting point for various hikes.",
+                    "location": "Carretera Fuente Dé, s/n, 39588 Camaleño, Cantabria, Spain"
+                },
+                {
+                    "name": "Naranjo de Bulnes",
+                    "description": "A renowned peak in the Picos de Europa, popular among hikers and climbers for its challenging routes and iconic shape.",
+                    "location": "Picos de Europa National Park, Asturias, Spain"
+                }
+            ]
+        }        
 ]
