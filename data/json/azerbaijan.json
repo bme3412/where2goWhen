@@ -7,8 +7,34 @@
         "city": "Gobustan",
         "longitude": 49.3874,
         "latitude": 40.1126,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "October"],
+        "best_time_to_go_description": "The optimal months to visit Gobustan are March, April, May, and October. During these months, the weather is mild and conducive for exploring the outdoor petroglyphs and mud volcanoes. This period avoids the extreme heat of summer and the chilly winter months.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "The summer months of June, July, and August are less ideal for visiting Gobustan due to the extremely hot temperatures, which can make the exploration of this open, sun-exposed site uncomfortable.",
+        "suggested_venues": [
+            {
+                "name": "Gobustan National Park",
+                "description": "The main attraction, featuring thousands of rock engravings that date back to 40,000 years ago, along with stunning natural phenomena like mud volcanoes.",
+                "location": "Gobustan, Azerbaijan"
+            },
+            {
+                "name": "Mud Volcanoes of Gobustan",
+                "description": "A fascinating natural wonder near the petroglyphs, these mud volcanoes offer a unique geological experience.",
+                "location": "Near Gobustan, Azerbaijan"
+            },
+            {
+                "name": "Gobustan Museum",
+                "description": "A museum providing context and information about the petroglyphs and the history of the area, enhancing the overall experience.",
+                "location": "Gobustan, Azerbaijan"
+            },
+            {
+                "name": "Bibi-Heybat Mosque",
+                "description": "A historic mosque close to Gobustan, known for its architecture and spiritual significance, adding a cultural dimension to the trip.",
+                "location": "Near Baku, Azerbaijan"
+            }
+        ]
+    },    
     {
         "name": "Flame Towers View",
         "category": "Architecture",
@@ -17,8 +43,34 @@
         "city": "Baku",
         "longitude": 49.8376,
         "latitude": 40.3669,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best months to view the Flame Towers are April, May, September, and October. During these months, the weather is pleasant, making it ideal for exploring the area and enjoying the towers' spectacular lighting, especially at night.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for viewing the Flame Towers due to the colder weather, which can make outdoor observation less comfortable.",
+        "suggested_venues": [
+            {
+                "name": "Flame Towers",
+                "description": "The main attraction, these towers are an example of innovative architecture and offer breathtaking views of Baku, especially when illuminated at night.",
+                "location": "Baku, Azerbaijan"
+            },
+            {
+                "name": "Highland Park",
+                "description": "A nearby park offering one of the best vantage points to view the Flame Towers and the Baku skyline.",
+                "location": "Baku, Azerbaijan"
+            },
+            {
+                "name": "Baku Boulevard",
+                "description": "A scenic promenade along the Caspian Sea, perfect for a leisurely walk with views of the Flame Towers and the city.",
+                "location": "Baku, Azerbaijan"
+            },
+            {
+                "name": "Martyrs' Lane",
+                "description": "A significant memorial near the Flame Towers, dedicated to those who lost their lives during the Black January and the Nagorno-Karabakh War.",
+                "location": "Baku, Azerbaijan"
+            }
+        ]
+    },    
     {
         "name": "Old City (Icherisheher) Exploration",
         "category": "History",
@@ -27,7 +79,33 @@
         "city": "Baku",
         "longitude": 49.8336,
         "latitude": 40.3669,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The ideal months for exploring Baku's Old City are April, May, September, and October. During these months, the weather is favorable, allowing for a comfortable walking experience through the historical streets. The climate is mild, and the area is less crowded compared to peak summer months.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter months like December, January, and February are less suitable for exploring the Old City due to the cold weather, which can make walking tours less enjoyable.",
+        "suggested_venues": [
+            {
+                "name": "Maiden Tower",
+                "description": "A famous historical tower within the Old City, offering panoramic views of Baku and rich historical significance.",
+                "location": "Icherisheher, Baku, Azerbaijan"
+            },
+            {
+                "name": "Palace of the Shirvanshahs",
+                "description": "A 15th-century palace complex, showcasing the architectural and cultural heritage of Azerbaijan.",
+                "location": "Icherisheher, Baku, Azerbaijan"
+            },
+            {
+                "name": "Muhammad Mosque",
+                "description": "An ancient mosque in the Old City, representing the historical Islamic architecture of the region.",
+                "location": "Icherisheher, Baku, Azerbaijan"
+            },
+            {
+                "name": "Baku Khans' House",
+                "description": "A historic building reflecting the traditional living style of Azerbaijani khans, with unique architectural elements.",
+                "location": "Icherisheher, Baku, Azerbaijan"
+            }
+        ]
     },
     {
         "name": "Sheki Khan's Palace Visit",
@@ -37,7 +115,33 @@
         "city": "Sheki",
         "longitude": 47.1706,
         "latitude": 41.1954,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best months to visit Sheki Khan's Palace are April, May, September, and October. These months feature mild weather, making it pleasant to explore the palace and its surroundings. The beauty of the palace's architecture and stained glass is enhanced in the soft light of these seasons.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for visiting Sheki Khan's Palace due to cold weather, which can detract from the experience, particularly when exploring the outdoor areas of the palace complex.",
+        "suggested_venues": [
+            {
+                "name": "Sheki Khan's Palace",
+                "description": "The main site, renowned for its beautiful architecture, intricate frescoes, and stunning stained glass windows.",
+                "location": "Sheki, Azerbaijan"
+            },
+            {
+                "name": "Sheki Caravanserai",
+                "description": "An historic inn that offers a glimpse into the Silk Road era, with impressive architecture and a unique atmosphere.",
+                "location": "Sheki, Azerbaijan"
+            },
+            {
+                "name": "Sheki Fortress",
+                "description": "An ancient fortress surrounding the palace, providing insights into the historical defense structures of the region.",
+                "location": "Sheki, Azerbaijan"
+            },
+            {
+                "name": "Albanian Church",
+                "description": "A nearby historical church, offering a look at the religious architecture and history of the Caucasus.",
+                "location": "Near Sheki, Azerbaijan"
+            }
+        ]
     },
     {
         "name": "Caspian Sea Cruise",
@@ -47,56 +151,213 @@
         "city": "Baku",
         "longitude": 49.8671,
         "latitude": 40.3777,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The ideal months for a Caspian Sea cruise are May, June, September, and October. These months feature pleasant weather, with milder temperatures and calmer seas, providing an enjoyable and comfortable cruising experience.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less suitable for a Caspian Sea cruise due to colder weather and rougher sea conditions, which can make the cruise less enjoyable and more challenging.",
+        "suggested_venues": [
+            {
+                "name": "Caspian Sea",
+                "description": "The world's largest enclosed inland body of water, offering scenic views, diverse marine life, and opportunities for relaxation and recreation.",
+                "location": "Baku, Azerbaijan"
+            },
+            {
+                "name": "Baku Boulevard",
+                "description": "A beautiful promenade along the Baku seafront, perfect for a leisurely walk before or after the cruise.",
+                "location": "Baku, Azerbaijan"
+            },
+            {
+                "name": "Baku Ferris Wheel",
+                "description": "Also known as the Baku Eye, this attraction provides panoramic views of the city and the Caspian Sea, complementing the cruise experience.",
+                "location": "Baku, Azerbaijan"
+            },
+            {
+                "name": "National Flag Square",
+                "description": "A significant landmark in Baku, located along the coastline, offering great views and a patriotic atmosphere.",
+                "location": "Baku, Azerbaijan"
+            }
+        ]
     },
+
     {
-        "name": "Carpet Museum Tour",
-        "category": "Art",
-        "score": 3,
-        "description": "Discover Azerbaijan's rich weaving history at the Carpet Museum in Baku.",
-        "city": "Baku",
-        "longitude": 49.8512,
-        "latitude": 40.3725,
-        "cost": "$"
-    },
-    {
-        "name": "Yanar Dag (Burning Mountain)",
-        "category": "Natural Phenomenon",
-        "score": 4,
-        "description": "Witness the mesmerizing natural flames of Yanar Dag, a mountain that has been burning for centuries.",
-        "city": "Baku",
-        "longitude": 49.7230,
-        "latitude": 40.5618,
-        "cost": "$"
-    },
-    {
-        "name": "Mud Volcanoes Visit",
-        "category": "Nature",
-        "score": 4,
-        "description": "Explore Azerbaijan's unique and bizarre mud volcanoes, a rare natural phenomenon.",
-        "city": "Gobustan",
-        "longitude": 49.3769,
-        "latitude": 40.0968,
-        "cost": "$"
-    },
-    {
-        "name": "Azerbaijan National Museum of History",
-        "category": "History",
-        "score": 3,
-        "description": "Immerse in Azerbaijan's rich history and culture at the National Museum in Baku.",
-        "city": "Baku",
-        "longitude": 49.8458,
-        "latitude": 40.3777,
-        "cost": "$"
-    },
-    {
-        "name": "Quba & Khinalug Village Tour",
-        "category": "Cultural",
-        "score": 3,
-        "description": "Discover the remote and picturesque village of Khinalug, nestled in the Caucasus Mountains near Quba.",
-        "city": "Quba",
-        "longitude": 48.5263,
-        "latitude": 41.3597,
-        "cost": "$$"
-    }
+    "name": "Carpet Museum Tour",
+    "category": "Art",
+    "score": 3,
+    "description": "Discover Azerbaijan's rich weaving history at the Carpet Museum in Baku.",
+    "city": "Baku",
+    "longitude": 49.8512,
+    "latitude": 40.3725,
+    "cost": "$",
+    "best_time_to_go": ["March", "April", "May", "October"],
+    "best_time_to_go_description": "The best months to visit the Carpet Museum are March, April, May, and October. These months offer pleasant weather, which enhances the experience of visiting the museum and exploring its extensive collection. The climate during these months is comfortable for both indoor and outdoor activities in Baku.",
+    "worst_time_to_go": ["July", "August"],
+    "worst_time_to_go_description": "July and August are less ideal for visiting the Carpet Museum due to the extreme heat in Baku, which can make travel and walking around the city less comfortable.",
+    "suggested_venues": [
+        {
+            "name": "Azerbaijan Carpet Museum",
+            "description": "The main site of the tour, showcasing a vast collection of Azerbaijani carpets and rugs, with intricate designs and historical significance.",
+            "location": "Baku, Azerbaijan"
+        },
+        {
+            "name": "Old City (Icherisheher)",
+            "description": "A historic part of Baku, offering a glimpse into the cultural heritage of Azerbaijan and a perfect complement to the Carpet Museum visit.",
+            "location": "Baku, Azerbaijan"
+        },
+        {
+            "name": "Nizami Street",
+            "description": "A popular shopping and dining area in Baku, ideal for experiencing the local lifestyle and finding souvenirs.",
+            "location": "Baku, Azerbaijan"
+        },
+        {
+            "name": "Baku Boulevard",
+            "description": "A scenic seafront promenade close to the museum, perfect for a relaxing walk after exploring the museum.",
+            "location": "Baku, Azerbaijan"
+        }
+    ]
+},
+{
+    "name": "Yanar Dag (Burning Mountain)",
+    "category": "Natural Phenomenon",
+    "score": 4,
+    "description": "Witness the mesmerizing natural flames of Yanar Dag, a mountain that has been burning for centuries.",
+    "city": "Baku",
+    "longitude": 49.7230,
+    "latitude": 40.5618,
+    "cost": "$",
+    "best_time_to_go": ["March", "April", "May", "October"],
+    "best_time_to_go_description": "The best months to visit Yanar Dag are March, April, May, and October. During these months, the weather is mild, making it comfortable to observe the natural flames and explore the surrounding area. The cooler evenings in these months also enhance the visibility and allure of the flames.",
+    "worst_time_to_go": ["July", "August"],
+    "worst_time_to_go_description": "July and August are less ideal for visiting Yanar Dag due to the extreme heat in Baku, which can make the experience less comfortable, especially during the daytime when the heat intensifies.",
+    "suggested_venues": [
+        {
+            "name": "Yanar Dag",
+            "description": "The main attraction, a continuously burning hillside fueled by natural gas seeping through the earth, offering a unique and fascinating spectacle.",
+            "location": "Near Baku, Azerbaijan"
+        },
+        {
+            "name": "Ateshgah Fire Temple",
+            "description": "A historic temple near Baku, dedicated to the fire worshipers and showcasing the ancient Zoroastrian faith and its rituals.",
+            "location": "Near Baku, Azerbaijan"
+        },
+        {
+            "name": "Mardakan Castle",
+            "description": "A historical tower near Yanar Dag, providing insights into the medieval defensive architecture of Azerbaijan.",
+            "location": "Near Baku, Azerbaijan"
+        },
+        {
+            "name": "Baku Botanical Garden",
+            "description": "A serene and beautiful garden in Baku, perfect for a relaxing stroll after visiting the burning mountain.",
+            "location": "Baku, Azerbaijan"
+        }
+    ]
+},
+{
+    "name": "Mud Volcanoes Visit",
+    "category": "Nature",
+    "score": 4,
+    "description": "Explore Azerbaijan's unique and bizarre mud volcanoes, a rare natural phenomenon.",
+    "city": "Gobustan",
+    "longitude": 49.3769,
+    "latitude": 40.0968,
+    "cost": "$",
+    "best_time_to_go": ["March", "April", "May", "October"],
+    "best_time_to_go_description": "The ideal months to visit the mud volcanoes in Gobustan are March, April, May, and October. During these times, the weather is mild, enhancing the experience of exploring these unique geological formations. The cooler temperatures make the outdoor adventure more comfortable.",
+    "worst_time_to_go": ["June", "July", "August"],
+    "worst_time_to_go_description": "The summer months of June, July, and August are less suitable for visiting the mud volcanoes due to the extreme heat in Gobustan, which can make outdoor exploration strenuous and less enjoyable.",
+    "suggested_venues": [
+        {
+            "name": "Gobustan Mud Volcanoes",
+            "description": "The main attraction, these mud volcanoes offer a fascinating look at a rare natural phenomenon, with bubbling pools and lunar-like landscapes.",
+            "location": "Near Gobustan, Azerbaijan"
+        },
+        {
+            "name": "Gobustan National Park",
+            "description": "A UNESCO World Heritage site nearby, known for its ancient petroglyphs and rich cultural history, complementing the natural wonders of the mud volcanoes.",
+            "location": "Gobustan, Azerbaijan"
+        },
+        {
+            "name": "Gobustan Museum",
+            "description": "A museum that provides context and information about the mud volcanoes and the region's geological history, enhancing the overall experience.",
+            "location": "Gobustan, Azerbaijan"
+        },
+        {
+            "name": "Bibi-Heybat Mosque",
+            "description": "A historic mosque near Baku, known for its architecture and spiritual significance, adding a cultural dimension to the trip.",
+            "location": "Near Baku, Azerbaijan"
+        }
+    ]
+},
+{
+    "name": "Azerbaijan National Museum of History",
+    "category": "History",
+    "score": 3,
+    "description": "Immerse in Azerbaijan's rich history and culture at the National Museum in Baku.",
+    "city": "Baku",
+    "longitude": 49.8458,
+    "latitude": 40.3777,
+    "cost": "$",
+    "best_time_to_go": ["March", "April", "May", "October"],
+    "best_time_to_go_description": "The best months to visit the Azerbaijan National Museum of History are March, April, May, and October. These months offer comfortable weather, conducive to exploring the museum and its surroundings in Baku. The mild climate during these months makes for a pleasant visit.",
+    "worst_time_to_go": ["July", "August"],
+    "worst_time_to_go_description": "July and August are less ideal for visiting the museum due to Baku's hot summer weather, which might make any outdoor activities or travel to and from the museum less comfortable.",
+    "suggested_venues": [
+        {
+            "name": "Azerbaijan National Museum of History",
+            "description": "The main site, offering an extensive collection that covers the history of Azerbaijan from ancient times to the modern era.",
+            "location": "Baku, Azerbaijan"
+        },
+        {
+            "name": "Old City (Icherisheher)",
+            "description": "A historic area in Baku, providing a real-life view of the history and culture explored in the museum.",
+            "location": "Baku, Azerbaijan"
+        },
+        {
+            "name": "Maiden Tower",
+            "description": "A historical landmark near the museum, offering insights into Baku's architectural history and panoramic views of the city.",
+            "location": "Baku, Azerbaijan"
+        },
+        {
+            "name": "Nizami Street",
+            "description": "A bustling shopping and cultural street in Baku, perfect for experiencing the local lifestyle and finding souvenirs after visiting the museum.",
+            "location": "Baku, Azerbaijan"
+        }
+    ]
+},
+{
+    "name": "Quba & Khinalug Village Tour",
+    "category": "Cultural",
+    "score": 3,
+    "description": "Discover the remote and picturesque village of Khinalug, nestled in the Caucasus Mountains near Quba.",
+    "city": "Quba",
+    "longitude": 48.5263,
+    "latitude": 41.3597,
+    "cost": "$$",
+    "best_time_to_go": ["May", "June", "September", "October"],
+    "best_time_to_go_description": "The best months to visit Khinalug and Quba are May, June, September, and October. During these months, the weather is mild and pleasant, ideal for exploring the mountainous terrain and experiencing the unique culture of the Khinalug village. The natural scenery is particularly beautiful in these months.",
+    "worst_time_to_go": ["December", "January", "February"],
+    "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for this tour due to heavy snowfall and cold temperatures in the mountainous regions, which can make travel difficult and the visit less enjoyable.",
+    "suggested_venues": [
+        {
+            "name": "Khinalug Village",
+            "description": "One of the highest and most ancient mountain villages in the Caucasus, offering a unique cultural experience and breathtaking natural scenery.",
+            "location": "Near Quba, Azerbaijan"
+        },
+        {
+            "name": "Quba",
+            "description": "A charming town known for its apple orchards and traditional carpet weaving, serving as a gateway to the mountainous regions of Azerbaijan.",
+            "location": "Quba, Azerbaijan"
+        },
+        {
+            "name": "Tenghi Canyon",
+            "description": "A stunning natural canyon near Khinalug, offering spectacular views and opportunities for photography and hiking.",
+            "location": "Near Quba, Azerbaijan"
+        },
+        {
+            "name": "Qechresh Forest",
+            "description": "A lush forest area near Quba, perfect for nature walks and experiencing the tranquility of Azerbaijan's wilderness.",
+            "location": "Near Quba, Azerbaijan"
+        }
+    ]
+}
 ]

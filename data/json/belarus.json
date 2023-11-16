@@ -7,8 +7,34 @@
         "city": "Mir",
         "longitude": 26.4735,
         "latitude": 53.4517,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The optimal months to visit Mir Castle are May, June, September, and October. These months offer pleasant weather, ideal for exploring the castle and its grounds. The mild temperatures and fewer crowds during these periods enhance the visiting experience.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for exploring Mir Castle due to the cold weather, which can make walking around the castle's extensive grounds less comfortable.",
+        "suggested_venues": [
+            {
+                "name": "Mir Castle Complex",
+                "description": "The main attraction, this castle is a remarkable example of fortification art, blending various architectural styles and offering a rich historical experience.",
+                "location": "Mir, Belarus"
+            },
+            {
+                "name": "Mir Town",
+                "description": "The nearby town, offering a glimpse into local life and history, with traditional Belarusian architecture and cultural sites.",
+                "location": "Mir, Belarus"
+            },
+            {
+                "name": "Nesvizh Castle",
+                "description": "Another historical castle in the region, known for its beautiful architecture and landscaped gardens, making for a great combined trip with Mir Castle.",
+                "location": "Near Mir, Belarus"
+            },
+            {
+                "name": "Church of Saints Boris and Gleb",
+                "description": "An historic church near Mir Castle, showcasing traditional Belarusian religious architecture and art.",
+                "location": "Near Mir, Belarus"
+            }
+        ]
+    },    
     {
         "name": "Touring the Belovezhskaya Pushcha National Park",
         "category": "Nature",
@@ -17,7 +43,33 @@
         "city": "Kamenets",
         "longitude": 23.8223,
         "latitude": 52.7011,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The best months to visit Belovezhskaya Pushcha National Park are May, June, September, and October. During these months, the weather is mild, ideal for exploring the forest and observing wildlife. The natural beauty of the park is especially vibrant in the spring and autumn.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for touring the park due to the harsh cold weather, which can make outdoor activities less enjoyable and restrict wildlife sightings.",
+        "suggested_venues": [
+            {
+                "name": "Belovezhskaya Pushcha National Park",
+                "description": "The main site for exploration, this ancient forest is one of the last and largest remaining parts of the immense primeval forest that once stretched across the European Plain.",
+                "location": "Near Kamenets, Belarus"
+            },
+            {
+                "name": "Nature Museum of Belovezhskaya Pushcha",
+                "description": "A museum within the park, offering detailed information about the local flora and fauna, including the European bison.",
+                "location": "Belovezhskaya Pushcha National Park, Belarus"
+            },
+            {
+                "name": "Father Frost's Estate",
+                "description": "A unique attraction in the park, known as the Belarusian version of Santa Claus, offering a whimsical experience for visitors.",
+                "location": "Belovezhskaya Pushcha National Park, Belarus"
+            },
+            {
+                "name": "Bialowieza Forest",
+                "description": "The Polish part of the Belovezhskaya Pushcha, offering additional trails and opportunities to experience this ancient forest.",
+                "location": "Near the Belarus-Poland border"
+            }
+        ]
     },
     {
         "name": "Visiting the National Art Museum in Minsk",
@@ -27,7 +79,33 @@
         "city": "Minsk",
         "longitude": 27.5618,
         "latitude": 53.9022,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best months to visit the National Art Museum in Minsk are April, May, September, and October. These months offer pleasant weather, ideal for exploring Minsk and its cultural offerings. The moderate climate during these months makes visiting indoor and outdoor attractions more enjoyable.",
+        "worst_time_to_go": ["January", "February"],
+        "worst_time_to_go_description": "January and February are less ideal for visiting the museum due to the cold winter weather in Minsk, which can make traveling to and from the museum less comfortable.",
+        "suggested_venues": [
+            {
+                "name": "National Art Museum of Belarus",
+                "description": "The main attraction, housing an extensive collection of Belarusian and international art, including iconic paintings and sculptures.",
+                "location": "Minsk, Belarus"
+            },
+            {
+                "name": "Island of Tears",
+                "description": "A memorial on an island in the Svislach River in Minsk, dedicated to Belarusian soldiers who died in Afghanistan, adding a historical dimension to the visit.",
+                "location": "Minsk, Belarus"
+            },
+            {
+                "name": "Trinity Suburb",
+                "description": "A picturesque and historic part of Minsk, perfect for a leisurely walk and experiencing the city's heritage.",
+                "location": "Minsk, Belarus"
+            },
+            {
+                "name": "Victory Square",
+                "description": "An important landmark in Minsk, commemorating the victory in World War II, and offering insights into Belarusian history.",
+                "location": "Minsk, Belarus"
+            }
+        ]
     },
     {
         "name": "Exploring Nesvizh Castle",
@@ -37,38 +115,143 @@
         "city": "Nesvizh",
         "longitude": 26.6914,
         "latitude": 53.2221,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The best months to visit Nesvizh Castle are May, June, September, and October. During these months, the weather is mild and pleasant, ideal for exploring the castle and its extensive grounds. The beauty of the castle and its surrounding landscapes is particularly enchanting in these seasons.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for exploring Nesvizh Castle due to the cold weather, which can make walking around the castle's large estate less comfortable.",
+        "suggested_venues": [
+            {
+                "name": "Nesvizh Castle",
+                "description": "The main site, a stunning example of Renaissance architecture, with beautifully preserved interiors and a rich historical background.",
+                "location": "Nesvizh, Belarus"
+            },
+            {
+                "name": "Nesvizh Park",
+                "description": "The landscaped park surrounding the castle, offering scenic walks and picturesque views of the castle's architecture and natural beauty.",
+                "location": "Nesvizh, Belarus"
+            },
+            {
+                "name": "Corpus Christi Church in Nesvizh",
+                "description": "A notable church near the castle, representing a significant part of Belarusian history and architectural heritage.",
+                "location": "Nesvizh, Belarus"
+            },
+            {
+                "name": "Nesvizh Historical Museum",
+                "description": "A museum located within the castle complex, providing insights into the life and culture of the nobility who once resided in the castle.",
+                "location": "Nesvizh, Belarus"
+            }
+        ]
     },
+
     {
-        "name": "Walking through Brest Fortress",
-        "category": "History",
-        "score": 4,
-        "description": "Visit the Brest Fortress, a symbol of Soviet resistance during World War II, now a poignant memorial site.",
-        "city": "Brest",
-        "longitude": 23.6509,
-        "latitude": 52.0833,
-        "cost": "$"
-    },
-    {
-        "name": "Discovering the Struve Geodetic Arc",
-        "category": "Science",
-        "score": 3,
-        "description": "Explore the Struve Geodetic Arc, a chain of survey triangulations stretching through Belarus and ten other countries.",
-        "city": "Various",
-        "longitude": 27.5667,
-        "latitude": 53.9000,
-        "cost": "$"
-    },
-    {
-        "name": "Visiting the Dudutki Museum",
-        "category": "Culture",
-        "score": 4,
-        "description": "Experience traditional Belarusian culture and crafts at the Dudutki Museum, an open-air complex showcasing folk heritage.",
-        "city": "Ptich",
-        "longitude": 27.5648,
-        "latitude": 53.4697,
-        "cost": "$"
-    },
+    "name": "Walking through Brest Fortress",
+    "category": "History",
+    "score": 4,
+    "description": "Visit the Brest Fortress, a symbol of Soviet resistance during World War II, now a poignant memorial site.",
+    "city": "Brest",
+    "longitude": 23.6509,
+    "latitude": 52.0833,
+    "cost": "$",
+    "best_time_to_go": ["April", "May", "September", "October"],
+    "best_time_to_go_description": "The best months to visit Brest Fortress are April, May, September, and October. During these months, the weather is conducive to outdoor exploration, allowing visitors to comfortably walk through the extensive fortress grounds and reflect on its historical significance.",
+    "worst_time_to_go": ["December", "January", "February"],
+    "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for visiting Brest Fortress due to the cold weather, which can hinder the experience of exploring the outdoor memorial and historical site.",
+    "suggested_venues": [
+        {
+            "name": "Brest Fortress",
+            "description": "The main attraction, an impressive fortress with a rich history as a symbol of resistance during World War II, now serving as a memorial complex.",
+            "location": "Brest, Belarus"
+        },
+        {
+            "name": "Brest Fortress Museum",
+            "description": "A museum within the fortress, offering detailed exhibits on the history of the fortress and its role during the war.",
+            "location": "Brest, Belarus"
+        },
+        {
+            "name": "Memorial Complex 'Courage'",
+            "description": "A significant part of the fortress, featuring a monumental sculpture and an eternal flame, commemorating the defenders of the fortress.",
+            "location": "Brest, Belarus"
+        },
+        {
+            "name": "Brest Railway Museum",
+            "description": "Located nearby, this museum features historic trains and railway equipment, adding another dimension to the historical exploration of the area.",
+            "location": "Brest, Belarus"
+        }
+    ]
+},
+{
+    "name": "Discovering the Struve Geodetic Arc",
+    "category": "Science",
+    "score": 3,
+    "description": "Explore the Struve Geodetic Arc, a chain of survey triangulations stretching through Belarus and ten other countries.",
+    "city": "Various",
+    "longitude": 27.5667,
+    "latitude": 53.9000,
+    "cost": "$",
+    "best_time_to_go": ["May", "June", "September", "October"],
+    "best_time_to_go_description": "The best months to explore segments of the Struve Geodetic Arc in Belarus are May, June, September, and October. These months offer comfortable weather, facilitating travel and outdoor exploration to locate and appreciate the various points of this scientific landmark.",
+    "worst_time_to_go": ["December", "January", "February"],
+    "worst_time_to_go_description": "The winter months of December, January, and February are less suitable for exploring the Struve Geodetic Arc due to harsh weather conditions, which can make locating and accessing the geodetic points challenging.",
+    "suggested_venues": [
+        {
+            "name": "Struve Geodetic Arc Points",
+            "description": "Various locations across Belarus, each marking a point of this significant scientific and historical survey project.",
+            "location": "Various locations in Belarus"
+        },
+        {
+            "name": "Belarusian National Technical University",
+            "description": "A notable institution in Minsk, offering additional insights into the scientific and historical context of the Struve Geodetic Arc.",
+            "location": "Minsk, Belarus"
+        },
+        {
+            "name": "National Library of Belarus",
+            "description": "A major library in Minsk, where visitors can find more information about the Struve Geodetic Arc and its importance in the history of science.",
+            "location": "Minsk, Belarus"
+        },
+        {
+            "name": "Minsk Planetarium",
+            "description": "An educational venue in Minsk, providing a broader understanding of geodesy and astronomy, complementing the experience of exploring the Struve Arc.",
+            "location": "Minsk, Belarus"
+        }
+    ]
+},
+{
+    "name": "Visiting the Dudutki Museum",
+    "category": "Culture",
+    "score": 4,
+    "description": "Experience traditional Belarusian culture and crafts at the Dudutki Museum, an open-air complex showcasing folk heritage.",
+    "city": "Ptich",
+    "longitude": 27.5648,
+    "latitude": 53.4697,
+    "cost": "$",
+    "best_time_to_go": ["May", "June", "July", "August"],
+    "best_time_to_go_description": "The best months to visit the Dudutki Museum are May, June, July, and August. During these months, the weather is warm and pleasant, ideal for exploring the outdoor exhibits and engaging in traditional crafts and activities offered at the museum.",
+    "worst_time_to_go": ["November", "December", "January", "February"],
+    "worst_time_to_go_description": "The winter months of November, December, January, and February are less ideal for visiting the Dudutki Museum due to the cold weather, which can make outdoor activities less enjoyable.",
+    "suggested_venues": [
+        {
+            "name": "Dudutki Museum",
+            "description": "The main attraction, this open-air museum offers a glimpse into traditional Belarusian life, with historical reenactments, craft demonstrations, and local cuisine.",
+            "location": "Ptich, Belarus"
+        },
+        {
+            "name": "Craft Workshops",
+            "description": "Within the museum, various workshops demonstrate traditional Belarusian crafts such as pottery, blacksmithing, and bread baking.",
+            "location": "Dudutki Museum, Ptich, Belarus"
+        },
+        {
+            "name": "Windmill at Dudutki",
+            "description": "A fully functional windmill, part of the museum complex, showcasing traditional milling techniques.",
+            "location": "Dudutki Museum, Ptich, Belarus"
+        },
+        {
+            "name": "Historical Village",
+            "description": "A recreated Belarusian village within the museum, offering an immersive experience into the rural culture and lifestyle of the past.",
+            "location": "Dudutki Museum, Ptich, Belarus"
+        }
+    ]
+},
     {
         "name": "Enjoying the Minsk Sea",
         "category": "Leisure",
@@ -77,7 +260,33 @@
         "city": "Minsk",
         "longitude": 27.3181,
         "latitude": 53.9454,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["June", "July", "August"],
+        "best_time_to_go_description": "The best months to enjoy the Minsk Sea are June, July, and August. During these summer months, the weather is warm and sunny, perfect for beach activities, swimming, boating, and enjoying the natural surroundings of the lake.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of November, December, January, and February are less suitable for visiting the Minsk Sea due to the cold weather, which limits the recreational activities available and makes outdoor enjoyment less pleasant.",
+        "suggested_venues": [
+            {
+                "name": "Minsk Sea Beach",
+                "description": "A popular spot along the lake, perfect for sunbathing, swimming, and enjoying the relaxing atmosphere.",
+                "location": "Near Minsk, Belarus"
+            },
+            {
+                "name": "Boating and Water Sports",
+                "description": "Various water-based activities available at the Minsk Sea, such as boating, kayaking, and paddleboarding.",
+                "location": "Minsk Sea, Near Minsk, Belarus"
+            },
+            {
+                "name": "Nature Trails",
+                "description": "Scenic trails around the lake, ideal for hiking, cycling, and nature walks.",
+                "location": "Minsk Sea, Near Minsk, Belarus"
+            },
+            {
+                "name": "Picnic Areas",
+                "description": "Designated areas for picnics, offering a great way to relax and enjoy the lake's natural beauty.",
+                "location": "Minsk Sea, Near Minsk, Belarus"
+            }
+        ]
     },
     {
         "name": "Exploring the Gomel Palace and Park Ensemble",
@@ -87,7 +296,33 @@
         "city": "Gomel",
         "longitude": 31.0191,
         "latitude": 52.4242,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The ideal months to visit the Gomel Palace and Park Ensemble are May, June, September, and October. These months offer comfortable weather for strolling through the gardens and exploring the palace's historic architecture. The natural beauty of the park is also at its peak during these seasons.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less suitable for visiting the ensemble due to the cold weather, which can make outdoor exploration less enjoyable.",
+        "suggested_venues": [
+            {
+                "name": "Gomel Palace",
+                "description": "The centerpiece of the complex, this 18th-century palace showcases elegant architecture and historical interiors.",
+                "location": "Gomel, Belarus"
+            },
+            {
+                "name": "Palace Park",
+                "description": "A beautifully landscaped park surrounding the palace, perfect for leisurely walks and enjoying the serene environment.",
+                "location": "Gomel, Belarus"
+            },
+            {
+                "name": "Peter and Paul Cathedral",
+                "description": "A historic chapel within the complex, known for its architectural beauty and historical significance.",
+                "location": "Gomel, Belarus"
+            },
+            {
+                "name": "Gomel History Museum",
+                "description": "A museum located nearby, offering insights into the local history and culture of Gomel and its surroundings.",
+                "location": "Gomel, Belarus"
+            }
+        ]
     },
     {
         "name": "Visiting the Vitebsk Marc Chagall Museum",
@@ -97,6 +332,33 @@
         "city": "Vitebsk",
         "longitude": 30.2049,
         "latitude": 55.1904,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The best months to visit the Marc Chagall Museum in Vitebsk are May, June, September, and October. These months offer mild weather, making it pleasant to explore the museum and the city of Vitebsk, which is rich in cultural and artistic history.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for visiting the museum due to the cold weather in Vitebsk, which can affect the comfort of traveling and exploring the city.",
+        "suggested_venues": [
+            {
+                "name": "Marc Chagall Museum",
+                "description": "The main site, showcasing a collection of Chagall's works and providing insights into his life and artistic journey in his hometown.",
+                "location": "Vitebsk, Belarus"
+            },
+            {
+                "name": "Chagall Art Center",
+                "description": "A cultural center in Vitebsk, offering additional exhibitions and events related to Marc Chagall and his art.",
+                "location": "Vitebsk, Belarus"
+            },
+            {
+                "name": "Vitebsk Historic Center",
+                "description": "The heart of the city, where visitors can experience the atmosphere that influenced Chagall's early life and works.",
+                "location": "Vitebsk, Belarus"
+            },
+            {
+                "name": "Slavianski Bazaar",
+                "description": "An annual arts festival in Vitebsk, offering a vibrant showcase of music, art, and culture, enhancing the cultural experience of the city.",
+                "location": "Vitebsk, Belarus"
+            }
+        ]
     }
+    
 ]

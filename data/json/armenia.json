@@ -7,96 +7,358 @@
         "city": "Garni",
         "longitude": 44.7289,
         "latitude": 40.1125,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best months to visit the Temple of Garni are April, May, September, and October. During these months, the weather is mild and pleasant, ideal for exploring the historical site and its surroundings. These periods are less crowded than the peak summer months, offering a more peaceful experience.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for visiting the Temple of Garni due to colder temperatures and potential snow, which can hinder access to the site and make outdoor exploration less comfortable.",
+        "suggested_venues": [
+            {
+                "name": "Temple of Garni",
+                "description": "The main attraction, this well-preserved temple offers a unique insight into Hellenistic architecture and ancient Armenian history.",
+                "location": "Garni, Kotayk Province, Armenia"
+            },
+            {
+                "name": "Garni Gorge",
+                "description": "A nearby natural wonder featuring basalt columns, commonly known as the 'Symphony of Stones,' and scenic hiking trails.",
+                "location": "Near the Temple of Garni, Garni, Armenia"
+            },
+            {
+                "name": "Garni Historical and Cultural Museum-Reserve",
+                "description": "A museum showcasing local history and artifacts related to the Temple of Garni and the surrounding area.",
+                "location": "Garni, Kotayk Province, Armenia"
+            },
+            {
+                "name": "Havuts Tar Monastery",
+                "description": "An ancient monastery located in the Khosrov State Reserve, offering a serene atmosphere and stunning views of the surrounding nature.",
+                "location": "Near Garni, Kotayk Province, Armenia"
+            }
+        ]
     },
+
     {
-        "name": "Hiking in Dilijan National Park",
-        "category": "Nature",
-        "score": 5,
-        "description": "Experience the lush landscapes and rich biodiversity of Dilijan National Park, often referred to as the 'Armenian Switzerland'.",
-        "city": "Dilijan",
-        "longitude": 44.8626,
-        "latitude": 40.7410,
-        "cost": "$"
-    },
-    {
-        "name": "Visiting the Geghard Monastery",
-        "category": "Culture",
-        "score": 5,
-        "description": "Explore the Geghard Monastery, a UNESCO World Heritage site famous for its rock-cut architecture and sacred springs.",
-        "city": "Geghard",
-        "longitude": 44.8003,
-        "latitude": 40.1408,
-        "cost": "$"
-    },
-    {
-        "name": "Touring the Yerevan Brandy Company",
-        "category": "Gastronomy",
-        "score": 4,
-        "description": "Discover the secrets of Armenian brandy production with a tour and tasting at the legendary Yerevan Brandy Company.",
-        "city": "Yerevan",
-        "longitude": 44.5152,
-        "latitude": 40.1872,
-        "cost": "$$"
-    },
-    {
-        "name": "Visiting the Armenian Genocide Memorial",
-        "category": "History",
-        "score": 4,
-        "description": "Pay respects at the Armenian Genocide Memorial, a solemn reminder of a pivotal event in Armenia's history.",
-        "city": "Yerevan",
-        "longitude": 44.4906,
-        "latitude": 40.1876,
-        "cost": "$"
-    },
-    {
-        "name": "Exploring the Echmiadzin Cathedral",
-        "category": "Culture",
-        "score": 5,
-        "description": "Visit Echmiadzin Cathedral, a spiritual center for Armenians and one of the oldest cathedrals in the world.",
-        "city": "Vagharshapat",
-        "longitude": 44.2924,
-        "latitude": 40.1584,
-        "cost": "$"
-    },
-    {
-        "name": "Hiking to Lake Parz",
-        "category": "Adventure",
-        "score": 4,
-        "description": "Embark on a scenic hike to Lake Parz, a serene natural lake surrounded by dense forests in Dilijan National Park.",
-        "city": "Dilijan",
-        "longitude": 44.9629,
-        "latitude": 40.7825,
-        "cost": "$"
-    },
-    {
-        "name": "Exploring the Noravank Monastery",
-        "category": "Culture",
-        "score": 4,
-        "description": "Visit Noravank Monastery, set in a dramatic canyon and known for its stunning medieval architecture.",
-        "city": "Yeghegnadzor",
-        "longitude": 45.2320,
-        "latitude": 39.6842,
-        "cost": "$"
-    },
-    {
-        "name": "Wine Tasting in Areni",
-        "category": "Gastronomy",
-        "score": 3,
-        "description": "Enjoy the flavors of Armenian wine with a tasting tour in Areni, a region known for its ancient winemaking traditions.",
-        "city": "Areni",
-        "longitude": 45.1789,
-        "latitude": 39.7194,
-        "cost": "$$"
-    },
-    {
-        "name": "Visiting the Sevanavank Monastery",
-        "category": "Culture",
-        "score": 4,
-        "description": "Explore Sevanavank Monastery, located on the picturesque peninsula of Lake Sevan, offering stunning views and rich history.",
-        "city": "Sevan",
-        "longitude": 45.0047,
-        "latitude": 40.5486,
-        "cost": "$"
-    }
+    "name": "Hiking in Dilijan National Park",
+    "category": "Nature",
+    "score": 5,
+    "description": "Experience the lush landscapes and rich biodiversity of Dilijan National Park, often referred to as the 'Armenian Switzerland'.",
+    "city": "Dilijan",
+    "longitude": 44.8626,
+    "latitude": 40.7410,
+    "cost": "$",
+    "best_time_to_go": ["May", "June", "September", "October"],
+    "best_time_to_go_description": "The best months to go hiking in Dilijan National Park are May, June, September, and October. During these months, the weather is mild and the natural beauty of the park is at its peak, with blooming flowers in spring and vibrant foliage in autumn, providing ideal conditions for hiking and nature exploration.",
+    "worst_time_to_go": ["December", "January", "February"],
+    "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for hiking in Dilijan National Park due to cold weather and potential snow, which can make trails slippery and more challenging.",
+    "suggested_venues": [
+        {
+            "name": "Dilijan National Park",
+            "description": "The main attraction, featuring diverse landscapes, rich flora and fauna, and numerous hiking trails that showcase the natural beauty of the region.",
+            "location": "Dilijan, Tavush Province, Armenia"
+        },
+        {
+            "name": "Parz Lake",
+            "description": "A serene lake within the national park, offering picturesque views and opportunities for boating and relaxation.",
+            "location": "Near Dilijan, Tavush Province, Armenia"
+        },
+        {
+            "name": "Haghartsin Monastery",
+            "description": "A historic monastery located in the heart of the national park, surrounded by forest and offering a peaceful retreat.",
+            "location": "Near Dilijan, Tavush Province, Armenia"
+        },
+        {
+            "name": "Goshavank Monastery",
+            "description": "Another important cultural site within the park, known for its intricate khachkars (carved cross-stones) and historical significance.",
+            "location": "Near Dilijan, Tavush Province, Armenia"
+        }
+    ]
+},
+{
+    "name": "Visiting the Geghard Monastery",
+    "category": "Culture",
+    "score": 5,
+    "description": "Explore the Geghard Monastery, a UNESCO World Heritage site famous for its rock-cut architecture and sacred springs.",
+    "city": "Geghard",
+    "longitude": 44.8003,
+    "latitude": 40.1408,
+    "cost": "$",
+    "best_time_to_go": ["April", "May", "September", "October"],
+    "best_time_to_go_description": "The best months to visit the Geghard Monastery are April, May, September, and October. During these months, the weather is mild, making it comfortable to explore the monastery and its surroundings. These periods are less crowded than the peak summer months, offering a more peaceful experience.",
+    "worst_time_to_go": ["December", "January", "February"],
+    "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for visiting the Geghard Monastery due to colder temperatures, which can make exploring the outdoor and cave parts of the monastery less comfortable.",
+    "suggested_venues": [
+        {
+            "name": "Geghard Monastery",
+            "description": "The main attraction, this ancient monastery is carved into the side of a mountain and known for its extraordinary medieval architecture and spiritual significance.",
+            "location": "Geghard, Kotayk Province, Armenia"
+        },
+        {
+            "name": "Azat River Gorge",
+            "description": "A scenic gorge near the monastery, offering beautiful natural views and a peaceful environment for walking and contemplation.",
+            "location": "Near Geghard, Kotayk Province, Armenia"
+        },
+        {
+            "name": "Garni Temple",
+            "description": "A nearby Greco-Roman temple, offering a contrast to the medieval monastery with its ancient Hellenistic architecture.",
+            "location": "Garni, Kotayk Province, Armenia"
+        },
+        {
+            "name": "Charents Arch",
+            "description": "A famous arch offering panoramic views of Mount Ararat and the surrounding valleys, a perfect stop on the way to Geghard.",
+            "location": "Near Garni, Kotayk Province, Armenia"
+        }
+    ]
+},
+{
+    "name": "Touring the Yerevan Brandy Company",
+    "category": "Gastronomy",
+    "score": 4,
+    "description": "Discover the secrets of Armenian brandy production with a tour and tasting at the legendary Yerevan Brandy Company.",
+    "city": "Yerevan",
+    "longitude": 44.5152,
+    "latitude": 40.1872,
+    "cost": "$$",
+    "best_time_to_go": ["May", "June", "September", "October"],
+    "best_time_to_go_description": "The best months to visit the Yerevan Brandy Company are May, June, September, and October. During these months, the weather is pleasant, enhancing the experience of touring the facilities and enjoying brandy tastings. These periods also avoid the extreme heat of summer.",
+    "worst_time_to_go": ["December", "January", "February"],
+    "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for touring the Yerevan Brandy Company due to the colder weather, which might detract from the overall experience, especially if part of the tour involves outdoor activities.",
+    "suggested_venues": [
+        {
+            "name": "Yerevan Brandy Company",
+            "description": "The primary location for the tour, this historic brandy company is renowned for its rich heritage in brandy production and offers insightful tours and tastings.",
+            "location": "Yerevan, Armenia"
+        },
+        {
+            "name": "Republic Square",
+            "description": "A central landmark in Yerevan, perfect for strolling and experiencing the local culture and architecture before or after the brandy tour.",
+            "location": "Yerevan, Armenia"
+        },
+        {
+            "name": "Yerevan Opera Theatre",
+            "description": "A cultural icon of the city, offering a chance to enjoy Armenian opera or ballet performances in the evening after a brandy tour.",
+            "location": "Yerevan, Armenia"
+        },
+        {
+            "name": "Vernissage Market",
+            "description": "A bustling open-air market in Yerevan, ideal for finding local crafts, artworks, and souvenirs as a complement to the brandy tour experience.",
+            "location": "Yerevan, Armenia"
+        }
+    ]
+},
+{
+    "name": "Visiting the Armenian Genocide Memorial",
+    "category": "History",
+    "score": 4,
+    "description": "Pay respects at the Armenian Genocide Memorial, a solemn reminder of a pivotal event in Armenia's history.",
+    "city": "Yerevan",
+    "longitude": 44.4906,
+    "latitude": 40.1876,
+    "cost": "$",
+    "best_time_to_go": ["April", "May", "September", "October"],
+    "best_time_to_go_description": "The ideal months to visit the Armenian Genocide Memorial are April, May, September, and October, when the weather is mild and conducive for reflection and exploration of the site. April is particularly significant due to the commemoration events held.",
+    "worst_time_to_go": ["December", "January", "February"],
+    "worst_time_to_go_description": "The winter months of December, January, and February are less suitable for visiting the Armenian Genocide Memorial due to the cold weather, which can be challenging for outdoor activities and spending time in contemplation at the memorial site.",
+    "suggested_venues": [
+        {
+            "name": "Armenian Genocide Memorial",
+            "description": "The primary site for visitors, this memorial is dedicated to the victims of the Armenian Genocide and includes an eternal flame, a museum, and an impressive monument.",
+            "location": "Yerevan, Armenia"
+        },
+        {
+            "name": "Tsitsernakaberd Hill",
+            "description": "The hill where the memorial is located, offering panoramic views of Yerevan and a peaceful setting for contemplation.",
+            "location": "Yerevan, Armenia"
+        },
+        {
+            "name": "Armenian Genocide Museum",
+            "description": "Part of the memorial complex, the museum provides in-depth historical context about the Armenian Genocide, with exhibits and educational resources.",
+            "location": "Yerevan, Armenia"
+        },
+        {
+            "name": "Mother Armenia Statue",
+            "description": "A significant monument nearby, symbolizing peace and strength, and offering another perspective on Armenian history and resilience.",
+            "location": "Yerevan, Armenia"
+        }
+    ]
+},
+{
+    "name": "Exploring the Echmiadzin Cathedral",
+    "category": "Culture",
+    "score": 5,
+    "description": "Visit Echmiadzin Cathedral, a spiritual center for Armenians and one of the oldest cathedrals in the world.",
+    "city": "Vagharshapat",
+    "longitude": 44.2924,
+    "latitude": 40.1584,
+    "cost": "$",
+    "best_time_to_go": ["April", "May", "September", "October"],
+    "best_time_to_go_description": "The best months to explore Echmiadzin Cathedral are April, May, September, and October, when the weather is mild and suitable for visiting this historic site. These months offer a comfortable climate for walking around the cathedral and its surroundings.",
+    "worst_time_to_go": ["December", "January", "February"],
+    "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for visiting Echmiadzin Cathedral due to the cold weather, which might hinder the experience of exploring the outdoor aspects of this historical site.",
+    "suggested_venues": [
+        {
+            "name": "Echmiadzin Cathedral",
+            "description": "The main attraction, this ancient cathedral is a significant religious site, known for its architectural beauty and historical importance.",
+            "location": "Vagharshapat, Armavir Province, Armenia"
+        },
+        {
+            "name": "Saint Hripsime Church",
+            "description": "A nearby historic church, famous for its classic Armenian architecture and as a part of the Echmiadzin complex.",
+            "location": "Vagharshapat, Armavir Province, Armenia"
+        },
+        {
+            "name": "Saint Gayane Church",
+            "description": "Another important church in the vicinity, known for its rich history and as a part of the spiritual heritage of the area.",
+            "location": "Vagharshapat, Armavir Province, Armenia"
+        },
+        {
+            "name": "Zvartnots Cathedral Ruins",
+            "description": "The ruins of an ancient cathedral near Echmiadzin, offering a glimpse into the early Christian architecture of Armenia.",
+            "location": "Near Vagharshapat, Armavir Province, Armenia"
+        }
+    ]
+},
+{
+    "name": "Hiking to Lake Parz",
+    "category": "Adventure",
+    "score": 4,
+    "description": "Embark on a scenic hike to Lake Parz, a serene natural lake surrounded by dense forests in Dilijan National Park.",
+    "city": "Dilijan",
+    "longitude": 44.9629,
+    "latitude": 40.7825,
+    "cost": "$",
+    "best_time_to_go": ["May", "June", "September", "October"],
+    "best_time_to_go_description": "The optimal months to hike to Lake Parz are May, June, September, and October. During these times, the weather is favorable with mild temperatures and less rainfall, making the hike more enjoyable and the landscape particularly beautiful.",
+    "worst_time_to_go": ["December", "January", "February"],
+    "worst_time_to_go_description": "Winter months like December, January, and February are not recommended for hiking to Lake Parz due to cold temperatures and potential snow, which can make the trails challenging and less safe.",
+    "suggested_venues": [
+        {
+            "name": "Lake Parz",
+            "description": "The primary destination, known for its stunning natural beauty and tranquil setting, perfect for relaxation and nature photography.",
+            "location": "Dilijan National Park, Tavush Province, Armenia"
+        },
+        {
+            "name": "Dilijan National Park",
+            "description": "The encompassing park offering a variety of hiking trails, rich biodiversity, and picturesque landscapes.",
+            "location": "Dilijan, Tavush Province, Armenia"
+        },
+        {
+            "name": "Goshavank Monastery",
+            "description": "An ancient monastery nearby, an excellent example of medieval Armenian architecture, set amidst the natural beauty of the region.",
+            "location": "Near Dilijan, Tavush Province, Armenia"
+        },
+        {
+            "name": "Haghartsin Monastery",
+            "description": "Another significant historical site in the area, nestled in the forest and offering a peaceful retreat with its impressive architectural complex.",
+            "location": "Near Dilijan, Tavush Province, Armenia"
+        }
+    ]
+},
+{
+    "name": "Exploring the Noravank Monastery",
+    "category": "Culture",
+    "score": 4,
+    "description": "Visit Noravank Monastery, set in a dramatic canyon and known for its stunning medieval architecture.",
+    "city": "Yeghegnadzor",
+    "longitude": 45.2320,
+    "latitude": 39.6842,
+    "cost": "$",
+    "best_time_to_go": ["April", "May", "September", "October"],
+    "best_time_to_go_description": "The ideal months to explore Noravank Monastery are April, May, September, and October. These months offer mild weather, enhancing the experience of visiting the monastery and its surrounding natural beauty. The area is less crowded and more enjoyable during these times.",
+    "worst_time_to_go": ["December", "January", "February"],
+    "worst_time_to_go_description": "The winter months of December, January, and February are less suitable for visiting Noravank Monastery. Cold weather and potential snowfall can make access to the canyon more difficult and reduce the enjoyment of the outdoor experience.",
+    "suggested_venues": [
+        {
+            "name": "Noravank Monastery",
+            "description": "The main site, featuring breathtaking medieval Armenian architecture and intricate stone carvings, set against the backdrop of a stunning canyon.",
+            "location": "Near Yeghegnadzor, Vayots Dzor Province, Armenia"
+        },
+        {
+            "name": "Areni Wine Country",
+            "description": "A region renowned for its wine production, offering the chance to sample some of Armenia's finest wines and learn about local viticulture.",
+            "location": "Near Yeghegnadzor, Vayots Dzor Province, Armenia"
+        },
+        {
+            "name": "Bird's Cave",
+            "description": "An archaeological site near the monastery, where ancient artifacts and the world's oldest known leather shoe were discovered.",
+            "location": "Near Areni, Vayots Dzor Province, Armenia"
+        },
+        {
+            "name": "Areni-1 Cave",
+            "description": "Also known as Bird's Cave, this site offers insights into ancient Armenian history and prehistoric times, adding a historical dimension to the visit.",
+            "location": "Near Areni, Vayots Dzor Province, Armenia"
+        }
+    ]
+},
+{
+    "name": "Wine Tasting in Areni",
+    "category": "Gastronomy",
+    "score": 3,
+    "description": "Enjoy the flavors of Armenian wine with a tasting tour in Areni, a region known for its ancient winemaking traditions.",
+    "city": "Areni",
+    "longitude": 45.1789,
+    "latitude": 39.7194,
+    "cost": "$$",
+    "best_time_to_go": ["May", "June", "September", "October"],
+    "best_time_to_go_description": "The best months for a wine tasting tour in Areni are May, June, September, and October. During these months, the weather is pleasant, enhancing the wine tasting experience. The vineyards and wineries are also fully operational, offering a comprehensive insight into the winemaking process.",
+    "worst_time_to_go": ["January", "February", "March"],
+    "worst_time_to_go_description": "The months of January, February, and March are less ideal for wine tasting in Areni as the cold weather can affect the overall experience, and some wineries may have limited operations or tours during this period.",
+    "suggested_venues": [
+        {
+            "name": "Areni Winery",
+            "description": "A prominent winery in the region, offering a variety of tastings and tours to experience the unique flavors of Armenian wines.",
+            "location": "Areni, Vayots Dzor Province, Armenia"
+        },
+        {
+            "name": "Old Areni Wine Factory",
+            "description": "An historic winemaking facility, providing insight into the traditional methods of Armenian wine production.",
+            "location": "Areni, Vayots Dzor Province, Armenia"
+        },
+        {
+            "name": "Areni Wine Festival",
+            "description": "An annual event celebrating local wines, with tastings, food pairings, and cultural activities, typically held in October.",
+            "location": "Areni, Vayots Dzor Province, Armenia"
+        },
+        {
+            "name": "Noravank Monastery",
+            "description": "While primarily a cultural site, its proximity to Areni makes it a great addition to a wine tasting trip, offering a blend of history and scenic views.",
+            "location": "Near Areni, Vayots Dzor Province, Armenia"
+        }
+    ]
+},
+{
+    "name": "Visiting the Sevanavank Monastery",
+    "category": "Culture",
+    "score": 4,
+    "description": "Explore Sevanavank Monastery, located on the picturesque peninsula of Lake Sevan, offering stunning views and rich history.",
+    "city": "Sevan",
+    "longitude": 45.0047,
+    "latitude": 40.5486,
+    "cost": "$",
+    "best_time_to_go": ["May", "June", "July", "August"],
+    "best_time_to_go_description": "The best months to visit Sevanavank Monastery are May through August, when the weather is warm and the natural beauty of Lake Sevan is at its peak. These months provide the most favorable conditions for enjoying the scenic views and exploring the monastery.",
+    "worst_time_to_go": ["December", "January", "February"],
+    "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for visiting Sevanavank Monastery due to the cold weather and potential snowfall, which can hinder access to the monastery and reduce the enjoyment of its outdoor surroundings.",
+    "suggested_venues": [
+        {
+            "name": "Sevanavank Monastery",
+            "description": "The primary site, known for its ancient architecture and spiritual significance, set against the backdrop of Lake Sevan.",
+            "location": "Sevan Peninsula, Gegharkunik Province, Armenia"
+        },
+        {
+            "name": "Lake Sevan",
+            "description": "One of the largest freshwater high-altitude lakes in the world, offering opportunities for swimming, boating, and enjoying scenic landscapes.",
+            "location": "Gegharkunik Province, Armenia"
+        },
+        {
+            "name": "Hayravank Monastery",
+            "description": "Another historical monastery near Lake Sevan, offering a quiet and reflective atmosphere along with beautiful views.",
+            "location": "Near Sevan, Gegharkunik Province, Armenia"
+        },
+        {
+            "name": "Sevan National Park",
+            "description": "A protected area around Lake Sevan, perfect for nature walks, bird watching, and enjoying the natural beauty of the region.",
+            "location": "Gegharkunik Province, Armenia"
+        }
+    ]
+}
+
 ]

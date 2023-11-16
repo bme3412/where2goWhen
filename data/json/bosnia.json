@@ -7,8 +7,34 @@
         "city": "Mostar",
         "longitude": 17.8139,
         "latitude": 43.3438,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best months to visit the Old Bridge Area of Mostar are April, May, September, and October. These months feature pleasant weather, ideal for walking through the old town and enjoying the views from the bridge. The area is less crowded during these periods, allowing for a more immersive experience.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "July and August are less ideal for visiting due to the high temperatures and peak tourist season, which can result in crowded conditions and a less comfortable experience.",
+        "suggested_venues": [
+            {
+                "name": "Stari Most (Old Bridge)",
+                "description": "The centerpiece of the Old Bridge Area, this reconstructed medieval bridge offers stunning views and a rich history.",
+                "location": "Mostar, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Old Bazaar, Kujundziluk",
+                "description": "A historic market area near the bridge, where you can find traditional crafts, souvenirs, and local food.",
+                "location": "Mostar, Bosnia and Herzegovina"
+            },
+            {
+                "name": "War Photo Exhibition",
+                "description": "An exhibition that depicts the history of the Bosnian War and the destruction and reconstruction of the Old Bridge.",
+                "location": "Mostar, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Koski Mehmed Pasha Mosque",
+                "description": "An Ottoman-era mosque in Mostar offering panoramic views of the city and the Old Bridge from its minaret.",
+                "location": "Mostar, Bosnia and Herzegovina"
+            }
+        ]
+    },    
     {
         "name": "Visiting the Sarajevo Tunnel Museum",
         "category": "History",
@@ -17,7 +43,33 @@
         "city": "Sarajevo",
         "longitude": 18.3081,
         "latitude": 43.8563,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best months to visit the Sarajevo Tunnel Museum are April, May, September, and October. These months offer mild weather, making it more comfortable to explore the museum and the surrounding area. The weather during these months is ideal for both indoor and outdoor activities in Sarajevo.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for visiting the Tunnel Museum due to cold weather, which can make the visit less comfortable, especially when exploring outdoor parts of the museum.",
+        "suggested_venues": [
+            {
+                "name": "Sarajevo Tunnel Museum",
+                "description": "The main attraction, this museum offers a unique insight into the Siege of Sarajevo, showcasing the tunnel that was vital for the survival of the city's residents.",
+                "location": "Sarajevo, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Vrelo Bosne",
+                "description": "A park near Sarajevo, offering beautiful natural springs and a peaceful setting for relaxation and reflection.",
+                "location": "Near Sarajevo, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Baščaršija",
+                "description": "Sarajevo's old bazaar and the historical and cultural center of the city, filled with shops, cafes, and historical landmarks.",
+                "location": "Sarajevo, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Gazi Husrev-beg Mosque",
+                "description": "An important historical mosque in Sarajevo's old town, offering insights into the city's Ottoman past.",
+                "location": "Sarajevo, Bosnia and Herzegovina"
+            }
+        ]
     },
     {
         "name": "Exploring the Srebrenica-Potočari Memorial and Cemetery",
@@ -27,8 +79,34 @@
         "city": "Srebrenica",
         "longitude": 19.3006,
         "latitude": 44.0994,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best months to visit the Srebrenica-Potočari Memorial and Cemetery are April, May, September, and October. During these months, the weather is mild, providing a suitable atmosphere for reflection and remembrance. These periods are also less crowded, allowing for a more personal experience.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for visiting due to colder weather conditions, which can make the visit more challenging and less comfortable, especially when spending time outdoors at the memorial.",
+        "suggested_venues": [
+            {
+                "name": "Srebrenica-Potočari Memorial and Cemetery",
+                "description": "The main site, dedicated to the victims of the Srebrenica massacre, offering a sobering reminder of the atrocities of war and the importance of peace.",
+                "location": "Srebrenica, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Srebrenica Genocide Museum",
+                "description": "A museum near the memorial, providing historical context, personal stories, and exhibits related to the genocide in Srebrenica.",
+                "location": "Near Srebrenica, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Srebrenica Town",
+                "description": "The nearby town, offering additional insights into the local history and the impact of the Bosnian War on the community.",
+                "location": "Srebrenica, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Drina River",
+                "description": "A significant natural landmark in the region, symbolizing both the beauty of Bosnia and Herzegovina and the tragic events of the war.",
+                "location": "Near Srebrenica, Bosnia and Herzegovina"
+            }
+        ]
+    },    
     {
         "name": "Touring the Medieval Town of Počitelj",
         "category": "History",
@@ -37,7 +115,33 @@
         "city": "Počitelj",
         "longitude": 17.7719,
         "latitude": 43.1150,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best months to visit Počitelj are April, May, September, and October. During these months, the weather is mild and pleasant, ideal for exploring the historic streets, climbing the fortress, and enjoying panoramic views. The town is less crowded, allowing for a more intimate experience of its beauty and history.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "July and August are less ideal for visiting Počitelj due to the high temperatures and peak tourist season, which can make exploring the town less comfortable and more crowded.",
+        "suggested_venues": [
+            {
+                "name": "Počitelj Fortress",
+                "description": "A historic fortress offering breathtaking views of the Neretva River and the surrounding countryside.",
+                "location": "Počitelj, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Ottoman-era Architecture",
+                "description": "Explore the well-preserved Ottoman buildings, including mosques, houses, and public baths, showcasing the town's rich history.",
+                "location": "Počitelj, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Art Colony",
+                "description": "Počitelj hosts an annual art colony, attracting artists inspired by the town's architecture and atmosphere.",
+                "location": "Počitelj, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Local Craftsmen",
+                "description": "Visit the workshops of local craftsmen and artisans who keep traditional crafts alive, offering unique souvenirs and artwork.",
+                "location": "Počitelj, Bosnia and Herzegovina"
+            }
+        ]
     },
     {
         "name": "Rafting on the Neretva River",
@@ -47,8 +151,34 @@
         "city": "Konjic",
         "longitude": 17.9339,
         "latitude": 43.6500,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August"],
+        "best_time_to_go_description": "The ideal months for white-water rafting on the Neretva River are May, June, July, and August. During these months, the water levels are suitable for rafting, and the weather is warm, enhancing the rafting experience and enjoyment of the river's natural beauty.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of November, December, January, and February are less suitable for rafting on the Neretva River due to lower water levels and colder weather, which can make rafting less enjoyable and more challenging.",
+        "suggested_venues": [
+            {
+                "name": "Neretva River Rafting",
+                "description": "A popular outdoor activity in Konjic, offering a thrilling adventure through the river's rapids and canyons.",
+                "location": "Konjic, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Konjic Town",
+                "description": "The starting point for many rafting trips, this town is also worth exploring for its rich history and culture.",
+                "location": "Konjic, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Tito's Bunker",
+                "description": "A historic Cold War-era bunker near Konjic, offering a unique glimpse into the region's recent history.",
+                "location": "Near Konjic, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Neretva Canyon",
+                "description": "The scenic canyon through which the Neretva River flows, providing stunning landscapes and photo opportunities.",
+                "location": "Near Konjic, Bosnia and Herzegovina"
+            }
+        ]
+    },    
     {
         "name": "Hiking in Sutjeska National Park",
         "category": "Nature",
@@ -57,7 +187,33 @@
         "city": "Foča",
         "longitude": 18.7833,
         "latitude": 43.5000,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The best months for hiking in Sutjeska National Park are May, June, September, and October. During these months, the weather is favorable for hiking, with mild temperatures and less rainfall, making the trails more accessible and the natural scenery more enjoyable.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for hiking in Sutjeska National Park due to snow and colder temperatures, which can make trails difficult and less safe to navigate.",
+        "suggested_venues": [
+            {
+                "name": "Maglić Mountain",
+                "description": "The highest peak in Bosnia and Herzegovina, offering challenging trails and spectacular views from the summit.",
+                "location": "Sutjeska National Park, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Perućica Rainforest",
+                "description": "One of the last remaining primeval rainforests in Europe, located within the park, known for its biodiversity and natural beauty.",
+                "location": "Sutjeska National Park, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Trnovačko Lake",
+                "description": "A glacial lake near Maglić, famous for its heart shape and crystal-clear waters, a popular spot for relaxation after hiking.",
+                "location": "Near Sutjeska National Park, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Sutjeska River Canyon",
+                "description": "A dramatic canyon offering scenic views and opportunities for photography within the national park.",
+                "location": "Sutjeska National Park, Bosnia and Herzegovina"
+            }
+        ]
     },
     {
         "name": "Exploring the Bascarsija in Sarajevo",
@@ -67,7 +223,33 @@
         "city": "Sarajevo",
         "longitude": 18.4241,
         "latitude": 43.8563,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The ideal months to explore Bascarsija are April, May, September, and October. These months offer pleasant weather, suitable for walking through the bazaar and enjoying the outdoor cafes. The area is less crowded during these periods, providing a more authentic experience.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less suitable for visiting Bascarsija due to the cold weather, which can make outdoor exploration less enjoyable.",
+        "suggested_venues": [
+            {
+                "name": "Bascarsija",
+                "description": "Sarajevo's old bazaar, filled with shops selling traditional crafts, souvenirs, and local delicacies, along with historic mosques and buildings.",
+                "location": "Sarajevo, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Sebilj Fountain",
+                "description": "A historic Ottoman-style wooden fountain located in the heart of Bascarsija, a popular meeting point and photo spot.",
+                "location": "Bascarsija, Sarajevo, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Gazi Husrev-beg Mosque",
+                "description": "An important 16th-century mosque in Bascarsija, representing the heart of the cultural and religious life of the Sarajevo Muslim community.",
+                "location": "Bascarsija, Sarajevo, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Sarajevo City Hall",
+                "description": "Located near Bascarsija, known for its striking Austro-Hungarian architecture and housing the National and University Library.",
+                "location": "Sarajevo, Bosnia and Herzegovina"
+            }
+        ]
     },
     {
         "name": "Visiting the Kravice Waterfalls",
@@ -77,7 +259,33 @@
         "city": "Ljubuški",
         "longitude": 17.6078,
         "latitude": 43.1589,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The best months to visit the Kravice Waterfalls are May, June, September, and October. During these months, the weather is warm and pleasant, making it ideal for swimming and enjoying outdoor activities. The water level is also suitable for experiencing the waterfalls in their full glory.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of November, December, January, and February are less ideal for visiting the Kravice Waterfalls due to colder temperatures, which can make swimming and outdoor activities less enjoyable.",
+        "suggested_venues": [
+            {
+                "name": "Kravice Waterfalls",
+                "description": "The main attraction, featuring a stunning cascade of waterfalls that create a natural amphitheater of beauty, perfect for relaxation and nature photography.",
+                "location": "Near Ljubuški, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Picnic Areas",
+                "description": "Designated areas near the waterfalls, offering a perfect setting for a picnic amidst the natural beauty of the area.",
+                "location": "Near Kravice Waterfalls, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Swimming Spots",
+                "description": "Natural pools formed by the waterfalls, providing a refreshing swimming experience in a unique natural setting.",
+                "location": "Kravice Waterfalls, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Boat Tours",
+                "description": "Available in the area, offering a different perspective of the waterfalls and the surrounding landscape.",
+                "location": "Kravice Waterfalls, Bosnia and Herzegovina"
+            }
+        ]
     },
     {
         "name": "Touring the Blagaj Tekija",
@@ -87,7 +295,33 @@
         "city": "Blagaj",
         "longitude": 17.8882,
         "latitude": 43.2584,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The ideal months to visit the Blagaj Tekija are April, May, September, and October. During these months, the weather is pleasant, enhancing the experience of visiting the monastery and enjoying the beautiful natural surroundings of the Buna River. The site is less crowded, allowing for a more peaceful visit.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "July and August are less ideal for visiting Blagaj Tekija due to the high temperatures and peak tourist season, which can make the visit less comfortable and more crowded.",
+        "suggested_venues": [
+            {
+                "name": "Blagaj Tekija",
+                "description": "The main attraction, an historic Dervish monastery offering a unique insight into Sufi traditions, set against the backdrop of a dramatic cliff and spring.",
+                "location": "Blagaj, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Buna River Spring",
+                "description": "One of Europe’s strongest spring, located near the Tekija, providing a picturesque setting for the monastery.",
+                "location": "Blagaj, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Local Restaurants",
+                "description": "Several restaurants in the area offer the opportunity to enjoy traditional Bosnian cuisine with views of the river and Tekija.",
+                "location": "Blagaj, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Fortress of Herceg Stjepan",
+                "description": "A historic fortress located on a nearby hill, offering panoramic views of Blagaj and the surrounding area.",
+                "location": "Blagaj, Bosnia and Herzegovina"
+            }
+        ]
     },
     {
         "name": "Experiencing the Nightlife of Sarajevo",
@@ -97,6 +331,33 @@
         "city": "Sarajevo",
         "longitude": 18.4131,
         "latitude": 43.8563,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The best months to experience the nightlife of Sarajevo are June, July, August, and September. During these summer and early autumn months, the city is lively, with outdoor cafes and bars open late, and the weather is conducive to enjoying the night out.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for experiencing Sarajevo's nightlife due to the cold weather, which can dampen the outdoor nightlife scene.",
+        "suggested_venues": [
+            {
+                "name": "Sarajevo Bars and Clubs",
+                "description": "A variety of nightlife options, from cozy bars to energetic clubs, offering a taste of Sarajevo's vibrant night scene.",
+                "location": "Sarajevo, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Baščaršija Area",
+                "description": "The historic and cultural heart of Sarajevo, filled with cafes and bars, perfect for an evening stroll and a casual night out.",
+                "location": "Sarajevo, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Tito Bar",
+                "description": "A popular bar known for its unique decor and lively atmosphere, a favorite among locals and tourists alike.",
+                "location": "Sarajevo, Bosnia and Herzegovina"
+            },
+            {
+                "name": "Jazz Club Monument",
+                "description": "A renowned jazz club offering live music and a relaxed atmosphere, ideal for music lovers.",
+                "location": "Sarajevo, Bosnia and Herzegovina"
+            }
+        ]
     }
+    
 ]

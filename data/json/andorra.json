@@ -7,8 +7,34 @@
         "city": "Grandvalira",
         "longitude": 1.7187,
         "latitude": 42.5721,
-        "cost": "$$$"
-    },
+        "cost": "$$$",
+        "best_time_to_go": ["December", "January", "February", "March"],
+        "best_time_to_go_description": "The best months to go skiing in Grandvalira are December, January, February, and March. During these months, snow conditions are typically at their best, providing excellent skiing and snowboarding opportunities. The ski resort is fully operational with a vibrant atmosphere.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "The summer months of June, July, and August are the least ideal for skiing in Grandvalira as the ski resort is closed due to the lack of snow.",
+        "suggested_venues": [
+            {
+                "name": "Grandvalira Ski Resort",
+                "description": "The main attraction for skiing enthusiasts, offering a wide range of slopes suitable for all levels, along with ski schools and amenities.",
+                "location": "AD100 Grandvalira, Andorra"
+            },
+            {
+                "name": "Pas de la Casa",
+                "description": "A sector of Grandvalira known for its lively après-ski scene and a variety of slopes.",
+                "location": "Pas de la Casa, Grandvalira, Andorra"
+            },
+            {
+                "name": "Soldeu",
+                "description": "A family-friendly area within Grandvalira, offering ski schools, gentle slopes, and beautiful mountain views.",
+                "location": "Soldeu, Grandvalira, Andorra"
+            },
+            {
+                "name": "Canillo",
+                "description": "A sector of Grandvalira that is perfect for beginners and families, with gentle slopes and scenic views.",
+                "location": "Canillo, Grandvalira, Andorra"
+            }
+        ]
+    },    
     {
         "name": "Hiking in Vall de Madriu-Perafita-Claror",
         "category": "Nature",
@@ -20,15 +46,41 @@
         "cost": "$$"
     },
     {
-        "name": "Visiting Casa de la Vall",
-        "category": "History",
-        "score": 4,
-        "description": "Discover the historical and political significance of Casa de la Vall, the former seat of the Andorran Parliament.",
-        "city": "Andorra la Vella",
-        "longitude": 1.5218,
-        "latitude": 42.5073,
-        "cost": "$"
-    },
+        "name": "Hiking in Vall de Madriu-Perafita-Claror",
+        "category": "Nature",
+        "score": 5,
+        "description": "Explore the breathtaking landscapes of the UNESCO-listed Vall de Madriu-Perafita-Claror.",
+        "city": "Escaldes-Engordany",
+        "longitude": 1.5645,
+        "latitude": 42.5063,
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The best months for hiking in Vall de Madriu-Perafita-Claror are June, July, August, and September. During these months, the weather is warm and the natural beauty of the valley is at its peak, offering ideal conditions for hiking and exploring the diverse landscapes.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for hiking in Vall de Madriu-Perafita-Claror due to snow and cold weather, which can make hiking trails inaccessible and less safe.",
+        "suggested_venues": [
+            {
+                "name": "Vall de Madriu-Perafita-Claror",
+                "description": "The main hiking area, a UNESCO World Heritage site known for its stunning natural beauty, diverse ecosystems, and rich cultural heritage.",
+                "location": "Vall de Madriu-Perafita-Claror, Escaldes-Engordany, Andorra"
+            },
+            {
+                "name": "Engolasters Lake",
+                "description": "A beautiful mountain lake within the valley, offering scenic views and a peaceful environment for relaxation.",
+                "location": "Engolasters Lake, Escaldes-Engordany, Andorra"
+            },
+            {
+                "name": "Refugi de Claror",
+                "description": "A mountain refuge in the valley, providing a resting point for hikers and an opportunity to immerse in the natural surroundings.",
+                "location": "Vall de Madriu-Perafita-Claror, Escaldes-Engordany, Andorra"
+            },
+            {
+                "name": "Pic de Carroi",
+                "description": "A peak offering panoramic views of the valley and the surrounding mountain ranges, a rewarding hike for more experienced hikers.",
+                "location": "Pic de Carroi, Escaldes-Engordany, Andorra"
+            }
+        ]
+    },    
     {
         "name": "Relaxing at Caldea Thermal Spa",
         "category": "Leisure",
@@ -37,8 +89,35 @@
         "city": "Escaldes-Engordany",
         "longitude": 1.5385,
         "latitude": 42.5093,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["March", "April", "May", "October"],
+        "best_time_to_go_description": "The best months to visit Caldea Thermal Spa are March, April, May, and October. During these months, the weather is mild, making it a perfect time to enjoy the thermal waters. The spa is less crowded compared to the peak tourist season, offering a more tranquil experience.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "July and August are the peak tourist months in Escaldes-Engordany, which can lead to overcrowding at the spa. The summer heat also makes the appeal of thermal waters less enticing for some visitors.",
+        "suggested_venues": [
+            {
+                "name": "Caldea Thermal Spa",
+                "description": "The main attraction, offering a range of hydrotherapy treatments, baths, and relaxation areas in a state-of-the-art facility.",
+                "location": "Parc de la Mola, 10, AD700 Escaldes-Engordany, Andorra"
+            },
+            {
+                "name": "Inúu Wellness Attitude",
+                "description": "An exclusive, adults-only wellness center within Caldea, providing a more intimate and luxurious spa experience.",
+                "location": "Caldea Thermal Spa, Escaldes-Engordany, Andorra"
+            },
+            {
+                "name": "Escaldes-Engordany Art Center (CAEE)",
+                "description": "A cultural venue offering art exhibitions and events, perfect for a cultural visit after relaxing at the spa.",
+                "location": "Av. Carlemany, 30, AD700 Escaldes-Engordany, Andorra"
+            },
+            {
+                "name": "Vallnord Ski Resort",
+                "description": "During the winter season, a nearby ski resort offers outdoor activities, complementing a spa visit with some adventure.",
+                "location": "AD400 La Massana, Andorra"
+            }
+        ]
     },
+
     {
         "name": "Exploring the Church of Sant Joan de Caselles",
         "category": "Culture",
@@ -47,56 +126,214 @@
         "city": "Canillo",
         "longitude": 1.5976,
         "latitude": 42.5676,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The best months to visit the Church of Sant Joan de Caselles are April, May, June, September, and October. These months offer pleasant weather, ideal for exploring the historical site and enjoying the scenic beauty of its surroundings. The tourist crowds are less dense during these times.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for visiting the Church of Sant Joan de Caselles due to cold weather and potential snowfall, which can make access more challenging and reduce the hours of operation.",
+        "suggested_venues": [
+            {
+                "name": "Church of Sant Joan de Caselles",
+                "description": "The main attraction, this church is renowned for its well-preserved Romanesque frescoes and architecture, offering a glimpse into the region's medieval past.",
+                "location": "AD100 Canillo, Andorra"
+            },
+            {
+                "name": "Palau de Gel",
+                "description": "An ice rink and sports complex in Canillo, offering a variety of activities and fun for all ages.",
+                "location": "Avinguda Sant Joan de Caselles, AD100 Canillo, Andorra"
+            },
+            {
+                "name": "Mirador Roc del Quer",
+                "description": "A scenic viewpoint near Canillo, providing breathtaking views of the Andorran landscape.",
+                "location": "Carretera de Montaup, Canillo, Andorra"
+            },
+            {
+                "name": "Grandvalira Ski Resort",
+                "description": "A nearby major ski resort, offering a range of winter sports activities and beautiful mountainous landscapes.",
+                "location": "Grandvalira, Andorra"
+            }
+        ]
     },
+
     {
-        "name": "Mountain Biking in Vallnord",
-        "category": "Adventure",
-        "score": 4,
-        "description": "Experience the adrenaline rush of mountain biking in Vallnord, known for its challenging trails and beautiful scenery.",
-        "city": "La Massana",
-        "longitude": 1.4914,
-        "latitude": 42.5450,
-        "cost": "$$"
-    },
-    {
-        "name": "Shopping in Andorra la Vella",
-        "category": "Shopping",
-        "score": 3,
-        "description": "Enjoy a day of shopping in Andorra la Vella, offering a variety of stores and duty-free shopping.",
-        "city": "Andorra la Vella",
-        "longitude": 1.5232,
-        "latitude": 42.5063,
-        "cost": "$$"
-    },
-    {
-        "name": "Touring the Tobacco Museum",
-        "category": "Culture",
-        "score": 2,
-        "description": "Learn about the history of tobacco and its impact on Andorra at the Tobacco Museum.",
-        "city": "Sant Julià de Lòria",
-        "longitude": 1.4913,
-        "latitude": 42.4634,
-        "cost": "$"
-    },
-    {
-        "name": "Visiting the Ordino-Arcalís Ski Resort",
-        "category": "Adventure",
-        "score": 4,
-        "description": "Explore the beautiful slopes of Ordino-Arcalís, a popular ski resort offering excellent facilities.",
-        "city": "Ordino",
-        "longitude": 1.5332,
-        "latitude": 42.6270,
-        "cost": "$$$"
-    },
-    {
-        "name": "Hiking in Coma Pedrosa Nature Reserve",
-        "category": "Nature",
-        "score": 5,
-        "description": "Trek through Coma Pedrosa Nature Reserve and ascend to Andorra's highest peak, offering stunning panoramic views.",
-        "city": "Arinsal",
-        "longitude": 1.4845,
-        "latitude": 42.5727,
-        "cost": "$$"
-    }
+    "name": "Mountain Biking in Vallnord",
+    "category": "Adventure",
+    "score": 4,
+    "description": "Experience the adrenaline rush of mountain biking in Vallnord, known for its challenging trails and beautiful scenery.",
+    "city": "La Massana",
+    "longitude": 1.4914,
+    "latitude": 42.5450,
+    "cost": "$$",
+    "best_time_to_go": ["June", "July", "August", "September"],
+    "best_time_to_go_description": "The best months for mountain biking in Vallnord are June, July, August, and September. During these months, the weather is ideal for outdoor activities, with trails being dry and in good condition. The resort is fully operational, offering a range of trails for all skill levels.",
+    "worst_time_to_go": ["December", "January", "February"],
+    "worst_time_to_go_description": "The winter months of December, January, and February are less suitable for mountain biking in Vallnord due to snow and winter sports activities, making most biking trails inaccessible.",
+    "suggested_venues": [
+        {
+            "name": "Vallnord Bike Park",
+            "description": "A premier destination for mountain biking enthusiasts, featuring a variety of trails, jumps, and downhill courses.",
+            "location": "Vallnord Bike Park, La Massana, Andorra"
+        },
+        {
+            "name": "Comapedrosa Natural Park",
+            "description": "A nearby natural park offering scenic mountain biking routes and stunning natural landscapes.",
+            "location": "Parc Natural Comunal de les Valls del Comapedrosa, La Massana, Andorra"
+        },
+        {
+            "name": "Pal-Arinsal",
+            "description": "Part of Vallnord, this area provides a mix of mountain biking trails suitable for both beginners and advanced riders.",
+            "location": "Pal-Arinsal, La Massana, Andorra"
+        },
+        {
+            "name": "Caldea Thermal Spa",
+            "description": "A great place to relax and rejuvenate after a day of mountain biking, offering thermal baths and wellness treatments.",
+            "location": "Parc de la Mola, 10, AD700 Escaldes-Engordany, Andorra"
+        }
+    ]
+},
+
+{
+    "name": "Shopping in Andorra la Vella",
+    "category": "Shopping",
+    "score": 3,
+    "description": "Enjoy a day of shopping in Andorra la Vella, offering a variety of stores and duty-free shopping.",
+    "city": "Andorra la Vella",
+    "longitude": 1.5232,
+    "latitude": 42.5063,
+    "cost": "$$",
+    "best_time_to_go": ["May", "June", "September", "October"],
+    "best_time_to_go_description": "The best months for shopping in Andorra la Vella are May, June, September, and October. During these months, the city is less crowded than in the peak tourist season, providing a more comfortable shopping experience. The weather is also pleasant, making it enjoyable to walk around the city.",
+    "worst_time_to_go": ["December", "January"],
+    "worst_time_to_go_description": "December and January are peak tourist months due to the winter sports season, which can lead to overcrowding in shopping areas. Additionally, winter weather may make outdoor shopping less comfortable.",
+    "suggested_venues": [
+        {
+            "name": "Avinguda Meritxell",
+            "description": "The main shopping street in Andorra la Vella, lined with a range of stores, from high-end boutiques to popular international brands.",
+            "location": "Avinguda Meritxell, Andorra la Vella, Andorra"
+        },
+        {
+            "name": "Centro Comercial Pyrénées",
+            "description": "A large department store offering a variety of goods, from fashion and electronics to gourmet food.",
+            "location": "Avinguda Meritxell, 11, AD500 Andorra la Vella, Andorra"
+        },
+        {
+            "name": "Illusion Boutique",
+            "description": "A unique local boutique offering a selection of fashion, accessories, and gifts.",
+            "location": "Carrer de la Unió, 9, AD500 Andorra la Vella, Andorra"
+        },
+        {
+            "name": "Caldea Thermal Spa",
+            "description": "A great place to unwind after a day of shopping, offering thermal baths and relaxation experiences.",
+            "location": "Parc de la Mola, 10, AD700 Escaldes-Engordany, Andorra"
+        }
+    ]
+},
+{
+    "name": "Touring the Tobacco Museum",
+    "category": "Culture",
+    "score": 2,
+    "description": "Learn about the history of tobacco and its impact on Andorra at the Tobacco Museum.",
+    "city": "Sant Julià de Lòria",
+    "longitude": 1.4913,
+    "latitude": 42.4634,
+    "cost": "$",
+    "best_time_to_go": ["April", "May", "September", "October"],
+    "best_time_to_go_description": "The best months to visit the Tobacco Museum are April, May, September, and October. During these months, the weather is mild and pleasant, making it comfortable to explore the museum and the surrounding area. Additionally, these periods are less crowded, offering a more relaxed museum experience.",
+    "worst_time_to_go": ["December", "January", "February"],
+    "worst_time_to_go_description": "The winter months of December, January, and February are less ideal for visiting the Tobacco Museum due to colder temperatures, which can make traveling to and from the museum less comfortable.",
+    "suggested_venues": [
+        {
+            "name": "Tobacco Museum",
+            "description": "The main attraction, this museum offers an insightful look into the history of tobacco cultivation and its significance in Andorra, featuring interactive exhibits and historical artifacts.",
+            "location": "Carrer del Doctor Palau, 17, AD600 Sant Julià de Lòria, Andorra"
+        },
+        {
+            "name": "Naturlandia",
+            "description": "A nearby adventure park offering a variety of outdoor activities, perfect for families and nature enthusiasts.",
+            "location": "Carretera de la Rabassa, Km. 8, AD600 Sant Julià de Lòria, Andorra"
+        },
+        {
+            "name": "La Rabassa Forest",
+            "description": "A beautiful natural area near Sant Julià de Lòria, ideal for hiking, picnicking, and enjoying the scenic views.",
+            "location": "AD600 Sant Julià de Lòria, Andorra"
+        },
+        {
+            "name": "Juberri Gardens",
+            "description": "Unique gardens featuring miniature models of famous landmarks and whimsical sculptures, a short drive from the museum.",
+            "location": "Juberri, AD600 Sant Julià de Lòria, Andorra"
+        }
+    ]
+},
+{
+    "name": "Visiting the Ordino-Arcalís Ski Resort",
+    "category": "Adventure",
+    "score": 4,
+    "description": "Explore the beautiful slopes of Ordino-Arcalís, a popular ski resort offering excellent facilities.",
+    "city": "Ordino",
+    "longitude": 1.5332,
+    "latitude": 42.6270,
+    "cost": "$$$",
+    "best_time_to_go": ["December", "January", "February", "March"],
+    "best_time_to_go_description": "The best months to visit the Ordino-Arcalís Ski Resort are December, January, February, and March. During these winter months, the resort offers the best snow conditions for skiing and snowboarding, along with a vibrant winter sports atmosphere.",
+    "worst_time_to_go": ["June", "July", "August"],
+    "worst_time_to_go_description": "The summer months of June, July, and August are not suitable for skiing as the resort is typically closed due to the lack of snow. These months are better suited for hiking and other summer activities in the area.",
+    "suggested_venues": [
+        {
+            "name": "Ordino-Arcalís Ski Resort",
+            "description": "The main attraction, known for its varied slopes, modern facilities, and stunning mountain views, catering to both beginners and experienced skiers.",
+            "location": "AD300 Ordino, Andorra"
+        },
+        {
+            "name": "Tristaina Lakes",
+            "description": "A series of scenic alpine lakes near the resort, offering beautiful hiking trails and picturesque landscapes.",
+            "location": "Near Ordino-Arcalís, Andorra"
+        },
+        {
+            "name": "Ordino Town",
+            "description": "Explore the charming town of Ordino, with its traditional architecture, cultural sites, and cozy restaurants.",
+            "location": "Ordino, Andorra"
+        },
+        {
+            "name": "Vallnord Mountain Park",
+            "description": "During the summer, this park offers a variety of outdoor activities like mountain biking, archery, and family-friendly adventures.",
+            "location": "Vallnord, Ordino, Andorra"
+        }
+    ]
+},
+{
+    "name": "Hiking in Coma Pedrosa Nature Reserve",
+    "category": "Nature",
+    "score": 5,
+    "description": "Trek through Coma Pedrosa Nature Reserve and ascend to Andorra's highest peak, offering stunning panoramic views.",
+    "city": "Arinsal",
+    "longitude": 1.4845,
+    "latitude": 42.5727,
+    "cost": "$$",
+    "best_time_to_go": ["June", "July", "August", "September"],
+    "best_time_to_go_description": "The best months for hiking in Coma Pedrosa Nature Reserve are June, July, August, and September. During these months, the weather is ideal for hiking, with warmer temperatures and minimal snow, allowing full access to trails and clear views from the peak.",
+    "worst_time_to_go": ["December", "January", "February"],
+    "worst_time_to_go_description": "The winter months of December, January, and February are less suitable for hiking in Coma Pedrosa Nature Reserve due to heavy snowfall and cold temperatures, making trails difficult and potentially dangerous.",
+    "suggested_venues": [
+        {
+            "name": "Coma Pedrosa Peak",
+            "description": "The highest point in Andorra, providing challenging hiking trails and rewarding views over the Pyrenees.",
+            "location": "Coma Pedrosa, Arinsal, Andorra"
+        },
+        {
+            "name": "Refugi Coma Pedrosa",
+            "description": "A mountain refuge located within the nature reserve, offering a resting point for hikers and climbers.",
+            "location": "Trail to Coma Pedrosa, Arinsal, Andorra"
+        },
+        {
+            "name": "Estanys de Coma Pedrosa",
+            "description": "Glacial lakes located in the nature reserve, adding to the scenic beauty and offering a serene hiking destination.",
+            "location": "Near Coma Pedrosa, Arinsal, Andorra"
+        },
+        {
+            "name": "Vallnord Pal-Arinsal",
+            "description": "A ski resort in the winter, which also offers summer activities such as mountain biking and cable car rides to enjoy the mountain scenery.",
+            "location": "Pal-Arinsal, Arinsal, Andorra"
+        }
+    ]
+}
 ]

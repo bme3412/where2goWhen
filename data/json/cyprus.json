@@ -7,8 +7,34 @@
         "city": "Paphos",
         "longitude": 32.4054,
         "latitude": 34.7720,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["March", "April", "May", "October", "November"],
+        "best_time_to_go_description": "The best times to visit are during spring and late autumn when the weather is mild, making it comfortable to explore the outdoor archaeological site without the intense heat of the summer.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "The summer months can be extremely hot, potentially making outdoor exploration less enjoyable and more exhausting at this exposed historical site.",
+        "suggested_venues": [
+            {
+                "name": "Paphos Archaeological Park",
+                "description": "A significant archaeological site near the Tombs of the Kings, featuring well-preserved mosaics and historical ruins from different periods.",
+                "location": "Paphos, Cyprus"
+            },
+            {
+                "name": "Paphos Castle",
+                "description": "A historic fortification at the harbor of Paphos, offering scenic views and a glimpse into the city's past.",
+                "location": "Paphos, Cyprus"
+            },
+            {
+                "name": "Agios Neophytos Monastery",
+                "description": "A beautiful monastery nestled in the hills near Paphos, known for its frescoes and tranquil setting.",
+                "location": "Near Paphos, Cyprus"
+            },
+            {
+                "name": "Coral Bay",
+                "description": "A popular beach area near Paphos, perfect for relaxation and water activities, with crystal-clear waters and sandy shores.",
+                "location": "Near Paphos, Cyprus"
+            }
+        ]
+    },    
     {
         "name": "Hiking in Troodos Mountains",
         "category": "Adventure",
@@ -17,7 +43,33 @@
         "city": "Troodos",
         "longitude": 32.8631,
         "latitude": 34.9207,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The ideal times to hike in the Troodos Mountains are spring and autumn, with pleasant temperatures and the natural beauty of the mountains at its peak, avoiding the summer heat and winter snow.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter months can be challenging for hiking due to snow and colder temperatures, which may limit access to trails and reduce the comfort of outdoor activities.",
+        "suggested_venues": [
+            {
+                "name": "Mount Olympus",
+                "description": "The highest peak in the Troodos Mountains, offering hiking trails with stunning views and a chance to experience the diverse flora and fauna of the area.",
+                "location": "Troodos Mountains, Cyprus"
+            },
+            {
+                "name": "Kykkos Monastery",
+                "description": "One of the most famous and rich monasteries in Cyprus, located in the Troodos Mountains, known for its historical significance and beautiful mosaics.",
+                "location": "Troodos Mountains, Cyprus"
+            },
+            {
+                "name": "Caledonia Waterfalls",
+                "description": "A scenic waterfall in the Troodos Mountains, accessible by a pleasant hiking trail, offering a refreshing stop amidst the natural beauty of the area.",
+                "location": "Troodos Mountains, Cyprus"
+            },
+            {
+                "name": "Troodos Geopark",
+                "description": "A geopark showcasing the geological heritage of the Troodos Mountains, with various trails leading to significant geological formations and viewpoints.",
+                "location": "Troodos Mountains, Cyprus"
+            }
+        ]
     },
     {
         "name": "Exploring the Archaeological Park of Kato Paphos",
@@ -27,8 +79,34 @@
         "city": "Paphos",
         "longitude": 32.4085,
         "latitude": 34.7566,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "October", "November"],
+        "best_time_to_go_description": "Spring and late autumn are the best times to visit, offering mild weather for comfortable exploration of the outdoor archaeological site, with less intense heat and fewer crowds than the summer.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be very hot, which might make exploring the open-air archaeological park less enjoyable.",
+        "suggested_venues": [
+            {
+                "name": "House of Dionysos",
+                "description": "A part of the Archaeological Park known for its elaborate floor mosaics depicting scenes from Greek mythology, particularly those involving Dionysos.",
+                "location": "Kato Paphos Archaeological Park, Cyprus"
+            },
+            {
+                "name": "Paphos Castle",
+                "description": "A historic fortification at the harbor of Paphos, near the archaeological park, offering scenic views and a glimpse into the city's past.",
+                "location": "Paphos, Cyprus"
+            },
+            {
+                "name": "St. Paul's Pillar",
+                "description": "A historical site in Paphos where, according to tradition, Saint Paul was flogged, situated near the archaeological park.",
+                "location": "Paphos, Cyprus"
+            },
+            {
+                "name": "Tombs of the Kings",
+                "description": "An ancient necropolis near Kato Paphos, part of the Archaeological Park, featuring impressive underground tombs carved out of rock.",
+                "location": "Paphos, Cyprus"
+            }
+        ]
+    },    
     {
         "name": "Relaxing at Nissi Beach",
         "category": "Leisure",
@@ -37,7 +115,33 @@
         "city": "Ayia Napa",
         "longitude": 33.9618,
         "latitude": 34.9881,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "Late spring and early autumn are ideal for visiting Nissi Beach, offering warm weather and sunny days with fewer crowds than the peak summer months.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months are less ideal due to cooler temperatures, which are not conducive for beach activities and swimming.",
+        "suggested_venues": [
+            {
+                "name": "Ayia Napa Monastery",
+                "description": "A historic and serene monastery in the heart of Ayia Napa, offering a contrast to the beach atmosphere and a glimpse into the cultural heritage of the area.",
+                "location": "Ayia Napa, Cyprus"
+            },
+            {
+                "name": "Cape Greco National Forest Park",
+                "description": "A beautiful natural park near Ayia Napa, known for its stunning sea views, hiking trails, and tranquil environment.",
+                "location": "Near Ayia Napa, Cyprus"
+            },
+            {
+                "name": "WaterWorld Themed Waterpark",
+                "description": "One of Europe's largest themed waterparks, offering a fun and exciting day out for families and visitors of all ages, located near Nissi Beach.",
+                "location": "Ayia Napa, Cyprus"
+            },
+            {
+                "name": "Makronissos Beach",
+                "description": "Another beautiful beach in the vicinity of Nissi, known for its clear waters and fine sand, offering a more relaxed atmosphere.",
+                "location": "Near Ayia Napa, Cyprus"
+            }
+        ]
     },
     {
         "name": "Wine Tasting in Limassol",
@@ -47,7 +151,33 @@
         "city": "Limassol",
         "longitude": 33.0462,
         "latitude": 34.7071,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best times for wine tasting in Limassol are during the spring and early autumn months when the weather is pleasant, and the vineyards are either blooming or ready for harvest.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter may not be the ideal time for visiting vineyards due to cooler temperatures and reduced activity in the wineries.",
+        "suggested_venues": [
+            {
+                "name": "Kolossi Castle",
+                "description": "A historical site near Limassol, known for its connection to the production of Commandaria, the famous Cypriot dessert wine.",
+                "location": "Near Limassol, Cyprus"
+            },
+            {
+                "name": "Omodos Village",
+                "description": "A picturesque village in the Limassol wine region, offering a traditional Cypriot experience with local wineries and charming streets.",
+                "location": "Limassol District, Cyprus"
+            },
+            {
+                "name": "Vlassides Winery",
+                "description": "A renowned winery in the Limassol region, offering tastings of high-quality wines including the local specialty, Commandaria.",
+                "location": "Near Limassol, Cyprus"
+            },
+            {
+                "name": "Kyperounda Winery",
+                "description": "Situated in the mountainous region near Limassol, this winery is known for its exceptional wines and stunning views of the vineyards.",
+                "location": "Near Limassol, Cyprus"
+            }
+        ]
     },
     {
         "name": "Visiting the Kykkos Monastery",
@@ -57,7 +187,33 @@
         "city": "Kykkos",
         "longitude": 32.7318,
         "latitude": 34.9204,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "Visiting in spring and early autumn is ideal, offering pleasant weather and the opportunity to explore the monastery and its surroundings comfortably, avoiding the summer heat.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months can be less favorable due to colder temperatures and potential snow in the mountainous region, which might affect access and the overall experience.",
+        "suggested_venues": [
+            {
+                "name": "Kykkos Museum",
+                "description": "Part of the monastery complex, this museum houses religious artifacts, manuscripts, and icons, offering insight into the history and cultural significance of the monastery.",
+                "location": "Kykkos Monastery, Cyprus"
+            },
+            {
+                "name": "Throni of Panagia",
+                "description": "A nearby site with a statue of the Virgin Mary, offering panoramic views of the surrounding mountains and forests.",
+                "location": "Near Kykkos Monastery, Cyprus"
+            },
+            {
+                "name": "Troodos Mountains",
+                "description": "The surrounding mountainous area, known for its natural beauty, hiking trails, and picturesque villages, offering a complete experience of the Cypriot highlands.",
+                "location": "Cyprus"
+            },
+            {
+                "name": "Marathasa Valley",
+                "description": "A fertile valley near the monastery, known for its cherry orchards, traditional villages, and scenic beauty, ideal for a leisurely exploration.",
+                "location": "Near Kykkos Monastery, Cyprus"
+            }
+        ]
     },
     {
         "name": "Exploring the Old Town of Nicosia",
@@ -67,8 +223,34 @@
         "city": "Nicosia",
         "longitude": 33.3642,
         "latitude": 35.1739,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["March", "April", "May", "October", "November"],
+        "best_time_to_go_description": "Spring and late autumn are ideal for exploring Nicosia, with comfortable weather conducive to walking and sightseeing in the historic areas.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be extremely hot, potentially making walking tours and exploration less comfortable in the open areas of the Old Town.",
+        "suggested_venues": [
+            {
+                "name": "Venetian Walls of Nicosia",
+                "description": "The impressive walls surrounding the Old Town, a remnant of Venetian architecture, offering a historic backdrop to the city.",
+                "location": "Nicosia, Cyprus"
+            },
+            {
+                "name": "Leventis Municipal Museum of Nicosia",
+                "description": "A museum dedicated to the history of Nicosia, showcasing artifacts and exhibits from different periods of the city's past.",
+                "location": "Nicosia, Cyprus"
+            },
+            {
+                "name": "Buyuk Han",
+                "description": "A historical inn that has been restored and now serves as a cultural center with shops, cafes, and art galleries, reflecting the diverse history of Nicosia.",
+                "location": "Nicosia, Cyprus"
+            },
+            {
+                "name": "Ledra Street",
+                "description": "A bustling pedestrian street in the Old Town, lined with shops, cafes, and restaurants, offering a lively atmosphere and a blend of modern and traditional experiences.",
+                "location": "Nicosia, Cyprus"
+            }
+        ]
+    },    
     {
         "name": "Discovering the Akamas Peninsula",
         "category": "Nature",
@@ -77,7 +259,33 @@
         "city": "Akamas",
         "longitude": 32.3704,
         "latitude": 34.9911,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "October"],
+        "best_time_to_go_description": "Spring and early autumn are the best times to visit the Akamas Peninsula, offering mild weather, blooming nature, and the opportunity to explore the area's diverse landscapes without the extreme heat of summer.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be very hot, potentially making outdoor activities like hiking and wildlife watching less comfortable.",
+        "suggested_venues": [
+            {
+                "name": "Blue Lagoon",
+                "description": "A stunning natural lagoon on the Akamas Peninsula, known for its crystal-clear waters and beautiful setting, perfect for swimming and snorkeling.",
+                "location": "Akamas Peninsula, Cyprus"
+            },
+            {
+                "name": "Avakas Gorge",
+                "description": "A striking natural gorge within the peninsula, offering scenic hikes through rocky landscapes and a diverse range of flora and fauna.",
+                "location": "Akamas Peninsula, Cyprus"
+            },
+            {
+                "name": "Lara Beach",
+                "description": "A remote and beautiful beach in the Akamas region, known as a nesting site for sea turtles and a great spot for relaxation and nature observation.",
+                "location": "Akamas Peninsula, Cyprus"
+            },
+            {
+                "name": "Baths of Aphrodite",
+                "description": "A historic and picturesque site on the peninsula, where, according to mythology, the goddess Aphrodite used to bathe.",
+                "location": "Akamas Peninsula, Cyprus"
+            }
+        ]
     },
     {
         "name": "Visiting Larnaca Salt Lake",
@@ -87,7 +295,33 @@
         "city": "Larnaca",
         "longitude": 33.6290,
         "latitude": 34.9224,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["November", "December", "January", "February"],
+        "best_time_to_go_description": "The winter months are ideal for visiting Larnaca Salt Lake, especially for bird watching, as this is the season when flamingos and other migratory birds are most likely to be present.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "Summer can be less favorable due to the extreme heat and the drying up of the lakes, which diminishes the wildlife viewing opportunities.",
+        "suggested_venues": [
+            {
+                "name": "Hala Sultan Tekke",
+                "description": "A historic mosque and important pilgrimage site located on the banks of Larnaca Salt Lake, set in a tranquil and scenic environment.",
+                "location": "Larnaca, Cyprus"
+            },
+            {
+                "name": "Larnaca Promenade",
+                "description": "A lively promenade along the Larnaca coastline, offering cafes, shops, and beautiful sea views, perfect for a leisurely walk.",
+                "location": "Larnaca, Cyprus"
+            },
+            {
+                "name": "Larnaca Medieval Castle",
+                "description": "A historical fortress in Larnaca, offering a glimpse into the city's past and panoramic views from its ramparts.",
+                "location": "Larnaca, Cyprus"
+            },
+            {
+                "name": "Zenobia Wreck",
+                "description": "A famous dive site in Larnaca, where the wreck of the MS Zenobia, a sunken ferry, lies, attracting divers from around the world.",
+                "location": "Larnaca, Cyprus"
+            }
+        ]
     },
     {
         "name": "Exploring the Medieval Castle of Kolossi",
@@ -97,6 +331,32 @@
         "city": "Kolossi",
         "longitude": 32.9292,
         "latitude": 34.6703,
-        "cost": "$"
-    }
+        "cost": "$",
+        "best_time_to_go": ["March", "April", "May", "October", "November"],
+        "best_time_to_go_description": "The ideal times to visit are spring and late autumn, offering pleasant weather for exploring the historic structure without the intense heat of the summer.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be extremely hot, which might make exploring the castle and its surroundings less comfortable.",
+        "suggested_venues": [
+            {
+                "name": "Kolossi Plantation",
+                "description": "Nearby vineyards associated with the castle, historically known for producing Commandaria wine, one of the oldest named wines in the world.",
+                "location": "Kolossi, Cyprus"
+            },
+            {
+                "name": "Kourion Archaeological Site",
+                "description": "An impressive ancient city-state near Kolossi, featuring well-preserved mosaics, an amphitheater, and stunning coastal views.",
+                "location": "Near Kolossi, Cyprus"
+            },
+            {
+                "name": "Limassol",
+                "description": "The nearby city of Limassol, offering a vibrant waterfront, cultural sites, and a variety of dining and shopping options.",
+                "location": "Near Kolossi, Cyprus"
+            },
+            {
+                "name": "Omodos Village",
+                "description": "A traditional village in the Limassol wine region, offering a glimpse into Cypriot culture with local wineries and historic sites.",
+                "location": "Near Kolossi, Cyprus"
+            }
+        ]
+    }    
 ]

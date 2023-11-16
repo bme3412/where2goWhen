@@ -7,8 +7,34 @@
         "city": "Rila",
         "longitude": 23.3406,
         "latitude": 42.1333,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "September"],
+        "best_time_to_go_description": "The ideal months to visit the Rila Monastery are May, June, and September when the weather is warm and pleasant, perfect for admiring the architectural beauty and serene surroundings.",
+        "worst_time_to_go": ["November", "December", "January"],
+        "worst_time_to_go_description": "The winter months, particularly November to January, can be challenging for visiting due to cold temperatures and possible snow, which may hinder the full experience of the monastery.",
+        "suggested_venues": [
+            {
+                "name": "Rila National Park",
+                "description": "A breathtaking natural park surrounding the monastery, offering scenic trails and the opportunity to immerse in the beauty of Bulgaria's countryside.",
+                "location": "Near Rila, Bulgaria"
+            },
+            {
+                "name": "St. Ivan of Rila Cave",
+                "description": "A historic site near the monastery where St. Ivan of Rila, the monastery's founder, lived as a hermit before establishing the monastery.",
+                "location": "Near Rila Monastery, Bulgaria"
+            },
+            {
+                "name": "Seven Rila Lakes",
+                "description": "A series of stunning glacial lakes located in the Rila National Park, known for their natural beauty and hiking trails.",
+                "location": "Rila National Park, Bulgaria"
+            },
+            {
+                "name": "Rila Monastery Museum",
+                "description": "A museum within the monastery complex, showcasing religious artifacts, historical exhibits, and art pieces relevant to Bulgarian culture and the monastery's history.",
+                "location": "Rila Monastery, Bulgaria"
+            }
+        ]
+    },    
     {
         "name": "Hiking in Pirin National Park",
         "category": "Adventure",
@@ -17,7 +43,33 @@
         "city": "Bansko",
         "longitude": 23.4855,
         "latitude": 41.8404,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["June", "July", "August"],
+        "best_time_to_go_description": "The summer months of June, July, and August are the most favorable for hiking in Pirin National Park, offering warm weather, clear skies, and the full bloom of the park's diverse flora.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months can be challenging for hiking due to heavy snowfall, cold temperatures, and limited accessibility in the mountainous terrain of Pirin National Park.",
+        "suggested_venues": [
+            {
+                "name": "Vihren Peak",
+                "description": "The highest peak in Pirin National Park, offering challenging trails and stunning panoramic views of the park.",
+                "location": "Pirin National Park, Bulgaria"
+            },
+            {
+                "name": "Bansko Ski Resort",
+                "description": "A popular winter sports destination near the park, offering a variety of winter activities and amenities.",
+                "location": "Bansko, Bulgaria"
+            },
+            {
+                "name": "Banderishka Polyana",
+                "description": "A scenic area within the park, known for its lush meadows, diverse wildlife, and beautiful hiking trails.",
+                "location": "Pirin National Park, Bulgaria"
+            },
+            {
+                "name": "Demyanishki Skok Waterfall",
+                "description": "A breathtaking waterfall in the park, accessible via a scenic hiking trail, known for its natural beauty and serene environment.",
+                "location": "Pirin National Park, Bulgaria"
+            }
+        ]
     },
     {
         "name": "Exploring Sofia's Historic Center",
@@ -27,8 +79,34 @@
         "city": "Sofia",
         "longitude": 23.3219,
         "latitude": 42.6977,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "Spring and early autumn are ideal for exploring Sofia's historic center, with mild weather and fewer crowds, allowing for a more relaxed and enjoyable experience of the city's rich history.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The cold and snowy winter months can make outdoor exploration less comfortable and may obscure some of the historical sites.",
+        "suggested_venues": [
+            {
+                "name": "Alexander Nevsky Cathedral",
+                "description": "One of Sofia's most iconic landmarks, this large Eastern Orthodox cathedral is known for its impressive architecture and historical significance.",
+                "location": "Sofia, Bulgaria"
+            },
+            {
+                "name": "Serdica Roman Ruins",
+                "description": "Ancient Roman ruins in the heart of Sofia, offering a glimpse into the city's long history dating back to Roman times.",
+                "location": "Sofia, Bulgaria"
+            },
+            {
+                "name": "Banya Bashi Mosque",
+                "description": "A historical Ottoman mosque in Sofia, known for its beautiful architecture and cultural significance.",
+                "location": "Sofia, Bulgaria"
+            },
+            {
+                "name": "Sofia History Museum",
+                "description": "A museum dedicated to the history of Sofia, housing artifacts and exhibits that trace the city's development from ancient times to the present.",
+                "location": "Sofia, Bulgaria"
+            }
+        ]
+    },    
     {
         "name": "Visiting the Ancient City of Plovdiv",
         "category": "Culture",
@@ -37,8 +115,34 @@
         "city": "Plovdiv",
         "longitude": 24.7489,
         "latitude": 42.1419,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "Spring and early autumn are perfect for visiting Plovdiv, offering pleasant weather and the opportunity to fully enjoy the outdoor cultural and historical sites.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months are less ideal due to colder temperatures, which might detract from the experience of exploring the city's outdoor attractions.",
+        "suggested_venues": [
+            {
+                "name": "Plovdiv Roman Theatre",
+                "description": "A well-preserved ancient Roman theater, offering a glimpse into the historical grandeur of Plovdiv and hosting various cultural events.",
+                "location": "Plovdiv, Bulgaria"
+            },
+            {
+                "name": "Old Town Plovdiv",
+                "description": "A picturesque and historic area with beautifully restored buildings, art galleries, and quaint streets, reflecting the city's rich history.",
+                "location": "Plovdiv, Bulgaria"
+            },
+            {
+                "name": "Kapana Arts District",
+                "description": "A vibrant and artistic neighborhood in Plovdiv, known for its creative shops, cafes, and street art, showcasing the city's modern cultural scene.",
+                "location": "Plovdiv, Bulgaria"
+            },
+            {
+                "name": "Ethnographic Museum",
+                "description": "A museum set in a beautiful 19th-century house, displaying Bulgarian folk culture, crafts, and way of life.",
+                "location": "Plovdiv, Bulgaria"
+            }
+        ]
+    },    
     {
         "name": "Relaxing at the Sunny Beach Resort",
         "category": "Leisure",
@@ -47,8 +151,34 @@
         "city": "Sunny Beach",
         "longitude": 27.7125,
         "latitude": 42.6897,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August"],
+        "best_time_to_go_description": "Summer months are ideal for visiting Sunny Beach, with warm weather and sunny days perfect for beach activities and water sports.",
+        "worst_time_to_go": ["November", "December", "January"],
+        "worst_time_to_go_description": "The winter months see cooler temperatures and reduced services, making it less suitable for beach holidays.",
+        "suggested_venues": [
+            {
+                "name": "Action Aquapark",
+                "description": "A fun and exciting water park in Sunny Beach, offering a variety of water slides, pools, and attractions for all ages.",
+                "location": "Sunny Beach, Bulgaria"
+            },
+            {
+                "name": "Sunny Beach Promenade",
+                "description": "A lively promenade along the beach with numerous shops, cafes, and restaurants, perfect for a leisurely stroll or dining with a sea view.",
+                "location": "Sunny Beach, Bulgaria"
+            },
+            {
+                "name": "Nessebar",
+                "description": "A nearby ancient town, offering a rich history with well-preserved medieval architecture and charming streets.",
+                "location": "Near Sunny Beach, Bulgaria"
+            },
+            {
+                "name": "Cacao Beach",
+                "description": "A popular beach area known for its vibrant nightlife, beach bars, and music events.",
+                "location": "Sunny Beach, Bulgaria"
+            }
+        ]
+    },    
     {
         "name": "Tasting Bulgarian Wine in the Thracian Valley",
         "category": "Gastronomy",
@@ -57,8 +187,34 @@
         "city": "Plovdiv",
         "longitude": 25.2878,
         "latitude": 42.1354,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "Late spring and early autumn are the best times to visit for wine tasting, with pleasant weather and the grape harvest season in autumn offering a unique experience.",
+        "worst_time_to_go": ["January", "February"],
+        "worst_time_to_go_description": "The winter months are less ideal due to the cold weather and dormant vineyards, which can limit the full wine tasting experience.",
+        "suggested_venues": [
+            {
+                "name": "Villa Yustina Winery",
+                "description": "A renowned winery in the Thracian Valley offering tours and tastings, showcasing a variety of high-quality local wines.",
+                "location": "Near Plovdiv, Bulgaria"
+            },
+            {
+                "name": "Bessa Valley Winery",
+                "description": "Famous for its exceptional red wines, this winery provides a unique insight into the wine-making process and the region's wine culture.",
+                "location": "Thracian Valley, Bulgaria"
+            },
+            {
+                "name": "Dragomir Winery Estate",
+                "description": "A boutique winery known for its innovative approaches to winemaking and a selection of premium wines.",
+                "location": "Near Plovdiv, Bulgaria"
+            },
+            {
+                "name": "Starosel Wine Cellar",
+                "description": "A cellar offering a historical perspective on Bulgarian winemaking, with traditional methods and a range of exquisite wines.",
+                "location": "Thracian Valley, Bulgaria"
+            }
+        ]
+    },    
     {
         "name": "Exploring Belogradchik Rocks and Fortress",
         "category": "Nature",
@@ -67,8 +223,34 @@
         "city": "Belogradchik",
         "longitude": 22.6828,
         "latitude": 43.6244,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The mild weather in late spring and early autumn is ideal for exploring the Belogradchik Rocks and Fortress, with comfortable temperatures for outdoor activities and fewer crowds.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter months can be challenging due to cold weather and potential snow, making access to the rocks and fortress more difficult and less enjoyable.",
+        "suggested_venues": [
+            {
+                "name": "Belogradchik Fortress",
+                "description": "A historic fortress offering stunning views of the surrounding rock formations and landscape, with a rich history dating back to Roman times.",
+                "location": "Belogradchik, Bulgaria"
+            },
+            {
+                "name": "Magura Cave",
+                "description": "A nearby cave famous for its prehistoric paintings, remarkable formations, and a unique underground winery.",
+                "location": "Near Belogradchik, Bulgaria"
+            },
+            {
+                "name": "Rakovishki Monastery",
+                "description": "An ancient monastery nestled in the mountains near Belogradchik, known for its serene atmosphere and historical significance.",
+                "location": "Near Belogradchik, Bulgaria"
+            },
+            {
+                "name": "Astronomical Observatory and Planetarium",
+                "description": "An observatory near Belogradchik, providing an opportunity to explore the stars and learn about astronomy in a unique setting.",
+                "location": "Belogradchik, Bulgaria"
+            }
+        ]
+    },    
     {
         "name": "Touring the Boyana Church",
         "category": "History",
@@ -77,8 +259,34 @@
         "city": "Sofia",
         "longitude": 23.2675,
         "latitude": 42.6473,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The mild weather in spring and autumn is ideal for visiting the Boyana Church, providing a comfortable climate for exploring and appreciating the historic site.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter months may pose challenges due to colder weather, potentially impacting the enjoyment and accessibility of the church and its frescoes.",
+        "suggested_venues": [
+            {
+                "name": "National Museum of History",
+                "description": "One of the largest history museums in Bulgaria, located near the Boyana Church, showcasing a vast collection of Bulgarian historical artifacts.",
+                "location": "Sofia, Bulgaria"
+            },
+            {
+                "name": "Vitosha Mountain",
+                "description": "A prominent mountain near Sofia, offering hiking trails, scenic views, and a natural escape close to the city.",
+                "location": "Near Sofia, Bulgaria"
+            },
+            {
+                "name": "Dragalevtsi Monastery",
+                "description": "A historic monastery located in the foothills of Vitosha Mountain, known for its beautiful architecture and tranquil surroundings.",
+                "location": "Near Sofia, Bulgaria"
+            },
+            {
+                "name": "Sofia's Historical Center",
+                "description": "The central area of Sofia, rich in history and architecture, with various cultural sites, restaurants, and shops.",
+                "location": "Sofia, Bulgaria"
+            }
+        ]
+    },    
     {
         "name": "Visiting the Rose Valley",
         "category": "Nature",
@@ -87,8 +295,34 @@
         "city": "Kazanlak",
         "longitude": 25.3967,
         "latitude": 42.6194,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["May", "June"],
+        "best_time_to_go_description": "Late spring, particularly May and June, is the perfect time to visit the Rose Valley, coinciding with the blooming of the roses and the annual Rose Festival, offering a unique and vibrant experience.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter months are less ideal due to the dormant state of the roses and colder weather, which diminishes the valley's main attraction.",
+        "suggested_venues": [
+            {
+                "name": "Kazanlak Rose Festival",
+                "description": "An annual event celebrating the rose harvest, featuring parades, folk music, and demonstrations of rose oil production.",
+                "location": "Kazanlak, Bulgaria"
+            },
+            {
+                "name": "Thracian Tomb of Kazanlak",
+                "description": "A UNESCO World Heritage site near the Rose Valley, known for its well-preserved ancient frescoes and historical significance.",
+                "location": "Near Kazanlak, Bulgaria"
+            },
+            {
+                "name": "Rose Museum",
+                "description": "A museum dedicated to the history and production of rose oil in the region, offering insights into the cultural importance of rose cultivation in Bulgaria.",
+                "location": "Kazanlak, Bulgaria"
+            },
+            {
+                "name": "Damascena Ethnographic Complex",
+                "description": "A cultural complex in the heart of the Rose Valley, showcasing traditional Bulgarian architecture, gardens, and a distillery for rose oil.",
+                "location": "Near Kazanlak, Bulgaria"
+            }
+        ]
+    },    
     {
         "name": "Exploring the Madara Rider",
         "category": "Culture",
@@ -97,6 +331,33 @@
         "city": "Shumen",
         "longitude": 27.1806,
         "latitude": 43.2951,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The moderate temperatures in spring and autumn make it an ideal time to visit the Madara Rider, offering comfortable conditions for outdoor exploration and sightseeing.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The cold winter months can make the visit less pleasant, with potential snow and chilly winds affecting the accessibility and enjoyment of the outdoor site.",
+        "suggested_venues": [
+            {
+                "name": "Madara National Historical and Archaeological Reserve",
+                "description": "A reserve surrounding the Madara Rider, rich in historical and archaeological significance with various other artifacts and natural features.",
+                "location": "Near Shumen, Bulgaria"
+            },
+            {
+                "name": "Shumen Fortress",
+                "description": "A historical fortress near Shumen, offering panoramic views and a glimpse into the region's rich history.",
+                "location": "Shumen, Bulgaria"
+            },
+            {
+                "name": "Tombul Mosque",
+                "description": "The largest mosque in Bulgaria, located in Shumen, known for its unique architecture and cultural significance.",
+                "location": "Shumen, Bulgaria"
+            },
+            {
+                "name": "Pliska National Historical and Archaeological Reserve",
+                "description": "A site near Madara featuring the ruins of Pliska, the first capital of the Bulgarian Empire, with rich historical importance.",
+                "location": "Near Shumen, Bulgaria"
+            }
+        ]
     }
+    
 ]
