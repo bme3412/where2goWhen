@@ -9,14 +9,32 @@
         "latitude": 49.2583,
         "cost": "$$$",
         "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The ideal months to visit the Champagne region are from April to October, offering pleasant weather for vineyard tours and outdoor tastings, with the grape harvest usually occurring in September.",
         "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The off-season, particularly the colder months, may be less ideal for visits due to inclement weather and limited vineyard activities, although indoor tastings are still available.",
         "suggested_venues": [
-            {"name": "Moët & Chandon", "description": "Renowned for its Impérial champagne, this historic maison offers guided tours and tastings.","location": "20 Avenue de Champagne, 51200 Épernay, France"},
-            {"name": "Veuve Clicquot", "description": "Famous for its premium labels, it provides cellar tours and a glimpse into the champagne-making process.","location": "1 Rue Albert Thomas, 51100 Reims, France"},
-            {"name": "Taittinger", "description": "A family-run house known for its Chardonnay dominant blends, offering insightful cellar tours.","location": "9 Place Saint-Nicaise, 51100 Reims, France"},
-            {"name": "Dom Pérignon", "description": "Prestigious label, offering exclusive tastings and tours by appointment, known for its vintage champagnes.","location": "Hautvillers, 51160, France"}
+            {
+                "name": "Moët & Chandon",
+                "description": "Renowned for its Impérial champagne, this historic maison offers guided tours and tastings.",
+                "location": "20 Avenue de Champagne, 51200 Épernay, France"
+            },
+            {
+                "name": "Veuve Clicquot",
+                "description": "Famous for its premium labels, it provides cellar tours and a glimpse into the champagne-making process.",
+                "location": "1 Rue Albert Thomas, 51100 Reims, France"
+            },
+            {
+                "name": "Taittinger",
+                "description": "A family-run house known for its Chardonnay dominant blends, offering insightful cellar tours.",
+                "location": "9 Place Saint-Nicaise, 51100 Reims, France"
+            },
+            {
+                "name": "Dom Pérignon",
+                "description": "Prestigious label, offering exclusive tastings and tours by appointment, known for its vintage champagnes.",
+                "location": "Hautvillers, 51160, France"
+            }
         ]
-    },
+    },    
     {
         "name": "Dining at a Michelin Star Restaurant in Paris",
         "category": "Gastronomy",
@@ -27,7 +45,9 @@
         "latitude": 48.8566,
         "cost": "$$$$",
         "best_time_to_go": ["May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to enjoy Paris's Michelin-starred restaurants is from late spring to early autumn, with pleasant weather complementing the dining experience and fresher ingredients available for the seasonal menus.",
         "worst_time_to_go": ["November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The off-peak months can be less ideal due to the colder weather and potential for more tourist crowds during the holiday season, although indoor dining remains a luxurious experience.",
         "suggested_venues": [
             {
                 "name": "Le Jules Verne",
@@ -58,7 +78,7 @@
                 "latitude": 48.8686
             }
         ]
-    },
+    },    
     {
         "name": "Exploring the Palace of Versailles",
         "category": "Culture",
@@ -69,7 +89,9 @@
         "latitude": 48.8046,
         "cost": "$$",
         "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The ideal time to visit the Palace of Versailles is from April to October when the weather is pleasant, and the gardens are in full bloom, enhancing the overall experience of the historical site.",
         "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months can be less favorable for visiting due to the chilly weather and the potential for reduced hours or maintenance work in the gardens and palace.",
         "suggested_venues": [
             {
                 "name": "Hall of Mirrors",
@@ -100,7 +122,7 @@
                 "latitude": 48.8123
             }
         ]
-    },
+    },    
     {
         "name": "Skiing in the French Alps",
         "category": "Adventure",
@@ -111,7 +133,9 @@
         "latitude": 45.9237,
         "cost": "$$$",
         "best_time_to_go": ["December", "January", "February", "March", "April"],
+        "best_time_to_go_description": "The prime months for skiing in the French Alps are December through April, when snow conditions are optimal, and all facilities and ski runs are fully operational.",
         "worst_time_to_go": ["May", "June", "July", "August", "September", "October", "November"],
+        "worst_time_to_go_description": "Late spring to early autumn is generally not suitable for skiing due to the lack of snow, with many resorts closed or operating limited activities.",
         "suggested_venues": [
             {
                 "name": "Chamonix",
@@ -142,7 +166,7 @@
                 "latitude": 45.3979
             }
         ]
-    },
+    },    
     {
         "name": "Attending a Cooking Class in Lyon",
         "category": "Gastronomy",
@@ -153,7 +177,9 @@
         "latitude": 45.7640,
         "cost": "$$",
         "best_time_to_go": ["March", "April", "May", "June", "September", "October", "November"],
+        "best_time_to_go_description": "The ideal months for attending a cooking class in Lyon are from early spring to late autumn, offering pleasant weather and an abundance of fresh, seasonal ingredients for culinary exploration.",
         "worst_time_to_go": ["July", "August", "December", "January", "February"],
+        "worst_time_to_go_description": "The peak summer months can be crowded and hot, while the winter months might see fewer fresh ingredients and potentially less vibrant market scenes.",
         "suggested_venues": [
             {
                 "name": "Plum Lyon",
@@ -184,7 +210,7 @@
                 "latitude": 45.7578
             }
         ]
-    },
+    },    
     {
         "name": "Visiting the Louvre Museum",
         "category": "Culture",
@@ -195,38 +221,40 @@
         "latitude": 48.8606,
         "cost": "$",
         "best_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "best_time_to_go_description": "The best time to visit the Louvre is during the fall and winter months when there are fewer tourists, making for a more pleasant and less crowded experience.",
         "worst_time_to_go": ["May", "June", "July", "August", "September"],
+        "worst_time_to_go_description": "Summer and early fall can be very crowded at the Louvre, with long lines and a more hectic experience.",
         "suggested_venues": [
             {
-                "name": "Plum Lyon",
-                "description": "Offers hands-on cooking classes focusing on traditional Lyonnaise cuisine in a cozy kitchen setting.",
-                "location": "49 Rue des Tables Claudiennes, 69001 Lyon, France",
-                "longitude": 4.8275,
-                "latitude": 45.7717
+                "name": "Denon Wing",
+                "description": "Home to the Mona Lisa and many other famous works, the Denon Wing is a must-see for first-time visitors.",
+                "location": "Louvre Museum, Rue de Rivoli, 75001 Paris, France",
+                "longitude": 2.3370,
+                "latitude": 48.8606
             },
             {
-                "name": "L'Atelier des Chefs",
-                "description": "Provides a range of cooking workshops from beginner to advanced, emphasizing fresh, local ingredients.",
-                "location": "8 Rue Saint-Nizier, 69002 Lyon, France",
-                "longitude": 4.8334,
-                "latitude": 45.7623
+                "name": "Richelieu Wing",
+                "description": "This wing showcases decorative arts, sculptures, and French paintings, offering a diverse array of art.",
+                "location": "Louvre Museum, Rue de Rivoli, 75001 Paris, France",
+                "longitude": 2.3380,
+                "latitude": 48.8610
             },
             {
-                "name": "Cuisine et Croix-Rousse",
-                "description": "Specializes in small group classes, teaching both classic and modern French cooking techniques.",
-                "location": "13 Grande Rue de la Croix-Rousse, 69004 Lyon, France",
-                "longitude": 4.8278,
-                "latitude": 45.7772
+                "name": "Sully Wing",
+                "description": "Famous for Egyptian antiquities and medieval collections, the Sully Wing is a highlight for history enthusiasts.",
+                "location": "Louvre Museum, Rue de Rivoli, 75001 Paris, France",
+                "longitude": 2.3360,
+                "latitude": 48.8600
             },
             {
-                "name": "In Cuisine",
-                "description": "A unique combination of a cooking school and bookstore, offering a variety of culinary classes and events.",
-                "location": "1 Place Bellecour, 69002 Lyon, France",
-                "longitude": 4.8322,
-                "latitude": 45.7578
+                "name": "Temporary Exhibitions",
+                "description": "The Louvre frequently hosts temporary exhibitions, offering unique and rare insights into various art forms and histories.",
+                "location": "Louvre Museum, Rue de Rivoli, 75001 Paris, France",
+                "longitude": 2.3364,
+                "latitude": 48.8606
             }
         ]
-    },
+    },    
     {
         "name": "Wine Tasting in Bordeaux",
         "category": "Gastronomy",
@@ -237,7 +265,9 @@
         "latitude": 44.8378,
         "cost": "$$",
         "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The optimal months for wine tasting in Bordeaux are from April to October, coinciding with the vineyard’s growing and harvest seasons, offering an immersive experience in the winemaking process.",
         "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The off-season months can be less favorable for wine tasting as the vineyards are dormant, and the region experiences colder, wetter weather.",
         "suggested_venues": [
             {
                 "name": "Château Margaux",
@@ -268,7 +298,7 @@
                 "latitude": 45.1944
             }
         ]
-    },
+    },    
     {
         "name": "Sunbathing in Nice on the French Riviera",
         "category": "Leisure",
@@ -279,7 +309,9 @@
         "latitude": 43.7102,
         "cost": "$$",
         "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for sunbathing in Nice is during the summer months, when the weather is warm and sunny, making it ideal for beach activities and enjoying the Mediterranean Sea.",
         "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April", "May"],
+        "worst_time_to_go_description": "The off-season months are less suitable for sunbathing due to cooler temperatures and less predictable weather, which might not be ideal for beach activities.",
         "suggested_venues": [
             {
                 "name": "Promenade des Anglais",
@@ -310,7 +342,7 @@
                 "latitude": 43.6958
             }
         ]
-    },
+    },    
     {
         "name": "Taking a River Cruise on the Seine",
         "category": "Leisure",
@@ -321,7 +353,9 @@
         "latitude": 48.8566,
         "cost": "$$",
         "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The most favorable months for a Seine river cruise are from spring to early autumn, offering pleasant weather and stunning views of Paris’s landmarks along the river.",
         "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months can be less ideal due to colder temperatures and reduced daylight hours, which might affect the enjoyment of the scenic views.",
         "suggested_venues": [
             {
                 "name": "Bateaux Parisiens",
@@ -352,8 +386,7 @@
                 "latitude": 48.8562
             }
         ]
-        
-    },
+    },    
     {
         "name": "Exploring Mont Saint-Michel",
         "category": "Culture",
@@ -364,7 +397,9 @@
         "latitude": 48.6355,
         "cost": "$$",
         "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Mont Saint-Michel is during the late spring to early autumn, offering pleasant weather and lower tides that facilitate access to the island.",
         "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The off-season months can see harsher weather and higher tides, which may hinder accessibility and the overall experience of exploring the island.",
         "suggested_venues": [
             {
                 "name": "Abbey of Mont Saint-Michel",
@@ -396,4 +431,5 @@
             }
         ]
     }
+    
 ]

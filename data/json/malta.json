@@ -7,96 +7,448 @@
         "city": "Paola",
         "longitude": 14.5053,
         "latitude": 35.8731,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "The Hypogeum can be visited year-round, but it is advisable to book tickets well in advance as visitor numbers are strictly limited to preserve the site.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time to visit the Hypogeum, but it's essential to consider the limited ticket availability when planning your visit.",
+        "suggested_venues": [
+            {
+                "name": "Guided Tour",
+                "description": "Join a guided tour to fully appreciate the historical significance and complexities of the Hypogeum, with expert insights provided.",
+                "location": "Triq Ic Cimiterju, Paola, Malta",
+                "longitude": 14.5054,
+                "latitude": 35.8732
+            },
+            {
+                "name": "Audio-Visual Show",
+                "description": "Begin your visit with an informative audio-visual show that provides context about the site's history and archaeological value.",
+                "location": "Triq Ic Cimiterju, Paola, Malta",
+                "longitude": 14.5052,
+                "latitude": 35.8730
+            },
+            {
+                "name": "Exhibition Area",
+                "description": "Explore the exhibition area where artifacts found within the Hypogeum and informative displays are showcased.",
+                "location": "Triq Ic Cimiterju, Paola, Malta",
+                "longitude": 14.5051,
+                "latitude": 35.8729
+            },
+            {
+                "name": "Preservation Areas",
+                "description": "View the sections of the Hypogeum dedicated to preservation efforts, highlighting the importance of conserving this UNESCO World Heritage Site.",
+                "location": "Triq Ic Cimiterju, Paola, Malta",
+                "longitude": 14.5055,
+                "latitude": 35.8733
+            }
+        ]
     },
+
     {
-        "name": "Mdina Old City Tour",
-        "category": "Cultural",
-        "score": 4,
-        "description": "Wander through the ancient streets of Mdina, known as the 'Silent City', a well-preserved medieval town.",
-        "city": "Mdina",
-        "longitude": 14.4039,
-        "latitude": 35.8889,
-        "cost": "$"
-    },
-    {
-        "name": "Diving in the Blue Hole",
-        "category": "Adventure",
-        "score": 5,
-        "description": "Experience diving in the Blue Hole, one of Malta's most famous dive sites, known for its rich marine life and underwater caves.",
-        "city": "Dwejra",
-        "longitude": 14.1889,
-        "latitude": 36.0536,
-        "cost": "$$$"
-    },
-    {
-        "name": "Valletta City Exploration",
-        "category": "History",
-        "score": 4,
-        "description": "Discover Valletta, the capital of Malta, known for its historical buildings, museums, and Baroque architecture.",
-        "city": "Valletta",
-        "longitude": 14.5146,
-        "latitude": 35.8989,
-        "cost": "$$"
-    },
-    {
-        "name": "Boat Trip to the Blue Lagoon",
-        "category": "Nature",
-        "score": 4,
-        "description": "Enjoy a boat trip to the Blue Lagoon on Comino Island, famous for its crystal-clear waters and ideal for swimming and snorkeling.",
-        "city": "Comino",
-        "longitude": 14.3361,
-        "latitude": 36.0117,
-        "cost": "$$"
-    },
-    {
-        "name": "Visit the Megalithic Temples",
-        "category": "History",
-        "score": 5,
-        "description": "Explore Malta's Megalithic Temples, some of the oldest free-standing structures in the world and UNESCO World Heritage sites.",
-        "city": "Multiple locations",
-        "longitude": 14.4477,
-        "latitude": 35.8881,
-        "cost": "$$"
-    },
-    {
-        "name": "St. John's Co-Cathedral Tour",
-        "category": "Culture",
-        "score": 4,
-        "description": "Visit St. John's Co-Cathedral in Valletta, a gem of Baroque art and architecture, home to Caravaggio's masterpieces.",
-        "city": "Valletta",
-        "longitude": 14.5125,
-        "latitude": 35.8978,
-        "cost": "$"
-    },
-    {
-        "name": "Hiking in the Dingli Cliffs",
-        "category": "Nature",
-        "score": 3,
-        "description": "Enjoy a scenic hike along the Dingli Cliffs, offering stunning views of the Mediterranean Sea.",
-        "city": "Dingli",
-        "longitude": 14.3822,
-        "latitude": 35.8606,
-        "cost": "$"
-    },
-    {
-        "name": "Marsaxlokk Fish Market",
-        "category": "Gastronomy",
-        "score": 3,
-        "description": "Visit the Marsaxlokk fish market, a traditional market where you can taste fresh seafood and experience local life.",
-        "city": "Marsaxlokk",
-        "longitude": 14.5431,
-        "latitude": 35.8419,
-        "cost": "$"
-    },
-    {
-        "name": "Gozo Island Day Trip",
-        "category": "Nature",
-        "score": 4,
-        "description": "Take a day trip to Gozo, Malta's sister island, known for its scenic landscapes, historical sites, and relaxed atmosphere.",
-        "city": "Gozo",
-        "longitude": 14.2650,
-        "latitude": 36.0443,
-        "cost": "$$"
-    }
+    "name": "Mdina Old City Tour",
+    "category": "Cultural",
+    "score": 4,
+    "description": "Wander through the ancient streets of Mdina, known as the 'Silent City', a well-preserved medieval town.",
+    "city": "Mdina",
+    "longitude": 14.4039,
+    "latitude": 35.8889,
+    "cost": "$",
+    "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "best_time_to_go_description": "Mdina can be visited year-round. However, spring and autumn are particularly pleasant due to milder weather and fewer crowds.",
+    "worst_time_to_go": [],
+    "worst_time_to_go_description": "There is no specific worst time to visit Mdina, but summer months can be quite hot for walking tours.",
+    "suggested_venues": [
+        {
+            "name": "Mdina Gate",
+            "description": "Start your tour at the Mdina Gate, an impressive entrance that sets the stage for the city's historical significance.",
+            "location": "Mdina Gate, Mdina, Malta",
+            "longitude": 14.4025,
+            "latitude": 35.8875
+        },
+        {
+            "name": "St. Paul's Cathedral",
+            "description": "Visit St. Paul's Cathedral, a landmark of Mdina with stunning architecture and religious artworks.",
+            "location": "St. Paul's Square, Mdina, Malta",
+            "longitude": 14.4040,
+            "latitude": 35.8870
+        },
+        {
+            "name": "Mdina Dungeons",
+            "description": "Explore the Mdina Dungeons, offering a glimpse into the darker aspects of the city's history.",
+            "location": "Mesquita Square, Mdina, Malta",
+            "longitude": 14.4045,
+            "latitude": 35.8880
+        },
+        {
+            "name": "Mdina's Bastions",
+            "description": "Walk along the bastions for panoramic views of the surrounding countryside and a deeper understanding of Mdina's strategic importance.",
+            "location": "Mdina, Malta",
+            "longitude": 14.4030,
+            "latitude": 35.8890
+        }
+    ]
+},
+
+{
+    "name": "Diving in the Blue Hole",
+    "category": "Adventure",
+    "score": 5,
+    "description": "Experience diving in the Blue Hole, one of Malta's most famous dive sites, known for its rich marine life and underwater caves.",
+    "city": "Dwejra",
+    "longitude": 14.1889,
+    "latitude": 36.0536,
+    "cost": "$$$",
+    "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+    "best_time_to_go_description": "The ideal months for diving in the Blue Hole are from April to October, when the sea conditions are most favorable and the water temperatures are comfortable for diving.",
+    "worst_time_to_go": ["November", "December", "January", "February", "March"],
+    "worst_time_to_go_description": "The winter months can be less suitable for diving due to rougher sea conditions and colder water temperatures.",
+    "suggested_venues": [
+        {
+            "name": "Blue Hole Dive Site",
+            "description": "Dive into the Blue Hole, a natural rock formation, and explore the underwater archway, rich coral, and diverse marine life.",
+            "location": "Dwejra, Gozo, Malta",
+            "longitude": 14.1890,
+            "latitude": 36.0537
+        },
+        {
+            "name": "Dive Centers",
+            "description": "Choose from several dive centers in Dwejra that offer guided dives, equipment rental, and diving courses.",
+            "location": "Dwejra, Gozo, Malta",
+            "longitude": 14.1891,
+            "latitude": 36.0535
+        },
+        {
+            "name": "Underwater Caves",
+            "description": "Explore the fascinating underwater caves around the Blue Hole, home to a variety of marine species.",
+            "location": "Dwejra, Gozo, Malta",
+            "longitude": 14.1888,
+            "latitude": 36.0534
+        },
+        {
+            "name": "Photography Opportunities",
+            "description": "Capture stunning underwater photos in the clear waters of the Blue Hole, ideal for underwater photography enthusiasts.",
+            "location": "Dwejra, Gozo, Malta",
+            "longitude": 14.1892,
+            "latitude": 36.0538
+        }
+    ]
+},
+
+{
+    "name": "Valletta City Exploration",
+    "category": "History",
+    "score": 4,
+    "description": "Discover Valletta, the capital of Malta, known for its historical buildings, museums, and Baroque architecture.",
+    "city": "Valletta",
+    "longitude": 14.5146,
+    "latitude": 35.8989,
+    "cost": "$$",
+    "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "best_time_to_go_description": "Valletta can be explored year-round, with each season offering a unique charm. Spring and autumn are particularly pleasant due to mild weather and fewer tourists.",
+    "worst_time_to_go": [],
+    "worst_time_to_go_description": "There is no specific worst time to visit Valletta, but summer months can be quite hot and crowded.",
+    "suggested_venues": [
+        {
+            "name": "St. John's Co-Cathedral",
+            "description": "Visit the stunning St. John's Co-Cathedral, a gem of Baroque art and architecture, home to Caravaggio's masterpieces.",
+            "location": "Triq San Gwann, Valletta, Malta",
+            "longitude": 14.5123,
+            "latitude": 35.8977
+        },
+        {
+            "name": "Upper Barrakka Gardens",
+            "description": "Enjoy panoramic views of the Grand Harbour from the Upper Barrakka Gardens, a serene spot in the city.",
+            "location": "Triq Sant' Orsla, Valletta, Malta",
+            "longitude": 14.5172,
+            "latitude": 35.8963
+        },
+        {
+            "name": "Grand Master's Palace",
+            "description": "Explore the Grand Master's Palace, once the residence of the Knights of St. John, now housing the President's office.",
+            "location": "Palace Square, Valletta, Malta",
+            "longitude": 14.5150,
+            "latitude": 35.8992
+        },
+        {
+            "name": "National Museum of Archaeology",
+            "description": "Discover Malta's rich history at the National Museum of Archaeology, showcasing artifacts from the Neolithic to the Phoenician Period.",
+            "location": "Republic Street, Valletta, Malta",
+            "longitude": 14.5140,
+            "latitude": 35.8994
+        }
+    ]
+},
+
+{
+    "name": "Boat Trip to the Blue Lagoon",
+    "category": "Nature",
+    "score": 4,
+    "description": "Enjoy a boat trip to the Blue Lagoon on Comino Island, famous for its crystal-clear waters and ideal for swimming and snorkeling.",
+    "city": "Comino",
+    "longitude": 14.3361,
+    "latitude": 36.0117,
+    "cost": "$$",
+    "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+    "best_time_to_go_description": "The best time to visit the Blue Lagoon is from late spring to early autumn, when the weather is warm and sunny, making it perfect for water activities.",
+    "worst_time_to_go": ["November", "December", "January", "February", "March"],
+    "worst_time_to_go_description": "The off-season months are less suitable for visiting the Blue Lagoon due to cooler weather and rougher sea conditions, which may hinder the enjoyment of swimming and snorkeling.",
+    "suggested_venues": [
+        {
+            "name": "Blue Lagoon Beach",
+            "description": "Relax on the sandy beach of the Blue Lagoon, enjoying the sun and the stunningly clear waters of the lagoon.",
+            "location": "Blue Lagoon, Comino, Malta",
+            "longitude": 14.3365,
+            "latitude": 36.0119
+        },
+        {
+            "name": "Snorkeling Spots",
+            "description": "Explore the vibrant underwater life in the clear waters around the Blue Lagoon, perfect for snorkeling.",
+            "location": "Blue Lagoon, Comino, Malta",
+            "longitude": 14.3357,
+            "latitude": 36.0115
+        },
+        {
+            "name": "Boat Tours",
+            "description": "Join a boat tour for a guided trip around Comino Island and the Blue Lagoon, with opportunities to swim and snorkel in secluded spots.",
+            "location": "Blue Lagoon, Comino, Malta",
+            "longitude": 14.3363,
+            "latitude": 36.0120
+        },
+        {
+            "name": "Cave Exploration",
+            "description": "Discover the fascinating caves around the Blue Lagoon, either by swimming or on a small boat tour.",
+            "location": "Blue Lagoon, Comino, Malta",
+            "longitude": 14.3359,
+            "latitude": 36.0116
+        }
+    ]
+},
+
+{
+    "name": "Visit the Megalithic Temples",
+    "category": "History",
+    "score": 5,
+    "description": "Explore Malta's Megalithic Temples, some of the oldest free-standing structures in the world and UNESCO World Heritage sites.",
+    "city": "Multiple locations",
+    "longitude": 14.4477,
+    "latitude": 35.8881,
+    "cost": "$$",
+    "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "best_time_to_go_description": "The Megalithic Temples can be visited year-round, but the cooler months from October to April are more comfortable for exploring these outdoor sites.",
+    "worst_time_to_go": [],
+    "worst_time_to_go_description": "There is no specific worst time to visit, but summer months can be quite hot, making outdoor exploration less comfortable.",
+    "suggested_venues": [
+        {
+            "name": "Ħaġar Qim",
+            "description": "Visit Ħaġar Qim, known for its spectacular hilltop setting and panoramic views of the sea.",
+            "location": "Ħaġar Qim Temples, Qrendi, Malta",
+            "longitude": 14.4381,
+            "latitude": 35.8264
+        },
+        {
+            "name": "Mnajdra",
+            "description": "Explore Mnajdra, located near Ħaġar Qim, set in a rugged natural landscape and offering insights into prehistoric temple building.",
+            "location": "Mnajdra Temples, Qrendi, Malta",
+            "longitude": 14.4365,
+            "latitude": 35.8246
+        },
+        {
+            "name": "Tarxien Temples",
+            "description": "Discover the Tarxien Temples, famous for their intricate stone carvings and rich archaeological findings.",
+            "location": "Tarxien Temples, Tarxien, Malta",
+            "longitude": 14.5063,
+            "latitude": 35.8703
+        },
+        {
+            "name": "Ggantija Temples",
+            "description": "Visit the Ggantija Temples in Gozo, known as one of the most important archaeological sites in Malta and among the world's oldest religious structures.",
+            "location": "Ggantija Temples, Xagħra, Gozo, Malta",
+            "longitude": 14.2690,
+            "latitude": 36.0498
+        }
+    ]
+},
+
+{
+    "name": "St. John's Co-Cathedral Tour",
+    "category": "Culture",
+    "score": 4,
+    "description": "Visit St. John's Co-Cathedral in Valletta, a gem of Baroque art and architecture, home to Caravaggio's masterpieces.",
+    "city": "Valletta",
+    "longitude": 14.5125,
+    "latitude": 35.8978,
+    "cost": "$",
+    "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "best_time_to_go_description": "St. John's Co-Cathedral can be visited year-round. However, visiting during the shoulder months of spring and autumn may provide a more pleasant experience due to fewer crowds.",
+    "worst_time_to_go": [],
+    "worst_time_to_go_description": "There is no specific worst time to visit the cathedral, but it can get quite crowded during peak tourist season in the summer months.",
+    "suggested_venues": [
+        {
+            "name": "Main Nave",
+            "description": "Explore the main nave of the cathedral, adorned with intricate carvings, gold leaf, and paintings, reflecting the height of Baroque art.",
+            "location": "St. John's Co-Cathedral, Triq San Gwann, Valletta, Malta",
+            "longitude": 14.5126,
+            "latitude": 35.8979
+        },
+        {
+            "name": "Caravaggio's Masterpieces",
+            "description": "View the famous works of Caravaggio housed in the cathedral, including 'The Beheading of Saint John the Baptist'.",
+            "location": "St. John's Co-Cathedral, Triq San Gwann, Valletta, Malta",
+            "longitude": 14.5124,
+            "latitude": 35.8977
+        },
+        {
+            "name": "Chapel of the Langue of Italy",
+            "description": "Visit the Chapel of the Langue of Italy, one of the eight chapels in the cathedral, each dedicated to the patron saints of the Order's Langues.",
+            "location": "St. John's Co-Cathedral, Triq San Gwann, Valletta, Malta",
+            "longitude": 14.5127,
+            "latitude": 35.8980
+        },
+        {
+            "name": "Cathedral Museum",
+            "description": "Stop by the Cathedral Museum, which contains a rich collection of artifacts, vestments, and tapestries related to the history of the cathedral and the Order of St. John.",
+            "location": "St. John's Co-Cathedral, Triq San Gwann, Valletta, Malta",
+            "longitude": 14.5123,
+            "latitude": 35.8976
+        }
+    ]
+},
+
+
+{
+    "name": "Hiking in the Dingli Cliffs",
+    "category": "Nature",
+    "score": 3,
+    "description": "Enjoy a scenic hike along the Dingli Cliffs, offering stunning views of the Mediterranean Sea.",
+    "city": "Dingli",
+    "longitude": 14.3822,
+    "latitude": 35.8606,
+    "cost": "$",
+    "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+    "best_time_to_go_description": "The best time for hiking the Dingli Cliffs is during the spring and autumn months, when the weather is mild and the natural scenery is most vibrant.",
+    "worst_time_to_go": ["November", "December", "January", "February", "March"],
+    "worst_time_to_go_description": "The winter months might be less ideal due to cooler weather and potential rain, which can make the trails slippery.",
+    "suggested_venues": [
+        {
+            "name": "Dingli Cliffs Pathway",
+            "description": "Walk along the main pathway of the Dingli Cliffs, which offers easy access and breathtaking views of the sea.",
+            "location": "Dingli Cliffs, Dingli, Malta",
+            "longitude": 14.3830,
+            "latitude": 35.8610
+        },
+        {
+            "name": "Chapel of St. Mary Magdalene",
+            "description": "Visit the Chapel of St. Mary Magdalene, a small but picturesque chapel located at the edge of the cliffs.",
+            "location": "Dingli Cliffs, Dingli, Malta",
+            "longitude": 14.3840,
+            "latitude": 35.8590
+        },
+        {
+            "name": "Panoramic Viewpoints",
+            "description": "Stop at various viewpoints along the cliffs, which offer panoramic vistas of the Mediterranean and the surrounding landscape.",
+            "location": "Dingli Cliffs, Dingli, Malta",
+            "longitude": 14.3810,
+            "latitude": 35.8620
+        },
+        {
+            "name": "Sunset Watching",
+            "description": "Enjoy the stunning sunsets from the Dingli Cliffs, a popular activity for both locals and tourists.",
+            "location": "Dingli Cliffs, Dingli, Malta",
+            "longitude": 14.3825,
+            "latitude": 35.8605
+        }
+    ]
+},
+
+{
+    "name": "Marsaxlokk Fish Market",
+    "category": "Gastronomy",
+    "score": 3,
+    "description": "Visit the Marsaxlokk fish market, a traditional market where you can taste fresh seafood and experience local life.",
+    "city": "Marsaxlokk",
+    "longitude": 14.5431,
+    "latitude": 35.8419,
+    "cost": "$",
+    "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "best_time_to_go_description": "The market is vibrant throughout the year, especially on Sundays. Early mornings are the best time to visit when the catch is freshest.",
+    "worst_time_to_go": [],
+    "worst_time_to_go_description": "There is no specific worst time to visit, but the market can get quite crowded, especially during tourist season and on weekends.",
+    "suggested_venues": [
+        {
+            "name": "Seafood Stalls",
+            "description": "Browse the various stalls selling fresh seafood, offering a chance to see a wide variety of fish and shellfish.",
+            "location": "Marsaxlokk Fish Market, Marsaxlokk, Malta",
+            "longitude": 14.5440,
+            "latitude": 35.8420
+        },
+        {
+            "name": "Local Restaurants",
+            "description": "Enjoy a meal at one of the many restaurants around the market, serving fresh seafood dishes prepared in traditional Maltese style.",
+            "location": "Marsaxlokk Fish Market, Marsaxlokk, Malta",
+            "longitude": 14.5430,
+            "latitude": 35.8418
+        },
+        {
+            "name": "Fish Auction",
+            "description": "Witness the fish auction, an exciting experience where local fishermen sell their daily catch.",
+            "location": "Marsaxlokk Fish Market, Marsaxlokk, Malta",
+            "longitude": 14.5432,
+            "latitude": 35.8417
+        },
+        {
+            "name": "Souvenir Shops",
+            "description": "Explore the surrounding souvenir shops, offering a variety of local crafts, food items, and memorabilia.",
+            "location": "Marsaxlokk Fish Market, Marsaxlokk, Malta",
+            "longitude": 14.5429,
+            "latitude": 35.8421
+        }
+    ]
+}
+,
+
+{
+    "name": "Gozo Island Day Trip",
+    "category": "Nature",
+    "score": 4,
+    "description": "Take a day trip to Gozo, Malta's sister island, known for its scenic landscapes, historical sites, and relaxed atmosphere.",
+    "city": "Gozo",
+    "longitude": 14.2650,
+    "latitude": 36.0443,
+    "cost": "$$",
+    "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+    "best_time_to_go_description": "The ideal time to visit Gozo is during the spring and autumn months when the weather is pleasant and the island is less crowded, offering a more relaxed experience.",
+    "worst_time_to_go": ["November", "December", "January", "February", "March"],
+    "worst_time_to_go_description": "The winter months may be less ideal due to cooler temperatures and rougher sea conditions for ferry travel.",
+    "suggested_venues": [
+        {
+            "name": "Azure Window Ruins",
+            "description": "Visit the site of the former Azure Window, a natural limestone arch that was one of Gozo's most famous landmarks.",
+            "location": "Dwejra, Gozo, Malta",
+            "longitude": 14.1889,
+            "latitude": 36.0536
+        },
+        {
+            "name": "Cittadella",
+            "description": "Explore the Cittadella, an ancient fortified city in Victoria, Gozo's capital, offering panoramic views and rich history.",
+            "location": "Victoria, Gozo, Malta",
+            "longitude": 14.2395,
+            "latitude": 36.0445
+        },
+        {
+            "name": "Ramla Bay",
+            "description": "Enjoy the golden sands of Ramla Bay, one of Gozo's most beautiful beaches, perfect for swimming and relaxation.",
+            "location": "Ramla Bay, Gozo, Malta",
+            "longitude": 14.2913,
+            "latitude": 36.0608
+        },
+        {
+            "name": "Ta' Pinu Basilica",
+            "description": "Visit the Ta' Pinu Basilica, a stunning church in the countryside of Gozo, known for its architectural beauty and spiritual significance.",
+            "location": "Gharb, Gozo, Malta",
+            "longitude": 14.2083,
+            "latitude": 36.0550
+        }
+    ]
+}
+
 ]
