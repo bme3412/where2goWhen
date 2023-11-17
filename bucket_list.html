@@ -1103,23 +1103,127 @@
               // Container for Description
               let descriptionContainer = document.createElement("div");
               descriptionContainer.className = "description-container";
-              descriptionContainer.innerHTML = `<p><b>Description:</b> ${item.description}</p>`;
+
+              // Set softer and harmonious colors based on the category
+              const categoryColorMap = {
+                Adventure: "#FFCCBC", // Light Coral for Adventure
+                Culture: "#FFF9C4", // Lemon Chiffon for Culture
+                Food: "#C8E6C9", // Honeydew for Food
+                Relaxation: "#BBDEFB", // Light Blue for Relaxation
+                Nature: "#FFE0B2", // Peach for Nature
+                Gastronomy: "#D1C4E9", // Thistle for Gastronomy
+                Leisure: "#B3E5FC", // Light Sky Blue for Leisure
+                History: "#F8BBD0", // Light Pink for History
+                // Add or modify categories and colors as needed
+              };
+              let categoryColor = categoryColorMap[item.category] || "#f9f9f9"; // Default color if category not found
+
+              // Apply styles to the description container
+              descriptionContainer.style.padding = "15px";
+              descriptionContainer.style.marginTop = "5px";
+              descriptionContainer.style.background = categoryColor; // Set the background color based on category
+              descriptionContainer.style.border = "1px solid #ddd";
+              descriptionContainer.style.borderRadius = "4px";
+              descriptionContainer.style.boxShadow =
+                "0 2px 5px rgba(0,0,0,0.2)";
+              descriptionContainer.style.maxHeight = "150px";
+              descriptionContainer.style.overflowY = "auto";
+              descriptionContainer.style.position = "relative"; // Position relative to place cost absolutely
+              descriptionContainer.innerHTML = `<p><b>${item.name}</b> - ${item.description}</p>`;
+
+              // Create a span for the cost and position it in the lower right-hand corner
+              let costSpan = document.createElement("span");
+              costSpan.style.position = "absolute";
+              costSpan.style.bottom = "5px";
+              costSpan.style.right = "15px";
+              costSpan.style.fontWeight = "bold";
+              costSpan.textContent = item.cost;
+
+              // Append the description container to the dropdown content
               dropdownContent.appendChild(descriptionContainer);
+
+              // Create a container for month buttons
+              let monthButtonContainer = document.createElement("div");
+              monthButtonContainer.style.display = "flex";
+              monthButtonContainer.style.flexWrap = "wrap";
+              monthButtonContainer.style.justifyContent = "start";
+              monthButtonContainer.style.marginTop = "10px";
+              monthButtonContainer.style.marginBottom = "10px";
+
+              // Function to create a month button
+              const createMonthButton = (month, isBestTime, isWorstTime) => {
+                let button = document.createElement("button");
+                button.textContent = month;
+                button.style.marginRight = "5px";
+                button.style.marginBottom = "5px";
+                button.style.padding = "3px 6px"; // Adjusted padding for smaller font
+                button.style.fontSize = "12px"; // Smaller font size to fit the buttons
+                button.style.border = "none";
+                button.style.borderRadius = "4px";
+                button.style.cursor = "pointer";
+
+                if (isBestTime) {
+                  button.style.background = "#4CAF50"; // Green background
+                } else if (isWorstTime) {
+                  button.style.background = "#F44336"; // Red background
+                } else {
+                  button.style.background = "#9E9E9E"; // Grey background for neutral
+                }
+
+                return button;
+              };
+              // List of all months
+              const months = [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December",
+              ];
+
+              // Create buttons for each month, but only if they are in best_time_to_go or worst_time_to_go
+              months.forEach((month) => {
+                const isBestTime = item.best_time_to_go.includes(month);
+                const isWorstTime = item.worst_time_to_go.includes(month);
+
+                // Only create a button if the month is in either of the two arrays
+                if (isBestTime || isWorstTime) {
+                  let button = createMonthButton(
+                    month,
+                    isBestTime,
+                    isWorstTime
+                  );
+                  monthButtonContainer.appendChild(button);
+                }
+              });
+
+              // Append the month button container to the dropdown content
+              dropdownContent.appendChild(monthButtonContainer);
+
+              // Append the cost span to the description container
+              descriptionContainer.appendChild(costSpan);
 
               // Adding suggested venues
               if (item.suggested_venues) {
                 let venuesContainer = document.createElement("div");
                 venuesContainer.className = "venues-container";
-                venuesContainer.innerHTML = "<h3>Details:</h3>";
+                venuesContainer.innerHTML = "<h3></h3>";
                 let venuesList = document.createElement("ul");
                 venuesList.className = "venues-list";
                 item.suggested_venues.forEach((venue) => {
                   venuesList.innerHTML += `<li class="venue-item">
-                                      <b>${venue.name}</b><br>
-                                      <i></i> ${venue.description}<br>
-                                      <i>	
-                                        📍</i> ${venue.location}
-                                    </li>`;
+                                            <b>${venue.name}</b><br>
+                                            <i></i> ${venue.description}<br>
+                                            <i>
+                                              📍</i> ${venue.location}
+                                          </li>`;
                 });
                 venuesContainer.appendChild(venuesList);
                 dropdownContent.appendChild(venuesContainer);
@@ -1198,9 +1302,7 @@
 
       // Function to fetch the API key and load the Google Maps script
       function fetchAndLoadGoogleMapsApi() {
-        fetch(
-          "https://wheretogowhen.vercel.app/api/maps-key"
-        )
+        fetch("https://wheretogowhen.vercel.app/api/maps-key")
           .then((response) => response.json())
           .then((data) => {
             if (data.apiKey) {
