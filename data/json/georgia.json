@@ -1,14 +1,40 @@
 [
     {
         "name": "Visit the Gergeti Trinity Church",
-        "category": "Cultural",
+        "category": "Culture",
         "score": 5,
         "description": "Explore the iconic Gergeti Trinity Church, set against the stunning backdrop of Mount Kazbek.",
         "city": "Stepantsminda",
         "longitude": 44.6499,
         "latitude": 42.6603,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The best time to visit the Gergeti Trinity Church is during late spring and early autumn. These months offer pleasant weather for hiking and sightseeing, with fewer tourists and clear views of Mount Kazbek.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be challenging due to heavy snowfall and cold temperatures, which may make the roads and paths leading to the church inaccessible or difficult to navigate.",
+        "suggested_venues": [
+            {
+                "name": "Gergeti Trinity Church",
+                "description": "A 14th-century church located at an elevation of 2,170 meters, offering panoramic views of the Caucasus Mountains and a unique spiritual experience.",
+                "location": "Stepantsminda, Georgia"
+            },
+            {
+                "name": "Mount Kazbek",
+                "description": "One of the highest mountains in Georgia, providing a dramatic backdrop for the Gergeti Trinity Church and popular among hikers and mountaineers.",
+                "location": "Near Stepantsminda, Georgia"
+            },
+            {
+                "name": "Stepantsminda Historical Museum",
+                "description": "A museum in the town of Stepantsminda, showcasing local history, culture, and the natural environment of the Kazbegi region.",
+                "location": "Stepantsminda, Georgia"
+            },
+            {
+                "name": "Kazbegi National Park",
+                "description": "A national park surrounding Mount Kazbek, offering a variety of trails, wildlife viewing opportunities, and breathtaking natural scenery.",
+                "location": "Near Stepantsminda, Georgia"
+            }
+        ]
+    },    
     {
         "name": "Wine Tasting in Kakheti",
         "category": "Gastronomy",
@@ -17,17 +43,69 @@
         "city": "Kakheti",
         "longitude": 45.7876,
         "latitude": 41.9154,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["September", "October"],
+        "best_time_to_go_description": "The best time to visit Kakheti for wine tasting is during the harvest season in early autumn, particularly September and October. This period offers the opportunity to participate in grape harvesting and wine-making activities, along with enjoying the region's scenic beauty.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter is less ideal for visiting Kakheti's vineyards due to cold weather and a dormant period for the vines, reducing the overall wine-tasting experience.",
+        "suggested_venues": [
+            {
+                "name": "Local Vineyards",
+                "description": "Explore various local vineyards in Kakheti, each offering a unique taste of Georgian wines, with guided tours and tastings.",
+                "location": "Kakheti, Georgia"
+            },
+            {
+                "name": "Wine Cellars",
+                "description": "Visit traditional Georgian wine cellars, known as 'Marani,' to experience the ancient method of wine-making in qvevri (clay vessels).",
+                "location": "Kakheti, Georgia"
+            },
+            {
+                "name": "Sighnaghi",
+                "description": "A picturesque town in Kakheti, known for its charming architecture and wine culture, offering delightful wine-tasting experiences and local cuisine.",
+                "location": "Kakheti, Georgia"
+            },
+            {
+                "name": "Tsinandali Estate",
+                "description": "A historic winery and estate in Kakheti, showcasing elegant gardens, a museum, and a renowned wine cellar.",
+                "location": "Kakheti, Georgia"
+            }
+        ]
     },
     {
         "name": "Explore Tbilisi's Old Town",
-        "category": "Cultural",
+        "category": "Culture",
         "score": 4,
         "description": "Wander through the narrow streets of Tbilisi's Old Town, brimming with history and charm.",
         "city": "Tbilisi",
         "longitude": 44.8095,
         "latitude": 41.6935,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best time to explore Tbilisi's Old Town is during late spring and early autumn. These months offer pleasant weather, ideal for walking tours and outdoor exploration, while avoiding the heat of the summer and the cold of the winter.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter months can be less ideal due to cold temperatures and potentially harsh weather conditions, which might affect the experience of exploring the outdoor attractions in the Old Town.",
+        "suggested_venues": [
+            {
+                "name": "Narikala Fortress",
+                "description": "An ancient fortress overlooking the Old Town, offering panoramic views of Tbilisi and a glimpse into the city's history.",
+                "location": "Tbilisi, Georgia"
+            },
+            {
+                "name": "Abanotubani",
+                "description": "The historic bath district in Tbilisi, known for its sulfur baths and unique architectural style.",
+                "location": "Tbilisi, Georgia"
+            },
+            {
+                "name": "Anchiskhati Basilica",
+                "description": "The oldest surviving church in Tbilisi, reflecting the rich religious and Culture heritage of the city.",
+                "location": "Tbilisi, Georgia"
+            },
+            {
+                "name": "Rezo Gabriadze Puppet Theater",
+                "description": "A renowned puppet theater in Tbilisi, known for its artistic performances and whimsical tower clock.",
+                "location": "Tbilisi, Georgia"
+            }
+        ]
     },
     {
         "name": "Batumi Botanical Garden",
@@ -37,7 +115,33 @@
         "city": "Batumi",
         "longitude": 41.6761,
         "latitude": 41.6410,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The best times to visit the Batumi Botanical Garden are during the late spring and early autumn. These months offer pleasant weather, ideal for exploring the garden's vast collection of flora and enjoying the outdoor beauty.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter is less ideal due to colder temperatures and fewer blooming plants, which might affect the vibrancy and the overall experience of the garden.",
+        "suggested_venues": [
+            {
+                "name": "Batumi Botanical Garden",
+                "description": "A sprawling garden featuring a rich variety of plants from around the world, with beautifully landscaped areas overlooking the Black Sea.",
+                "location": "Batumi, Georgia"
+            },
+            {
+                "name": "Caucasian Section",
+                "description": "A section of the garden dedicated to plants native to the Caucasus region, showcasing the local biodiversity.",
+                "location": "Batumi Botanical Garden, Georgia"
+            },
+            {
+                "name": "Japanese Garden",
+                "description": "A peaceful area within the botanical garden, offering a taste of Japanese garden design and tranquility.",
+                "location": "Batumi Botanical Garden, Georgia"
+            },
+            {
+                "name": "Mediterranean Section",
+                "description": "This part of the garden displays plants from the Mediterranean climate, with species adapted to warm, dry conditions.",
+                "location": "Batumi Botanical Garden, Georgia"
+            }
+        ]
     },
     {
         "name": "Uplistsikhe Cave Town",
@@ -47,17 +151,69 @@
         "city": "Uplistsikhe",
         "longitude": 44.2468,
         "latitude": 41.9676,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Uplistsikhe is during the late spring and early autumn months. These periods offer mild weather, making it more comfortable to explore the extensive outdoor archaeological site.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal due to cold temperatures and potential snow or rain, which might make exploring the cave town more challenging.",
+        "suggested_venues": [
+            {
+                "name": "Uplistsikhe Cave Complex",
+                "description": "A vast ancient cave complex featuring a variety of structures including living quarters, temples, and halls, offering a unique glimpse into early Georgian history.",
+                "location": "Uplistsikhe, Georgia"
+            },
+            {
+                "name": "Archaeological Museum",
+                "description": "A museum near Uplistsikhe, showcasing artifacts and exhibits related to the history and culture of the site.",
+                "location": "Near Uplistsikhe, Georgia"
+            },
+            {
+                "name": "Church of St. George",
+                "description": "An ancient church located within the Uplistsikhe complex, representing the later Christian period in the site’s history.",
+                "location": "Uplistsikhe, Georgia"
+            },
+            {
+                "name": "Mtkvari River",
+                "description": "The river near Uplistsikhe, offering scenic views and a tranquil environment around the historic site.",
+                "location": "Near Uplistsikhe, Georgia"
+            }
+        ]
     },
     {
         "name": "Svetitskhoveli Cathedral",
-        "category": "Cultural",
+        "category": "Culture",
         "score": 5,
         "description": "Visit the historic Svetitskhoveli Cathedral in Mtskheta, a masterpiece of the Early Middle Ages.",
         "city": "Mtskheta",
         "longitude": 44.7180,
         "latitude": 41.8435,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Svetitskhoveli Cathedral is during the late spring and early autumn, offering mild weather ideal for exploring the cathedral and the surrounding town of Mtskheta.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal due to cold temperatures and potential inclement weather, which might impact the experience of visiting the cathedral and the outdoor exploration of its architectural features.",
+        "suggested_venues": [
+            {
+                "name": "Svetitskhoveli Cathedral",
+                "description": "A significant religious and historical site in Georgia, known for its stunning architecture, rich history, and as the burial site of Christ’s mantle.",
+                "location": "Mtskheta, Georgia"
+            },
+            {
+                "name": "Samtavro Monastery",
+                "description": "A historic monastery complex near the cathedral, featuring beautiful frescoes and a peaceful atmosphere.",
+                "location": "Mtskheta, Georgia"
+            },
+            {
+                "name": "Jvari Monastery",
+                "description": "An ancient monastery overlooking the town of Mtskheta, offering panoramic views and a serene spiritual setting.",
+                "location": "Near Mtskheta, Georgia"
+            },
+            {
+                "name": "Old Town Mtskheta",
+                "description": "The historical center of Mtskheta, filled with traditional Georgian architecture, quaint shops, and local restaurants.",
+                "location": "Mtskheta, Georgia"
+            }
+        ]
     },
     {
         "name": "Prometheus Cave Tour",
@@ -67,7 +223,33 @@
         "city": "Kutaisi",
         "longitude": 42.6366,
         "latitude": 42.2894,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Prometheus Cave is during late spring and early autumn. These months offer pleasant weather conditions for traveling to the cave and exploring the surrounding area, while avoiding the peak tourist season in summer.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "Winter months can be less ideal due to potential cold weather, which might affect the journey to the cave and reduce the comfort of exploring its surroundings.",
+        "suggested_venues": [
+            {
+                "name": "Prometheus Cave",
+                "description": "One of Georgia's natural wonders, featuring an array of impressive geological formations, underground rivers, and striking lighting within the cave.",
+                "location": "Near Kutaisi, Georgia"
+            },
+            {
+                "name": "Cave Tour",
+                "description": "Guided tours available in the cave, providing insights into its geology, history, and the myths associated with it.",
+                "location": "Prometheus Cave, Georgia"
+            },
+            {
+                "name": "Sataplia Nature Reserve",
+                "description": "A nearby nature reserve, known for its dinosaur footprints and a smaller cave system, offering additional natural exploration opportunities.",
+                "location": "Near Kutaisi, Georgia"
+            },
+            {
+                "name": "Kutaisi Historical Center",
+                "description": "The city center of Kutaisi, offering Culture and historical sites, traditional Georgian cuisine, and a glimpse into local life.",
+                "location": "Kutaisi, Georgia"
+            }
+        ]
     },
     {
         "name": "Visit Ananuri Fortress",
@@ -77,17 +259,69 @@
         "city": "Ananuri",
         "longitude": 44.7069,
         "latitude": 42.1667,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best times to visit Ananuri Fortress are in the late spring and early autumn, offering mild weather and less crowded conditions, ideal for exploring the historical site and its surroundings.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be challenging due to cold temperatures and potential snow, which might make accessing the fortress more difficult and affect the comfort of exploring the site.",
+        "suggested_venues": [
+            {
+                "name": "Ananuri Fortress Complex",
+                "description": "A well-preserved castle complex that includes two churches, several towers, and defensive walls, offering a glimpse into Georgia's medieval history.",
+                "location": "Ananuri, Georgia"
+            },
+            {
+                "name": "Church of the Assumption",
+                "description": "Located within the fortress, this church is known for its frescoes and intricate carvings, representing the architectural style of the time.",
+                "location": "Ananuri Fortress, Georgia"
+            },
+            {
+                "name": "Aragvi River",
+                "description": "The river next to the fortress, offering scenic views and opportunities for photography and leisure activities like rafting.",
+                "location": "Near Ananuri, Georgia"
+            },
+            {
+                "name": "Nearby Hiking Trails",
+                "description": "Explore the trails around the fortress, offering stunning views of the surrounding landscape and the Aragvi River.",
+                "location": "Ananuri, Georgia"
+            }
+        ]
     },
     {
         "name": "Vardzia Cave Monastery",
-        "category": "Cultural",
+        "category": "Culture",
         "score": 5,
         "description": "Discover the impressive Vardzia Cave Monastery, a remarkable example of medieval Georgian architecture.",
         "city": "Vardzia",
         "longitude": 43.3600,
         "latitude": 41.3761,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Vardzia Cave Monastery is during the late spring and early autumn. These months offer comfortable weather conditions for exploring the extensive cave network and the outdoor environment.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal for visiting due to cold temperatures and potential snow, which might make accessing and exploring the cave complex more challenging.",
+        "suggested_venues": [
+            {
+                "name": "Vardzia Cave Complex",
+                "description": "A sprawling cave monastery carved into the side of a mountain, Vardzia is an incredible site featuring hundreds of rooms, a church, and stunning frescoes.",
+                "location": "Vardzia, Georgia"
+            },
+            {
+                "name": "Church of the Dormition",
+                "description": "Located within the Vardzia complex, this church is famous for its well-preserved frescoes, including a depiction of Queen Tamar.",
+                "location": "Vardzia Cave Monastery, Georgia"
+            },
+            {
+                "name": "Mtkvari River",
+                "description": "The river near the monastery, offering beautiful landscapes and a tranquil setting that enhances the historical atmosphere of Vardzia.",
+                "location": "Near Vardzia, Georgia"
+            },
+            {
+                "name": "Nearby Hiking Trails",
+                "description": "Explore the trails around Vardzia, providing different perspectives of the cave monastery and the surrounding natural beauty.",
+                "location": "Vardzia, Georgia"
+            }
+        ]
     },
     {
         "name": "Borjomi Central Park",
@@ -97,6 +331,33 @@
         "city": "Borjomi",
         "longitude": 43.4176,
         "latitude": 41.8399,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Borjomi Central Park is during the late spring, summer, and early autumn months, when the weather is pleasant for outdoor activities and enjoying the natural surroundings of the park.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal for visiting the park due to colder temperatures and potential snow, which might limit the enjoyment of the park's outdoor attractions.",
+        "suggested_venues": [
+            {
+                "name": "Borjomi Mineral Water Springs",
+                "description": "Sample the famous Borjomi mineral water directly from the source, known for its therapeutic properties and unique taste.",
+                "location": "Borjomi Central Park, Georgia"
+            },
+            {
+                "name": "Cable Car Ride",
+                "description": "Take a cable car ride within the park for panoramic views of Borjomi and its picturesque surroundings.",
+                "location": "Borjomi Central Park, Georgia"
+            },
+            {
+                "name": "Park Trails",
+                "description": "Explore the walking trails in the park, offering a peaceful retreat into nature and the chance to see local flora and fauna.",
+                "location": "Borjomi Central Park, Georgia"
+            },
+            {
+                "name": "Borjomi Park Amusement Area",
+                "description": "A family-friendly area within the park, featuring various amusement rides, activities, and relaxation spots.",
+                "location": "Borjomi Central Park, Georgia"
+            }
+        ]
     }
+    
 ]

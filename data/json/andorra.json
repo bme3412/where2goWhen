@@ -43,7 +43,33 @@
         "city": "Escaldes-Engordany",
         "longitude": 1.5645,
         "latitude": 42.5063,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to hike in Vall de Madriu-Perafita-Claror is during the summer and early autumn months. This period offers pleasant weather, making it ideal for hiking and exploring the valley’s diverse landscapes, from lush meadows to rugged mountain terrain.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less suitable for hiking due to snow-covered paths, colder temperatures, and shorter daylight hours, which might make navigating the trails more challenging.",
+        "suggested_venues": [
+            {
+                "name": "Guided Hiking Tours",
+                "description": "Join guided tours to explore the valley’s natural beauty, with expert guides providing insights into the area’s ecology and history.",
+                "location": "Vall de Madriu-Perafita-Claror, Andorra"
+            },
+            {
+                "name": "Wildlife Watching",
+                "description": "The valley is home to diverse wildlife, offering opportunities to spot various bird species, chamois, and other mountain fauna.",
+                "location": "Vall de Madriu-Perafita-Claror, Andorra"
+            },
+            {
+                "name": "Mountain Lakes",
+                "description": "Discover the picturesque mountain lakes in the valley, providing stunning natural scenery and photo opportunities.",
+                "location": "Vall de Madriu-Perafita-Claror, Andorra"
+            },
+            {
+                "name": "Historic Shepherd Huts",
+                "description": "Explore traditional shepherd huts scattered throughout the valley, reflecting the area’s pastoral history and culture.",
+                "location": "Vall de Madriu-Perafita-Claror, Andorra"
+            }
+        ]
     },
     {
         "name": "Hiking in Vall de Madriu-Perafita-Claror",

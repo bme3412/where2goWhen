@@ -7,8 +7,34 @@
         "city": "Reykjavik",
         "longitude": -21.8277,
         "latitude": 64.1265,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["September", "October", "November", "December", "January", "February", "March"],
+        "best_time_to_go_description": "The best time to witness the Northern Lights in Iceland is during the darker months, from late September to early April. During this period, the nights are long and dark, providing better chances to see the lights.",
+        "worst_time_to_go": ["May", "June", "July", "August"],
+        "worst_time_to_go_description": "The summer months are less ideal for viewing the Northern Lights due to the midnight sun, which results in almost 24 hours of daylight and hampers visibility of the aurora.",
+        "suggested_venues": [
+            {
+                "name": "Thingvellir National Park",
+                "description": "A UNESCO World Heritage Site near Reykjavik, offering dark skies and stunning natural backdrops for viewing the Northern Lights.",
+                "location": "Near Reykjavik, Iceland"
+            },
+            {
+                "name": "Reykjanes Peninsula",
+                "description": "A region with minimal light pollution, offering good opportunities to see the Northern Lights along with unique geological features.",
+                "location": "Near Reykjavik, Iceland"
+            },
+            {
+                "name": "Northern Lights Tours",
+                "description": "Guided tours from Reykjavik, taking visitors to the best spots for aurora viewing, depending on the weather and solar activity.",
+                "location": "Reykjavik, Iceland"
+            },
+            {
+                "name": "Jökulsárlón Glacier Lagoon",
+                "description": "Though farther from Reykjavik, this lagoon offers a spectacular setting for Northern Lights viewing, with floating icebergs adding to the surreal experience.",
+                "location": "Iceland"
+            }
+        ]
+    },    
     {
         "name": "Exploring the Blue Lagoon",
         "category": "Wellness",
@@ -17,7 +43,33 @@
         "city": "Grindavík",
         "longitude": -22.4458,
         "latitude": 63.8804,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["Year-round"],
+        "best_time_to_go_description": "The Blue Lagoon can be enjoyed year-round, as the geothermal waters provide warmth and relaxation regardless of the weather. Winter offers the chance to bathe in the warm waters amidst a snowy landscape, while summer provides longer daylight hours for enjoying the lagoon.",
+        "worst_time_to_go": ["N/A"],
+        "worst_time_to_go_description": "There are no specific worst times to visit the Blue Lagoon, as it offers a unique experience throughout the year. However, it can be more crowded during peak tourist seasons in summer.",
+        "suggested_venues": [
+            {
+                "name": "Blue Lagoon Geothermal Spa",
+                "description": "Enjoy the main attraction, the large geothermal pool, known for its milky blue water rich in minerals like silica and sulfur.",
+                "location": "Grindavík, Iceland"
+            },
+            {
+                "name": "Lava Restaurant",
+                "description": "A fine dining experience at the Blue Lagoon, offering views of the lagoon and a menu featuring fresh, local ingredients.",
+                "location": "Blue Lagoon, Iceland"
+            },
+            {
+                "name": "In-Water Massages",
+                "description": "Enhance your experience with a relaxing in-water massage, offered directly in the geothermal waters of the lagoon.",
+                "location": "Blue Lagoon, Iceland"
+            },
+            {
+                "name": "Skin Care Shop",
+                "description": "The Blue Lagoon offers a range of skin care products made from the natural elements of the lagoon, ideal for souvenirs or personal use.",
+                "location": "Blue Lagoon, Iceland"
+            }
+        ]
     },
     {
         "name": "Golden Circle Tour",
@@ -27,8 +79,34 @@
         "city": "Thingvellir",
         "longitude": -21.1183,
         "latitude": 64.2559,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to take a Golden Circle tour is during the late spring, summer, and early autumn months. These periods offer milder weather and longer daylight hours, enhancing the experience of exploring the natural wonders along the route.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal for touring the Golden Circle due to harsh weather conditions, shorter daylight hours, and potential road closures, which might affect access to some attractions.",
+        "suggested_venues": [
+            {
+                "name": "Thingvellir National Park",
+                "description": "A UNESCO World Heritage site known for its historical significance and unique geology, where the North American and Eurasian tectonic plates meet.",
+                "location": "Thingvellir, Iceland"
+            },
+            {
+                "name": "Geysir Geothermal Area",
+                "description": "Home to the famous Strokkur geyser, which erupts every few minutes, and other geothermal phenomena.",
+                "location": "Near Thingvellir, Iceland"
+            },
+            {
+                "name": "Gullfoss Waterfall",
+                "description": "One of Iceland's most iconic waterfalls, Gullfoss is known for its immense power and stunning rainbows on sunny days.",
+                "location": "Near Thingvellir, Iceland"
+            },
+            {
+                "name": "Kerid Crater Lake",
+                "description": "A volcanic crater lake featuring strikingly blue water, often included in extended Golden Circle tours.",
+                "location": "Near Thingvellir, Iceland"
+            }
+        ]
+    },    
     {
         "name": "Hiking in Vatnajökull National Park",
         "category": "Adventure",
@@ -37,7 +115,33 @@
         "city": "Vatnajökull",
         "longitude": -16.9719,
         "latitude": 64.4219,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August"],
+        "best_time_to_go_description": "The best time for hiking in Vatnajökull National Park is during the summer months. This period offers milder weather conditions and longer daylight hours, essential for hiking and exploring the park's vast natural features, including glaciers and volcanic landscapes.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter presents challenging conditions for hiking in Vatnajökull National Park due to extreme cold, shorter daylight hours, and the risk of avalanches, making some areas inaccessible or dangerous.",
+        "suggested_venues": [
+            {
+                "name": "Glacier Hiking",
+                "description": "Guided glacier hikes on Vatnajökull, Europe's largest glacier, offering a unique and exhilarating experience.",
+                "location": "Vatnajökull National Park, Iceland"
+            },
+            {
+                "name": "Jökulsárlón Glacier Lagoon",
+                "description": "A stunning glacier lagoon with floating icebergs, located at the edge of Vatnajökull National Park.",
+                "location": "Near Vatnajökull, Iceland"
+            },
+            {
+                "name": "Svartifoss Waterfall",
+                "description": "A beautiful waterfall framed by black basalt columns, creating a striking natural backdrop for hikers.",
+                "location": "Vatnajökull National Park, Iceland"
+            },
+            {
+                "name": "Volcanic Landscapes",
+                "description": "Explore the park's unique volcanic terrain, including craters and lava fields, showcasing Iceland's dynamic geology.",
+                "location": "Vatnajökull National Park, Iceland"
+            }
+        ]
     },
     {
         "name": "Visiting Jökulsárlón Glacier Lagoon",
@@ -47,7 +151,33 @@
         "city": "Jökulsárlón",
         "longitude": -16.1791,
         "latitude": 64.0483,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Jökulsárlón Glacier Lagoon is during the summer months and early autumn. This period offers milder weather and longer daylight hours, enhancing the experience of viewing the icebergs and the lagoon’s wildlife, such as seals.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal due to harsh weather conditions and limited daylight, which might affect visibility and access to the lagoon.",
+        "suggested_venues": [
+            {
+                "name": "Boat Tours",
+                "description": "Take a boat tour on the lagoon to get up close to the floating icebergs, offering a unique perspective of this glacial wonder.",
+                "location": "Jökulsárlón, Iceland"
+            },
+            {
+                "name": "Diamond Beach",
+                "description": "A nearby beach where icebergs from the lagoon wash ashore, creating a stunning scene against the black sand.",
+                "location": "Near Jökulsárlón, Iceland"
+            },
+            {
+                "name": "Wildlife Watching",
+                "description": "The lagoon and its surroundings are great for observing local wildlife, including seals and various bird species.",
+                "location": "Jökulsárlón, Iceland"
+            },
+            {
+                "name": "Photography Opportunities",
+                "description": "Jökulsárlón offers exceptional photography opportunities, with its ever-changing landscape of ice and water.",
+                "location": "Jökulsárlón, Iceland"
+            }
+        ]
     },
     {
         "name": "Exploring Reykjavik",
@@ -57,7 +187,33 @@
         "city": "Reykjavik",
         "longitude": -21.8174,
         "latitude": 64.1265,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August"],
+        "best_time_to_go_description": "The best time to explore Reykjavik is during the summer months when the city experiences long days with nearly 24 hours of daylight, allowing more time for sightseeing and experiencing the city's cultural activities.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal due to short days with limited daylight hours and colder weather, which might affect the ability to explore the city comfortably.",
+        "suggested_venues": [
+            {
+                "name": "Hallgrimskirkja",
+                "description": "A landmark church in Reykjavik, known for its unique architecture and panoramic views of the city from its tower.",
+                "location": "Reykjavik, Iceland"
+            },
+            {
+                "name": "Harpa Concert Hall",
+                "description": "An architectural marvel and cultural center, hosting concerts and events, and offering beautiful views of the harbor.",
+                "location": "Reykjavik, Iceland"
+            },
+            {
+                "name": "National Museum of Iceland",
+                "description": "A museum showcasing Iceland's history from the Viking age to the present day, providing a comprehensive understanding of Icelandic culture.",
+                "location": "Reykjavik, Iceland"
+            },
+            {
+                "name": "Old Harbor Area",
+                "description": "A vibrant area with cafes, shops, and galleries, offering a glimpse into Reykjavik's maritime history and contemporary culture.",
+                "location": "Reykjavik, Iceland"
+            }
+        ]
     },
     {
         "name": "Snorkeling in Silfra Fissure",
@@ -67,7 +223,33 @@
         "city": "Thingvellir",
         "longitude": -21.1282,
         "latitude": 64.2559,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for snorkeling in Silfra Fissure is during the summer and early autumn months. This period offers relatively milder weather, longer daylight hours, and better visibility in the water, making the snorkeling experience more enjoyable.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal due to colder temperatures, both in and out of the water, which might make snorkeling more challenging despite the use of dry suits.",
+        "suggested_venues": [
+            {
+                "name": "Silfra Fissure",
+                "description": "A unique snorkeling site known for its clear waters and the opportunity to swim between the North American and Eurasian tectonic plates.",
+                "location": "Thingvellir National Park, Iceland"
+            },
+            {
+                "name": "Guided Snorkeling Tours",
+                "description": "Organized tours provide all necessary equipment, including dry suits, and guidance for a safe and memorable snorkeling experience in Silfra.",
+                "location": "Thingvellir National Park, Iceland"
+            },
+            {
+                "name": "Thingvellir National Park",
+                "description": "Apart from snorkeling, the park offers numerous hiking trails, historical sites, and stunning natural scenery.",
+                "location": "Thingvellir, Iceland"
+            },
+            {
+                "name": "Underwater Photography",
+                "description": "Silfra's clear waters offer exceptional conditions for underwater photography, capturing the fissure's unique underwater landscapes.",
+                "location": "Silfra Fissure, Thingvellir National Park, Iceland"
+            }
+        ]
     },
     {
         "name": "Whale Watching in Husavik",
@@ -77,7 +259,33 @@
         "city": "Husavik",
         "longitude": -17.3383,
         "latitude": 66.0449,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August"],
+        "best_time_to_go_description": "The ideal time for whale watching in Husavik is during the summer months. This period offers the highest likelihood of whale sightings, as many species migrate to the waters around Iceland, and the weather conditions are generally more favorable for boat trips.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less suitable for whale watching due to rough sea conditions, colder weather, and limited daylight hours, which might make boat trips less comfortable and reduce the chances of sightings.",
+        "suggested_venues": [
+            {
+                "name": "Whale Watching Tours",
+                "description": "Join guided boat tours in Husavik, offering the chance to see various species of whales in their natural habitat.",
+                "location": "Husavik, Iceland"
+            },
+            {
+                "name": "Husavik Whale Museum",
+                "description": "A museum dedicated to whale biology and conservation, providing educational insights into the species seen in Icelandic waters.",
+                "location": "Husavik, Iceland"
+            },
+            {
+                "name": "Puffin Watching",
+                "description": "In addition to whales, the area around Husavik is also a great place to spot puffins during the summer months.",
+                "location": "Near Husavik, Iceland"
+            },
+            {
+                "name": "Scenic Boat Trips",
+                "description": "Beyond whale watching, boat trips in the area offer stunning views of Iceland’s coastline and marine landscapes.",
+                "location": "Husavik, Iceland"
+            }
+        ]
     },
     {
         "name": "Visiting the Black Sand Beaches of Vik",
@@ -87,7 +295,33 @@
         "city": "Vik",
         "longitude": -19.0097,
         "latitude": 63.4186,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit the black sand beaches of Vik is during the summer and early autumn months. These periods offer milder weather conditions, making it more pleasant to explore the beaches and the striking coastal scenery.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal due to harsh weather conditions, including strong winds and rough seas, which might affect the accessibility and enjoyment of the beach.",
+        "suggested_venues": [
+            {
+                "name": "Reynisfjara Beach",
+                "description": "One of the most famous black sand beaches near Vik, known for its stunning basalt columns, powerful waves, and dramatic cliffs.",
+                "location": "Near Vik, Iceland"
+            },
+            {
+                "name": "Dyrhólaey Peninsula",
+                "description": "A nearby peninsula offering panoramic views of the black sand beaches, birdwatching opportunities, and unique rock formations.",
+                "location": "Near Vik, Iceland"
+            },
+            {
+                "name": "Photography Opportunities",
+                "description": "The black sand beaches and surrounding landscapes provide exceptional photography opportunities, capturing the unique beauty of Iceland's coastline.",
+                "location": "Vik, Iceland"
+            },
+            {
+                "name": "Local Hiking Trails",
+                "description": "Explore the hiking trails around Vik, which lead to breathtaking vantage points over the beaches and the Atlantic Ocean.",
+                "location": "Vik, Iceland"
+            }
+        ]
     },
     {
         "name": "Touring the Westfjords",
@@ -97,6 +331,32 @@
         "city": "Westfjords",
         "longitude": -22.2724,
         "latitude": 65.9196,
-        "cost": "$$"
-    }
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August"],
+        "best_time_to_go_description": "The best time to tour the Westfjords is during the summer months when the weather is milder, and the roads are more accessible. This period offers the opportunity to fully experience the region’s natural beauty, including its fjords, waterfalls, and wildlife.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be challenging in the Westfjords due to heavy snowfall, icy roads, and limited daylight, which might restrict access to many areas and reduce the enjoyment of the region's scenic landscapes.",
+        "suggested_venues": [
+            {
+                "name": "Látrabjarg Cliffs",
+                "description": "Europe’s largest bird cliff, a haven for birdwatchers and home to puffins, guillemots, and other seabirds.",
+                "location": "Westfjords, Iceland"
+            },
+            {
+                "name": "Dynjandi Waterfall",
+                "description": "A majestic and iconic waterfall in the Westfjords, known for its unique cascading appearance.",
+                "location": "Westfjords, Iceland"
+            },
+            {
+                "name": "Rauðasandur Beach",
+                "description": "A remarkable red sand beach in the Westfjords, offering a contrast to Iceland’s typical black sand beaches.",
+                "location": "Westfjords, Iceland"
+            },
+            {
+                "name": "Hot Springs",
+                "description": "The Westfjords region is dotted with natural hot springs, providing relaxing spots to enjoy amidst the stunning landscapes.",
+                "location": "Westfjords, Iceland"
+            }
+        ]
+    }    
 ]

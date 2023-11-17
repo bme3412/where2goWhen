@@ -7,8 +7,34 @@
         "city": "Athens",
         "longitude": 23.7275,
         "latitude": 37.9838,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "October", "November"],
+        "best_time_to_go_description": "The ideal times to visit the Acropolis are during spring and autumn. These seasons offer mild weather, making it more comfortable to explore the ancient site, and avoiding the extreme heat and crowds of the peak summer months.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be extremely hot and crowded, which may detract from the experience due to high temperatures and long wait times.",
+        "suggested_venues": [
+            {
+                "name": "Parthenon",
+                "description": "The most famous structure on the Acropolis, this ancient temple dedicated to the goddess Athena is renowned for its architectural beauty and historical significance.",
+                "location": "Acropolis of Athens, Greece"
+            },
+            {
+                "name": "Erechtheion",
+                "description": "An ancient Greek temple on the Acropolis known for its distinctive Caryatids, the sculpted female figures serving as architectural supports.",
+                "location": "Acropolis of Athens, Greece"
+            },
+            {
+                "name": "Acropolis Museum",
+                "description": "A state-of-the-art museum at the foot of the Acropolis, housing significant artifacts from the Acropolis and offering insight into its history and restoration.",
+                "location": "Athens, Greece"
+            },
+            {
+                "name": "Odeon of Herodes Atticus",
+                "description": "An ancient stone theatre on the southwest slope of the Acropolis, still used for performances and offering a glimpse into the cultural life of ancient Athens.",
+                "location": "Acropolis of Athens, Greece"
+            }
+        ]
+    },    
     {
         "name": "Santorini Sunset Cruise",
         "category": "Leisure",
@@ -17,7 +43,33 @@
         "city": "Santorini",
         "longitude": 25.4615,
         "latitude": 36.3932,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The best time for a sunset cruise in Santorini is during late spring and early autumn. These months offer pleasant weather with less crowded conditions, ideal for enjoying the scenic views and the sunset.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter months are less ideal for a sunset cruise due to cooler weather and rougher sea conditions, which might affect the cruising experience.",
+        "suggested_venues": [
+            {
+                "name": "Caldera Cruise",
+                "description": "Explore the caldera of Santorini by boat, offering stunning views of the cliffs and the island's unique geological formations.",
+                "location": "Santorini, Greece"
+            },
+            {
+                "name": "Oia Sunset",
+                "description": "Witness the famous sunset of Oia from the sea, providing a unique perspective of one of Santorini's most iconic views.",
+                "location": "Santorini, Greece"
+            },
+            {
+                "name": "Volcano and Hot Springs Visit",
+                "description": "Many sunset cruises include a visit to the volcanic islands near Santorini, allowing guests to swim in the hot springs.",
+                "location": "Near Santorini, Greece"
+            },
+            {
+                "name": "Traditional Greek Dinner on Board",
+                "description": "Enjoy a delicious Greek meal on the cruise, complementing the experience with local flavors as the sun sets.",
+                "location": "Santorini, Greece"
+            }
+        ]
     },
     {
         "name": "Touring the Palace of Knossos in Crete",
@@ -27,7 +79,33 @@
         "city": "Crete",
         "longitude": 25.1488,
         "latitude": 35.3387,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The ideal times to visit the Palace of Knossos are in the late spring and early autumn. These periods offer pleasant weather, fewer crowds, and a more comfortable exploration of the archaeological site.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be extremely hot and crowded, potentially detracting from the experience with high temperatures and long wait times.",
+        "suggested_venues": [
+            {
+                "name": "Palace of Knossos",
+                "description": "An iconic archaeological site, the Palace of Knossos is famous for its complex layout, elaborate frescoes, and connection to Greek mythology, including the legend of the Minotaur.",
+                "location": "Crete, Greece"
+            },
+            {
+                "name": "Heraklion Archaeological Museum",
+                "description": "Located nearby, this museum houses many of the artifacts found at Knossos, providing deeper insight into the Minoan civilization.",
+                "location": "Crete, Greece"
+            },
+            {
+                "name": "Minotaur’s Labyrinth",
+                "description": "While not a physical location, the myth of the Minotaur's Labyrinth is intrinsically linked to the Palace of Knossos, adding a mythical dimension to the visit.",
+                "location": "Palace of Knossos, Crete"
+            },
+            {
+                "name": "Ancient Ruins Exploration",
+                "description": "Beyond the main palace complex, explore the surrounding ruins that offer additional insights into the Minoan culture and daily life.",
+                "location": "Crete, Greece"
+            }
+        ]
     },
     {
         "name": "Hiking the Samaria Gorge",
@@ -37,7 +115,33 @@
         "city": "Crete",
         "longitude": 24.079,
         "latitude": 35.2506,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The best time to hike the Samaria Gorge is during late spring and early autumn. These months provide favorable weather conditions for hiking, with less heat and fewer crowds than the peak summer months.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter is less suitable for hiking in the gorge due to potential rain, cold weather, and the risk of flooding, which can make the trail dangerous or inaccessible.",
+        "suggested_venues": [
+            {
+                "name": "Samaria Gorge National Park",
+                "description": "A stunning natural park that encompasses the Samaria Gorge, offering a diverse landscape of mountains, forests, and the famous Iron Gates.",
+                "location": "Crete, Greece"
+            },
+            {
+                "name": "Omalos Plateau",
+                "description": "The starting point of the Samaria Gorge trek, this plateau offers beautiful scenery and is an excellent spot for preparation and acclimatization.",
+                "location": "Near the Samaria Gorge, Crete"
+            },
+            {
+                "name": "Agia Roumeli",
+                "description": "The endpoint of the gorge hike, a quaint village accessible only by foot or boat, offering a relaxing beach and local cuisine.",
+                "location": "End of Samaria Gorge, Crete"
+            },
+            {
+                "name": "Flora and Fauna Observation",
+                "description": "The gorge is home to a rich variety of plant and animal species, providing opportunities for nature observation and photography.",
+                "location": "Samaria Gorge, Crete"
+            }
+        ]
     },
     {
         "name": "Greek Food Tour in Thessaloniki",
@@ -47,7 +151,33 @@
         "city": "Thessaloniki",
         "longitude": 22.9444,
         "latitude": 40.6401,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best times to go on a food tour in Thessaloniki are during the late spring and early autumn months. These periods offer pleasant weather, ideal for walking tours and outdoor dining, and less crowded than the peak summer season.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal for a food tour due to colder weather, which might affect the enjoyment of outdoor markets and street food experiences.",
+        "suggested_venues": [
+            {
+                "name": "Modiano Market",
+                "description": "A bustling market in Thessaloniki, offering a variety of fresh local produce, meats, cheeses, and other culinary delights.",
+                "location": "Thessaloniki, Greece"
+            },
+            {
+                "name": "Ladadika District",
+                "description": "A historic neighborhood known for its vibrant dining scene, with numerous tavernas and cafes serving traditional Greek dishes.",
+                "location": "Thessaloniki, Greece"
+            },
+            {
+                "name": "Aristotelous Square",
+                "description": "A central square in Thessaloniki, surrounded by historic buildings and popular eateries, providing a lively atmosphere for food tasting.",
+                "location": "Thessaloniki, Greece"
+            },
+            {
+                "name": "Seafront Promenade",
+                "description": "A scenic area along the waterfront, perfect for enjoying Thessaloniki's famous street food, like gyros and souvlaki, with views of the Thermaic Gulf.",
+                "location": "Thessaloniki, Greece"
+            }
+        ]
     },
     {
         "name": "Visiting the Oracle of Delphi",
@@ -57,8 +187,34 @@
         "city": "Delphi",
         "longitude": 22.5012,
         "latitude": 38.4824,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The ideal times to visit Delphi are during the late spring and early autumn months. These periods offer mild weather, which is perfect for exploring the archaeological site and its surroundings, while avoiding the heat and crowds of summer.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be very hot and crowded, which might detract from the experience due to high temperatures and long wait times.",
+        "suggested_venues": [
+            {
+                "name": "Temple of Apollo",
+                "description": "The ruins of the Temple of Apollo, where the famous oracle of Delphi was located, offering insights into ancient Greek religion and culture.",
+                "location": "Delphi, Greece"
+            },
+            {
+                "name": "Delphi Archaeological Museum",
+                "description": "A museum showcasing artifacts from the Delphi archaeological site, including sculptures, inscriptions, and objects used in the oracle rituals.",
+                "location": "Delphi, Greece"
+            },
+            {
+                "name": "Ancient Theater of Delphi",
+                "description": "An ancient theater at the site, offering a glimpse into the cultural life of ancient Greece and stunning views of the surrounding landscape.",
+                "location": "Delphi, Greece"
+            },
+            {
+                "name": "Castalian Spring",
+                "description": "A historic spring near Delphi, historically used for purification rituals by those visiting the oracle.",
+                "location": "Delphi, Greece"
+            }
+        ]
+    },    
     {
         "name": "Wine Tasting in the Peloponnese",
         "category": "Gastronomy",
@@ -67,7 +223,33 @@
         "city": "Peloponnese",
         "longitude": 22.245,
         "latitude": 37.5112,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The best times for wine tasting in the Peloponnese are late spring and early autumn. These months offer pleasant weather, ideal for visiting vineyards and enjoying the region's natural beauty, along with participating in the harvest season activities.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal due to colder weather, which might affect vineyard visits and outdoor wine-tasting experiences.",
+        "suggested_venues": [
+            {
+                "name": "Local Vineyards",
+                "description": "Visit various vineyards in the Peloponnese to taste unique local wine varieties and learn about traditional winemaking techniques.",
+                "location": "Peloponnese, Greece"
+            },
+            {
+                "name": "Nemea Wine Region",
+                "description": "Famous for its Agiorgitiko grape, Nemea offers an excellent wine-tasting experience, with numerous wineries and beautiful scenery.",
+                "location": "Peloponnese, Greece"
+            },
+            {
+                "name": "Wine Festivals",
+                "description": "Participate in local wine festivals, which often occur in autumn, providing a deeper immersion into the region's wine culture.",
+                "location": "Peloponnese, Greece"
+            },
+            {
+                "name": "Wine Tours",
+                "description": "Join guided wine tours to explore the best of the region's wineries, including exclusive tastings and visits to historic cellars.",
+                "location": "Peloponnese, Greece"
+            }
+        ]
     },
     {
         "name": "Island Hopping in the Cyclades",
@@ -77,7 +259,33 @@
         "city": "Cyclades",
         "longitude": 25.1485,
         "latitude": 37.4636,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The ideal times for island hopping in the Cyclades are late spring and early autumn. These months offer pleasant weather, fewer tourists, and comfortable conditions for ferry travel and exploration of the islands.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less suitable for island hopping due to rougher sea conditions, limited ferry schedules, and some tourist facilities on the islands being closed.",
+        "suggested_venues": [
+            {
+                "name": "Santorini",
+                "description": "Known for its stunning sunsets, dramatic views, and unique architecture, Santorini is a must-visit in the Cyclades archipelago.",
+                "location": "Cyclades, Greece"
+            },
+            {
+                "name": "Mykonos",
+                "description": "Famous for its vibrant nightlife, beautiful beaches, and charming town with iconic windmills, Mykonos offers a lively experience.",
+                "location": "Cyclades, Greece"
+            },
+            {
+                "name": "Delos",
+                "description": "A UNESCO World Heritage site near Mykonos, Delos is rich in ancient Greek ruins and mythology.",
+                "location": "Cyclades, Greece"
+            },
+            {
+                "name": "Paros",
+                "description": "Known for its traditional villages, beautiful beaches, and active windsurfing scene, Paros provides a blend of relaxation and adventure.",
+                "location": "Cyclades, Greece"
+            }
+        ]
     },
     {
         "name": "Exploring the Medieval City of Rhodes",
@@ -87,7 +295,33 @@
         "city": "Rhodes",
         "longitude": 28.2245,
         "latitude": 36.434,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best times to visit the medieval city of Rhodes are during the late spring and early autumn. These months offer mild weather, ideal for exploring the historic streets and monuments without the extreme heat and large crowds of the summer.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be very hot and crowded, which might detract from the experience due to high temperatures and long wait times at tourist attractions.",
+        "suggested_venues": [
+            {
+                "name": "Palace of the Grand Master",
+                "description": "A highlight of Rhodes City, this castle-like palace offers a glimpse into the island’s history as a stronghold of the Knights of Saint John.",
+                "location": "Rhodes, Greece"
+            },
+            {
+                "name": "Street of the Knights",
+                "description": "A well-preserved medieval street, lined with inns once used by the Knights of Saint John, showcasing the city's rich history.",
+                "location": "Rhodes, Greece"
+            },
+            {
+                "name": "Archaeological Museum of Rhodes",
+                "description": "Housed in the former hospital of the Knights, this museum contains important artifacts from Rhodes and the surrounding islands.",
+                "location": "Rhodes, Greece"
+            },
+            {
+                "name": "Medieval Walls",
+                "description": "Walk along the impressive medieval walls that surround Rhodes City, offering spectacular views and a sense of the city's past defenses.",
+                "location": "Rhodes, Greece"
+            }
+        ]
     },
     {
         "name": "Relaxing on the Beaches of Mykonos",
@@ -97,6 +331,32 @@
         "city": "Mykonos",
         "longitude": 25.3287,
         "latitude": 37.4467,
-        "cost": "$$"
-    }
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The best times to visit the beaches of Mykonos are during late spring and early autumn. These periods offer warm, pleasant weather with less crowding than the peak summer months, ideal for enjoying the beaches and the island's natural beauty.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter is less suitable for beach activities due to cooler weather and rougher sea conditions, which might affect the enjoyment of the island's beaches and outdoor activities.",
+        "suggested_venues": [
+            {
+                "name": "Psarou Beach",
+                "description": "One of Mykonos's most famous beaches, known for its beautiful sand, clear waters, and trendy beach clubs.",
+                "location": "Mykonos, Greece"
+            },
+            {
+                "name": "Paradise Beach",
+                "description": "A popular beach among younger crowds, offering a lively atmosphere with beach bars and music.",
+                "location": "Mykonos, Greece"
+            },
+            {
+                "name": "Elia Beach",
+                "description": "A larger beach on the island, known for its clear waters and more relaxed vibe, suitable for families and sunbathers.",
+                "location": "Mykonos, Greece"
+            },
+            {
+                "name": "Super Paradise Beach",
+                "description": "Another well-known beach in Mykonos, famous for its parties, clear blue water, and beautiful scenery.",
+                "location": "Mykonos, Greece"
+            }
+        ]
+    }    
 ]

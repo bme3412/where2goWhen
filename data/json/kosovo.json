@@ -7,8 +7,34 @@
         "city": "Dečani",
         "longitude": 20.2597,
         "latitude": 42.5525,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best times to visit the Visoki Dečani Monastery are during the late spring and early autumn. These months offer mild weather, ideal for exploring the historic site and its surroundings comfortably.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal for visiting the monastery due to colder temperatures and potential snowfall, which might affect access and the overall experience of the site.",
+        "suggested_venues": [
+            {
+                "name": "Monastery Tours",
+                "description": "Join a guided tour of the monastery to learn about its history, architecture, and the significance of its frescoes.",
+                "location": "Visoki Dečani Monastery, Dečani, Kosovo"
+            },
+            {
+                "name": "Monastery Church",
+                "description": "Explore the church's interior to view the extensive collection of medieval frescoes and icons, some of the finest examples of Serbian medieval art.",
+                "location": "Visoki Dečani Monastery, Dečani, Kosovo"
+            },
+            {
+                "name": "Monastic Grounds",
+                "description": "Walk around the tranquil monastic grounds, which offer a peaceful environment and a glimpse into monastic life.",
+                "location": "Visoki Dečani Monastery, Dečani, Kosovo"
+            },
+            {
+                "name": "Photography",
+                "description": "Capture the beauty of the monastery's architecture and its scenic surroundings, which provide excellent photography opportunities.",
+                "location": "Visoki Dečani Monastery, Dečani, Kosovo"
+            }
+        ]
+    },    
     {
         "name": "Exploring Prizren's Old Town",
         "category": "Cultural",
@@ -17,8 +43,34 @@
         "city": "Prizren",
         "longitude": 20.7417,
         "latitude": 42.2139,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The ideal times to explore Prizren's Old Town are during the late spring and early autumn. These months offer pleasant weather, allowing visitors to comfortably walk through the town and enjoy its historical ambiance and architectural beauty.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less suitable for visiting Prizren's Old Town due to colder temperatures, which might make outdoor exploration less enjoyable.",
+        "suggested_venues": [
+            {
+                "name": "Historical Buildings",
+                "description": "Discover the variety of historical buildings in the Old Town, including mosques, churches, and traditional houses.",
+                "location": "Prizren's Old Town, Prizren, Kosovo"
+            },
+            {
+                "name": "Local Cafes and Shops",
+                "description": "Experience the local culture by visiting cafes and shops, offering a taste of the local cuisine and crafts.",
+                "location": "Prizren's Old Town, Prizren, Kosovo"
+            },
+            {
+                "name": "Prizren Fortress",
+                "description": "Visit the nearby Prizren Fortress for panoramic views of the city and insights into the region's history.",
+                "location": "Near Prizren's Old Town, Prizren, Kosovo"
+            },
+            {
+                "name": "Cultural Events",
+                "description": "Participate in cultural events and festivals that often take place in the Old Town, providing a lively and authentic experience.",
+                "location": "Prizren's Old Town, Prizren, Kosovo"
+            }
+        ]
+    },    
     {
         "name": "Hiking in the Rugova Valley",
         "category": "Nature",
@@ -27,7 +79,33 @@
         "city": "Peć",
         "longitude": 20.2906,
         "latitude": 42.6603,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The ideal times to go hiking in the Rugova Valley are during the late spring and early autumn. These months offer pleasant weather conditions, making it ideal for hiking and enjoying the valley's natural beauty without the extreme heat of summer or the cold of winter.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less suitable for hiking in the Rugova Valley due to snow and colder temperatures, which might make the trails less accessible and hiking more challenging.",
+        "suggested_venues": [
+            {
+                "name": "Hiking Trails",
+                "description": "Explore a variety of trails in the valley, suitable for different skill levels and offering scenic views of the surrounding mountains.",
+                "location": "Rugova Valley, Peć, Kosovo"
+            },
+            {
+                "name": "Via Ferrata",
+                "description": "For adventure seekers, the Rugova Valley offers Via Ferrata routes, providing a thrilling way to experience the valley's rugged terrain.",
+                "location": "Rugova Valley, Peć, Kosovo"
+            },
+            {
+                "name": "Photography Opportunities",
+                "description": "The valley's diverse landscapes, from dense forests to rocky peaks, present numerous opportunities for stunning photography.",
+                "location": "Rugova Valley, Peć, Kosovo"
+            },
+            {
+                "name": "Local Cuisine",
+                "description": "Experience the local cuisine at the valley's restaurants and cafes, offering traditional dishes that complement the outdoor adventure.",
+                "location": "Rugova Valley, Peć, Kosovo"
+            }
+        ]
     },
     {
         "name": "Bear Sanctuary Visit",
@@ -37,7 +115,33 @@
         "city": "Prishtina",
         "longitude": 21.1669,
         "latitude": 42.6675,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The best time to visit the Bear Sanctuary is during the late spring and early autumn. These months offer pleasant weather for outdoor activities and are ideal for observing the bears in a more active state.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal for visiting the sanctuary due to colder temperatures, which might affect the bears' activity levels and the comfort of visitors.",
+        "suggested_venues": [
+            {
+                "name": "Bear Viewing Areas",
+                "description": "Observe the bears in their natural-like habitats, which are designed to provide a safe and comfortable environment for them.",
+                "location": "Bear Sanctuary, Prishtina, Kosovo"
+            },
+            {
+                "name": "Educational Tours",
+                "description": "Join educational tours to learn about bear conservation, the history of the sanctuary, and efforts to protect wildlife in Kosovo.",
+                "location": "Bear Sanctuary, Prishtina, Kosovo"
+            },
+            {
+                "name": "Visitor Center",
+                "description": "The visitor center offers more information about the sanctuary's mission and the stories of the rescued bears.",
+                "location": "Bear Sanctuary, Prishtina, Kosovo"
+            },
+            {
+                "name": "Walking Trails",
+                "description": "Enjoy walking trails around the sanctuary, offering a peaceful experience in nature while supporting the sanctuary's mission.",
+                "location": "Bear Sanctuary, Prishtina, Kosovo"
+            }
+        ]
     },
     {
         "name": "Tour of the Gračanica Monastery",
@@ -47,7 +151,33 @@
         "city": "Gračanica",
         "longitude": 21.1103,
         "latitude": 42.6281,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The ideal times to visit the Gračanica Monastery are during the late spring and early autumn months, offering mild weather and comfortable conditions for exploring the historic site and its surroundings.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less suitable for visiting the monastery due to colder temperatures and potential snowfall, which might affect access and the overall experience.",
+        "suggested_venues": [
+            {
+                "name": "Monastery Church",
+                "description": "View the well-preserved frescoes and intricate details inside the church, showcasing the artistry of Serbian medieval architecture.",
+                "location": "Gračanica Monastery, Gračanica, Kosovo"
+            },
+            {
+                "name": "Guided Historical Tours",
+                "description": "Take a guided tour to learn about the monastery's history, significance in Serbian culture, and its architectural features.",
+                "location": "Gračanica Monastery, Gračanica, Kosovo"
+            },
+            {
+                "name": "Monastic Grounds",
+                "description": "Walk around the peaceful monastic grounds, which offer a tranquil setting and a chance to reflect on the historical importance of the site.",
+                "location": "Gračanica Monastery, Gračanica, Kosovo"
+            },
+            {
+                "name": "Nearby Cultural Sites",
+                "description": "Explore other nearby historical and cultural sites to gain a deeper understanding of the region's rich heritage.",
+                "location": "Around Gračanica, Kosovo"
+            }
+        ]
     },
     {
         "name": "Exploring the Gadime Caves",
@@ -57,7 +187,33 @@
         "city": "Gadime",
         "longitude": 21.1553,
         "latitude": 42.4636,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["Year-round"],
+        "best_time_to_go_description": "The Gadime Caves can be visited throughout the year as the cave's internal climate remains relatively stable. This makes it a suitable and fascinating destination regardless of the outdoor weather.",
+        "worst_time_to_go": ["N/A"],
+        "worst_time_to_go_description": "There are no specific worst times to visit the Gadime Caves, as the indoor environment is not affected by external weather conditions. However, it's always advisable to check for any operational changes or maintenance schedules before planning a visit.",
+        "suggested_venues": [
+            {
+                "name": "Cave Tour",
+                "description": "Join a guided tour to explore the cave's interior, marveling at the impressive formations of stalactites and stalagmites.",
+                "location": "Gadime Caves, Gadime, Kosovo"
+            },
+            {
+                "name": "Photography Opportunities",
+                "description": "Capture the natural beauty and geological formations inside the cave, which provide unique photography opportunities.",
+                "location": "Gadime Caves, Gadime, Kosovo"
+            },
+            {
+                "name": "Educational Experience",
+                "description": "Learn about the geological processes that formed the caves and their ecological significance during your visit.",
+                "location": "Gadime Caves, Gadime, Kosovo"
+            },
+            {
+                "name": "Nearby Attractions",
+                "description": "Explore additional attractions in the surrounding area, offering a broader experience of the region's natural and cultural landscape.",
+                "location": "Around Gadime, Kosovo"
+            }
+        ]
     },
     {
         "name": "National Library of Kosovo",
@@ -67,7 +223,33 @@
         "city": "Prishtina",
         "longitude": 21.1669,
         "latitude": 42.6639,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["Year-round"],
+        "best_time_to_go_description": "The National Library of Kosovo can be visited throughout the year. The library's indoor nature makes it a suitable destination regardless of the weather, allowing visitors to appreciate its architecture and collections comfortably.",
+        "worst_time_to_go": ["N/A"],
+        "worst_time_to_go_description": "There are no specific worst times to visit the National Library of Kosovo, as its indoor setting provides a stable environment for exploration and study.",
+        "suggested_venues": [
+            {
+                "name": "Architectural Tour",
+                "description": "Take a tour focusing on the library's unique architectural design, which combines modern and traditional elements in an unusual way.",
+                "location": "National Library of Kosovo, Prishtina, Kosovo"
+            },
+            {
+                "name": "Library Collections",
+                "description": "Explore the extensive collections of books and manuscripts, including works significant to Kosovar history and culture.",
+                "location": "National Library of Kosovo, Prishtina, Kosovo"
+            },
+            {
+                "name": "Photography Opportunities",
+                "description": "Capture the striking exterior and interior design of the library, a subject of interest for both amateur and professional photographers.",
+                "location": "National Library of Kosovo, Prishtina, Kosovo"
+            },
+            {
+                "name": "Nearby Cultural Sites",
+                "description": "Visit other cultural and historical sites in Prishtina, making the library part of a broader exploration of the city.",
+                "location": "Prishtina, Kosovo"
+            }
+        ]
     },
     {
         "name": "Visiting the Ethnological Museum (Muzeu Etnologjik)",
@@ -77,8 +259,34 @@
         "city": "Prishtina",
         "longitude": 21.1653,
         "latitude": 42.6629,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["Year-round"],
+        "best_time_to_go_description": "The Ethnological Museum can be visited throughout the year, as it offers indoor exploration of Kosovo's cultural heritage, making it a suitable destination in any weather.",
+        "worst_time_to_go": ["N/A"],
+        "worst_time_to_go_description": "There are no specific worst times to visit the Ethnological Museum, but it's always a good idea to check for any temporary closures or special events that might affect regular visiting hours.",
+        "suggested_venues": [
+            {
+                "name": "Museum Exhibits",
+                "description": "Discover a wide range of exhibits showcasing traditional costumes, tools, arts, and crafts that reflect the rich cultural history of Kosovo.",
+                "location": "Ethnological Museum, Prishtina, Kosovo"
+            },
+            {
+                "name": "Educational Programs",
+                "description": "Participate in educational programs and workshops that offer deeper insights into the cultural practices and traditions of the region.",
+                "location": "Ethnological Museum, Prishtina, Kosovo"
+            },
+            {
+                "name": "Museum Architecture",
+                "description": "Admire the architecture of the museum building itself, which is often a point of interest for visitors.",
+                "location": "Ethnological Museum, Prishtina, Kosovo"
+            },
+            {
+                "name": "Nearby Historical Sites",
+                "description": "Explore other historical and cultural sites in Prishtina to complement your visit to the museum and gain a broader understanding of the city's heritage.",
+                "location": "Prishtina, Kosovo"
+            }
+        ]
+    },    
     {
         "name": "Mirusha Waterfalls",
         "category": "Nature",
@@ -87,7 +295,33 @@
         "city": "Mirusha",
         "longitude": 20.6500,
         "latitude": 42.4500,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The best times to visit the Mirusha Waterfalls are during late spring and early autumn. These months offer pleasant weather conditions, making it ideal for hiking and enjoying the natural beauty of the waterfalls and the surrounding area.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal for visiting the waterfalls due to colder temperatures and potential snowfall, which might make access difficult and reduce the flow of the water.",
+        "suggested_venues": [
+            {
+                "name": "Waterfall Hiking Trail",
+                "description": "Follow the trail that leads to various viewpoints of the waterfalls, offering stunning sights of the cascades and the valley.",
+                "location": "Mirusha Waterfalls, Mirusha, Kosovo"
+            },
+            {
+                "name": "Picnic Spots",
+                "description": "Enjoy a picnic in one of the designated areas near the waterfalls, where visitors can relax and appreciate the scenic beauty.",
+                "location": "Mirusha Waterfalls, Mirusha, Kosovo"
+            },
+            {
+                "name": "Photography Opportunities",
+                "description": "The waterfalls and their natural surroundings present numerous opportunities for photography enthusiasts.",
+                "location": "Mirusha Waterfalls, Mirusha, Kosovo"
+            },
+            {
+                "name": "Local Flora and Fauna",
+                "description": "Explore the diverse flora and fauna of the valley, adding to the overall experience of nature and biodiversity.",
+                "location": "Mirusha Waterfalls, Mirusha, Kosovo"
+            }
+        ]
     },
     {
         "name": "Brezovica Ski Resort",
@@ -97,6 +331,33 @@
         "city": "Brezovica",
         "longitude": 21.0300,
         "latitude": 42.2400,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["December", "January", "February", "March"],
+        "best_time_to_go_description": "The ideal time to visit Brezovica Ski Resort is during the winter months, especially from December to March. This period typically offers the best snow conditions for skiing and snowboarding.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "Summer months are not suitable for winter sports at the resort due to the lack of snow. However, the area can still be enjoyed for hiking and other summer activities.",
+        "suggested_venues": [
+            {
+                "name": "Ski Slopes",
+                "description": "Explore a variety of ski slopes suitable for different skill levels, from beginners to advanced skiers and snowboarders.",
+                "location": "Brezovica Ski Resort, Brezovica, Kosovo"
+            },
+            {
+                "name": "Ski Lifts",
+                "description": "Utilize the ski lifts to access different parts of the mountain, offering convenience and stunning views of the surrounding landscape.",
+                "location": "Brezovica Ski Resort, Brezovica, Kosovo"
+            },
+            {
+                "name": "Ski Rentals and Lessons",
+                "description": "Take advantage of ski rentals and professional lessons available at the resort, catering to both beginners and those looking to improve their skills.",
+                "location": "Brezovica Ski Resort, Brezovica, Kosovo"
+            },
+            {
+                "name": "Après-ski Activities",
+                "description": "Enjoy the après-ski scene with various dining and entertainment options available at the resort.",
+                "location": "Brezovica Ski Resort, Brezovica, Kosovo"
+            }
+        ]
     }
+    
 ]

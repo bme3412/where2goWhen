@@ -7,8 +7,34 @@
         "city": "Riga",
         "longitude": 24.1069,
         "latitude": 56.9496,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The best times to explore Riga's Old Town are during the late spring and early autumn. These months offer pleasant weather, making it comfortable to walk through the streets and appreciate the architecture and ambiance of the Old Town.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal due to the cold temperatures and shorter days, which might make outdoor exploration less enjoyable, despite the charming winter scenery.",
+        "suggested_venues": [
+            {
+                "name": "Art Nouveau Buildings",
+                "description": "Discover the stunning Art Nouveau buildings that Riga is famous for, with their elaborate facades and decorative details.",
+                "location": "Riga's Old Town, Riga, Latvia"
+            },
+            {
+                "name": "Historical Landmarks",
+                "description": "Visit key historical landmarks, including the House of the Blackheads, Riga Cathedral, and the Three Brothers.",
+                "location": "Riga's Old Town, Riga, Latvia"
+            },
+            {
+                "name": "Local Cafes and Shops",
+                "description": "Experience the local culture by visiting cafes and shops within the Old Town, offering a taste of Latvian cuisine and crafts.",
+                "location": "Riga's Old Town, Riga, Latvia"
+            },
+            {
+                "name": "Street Performances",
+                "description": "Enjoy the street performances and artistic displays that often take place in the Old Town, adding to the vibrant atmosphere.",
+                "location": "Riga's Old Town, Riga, Latvia"
+            }
+        ]
+    },    
     {
         "name": "Gauja National Park Adventure",
         "category": "Nature",
@@ -17,8 +43,34 @@
         "city": "Sigulda",
         "longitude": 24.8074,
         "latitude": 57.1569,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The best times to visit Gauja National Park are in the late spring and early autumn. These months offer pleasant weather for outdoor activities, such as hiking and sightseeing, while avoiding the peak summer crowds and the cold of winter.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less suitable for visiting the park due to the cold weather and potential snow, which might restrict some outdoor activities and access to certain areas of the park.",
+        "suggested_venues": [
+            {
+                "name": "Hiking Trails",
+                "description": "Enjoy the extensive network of hiking trails, showcasing the park's diverse landscapes, from river valleys to dense forests.",
+                "location": "Gauja National Park, Sigulda, Latvia"
+            },
+            {
+                "name": "Turaida Castle",
+                "description": "Visit the historic Turaida Castle, located within the park, offering a glimpse into Latvia's medieval past and panoramic views of the Gauja River valley.",
+                "location": "Gauja National Park, Sigulda, Latvia"
+            },
+            {
+                "name": "Canoeing and Kayaking",
+                "description": "Experience canoeing or kayaking on the Gauja River, a peaceful way to explore the park's natural beauty from a different perspective.",
+                "location": "Gauja National Park, Sigulda, Latvia"
+            },
+            {
+                "name": "Photography Opportunities",
+                "description": "Capture the stunning scenery of the park, a haven for nature photographers with its rich flora, fauna, and picturesque landscapes.",
+                "location": "Gauja National Park, Sigulda, Latvia"
+            }
+        ]
+    },    
     {
         "name": "Jurmala Beach Relaxation",
         "category": "Leisure",
@@ -27,8 +79,34 @@
         "city": "Jurmala",
         "longitude": 23.7128,
         "latitude": 56.9710,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August"],
+        "best_time_to_go_description": "The ideal time to visit Jurmala Beach is during the summer months when the weather is warm and sunny, perfect for beach activities and enjoying the seaside.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter is less suitable for a beach visit due to cold temperatures and limited activities, making it less enjoyable for those seeking the traditional beach experience.",
+        "suggested_venues": [
+            {
+                "name": "Beach Activities",
+                "description": "Partake in various beach activities, such as sunbathing, swimming, and beach volleyball, along the extensive coastline of Jurmala.",
+                "location": "Jurmala Beach, Jurmala, Latvia"
+            },
+            {
+                "name": "Spa and Wellness Centers",
+                "description": "Explore the numerous spa and wellness centers in Jurmala, known for offering relaxing treatments and therapies.",
+                "location": "Jurmala, Latvia"
+            },
+            {
+                "name": "Local Dining",
+                "description": "Enjoy the local cuisine at beachfront restaurants and cafes, offering fresh seafood and traditional Latvian dishes.",
+                "location": "Jurmala, Latvia"
+            },
+            {
+                "name": "Jomas Street",
+                "description": "Stroll along Jomas Street, the main pedestrian street in Jurmala, lined with shops, cafes, and entertainment options.",
+                "location": "Jurmala, Latvia"
+            }
+        ]
+    },    
     {
         "name": "Rundāle Palace Tour",
         "category": "History",
@@ -37,8 +115,34 @@
         "city": "Pilsrundale",
         "longitude": 24.0141,
         "latitude": 56.4154,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Rundāle Palace is during the late spring, summer, and early autumn. These months offer pleasant weather, allowing visitors to fully enjoy the palace's gardens and outdoor features.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal for visiting Rundāle Palace due to colder temperatures and the potential closure of some outdoor areas, such as the gardens.",
+        "suggested_venues": [
+            {
+                "name": "Palace Interior",
+                "description": "Explore the richly decorated rooms of the palace, showcasing the opulence and artistry of Baroque architecture and design.",
+                "location": "Rundāle Palace, Pilsrundale, Latvia"
+            },
+            {
+                "name": "Palace Gardens",
+                "description": "Stroll through the palace's extensive gardens, known for their intricate landscaping and variety of plant species.",
+                "location": "Rundāle Palace, Pilsrundale, Latvia"
+            },
+            {
+                "name": "Guided Tours",
+                "description": "Join a guided tour to gain insights into the palace's history, architecture, and the stories of its former inhabitants.",
+                "location": "Rundāle Palace, Pilsrundale, Latvia"
+            },
+            {
+                "name": "Photography Opportunities",
+                "description": "Capture the beauty of the palace and its gardens, which offer numerous picturesque scenes for photography enthusiasts.",
+                "location": "Rundāle Palace, Pilsrundale, Latvia"
+            }
+        ]
+    },    
     {
         "name": "Cesis Medieval Castle",
         "category": "History",
@@ -47,8 +151,34 @@
         "city": "Cesis",
         "longitude": 25.2746,
         "latitude": 57.3129,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The ideal time to visit Cesis Medieval Castle is during the late spring, summer, and early autumn, when the weather is pleasant for exploring the castle grounds and the surrounding town.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less suitable for visiting due to the cold weather and potential snow, which might make exploring the outdoor areas of the castle less comfortable.",
+        "suggested_venues": [
+            {
+                "name": "Castle Tours",
+                "description": "Join a guided tour to learn about the castle's history, architecture, and its role in Latvian heritage.",
+                "location": "Cesis Medieval Castle, Cesis, Latvia"
+            },
+            {
+                "name": "Castle Tower",
+                "description": "Climb the castle tower for panoramic views of Cesis and its picturesque surroundings.",
+                "location": "Cesis Medieval Castle, Cesis, Latvia"
+            },
+            {
+                "name": "Historical Exhibits",
+                "description": "Explore the castle's historical exhibits that showcase artifacts and tell stories from its centuries-long history.",
+                "location": "Cesis Medieval Castle, Cesis, Latvia"
+            },
+            {
+                "name": "Castle Park",
+                "description": "Walk through the castle park, a serene area surrounding the castle with lush greenery and tranquil settings.",
+                "location": "Cesis Medieval Castle, Cesis, Latvia"
+            }
+        ]
+    },    
     {
         "name": "Liepaja Naval Port (Karosta)",
         "category": "History",
@@ -57,8 +187,34 @@
         "city": "Liepaja",
         "longitude": 21.0108,
         "latitude": 56.5411,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The best times to visit Karosta are during the late spring and early autumn months. These periods offer comfortable weather for exploring the historical site and its surroundings.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal for visiting Karosta due to the cold temperatures and potential snow, which might make outdoor exploration less comfortable.",
+        "suggested_venues": [
+            {
+                "name": "Historical Tours",
+                "description": "Join guided tours to learn about the history of Karosta as a former Soviet naval base and its role in Latvian history.",
+                "location": "Liepaja Naval Port (Karosta), Liepaja, Latvia"
+            },
+            {
+                "name": "Naval Prison",
+                "description": "Visit the Karosta Prison, a unique historical site that offers a glimpse into the life of Soviet-era military prisons.",
+                "location": "Liepaja Naval Port (Karosta), Liepaja, Latvia"
+            },
+            {
+                "name": "Architectural Landmarks",
+                "description": "Explore the distinctive architecture of Karosta, which reflects its military past and Soviet influence.",
+                "location": "Liepaja Naval Port (Karosta), Liepaja, Latvia"
+            },
+            {
+                "name": "Photography Opportunities",
+                "description": "Capture the unique ambiance and historical structures of Karosta, making for compelling and thought-provoking photography.",
+                "location": "Liepaja Naval Port (Karosta), Liepaja, Latvia"
+            }
+        ]
+    },    
     {
         "name": "Kuldiga's Old Town and Venta Rapid",
         "category": "Nature",
@@ -67,8 +223,34 @@
         "city": "Kuldiga",
         "longitude": 21.9750,
         "latitude": 56.9680,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The ideal time to visit Kuldiga's Old Town and Venta Rapid is during the late spring and early autumn. These months offer pleasant weather, enhancing the experience of the old town's beauty and the natural spectacle of the waterfall.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter may be less ideal for visiting due to cold temperatures and potential ice, which might hinder the full enjoyment of outdoor activities and sights in Kuldiga.",
+        "suggested_venues": [
+            {
+                "name": "Old Town Exploration",
+                "description": "Wander through the quaint streets of Kuldiga's Old Town, admiring its well-preserved architecture and historical ambiance.",
+                "location": "Kuldiga's Old Town, Kuldiga, Latvia"
+            },
+            {
+                "name": "Venta Rapid Viewpoints",
+                "description": "Visit various viewpoints to see the Venta Rapid, renowned as Europe's widest waterfall, and enjoy its natural beauty.",
+                "location": "Venta Rapid, Kuldiga, Latvia"
+            },
+            {
+                "name": "Local Cuisine",
+                "description": "Savor the local cuisine at restaurants and cafes in Kuldiga, offering traditional Latvian dishes in a charming setting.",
+                "location": "Kuldiga, Latvia"
+            },
+            {
+                "name": "Photography Opportunities",
+                "description": "Capture the picturesque scenes of Kuldiga's Old Town and the striking landscape around Venta Rapid, ideal for photography enthusiasts.",
+                "location": "Kuldiga, Latvia"
+            }
+        ]
+    },    
     {
         "name": "Sigulda Bobsleigh and Luge Track",
         "category": "Adventure",
@@ -77,7 +259,33 @@
         "city": "Sigulda",
         "longitude": 24.8339,
         "latitude": 57.1550,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["December", "January", "February", "March"],
+        "best_time_to_go_description": "The best time to visit the Sigulda Bobsleigh and Luge Track is during the winter months when the track is ideally set up for bobsleigh and luge activities, offering the full experience of these winter sports.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "Summer months may be less suitable for traditional bobsleigh and luge experiences due to the absence of ice on the track, although alternative summer rides might be available.",
+        "suggested_venues": [
+            {
+                "name": "Bobsleigh Rides",
+                "description": "Take an exhilarating ride down the bobsleigh track, an activity that's sure to provide an adrenaline rush for thrill-seekers.",
+                "location": "Sigulda Bobsleigh and Luge Track, Sigulda, Latvia"
+            },
+            {
+                "name": "Luge Rides",
+                "description": "Experience the speed and excitement of luge, sliding down the track in a smaller, more agile sled.",
+                "location": "Sigulda Bobsleigh and Luge Track, Sigulda, Latvia"
+            },
+            {
+                "name": "Spectator Areas",
+                "description": "Watch the action from designated spectator areas, offering great views of the track and riders.",
+                "location": "Sigulda Bobsleigh and Luge Track, Sigulda, Latvia"
+            },
+            {
+                "name": "Summer Activities",
+                "description": "During the summer, explore alternative activities at the track, such as summer bobsleigh or other adventure sports.",
+                "location": "Sigulda Bobsleigh and Luge Track, Sigulda, Latvia"
+            }
+        ]
     },
     {
         "name": "Turaida Museum Reserve",
@@ -87,7 +295,33 @@
         "city": "Sigulda",
         "longitude": 24.8458,
         "latitude": 57.1872,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The ideal time to visit the Turaida Museum Reserve is during the late spring, summer, and early autumn months. These periods offer pleasant weather for exploring the outdoor attractions of the museum reserve, including its gardens and historical buildings.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal for visiting the reserve due to cold weather, which might make outdoor exploration less comfortable and potentially limit access to some areas.",
+        "suggested_venues": [
+            {
+                "name": "Medieval Castle",
+                "description": "Visit the Turaida Castle within the reserve, a significant historical landmark offering insights into medieval Latvian history.",
+                "location": "Turaida Museum Reserve, Sigulda, Latvia"
+            },
+            {
+                "name": "Historical Exhibits",
+                "description": "Explore various exhibits and historical buildings in the reserve that showcase the cultural and historical heritage of the region.",
+                "location": "Turaida Museum Reserve, Sigulda, Latvia"
+            },
+            {
+                "name": "Scenic Gardens",
+                "description": "Stroll through the beautifully landscaped gardens, enjoying the peaceful natural environment and picturesque views.",
+                "location": "Turaida Museum Reserve, Sigulda, Latvia"
+            },
+            {
+                "name": "Photography Opportunities",
+                "description": "Capture the stunning scenery and architectural beauty of the reserve, a perfect spot for both amateur and professional photographers.",
+                "location": "Turaida Museum Reserve, Sigulda, Latvia"
+            }
+        ]
     },
     {
         "name": "Aglona Basilica Pilgrimage",
@@ -97,6 +331,33 @@
         "city": "Aglona",
         "longitude": 27.0183,
         "latitude": 56.1306,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["August"],
+        "best_time_to_go_description": "The best time to visit the Aglona Basilica is in August, particularly during the Assumption of Mary festival, which attracts thousands of pilgrims and offers a unique cultural and spiritual experience.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter months might be less suitable for a pilgrimage due to the cold weather and potentially challenging travel conditions in the region.",
+        "suggested_venues": [
+            {
+                "name": "Basilica Services",
+                "description": "Participate in religious services and ceremonies at the Basilica, an experience that is spiritually enriching for believers.",
+                "location": "Aglona Basilica, Aglona, Latvia"
+            },
+            {
+                "name": "Festival Activities",
+                "description": "During the festival, engage in various activities, including traditional processions, cultural performances, and local food tastings.",
+                "location": "Aglona Basilica, Aglona, Latvia"
+            },
+            {
+                "name": "Historical Tour",
+                "description": "Explore the history of the Basilica, including its architecture and significance as a spiritual center over the centuries.",
+                "location": "Aglona Basilica, Aglona, Latvia"
+            },
+            {
+                "name": "Surrounding Area",
+                "description": "Discover the scenic beauty and tranquility of the area surrounding the Basilica, which adds to the overall peaceful and contemplative atmosphere of the pilgrimage.",
+                "location": "Aglona, Latvia"
+            }
+        ]
     }
+    
 ]

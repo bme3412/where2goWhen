@@ -7,8 +7,34 @@
         "city": "Budapest",
         "longitude": 19.0810,
         "latitude": 47.5189,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "September", "October"],
+        "best_time_to_go_description": "The best times to visit the Széchenyi Thermal Bath are during the spring and autumn months. These periods offer milder weather, making it more enjoyable to experience the outdoor and indoor thermal pools without the extreme cold or heat.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be very crowded, potentially detracting from the relaxation experience due to the large number of visitors.",
+        "suggested_venues": [
+            {
+                "name": "Outdoor Thermal Pools",
+                "description": "Széchenyi's outdoor pools, with their warm waters and grand architecture, offer a unique and relaxing bathing experience.",
+                "location": "Széchenyi Thermal Bath, Budapest"
+            },
+            {
+                "name": "Indoor Spa Facilities",
+                "description": "The complex also boasts a range of indoor thermal baths and spa treatments, providing a more secluded and quiet environment.",
+                "location": "Széchenyi Thermal Bath, Budapest"
+            },
+            {
+                "name": "Sauna and Steam Rooms",
+                "description": "Explore the sauna and steam rooms for a complete wellness experience, offering health and relaxation benefits.",
+                "location": "Széchenyi Thermal Bath, Budapest"
+            },
+            {
+                "name": "Massage Therapy",
+                "description": "Professional massage services are available within the bath complex, complementing the thermal bathing experience with additional relaxation.",
+                "location": "Széchenyi Thermal Bath, Budapest"
+            }
+        ]
+    },    
     {
         "name": "Exploring Buda Castle",
         "category": "History",
@@ -17,7 +43,33 @@
         "city": "Budapest",
         "longitude": 19.0399,
         "latitude": 47.4967,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "September", "October"],
+        "best_time_to_go_description": "The best times to visit Buda Castle are during the spring and autumn months. These periods offer pleasant weather for exploring the castle grounds and enjoying the panoramic views of the city, while avoiding the extreme cold of winter and the heat and crowds of summer.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be extremely crowded and hot, which may detract from the experience due to high temperatures and long wait times at attractions.",
+        "suggested_venues": [
+            {
+                "name": "Buda Castle Palace",
+                "description": "The main building of the castle complex, featuring historical exhibits, art collections, and stunning architecture.",
+                "location": "Budapest, Hungary"
+            },
+            {
+                "name": "Castle Hill Funicular",
+                "description": "A fun and historic way to reach Buda Castle, offering scenic views as it ascends Castle Hill.",
+                "location": "Budapest, Hungary"
+            },
+            {
+                "name": "Hungarian National Gallery",
+                "description": "Located within the castle, this gallery showcases a vast collection of Hungarian art, from medieval times to the present day.",
+                "location": "Buda Castle, Budapest"
+            },
+            {
+                "name": "Castle Garden Bazaar",
+                "description": "A recently renovated cultural venue and garden complex at the foot of Buda Castle, offering events, exhibitions, and beautiful garden terraces.",
+                "location": "Budapest, Hungary"
+            }
+        ]
     },
     {
         "name": "Wine Tasting in Eger",
@@ -27,7 +79,33 @@
         "city": "Eger",
         "longitude": 20.3707,
         "latitude": 47.9025,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The ideal times for wine tasting in Eger are during the late spring and early autumn. These months offer pleasant weather, ideal for visiting vineyards and participating in wine tastings, while avoiding the summer heat and potential crowds.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less suitable for wine tasting tours due to the colder weather and potential snow, which might affect travel to and from vineyards.",
+        "suggested_venues": [
+            {
+                "name": "Eger Wine Cellars",
+                "description": "Explore the historic cellars of Eger, many of which offer tastings of the region's renowned Bull's Blood wine and other local varieties.",
+                "location": "Eger, Hungary"
+            },
+            {
+                "name": "Valley of the Beautiful Woman",
+                "description": "A famous wine area near Eger, known for its numerous cellars and the chance to sample a wide range of local wines in a picturesque setting.",
+                "location": "Near Eger, Hungary"
+            },
+            {
+                "name": "Eger Wine Museum",
+                "description": "Learn about the rich history of winemaking in Eger and the surrounding region, including the story behind Bull's Blood wine.",
+                "location": "Eger, Hungary"
+            },
+            {
+                "name": "Vineyard Tours",
+                "description": "Join guided tours of the local vineyards, offering insights into the winemaking process and the opportunity to taste wines in the very place they are produced.",
+                "location": "Eger, Hungary"
+            }
+        ]
     },
     {
         "name": "Visiting the Great Synagogue in Dohány Street",
@@ -37,7 +115,33 @@
         "city": "Budapest",
         "longitude": 19.0613,
         "latitude": 47.4958,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["March", "April", "May", "September", "October"],
+        "best_time_to_go_description": "The best times to visit the Great Synagogue are during the spring and autumn months. These periods offer mild weather, making it more comfortable to explore the synagogue and its surroundings, while avoiding the extreme cold of winter and the heat and crowds of summer.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be extremely crowded and hot, which may detract from the experience due to high temperatures and long wait times.",
+        "suggested_venues": [
+            {
+                "name": "Great Synagogue",
+                "description": "An architectural marvel and significant cultural site, the Great Synagogue offers insight into Jewish history and heritage in Hungary.",
+                "location": "Budapest, Hungary"
+            },
+            {
+                "name": "Jewish Museum",
+                "description": "Adjacent to the synagogue, this museum showcases the history and culture of the Jewish community in Hungary.",
+                "location": "Dohány Street, Budapest"
+            },
+            {
+                "name": "Holocaust Memorial Room",
+                "description": "A part of the synagogue complex, this memorial pays tribute to the Hungarian Jews who lost their lives during the Holocaust.",
+                "location": "Great Synagogue, Budapest"
+            },
+            {
+                "name": "Raoul Wallenberg Holocaust Memorial Park",
+                "description": "Located behind the synagogue, this park features memorials and sculptures commemorating the victims of the Holocaust.",
+                "location": "Budapest, Hungary"
+            }
+        ]
     },
     {
         "name": "Hiking in the Danube Bend",
@@ -47,7 +151,33 @@
         "city": "Danube Bend",
         "longitude": 18.9631,
         "latitude": 47.7933,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best times for hiking in the Danube Bend are during the late spring and early autumn. These months offer mild weather, perfect for outdoor activities, and the natural beauty of the region is at its peak with blooming flowers in spring and colorful foliage in autumn.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal for hiking due to cold temperatures and potential snow, which might make the trails slippery and less accessible.",
+        "suggested_venues": [
+            {
+                "name": "Visegrád Hills",
+                "description": "Offering some of the best hiking trails in the Danube Bend, with panoramic views of the river and surrounding landscape.",
+                "location": "Danube Bend, Hungary"
+            },
+            {
+                "name": "Szentendre Island",
+                "description": "A peaceful island in the Danube, perfect for leisurely walks and enjoying the tranquility of nature.",
+                "location": "Danube Bend, Hungary"
+            },
+            {
+                "name": "Pilis Mountains",
+                "description": "A popular hiking destination with a variety of trails, offering stunning vistas and rich biodiversity.",
+                "location": "Near the Danube Bend, Hungary"
+            },
+            {
+                "name": "Esztergom Basilica",
+                "description": "While in the region, visit the largest church in Hungary, located in Esztergom, offering impressive architecture and historical significance.",
+                "location": "Danube Bend, Hungary"
+            }
+        ]
     },
     {
         "name": "Exploring Hortobágy National Park",
@@ -57,7 +187,33 @@
         "city": "Hortobágy",
         "longitude": 21.1551,
         "latitude": 47.5825,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best times to visit Hortobágy National Park are during the late spring and early autumn. These months offer pleasant weather, ideal for wildlife watching and exploring the grasslands, while avoiding the extreme heat of summer and the cold of winter.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter is less ideal for visiting due to cold temperatures and reduced wildlife activity, which might affect the experience of exploring the park and observing its natural inhabitants.",
+        "suggested_venues": [
+            {
+                "name": "Birdwatching Tours",
+                "description": "Hortobágy is renowned for its birdlife, including migratory species. Guided tours offer the chance to see a variety of birds in their natural habitat.",
+                "location": "Hortobágy National Park, Hungary"
+            },
+            {
+                "name": "Hortobágy Wild Animal Park",
+                "description": "A section of the park where visitors can see traditional Hungarian domesticated animals and local wildlife.",
+                "location": "Hortobágy National Park, Hungary"
+            },
+            {
+                "name": "Nine-Arch Bridge",
+                "description": "An iconic structure in the park, this bridge is a symbol of Hortobágy and offers picturesque views of the surrounding area.",
+                "location": "Hortobágy National Park, Hungary"
+            },
+            {
+                "name": "Puszta Horse Shows",
+                "description": "Experience traditional Hungarian horsemanship through horse shows that are regularly held in the park, showcasing the skills of the Magyar cowboys.",
+                "location": "Hortobágy National Park, Hungary"
+            }
+        ]
     },
     {
         "name": "Visiting Lake Balaton",
@@ -67,7 +223,33 @@
         "city": "Lake Balaton",
         "longitude": 17.9110,
         "latitude": 46.9100,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August"],
+        "best_time_to_go_description": "The ideal time to visit Lake Balaton is during the summer months when the weather is warm and sunny, perfect for swimming, sunbathing, and engaging in various water sports on the lake.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "Winter is less suitable for a visit to Lake Balaton as the cold weather limits outdoor activities and many of the lakeside resorts and facilities are closed.",
+        "suggested_venues": [
+            {
+                "name": "Balaton Beaches",
+                "description": "The shores of Lake Balaton offer numerous beaches, each with unique characteristics, from family-friendly sandy beaches to lively party spots.",
+                "location": "Lake Balaton, Hungary"
+            },
+            {
+                "name": "Tihany Peninsula",
+                "description": "A picturesque area on Lake Balaton known for its natural beauty, historical abbey, and lavender fields.",
+                "location": "Lake Balaton, Hungary"
+            },
+            {
+                "name": "Sailing and Water Sports",
+                "description": "Lake Balaton is ideal for sailing, windsurfing, and other water sports, with several rental shops and schools available around the lake.",
+                "location": "Lake Balaton, Hungary"
+            },
+            {
+                "name": "Local Vineyards",
+                "description": "The region around Lake Balaton is known for its wine, offering opportunities to visit vineyards and taste local Hungarian wines.",
+                "location": "Near Lake Balaton, Hungary"
+            }
+        ]
     },
     {
         "name": "Touring the Hungarian Parliament Building",
@@ -77,7 +259,33 @@
         "city": "Budapest",
         "longitude": 19.0456,
         "latitude": 47.5071,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["March", "April", "May", "September", "October"],
+        "best_time_to_go_description": "The best times to visit the Hungarian Parliament Building are during the spring and autumn months. These periods offer mild weather, enhancing the experience of exploring the exterior and interior of this architectural marvel, while avoiding the extreme cold of winter and the crowds of summer.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be crowded, with potentially long waiting times for tours, and the heat can make the experience less comfortable.",
+        "suggested_venues": [
+            {
+                "name": "Parliament Building Tour",
+                "description": "Guided tours of the Parliament offer insights into its history, architecture, and the functioning of the Hungarian government.",
+                "location": "Budapest, Hungary"
+            },
+            {
+                "name": "Crown Jewels",
+                "description": "During the tour, visitors can see the Hungarian Crown Jewels, including the Holy Crown of Hungary.",
+                "location": "Hungarian Parliament Building, Budapest"
+            },
+            {
+                "name": "Danube Riverfront",
+                "description": "The area along the Danube near the Parliament offers spectacular views of the building, especially at night when it is beautifully illuminated.",
+                "location": "Budapest, Hungary"
+            },
+            {
+                "name": "Kossuth Square",
+                "description": "The square in front of the Parliament is a significant historical and political space, often hosting events and exhibitions.",
+                "location": "Budapest, Hungary"
+            }
+        ]
     },
     {
         "name": "Caving in Budapest",
@@ -87,8 +295,34 @@
         "city": "Budapest",
         "longitude": 19.0300,
         "latitude": 47.5000,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "September", "October"],
+        "best_time_to_go_description": "Caving in Budapest can be enjoyed throughout the year, but the best times are during spring and autumn. These seasons offer pleasant outside temperatures, making the trip to and from the caves more comfortable, while the underground temperatures remain relatively constant.",
+        "worst_time_to_go": ["N/A"],
+        "worst_time_to_go_description": "As the cave temperatures are generally consistent and the activity is indoors, there are no specific worst times to go caving in Budapest. However, personal preferences for outdoor weather conditions when traveling to the caves may vary.",
+        "suggested_venues": [
+            {
+                "name": "Pál-völgyi Cave",
+                "description": "One of the most popular caves in Budapest for guided tours, known for its stunning stalactites and stalagmites.",
+                "location": "Budapest, Hungary"
+            },
+            {
+                "name": "Szemlő-hegyi Cave",
+                "description": "Known as the 'underground flower garden' due to its unique crystal formations, this cave offers a different caving experience.",
+                "location": "Budapest, Hungary"
+            },
+            {
+                "name": "Caving Tours",
+                "description": "Guided caving tours provide a safe and informative way to explore the caves, suitable for beginners and experienced cavers.",
+                "location": "Budapest, Hungary"
+            },
+            {
+                "name": "Adventure Caving",
+                "description": "For those seeking more thrill, adventure caving options are available, offering a more challenging exploration of Budapest's underground world.",
+                "location": "Budapest, Hungary"
+            }
+        ]
+    },    
     {
         "name": "Visiting Pécs Cathedral",
         "category": "History",
@@ -97,6 +331,32 @@
         "city": "Pécs",
         "longitude": 18.2251,
         "latitude": 46.0727,
-        "cost": "$"
-    }
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best times to visit Pécs Cathedral are during the late spring and early autumn. These months offer pleasant weather, ideal for exploring the historic site and the city of Pécs, while avoiding the summer heat and potential tourist crowds.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be less ideal due to cold temperatures and shorter daylight hours, which might affect the enjoyment of exploring the cathedral and its surroundings.",
+        "suggested_venues": [
+            {
+                "name": "Pécs Cathedral",
+                "description": "A historic cathedral with stunning Romanesque architecture, featuring beautiful frescoes and a rich history.",
+                "location": "Pécs, Hungary"
+            },
+            {
+                "name": "Bishop's Palace",
+                "description": "Adjacent to the cathedral, the palace is a significant historical building with interesting architecture and history.",
+                "location": "Pécs, Hungary"
+            },
+            {
+                "name": "Cathedral Treasury",
+                "description": "A collection of religious artifacts and art located within the cathedral, offering a glimpse into the religious and artistic heritage of the region.",
+                "location": "Pécs Cathedral, Pécs"
+            },
+            {
+                "name": "Nearby Historical Sites",
+                "description": "Pécs is rich in history, and there are many other historical sites and museums nearby worth exploring.",
+                "location": "Pécs, Hungary"
+            }
+        ]
+    }    
 ]
