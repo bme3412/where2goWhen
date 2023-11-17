@@ -1142,22 +1142,41 @@
               // Append the description container to the dropdown content
               dropdownContent.appendChild(descriptionContainer);
 
+              // Create two containers for month buttons, one for each row
+              let monthButtonContainerRow1 = document.createElement("div");
+              let monthButtonContainerRow2 = document.createElement("div");
+
+              [monthButtonContainerRow1, monthButtonContainerRow2].forEach(
+                (container) => {
+                  container.style.display = "flex";
+                  container.style.justifyContent = "start";
+                  container.style.marginBottom = "10px";
+                }
+              );
+
               // Create a container for month buttons
               let monthButtonContainer = document.createElement("div");
               monthButtonContainer.style.display = "flex";
               monthButtonContainer.style.flexWrap = "wrap";
               monthButtonContainer.style.justifyContent = "start";
+              monthButtonContainer.style.alignItems = "center";
               monthButtonContainer.style.marginTop = "10px";
               monthButtonContainer.style.marginBottom = "10px";
 
               // Function to create a month button
-              const createMonthButton = (month, isBestTime, isWorstTime) => {
+              // Function to create a month button
+              const createMonthButton = (
+                month,
+                isBestTime,
+                isWorstTime,
+                isSecondRow
+              ) => {
                 let button = document.createElement("button");
                 button.textContent = month;
                 button.style.marginRight = "5px";
-                button.style.marginBottom = "5px";
-                button.style.padding = "3px 6px"; // Adjusted padding for smaller font
-                button.style.fontSize = "12px"; // Smaller font size to fit the buttons
+                button.style.marginBottom = isSecondRow ? "3px" : "5px"; // Reduced margin for second row
+                button.style.padding = "3px 6px";
+                button.style.fontSize = "12px";
                 button.style.border = "none";
                 button.style.borderRadius = "4px";
                 button.style.cursor = "pointer";
@@ -1167,7 +1186,8 @@
                 } else if (isWorstTime) {
                   button.style.background = "#F44336"; // Red background
                 } else {
-                  button.style.background = "#9E9E9E"; // Grey background for neutral
+                  button.style.background = "#FFFFFF"; // White background for neutral
+                  button.style.color = "#000000"; // Black text for visibility
                 }
 
                 return button;
@@ -1188,42 +1208,115 @@
                 "December",
               ];
 
-              // Create buttons for each month, but only if they are in best_time_to_go or worst_time_to_go
-              months.forEach((month) => {
+              // Create buttons for each month and append to the appropriate row container
+              months.forEach((month, index) => {
                 const isBestTime = item.best_time_to_go.includes(month);
                 const isWorstTime = item.worst_time_to_go.includes(month);
+                const isSecondRow = index >= 6;
 
-                // Only create a button if the month is in either of the two arrays
-                if (isBestTime || isWorstTime) {
-                  let button = createMonthButton(
-                    month,
-                    isBestTime,
-                    isWorstTime
-                  );
-                  monthButtonContainer.appendChild(button);
+                let button = createMonthButton(
+                  month,
+                  isBestTime,
+                  isWorstTime,
+                  isSecondRow
+                );
+
+                if (!isSecondRow) {
+                  monthButtonContainerRow1.appendChild(button);
+                } else {
+                  monthButtonContainerRow2.appendChild(button);
                 }
               });
 
-              // Append the month button container to the dropdown content
-              dropdownContent.appendChild(monthButtonContainer);
+              // Append the month button containers to the dropdown content
+              dropdownContent.appendChild(monthButtonContainerRow1);
+              dropdownContent.appendChild(monthButtonContainerRow2);
 
               // Append the cost span to the description container
               descriptionContainer.appendChild(costSpan);
 
+              // Create a container for the time to go buttons
+              let timeToGoButtonsContainer = document.createElement("div");
+              timeToGoButtonsContainer.style.display = "flex";
+              timeToGoButtonsContainer.style.justifyContent = "start";
+              timeToGoButtonsContainer.style.marginTop = "10px";
+
+              // Function to create a description button with a specific color
+              const createDescriptionButton = (text, description, bgColor) => {
+                let button = document.createElement("button");
+                button.textContent = text;
+                button.style.marginRight = "10px";
+                button.style.padding = "5px 10px";
+                button.style.border = "none";
+                button.style.borderRadius = "4px";
+                button.style.cursor = "pointer";
+                button.style.background = bgColor; // Set background color
+                button.onclick = () => {
+                  if (
+                    timeDescriptionContainer.textContent === description &&
+                    timeDescriptionContainer.style.display === "block"
+                  ) {
+                    timeDescriptionContainer.style.display = "none"; // Hide the container if it's already showing this description
+                  } else {
+                    timeDescriptionContainer.textContent = description; // Set the content
+                    timeDescriptionContainer.style.display = "block"; // Show the container
+                  }
+                };
+                return button;
+              };
+
+              // Best time to go button with green background
+              let bestTimeButton = createDescriptionButton(
+                "Best Time to Go ➕", // Heavy Plus Sign in a circle
+                item.best_time_to_go_description,
+                "#4CAF50" // Green color
+              );
+
+              // Worst time to go button with red background
+              let worstTimeButton = createDescriptionButton(
+                "Worst Time to Go ➖", // Heavy Minus Sign in a circle
+                item.worst_time_to_go_description,
+                "#F44336" // Red color
+              );
+
+              // Append the buttons to their container
+              timeToGoButtonsContainer.appendChild(bestTimeButton);
+              timeToGoButtonsContainer.appendChild(worstTimeButton);
+
+              // Append the buttons container to the dropdown content
+              dropdownContent.appendChild(timeToGoButtonsContainer);
+
+              // Create a container for time descriptions
+              let timeDescriptionContainer = document.createElement("div");
+              timeDescriptionContainer.style.display = "none"; // Initially hidden
+              timeDescriptionContainer.style.padding = "10px";
+              timeDescriptionContainer.style.marginTop = "5px";
+              timeDescriptionContainer.style.background = "#ECEFF1"; // Light grey background
+              timeDescriptionContainer.style.borderRadius = "4px";
+
+              // Append the time description container to the dropdown content
+              dropdownContent.appendChild(timeDescriptionContainer);
+
+              // Adding suggested venues
               // Adding suggested venues
               if (item.suggested_venues) {
                 let venuesContainer = document.createElement("div");
                 venuesContainer.className = "venues-container";
-                venuesContainer.innerHTML = "<h3></h3>";
+                venuesContainer.innerHTML = "<h3>Suggested Venues</h3>"; // Added title
+                venuesContainer.style.backgroundColor = "#f8f8f8"; // Soft background color
+                venuesContainer.style.padding = "10px";
+                venuesContainer.style.borderRadius = "5px";
+                venuesContainer.style.boxShadow = "0 2px 4px rgba(0,0,0,0.1)";
+                venuesContainer.style.marginTop = "10px";
+
                 let venuesList = document.createElement("ul");
                 venuesList.className = "venues-list";
                 item.suggested_venues.forEach((venue) => {
-                  venuesList.innerHTML += `<li class="venue-item">
-                                            <b>${venue.name}</b><br>
-                                            <i></i> ${venue.description}<br>
-                                            <i>
-                                              📍</i> ${venue.location}
-                                          </li>`;
+                  venuesList.innerHTML += `<li class="venue-item" style="margin-bottom: 10px;">
+                                          <b style="color: #333; font-size: 16px;">${venue.name}</b><br>
+                                          <i style="color: #555;">${venue.description}</i><br>
+                                          <i style="color: #777;">📍 ${venue.location}</i>
+                                        </li>`;
                 });
                 venuesContainer.appendChild(venuesList);
                 dropdownContent.appendChild(venuesContainer);
