@@ -7,8 +7,44 @@
         "city": "Tromsø",
         "longitude": 18.9553,
         "latitude": 69.6492,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["September", "October", "November", "December", "January", "February", "March"],
+        "best_time_to_go_description": "The best time to view the Northern Lights in Tromsø is during the dark winter months, when the skies are clear and the auroral activity is at its peak.",
+        "worst_time_to_go": ["April", "May", "June", "July", "August"],
+        "worst_time_to_go_description": "The summer months are not ideal for Northern Lights viewing due to the Midnight Sun, which results in almost 24 hours of daylight and hinders visibility of the auroras.",
+        "suggested_venues": [
+            {
+                "name": "Aurora Borealis Tours",
+                "description": "Join guided tours specializing in Northern Lights viewing, offering the best chances to witness this natural phenomenon.",
+                "location": "Tromsø, Norway",
+                "longitude": 18.9560,
+                "latitude": 69.6500
+            },
+            {
+                "name": "Fjord Cruises",
+                "description": "Experience the Northern Lights from a unique perspective with a nighttime fjord cruise, combining aurora viewing with stunning landscapes.",
+                "location": "Tromsø Fjords, Tromsø, Norway",
+                "longitude": 18.9540,
+                "latitude": 69.6480
+            },
+            {
+                "name": "Aurora Camps",
+                "description": "Visit Aurora Camps outside the city, offering a cozy and authentic environment for viewing the Northern Lights.",
+                "location": "Aurora Camps, Tromsø, Norway",
+                "longitude": 18.9570,
+                "latitude": 69.6510
+            },
+            {
+                "name": "Photography Workshops",
+                "description": "Participate in photography workshops that teach you how to capture the Northern Lights, making for a memorable experience.",
+                "location": "Tromsø, Norway",
+                "longitude": 18.9550,
+                "latitude": 69.6495
+            }
+        ]
     },
+
+
     {
         "name": "Fjord Cruise in the Western Fjords",
         "category": "Leisure",
@@ -17,8 +53,44 @@
         "city": "Western Fjords",
         "longitude": 6.1495,
         "latitude": 61.1553,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a fjord cruise is during the late spring to early autumn months, offering favorable weather conditions and stunning views of the fjords and their surroundings.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The winter and early spring months are less ideal for cruising due to colder weather, shorter days, and potential navigational challenges in the fjords.",
+        "suggested_venues": [
+            {
+                "name": "Geirangerfjord Cruise",
+                "description": "Embark on a cruise through Geirangerfjord, known for its deep blue waters and towering cliffs, including famous waterfalls like the Seven Sisters.",
+                "location": "Geirangerfjord, Western Fjords, Norway",
+                "longitude": 6.1500,
+                "latitude": 61.1550
+            },
+            {
+                "name": "Nærøyfjord Trip",
+                "description": "Explore Nærøyfjord, a UNESCO World Heritage site, renowned for its narrow passages and dramatic mountainous terrain.",
+                "location": "Nærøyfjord, Western Fjords, Norway",
+                "longitude": 6.1490,
+                "latitude": 61.1560
+            },
+            {
+                "name": "Fjord Safari",
+                "description": "Join a Fjord Safari on smaller boats, offering an up-close experience of the fjords' natural beauty, including wildlife sightings.",
+                "location": "Western Fjords, Norway",
+                "longitude": 6.1480,
+                "latitude": 61.1540
+            },
+            {
+                "name": "Kayaking Excursions",
+                "description": "Partake in kayaking excursions in the fjords, providing a serene and intimate way to connect with the stunning Norwegian nature.",
+                "location": "Western Fjords, Norway",
+                "longitude": 6.1505,
+                "latitude": 61.1565
+            }
+        ]
     },
+
+
     {
         "name": "Hiking to Pulpit Rock (Preikestolen)",
         "category": "Adventure",
@@ -27,8 +99,43 @@
         "city": "Stavanger",
         "longitude": 6.2712,
         "latitude": 58.969,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The late spring to early autumn months are ideal for hiking to Pulpit Rock, with longer daylight hours and typically more stable weather conditions.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The colder and darker months can pose safety risks due to icy paths and reduced visibility, making the hike more challenging.",
+        "suggested_venues": [
+            {
+                "name": "Pulpit Rock Trail",
+                "description": "Embark on the Pulpit Rock Trail, a well-marked path leading to the famous viewpoint, known for its breathtaking scenery.",
+                "location": "Pulpit Rock Trail, Stavanger, Norway",
+                "longitude": 6.2700,
+                "latitude": 58.9685
+            },
+            {
+                "name": "Lysefjord Boat Tour",
+                "description": "Combine your hike with a boat tour of the Lysefjord, offering a different perspective of the Pulpit Rock from below.",
+                "location": "Lysefjord, Stavanger, Norway",
+                "longitude": 6.2720,
+                "latitude": 58.9695
+            },
+            {
+                "name": "Preikestolen BaseCamp",
+                "description": "Visit Preikestolen BaseCamp for amenities, guided tours, and information about the hike and the surrounding nature.",
+                "location": "Preikestolen BaseCamp, Stavanger, Norway",
+                "longitude": 6.2715,
+                "latitude": 58.9680
+            },
+            {
+                "name": "Kjeragbolten Hike",
+                "description": "For a more challenging adventure, consider the hike to Kjeragbolten, another spectacular rock formation in the area.",
+                "location": "Kjeragbolten, Stavanger, Norway",
+                "longitude": 6.2705,
+                "latitude": 58.9695
+            }
+        ]
     },
+
     {
         "name": "Exploring the Historic City of Bergen",
         "category": "Culture",
@@ -39,6 +146,8 @@
         "latitude": 60.3913,
         "cost": "$$"
     },
+
+
     {
         "name": "Dog Sledding in Svalbard",
         "category": "Adventure",
@@ -49,6 +158,8 @@
         "latitude": 78.2207,
         "cost": "$$$$"
     },
+
+
     {
         "name": "Visiting the Viking Ship Museum in Oslo",
         "category": "Culture",
@@ -59,6 +170,8 @@
         "latitude": 59.9139,
         "cost": "$$"
     },
+
+
     {
         "name": "Road Trip Along the Atlantic Road",
         "category": "Leisure",
@@ -69,6 +182,8 @@
         "latitude": 62.7375,
         "cost": "$$"
     },
+
+
     {
         "name": "Skiing in Lillehammer",
         "category": "Adventure",
@@ -79,6 +194,8 @@
         "latitude": 61.1153,
         "cost": "$$$"
     },
+
+
     {
         "name": "Exploring the Lofoten Islands",
         "category": "Culture",
@@ -89,6 +206,8 @@
         "latitude": 68.2512,
         "cost": "$$$"
     },
+
+
     {
         "name": "Visiting the Arctic Cathedral in Tromsø",
         "category": "Culture",

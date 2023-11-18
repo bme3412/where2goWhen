@@ -7,8 +7,48 @@
         "city": "Porto",
         "longitude": -8.611,
         "latitude": 41.1495,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "These months offer pleasant weather, ideal for visiting wineries and enjoying wine tastings on outdoor terraces.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "Winter months can be cold and rainy, which might affect the experience of outdoor wine tasting activities.",
+        "suggested_venues": [
+            {
+                "name": "Calem Wine Cellars",
+                "description": "Tour the Calem Wine Cellars for a comprehensive insight into Port wine production and enjoy a tasting session.",
+                "location": "Calem Wine Cellars, Porto, Portugal",
+                "longitude": -8.6130,
+                "latitude": 41.1485,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Graham's Port Lodge",
+                "description": "Visit Graham's Port Lodge for a guided tour of the cellars and a tasting of their exceptional Port wines.",
+                "location": "Graham's Port Lodge, Porto, Portugal",
+                "longitude": -8.6120,
+                "latitude": 41.1505,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Douro River Cruise",
+                "description": "Enjoy a Douro River cruise, offering stunning views of Porto's landscapes and vineyards along the river.",
+                "location": "Douro River, Porto, Portugal",
+                "longitude": -8.6100,
+                "latitude": 41.1490,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Porto Wine Tasting Tour",
+                "description": "Join a Porto wine tasting tour to explore various wineries and taste a selection of the region's finest Ports.",
+                "location": "Various locations, Porto, Portugal",
+                "longitude": -8.6110,
+                "latitude": 41.1500,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Exploring the Historic Center of Lisbon",
         "category": "Culture",
@@ -17,8 +57,48 @@
         "city": "Lisbon",
         "longitude": -9.1393,
         "latitude": 38.7223,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "October", "November"],
+        "best_time_to_go_description": "Spring and late autumn offer mild weather, perfect for walking and exploring the outdoor attractions of Lisbon's historic center.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be quite hot and crowded, which might detract from the enjoyment of exploring the city on foot.",
+        "suggested_venues": [
+            {
+                "name": "Jerónimos Monastery",
+                "description": "Visit the Jerónimos Monastery, a UNESCO World Heritage site and a masterpiece of Manueline architecture.",
+                "location": "Jerónimos Monastery, Lisbon, Portugal",
+                "longitude": -9.1403,
+                "latitude": 38.7233,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Alfama District",
+                "description": "Explore Alfama, Lisbon’s oldest neighborhood, known for its narrow streets, traditional Fado music, and stunning views.",
+                "location": "Alfama District, Lisbon, Portugal",
+                "longitude": -9.1383,
+                "latitude": 38.7213,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Bairro Alto",
+                "description": "Stroll through Bairro Alto, famous for its vibrant nightlife, bohemian atmosphere, and cultural attractions.",
+                "location": "Bairro Alto, Lisbon, Portugal",
+                "longitude": -9.1443,
+                "latitude": 38.7133,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "São Jorge Castle",
+                "description": "Visit São Jorge Castle, offering panoramic views of Lisbon and a rich historical setting.",
+                "location": "São Jorge Castle, Lisbon, Portugal",
+                "longitude": -9.1333,
+                "latitude": 38.7133,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Surfing in Nazaré",
         "category": "Adventure",
@@ -27,8 +107,48 @@
         "city": "Nazaré",
         "longitude": -9.0701,
         "latitude": 39.602,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["October", "November", "December"],
+        "best_time_to_go_description": "The winter months bring the biggest and most challenging waves, ideal for experienced surfers looking for an adrenaline rush.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "The summer months typically have smaller waves, less suited for the high-adrenaline surfing Nazaré is known for.",
+        "suggested_venues": [
+            {
+                "name": "Praia do Norte",
+                "description": "Surf at Praia do Norte, famous for its record-breaking giant waves and thrilling surf conditions.",
+                "location": "Praia do Norte, Nazaré, Portugal",
+                "longitude": -9.0751,
+                "latitude": 39.6040,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Nazaré Surf School",
+                "description": "For beginners, enroll in lessons at Nazaré Surf School to learn the basics of surfing in safer waters.",
+                "location": "Nazaré Surf School, Nazaré, Portugal",
+                "longitude": -9.0721,
+                "latitude": 39.6010,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Fort of São Miguel Arcanjo",
+                "description": "Visit the Fort of São Miguel Arcanjo for spectacular views of the surfers and the colossal waves of Nazaré.",
+                "location": "Fort of São Miguel Arcanjo, Nazaré, Portugal",
+                "longitude": -9.0711,
+                "latitude": 39.6045,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Nazaré Lighthouse",
+                "description": "Check out the Nazaré Lighthouse, which houses a small museum dedicated to the local surfing history.",
+                "location": "Nazaré Lighthouse, Nazaré, Portugal",
+                "longitude": -9.0741,
+                "latitude": 39.6050,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Visiting the Monastery of Batalha",
         "category": "Culture",
@@ -37,8 +157,48 @@
         "city": "Batalha",
         "longitude": -8.8245,
         "latitude": 39.6603,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The mild weather in spring and autumn makes for a pleasant visit, allowing you to comfortably explore both the interior and exterior of the monastery.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be quite crowded with tourists, which might affect the tranquil experience of the monastery.",
+        "suggested_venues": [
+            {
+                "name": "Founders’ Chapel",
+                "description": "Visit the Founders' Chapel, home to the tombs of King João I and Queen Philippa of Lancaster, known for its stunning stained glass and intricate stonework.",
+                "location": "Monastery of Batalha, Batalha, Portugal",
+                "longitude": -8.8255,
+                "latitude": 39.6593,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Unfinished Chapels",
+                "description": "Explore the Unfinished Chapels, a remarkable example of Manueline architecture with open sky above, symbolizing Portugal's Age of Discovery.",
+                "location": "Monastery of Batalha, Batalha, Portugal",
+                "longitude": -8.8235,
+                "latitude": 39.6613,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Chapter House",
+                "description": "See the Chapter House, known for its architectural beauty and the site of the tomb of the Unknown Soldiers from World War I.",
+                "location": "Monastery of Batalha, Batalha, Portugal",
+                "longitude": -8.8240,
+                "latitude": 39.6608,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Monastery Cloisters",
+                "description": "Stroll through the monastery's cloisters, a peaceful area that showcases the transition from Gothic to Manueline style.",
+                "location": "Monastery of Batalha, Batalha, Portugal",
+                "longitude": -8.8248,
+                "latitude": 39.6600,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Seafood Dining in the Algarve",
         "category": "Gastronomy",
@@ -47,18 +207,98 @@
         "city": "Algarve",
         "longitude": -8.102,
         "latitude": 37.0194,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "These months offer pleasant weather, ideal for enjoying seafood dishes at outdoor restaurants and beachside eateries.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "The off-season can be less ideal due to cooler weather and some seafood restaurants may have limited hours or close for the season.",
+        "suggested_venues": [
+            {
+                "name": "Beachside Seafood Restaurant",
+                "description": "Dine at a beachside restaurant, offering stunning views and a variety of fresh seafood dishes.",
+                "location": "Coastal area, Algarve, Portugal",
+                "longitude": -8.1040,
+                "latitude": 37.0214,
+                "best_time_of_day_to_go": "Lunch time"
+            },
+            {
+                "name": "Local Fish Market",
+                "description": "Visit a local fish market in the Algarve to see the fresh catch of the day and experience the vibrant local seafood trade.",
+                "location": "Fish market, Algarve, Portugal",
+                "longitude": -8.1010,
+                "latitude": 37.0184,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Traditional Algarvian Restaurant",
+                "description": "Enjoy traditional Algarvian seafood cuisine at a renowned local restaurant known for its authentic flavors and dishes.",
+                "location": "Algarve, Portugal",
+                "longitude": -8.1030,
+                "latitude": 37.0204,
+                "best_time_of_day_to_go": "Evening"
+            },
+            {
+                "name": "Seafood Cooking Class",
+                "description": "Participate in a seafood cooking class to learn how to prepare traditional Algarvian seafood dishes with local chefs.",
+                "location": "Cooking school, Algarve, Portugal",
+                "longitude": -8.1000,
+                "latitude": 37.0190,
+                "best_time_of_day_to_go": "Early afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Exploring Madeira's Laurisilva Forest",
         "category": "Adventure",
         "score": 3,
-        "description": "Hike through the ancient and UNESCO-protected Laurisilva Forest in Madeira.",
+        "description": "Hike through the ancient and UNESCO-protected Laurisilva Forest in Madeira, a primeval subtropical rainforest.",
         "city": "Madeira",
         "longitude": -16.9097,
         "latitude": 32.7607,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "Spring and early autumn offer mild weather, making it ideal for hiking and exploring the lush greenery of the forest.",
+        "worst_time_to_go": ["November", "December", "January"],
+        "worst_time_to_go_description": "The winter months can bring rain and cooler temperatures, which may make hiking less enjoyable.",
+        "suggested_venues": [
+            {
+                "name": "Levada Walks",
+                "description": "Experience the famous Levada walks, a network of trails along irrigation channels that offer stunning views of the forest and its unique ecosystem.",
+                "location": "Laurisilva Forest, Madeira, Portugal",
+                "longitude": -16.9117,
+                "latitude": 32.7627,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Pico Ruivo Hike",
+                "description": "Take on the challenging hike to Pico Ruivo, the highest peak in Madeira, for panoramic views of the island and the forest.",
+                "location": "Pico Ruivo, Madeira, Portugal",
+                "longitude": -16.9087,
+                "latitude": 32.7597,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Ribeiro Frio Natural Park",
+                "description": "Explore the Ribeiro Frio Natural Park, a part of the forest known for its lush vegetation and beautiful natural pools.",
+                "location": "Ribeiro Frio, Madeira, Portugal",
+                "longitude": -16.9077,
+                "latitude": 32.7617,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Guided Nature Tours",
+                "description": "Join guided nature tours for an informative exploration of the forest's diverse flora and fauna, led by knowledgeable guides.",
+                "location": "Laurisilva Forest, Madeira, Portugal",
+                "longitude": -16.9107,
+                "latitude": 32.7607,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Visiting the Belém Tower",
         "category": "Culture",
@@ -67,8 +307,48 @@
         "city": "Lisbon",
         "longitude": -9.2159,
         "latitude": 38.6937,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["March", "April", "May", "September", "October"],
+        "best_time_to_go_description": "Visiting in the shoulder seasons allows for a more comfortable experience with fewer crowds and mild weather, ideal for exploring the area.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be very crowded, with long queues to enter the tower and higher temperatures.",
+        "suggested_venues": [
+            {
+                "name": "Tower's Bastion",
+                "description": "Explore the bastion of Belém Tower, offering scenic views of the Tagus River and the surrounding area.",
+                "location": "Belém Tower, Lisbon, Portugal",
+                "longitude": -9.2169,
+                "latitude": 38.6947,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Tower's Interior",
+                "description": "Visit the interior of the tower, including its beautifully decorated rooms and historical exhibitions.",
+                "location": "Belém Tower, Lisbon, Portugal",
+                "longitude": -9.2150,
+                "latitude": 38.6930,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Belém Cultural Center",
+                "description": "Discover the nearby Belém Cultural Center, offering various art exhibitions and cultural events.",
+                "location": "Belém Cultural Center, Lisbon, Portugal",
+                "longitude": -9.2149,
+                "latitude": 38.6927,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Riverside Walk",
+                "description": "Enjoy a relaxing walk along the riverside near Belém Tower, a perfect spot to take in the views and the local atmosphere.",
+                "location": "Near Belém Tower, Lisbon, Portugal",
+                "longitude": -9.2170,
+                "latitude": 38.6940,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Wine Tasting in the Dão Region",
         "category": "Gastronomy",
@@ -77,26 +357,143 @@
         "city": "Dão",
         "longitude": -7.9621,
         "latitude": 40.4908,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "Late spring and early autumn are ideal for visiting the vineyards, with pleasant weather and the grape harvest in autumn adding to the experience.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months might be less favorable for visiting vineyards due to the colder weather.",
+        "suggested_venues": [
+            {
+                "name": "Local Vineyard Tour",
+                "description": "Tour a local vineyard to learn about the wine-making process and the unique qualities of Dão wines.",
+                "location": "Vineyard in Dão Region, Portugal",
+                "longitude": -7.9631,
+                "latitude": 40.4918,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Winery Tasting Room",
+                "description": "Visit a winery's tasting room to sample a variety of Dão wines, from robust reds to elegant whites.",
+                "location": "Winery in Dão Region, Portugal",
+                "longitude": -7.9611,
+                "latitude": 40.4898,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Wine Pairing Dinner",
+                "description": "Enjoy a wine pairing dinner at a local restaurant, featuring regional cuisine matched with Dão wines.",
+                "location": "Restaurant in Dão Region, Portugal",
+                "longitude": -7.9625,
+                "latitude": 40.4905,
+                "best_time_of_day_to_go": "Evening"
+            },
+            {
+                "name": "Wine Education Workshop",
+                "description": "Participate in a wine education workshop to deepen your knowledge of viticulture and oenology in the Dão region.",
+                "location": "Education center in Dão Region, Portugal",
+                "longitude": -7.9600,
+                "latitude": 40.4900,
+                "best_time_of_day_to_go": "Early afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Exploring the Azores Archipelago",
         "category": "Adventure",
         "score": 1,
-        "description": "Embark on an adventure across the stunning and diverse Azores archipelago.",
+        "description": "Embark on an adventure across the stunning and diverse Azores archipelago, known for its breathtaking landscapes and unique ecosystems.",
         "city": "Azores",
         "longitude": -28.6348,
         "latitude": 38.7216,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "These months offer mild weather with fewer tourists, ideal for hiking, whale watching, and enjoying the natural beauty of the islands.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "The winter months can bring rain and rough sea conditions, which might limit outdoor activities and boat tours.",
+        "suggested_venues": [
+            {
+                "name": "Whale Watching Tour",
+                "description": "Join a whale watching tour to spot various species of whales and dolphins in their natural habitat.",
+                "location": "Coastal area, Azores, Portugal",
+                "longitude": -28.6358,
+                "latitude": 38.7226,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Hiking at Sete Cidades",
+                "description": "Hike around the stunning Sete Cidades, a volcanic crater featuring two beautiful lakes.",
+                "location": "Sete Cidades, Azores, Portugal",
+                "longitude": -28.6338,
+                "latitude": 38.7206,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Hot Springs at Furnas",
+                "description": "Relax in the natural hot springs at Furnas, surrounded by lush vegetation and volcanic landscapes.",
+                "location": "Furnas, Azores, Portugal",
+                "longitude": -28.6348,
+                "latitude": 38.7236,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Scuba Diving in Pico Island",
+                "description": "Explore the underwater world with a scuba diving adventure in the clear waters of Pico Island.",
+                "location": "Pico Island, Azores, Portugal",
+                "longitude": -28.6328,
+                "latitude": 38.7196,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
     {
         "name": "Strolling through the Village of Óbidos",
         "category": "Culture",
         "score": 1,
-        "description": "Walk along the cobbled streets of the picturesque and historic village of Óbidos.",
+        "description": "Walk along the cobbled streets of the picturesque and historic village of Óbidos, known for its medieval architecture and charming ambiance.",
         "city": "Óbidos",
         "longitude": -9.1569,
         "latitude": 39.3606,
-        "cost": "$"
-    }
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The spring and early autumn months are ideal for strolling through Óbidos, offering pleasant weather and fewer tourists than the summer months.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The summer months can be quite crowded with tourists, which might detract from the quaint and peaceful experience of the village.",
+        "suggested_venues": [
+            {
+                "name": "Óbidos Castle",
+                "description": "Visit the iconic Óbidos Castle, a well-preserved medieval fortress offering panoramic views of the village and surrounding countryside.",
+                "location": "Óbidos Castle, Óbidos, Portugal",
+                "longitude": -9.1579,
+                "latitude": 39.3616,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Local Artisan Shops",
+                "description": "Explore the local artisan shops in Óbidos, where you can find handmade crafts, traditional ceramics, and other unique souvenirs.",
+                "location": "Óbidos Village, Óbidos, Portugal",
+                "longitude": -9.1559,
+                "latitude": 39.3596,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Ginja Tasting",
+                "description": "Enjoy a tasting of Ginja, a local cherry liqueur, often served in edible chocolate cups, a specialty of Óbidos.",
+                "location": "Various locations, Óbidos, Portugal",
+                "longitude": -9.1560,
+                "latitude": 39.3600,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Historic Churches",
+                "description": "Discover the historic churches of Óbidos, such as Santa Maria Church, known for its beautiful tiles and paintings.",
+                "location": "Santa Maria Church, Óbidos, Portugal",
+                "longitude": -9.1565,
+                "latitude": 39.3603,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
+    }    
 ]

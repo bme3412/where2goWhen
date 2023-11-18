@@ -7,8 +7,47 @@
         "city": "Krakow",
         "longitude": 19.9354,
         "latitude": 50.0540,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The milder weather in late spring and early autumn makes for a pleasant visit, avoiding the peak tourist season.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "The cold winter months might be less comfortable for exploring the castle grounds and outdoor sections.",
+        "suggested_venues": [
+            {
+                "name": "Wawel Royal Cathedral",
+                "description": "Visit the impressive cathedral within the castle complex, a site of Polish coronations and royal burials.",
+                "location": "Wawel Royal Cathedral, Krakow, Poland",
+                "longitude": 19.9350,
+                "latitude": 50.0545,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Crown Treasury and Armory",
+                "description": "Explore the Crown Treasury and Armory, showcasing Polish royal regalia, armory, and historic artifacts.",
+                "location": "Wawel Castle, Krakow, Poland",
+                "longitude": 19.9349,
+                "latitude": 50.0539,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "State Rooms",
+                "description": "Tour the State Rooms, featuring richly decorated interiors and artworks reflecting the castle's historical significance.",
+                "location": "Wawel Castle, Krakow, Poland",
+                "longitude": 19.9353,
+                "latitude": 50.0541,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Dragon's Den",
+                "description": "Discover the Dragon's Den, a legendary cave at the foot of Wawel Hill, part of Polish folklore.",
+                "location": "Dragon's Den, Krakow, Poland",
+                "longitude": 19.9360,
+                "latitude": 50.0530,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
     {
         "name": "Visit the Auschwitz-Birkenau Memorial and Museum",
         "category": "History",
@@ -17,8 +56,48 @@
         "city": "Oswiecim",
         "longitude": 19.2023,
         "latitude": 50.0269,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "Visiting in the shoulder months allows for a more contemplative experience, avoiding the peak tourist season while still offering mild weather.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months can be very cold, which may affect the experience of visiting the outdoor parts of the memorial.",
+        "suggested_venues": [
+            {
+                "name": "Auschwitz I Main Camp",
+                "description": "Explore the first and oldest part of the camp, which includes the infamous 'Arbeit Macht Frei' gate and numerous exhibitions.",
+                "location": "Auschwitz I, Oswiecim, Poland",
+                "longitude": 19.2035,
+                "latitude": 50.0275,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Auschwitz II-Birkenau",
+                "description": "Visit Auschwitz II-Birkenau, the largest section of the Auschwitz complex, to understand the scale of the Holocaust.",
+                "location": "Auschwitz II-Birkenau, Oswiecim, Poland",
+                "longitude": 19.1864,
+                "latitude": 50.0380,
+                "best_time_of_day_to_go": "Mid-morning to early afternoon"
+            },
+            {
+                "name": "National Exhibitions",
+                "description": "View the national exhibitions set up by various countries to commemorate their citizens who were victims of the Holocaust.",
+                "location": "Auschwitz I, Oswiecim, Poland",
+                "longitude": 19.2028,
+                "latitude": 50.0267,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Memorial and Reflection",
+                "description": "Spend time at the memorial sites for quiet reflection on the profound historical significance of the place.",
+                "location": "Auschwitz-Birkenau, Oswiecim, Poland",
+                "longitude": 19.2007,
+                "latitude": 50.0259,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Bialowieza Forest Adventure",
         "category": "Nature",
@@ -27,8 +106,48 @@
         "city": "Bialowieza",
         "longitude": 23.8433,
         "latitude": 52.7011,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "Late spring and early autumn offer pleasant weather for exploring the forest, with fewer tourists and the natural beauty of the forest at its peak.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "The winter months can be challenging due to cold temperatures and potential snow, making access to some areas difficult.",
+        "suggested_venues": [
+            {
+                "name": "Guided Nature Walks",
+                "description": "Participate in guided nature walks to discover the diverse flora and fauna of Bialowieza Forest, including the European bison.",
+                "location": "Bialowieza Forest, Bialowieza, Poland",
+                "longitude": 23.8503,
+                "latitude": 52.7031,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Bialowieza National Park Museum",
+                "description": "Visit the museum to learn about the forest's biodiversity, conservation efforts, and the history of this unique ecosystem.",
+                "location": "Bialowieza National Park, Bialowieza, Poland",
+                "longitude": 23.8423,
+                "latitude": 52.7001,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Bird Watching",
+                "description": "Engage in bird watching to spot various bird species that inhabit the forest, including rare and endangered species.",
+                "location": "Bialowieza Forest, Bialowieza, Poland",
+                "longitude": 23.8453,
+                "latitude": 52.7021,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Forest Biking Trails",
+                "description": "Explore the forest's biking trails for a more active way to enjoy the scenic beauty of the area.",
+                "location": "Bialowieza Forest, Bialowieza, Poland",
+                "longitude": 23.8473,
+                "latitude": 52.6991,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Gdansk Old Town Visit",
         "category": "Cultural",
@@ -37,8 +156,48 @@
         "city": "Gdansk",
         "longitude": 18.6466,
         "latitude": 54.3520,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "Visiting in late spring or early autumn allows for enjoying the town's attractions in milder weather and with fewer crowds compared to peak summer months.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months can be quite cold, which might make exploring the outdoor attractions less comfortable.",
+        "suggested_venues": [
+            {
+                "name": "Neptune's Fountain",
+                "description": "Visit the famous Neptune's Fountain, a symbol of Gdansk's connection to the sea, located in the heart of the Old Town.",
+                "location": "Długi Targ, Gdansk, Poland",
+                "longitude": 18.6476,
+                "latitude": 54.3525,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "St. Mary's Church",
+                "description": "Explore one of the largest brick churches in Europe, offering breathtaking views from its tower.",
+                "location": "St. Mary's Church, Gdansk, Poland",
+                "longitude": 18.6486,
+                "latitude": 54.3500,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Gdansk Maritime Museum",
+                "description": "Discover Gdansk's rich maritime history at this museum, which includes ship models, maritime artifacts, and exhibitions.",
+                "location": "Gdansk Maritime Museum, Gdansk, Poland",
+                "longitude": 18.6460,
+                "latitude": 54.3530,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Long Market",
+                "description": "Stroll through the Long Market, a bustling area filled with historic houses, cafes, and shops, perfect for souvenir hunting.",
+                "location": "Długi Targ, Gdansk, Poland",
+                "longitude": 18.6456,
+                "latitude": 54.3520,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Wieliczka Salt Mine Exploration",
         "category": "History",
@@ -47,8 +206,48 @@
         "city": "Wieliczka",
         "longitude": 20.0532,
         "latitude": 49.9840,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The shoulder months offer a comfortable climate for exploring the mines and tend to be less crowded than the peak summer months.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak summer months can be quite crowded, potentially leading to longer waiting times for tours.",
+        "suggested_venues": [
+            {
+                "name": "Chapel of St. Kinga",
+                "description": "Visit the Chapel of St. Kinga, an impressive underground church beautifully carved entirely out of salt.",
+                "location": "Wieliczka Salt Mine, Wieliczka, Poland",
+                "longitude": 20.0542,
+                "latitude": 49.9830,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Underground Salt Lake",
+                "description": "Explore the eerie and tranquil underground salt lakes, a highlight of the mine's lower levels.",
+                "location": "Wieliczka Salt Mine, Wieliczka, Poland",
+                "longitude": 20.0522,
+                "latitude": 49.9845,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Miner’s Route",
+                "description": "Take the Miner’s Route for a more interactive experience, where you can learn about the life of a salt miner.",
+                "location": "Wieliczka Salt Mine, Wieliczka, Poland",
+                "longitude": 20.0535,
+                "latitude": 49.9850,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Salt Mine Museum",
+                "description": "Visit the Salt Mine Museum to learn about the history of salt mining and view historical artifacts related to the mine.",
+                "location": "Wieliczka Salt Mine, Wieliczka, Poland",
+                "longitude": 20.0512,
+                "latitude": 49.9835,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Zakopane and Tatra Mountains",
         "category": "Nature",
@@ -57,8 +256,48 @@
         "city": "Zakopane",
         "longitude": 19.9500,
         "latitude": 49.2992,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The summer months are ideal for hiking and exploring the mountains, with pleasant weather and lush scenery.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be very cold and snowy, although it's popular for winter sports, it might not be ideal for general sightseeing.",
+        "suggested_venues": [
+            {
+                "name": "Gubałówka Hill",
+                "description": "Take the funicular to Gubałówka Hill for panoramic views of Zakopane and the Tatra Mountains.",
+                "location": "Gubałówka, Zakopane, Poland",
+                "longitude": 19.9580,
+                "latitude": 49.2962,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Krupowki Street",
+                "description": "Stroll down Krupowki Street, the main promenade in Zakopane, lined with shops, restaurants, and cafes.",
+                "location": "Krupowki Street, Zakopane, Poland",
+                "longitude": 19.9490,
+                "latitude": 49.2982,
+                "best_time_of_day_to_go": "Mid-morning to early afternoon"
+            },
+            {
+                "name": "Morskie Oko Lake",
+                "description": "Hike to Morskie Oko Lake, one of the most beautiful lakes in the Tatra Mountains, surrounded by stunning mountain scenery.",
+                "location": "Morskie Oko, Tatra Mountains, Poland",
+                "longitude": 20.0700,
+                "latitude": 49.2000,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Zakopane Wooden Architecture",
+                "description": "Explore the unique wooden architecture of Zakopane, including the famous Jaszczurówka Chapel and the Villa Koliba.",
+                "location": "Zakopane, Poland",
+                "longitude": 19.9520,
+                "latitude": 49.3002,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Malbork Castle Tour",
         "category": "History",
@@ -67,8 +306,48 @@
         "city": "Malbork",
         "longitude": 19.0290,
         "latitude": 54.0359,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The shoulder months offer a comfortable climate for exploring the castle, avoiding the peak tourist season and the summer heat.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "The winter months can be quite cold, potentially making outdoor exploration of the castle grounds less enjoyable.",
+        "suggested_venues": [
+            {
+                "name": "High Castle",
+                "description": "Visit the High Castle, the oldest part of the complex, featuring Gothic architecture and historical exhibits.",
+                "location": "Malbork Castle, Malbork, Poland",
+                "longitude": 19.0300,
+                "latitude": 54.0369,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Middle Castle",
+                "description": "Explore the Middle Castle, known for its grandeur, including the Grand Masters' Palace and various knights' halls.",
+                "location": "Malbork Castle, Malbork, Poland",
+                "longitude": 19.0280,
+                "latitude": 54.0349,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Castle Museum",
+                "description": "Discover the Castle Museum, which houses a rich collection of medieval art, armor, and weaponry.",
+                "location": "Malbork Castle, Malbork, Poland",
+                "longitude": 19.0295,
+                "latitude": 54.0355,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Castle Gardens",
+                "description": "Stroll through the beautifully landscaped Castle Gardens, a peaceful retreat with scenic views of the castle.",
+                "location": "Malbork Castle, Malbork, Poland",
+                "longitude": 19.0270,
+                "latitude": 54.0370,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Warsaw Old Town Exploration",
         "category": "Cultural",
@@ -77,8 +356,48 @@
         "city": "Warsaw",
         "longitude": 21.0175,
         "latitude": 52.2319,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "Late spring and early autumn offer pleasant weather for exploring the Old Town, with fewer tourists compared to the summer months.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "The winter months can be quite cold and may include snow, making outdoor exploration less comfortable.",
+        "suggested_venues": [
+            {
+                "name": "Royal Castle",
+                "description": "Visit the Royal Castle, a key landmark of the Old Town, showcasing Polish history and art.",
+                "location": "Royal Castle, Warsaw, Poland",
+                "longitude": 21.0155,
+                "latitude": 52.2299,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Market Square",
+                "description": "Explore the Market Square, the heart of the Old Town, surrounded by colorful merchant houses and lively cafes.",
+                "location": "Market Square, Warsaw, Poland",
+                "longitude": 21.0185,
+                "latitude": 52.2329,
+                "best_time_of_day_to_go": "Mid-morning to early afternoon"
+            },
+            {
+                "name": "Warsaw Barbican",
+                "description": "Discover the Warsaw Barbican, a historic fortification that once guarded the entrance to the Old Town.",
+                "location": "Warsaw Barbican, Warsaw, Poland",
+                "longitude": 21.0195,
+                "latitude": 52.2320,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Warsaw Uprising Monument",
+                "description": "Pay a visit to the Warsaw Uprising Monument, a tribute to the heroes of the 1944 uprising against German occupation.",
+                "location": "Warsaw Uprising Monument, Warsaw, Poland",
+                "longitude": 21.0165,
+                "latitude": 52.2310,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Lazienki Park and Palace",
         "category": "Leisure",
@@ -87,8 +406,48 @@
         "city": "Warsaw",
         "longitude": 21.0362,
         "latitude": 52.2146,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "Late spring through early autumn offers the best weather to enjoy the park's lush gardens and outdoor features.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "The winter months can be cold and less ideal for enjoying the outdoor beauty of the park.",
+        "suggested_venues": [
+            {
+                "name": "Lazienki Palace (Palace on the Isle)",
+                "description": "Explore the Lazienki Palace, also known as the Palace on the Isle, a neoclassical masterpiece set on a serene lake.",
+                "location": "Lazienki Park, Warsaw, Poland",
+                "longitude": 21.0372,
+                "latitude": 52.2156,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Royal Theatre in the Old Orangery",
+                "description": "Visit the Royal Theatre in the Old Orangery, one of the few original 18th-century court theatres in Europe.",
+                "location": "Lazienki Park, Warsaw, Poland",
+                "longitude": 21.0352,
+                "latitude": 52.2136,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Chopin Monument",
+                "description": "See the famous Chopin Monument, a large bronze statue honoring the renowned composer, often surrounded by music in the summer.",
+                "location": "Lazienki Park, Warsaw, Poland",
+                "longitude": 21.0342,
+                "latitude": 52.2140,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Botanical Gardens",
+                "description": "Stroll through the Botanical Gardens in Lazienki Park, featuring a variety of plants, flowers, and peaceful green spaces.",
+                "location": "Lazienki Park, Warsaw, Poland",
+                "longitude": 21.0382,
+                "latitude": 52.2166,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
     },
+
+
     {
         "name": "Copernicus Science Center Visit",
         "category": "Education",
@@ -97,6 +456,44 @@
         "city": "Warsaw",
         "longitude": 21.0063,
         "latitude": 52.2489,
-        "cost": "$$"
-    }
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "September", "October"],
+        "best_time_to_go_description": "Spring and early autumn are ideal for visiting, with milder crowds compared to the busy summer and holiday seasons.",
+        "worst_time_to_go": ["July", "August", "December"],
+        "worst_time_to_go_description": "Peak summer and holiday seasons can be quite crowded, potentially leading to longer wait times for popular exhibits.",
+        "suggested_venues": [
+            {
+                "name": "Heavens of Copernicus Planetarium",
+                "description": "Experience stunning cosmic shows in the Heavens of Copernicus Planetarium located within the center.",
+                "location": "Copernicus Science Center, Warsaw, Poland",
+                "longitude": 21.0073,
+                "latitude": 52.2499,
+                "best_time_of_day_to_go": "Morning"
+            },
+            {
+                "name": "Discovery Park",
+                "description": "Explore the outdoor Discovery Park, where science meets nature, offering interactive installations and experiments.",
+                "location": "Copernicus Science Center, Warsaw, Poland",
+                "longitude": 21.0053,
+                "latitude": 52.2480,
+                "best_time_of_day_to_go": "Mid-morning"
+            },
+            {
+                "name": "Robotic Theatre",
+                "description": "Attend a unique performance at the Robotic Theatre, showcasing the fascinating intersection of art and technology.",
+                "location": "Copernicus Science Center, Warsaw, Poland",
+                "longitude": 21.0060,
+                "latitude": 52.2490,
+                "best_time_of_day_to_go": "Early afternoon"
+            },
+            {
+                "name": "Hands-on Exhibits",
+                "description": "Engage with a variety of hands-on exhibits that encourage learning through direct interaction and exploration.",
+                "location": "Copernicus Science Center, Warsaw, Poland",
+                "longitude": 21.0066,
+                "latitude": 52.2485,
+                "best_time_of_day_to_go": "Late afternoon"
+            }
+        ]
+    }    
 ]
