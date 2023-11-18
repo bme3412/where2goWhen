@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Global Bucket List</title>
+    <title>World Bucket List</title>
     <style>
       * {
         box-sizing: border-box;
@@ -586,6 +586,16 @@
         </button>
 
         <button
+        class="country-button"
+        onclick="toggleCountry('Lithuania','Europe')"
+        style="
+          background-image: url('assets/images/flags/lithuania_flag.png');
+        "
+      >
+        Lithuania
+      </button>
+
+        <button
           class="country-button"
           onclick="toggleCountry('Luxembourg','Europe')"
           style="
@@ -1150,7 +1160,7 @@
                 (container) => {
                   container.style.display = "flex";
                   container.style.justifyContent = "start";
-                  container.style.marginBottom = "10px";
+                  container.style.marginBottom = "20px";
                 }
               );
 
@@ -1163,7 +1173,6 @@
               monthButtonContainer.style.marginTop = "10px";
               monthButtonContainer.style.marginBottom = "10px";
 
-              // Function to create a month button
               // Function to create a month button
               const createMonthButton = (
                 month,
@@ -1228,7 +1237,9 @@
                 }
               });
 
-              // Append the month button containers to the dropdown content
+              let spacer = document.createElement("div");
+              spacer.style.height = "20px"; // Adjust the value as needed
+              dropdownContent.appendChild(spacer); // Adding the spacer before the month buttons
               dropdownContent.appendChild(monthButtonContainerRow1);
               dropdownContent.appendChild(monthButtonContainerRow2);
 
@@ -1290,7 +1301,7 @@
               let timeDescriptionContainer = document.createElement("div");
               timeDescriptionContainer.style.display = "none"; // Initially hidden
               timeDescriptionContainer.style.padding = "10px";
-              timeDescriptionContainer.style.marginTop = "5px";
+              timeDescriptionContainer.style.marginTop = "20px";
               timeDescriptionContainer.style.background = "#ECEFF1"; // Light grey background
               timeDescriptionContainer.style.borderRadius = "4px";
 
@@ -1298,25 +1309,44 @@
               dropdownContent.appendChild(timeDescriptionContainer);
 
               // Adding suggested venues
-              // Adding suggested venues
               if (item.suggested_venues) {
                 let venuesContainer = document.createElement("div");
                 venuesContainer.className = "venues-container";
-                venuesContainer.innerHTML = "<h3>Suggested Venues</h3>"; // Added title
-                venuesContainer.style.backgroundColor = "#f8f8f8"; // Soft background color
-                venuesContainer.style.padding = "10px";
+                venuesContainer.innerHTML = "<h3>Suggested Venues</h3>";
+                venuesContainer.style.backgroundColor = "#f8f8f8";
+                venuesContainer.style.padding = "15px";
                 venuesContainer.style.borderRadius = "5px";
-                venuesContainer.style.boxShadow = "0 2px 4px rgba(0,0,0,0.1)";
+                venuesContainer.style.boxShadow = "0 4px 6px rgba(0,0,0,0.15)";
                 venuesContainer.style.marginTop = "10px";
 
                 let venuesList = document.createElement("ul");
                 venuesList.className = "venues-list";
+                venuesList.style.listStyle = "none";
+                venuesList.style.padding = "0";
                 item.suggested_venues.forEach((venue) => {
-                  venuesList.innerHTML += `<li class="venue-item" style="margin-bottom: 10px;">
-                                          <b style="color: #333; font-size: 16px;">${venue.name}</b><br>
-                                          <i style="color: #555;">${venue.description}</i><br>
-                                          <i style="color: #777;">📍 ${venue.location}</i>
-                                        </li>`;
+                  let venueItem = document.createElement("li");
+                  venueItem.className = "venue-item";
+                  venueItem.style.padding = "10px";
+                  venueItem.style.borderBottom = "1px solid #eee";
+                  venueItem.style.cursor = "pointer";
+                  venueItem.style.transition =
+                    "background-color 0.3s, color 0.3s"; // Smooth transition for hover effect
+                  venueItem.innerHTML = `<b style="color: #333; font-size: 16px;">${venue.name}</b><br>
+                           <i style="color: #555;">${venue.description}</i><br>
+                           <i style="color: #777;">📍 ${venue.location}</i>`;
+
+                  // Adding hover effect
+                  venueItem.addEventListener("mouseover", function () {
+                    this.style.backgroundColor = "#e0e0e0"; // Change color on hover
+                    this.style.color = "#000"; // Change text color on hover
+                  });
+
+                  venueItem.addEventListener("mouseout", function () {
+                    this.style.backgroundColor = "";
+                    this.style.color = "";
+                  });
+
+                  venuesList.appendChild(venueItem);
                 });
                 venuesContainer.appendChild(venuesList);
                 dropdownContent.appendChild(venuesContainer);
@@ -1395,7 +1425,7 @@
 
       // Function to fetch the API key and load the Google Maps script
       function fetchAndLoadGoogleMapsApi() {
-        fetch("https://wheretogowhen.vercel.app/api/maps-key")
+        fetch("http://localhost:3000/api/maps-key")
           .then((response) => response.json())
           .then((data) => {
             if (data.apiKey) {
