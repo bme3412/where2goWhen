@@ -7,8 +7,43 @@
         "city": "Kotor",
         "longitude": 18.7712,
         "latitude": 42.4247,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The ideal time to explore the Bay of Kotor is during the spring, summer, and early autumn months when the weather is warm and the natural scenery is at its most vibrant.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months might be less favorable for exploring the Bay of Kotor due to cooler temperatures and potential inclement weather.",
+        "suggested_venues": [
+            {
+                "name": "Old Town of Kotor",
+                "description": "Explore the historic Old Town of Kotor, known for its medieval architecture, cobblestone streets, and fortified walls.",
+                "location": "Kotor, Montenegro",
+                "longitude": 18.7720,
+                "latitude": 42.4249
+            },
+            {
+                "name": "Boat Tour",
+                "description": "Take a boat tour of the bay, offering a unique perspective of the fjord-like landscape and surrounding mountains.",
+                "location": "Kotor Bay, Montenegro",
+                "longitude": 18.7700,
+                "latitude": 42.4245
+            },
+            {
+                "name": "Perast Visit",
+                "description": "Visit the charming town of Perast, known for its baroque architecture and small islets with historic churches.",
+                "location": "Perast, Montenegro",
+                "longitude": 18.7715,
+                "latitude": 42.4248
+            },
+            {
+                "name": "Hiking Trails",
+                "description": "Embark on hiking trails around the bay, offering stunning views and a chance to experience the natural beauty of the area.",
+                "location": "Kotor Bay, Montenegro",
+                "longitude": 18.7710,
+                "latitude": 42.4246
+            }
+        ]
     },
+    
     {
         "name": "Visit the Ostrog Monastery",
         "category": "Spiritual",
@@ -17,8 +52,43 @@
         "city": "Niksic",
         "longitude": 18.8408,
         "latitude": 42.6750,
-        "cost": "$"
-    },
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit the Ostrog Monastery is from spring to early autumn when the weather is more favorable for the climb and outdoor exploration of the site.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months can be challenging for visiting due to colder temperatures and potential snow, making the climb to the monastery more difficult.",
+        "suggested_venues": [
+            {
+                "name": "Monastery Complex",
+                "description": "Explore the monastery complex, including the Upper and Lower Monasteries, known for their architectural and religious significance.",
+                "location": "Ostrog Monastery, Niksic, Montenegro",
+                "longitude": 18.8410,
+                "latitude": 42.6752
+            },
+            {
+                "name": "Upper Monastery Caves",
+                "description": "Visit the caves in the Upper Monastery, where the relics of Saint Basil of Ostrog are kept, a site of great spiritual importance.",
+                "location": "Ostrog Monastery, Niksic, Montenegro",
+                "longitude": 18.8406,
+                "latitude": 42.6748
+            },
+            {
+                "name": "Panoramic Views",
+                "description": "Enjoy the breathtaking panoramic views of the Bjelopavlici plain from the monastery, perched high on the cliff.",
+                "location": "Ostrog Monastery, Niksic, Montenegro",
+                "longitude": 18.8409,
+                "latitude": 42.6751
+            },
+            {
+                "name": "Pilgrimage Experience",
+                "description": "Join other pilgrims in the spiritual and serene atmosphere of the monastery, partaking in prayers and rituals.",
+                "location": "Ostrog Monastery, Niksic, Montenegro",
+                "longitude": 18.8407,
+                "latitude": 42.6749
+            }
+        ]
+    } ,
+
     {
         "name": "Durmitor National Park Hiking",
         "category": "Nature",
@@ -27,8 +97,43 @@
         "city": "Zabljak",
         "longitude": 19.1225,
         "latitude": 43.1548,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The ideal time to explore Durmitor National Park is from late spring to early autumn, when the weather is suitable for hiking and the natural scenery is at its most vibrant.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The winter months can be challenging for hiking due to snow and cold temperatures, although the park offers skiing opportunities during this time.",
+        "suggested_venues": [
+            {
+                "name": "Hiking Trails",
+                "description": "Embark on one of the many hiking trails in the park, ranging from easy walks to challenging treks, each offering unique views of the mountains and lakes.",
+                "location": "Durmitor National Park, Zabljak, Montenegro",
+                "longitude": 19.1227,
+                "latitude": 43.1550
+            },
+            {
+                "name": "Black Lake",
+                "description": "Visit Black Lake, a glacial lake surrounded by dense forest, ideal for a leisurely walk or a picnic.",
+                "location": "Black Lake, Durmitor National Park, Montenegro",
+                "longitude": 19.1215,
+                "latitude": 43.1546
+            },
+            {
+                "name": "Rafting on Tara River",
+                "description": "Experience the thrill of rafting on the Tara River, known for its dramatic canyons and clear blue waters.",
+                "location": "Tara River, Durmitor National Park, Montenegro",
+                "longitude": 19.1230,
+                "latitude": 43.1555
+            },
+            {
+                "name": "Bobotov Kuk Ascent",
+                "description": "Challenge yourself with a hike to Bobotov Kuk, the highest peak in the park, offering stunning views of the surrounding landscape.",
+                "location": "Bobotov Kuk, Durmitor National Park, Montenegro",
+                "longitude": 19.1220,
+                "latitude": 43.1540
+            }
+        ]
     },
+
     {
         "name": "Sveti Stefan Beach",
         "category": "Leisure",
@@ -37,8 +142,43 @@
         "city": "Sveti Stefan",
         "longitude": 18.8912,
         "latitude": 42.2597,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Sveti Stefan Beach is during the summer months when the weather is warm and sunny, perfect for beach activities and enjoying the Adriatic Sea.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The off-season months can be less suitable for a beach visit due to cooler temperatures and limited access to some beach facilities.",
+        "suggested_venues": [
+            {
+                "name": "Beach Relaxation",
+                "description": "Spend time relaxing on the stunning beaches of Sveti Stefan, enjoying the sun, sea, and picturesque views of the islet.",
+                "location": "Sveti Stefan Beach, Montenegro",
+                "longitude": 18.8913,
+                "latitude": 42.2598
+            },
+            {
+                "name": "Water Sports",
+                "description": "Engage in various water sports activities available at Sveti Stefan, such as swimming, snorkeling, and paddle boarding.",
+                "location": "Sveti Stefan Beach, Montenegro",
+                "longitude": 18.8911,
+                "latitude": 42.2596
+            },
+            {
+                "name": "Islet Exploration",
+                "description": "Explore the islet of Sveti Stefan, with its historic buildings and cobbled streets, offering a blend of cultural and architectural beauty.",
+                "location": "Sveti Stefan, Montenegro",
+                "longitude": 18.8914,
+                "latitude": 42.2599
+            },
+            {
+                "name": "Local Cuisine",
+                "description": "Enjoy the local cuisine at nearby restaurants, offering fresh seafood and traditional Montenegrin dishes with a view of the Adriatic Sea.",
+                "location": "Sveti Stefan, Montenegro",
+                "longitude": 18.8910,
+                "latitude": 42.2595
+            }
+        ]
     },
+
     {
         "name": "Budva Old Town Visit",
         "category": "Cultural",
@@ -47,8 +187,43 @@
         "city": "Budva",
         "longitude": 18.8371,
         "latitude": 42.2776,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The ideal time to visit Budva's Old Town is during the warmer months, from spring to early autumn, when the weather is pleasant for exploring and enjoying the town's outdoor cafes and coastal views.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months can be less appealing for visiting due to cooler temperatures and a quieter atmosphere, as some establishments may be closed.",
+        "suggested_venues": [
+            {
+                "name": "Medieval Fortifications",
+                "description": "Explore the medieval fortifications of the Old Town, including the ancient walls and gates that encircle the historic center.",
+                "location": "Budva Old Town, Budva, Montenegro",
+                "longitude": 18.8372,
+                "latitude": 42.2777
+            },
+            {
+                "name": "Citadel",
+                "description": "Visit the Citadel, a historic fortress offering panoramic views of the Adriatic Sea and the town.",
+                "location": "Budva Old Town, Budva, Montenegro",
+                "longitude": 18.8369,
+                "latitude": 42.2775
+            },
+            {
+                "name": "Churches and Museums",
+                "description": "Discover the various churches and museums in the Old Town, showcasing Budva's rich history and cultural heritage.",
+                "location": "Budva Old Town, Budva, Montenegro",
+                "longitude": 18.8373,
+                "latitude": 42.2778
+            },
+            {
+                "name": "Seaside Promenade",
+                "description": "Enjoy a walk along the seaside promenade, lined with restaurants, cafes, and shops, perfect for experiencing the local cuisine and culture.",
+                "location": "Budva Old Town, Budva, Montenegro",
+                "longitude": 18.8368,
+                "latitude": 42.2774
+            }
+        ]
     },
+
     {
         "name": "Lovcen National Park Adventure",
         "category": "Nature",
@@ -57,8 +232,43 @@
         "city": "Cetinje",
         "longitude": 18.9361,
         "latitude": 42.3931,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to explore Lovcen National Park is during the warmer months, from late spring to early autumn, when the weather is pleasant for hiking and enjoying the outdoor scenery.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months can be less suitable for visiting the park due to colder weather and potential snow, which may affect access to hiking trails and viewpoints.",
+        "suggested_venues": [
+            {
+                "name": "Njegos Mausoleum",
+                "description": "Visit the Njegos Mausoleum, located at one of the park's highest peaks, offering breathtaking views and a tribute to Montenegro's revered poet and ruler, Petar II Petrovic-Njegos.",
+                "location": "Lovcen National Park, Cetinje, Montenegro",
+                "longitude": 18.9362,
+                "latitude": 42.3932
+            },
+            {
+                "name": "Hiking Trails",
+                "description": "Explore the park's network of hiking trails, which wind through mountainous terrain and offer stunning natural scenery.",
+                "location": "Lovcen National Park, Cetinje, Montenegro",
+                "longitude": 18.9359,
+                "latitude": 42.3930
+            },
+            {
+                "name": "Mountain Biking",
+                "description": "Take on the park's mountain biking routes, offering a thrilling way to experience its diverse landscapes.",
+                "location": "Lovcen National Park, Cetinje, Montenegro",
+                "longitude": 18.9363,
+                "latitude": 42.3933
+            },
+            {
+                "name": "Ivanova Korita",
+                "description": "Visit Ivanova Korita, a popular area within the park known for its lush meadows, picnic spots, and fresh mountain air.",
+                "location": "Lovcen National Park, Cetinje, Montenegro",
+                "longitude": 18.9358,
+                "latitude": 42.3929
+            }
+        ]
     },
+
     {
         "name": "Skadar Lake Boat Trip",
         "category": "Nature",
@@ -67,8 +277,43 @@
         "city": "Skadar",
         "longitude": 19.3564,
         "latitude": 42.2025,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The ideal time for a boat trip on Skadar Lake is from spring to early autumn, when the weather is pleasant and the lake's wildlife, including its birdlife, is most active.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months can be less suitable for a boat trip due to lower temperatures and reduced wildlife activity.",
+        "suggested_venues": [
+            {
+                "name": "Guided Boat Tours",
+                "description": "Join a guided boat tour to explore the lake's natural beauty, with opportunities to see a wide range of bird species and other wildlife.",
+                "location": "Skadar Lake, Montenegro",
+                "longitude": 19.3565,
+                "latitude": 42.2026
+            },
+            {
+                "name": "Bird Watching",
+                "description": "Experience bird watching on the lake, which is a haven for bird enthusiasts, hosting numerous species including the rare Dalmatian pelican.",
+                "location": "Skadar Lake, Montenegro",
+                "longitude": 19.3563,
+                "latitude": 42.2024
+            },
+            {
+                "name": "Historical Monuments",
+                "description": "Discover the historical monuments scattered around the lake, including monasteries and old fortresses that offer a glimpse into the region's past.",
+                "location": "Skadar Lake, Montenegro",
+                "longitude": 19.3566,
+                "latitude": 42.2027
+            },
+            {
+                "name": "Picnic Spots",
+                "description": "Find a scenic spot for a picnic along the shores of the lake, enjoying the peaceful surroundings and natural beauty.",
+                "location": "Skadar Lake, Montenegro",
+                "longitude": 19.3562,
+                "latitude": 42.2023
+            }
+        ]
     },
+
     {
         "name": "Perast Small Town Exploration",
         "category": "History",
@@ -77,8 +322,43 @@
         "city": "Perast",
         "longitude": 18.7050,
         "latitude": 42.4896,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Perast is during the warmer months, from spring to early autumn, when the weather is pleasant for exploring the town and enjoying boat trips to the nearby islets.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months might be less appealing for visiting Perast due to cooler weather and a quieter atmosphere, as some establishments may be closed.",
+        "suggested_venues": [
+            {
+                "name": "Baroque Architecture",
+                "description": "Wander through the streets of Perast, admiring its well-preserved Baroque architecture and historic buildings.",
+                "location": "Perast, Montenegro",
+                "longitude": 18.7051,
+                "latitude": 42.4897
+            },
+            {
+                "name": "Our Lady of the Rocks",
+                "description": "Take a boat trip to the islet of Our Lady of the Rocks, home to a historic church and a museum showcasing local maritime history.",
+                "location": "Our Lady of the Rocks, Perast, Montenegro",
+                "longitude": 18.7049,
+                "latitude": 42.4895
+            },
+            {
+                "name": "Waterfront Promenade",
+                "description": "Stroll along the waterfront promenade, enjoying the scenic views of the Bay of Kotor and the surrounding mountains.",
+                "location": "Perast, Montenegro",
+                "longitude": 18.7052,
+                "latitude": 42.4898
+            },
+            {
+                "name": "Local Cuisine",
+                "description": "Sample the local cuisine at one of the many restaurants in Perast, offering fresh seafood and traditional Montenegrin dishes.",
+                "location": "Perast, Montenegro",
+                "longitude": 18.7048,
+                "latitude": 42.4894
+            }
+        ]
     },
+
     {
         "name": "Tara River Canyon Rafting",
         "category": "Adventure",
@@ -87,8 +367,43 @@
         "city": "Durmitor",
         "longitude": 19.0503,
         "latitude": 43.3500,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for rafting in the Tara River Canyon is from late spring to early autumn when the water levels are ideal for a thrilling rafting experience.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The off-season months are less suitable for rafting due to lower water levels and colder weather conditions.",
+        "suggested_venues": [
+            {
+                "name": "Rafting Tours",
+                "description": "Join a guided rafting tour, navigating the rapids of the Tara River Canyon with experienced guides and enjoying the stunning scenery.",
+                "location": "Tara River Canyon, Durmitor, Montenegro",
+                "longitude": 19.0504,
+                "latitude": 43.3501
+            },
+            {
+                "name": "Canyon Views",
+                "description": "Take in the breathtaking views of the Tara River Canyon, one of Europe's most spectacular river gorges, with its steep cliffs and lush vegetation.",
+                "location": "Tara River Canyon, Durmitor, Montenegro",
+                "longitude": 19.0502,
+                "latitude": 43.3499
+            },
+            {
+                "name": "Camping Sites",
+                "description": "Stay at one of the nearby camping sites, offering a chance to connect with nature and experience the beauty of the canyon's surroundings.",
+                "location": "Tara River Canyon, Durmitor, Montenegro",
+                "longitude": 19.0505,
+                "latitude": 43.3502
+            },
+            {
+                "name": "Hiking Trails",
+                "description": "Explore the hiking trails around the canyon, providing opportunities to discover the area's natural beauty and wildlife.",
+                "location": "Tara River Canyon, Durmitor, Montenegro",
+                "longitude": 19.0501,
+                "latitude": 43.3498
+            }
+        ]
     },
+
     {
         "name": "Cetinje Historical Tour",
         "category": "Culture",
@@ -97,6 +412,41 @@
         "city": "Cetinje",
         "longitude": 18.9225,
         "latitude": 42.3906,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The ideal time to visit Cetinje is during the warmer months, from spring to early autumn, when the weather is pleasant for walking tours and exploring the historical sites.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months might be less appealing for exploring due to cooler temperatures and potential snowfall, which could hinder access to some of the historical sites.",
+        "suggested_venues": [
+            {
+                "name": "Cetinje Monastery",
+                "description": "Visit the Cetinje Monastery, a significant religious and historical site, known for its historical relics and artifacts.",
+                "location": "Cetinje, Montenegro",
+                "longitude": 18.9226,
+                "latitude": 42.3907
+            },
+            {
+                "name": "National Museum of Montenegro",
+                "description": "Explore the National Museum of Montenegro, offering a comprehensive insight into the country's history, art, and culture.",
+                "location": "Cetinje, Montenegro",
+                "longitude": 18.9224,
+                "latitude": 42.3905
+            },
+            {
+                "name": "King Nikola’s Palace",
+                "description": "Tour King Nikola’s Palace, once the residence of the Montenegrin royal family, now a museum showcasing royal artifacts.",
+                "location": "Cetinje, Montenegro",
+                "longitude": 18.9227,
+                "latitude": 42.3908
+            },
+            {
+                "name": "Historical Architecture",
+                "description": "Stroll through the town's streets, admiring the historical architecture and the ambiance of this old royal capital.",
+                "location": "Cetinje, Montenegro",
+                "longitude": 18.9223,
+                "latitude": 42.3904
+            }
+        ]
     }
+    
 ]

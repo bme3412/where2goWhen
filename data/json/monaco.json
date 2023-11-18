@@ -7,96 +7,445 @@
         "city": "Monte Carlo",
         "longitude": 7.4264,
         "latitude": 43.7396,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "The Monte Carlo Casino is a year-round destination, offering a unique experience of luxury and entertainment regardless of the season.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time to visit the Monte Carlo Casino, as it maintains its allure and elegance throughout the year.",
+        "suggested_venues": [
+            {
+                "name": "Casino Gaming Floors",
+                "description": "Try your luck at the casino's numerous gaming tables and slot machines, set in an opulent and historic setting.",
+                "location": "Place du Casino, 98000 Monte Carlo, Monaco",
+                "longitude": 7.4265,
+                "latitude": 43.7397
+            },
+            {
+                "name": "Opéra de Monte-Carlo",
+                "description": "Attend a performance at the Opéra de Monte-Carlo, an adjacent opera and ballet house known for its exquisite architecture and world-class shows.",
+                "location": "Place du Casino, 98000 Monte Carlo, Monaco",
+                "longitude": 7.4263,
+                "latitude": 43.7395
+            },
+            {
+                "name": "Casino Gardens and Terraces",
+                "description": "Explore the beautifully landscaped gardens and terraces surrounding the casino, offering magnificent views of the Mediterranean Sea.",
+                "location": "Place du Casino, 98000 Monte Carlo, Monaco",
+                "longitude": 7.4266,
+                "latitude": 43.7398
+            },
+            {
+                "name": "Luxury Shopping",
+                "description": "Browse the exclusive boutiques and luxury shopping options in and around the casino complex.",
+                "location": "Place du Casino, 98000 Monte Carlo, Monaco",
+                "longitude": 7.4262,
+                "latitude": 43.7394
+            }
+        ]
     },
+
     {
-        "name": "Stroll in the Jardin Exotique",
-        "category": "Nature",
-        "score": 3,
-        "description": "Explore the Jardin Exotique, home to a rich collection of exotic plants and offering spectacular views over Monaco.",
-        "city": "Monaco",
-        "longitude": 7.4181,
-        "latitude": 43.7314,
-        "cost": "$$"
-    },
-    {
-        "name": "Tour the Prince's Palace",
-        "category": "History",
-        "score": 4,
-        "description": "Visit the Prince's Palace of Monaco, a historic site and the official residence of the ruling prince, showcasing elegant architecture and history.",
-        "city": "Monaco",
-        "longitude": 7.4238,
-        "latitude": 43.7311,
-        "cost": "$$"
-    },
-    {
-        "name": "Oceanographic Museum Visit",
-        "category": "Culture",
-        "score": 4,
-        "description": "Discover the Oceanographic Museum of Monaco, an institution dedicated to marine sciences and oceanography, with impressive aquariums and exhibits.",
-        "city": "Monaco",
-        "longitude": 7.4256,
-        "latitude": 43.7314,
-        "cost": "$$"
-    },
-    {
-        "name": "Larvotto Beach Relaxation",
-        "category": "Leisure",
-        "score": 2,
-        "description": "Enjoy a day at Larvotto Beach, Monaco's most popular beach, known for its calm waters and pebbly shores.",
-        "city": "Monaco",
-        "longitude": 7.4386,
-        "latitude": 43.7500,
-        "cost": "$"
-    },
-    {
-        "name": "Monaco Grand Prix Experience",
-        "category": "Entertainment",
-        "score": 5,
-        "description": "Experience the thrill of the Monaco Grand Prix, one of the most prestigious automobile races in the world, held annually on the Circuit de Monaco.",
-        "city": "Monte Carlo",
-        "longitude": 7.4206,
-        "latitude": 43.7374,
-        "cost": "$$$"
-    },
-    {
-        "name": "Japanese Garden Walk",
-        "category": "Nature",
-        "score": 3,
-        "description": "Stroll through the serene Japanese Garden, a peaceful oasis in Monaco, featuring traditional Japanese landscape design.",
-        "city": "Monaco",
-        "longitude": 7.4394,
-        "latitude": 43.7511,
-        "cost": "$"
-    },
-    {
-        "name": "Monte Carlo Harbor Promenade",
-        "category": "Leisure",
-        "score": 3,
-        "description": "Walk along the Monte Carlo Harbor, admiring luxury yachts and enjoying the vibrant atmosphere of the waterfront.",
-        "city": "Monte Carlo",
-        "longitude": 7.4269,
-        "latitude": 43.7397,
-        "cost": "$"
-    },
-    {
-        "name": "Cathedral of Our Lady Immaculate Visit",
-        "category": "History",
-        "score": 3,
-        "description": "Visit the Cathedral of Our Lady Immaculate, also known as Monaco Cathedral, a Romanesque-Byzantine church home to the tombs of past sovereigns.",
-        "city": "Monaco",
-        "longitude": 7.4180,
-        "latitude": 43.7312,
-        "cost": "$"
-    },
-    {
-        "name": "Monte Carlo Opera Experience",
-        "category": "Culture",
-        "score": 4,
-        "description": "Attend a performance at the Monte Carlo Opera, a cultural institution offering a diverse range of operatic and ballet performances.",
-        "city": "Monte Carlo",
-        "longitude": 7.4272,
-        "latitude": 43.7394,
-        "cost": "$$$"
-    }
+    "name": "Stroll in the Jardin Exotique",
+    "category": "Nature",
+    "score": 3,
+    "description": "Explore the Jardin Exotique, home to a rich collection of exotic plants and offering spectacular views over Monaco.",
+    "city": "Monaco",
+    "longitude": 7.4181,
+    "latitude": 43.7314,
+    "cost": "$$",
+    "best_time_to_go": ["March", "April", "May", "June", "July", "August", "September", "October"],
+    "best_time_to_go_description": "The best time to visit the Jardin Exotique is from early spring to late autumn when the weather is pleasant and the plants are in full bloom.",
+    "worst_time_to_go": ["November", "December", "January", "February"],
+    "worst_time_to_go_description": "The colder months might be less ideal for visiting the gardens, as some of the plants may not be in bloom and the weather can be chillier.",
+    "suggested_venues": [
+        {
+            "name": "Exotic Plants Collection",
+            "description": "Discover the diverse collection of exotic plants and cacti from around the world, beautifully arranged in the garden.",
+            "location": "Jardin Exotique, Monaco",
+            "longitude": 7.4182,
+            "latitude": 43.7315
+        },
+        {
+            "name": "Panoramic Views",
+            "description": "Enjoy the breathtaking panoramic views of Monaco and the Mediterranean Sea from the garden's vantage points.",
+            "location": "Jardin Exotique, Monaco",
+            "longitude": 7.4180,
+            "latitude": 43.7313
+        },
+        {
+            "name": "Cave Tour",
+            "description": "Take a guided tour of the underground cave (Grotte de l'Observatoire) within the garden, known for its stalactites and stalagmites.",
+            "location": "Jardin Exotique, Monaco",
+            "longitude": 7.4183,
+            "latitude": 43.7316
+        },
+        {
+            "name": "Museum of Prehistoric Anthropology",
+            "description": "Visit the Museum of Prehistoric Anthropology, located within the garden, showcasing artifacts from the region's prehistoric past.",
+            "location": "Jardin Exotique, Monaco",
+            "longitude": 7.4179,
+            "latitude": 43.7312
+        }
+    ]
+},
+
+{
+    "name": "Tour the Prince's Palace",
+    "category": "History",
+    "score": 4,
+    "description": "Visit the Prince's Palace of Monaco, a historic site and the official residence of the ruling prince, showcasing elegant architecture and history.",
+    "city": "Monaco",
+    "longitude": 7.4238,
+    "latitude": 43.7311,
+    "cost": "$$",
+    "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+    "best_time_to_go_description": "The best time to visit the Prince's Palace is during the warmer months, when the weather is pleasant for exploring the palace and its surroundings. It's also the time when the palace is more likely to be open for public tours.",
+    "worst_time_to_go": ["November", "December", "January", "February", "March"],
+    "worst_time_to_go_description": "The winter months can be less ideal due to cooler weather, and there might be limited access to the palace or certain areas may be closed for visitation.",
+    "suggested_venues": [
+        {
+            "name": "State Apartments",
+            "description": "Explore the State Apartments, known for their luxurious decor, artworks, and historical significance.",
+            "location": "Prince's Palace of Monaco, Monaco",
+            "longitude": 7.4239,
+            "latitude": 43.7312
+        },
+        {
+            "name": "Changing of the Guard Ceremony",
+            "description": "Witness the traditional Changing of the Guard ceremony at the palace entrance, a popular attraction for visitors.",
+            "location": "Prince's Palace of Monaco, Monaco",
+            "longitude": 7.4237,
+            "latitude": 43.7310
+        },
+        {
+            "name": "Palace Courtyard",
+            "description": "Admire the architecture and elegance of the Palace Courtyard, the heart of the palace complex with its Italianate gallery.",
+            "location": "Prince's Palace of Monaco, Monaco",
+            "longitude": 7.4240,
+            "latitude": 43.7313
+        },
+        {
+            "name": "Palace Gardens",
+            "description": "Stroll through the Palace Gardens, offering a peaceful and beautifully landscaped area with views over the Mediterranean.",
+            "location": "Prince's Palace of Monaco, Monaco",
+            "longitude": 7.4236,
+            "latitude": 43.7309
+        }
+    ]
+},
+
+{
+    "name": "Oceanographic Museum Visit",
+    "category": "Culture",
+    "score": 4,
+    "description": "Discover the Oceanographic Museum of Monaco, an institution dedicated to marine sciences and oceanography, with impressive aquariums and exhibits.",
+    "city": "Monaco",
+    "longitude": 7.4256,
+    "latitude": 43.7314,
+    "cost": "$$",
+    "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "best_time_to_go_description": "The Oceanographic Museum is a great year-round destination. Visiting during the off-peak season can mean fewer crowds and a more leisurely experience.",
+    "worst_time_to_go": [],
+    "worst_time_to_go_description": "There is no specific worst time to visit the Oceanographic Museum, as it offers indoor activities suitable for any weather.",
+    "suggested_venues": [
+        {
+            "name": "Marine Aquariums",
+            "description": "Explore the museum's aquariums, home to a diverse range of marine species, from colorful fish to coral ecosystems.",
+            "location": "Oceanographic Museum of Monaco, Monaco",
+            "longitude": 7.4257,
+            "latitude": 43.7315
+        },
+        {
+            "name": "Exhibitions on Marine Science",
+            "description": "Discover the various exhibitions dedicated to marine science, ocean exploration, and the protection of marine life.",
+            "location": "Oceanographic Museum of Monaco, Monaco",
+            "longitude": 7.4255,
+            "latitude": 43.7313
+        },
+        {
+            "name": "Panoramic Terrace",
+            "description": "Visit the panoramic terrace for stunning views of the Mediterranean Sea and the Monaco coastline.",
+            "location": "Oceanographic Museum of Monaco, Monaco",
+            "longitude": 7.4258,
+            "latitude": 43.7316
+        },
+        {
+            "name": "Interactive Activities",
+            "description": "Engage with interactive activities and educational programs suitable for all ages, enhancing the learning experience.",
+            "location": "Oceanographic Museum of Monaco, Monaco",
+            "longitude": 7.4254,
+            "latitude": 43.7312
+        }
+    ]
+},
+
+{
+    "name": "Larvotto Beach Relaxation",
+    "category": "Leisure",
+    "score": 2,
+    "description": "Enjoy a day at Larvotto Beach, Monaco's most popular beach, known for its calm waters and pebbly shores.",
+    "city": "Monaco",
+    "longitude": 7.4386,
+    "latitude": 43.7500,
+    "cost": "$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time to visit Larvotto Beach is during the summer months when the weather is warm and sunny, perfect for beach activities and swimming.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "The off-season months can be less suitable for a beach visit due to cooler temperatures and fewer beach services.",
+    "suggested_venues": [
+        {
+            "name": "Beach Relaxation",
+            "description": "Spend time relaxing on the pebbly shores of Larvotto Beach, enjoying the sun, sea, and scenic views.",
+            "location": "Larvotto Beach, Monaco",
+            "longitude": 7.4387,
+            "latitude": 43.7501
+        },
+        {
+            "name": "Water Sports",
+            "description": "Engage in various water sports activities available at Larvotto Beach, such as jet skiing, paddle boarding, and swimming.",
+            "location": "Larvotto Beach, Monaco",
+            "longitude": 7.4385,
+            "latitude": 43.7499
+        },
+        {
+            "name": "Beachfront Cafes",
+            "description": "Visit the beachfront cafes and restaurants for a refreshing drink or a meal, enjoying the beach ambiance.",
+            "location": "Larvotto Beach, Monaco",
+            "longitude": 7.4388,
+            "latitude": 43.7502
+        },
+        {
+            "name": "Scenic Walks",
+            "description": "Take a scenic walk along the beach promenade, offering beautiful views of the Mediterranean and the Monaco coastline.",
+            "location": "Larvotto Beach, Monaco",
+            "longitude": 7.4384,
+            "latitude": 43.7498
+        }
+    ]
+},
+
+{
+    "name": "Monaco Grand Prix Experience",
+    "category": "Entertainment",
+    "score": 5,
+    "description": "Experience the thrill of the Monaco Grand Prix, one of the most prestigious automobile races in the world, held annually on the Circuit de Monaco.",
+    "city": "Monte Carlo",
+    "longitude": 7.4206,
+    "latitude": 43.7374,
+    "cost": "$$$",
+    "best_time_to_go": ["May"],
+    "best_time_to_go_description": "The best time to experience the Monaco Grand Prix is in May when the race is traditionally held. This period offers a vibrant atmosphere and a chance to witness the excitement of the event.",
+    "worst_time_to_go": ["January", "February", "March", "April", "June", "July", "August", "September", "October", "November", "December"],
+    "worst_time_to_go_description": "Outside of May, there's no Grand Prix activity, so visits during other months won't capture the excitement of the race event.",
+    "suggested_venues": [
+        {
+            "name": "Circuit de Monaco",
+            "description": "Explore the Circuit de Monaco, a street circuit laid out on the city streets of Monte Carlo and La Condamine, known for its challenging turns and unique setting.",
+            "location": "Circuit de Monaco, Monte Carlo, Monaco",
+            "longitude": 7.4207,
+            "latitude": 43.7375
+        },
+        {
+            "name": "Grandstand Seats",
+            "description": "Experience the race from one of the grandstand seats, offering excellent views of the high-speed action and thrilling overtakes.",
+            "location": "Circuit de Monaco, Monte Carlo, Monaco",
+            "longitude": 7.4205,
+            "latitude": 43.7373
+        },
+        {
+            "name": "Yacht Viewing",
+            "description": "Enjoy a unique perspective of the race from a luxury yacht, a popular way to watch the Grand Prix while enjoying the glamorous Monaco setting.",
+            "location": "Port Hercule, Monte Carlo, Monaco",
+            "longitude": 7.4210,
+            "latitude": 43.7376
+        },
+        {
+            "name": "Paddock Club",
+            "description": "Join the exclusive Paddock Club for a VIP experience, featuring gourmet dining, open bars, and behind-the-scenes access to the teams and drivers.",
+            "location": "Circuit de Monaco, Monte Carlo, Monaco",
+            "longitude": 7.4204,
+            "latitude": 43.7372
+        }
+    ]
+},
+
+{
+    "name": "Japanese Garden Walk",
+    "category": "Nature",
+    "score": 3,
+    "description": "Stroll through the serene Japanese Garden, a peaceful oasis in Monaco, featuring traditional Japanese landscape design.",
+    "city": "Monaco",
+    "longitude": 7.4394,
+    "latitude": 43.7511,
+    "cost": "$",
+    "best_time_to_go": ["March", "April", "May", "June", "July", "August", "September", "October"],
+    "best_time_to_go_description": "The best time to visit the Japanese Garden is from spring to autumn, when the weather is pleasant and the garden's flora is in full bloom, offering a tranquil and beautiful setting.",
+    "worst_time_to_go": ["November", "December", "January", "February"],
+    "worst_time_to_go_description": "The colder months might be less ideal for a garden walk due to cooler temperatures and less vibrant plant life.",
+    "suggested_venues": [
+        {
+            "name": "Garden Pathways",
+            "description": "Wander the garden's pathways, immersing yourself in the tranquil atmosphere and meticulously maintained landscape.",
+            "location": "Japanese Garden, Monaco",
+            "longitude": 7.4395,
+            "latitude": 43.7512
+        },
+        {
+            "name": "Koi Pond",
+            "description": "Visit the Koi Pond, a central feature in the garden, where you can enjoy watching the colorful koi fish swim in a serene setting.",
+            "location": "Japanese Garden, Monaco",
+            "longitude": 7.4393,
+            "latitude": 43.7510
+        },
+        {
+            "name": "Tea House",
+            "description": "Experience the traditional Japanese tea house, offering a place of rest and reflection within the garden.",
+            "location": "Japanese Garden, Monaco",
+            "longitude": 7.4396,
+            "latitude": 43.7513
+        },
+        {
+            "name": "Water Features",
+            "description": "Admire the various water features throughout the garden, including streams and waterfalls, contributing to the peaceful ambiance.",
+            "location": "Japanese Garden, Monaco",
+            "longitude": 7.4392,
+            "latitude": 43.7509
+        }
+    ]
+},
+
+{
+    "name": "Monte Carlo Harbor Promenade",
+    "category": "Leisure",
+    "score": 3,
+    "description": "Walk along the Monte Carlo Harbor, admiring luxury yachts and enjoying the vibrant atmosphere of the waterfront.",
+    "city": "Monte Carlo",
+    "longitude": 7.4269,
+    "latitude": 43.7397,
+    "cost": "$",
+    "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+    "best_time_to_go_description": "The best time to enjoy the Monte Carlo Harbor Promenade is during the warmer months, when the weather is pleasant for a leisurely walk and the harbor is bustling with activity.",
+    "worst_time_to_go": ["November", "December", "January", "February", "March"],
+    "worst_time_to_go_description": "The winter months might be less appealing for a harbor walk due to cooler temperatures and a quieter atmosphere.",
+    "suggested_venues": [
+        {
+            "name": "Luxury Yacht Viewing",
+            "description": "Enjoy the sight of luxury yachts moored in the harbor, showcasing the opulence and glamour of Monte Carlo.",
+            "location": "Monte Carlo Harbor, Monte Carlo, Monaco",
+            "longitude": 7.4270,
+            "latitude": 43.7398
+        },
+        {
+            "name": "Waterfront Cafes",
+            "description": "Stop at one of the many waterfront cafes for a coffee or a meal, enjoying the views and the vibrant atmosphere of the harbor.",
+            "location": "Monte Carlo Harbor, Monte Carlo, Monaco",
+            "longitude": 7.4268,
+            "latitude": 43.7396
+        },
+        {
+            "name": "Scenic Photo Spots",
+            "description": "Capture memorable photographs of the harbor and its surrounding, with the Mediterranean Sea and luxury yachts as a backdrop.",
+            "location": "Monte Carlo Harbor, Monte Carlo, Monaco",
+            "longitude": 7.4271,
+            "latitude": 43.7399
+        },
+        {
+            "name": "Evening Stroll",
+            "description": "Take an evening stroll along the harbor to experience the lively nightlife and beautifully lit scenery.",
+            "location": "Monte Carlo Harbor, Monte Carlo, Monaco",
+            "longitude": 7.4267,
+            "latitude": 43.7395
+        }
+    ]
+},
+
+{
+    "name": "Cathedral of Our Lady Immaculate Visit",
+    "category": "History",
+    "score": 3,
+    "description": "Visit the Cathedral of Our Lady Immaculate, also known as Monaco Cathedral, a Romanesque-Byzantine church home to the tombs of past sovereigns.",
+    "city": "Monaco",
+    "longitude": 7.4180,
+    "latitude": 43.7312,
+    "cost": "$",
+    "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "best_time_to_go_description": "The Cathedral of Our Lady Immaculate can be visited year-round. However, visiting outside of mass times allows for a more leisurely exploration of its architecture and art.",
+    "worst_time_to_go": [],
+    "worst_time_to_go_description": "There is no specific worst time to visit the cathedral, but it's important to respect any religious services or events that might be taking place.",
+    "suggested_venues": [
+        {
+            "name": "Interior Tour",
+            "description": "Explore the interior of the cathedral, admiring its beautiful arches, altars, and the ornate organ.",
+            "location": "Cathedral of Our Lady Immaculate, Monaco",
+            "longitude": 7.4181,
+            "latitude": 43.7313
+        },
+        {
+            "name": "Royal Tombs",
+            "description": "Visit the royal tombs, where many of Monaco's former sovereigns, including Prince Rainier III and Princess Grace, are laid to rest.",
+            "location": "Cathedral of Our Lady Immaculate, Monaco",
+            "longitude": 7.4179,
+            "latitude": 43.7311
+        },
+        {
+            "name": "Chapel of the Holy Sacrament",
+            "description": "Spend time in the Chapel of the Holy Sacrament, a quiet and sacred space within the cathedral.",
+            "location": "Cathedral of Our Lady Immaculate, Monaco",
+            "longitude": 7.4182,
+            "latitude": 43.7314
+        },
+        {
+            "name": "Artwork and Frescoes",
+            "description": "Admire the various artworks and frescoes that adorn the walls of the cathedral, each telling a story of religious and historical significance.",
+            "location": "Cathedral of Our Lady Immaculate, Monaco",
+            "longitude": 7.4178,
+            "latitude": 43.7310
+        }
+    ]
+},
+
+{
+    "name": "Monte Carlo Opera Experience",
+    "category": "Culture",
+    "score": 4,
+    "description": "Attend a performance at the Monte Carlo Opera, a cultural institution offering a diverse range of operatic and ballet performances.",
+    "city": "Monte Carlo",
+    "longitude": 7.4272,
+    "latitude": 43.7394,
+    "cost": "$$$",
+    "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "best_time_to_go_description": "The best time to experience the Monte Carlo Opera is during its performance season, which typically runs from September to April, offering a variety of operas and ballets.",
+    "worst_time_to_go": [],
+    "worst_time_to_go_description": "There is no specific worst time to visit, but it's important to check the performance schedule in advance to ensure availability.",
+    "suggested_venues": [
+        {
+            "name": "Opera Performances",
+            "description": "Experience the grandeur of a live opera performance in the beautifully decorated auditorium, known for its excellent acoustics and intimate setting.",
+            "location": "Monte Carlo Opera, Monte Carlo, Monaco",
+            "longitude": 7.4273,
+            "latitude": 43.7395
+        },
+        {
+            "name": "Ballet Performances",
+            "description": "Attend a ballet performance, showcasing the talent of world-class dancers and choreographers.",
+            "location": "Monte Carlo Opera, Monte Carlo, Monaco",
+            "longitude": 7.4271,
+            "latitude": 43.7393
+        },
+        {
+            "name": "Salle Garnier Tour",
+            "description": "Take a guided tour of the Salle Garnier, the opera house's main performance hall, adorned with spectacular artwork and architecture.",
+            "location": "Monte Carlo Opera, Monte Carlo, Monaco",
+            "longitude": 7.4274,
+            "latitude": 43.7396
+        },
+        {
+            "name": "Opera House Dining",
+            "description": "Enjoy a meal or a drink at one of the nearby restaurants or cafes, enhancing your cultural evening.",
+            "location": "Monte Carlo Opera, Monte Carlo, Monaco",
+            "longitude": 7.4270,
+            "latitude": 43.7392
+        }
+    ]
+}
 ]
