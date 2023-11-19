@@ -7,8 +7,43 @@
         "city": "Belgrade",
         "longitude": 20.4506,
         "latitude": 44.7872,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit the Belgrade Fortress is during the spring to early autumn months, offering pleasant weather for exploring the extensive grounds and enjoying outdoor activities.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months can be less ideal due to chilly weather, which may affect outdoor exploration and enjoyment of the fortress.",
+        "suggested_venues": [
+            {
+                "name": "Fortress Walls and Gates",
+                "description": "Walk along the fortress walls and through its historical gates, experiencing the rich history and strategic importance of this citadel.",
+                "location": "Belgrade Fortress, Belgrade, Serbia",
+                "longitude": 20.4510,
+                "latitude": 44.7875
+            },
+            {
+                "name": "Kalemegdan Park",
+                "description": "Enjoy Kalemegdan Park, the large public park surrounding the fortress, ideal for leisurely walks and picnics with scenic views.",
+                "location": "Kalemegdan Park, Belgrade, Serbia",
+                "longitude": 20.4500,
+                "latitude": 44.7865
+            },
+            {
+                "name": "Military Museum",
+                "description": "Visit the Military Museum within the fortress grounds, showcasing Serbia's military history with a collection of artifacts and weapons.",
+                "location": "Military Museum, Belgrade Fortress, Belgrade, Serbia",
+                "longitude": 20.4508,
+                "latitude": 44.7870
+            },
+            {
+                "name": "Belgrade Fortress Viewpoints",
+                "description": "Explore various viewpoints around the fortress for stunning vistas of Belgrade, the River Sava, and the Danube.",
+                "location": "Viewpoints, Belgrade Fortress, Belgrade, Serbia",
+                "longitude": 20.4502,
+                "latitude": 44.7873
+            }
+        ]
     },
+
     {
         "name": "Stroll Through Novi Sad and Petrovaradin Fortress",
         "category": "Cultural",
@@ -17,8 +52,43 @@
         "city": "Novi Sad",
         "longitude": 19.8335,
         "latitude": 45.2671,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Novi Sad and Petrovaradin Fortress is during the spring to early autumn months, offering pleasant weather for exploring the city and its historical sites.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months can be less ideal for outdoor activities and exploring the city due to chilly weather.",
+        "suggested_venues": [
+            {
+                "name": "Petrovaradin Fortress",
+                "description": "Explore Petrovaradin Fortress, a symbol of Novi Sad, offering panoramic views of the city and the Danube River.",
+                "location": "Petrovaradin Fortress, Novi Sad, Serbia",
+                "longitude": 19.8645,
+                "latitude": 45.2511
+            },
+            {
+                "name": "Novi Sad City Center",
+                "description": "Wander through the city center of Novi Sad, enjoying its lively atmosphere, historical architecture, and vibrant cafes and shops.",
+                "location": "Novi Sad City Center, Serbia",
+                "longitude": 19.8330,
+                "latitude": 45.2675
+            },
+            {
+                "name": "Danube Park",
+                "description": "Relax in Danube Park, a peaceful green oasis in the heart of Novi Sad, perfect for leisurely walks and enjoying nature.",
+                "location": "Danube Park, Novi Sad, Serbia",
+                "longitude": 19.8400,
+                "latitude": 45.2500
+            },
+            {
+                "name": "Museum of Novi Sad",
+                "description": "Visit the Museum of Novi Sad, showcasing the cultural and historical heritage of the city and the region.",
+                "location": "Museum of Novi Sad, Serbia",
+                "longitude": 19.8320,
+                "latitude": 45.2680
+            }
+        ]
     },
+
     {
         "name": "Niš Fortress and Ćele Kula Tour",
         "category": "History",
@@ -27,8 +97,43 @@
         "city": "Niš",
         "longitude": 21.8963,
         "latitude": 43.3209,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Niš Fortress and Ćele Kula is during the spring to early autumn months, offering favorable weather for exploring these historical sites.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months can be less ideal for outdoor exploration of historical sites due to potentially harsh weather conditions.",
+        "suggested_venues": [
+            {
+                "name": "Niš Fortress",
+                "description": "Explore the Niš Fortress, a well-preserved example of Ottoman fortification, offering insights into the city's historical defense system.",
+                "location": "Niš Fortress, Niš, Serbia",
+                "longitude": 21.8970,
+                "latitude": 43.3210
+            },
+            {
+                "name": "Ćele Kula (Skull Tower)",
+                "description": "Visit the Ćele Kula, a unique and somber historical site known for its construction using human skulls, a remnant of Ottoman rule.",
+                "location": "Ćele Kula, Niš, Serbia",
+                "longitude": 21.8950,
+                "latitude": 43.3200
+            },
+            {
+                "name": "Niš Historical Museum",
+                "description": "Discover the history of Niš and its surroundings at the Niš Historical Museum, located near the fortress.",
+                "location": "Niš Historical Museum, Niš, Serbia",
+                "longitude": 21.8960,
+                "latitude": 43.3215
+            },
+            {
+                "name": "Walking Tour of Niš",
+                "description": "Join a guided walking tour around Niš, exploring both the fortress and the Skull Tower, along with other historical landmarks in the city.",
+                "location": "Niš City Center, Niš, Serbia",
+                "longitude": 21.8965,
+                "latitude": 43.3205
+            }
+        ]
     },
+
     {
         "name": "Drvengrad and Mokra Gora Exploration",
         "category": "Cultural",
@@ -37,8 +142,43 @@
         "city": "Mokra Gora",
         "longitude": 19.5181,
         "latitude": 43.7866,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Drvengrad and Mokra Gora is during the spring to early autumn months, offering pleasant weather for exploring the outdoor attractions and scenic landscapes.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months can be less favorable for outdoor activities due to chilly weather and potential snow, which may affect access to some areas.",
+        "suggested_venues": [
+            {
+                "name": "Drvengrad (Wooden Town)",
+                "description": "Discover Drvengrad, a traditional wooden village created by film director Emir Kusturica, featuring unique architecture and cultural exhibits.",
+                "location": "Drvengrad, Mokra Gora, Serbia",
+                "longitude": 19.5200,
+                "latitude": 43.7850
+            },
+            {
+                "name": "Šargan Eight Railway",
+                "description": "Take a ride on the Šargan Eight railway, a narrow-gauge heritage railway offering stunning views of the surrounding mountains and valleys.",
+                "location": "Šargan Eight, Mokra Gora, Serbia",
+                "longitude": 19.5160,
+                "latitude": 43.7880
+            },
+            {
+                "name": "Mokra Gora Village",
+                "description": "Explore the village of Mokra Gora, known for its picturesque landscapes and traditional Serbian rural lifestyle.",
+                "location": "Mokra Gora, Serbia",
+                "longitude": 19.5190,
+                "latitude": 43.7870
+            },
+            {
+                "name": "Mećavnik Film Festival",
+                "description": "If visiting during the festival period, attend the Mećavnik Film Festival in Drvengrad, showcasing international and regional films.",
+                "location": "Drvengrad, Mokra Gora, Serbia",
+                "longitude": 19.5170,
+                "latitude": 43.7860
+            }
+        ]
     },
+
     {
         "name": "Uvac Canyon Adventure",
         "category": "Nature",
@@ -47,8 +187,43 @@
         "city": "Uvac",
         "longitude": 19.9853,
         "latitude": 43.3433,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Uvac Canyon is during the spring to early autumn months, when the weather is suitable for hiking and exploring the outdoors.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months can be challenging for outdoor activities due to lower temperatures and potential snow, which may affect access to trails and viewpoints.",
+        "suggested_venues": [
+            {
+                "name": "Uvac River Cruise",
+                "description": "Take a boat cruise on the Uvac River, offering a unique perspective of the canyon's meandering waterways and limestone cliffs.",
+                "location": "Uvac River, Uvac, Serbia",
+                "longitude": 19.9860,
+                "latitude": 43.3440
+            },
+            {
+                "name": "Hiking Trails",
+                "description": "Explore the numerous hiking trails around Uvac Canyon, providing breathtaking views and opportunities to observe local wildlife, including the Griffon vulture.",
+                "location": "Hiking Trails, Uvac Canyon, Serbia",
+                "longitude": 19.9840,
+                "latitude": 43.3420
+            },
+            {
+                "name": "Griffon Vulture Watching",
+                "description": "Visit the vantage points for Griffon vulture watching, an opportunity to see these majestic birds in their natural habitat.",
+                "location": "Griffon Vulture Viewpoints, Uvac Canyon, Serbia",
+                "longitude": 19.9850,
+                "latitude": 43.3430
+            },
+            {
+                "name": "Cave Exploration",
+                "description": "Participate in guided cave exploration tours within the Uvac Canyon area, discovering the hidden underground beauty of the region.",
+                "location": "Caves in Uvac Canyon, Serbia",
+                "longitude": 19.9865,
+                "latitude": 43.3435
+            }
+        ]
     },
+
     {
         "name": "Studenica Monastery Pilgrimage",
         "category": "Spiritual",
@@ -57,7 +232,41 @@
         "city": "Kraljevo",
         "longitude": 20.5514,
         "latitude": 43.5161,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Studenica Monastery is during the spring to early autumn months, when the weather is mild and conducive to exploring the monastery grounds and surrounding area.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months can be less ideal due to potentially harsh weather conditions, which may affect the comfort and accessibility of the monastery.",
+        "suggested_venues": [
+            {
+                "name": "Monastery Church",
+                "description": "Explore the main church of the monastery, adorned with beautiful frescoes that are considered masterpieces of Byzantine art.",
+                "location": "Studenica Monastery, Kraljevo, Serbia",
+                "longitude": 20.5520,
+                "latitude": 43.5165
+            },
+            {
+                "name": "Monastery Museum",
+                "description": "Visit the monastery's museum, which houses religious artifacts, manuscripts, and items that narrate the history of the monastery.",
+                "location": "Studenica Monastery, Kraljevo, Serbia",
+                "longitude": 20.5508,
+                "latitude": 43.5157
+            },
+            {
+                "name": "Monastic Grounds",
+                "description": "Walk around the monastic grounds, enjoying the serene atmosphere and the architectural beauty of the monastery's buildings.",
+                "location": "Studenica Monastery, Kraljevo, Serbia",
+                "longitude": 20.5512,
+                "latitude": 43.5163
+            },
+            {
+                "name": "Guided Spiritual Tours",
+                "description": "Join guided spiritual tours for a deeper understanding of the monastery's religious significance and history.",
+                "location": "Studenica Monastery, Kraljevo, Serbia",
+                "longitude": 20.5516,
+                "latitude": 43.5162
+            }
+        ]
     },
     {
         "name": "Devil's Town Natural Landmark",
@@ -67,8 +276,43 @@
         "city": "Kuršumlija",
         "longitude": 21.4131,
         "latitude": 43.0143,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The ideal time to visit Devil's Town is during the spring to early autumn months, offering pleasant weather conditions for exploring the outdoor natural formations.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months might be less suitable for visiting due to harsh weather conditions, which can make exploring the natural site more challenging.",
+        "suggested_venues": [
+            {
+                "name": "Rock Formations",
+                "description": "Witness the iconic rock formations of Devil's Town, known for their height and narrow columns, created by erosion.",
+                "location": "Devil's Town, Kuršumlija, Serbia",
+                "longitude": 21.4140,
+                "latitude": 43.0150
+            },
+            {
+                "name": "Devil's Town Trail",
+                "description": "Walk along the marked trails in Devil's Town, providing a close-up view of the unique geological features and scenic landscapes.",
+                "location": "Devil's Town Trail, Kuršumlija, Serbia",
+                "longitude": 21.4120,
+                "latitude": 43.0130
+            },
+            {
+                "name": "Mineral Springs",
+                "description": "Explore the area's mineral springs, which are believed to have contributed to the formation of the rock pillars.",
+                "location": "Mineral Springs, Devil's Town, Serbia",
+                "longitude": 21.4135,
+                "latitude": 43.0140
+            },
+            {
+                "name": "Visitor Center",
+                "description": "Stop by the visitor center to learn more about the geological and historical significance of Devil's Town.",
+                "location": "Visitor Center, Devil's Town, Serbia",
+                "longitude": 21.4132,
+                "latitude": 43.0145
+            }
+        ]
     },
+
     {
         "name": "Zlatibor Mountain Retreat",
         "category": "Leisure",
@@ -77,8 +321,43 @@
         "city": "Zlatibor",
         "longitude": 19.7014,
         "latitude": 43.7314,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Zlatibor is during the late spring to early autumn months, when the weather is pleasant and ideal for enjoying the outdoor activities and natural scenery.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The winter and early spring months can be less ideal for some outdoor activities due to colder weather, though it still offers winter sports opportunities.",
+        "suggested_venues": [
+            {
+                "name": "Zlatibor Nature Park",
+                "description": "Explore the Zlatibor Nature Park, offering hiking trails, serene landscapes, and opportunities to encounter local wildlife.",
+                "location": "Zlatibor Nature Park, Zlatibor, Serbia",
+                "longitude": 19.7020,
+                "latitude": 43.7320
+            },
+            {
+                "name": "Tornik Ski Center",
+                "description": "During the winter, visit Tornik Ski Center for skiing and snowboarding on well-maintained slopes suitable for all skill levels.",
+                "location": "Tornik Ski Center, Zlatibor, Serbia",
+                "longitude": 19.7000,
+                "latitude": 43.7300
+            },
+            {
+                "name": "Zlatibor Lake",
+                "description": "Relax by Zlatibor Lake, a man-made lake at the center of the resort, perfect for leisurely walks and enjoying the peaceful environment.",
+                "location": "Zlatibor Lake, Zlatibor, Serbia",
+                "longitude": 19.7010,
+                "latitude": 43.7310
+            },
+            {
+                "name": "Local Gastronomy Tour",
+                "description": "Indulge in a local gastronomy tour, sampling traditional Serbian cuisine and Zlatibor's regional specialties.",
+                "location": "Zlatibor, Serbia",
+                "longitude": 19.7005,
+                "latitude": 43.7315
+            }
+        ]
     },
+
     {
         "name": "Subotica Art Nouveau Tour",
         "category": "Culture",
@@ -87,8 +366,43 @@
         "city": "Subotica",
         "longitude": 19.6636,
         "latitude": 46.1004,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Subotica for the Art Nouveau tour is from spring to early autumn, when the weather is pleasant for walking tours and outdoor exploration of the city's architecture.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months might be less favorable for walking tours due to chilly weather conditions.",
+        "suggested_venues": [
+            {
+                "name": "Raichle Palace",
+                "description": "Explore the Raichle Palace, a masterpiece of Art Nouveau architecture, known for its unique design and vibrant colors.",
+                "location": "Raichle Palace, Subotica, Serbia",
+                "longitude": 19.6640,
+                "latitude": 46.1000
+            },
+            {
+                "name": "City Hall",
+                "description": "Visit Subotica's City Hall, an impressive Art Nouveau building with intricate details and beautiful interiors.",
+                "location": "City Hall, Subotica, Serbia",
+                "longitude": 19.6630,
+                "latitude": 46.1010
+            },
+            {
+                "name": "Art Nouveau Walking Tour",
+                "description": "Join a guided walking tour to learn about the history and significance of Art Nouveau architecture in Subotica.",
+                "location": "Various locations, Subotica, Serbia",
+                "longitude": 19.6635,
+                "latitude": 46.1005
+            },
+            {
+                "name": "Synagogue",
+                "description": "Visit the Subotica Synagogue, another notable example of Art Nouveau architecture, with its ornate facade and beautiful interior design.",
+                "location": "Synagogue, Subotica, Serbia",
+                "longitude": 19.6625,
+                "latitude": 46.0995
+            }
+        ]
     },
+
     {
         "name": "Vrnjačka Banja Spa Experience",
         "category": "Wellness",
@@ -97,6 +411,40 @@
         "city": "Vrnjačka Banja",
         "longitude": 20.8956,
         "latitude": 43.6222,
-        "cost": "$$"
-    }
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Vrnjačka Banja for a spa experience is from spring to early autumn, when the weather is pleasant and conducive to enjoying the town's outdoor and wellness activities.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months might be less ideal for those who wish to enjoy outdoor activities alongside their spa experience, though the thermal waters can be enjoyed year-round.",
+        "suggested_venues": [
+            {
+                "name": "Thermal Mineral Springs",
+                "description": "Experience the therapeutic properties of the thermal mineral springs, which have been used for wellness and healing for centuries.",
+                "location": "Thermal Springs, Vrnjačka Banja, Serbia",
+                "longitude": 20.8960,
+                "latitude": 43.6215
+            },
+            {
+                "name": "Spa Wellness Centers",
+                "description": "Visit one of the many spa wellness centers in Vrnjačka Banja, offering a variety of treatments, massages, and relaxation programs.",
+                "location": "Spa Centers, Vrnjačka Banja, Serbia",
+                "longitude": 20.8950,
+                "latitude": 43.6225
+            },
+            {
+                "name": "Japanese Garden",
+                "description": "Relax in the Japanese Garden, a peaceful and beautifully designed area perfect for contemplation and relaxation.",
+                "location": "Japanese Garden, Vrnjačka Banja, Serbia",
+                "longitude": 20.8955,
+                "latitude": 43.6210
+            },
+            {
+                "name": "Promenade Walks",
+                "description": "Enjoy a leisurely walk along the town's promenades, lined with parks, cafes, and historical monuments.",
+                "location": "Promenades, Vrnjačka Banja, Serbia",
+                "longitude": 20.8965,
+                "latitude": 43.6220
+            }
+        ]
+    }    
 ]

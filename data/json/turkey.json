@@ -7,8 +7,44 @@
         "city": "Istanbul",
         "longitude": 28.9790,
         "latitude": 41.0086,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best time to visit the Hagia Sophia and Blue Mosque is during the spring (April and May) and autumn (September and October) when the weather is pleasant, and there are fewer crowds compared to the peak summer months.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "Avoid visiting in July and August if possible, as these months can be extremely hot and crowded in Istanbul, making it less enjoyable to explore the historic sites.",
+        "suggested_venues": [
+            {
+                "name": "Hagia Sophia",
+                "description": "Discover the Hagia Sophia, a UNESCO World Heritage site, and marvel at its impressive dome, intricate mosaics, and rich history.",
+                "location": "Hagia Sophia, Istanbul, Turkey",
+                "longitude": 28.9760,
+                "latitude": 41.0084
+            },
+            {
+                "name": "Blue Mosque",
+                "description": "Visit the Blue Mosque (Sultan Ahmed Mosque), famous for its stunning blue tiles, six minarets, and beautiful courtyard.",
+                "location": "Blue Mosque, Istanbul, Turkey",
+                "longitude": 28.9764,
+                "latitude": 41.0054
+            },
+            {
+                "name": "Historical Tours",
+                "description": "Join guided historical tours to learn more about the significance and stories behind these iconic landmarks.",
+                "location": "Istanbul Tour Companies, Istanbul, Turkey",
+                "longitude": 28.9786,
+                "latitude": 41.0092
+            },
+            {
+                "name": "Grand Bazaar",
+                "description": "Explore the nearby Grand Bazaar, one of the world's oldest and largest covered markets, offering a variety of goods and souvenirs.",
+                "location": "Grand Bazaar, Istanbul, Turkey",
+                "longitude": 28.9700,
+                "latitude": 41.0108
+            }
+        ]
     },
+
+
     {
         "name": "Cappadocia Hot Air Balloon Ride",
         "category": "Adventure",
@@ -17,8 +53,37 @@
         "city": "Cappadocia",
         "longitude": 34.8406,
         "latitude": 38.6466,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best time to go for a hot air balloon ride in Cappadocia is during the spring (April and May) and autumn (September and October) when the weather is mild, and the skies are clear for spectacular views.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Avoid visiting in December, January, and February as Cappadocia can experience cold temperatures and fewer hot air balloon flights during the winter months.",
+        "suggested_companies": [
+            {
+                "name": "Butterfly Balloons",
+                "description": "Book a hot air balloon ride with Butterfly Balloons, known for their experienced pilots and safe, memorable flights.",
+                "location": "Goreme, Cappadocia, Turkey",
+                "longitude": 34.8306,
+                "latitude": 38.6409,
+                "website": "https://www.butterflyballoons.com/"
+            },
+            {
+                "name": "Royal Balloons",
+                "description": "Experience the beauty of Cappadocia from above with Royal Balloons, offering sunrise balloon rides and professional service.",
+                "location": "Goreme, Cappadocia, Turkey",
+                "longitude": 34.8349,
+                "latitude": 38.6383,
+                "website": "https://www.royalballoon.com/"
+            }
+        ],
+        "additional_info": [
+            "Hot air balloon rides in Cappadocia offer a unique perspective of the region's famous fairy chimneys and rock formations.",
+            "It's advisable to book your hot air balloon ride in advance, especially during the peak tourist season.",
+            "Don't forget to dress warmly, as mornings in Cappadocia can be chilly even during the warmer months."
+        ]
     },
+
+
     {
         "name": "Ephesus Ancient City Tour",
         "category": "History",
@@ -29,6 +94,8 @@
         "latitude": 37.9397,
         "cost": "$$"
     },
+
+
     {
         "name": "Pamukkale Thermal Pools",
         "category": "Nature",
@@ -39,6 +106,8 @@
         "latitude": 37.9136,
         "cost": "$$"
     },
+
+
     {
         "name": "Topkapi Palace Exploration",
         "category": "History",
@@ -49,6 +118,8 @@
         "latitude": 41.0136,
         "cost": "$$"
     },
+
+
     {
         "name": "Grand Bazaar Shopping Experience",
         "category": "Leisure",
@@ -59,6 +130,8 @@
         "latitude": 41.0107,
         "cost": "$"
     },
+
+
     {
         "name": "Antalya Old Town and Beaches",
         "category": "Leisure",
@@ -69,6 +142,8 @@
         "latitude": 36.8969,
         "cost": "$$"
     },
+
+
     {
         "name": "Sumela Monastery Visit",
         "category": "Cultural",
@@ -79,6 +154,8 @@
         "latitude": 40.9889,
         "cost": "$$"
     },
+
+
     {
         "name": "Göbekli Tepe Archaeological Site",
         "category": "History",
@@ -89,6 +166,8 @@
         "latitude": 37.2236,
         "cost": "$"
     },
+
+
     {
         "name": "Mount Nemrut Sunrise or Sunset Tour",
         "category": "Nature",

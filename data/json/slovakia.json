@@ -7,8 +7,43 @@
         "city": "Bratislava",
         "longitude": 17.1077,
         "latitude": 48.1486,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to explore Bratislava's Old Town is from spring to early autumn, offering pleasant weather for walking tours and enjoying the outdoor cafes.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months can be less ideal for outdoor exploration due to chilly weather, though the Christmas markets in December are a highlight.",
+        "suggested_venues": [
+            {
+                "name": "Bratislava Castle",
+                "description": "Visit Bratislava Castle, a dominant feature of the city, offering panoramic views and a rich history.",
+                "location": "Bratislava Castle, Bratislava, Slovakia",
+                "longitude": 17.1000,
+                "latitude": 48.1420
+            },
+            {
+                "name": "Main Square",
+                "description": "Explore the Main Square in the Old Town, surrounded by historic buildings and bustling with activity.",
+                "location": "Main Square, Bratislava, Slovakia",
+                "longitude": 17.1070,
+                "latitude": 48.1450
+            },
+            {
+                "name": "St. Martin's Cathedral",
+                "description": "Discover St. Martin's Cathedral, a Gothic cathedral and a significant symbol of the city's religious heritage.",
+                "location": "St. Martin's Cathedral, Bratislava, Slovakia",
+                "longitude": 17.1065,
+                "latitude": 48.1410
+            },
+            {
+                "name": "Old Town Hall",
+                "description": "Visit the Old Town Hall, a complex of historical buildings with a museum offering insights into Bratislava's history.",
+                "location": "Old Town Hall, Bratislava, Slovakia",
+                "longitude": 17.1075,
+                "latitude": 48.1455
+            }
+        ]
     },
+
     {
         "name": "High Tatras National Park Hiking",
         "category": "Nature",
@@ -17,8 +52,43 @@
         "city": "High Tatras",
         "longitude": 20.2734,
         "latitude": 49.1660,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The summer and early autumn months are the best times for hiking in the High Tatras, with favorable weather conditions and open trails.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April", "May"],
+        "worst_time_to_go_description": "The winter and early spring months are challenging for hiking due to snow, cold weather, and potential trail closures.",
+        "suggested_venues": [
+            {
+                "name": "Krivan Peak",
+                "description": "Hike to Krivan Peak, one of the most iconic and revered mountains in Slovakia, known for its challenging trails and breathtaking views.",
+                "location": "Krivan Peak, High Tatras, Slovakia",
+                "longitude": 20.2400,
+                "latitude": 49.1850
+            },
+            {
+                "name": "Strbske Pleso Lake",
+                "description": "Explore the area around Strbske Pleso, a picturesque mountain lake, offering easier trails and stunning scenery.",
+                "location": "Strbske Pleso, High Tatras, Slovakia",
+                "longitude": 20.0600,
+                "latitude": 49.1200
+            },
+            {
+                "name": "Rysy Mountain",
+                "description": "Undertake a hike to Rysy Mountain, the highest peak in Poland and one of the highest in Slovakia, offering spectacular views.",
+                "location": "Rysy Mountain, High Tatras, Slovakia",
+                "longitude": 20.0880,
+                "latitude": 49.1790
+            },
+            {
+                "name": "Tatra National Park Visitor Center",
+                "description": "Start your adventure at the Tatra National Park Visitor Center, where you can gather information on trails, weather conditions, and safety.",
+                "location": "Tatra National Park Visitor Center, High Tatras, Slovakia",
+                "longitude": 20.2700,
+                "latitude": 49.1670
+            }
+        ]
     },
+
     {
         "name": "Spiš Castle Visit",
         "category": "History",
@@ -27,8 +97,43 @@
         "city": "Spiš",
         "longitude": 20.7681,
         "latitude": 49.0015,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Spiš Castle is during the spring to early autumn months, when the weather is favorable for exploring the extensive ruins and enjoying the panoramic views.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months can be less ideal due to colder weather and potential snow, which might affect accessibility and comfort.",
+        "suggested_venues": [
+            {
+                "name": "Castle Ruins",
+                "description": "Wander through the ruins of Spiš Castle, exploring its towers, walls, and courtyards, while learning about its historical significance.",
+                "location": "Spiš Castle, Spiš, Slovakia",
+                "longitude": 20.7700,
+                "latitude": 49.0020
+            },
+            {
+                "name": "Spiš Castle Museum",
+                "description": "Visit the museum within the castle, which exhibits artifacts related to the history of the castle and the region.",
+                "location": "Spiš Castle Museum, Spiš, Slovakia",
+                "longitude": 20.7660,
+                "latitude": 49.0010
+            },
+            {
+                "name": "Panoramic Views",
+                "description": "Enjoy the panoramic views of the surrounding landscapes from various vantage points within the castle complex.",
+                "location": "Viewpoints, Spiš Castle, Spiš, Slovakia",
+                "longitude": 20.7690,
+                "latitude": 49.0025
+            },
+            {
+                "name": "Guided Tours",
+                "description": "Take a guided tour to gain deeper insights into the history, architecture, and legends associated with Spiš Castle.",
+                "location": "Spiš Castle, Spiš, Slovakia",
+                "longitude": 20.7670,
+                "latitude": 49.0015
+            }
+        ]
     },
+
     {
         "name": "Slovak Paradise National Park Adventure",
         "category": "Nature",
@@ -37,8 +142,43 @@
         "city": "Slovak Paradise",
         "longitude": 20.4167,
         "latitude": 48.9167,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Slovak Paradise National Park is during late spring to early autumn, offering ideal weather for hiking and exploring the park's natural beauty.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The colder months can be challenging for outdoor activities in the park due to snow, ice, and colder temperatures.",
+        "suggested_venues": [
+            {
+                "name": "Hiking Trails",
+                "description": "Explore the park's extensive network of hiking trails, leading through beautiful forests, gorges, and along streams.",
+                "location": "Hiking Trails, Slovak Paradise National Park, Slovakia",
+                "longitude": 20.4180,
+                "latitude": 48.9170
+            },
+            {
+                "name": "Dobšinská Ice Cave",
+                "description": "Visit Dobšinská Ice Cave, a UNESCO World Heritage site, known for its impressive ice formations and unique underground environment.",
+                "location": "Dobšinská Ice Cave, Slovak Paradise National Park, Slovakia",
+                "longitude": 20.4150,
+                "latitude": 48.9150
+            },
+            {
+                "name": "Suchá Belá Gorge",
+                "description": "Hike through the Suchá Belá Gorge, one of the most popular and scenic gorges in the park, featuring waterfalls and wooden ladders.",
+                "location": "Suchá Belá Gorge, Slovak Paradise National Park, Slovakia",
+                "longitude": 20.4170,
+                "latitude": 48.9180
+            },
+            {
+                "name": "Tomášovský View",
+                "description": "Reach Tomášovský View, a famous lookout point offering panoramic views of the High Tatras and the surrounding area.",
+                "location": "Tomášovský View, Slovak Paradise National Park, Slovakia",
+                "longitude": 20.4190,
+                "latitude": 48.9160
+            }
+        ]
     },
+
     {
         "name": "Bojnice Castle Fairytale Experience",
         "category": "History",
@@ -47,8 +187,43 @@
         "city": "Bojnice",
         "longitude": 18.5740,
         "latitude": 48.7804,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Bojnice Castle is from spring to early autumn, when the weather is pleasant for exploring the castle grounds and its picturesque surroundings.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months can be less ideal due to colder weather, which might affect the enjoyment of outdoor aspects of the castle.",
+        "suggested_venues": [
+            {
+                "name": "Castle Tours",
+                "description": "Join guided tours of Bojnice Castle to learn about its history, legends, and to explore its beautifully decorated rooms and halls.",
+                "location": "Bojnice Castle, Bojnice, Slovakia",
+                "longitude": 18.5750,
+                "latitude": 48.7800
+            },
+            {
+                "name": "Castle Grounds",
+                "description": "Stroll through the castle grounds, featuring well-maintained gardens, a picturesque lake, and peacocks roaming freely.",
+                "location": "Bojnice Castle Grounds, Bojnice, Slovakia",
+                "longitude": 18.5730,
+                "latitude": 48.7810
+            },
+            {
+                "name": "Bojnice Zoo",
+                "description": "Visit the nearby Bojnice Zoo, one of the oldest and most popular zoos in Slovakia, located within walking distance of the castle.",
+                "location": "Bojnice Zoo, Bojnice, Slovakia",
+                "longitude": 18.5760,
+                "latitude": 48.7790
+            },
+            {
+                "name": "Medieval Events",
+                "description": "Participate in medieval-themed events and festivals that are often held at the castle, offering a unique and immersive experience.",
+                "location": "Bojnice Castle, Bojnice, Slovakia",
+                "longitude": 18.5745,
+                "latitude": 48.7805
+            }
+        ]
     },
+
     {
         "name": "Bardejov Historic Center",
         "category": "Cultural",
@@ -57,8 +232,43 @@
         "city": "Bardejov",
         "longitude": 21.2728,
         "latitude": 49.2918,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The ideal time to visit Bardejov's historic center is during the spring to early autumn months, offering pleasant weather to explore its streets and architectural landmarks.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months can be less favorable for walking tours due to chilly weather, although the winter season has its own charm with potential festive decorations.",
+        "suggested_venues": [
+            {
+                "name": "Bardejov Town Hall",
+                "description": "Visit the Bardejov Town Hall, a striking example of Gothic architecture, now housing a museum showcasing the history of the town.",
+                "location": "Bardejov Town Hall, Bardejov, Slovakia",
+                "longitude": 21.2730,
+                "latitude": 49.2920
+            },
+            {
+                "name": "St. Aegidius Basilica",
+                "description": "Explore St. Aegidius Basilica, a prominent Gothic church in the main square, known for its impressive altars and artwork.",
+                "location": "St. Aegidius Basilica, Bardejov, Slovakia",
+                "longitude": 21.2720,
+                "latitude": 49.2910
+            },
+            {
+                "name": "Historical Streets",
+                "description": "Wander through the historical streets of Bardejov, lined with well-preserved medieval buildings, offering a glimpse into the town's past.",
+                "location": "Historical Streets, Bardejov, Slovakia",
+                "longitude": 21.2735,
+                "latitude": 49.2925
+            },
+            {
+                "name": "Medieval City Walls",
+                "description": "Walk along the remnants of the medieval city walls, which once served to protect Bardejov, providing insights into the town's defensive history.",
+                "location": "City Walls, Bardejov, Slovakia",
+                "longitude": 21.2715,
+                "latitude": 49.2905
+            }
+        ]
     },
+
     {
         "name": "Banská Štiavnica Town Visit",
         "category": "History",
@@ -67,8 +277,43 @@
         "city": "Banská Štiavnica",
         "longitude": 18.8948,
         "latitude": 48.4584,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Banská Štiavnica is from spring to early autumn, when the weather is pleasant for exploring the town's historical sites and open-air museums.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months can be less ideal for outdoor exploration due to colder weather, although the town has a charming atmosphere during the Christmas season.",
+        "suggested_venues": [
+            {
+                "name": "Old Castle",
+                "description": "Visit the Old Castle of Banská Štiavnica, a medieval fortress with exhibitions showcasing the town's mining history.",
+                "location": "Old Castle, Banská Štiavnica, Slovakia",
+                "longitude": 18.8950,
+                "latitude": 48.4580
+            },
+            {
+                "name": "Mining Museum",
+                "description": "Explore the Mining Museum, offering an insight into the mining techniques and lifestyle of miners in the historical era.",
+                "location": "Mining Museum, Banská Štiavnica, Slovakia",
+                "longitude": 18.8940,
+                "latitude": 48.4570
+            },
+            {
+                "name": "Calvary",
+                "description": "Hike up to the Calvary of Banská Štiavnica, a complex of chapels and churches, offering panoramic views of the town.",
+                "location": "Calvary, Banská Štiavnica, Slovakia",
+                "longitude": 18.8955,
+                "latitude": 48.4590
+            },
+            {
+                "name": "Historic Town Center",
+                "description": "Stroll through the historic town center, characterized by its unique architecture, charming streets, and cozy cafes.",
+                "location": "Historic Center, Banská Štiavnica, Slovakia",
+                "longitude": 18.8945,
+                "latitude": 48.4585
+            }
+        ]
     },
+
     {
         "name": "Demanovska Cave of Liberty Tour",
         "category": "Nature",
@@ -77,8 +322,43 @@
         "city": "Low Tatras",
         "longitude": 19.5725,
         "latitude": 48.9614,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit the Demanovska Cave of Liberty is from spring to early autumn, offering comfortable weather for the journey to and from the cave, as well as favorable conditions for exploring it.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months might pose challenges due to snow and ice, particularly for accessing the cave, although the cave interior remains at a relatively constant temperature year-round.",
+        "suggested_venues": [
+            {
+                "name": "Cave Tour",
+                "description": "Join a guided tour of the Demanovska Cave of Liberty, exploring its vast chambers, stalactites, stalagmites, and underground rivers.",
+                "location": "Demanovska Cave of Liberty, Low Tatras, Slovakia",
+                "longitude": 19.5730,
+                "latitude": 48.9610
+            },
+            {
+                "name": "Rock Formations",
+                "description": "Marvel at the unique rock formations within the cave, including flowstones and rare cave fauna.",
+                "location": "Demanovska Cave of Liberty, Low Tatras, Slovakia",
+                "longitude": 19.5720,
+                "latitude": 48.9615
+            },
+            {
+                "name": "Educational Trails",
+                "description": "Explore the educational trails around the cave area, providing information about the cave system and the surrounding natural environment.",
+                "location": "Demanovska Cave of Liberty, Low Tatras, Slovakia",
+                "longitude": 19.5728,
+                "latitude": 48.9612
+            },
+            {
+                "name": "Visitor Center",
+                "description": "Visit the visitor center for detailed information on the cave's history, geology, and biodiversity before starting the tour.",
+                "location": "Visitor Center, Demanovska Cave of Liberty, Low Tatras, Slovakia",
+                "longitude": 19.5722,
+                "latitude": 48.9613
+            }
+        ]
     },
+
     {
         "name": "Thermal Park Bešeňová Relaxation",
         "category": "Wellness",
@@ -87,8 +367,43 @@
         "city": "Bešeňová",
         "longitude": 19.4814,
         "latitude": 49.0850,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "Thermal Park Bešeňová can be enjoyed year-round, with each season offering a different experience, from warm relaxation in the winter to outdoor water fun in the summer.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time to visit Thermal Park Bešeňová, as the facilities are designed to provide comfort and relaxation in any weather.",
+        "suggested_venues": [
+            {
+                "name": "Thermal Pools",
+                "description": "Enjoy the thermal pools in the park, known for their healing properties and relaxing warm waters.",
+                "location": "Thermal Pools, Thermal Park Bešeňová, Slovakia",
+                "longitude": 19.4820,
+                "latitude": 49.0840
+            },
+            {
+                "name": "Wellness Center",
+                "description": "Visit the wellness center for massages, saunas, and various spa treatments, offering a complete relaxation experience.",
+                "location": "Wellness Center, Thermal Park Bešeňová, Slovakia",
+                "longitude": 19.4810,
+                "latitude": 49.0860
+            },
+            {
+                "name": "Water Attractions",
+                "description": "Explore the water attractions and slides, perfect for family fun and entertainment.",
+                "location": "Water Attractions, Thermal Park Bešeňová, Slovakia",
+                "longitude": 19.4815,
+                "latitude": 49.0855
+            },
+            {
+                "name": "Scenic Views",
+                "description": "Take in the scenic views of the Low Tatras while relaxing in the thermal waters, combining natural beauty with wellness.",
+                "location": "Thermal Park Bešeňová, Slovakia",
+                "longitude": 19.4805,
+                "latitude": 49.0845
+            }
+        ]
     },
+
     {
         "name": "Košice City Tour",
         "category": "Cultural",
@@ -97,6 +412,40 @@
         "city": "Košice",
         "longitude": 21.2581,
         "latitude": 48.7164,
-        "cost": "$"
-    }
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to explore Košice is during the spring to early autumn months, when the weather is pleasant for walking tours and sightseeing.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months can be less ideal for outdoor exploration, but the city's Christmas markets and winter activities offer a different charm.",
+        "suggested_venues": [
+            {
+                "name": "St. Elisabeth Cathedral",
+                "description": "Explore St. Elisabeth Cathedral, a Gothic masterpiece and the largest church in Slovakia, known for its stunning architecture.",
+                "location": "St. Elisabeth Cathedral, Košice, Slovakia",
+                "longitude": 21.2570,
+                "latitude": 48.7170
+            },
+            {
+                "name": "Main Street (Hlavná ulica)",
+                "description": "Stroll down Main Street, lined with historical buildings, cafes, and shops, providing a vibrant atmosphere and cultural experience.",
+                "location": "Main Street, Košice, Slovakia",
+                "longitude": 21.2585,
+                "latitude": 48.7165
+            },
+            {
+                "name": "East Slovak Museum",
+                "description": "Visit the East Slovak Museum, showcasing extensive collections related to the history, art, and nature of the region.",
+                "location": "East Slovak Museum, Košice, Slovakia",
+                "longitude": 21.2590,
+                "latitude": 48.7150
+            },
+            {
+                "name": "Urban's Tower",
+                "description": "Climb Urban's Tower for panoramic views of the city and to learn about its history as a medieval fortification.",
+                "location": "Urban's Tower, Košice, Slovakia",
+                "longitude": 21.2575,
+                "latitude": 48.7175
+            }
+        ]
+    }    
 ]

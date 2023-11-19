@@ -144,7 +144,41 @@
         "city": "Bergen",
         "longitude": 5.3221,
         "latitude": 60.3913,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The late spring to early autumn months are the best time to visit Bergen, offering pleasant weather and longer days to explore the city's cultural and historical sites.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The winter and early spring months can be rainy and have shorter daylight hours, which may impact the experience of exploring the city.",
+        "suggested_venues": [
+            {
+                "name": "Bryggen Hanseatic Wharf",
+                "description": "Stroll through the historic Bryggen Hanseatic Wharf, a UNESCO World Heritage site known for its colorful wooden houses and historical significance.",
+                "location": "Bryggen, Bergen, Norway",
+                "longitude": 5.3230,
+                "latitude": 60.3970
+            },
+            {
+                "name": "Mount Fløyen",
+                "description": "Take the funicular to Mount Fløyen for stunning views of the city, and enjoy hiking trails and natural scenery.",
+                "location": "Mount Fløyen, Bergen, Norway",
+                "longitude": 5.3240,
+                "latitude": 60.3920
+            },
+            {
+                "name": "Bergen Fish Market",
+                "description": "Visit the bustling Bergen Fish Market to sample local seafood and experience the lively atmosphere of the city center.",
+                "location": "Bergen Fish Market, Bergen, Norway",
+                "longitude": 5.3210,
+                "latitude": 60.3960
+            },
+            {
+                "name": "Bergenhus Fortress",
+                "description": "Explore the historic Bergenhus Fortress, one of the oldest and best-preserved fortresses in Norway.",
+                "location": "Bergenhus Fortress, Bergen, Norway",
+                "longitude": 5.3235,
+                "latitude": 60.3980
+            }
+        ]
     },
 
 
@@ -156,7 +190,41 @@
         "city": "Svalbard",
         "longitude": 15.6355,
         "latitude": 78.2207,
-        "cost": "$$$$"
+        "cost": "$$$$",
+        "best_time_to_go": ["November", "December", "January", "February", "March", "April"],
+        "best_time_to_go_description": "The winter and early spring months are the best time for dog sledding in Svalbard, offering snowy landscapes and ideal conditions for this Arctic adventure.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go_description": "The summer and early autumn months are not suitable for dog sledding due to the lack of snow and longer daylight hours.",
+        "suggested_venues": [
+            {
+                "name": "Longyearbyen Dog Sledding",
+                "description": "Experience dog sledding in Longyearbyen, the largest settlement in Svalbard, with professional guides leading you through breathtaking Arctic scenery.",
+                "location": "Longyearbyen, Svalbard, Norway",
+                "longitude": 15.6400,
+                "latitude": 78.2200
+            },
+            {
+                "name": "Arctic Wilderness Tours",
+                "description": "Join Arctic Wilderness Tours for a unique dog sledding experience, exploring remote areas of Svalbard's frozen landscape.",
+                "location": "Svalbard, Norway",
+                "longitude": 15.6350,
+                "latitude": 78.2210
+            },
+            {
+                "name": "Polar Night Sled Excursions",
+                "description": "Embark on sled excursions during the Polar Night for a chance to see the Northern Lights while dog sledding.",
+                "location": "Svalbard, Norway",
+                "longitude": 15.6360,
+                "latitude": 78.2190
+            },
+            {
+                "name": "Glacier Dog Sledding Adventures",
+                "description": "Experience dog sledding on Svalbard's glaciers, offering a unique and thrilling way to explore these icy landscapes.",
+                "location": "Svalbard Glaciers, Norway",
+                "longitude": 15.6340,
+                "latitude": 78.2220
+            }
+        ]
     },
 
 
@@ -168,7 +236,41 @@
         "city": "Oslo",
         "longitude": 10.7522,
         "latitude": 59.9139,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "The Viking Ship Museum can be visited year-round, offering a unique glimpse into Viking culture and history in any season.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time to visit the museum as it provides an indoor experience that is not affected by seasonal changes.",
+        "suggested_venues": [
+            {
+                "name": "Viking Ship Exhibit",
+                "description": "View the museum's centerpiece exhibits, including the Oseberg and Gokstad ships, two of the best-preserved Viking ships in the world.",
+                "location": "Viking Ship Museum, Oslo, Norway",
+                "longitude": 10.7530,
+                "latitude": 59.9140
+            },
+            {
+                "name": "Viking Life Exhibitions",
+                "description": "Explore exhibitions showcasing Viking life, including artifacts like tools, textiles, and household items from the Viking era.",
+                "location": "Viking Ship Museum, Oslo, Norway",
+                "longitude": 10.7510,
+                "latitude": 59.9135
+            },
+            {
+                "name": "Museum Guided Tours",
+                "description": "Join guided tours for in-depth knowledge about Viking history and insights into the museum's most significant exhibits.",
+                "location": "Viking Ship Museum, Oslo, Norway",
+                "longitude": 10.7525,
+                "latitude": 59.9145
+            },
+            {
+                "name": "Interactive Exhibits",
+                "description": "Engage with interactive exhibits at the museum, offering a hands-on experience in understanding Viking culture and craftsmanship.",
+                "location": "Viking Ship Museum, Oslo, Norway",
+                "longitude": 10.7520,
+                "latitude": 59.9130
+            }
+        ]
     },
 
 
@@ -180,7 +282,41 @@
         "city": "Molde",
         "longitude": 7.1618,
         "latitude": 62.7375,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a road trip along the Atlantic Road is during the late spring to early autumn, with better weather conditions and longer daylight hours to enjoy the scenic drive.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter and early spring months can be challenging for driving due to harsh weather conditions, including strong winds and storms, which may affect visibility and road safety.",
+        "suggested_venues": [
+            {
+                "name": "Storseisundet Bridge",
+                "description": "Experience the iconic Storseisundet Bridge, the most photographed part of the Atlantic Road, known for its dramatic architecture.",
+                "location": "Storseisundet Bridge, Molde, Norway",
+                "longitude": 7.1620,
+                "latitude": 62.7380
+            },
+            {
+                "name": "Eldhusøya Island",
+                "description": "Stop at Eldhusøya Island, offering a walking path with spectacular views of the ocean and surrounding nature.",
+                "location": "Eldhusøya, Molde, Norway",
+                "longitude": 7.1610,
+                "latitude": 62.7370
+            },
+            {
+                "name": "Håholmen Sea Cottages",
+                "description": "Visit Håholmen Sea Cottages, a historic fisherman's village, providing a unique insight into the local maritime culture.",
+                "location": "Håholmen, Molde, Norway",
+                "longitude": 7.1625,
+                "latitude": 62.7365
+            },
+            {
+                "name": "Atlantic Road Scenic Views",
+                "description": "Enjoy various scenic viewpoints along the Atlantic Road, perfect for photography and experiencing the rugged beauty of the Norwegian coast.",
+                "location": "Atlantic Road, Molde, Norway",
+                "longitude": 7.1615,
+                "latitude": 62.7385
+            }
+        ]
     },
 
 
@@ -192,7 +328,41 @@
         "city": "Lillehammer",
         "longitude": 10.4658,
         "latitude": 61.1153,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["December", "January", "February", "March", "April"],
+        "best_time_to_go_description": "The winter months are the best time for skiing in Lillehammer, offering snowy landscapes and optimal conditions for winter sports.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October", "November"],
+        "worst_time_to_go_description": "The warmer months are not suitable for skiing as the snow melts and ski resorts are typically closed.",
+        "suggested_venues": [
+            {
+                "name": "Hafjell Ski Resort",
+                "description": "Explore the slopes of Hafjell Ski Resort, known for its varied terrain catering to both beginners and experienced skiers.",
+                "location": "Hafjell Ski Resort, Lillehammer, Norway",
+                "longitude": 10.4670,
+                "latitude": 61.1160
+            },
+            {
+                "name": "Kvitfjell Alpine Facility",
+                "description": "Visit Kvitfjell Alpine Facility, another Olympic venue, offering challenging runs and excellent conditions for alpine skiing.",
+                "location": "Kvitfjell, Lillehammer, Norway",
+                "longitude": 10.4640,
+                "latitude": 61.1140
+            },
+            {
+                "name": "Sjusjøen Cross-Country Area",
+                "description": "Try cross-country skiing at Sjusjøen, known for its extensive and well-maintained cross-country trails.",
+                "location": "Sjusjøen, Lillehammer, Norway",
+                "longitude": 10.4660,
+                "latitude": 61.1170
+            },
+            {
+                "name": "Lillehammer Olympic Park",
+                "description": "Explore the Lillehammer Olympic Park, a historical sports complex from the 1994 Winter Olympics with various winter sports facilities.",
+                "location": "Lillehammer Olympic Park, Lillehammer, Norway",
+                "longitude": 10.4650,
+                "latitude": 61.1150
+            }
+        ]
     },
 
 
@@ -204,7 +374,41 @@
         "city": "Lofoten",
         "longitude": 13.6116,
         "latitude": 68.2512,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "July", "August"],
+        "best_time_to_go_description": "The summer months are the best time to explore the Lofoten Islands, with milder weather and the Midnight Sun providing extended daylight for sightseeing.",
+        "worst_time_to_go": ["September", "October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The colder months can be challenging due to harsh weather conditions and limited daylight hours, which may affect travel and outdoor activities.",
+        "suggested_venues": [
+            {
+                "name": "Reine Fishing Village",
+                "description": "Visit Reine, one of the most picturesque fishing villages in Lofoten, known for its traditional red rorbuer (fishermen's cottages) and stunning natural backdrop.",
+                "location": "Reine, Lofoten, Norway",
+                "longitude": 13.6120,
+                "latitude": 68.2500
+            },
+            {
+                "name": "Henningsvær",
+                "description": "Explore Henningsvær, a charming fishing village with a vibrant cultural scene, art galleries, and local seafood restaurants.",
+                "location": "Henningsvær, Lofoten, Norway",
+                "longitude": 13.6100,
+                "latitude": 68.1550
+            },
+            {
+                "name": "Svolvær",
+                "description": "Discover Svolvær, the largest town in Lofoten, offering various attractions including the Svolværgeita (the Svolvær Goat) rock formation.",
+                "location": "Svolvær, Lofoten, Norway",
+                "longitude": 14.5680,
+                "latitude": 68.2340
+            },
+            {
+                "name": "Lofotr Viking Museum",
+                "description": "Visit the Lofotr Viking Museum for an insight into Viking history and culture, featuring a full-size reconstruction of a Viking longhouse.",
+                "location": "Lofotr Viking Museum, Lofoten, Norway",
+                "longitude": 13.6090,
+                "latitude": 68.2520
+            }
+        ]
     },
 
 
@@ -216,6 +420,40 @@
         "city": "Tromsø",
         "longitude": 18.9553,
         "latitude": 69.6492,
-        "cost": "$$"
-    }
+        "cost": "$$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "The Arctic Cathedral can be visited year-round, offering a unique architectural experience regardless of the season.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time to visit the Arctic Cathedral as its indoor setting makes it accessible and enjoyable in all weather conditions.",
+        "suggested_venues": [
+            {
+                "name": "Arctic Cathedral Interior",
+                "description": "Explore the interior of the Arctic Cathedral, with its beautiful stained glass windows and modern Scandinavian design.",
+                "location": "Arctic Cathedral, Tromsø, Norway",
+                "longitude": 18.9560,
+                "latitude": 69.6500
+            },
+            {
+                "name": "Midnight Sun Concerts",
+                "description": "Attend the Midnight Sun Concerts at the cathedral during the summer, offering a magical musical experience under the midnight sun.",
+                "location": "Arctic Cathedral, Tromsø, Norway",
+                "longitude": 18.9550,
+                "latitude": 69.6490
+            },
+            {
+                "name": "Northern Lights Concerts",
+                "description": "Experience the Northern Lights Concerts in the winter, combining stunning aurora displays with captivating musical performances.",
+                "location": "Arctic Cathedral, Tromsø, Norway",
+                "longitude": 18.9555,
+                "latitude": 69.6495
+            },
+            {
+                "name": "Bridge Walk to the Cathedral",
+                "description": "Take a walk across the bridge from Tromsø's city center to the cathedral, enjoying panoramic views of the city and surrounding landscapes.",
+                "location": "Bridge to Arctic Cathedral, Tromsø, Norway",
+                "longitude": 18.9545,
+                "latitude": 69.6485
+            }
+        ]
+    }    
 ]

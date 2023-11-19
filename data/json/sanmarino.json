@@ -7,8 +7,43 @@
         "city": "San Marino",
         "longitude": 12.4583,
         "latitude": 43.9356,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The spring to early autumn months are ideal for visiting the towers, providing pleasant weather for exploring the outdoor sites and enjoying the views.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months can be less ideal due to chilly weather, which may affect the comfort and visibility from the towers.",
+        "suggested_venues": [
+            {
+                "name": "Guaita Tower",
+                "description": "Explore the Guaita Tower, the oldest and most famous of the three, offering a glimpse into the medieval fortifications of San Marino.",
+                "location": "Guaita Tower, San Marino",
+                "longitude": 12.4590,
+                "latitude": 43.9360
+            },
+            {
+                "name": "Cesta Tower",
+                "description": "Visit the Cesta Tower, located on the highest peak of Monte Titano, housing a museum of medieval weapons and armor.",
+                "location": "Cesta Tower, San Marino",
+                "longitude": 12.4570,
+                "latitude": 43.9350
+            },
+            {
+                "name": "Montale Tower",
+                "description": "See the Montale Tower, the smallest and most private of the three towers, offering unique views of the surrounding area.",
+                "location": "Montale Tower, San Marino",
+                "longitude": 12.4580,
+                "latitude": 43.9355
+            },
+            {
+                "name": "Historic Center of San Marino",
+                "description": "Wander through the historic center of San Marino, a UNESCO World Heritage site, with its medieval architecture and charming streets.",
+                "location": "Historic Center, San Marino",
+                "longitude": 12.4575,
+                "latitude": 43.9365
+            }
+        ]
     },
+
     {
         "name": "Stroll Through the Historic Center",
         "category": "Cultural",
@@ -17,8 +52,43 @@
         "city": "San Marino",
         "longitude": 12.4418,
         "latitude": 43.9320,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit San Marino's historic center is during the spring to early autumn months, offering pleasant weather and the opportunity to fully enjoy the outdoor ambiance of the medieval streets.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months can be less ideal due to colder weather, which might affect the experience of outdoor exploration.",
+        "suggested_venues": [
+            {
+                "name": "Piazza della Libertà",
+                "description": "Visit Piazza della Libertà, the main square of San Marino, known for its historical buildings and the Public Palace.",
+                "location": "Piazza della Libertà, San Marino",
+                "longitude": 12.4419,
+                "latitude": 43.9321
+            },
+            {
+                "name": "Basilica di San Marino",
+                "description": "Explore the Basilica di San Marino, a neoclassical church housing sacred relics and offering a glimpse into the religious heritage of the city.",
+                "location": "Basilica di San Marino, San Marino",
+                "longitude": 12.4417,
+                "latitude": 43.9319
+            },
+            {
+                "name": "Museum of Curiosities",
+                "description": "Discover the Museum of Curiosities, showcasing a collection of unusual and intriguing objects from around the world.",
+                "location": "Museum of Curiosities, San Marino",
+                "longitude": 12.4420,
+                "latitude": 43.9322
+            },
+            {
+                "name": "Traditional Shops",
+                "description": "Wander through the narrow streets lined with traditional shops, offering local crafts, souvenirs, and artisanal products.",
+                "location": "Historic Center, San Marino",
+                "longitude": 12.4416,
+                "latitude": 43.9318
+            }
+        ]
     },
+
     {
         "name": "Basilica di San Marino Visit",
         "category": "Spiritual",
@@ -27,8 +97,43 @@
         "city": "San Marino",
         "longitude": 12.4464,
         "latitude": 43.9361,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "The Basilica di San Marino can be visited year-round, offering a peaceful and spiritual experience in any season.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time to visit the Basilica as its indoor setting makes it accessible and enjoyable throughout the year.",
+        "suggested_venues": [
+            {
+                "name": "Basilica Interior",
+                "description": "Discover the interior of the Basilica, featuring beautiful artwork, statues, and the altar containing the relics of Saint Marinus.",
+                "location": "Basilica di San Marino, San Marino",
+                "longitude": 12.4465,
+                "latitude": 43.9362
+            },
+            {
+                "name": "Basilica Square",
+                "description": "Spend time in the square outside the Basilica, a serene spot to admire the church's facade and the surrounding architecture.",
+                "location": "Basilica Square, San Marino",
+                "longitude": 12.4463,
+                "latitude": 43.9360
+            },
+            {
+                "name": "Guided Tours",
+                "description": "Join a guided tour to learn more about the history of the Basilica and its significance to the Republic of San Marino.",
+                "location": "Basilica di San Marino, San Marino",
+                "longitude": 12.4466,
+                "latitude": 43.9363
+            },
+            {
+                "name": "Meditation and Reflection",
+                "description": "Take a moment for personal meditation or reflection within the tranquil atmosphere of the Basilica.",
+                "location": "Basilica di San Marino, San Marino",
+                "longitude": 12.4462,
+                "latitude": 43.9359
+            }
+        ]
     },
+
     {
         "name": "Piazza della Libertà and Public Palace",
         "category": "History",
@@ -37,8 +142,43 @@
         "city": "San Marino",
         "longitude": 12.4472,
         "latitude": 43.9367,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "Piazza della Libertà and the Public Palace can be visited year-round. The summer months are particularly enjoyable for outdoor sightseeing and witnessing the changing of the guard ceremony.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time to visit these sites as they offer interesting experiences throughout the year.",
+        "suggested_venues": [
+            {
+                "name": "Public Palace Tour",
+                "description": "Explore the Public Palace, a symbol of San Marino's government, with its impressive architecture and historical significance.",
+                "location": "Public Palace, San Marino",
+                "longitude": 12.4473,
+                "latitude": 43.9368
+            },
+            {
+                "name": "Changing of the Guard",
+                "description": "Witness the traditional changing of the guard ceremony, a display of San Marino's military tradition, held in Piazza della Libertà.",
+                "location": "Piazza della Libertà, San Marino",
+                "longitude": 12.4471,
+                "latitude": 43.9366
+            },
+            {
+                "name": "Piazza della Libertà Stroll",
+                "description": "Take a leisurely stroll in Piazza della Libertà, enjoying the ambiance of this historic square and its surrounding architecture.",
+                "location": "Piazza della Libertà, San Marino",
+                "longitude": 12.4470,
+                "latitude": 43.9365
+            },
+            {
+                "name": "Statue of Liberty",
+                "description": "Admire the Statue of Liberty in the piazza, a symbol of freedom and independence, significant to San Marino's heritage.",
+                "location": "Statue of Liberty, Piazza della Libertà, San Marino",
+                "longitude": 12.4474,
+                "latitude": 43.9369
+            }
+        ]
     },
+
     {
         "name": "Monte Titano Cable Car Ride",
         "category": "Adventure",
@@ -47,8 +187,43 @@
         "city": "San Marino",
         "longitude": 12.4528,
         "latitude": 43.9347,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time for a cable car ride up Monte Titano is during the spring to early autumn months, offering clear weather and excellent visibility for panoramic views.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months might offer limited visibility due to weather conditions and could impact the overall experience.",
+        "suggested_venues": [
+            {
+                "name": "Cable Car Station",
+                "description": "Start your journey at the cable car station, where you can purchase tickets and get information about the ride.",
+                "location": "Cable Car Station, San Marino",
+                "longitude": 12.4530,
+                "latitude": 43.9346
+            },
+            {
+                "name": "Viewpoints on Monte Titano",
+                "description": "Explore various viewpoints along Monte Titano, offering breathtaking views of San Marino and beyond.",
+                "location": "Monte Titano, San Marino",
+                "longitude": 12.4526,
+                "latitude": 43.9348
+            },
+            {
+                "name": "Hiking Trails",
+                "description": "Discover hiking trails around Monte Titano, perfect for adventure seekers and nature lovers.",
+                "location": "Trails around Monte Titano, San Marino",
+                "longitude": 12.4529,
+                "latitude": 43.9349
+            },
+            {
+                "name": "Monte Titano Summit",
+                "description": "Reach the summit of Monte Titano, where you can enjoy the serene environment and historical significance of the site.",
+                "location": "Summit of Monte Titano, San Marino",
+                "longitude": 12.4527,
+                "latitude": 43.9345
+            }
+        ]
     },
+
     {
         "name": "Museum of Curiosities Visit",
         "category": "Education",
@@ -57,8 +232,43 @@
         "city": "San Marino",
         "longitude": 12.4411,
         "latitude": 43.9369,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "The Museum of Curiosities can be visited year-round, providing an intriguing and educational experience regardless of the season.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time to visit the museum as its indoor setting makes it a suitable destination in all weather conditions.",
+        "suggested_venues": [
+            {
+                "name": "Exhibition Rooms",
+                "description": "Browse through the exhibition rooms in the museum, each showcasing a variety of unique artifacts and oddities from different cultures and historical periods.",
+                "location": "Museum of Curiosities, San Marino",
+                "longitude": 12.4412,
+                "latitude": 43.9370
+            },
+            {
+                "name": "Interactive Displays",
+                "description": "Engage with interactive displays that provide fascinating insights into the history and stories behind the artifacts.",
+                "location": "Museum of Curiosities, San Marino",
+                "longitude": 12.4410,
+                "latitude": 43.9368
+            },
+            {
+                "name": "Souvenir Shop",
+                "description": "Visit the museum's souvenir shop to find unique mementos and gifts related to the curiosities exhibited.",
+                "location": "Museum of Curiosities, San Marino",
+                "longitude": 12.4413,
+                "latitude": 43.9371
+            },
+            {
+                "name": "Special Exhibits",
+                "description": "Explore any special exhibits or temporary displays that the museum may offer, providing a deeper understanding of specific themes or collections.",
+                "location": "Museum of Curiosities, San Marino",
+                "longitude": 12.4409,
+                "latitude": 43.9367
+            }
+        ]
     },
+
     {
         "name": "San Marino Nature Walks",
         "category": "Nature",
@@ -67,8 +277,43 @@
         "city": "San Marino",
         "longitude": 12.4500,
         "latitude": 43.9350,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time for nature walks in San Marino is during the spring to early autumn months, offering pleasant weather and the opportunity to enjoy the lush landscapes.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months might be less ideal for nature walks due to cooler temperatures and potential for inclement weather.",
+        "suggested_venues": [
+            {
+                "name": "Monte Titano Trails",
+                "description": "Explore the walking trails around Monte Titano, offering stunning views and a chance to experience San Marino's natural beauty.",
+                "location": "Monte Titano, San Marino",
+                "longitude": 12.4490,
+                "latitude": 43.9360
+            },
+            {
+                "name": "San Marino Nature Park",
+                "description": "Visit the San Marino Nature Park, a protected area with diverse flora and fauna, ideal for peaceful walks and wildlife observation.",
+                "location": "San Marino Nature Park, San Marino",
+                "longitude": 12.4510,
+                "latitude": 43.9340
+            },
+            {
+                "name": "Chestnut Trail",
+                "description": "Walk along the Chestnut Trail, a scenic path through chestnut forests, providing a tranquil and refreshing outdoor experience.",
+                "location": "Chestnut Trail, San Marino",
+                "longitude": 12.4505,
+                "latitude": 43.9355
+            },
+            {
+                "name": "Auspice Trail",
+                "description": "Discover the Auspice Trail, a route that combines natural landscapes with historical sites, offering a unique way to explore San Marino.",
+                "location": "Auspice Trail, San Marino",
+                "longitude": 12.4495,
+                "latitude": 43.9355
+            }
+        ]
     },
+
     {
         "name": "Torture Museum Exploration",
         "category": "History",
@@ -77,8 +322,43 @@
         "city": "San Marino",
         "longitude": 12.4417,
         "latitude": 43.9375,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "The Torture Museum can be visited year-round, providing an insightful historical experience regardless of the season.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time to visit the museum as its indoor setting makes it accessible and informative throughout the year.",
+        "suggested_venues": [
+            {
+                "name": "Exhibition Halls",
+                "description": "Explore the exhibition halls in the museum, each displaying a variety of historical torture devices and detailed explanations of their use and history.",
+                "location": "Torture Museum, San Marino",
+                "longitude": 12.4418,
+                "latitude": 43.9376
+            },
+            {
+                "name": "Educational Displays",
+                "description": "Engage with educational displays that provide context and historical background on the use of torture in medieval and Renaissance periods.",
+                "location": "Torture Museum, San Marino",
+                "longitude": 12.4416,
+                "latitude": 43.9374
+            },
+            {
+                "name": "Guided Tours",
+                "description": "Join guided tours for a deeper understanding of the exhibits, led by knowledgeable guides familiar with historical practices of torture.",
+                "location": "Torture Museum, San Marino",
+                "longitude": 12.4419,
+                "latitude": 43.9377
+            },
+            {
+                "name": "Interactive Experiences",
+                "description": "Participate in interactive experiences at the museum, offering a hands-on approach to learning about historical torture methods.",
+                "location": "Torture Museum, San Marino",
+                "longitude": 12.4415,
+                "latitude": 43.9373
+            }
+        ]
     },
+
     {
         "name": "State Museum of San Marino",
         "category": "Culture",
@@ -87,8 +367,43 @@
         "city": "San Marino",
         "longitude": 12.4433,
         "latitude": 43.9364,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "The State Museum can be visited year-round, offering a rich cultural experience regardless of the season.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time to visit the museum as its indoor setting provides a comfortable and informative experience throughout the year.",
+        "suggested_venues": [
+            {
+                "name": "Archaeological Exhibits",
+                "description": "Explore the archaeological exhibits, featuring artifacts from the Neolithic period to the Middle Ages, highlighting the history of San Marino and the surrounding regions.",
+                "location": "State Museum of San Marino, San Marino",
+                "longitude": 12.4434,
+                "latitude": 43.9365
+            },
+            {
+                "name": "Art Galleries",
+                "description": "Visit the art galleries in the museum, displaying works from local and regional artists, offering insight into the artistic heritage of San Marino.",
+                "location": "State Museum of San Marino, San Marino",
+                "longitude": 12.4432,
+                "latitude": 43.9363
+            },
+            {
+                "name": "Historical Artifacts",
+                "description": "View a collection of historical artifacts that tell the story of San Marino's past, including coins, medals, and documents.",
+                "location": "State Museum of San Marino, San Marino",
+                "longitude": 12.4435,
+                "latitude": 43.9366
+            },
+            {
+                "name": "Interactive Displays",
+                "description": "Engage with interactive displays and multimedia presentations that bring the history and culture of San Marino to life.",
+                "location": "State Museum of San Marino, San Marino",
+                "longitude": 12.4431,
+                "latitude": 43.9362
+            }
+        ]
     },
+
     {
         "name": "Shopping in San Marino",
         "category": "Leisure",
@@ -97,6 +412,40 @@
         "city": "San Marino",
         "longitude": 12.4411,
         "latitude": 43.9360,
-        "cost": "$$"
-    }
+        "cost": "$$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "Shopping in San Marino can be enjoyed year-round, with each season offering different products and shopping experiences.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time to go shopping in San Marino as the shopping areas are accessible and enjoyable throughout the year.",
+        "suggested_venues": [
+            {
+                "name": "Souvenir Shops",
+                "description": "Browse through numerous souvenir shops, offering traditional San Marino crafts, local products, and unique keepsakes.",
+                "location": "Souvenir Shops, San Marino",
+                "longitude": 12.4412,
+                "latitude": 43.9361
+            },
+            {
+                "name": "Luxury Boutiques",
+                "description": "Explore luxury boutiques in San Marino, featuring high-end brands and designer goods, often available at tax-free prices.",
+                "location": "Luxury Boutiques, San Marino",
+                "longitude": 12.4410,
+                "latitude": 43.9359
+            },
+            {
+                "name": "Local Artisan Stores",
+                "description": "Discover local artisan stores, showcasing handmade crafts, artwork, and unique items reflecting San Marino's cultural heritage.",
+                "location": "Local Artisan Stores, San Marino",
+                "longitude": 12.4413,
+                "latitude": 43.9362
+            },
+            {
+                "name": "Street Markets",
+                "description": "Visit street markets in San Marino, offering a vibrant atmosphere and a variety of goods, from food products to handcrafted items.",
+                "location": "Street Markets, San Marino",
+                "longitude": 12.4409,
+                "latitude": 43.9358
+            }
+        ]
+    }    
 ]

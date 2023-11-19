@@ -7,8 +7,43 @@
         "city": "Bled",
         "longitude": 14.1080,
         "latitude": 46.3683,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Lake Bled is from late spring to early autumn, when the weather is warm and suitable for enjoying the lake and outdoor activities.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months can be less ideal for lake activities due to colder weather, though the landscape can still be beautiful, particularly if you enjoy winter sports.",
+        "suggested_venues": [
+            {
+                "name": "Bled Island",
+                "description": "Take a traditional 'pletna' boat to Bled Island, home to the Assumption of Mary Church, and ring the wishing bell for good luck.",
+                "location": "Bled Island, Lake Bled, Slovenia",
+                "longitude": 14.1100,
+                "latitude": 46.3685
+            },
+            {
+                "name": "Bled Castle",
+                "description": "Visit Bled Castle, offering spectacular views over the lake and surrounding mountains, and learn about the area's history in the castle museum.",
+                "location": "Bled Castle, Bled, Slovenia",
+                "longitude": 14.1070,
+                "latitude": 46.3690
+            },
+            {
+                "name": "Lake Bled Walk",
+                "description": "Enjoy a walk around Lake Bled, a picturesque path that offers stunning views and peaceful spots to relax.",
+                "location": "Lake Bled, Bled, Slovenia",
+                "longitude": 14.1085,
+                "latitude": 46.3675
+            },
+            {
+                "name": "Vintgar Gorge",
+                "description": "Explore the nearby Vintgar Gorge, a natural wonder with wooden walkways leading through scenic waterfalls and rapids.",
+                "location": "Vintgar Gorge, near Bled, Slovenia",
+                "longitude": 14.1050,
+                "latitude": 46.3940
+            }
+        ]
     },
+
     {
         "name": "Ljubljana Old Town Exploration",
         "category": "Cultural",
@@ -17,8 +52,43 @@
         "city": "Ljubljana",
         "longitude": 14.5058,
         "latitude": 46.0569,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to explore Ljubljana's Old Town is during the spring to early autumn months, offering pleasant weather for outdoor walking and sightseeing.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months can be less ideal for outdoor exploration, but the winter season brings its own charm with holiday markets and festive decorations.",
+        "suggested_venues": [
+            {
+                "name": "Ljubljana Castle",
+                "description": "Visit Ljubljana Castle, a historic fortress with panoramic views of the city, accessible by funicular railway or a hike up the hill.",
+                "location": "Ljubljana Castle, Ljubljana, Slovenia",
+                "longitude": 14.5080,
+                "latitude": 46.0480
+            },
+            {
+                "name": "Triple Bridge",
+                "description": "Walk across the iconic Triple Bridge, one of architect Jože Plečnik’s most famous works, spanning the Ljubljanica river.",
+                "location": "Triple Bridge, Ljubljana, Slovenia",
+                "longitude": 14.5060,
+                "latitude": 46.0510
+            },
+            {
+                "name": "Preseren Square",
+                "description": "Explore Preseren Square, the central square in Ljubljana, surrounded by historic buildings and a popular meeting point.",
+                "location": "Preseren Square, Ljubljana, Slovenia",
+                "longitude": 14.5050,
+                "latitude": 46.0520
+            },
+            {
+                "name": "Ljubljanica River Cafes",
+                "description": "Enjoy a coffee or meal at one of the many cafes along the Ljubljanica river, offering a picturesque setting and a relaxing atmosphere.",
+                "location": "Ljubljanica River, Ljubljana, Slovenia",
+                "longitude": 14.5065,
+                "latitude": 46.0500
+            }
+        ]
     },
+
     {
         "name": "Postojna Cave Adventure",
         "category": "Nature",
@@ -27,8 +97,44 @@
         "city": "Postojna",
         "longitude": 14.2069,
         "latitude": 45.7827,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "Postojna Cave can be visited year-round, as the cave maintains a constant temperature and offers a unique experience in any season.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time to visit Postojna Cave, as its indoor setting makes it accessible and enjoyable throughout the year.",
+        "suggested_venues": [
+            {
+                "name": "Cave Tour",
+                "description": "Join a guided tour of Postojna Cave to explore its stunning stalactites, stalagmites, and unique cave formations.",
+                "location": "Postojna Cave, Postojna, Slovenia",
+                "longitude": 14.2075,
+                "latitude": 45.7830
+            },
+            {
+                "name": "Cave Train Ride",
+                "description": "Experience the unique cave train ride, a fun and easy way to journey through the extensive cave system.",
+                "location": "Postojna Cave Train, Postojna, Slovenia",
+                "longitude": 14.2065,
+                "latitude": 45.7820
+            },
+            {
+                "name": "Vivarium",
+                "description": "Visit the cave’s vivarium, showcasing the diverse and unique wildlife that inhabits the cave ecosystem, including the famous olm or 'human fish'.",
+                "location": "Vivarium, Postojna Cave, Slovenia",
+                "longitude": 14.2070,
+                "latitude": 45.7825
+            },
+            {
+                "name": "Exhibition Hall",
+                "description": "Explore the exhibition hall, where you can learn about the cave’s geological history, formation processes, and scientific significance.",
+                "location": "Exhibition Hall, Postojna Cave, Slovenia",
+                "longitude": 14.2060,
+                "latitude": 45.7835
+            }
+        ]
     },
+
+    
     {
         "name": "Visit Piran's Venetian Architecture",
         "category": "History",
@@ -37,8 +143,44 @@
         "city": "Piran",
         "longitude": 13.5667,
         "latitude": 45.5283,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Piran is from late spring to early autumn, offering pleasant weather for exploring the town and enjoying the seaside.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months can be less ideal for sightseeing due to colder weather, although the town has a peaceful charm during the off-season.",
+        "suggested_venues": [
+            {
+                "name": "Tartini Square",
+                "description": "Visit Tartini Square, the main square in Piran, surrounded by exquisite Venetian architecture and lively cafes.",
+                "location": "Tartini Square, Piran, Slovenia",
+                "longitude": 13.5670,
+                "latitude": 45.5290
+            },
+            {
+                "name": "Church of St. George",
+                "description": "Explore the Church of St. George, offering panoramic views of Piran and the sea from its bell tower.",
+                "location": "Church of St. George, Piran, Slovenia",
+                "longitude": 13.5660,
+                "latitude": 45.5295
+            },
+            {
+                "name": "Piran Town Walls",
+                "description": "Walk along the ancient town walls of Piran, which provide a historical perspective of the town's past and stunning views.",
+                "location": "Piran Town Walls, Slovenia",
+                "longitude": 13.5680,
+                "latitude": 45.5270
+            },
+            {
+                "name": "Maritime Museum",
+                "description": "Visit the Maritime Museum to learn about Piran's maritime history and its connection to the Venetian Republic.",
+                "location": "Maritime Museum, Piran, Slovenia",
+                "longitude": 13.5665,
+                "latitude": 45.5280
+            }
+        ]
     },
+
+
     {
         "name": "Triglav National Park Hiking",
         "category": "Nature",
@@ -47,8 +189,44 @@
         "city": "Triglav",
         "longitude": 13.8378,
         "latitude": 46.3783,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The ideal time for hiking in Triglav National Park is from late spring to early autumn, offering favorable weather for outdoor activities and exploring the park's natural beauty.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March", "April", "May"],
+        "worst_time_to_go_description": "The winter and early spring months can be challenging for hiking due to snow and colder temperatures, though it offers winter sports opportunities.",
+        "suggested_venues": [
+            {
+                "name": "Mount Triglav",
+                "description": "Embark on a challenging hike to Mount Triglav, Slovenia's highest peak, known for its breathtaking views and iconic stature.",
+                "location": "Mount Triglav, Triglav National Park, Slovenia",
+                "longitude": 13.8400,
+                "latitude": 46.3790
+            },
+            {
+                "name": "Lake Bohinj",
+                "description": "Visit Lake Bohinj, a serene glacial lake within the park, perfect for relaxation and enjoying the surrounding nature.",
+                "location": "Lake Bohinj, Triglav National Park, Slovenia",
+                "longitude": 13.8350,
+                "latitude": 46.2770
+            },
+            {
+                "name": "Vintgar Gorge",
+                "description": "Explore Vintgar Gorge, a stunning ravine with wooden walkways, waterfalls, and the emerald green Radovna River.",
+                "location": "Vintgar Gorge, Triglav National Park, Slovenia",
+                "longitude": 13.9250,
+                "latitude": 46.3950
+            },
+            {
+                "name": "Alpine Fauna and Flora",
+                "description": "Discover the diverse alpine fauna and flora of the park, offering opportunities for wildlife watching and botanical exploration.",
+                "location": "Triglav National Park, Slovenia",
+                "longitude": 13.8390,
+                "latitude": 46.3800
+            }
+        ]
     },
+
+
     {
         "name": "Škocjan Caves UNESCO Site",
         "category": "Nature",
@@ -57,8 +235,44 @@
         "city": "Škocjan",
         "longitude": 13.9896,
         "latitude": 45.6639,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "Škocjan Caves can be visited year-round, as the cave environment remains relatively constant in temperature and is unaffected by outside weather conditions.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time to visit the Škocjan Caves, making it a great destination in any season.",
+        "suggested_venues": [
+            {
+                "name": "Cave Tour",
+                "description": "Join a guided tour to explore the Škocjan Caves' vast chambers, underground canyon, and river, witnessing the cave's natural beauty and geological significance.",
+                "location": "Škocjan Caves, Slovenia",
+                "longitude": 13.9900,
+                "latitude": 45.6640
+            },
+            {
+                "name": "Educational Trail",
+                "description": "Walk the educational trail around the cave entrance, offering information about the cave's formation, ecology, and history.",
+                "location": "Educational Trail, Škocjan Caves, Slovenia",
+                "longitude": 13.9890,
+                "latitude": 45.6630
+            },
+            {
+                "name": "Škocjan Museum",
+                "description": "Visit the Škocjan Museum to learn more about the caves' geological importance and the region's cultural history.",
+                "location": "Škocjan Museum, Slovenia",
+                "longitude": 13.9880,
+                "latitude": 45.6645
+            },
+            {
+                "name": "Village of Škocjan",
+                "description": "Explore the nearby village of Škocjan, offering a glimpse into the local culture and traditions of the region.",
+                "location": "Village of Škocjan, Slovenia",
+                "longitude": 13.9895,
+                "latitude": 45.6625
+            }
+        ]
     },
+
+
     {
         "name": "Soča Valley River Sports",
         "category": "Adventure",
@@ -67,8 +281,44 @@
         "city": "Bovec",
         "longitude": 13.5528,
         "latitude": 46.3375,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The ideal time for river sports in the Soča Valley is from late spring to early autumn, providing optimal water conditions and pleasant weather.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The off-season months can be less suitable for water sports due to colder water temperatures and potential changes in river conditions.",
+        "suggested_venues": [
+            {
+                "name": "Rafting on the Soča River",
+                "description": "Experience the thrill of rafting on the Soča River, known for its clear emerald waters and exciting rapids.",
+                "location": "Soča River, Bovec, Slovenia",
+                "longitude": 13.5500,
+                "latitude": 46.3400
+            },
+            {
+                "name": "Kayaking",
+                "description": "Kayak along the Soča River, offering routes suitable for both beginners and experienced kayakers amidst stunning natural scenery.",
+                "location": "Soča River, Bovec, Slovenia",
+                "longitude": 13.5550,
+                "latitude": 46.3350
+            },
+            {
+                "name": "Canyoning Adventures",
+                "description": "Join a canyoning adventure to explore the hidden canyons of the Soča Valley, navigating through waterfalls and natural slides.",
+                "location": "Canyons, Soča Valley, Slovenia",
+                "longitude": 13.5530,
+                "latitude": 46.3380
+            },
+            {
+                "name": "Adventure Sports Centers",
+                "description": "Visit one of the many adventure sports centers in Bovec, where you can arrange guided tours and rent equipment for various water sports.",
+                "location": "Adventure Sports Centers, Bovec, Slovenia",
+                "longitude": 13.5520,
+                "latitude": 46.3370
+            }
+        ]
     },
+
+
     {
         "name": "Predjama Castle Exploration",
         "category": "History",
@@ -77,8 +327,43 @@
         "city": "Predjama",
         "longitude": 14.1275,
         "latitude": 45.8131,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Predjama Castle is from spring to early autumn, when the weather is favorable for exploring both the castle and its surrounding natural landscape.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The colder months can be less ideal for visiting the castle due to potentially harsh weather conditions, though the castle's interior remains accessible.",
+        "suggested_venues": [
+            {
+                "name": "Castle Tours",
+                "description": "Join guided tours of Predjama Castle to learn about its history, architecture, and the legends surrounding this unique fortress.",
+                "location": "Predjama Castle, Predjama, Slovenia",
+                "longitude": 14.1280,
+                "latitude": 45.8135
+            },
+            {
+                "name": "Knight's Room",
+                "description": "Explore the Knight's Room, showcasing medieval armor and weapons, providing a glimpse into the life of a nobleman.",
+                "location": "Knight's Room, Predjama Castle, Slovenia",
+                "longitude": 14.1270,
+                "latitude": 45.8125
+            },
+            {
+                "name": "Castle Cave System",
+                "description": "Discover the extensive cave system behind the castle, which provided strategic advantages and a unique living environment.",
+                "location": "Castle Cave, Predjama Castle, Slovenia",
+                "longitude": 14.1265,
+                "latitude": 45.8130
+            },
+            {
+                "name": "Local Legends",
+                "description": "Learn about the local legends and tales associated with Predjama Castle, adding a mystical dimension to your visit.",
+                "location": "Predjama Castle, Predjama, Slovenia",
+                "longitude": 14.1278,
+                "latitude": 45.8132
+            }
+        ]
     },
+
     {
         "name": "Ptuj Historical Town Visit",
         "category": "Cultural",
@@ -87,8 +372,43 @@
         "city": "Ptuj",
         "longitude": 15.8700,
         "latitude": 46.4201,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The ideal time to visit Ptuj is during the spring to early autumn months, when the weather is pleasant for exploring the town and participating in outdoor cultural events.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months can be less favorable for outdoor exploration due to colder weather, although the town has its own charm during festive seasons.",
+        "suggested_venues": [
+            {
+                "name": "Ptuj Castle",
+                "description": "Explore Ptuj Castle, perched on a hill overlooking the town, housing a museum with historical exhibits and offering panoramic views.",
+                "location": "Ptuj Castle, Ptuj, Slovenia",
+                "longitude": 15.8710,
+                "latitude": 46.4210
+            },
+            {
+                "name": "Old Town Center",
+                "description": "Stroll through the Old Town Center of Ptuj, featuring narrow streets, medieval buildings, and charming squares.",
+                "location": "Old Town Center, Ptuj, Slovenia",
+                "longitude": 15.8690,
+                "latitude": 46.4200
+            },
+            {
+                "name": "Ptuj Thermal Spa",
+                "description": "Relax at the Ptuj Thermal Spa, known for its therapeutic waters and wellness facilities.",
+                "location": "Ptuj Thermal Spa, Ptuj, Slovenia",
+                "longitude": 15.8720,
+                "latitude": 46.4190
+            },
+            {
+                "name": "Ptuj Orpheus Monument",
+                "description": "Visit the Ptuj Orpheus Monument, a Roman monument that is a symbol of the town's ancient history.",
+                "location": "Orpheus Monument, Ptuj, Slovenia",
+                "longitude": 15.8705,
+                "latitude": 46.4195
+            }
+        ]
     },
+
     {
         "name": "Maribor Wine Region Experience",
         "category": "Gastronomy",
@@ -97,6 +417,41 @@
         "city": "Maribor",
         "longitude": 15.6500,
         "latitude": 46.5500,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The ideal time for a wine tour in Maribor is from late spring to early autumn, coinciding with the growing and harvest seasons, offering pleasant weather for vineyard visits.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The off-season months might not offer the full experience of the vineyards, though wine tastings are available year-round.",
+        "suggested_venues": [
+            {
+                "name": "Old Vine House",
+                "description": "Visit the Old Vine House, home to the oldest grapevine in the world, and learn about the history and significance of wine-making in Maribor.",
+                "location": "Old Vine House, Maribor, Slovenia",
+                "longitude": 15.6480,
+                "latitude": 46.5510
+            },
+            {
+                "name": "Local Vineyards",
+                "description": "Tour local vineyards, experiencing the beauty of the region and tasting a variety of wines, including the famous Maribor whites and reds.",
+                "location": "Various Vineyards, Maribor Wine Region, Slovenia",
+                "longitude": 15.6520,
+                "latitude": 46.5490
+            },
+            {
+                "name": "Wine Cellars",
+                "description": "Explore traditional wine cellars in the region, where you can sample wines and learn about the wine-making process from local vintners.",
+                "location": "Wine Cellars, Maribor, Slovenia",
+                "longitude": 15.6490,
+                "latitude": 46.5520
+            },
+            {
+                "name": "Vineyard Cottages",
+                "description": "Stay in a vineyard cottage, offering a unique and immersive experience in the heart of the Maribor wine region.",
+                "location": "Vineyard Cottages, Maribor, Slovenia",
+                "longitude": 15.6510,
+                "latitude": 46.5480
+            }
+        ]
     }
+    
 ]

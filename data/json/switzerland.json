@@ -1,102 +1,460 @@
 [
     {
-        "name": "Exploring the Matterhorn and Zermatt",
-        "category": "Adventure",
-        "score": 5,
-        "description": "Experience the iconic Matterhorn and the charming mountain village of Zermatt, a must-visit for mountain enthusiasts.",
-        "city": "Zermatt",
-        "longitude": 7.7486,
-        "latitude": 46.0207,
-        "cost": "$$$"
-    },
-    {
-        "name": "Boat Cruise on Lake Geneva",
-        "category": "Leisure",
-        "score": 5,
-        "description": "Enjoy a scenic boat cruise on Lake Geneva, offering stunning views of the surrounding Alps and vineyards.",
-        "city": "Geneva",
-        "longitude": 6.1466,
-        "latitude": 46.2044,
-        "cost": "$$"
-    },
-    {
-        "name": "Visiting the Jungfraujoch - Top of Europe",
-        "category": "Adventure",
-        "score": 4,
-        "description": "Ascend to the Jungfraujoch, known as the 'Top of Europe', and experience breathtaking views of the Aletsch Glacier.",
-        "city": "Jungfrau Region",
-        "longitude": 7.9612,
-        "latitude": 46.5475,
-        "cost": "$$$$"
-    },
-    {
-        "name": "Exploring the Old Town of Bern",
-        "category": "Culture",
-        "score": 4,
-        "description": "Stroll through the medieval streets of Bern's Old Town, a UNESCO World Heritage Site.",
-        "city": "Bern",
-        "longitude": 7.4515,
-        "latitude": 46.948,
-        "cost": "$"
-    },
-    {
-        "name": "Chocolate and Cheese Tasting in Gruyères",
-        "category": "Gastronomy",
-        "score": 3,
-        "description": "Indulge in Switzerland's famous chocolate and cheese in the picturesque town of Gruyères.",
-        "city": "Gruyères",
-        "longitude": 7.0821,
-        "latitude": 46.5841,
-        "cost": "$$"
-    },
-    {
-        "name": "Visiting the Château de Chillon, Montreux",
-        "category": "Culture",
-        "score": 3,
-        "description": "Explore the historic Château de Chillon on the shores of Lake Geneva near Montreux.",
-        "city": "Montreux",
-        "longitude": 6.9083,
-        "latitude": 46.4312,
-        "cost": "$$"
-    },
-    {
-        "name": "Hiking in the Swiss National Park",
-        "category": "Adventure",
-        "score": 2,
-        "description": "Discover the stunning landscapes and wildlife of the Swiss National Park in the Engadin Valley.",
-        "city": "Engadin",
-        "longitude": 10.1386,
-        "latitude": 46.6973,
-        "cost": "$"
-    },
-    {
-        "name": "Exploring Lucerne and the Chapel Bridge",
-        "category": "Culture",
-        "score": 2,
-        "description": "Visit the picturesque city of Lucerne and walk across the famous Chapel Bridge.",
-        "city": "Lucerne",
-        "longitude": 8.3093,
-        "latitude": 47.0502,
-        "cost": "$$"
-    },
-    {
-        "name": "Skiing in St. Moritz",
-        "category": "Adventure",
-        "score": 1,
-        "description": "Enjoy world-class skiing and the glamorous lifestyle in the luxurious resort town of St. Moritz.",
-        "city": "St. Moritz",
-        "longitude": 9.8372,
-        "latitude": 46.4983,
-        "cost": "$$$$"
-    },
-    {
-        "name": "Relaxing at the Thermal Baths in Bad Ragaz",
-        "category": "Leisure",
-        "score": 1,
-        "description": "Unwind in the therapeutic thermal baths of Bad Ragaz, nestled in the picturesque Heidiland region.",
-        "city": "Bad Ragaz",
-        "longitude": 9.5015,
-        "latitude": 47.0135,
-        "cost": "$$"
-    }
+    "name": "Exploring the Matterhorn and Zermatt",
+    "category": "Adventure",
+    "score": 5,
+    "description": "Experience the iconic Matterhorn and the charming mountain village of Zermatt, a must-visit for mountain enthusiasts.",
+    "city": "Zermatt",
+    "longitude": 7.7486,
+    "latitude": 46.0207,
+    "cost": "$$$",
+    "best_time_to_go": ["December", "January", "February", "March", "April", "July", "August", "September"],
+    "best_time_to_go_description": "The best time to visit Zermatt for skiing is during the winter months (December to April), while the summer months (July to September) are ideal for hiking and enjoying the alpine scenery.",
+    "worst_time_to_go": ["May", "June", "October", "November"],
+    "worst_time_to_go_description": "The transitional months of May, June, October, and November can be less ideal due to the closing of many ski facilities and unpredictable weather, making outdoor activities more challenging.",
+    "suggested_venues": [
+        {
+            "name": "Matterhorn Views",
+            "description": "Enjoy breathtaking views of the Matterhorn, one of the most famous mountains in the Alps, from various vantage points around Zermatt.",
+            "location": "Viewpoints, Zermatt, Switzerland",
+            "longitude": 7.7490,
+            "latitude": 46.0210
+        },
+        {
+            "name": "Skiing and Snowboarding",
+            "description": "Engage in skiing and snowboarding activities in the Zermatt ski resort area, known for its excellent slopes and modern facilities.",
+            "location": "Ski Resorts, Zermatt, Switzerland",
+            "longitude": 7.7480,
+            "latitude": 46.0200
+        },
+        {
+            "name": "Gornergrat Railway",
+            "description": "Take a ride on the Gornergrat Railway, offering scenic views of the Matterhorn and surrounding peaks.",
+            "location": "Gornergrat Railway, Zermatt, Switzerland",
+            "longitude": 7.7500,
+            "latitude": 46.0220
+        },
+        {
+            "name": "Hiking Trails",
+            "description": "Explore the hiking trails around Zermatt, which offer various routes for all levels of hikers, showcasing the beauty of the Swiss Alps.",
+            "location": "Hiking Trails, Zermatt, Switzerland",
+            "longitude": 7.7470,
+            "latitude": 46.0190
+        }
+    ]
+},
+
+
+{
+    "name": "Boat Cruise on Lake Geneva",
+    "category": "Leisure",
+    "score": 5,
+    "description": "Enjoy a scenic boat cruise on Lake Geneva, offering stunning views of the surrounding Alps and vineyards.",
+    "city": "Geneva",
+    "longitude": 6.1466,
+    "latitude": 46.2044,
+    "cost": "$$",
+    "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The ideal time for a boat cruise on Lake Geneva is during the warmer months, from April to September, when the weather is pleasant and conducive to enjoying the scenic beauty of the lake and its surroundings.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+    "worst_time_to_go_description": "The colder months are less suitable for a boat cruise due to chilly weather, which might detract from the experience of being on the lake.",
+    "suggested_venues": [
+        {
+            "name": "Lake Geneva Cruise",
+            "description": "Experience a relaxing cruise on Lake Geneva, taking in the picturesque landscapes and tranquil waters.",
+            "location": "Lake Geneva, Geneva, Switzerland",
+            "longitude": 6.1470,
+            "latitude": 46.2050
+        },
+        {
+            "name": "Montreux",
+            "description": "Visit the charming town of Montreux, known for its beautiful lakeside promenade and the Montreux Jazz Festival.",
+            "location": "Montreux, Lake Geneva, Switzerland",
+            "longitude": 6.9110,
+            "latitude": 46.4310
+        },
+        {
+            "name": "Chateau de Chillon",
+            "description": "Explore the historic Chateau de Chillon, a medieval castle on the shores of Lake Geneva, accessible by a short boat trip.",
+            "location": "Chateau de Chillon, Lake Geneva, Switzerland",
+            "longitude": 6.9290,
+            "latitude": 46.4140
+        },
+        {
+            "name": "Vineyard Tours",
+            "description": "Embark on a tour of the vineyards surrounding Lake Geneva, sampling local wines and enjoying the stunning vistas.",
+            "location": "Vineyards, Lake Geneva, Switzerland",
+            "longitude": 6.1500,
+            "latitude": 46.2020
+        }
+    ]
+},
+
+
+{
+    "name": "Visiting the Jungfraujoch - Top of Europe",
+    "category": "Adventure",
+    "score": 4,
+    "description": "Ascend to the Jungfraujoch, known as the 'Top of Europe', and experience breathtaking views of the Aletsch Glacier.",
+    "city": "Jungfrau Region",
+    "longitude": 7.9612,
+    "latitude": 46.5475,
+    "cost": "$$$$",
+    "best_time_to_go": ["June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time to visit Jungfraujoch is during the summer months, when the weather is more favorable for enjoying the outdoor activities and the stunning alpine scenery.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April", "May"],
+    "worst_time_to_go_description": "The off-season months can present harsher weather conditions, making some activities less accessible, though the site remains open year-round.",
+    "suggested_venues": [
+        {
+            "name": "Jungfrau Railway",
+            "description": "Take the Jungfrau Railway, a remarkable engineering feat, to reach the highest train station in Europe at Jungfraujoch.",
+            "location": "Jungfrau Railway, Jungfrau Region, Switzerland",
+            "longitude": 7.9600,
+            "latitude": 46.5480
+        },
+        {
+            "name": "Aletsch Glacier",
+            "description": "View the Aletsch Glacier, the longest glacier in the Alps, offering spectacular sights from the observation platforms.",
+            "location": "Aletsch Glacier, Jungfrau Region, Switzerland",
+            "longitude": 7.9620,
+            "latitude": 46.5470
+        },
+        {
+            "name": "Ice Palace",
+            "description": "Explore the Ice Palace, a unique attraction featuring ice sculptures and tunnels deep inside the glacier.",
+            "location": "Ice Palace, Jungfraujoch, Switzerland",
+            "longitude": 7.9610,
+            "latitude": 46.5460
+        },
+        {
+            "name": "Hiking Trails",
+            "description": "Embark on hiking trails around Jungfraujoch, suitable for various skill levels, offering stunning views of the surrounding mountains.",
+            "location": "Hiking Trails, Jungfrau Region, Switzerland",
+            "longitude": 7.9605,
+            "latitude": 46.5485
+        }
+    ]
+},
+
+    
+{
+    "name": "Exploring the Old Town of Bern",
+    "category": "Culture",
+    "score": 4,
+    "description": "Stroll through the medieval streets of Bern's Old Town, a UNESCO World Heritage Site.",
+    "city": "Bern",
+    "longitude": 7.4515,
+    "latitude": 46.948,
+    "cost": "$",
+    "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+    "best_time_to_go_description": "The best time to explore Bern's Old Town is from spring to early autumn, offering pleasant weather ideal for walking and sightseeing.",
+    "worst_time_to_go": ["November", "December", "January", "February", "March"],
+    "worst_time_to_go_description": "The winter months can be less ideal due to colder weather, although the Old Town has a unique charm with winter lights and decorations.",
+    "suggested_venues": [
+        {
+            "name": "Zytglogge Clock Tower",
+            "description": "Visit the Zytglogge, an iconic medieval clock tower with an astronomical clock, a landmark of Bern's Old Town.",
+            "location": "Zytglogge, Bern, Switzerland",
+            "longitude": 7.4500,
+            "latitude": 46.9475
+        },
+        {
+            "name": "Federal Palace",
+            "description": "Explore the Federal Palace, the seat of Switzerland's government, and admire its impressive architecture.",
+            "location": "Federal Palace, Bern, Switzerland",
+            "longitude": 7.4505,
+            "latitude": 46.9465
+        },
+        {
+            "name": "Aare River Views",
+            "description": "Enjoy the scenic views along the Aare River, which curves around the Old Town, offering beautiful panoramas and walking paths.",
+            "location": "Aare River, Bern, Switzerland",
+            "longitude": 7.4510,
+            "latitude": 46.9485
+        },
+        {
+            "name": "Bern Historical Museum",
+            "description": "Visit the Bern Historical Museum, the second largest historical museum in Switzerland, showcasing the region's history and culture.",
+            "location": "Bern Historical Museum, Bern, Switzerland",
+            "longitude": 7.4518,
+            "latitude": 46.9475
+        }
+    ]
+},
+
+
+{
+    "name": "Chocolate and Cheese Tasting in Gruyères",
+    "category": "Gastronomy",
+    "score": 3,
+    "description": "Indulge in Switzerland's famous chocolate and cheese in the picturesque town of Gruyères.",
+    "city": "Gruyères",
+    "longitude": 7.0821,
+    "latitude": 46.5841,
+    "cost": "$$",
+    "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "best_time_to_go_description": "Gruyères is delightful for chocolate and cheese tasting year-round, offering an authentic Swiss culinary experience in any season.",
+    "worst_time_to_go": [],
+    "worst_time_to_go_description": "There is no specific worst time to visit Gruyères for chocolate and cheese tasting, as these experiences are enjoyable throughout the year.",
+    "suggested_venues": [
+        {
+            "name": "La Maison du Gruyère",
+            "description": "Visit La Maison du Gruyère, a cheese factory where you can learn about the production of Gruyère cheese and sample this famous delicacy.",
+            "location": "La Maison du Gruyère, Gruyères, Switzerland",
+            "longitude": 7.0820,
+            "latitude": 46.5830
+        },
+        {
+            "name": "Chocolate Factory Tours",
+            "description": "Explore nearby chocolate factories to discover the secrets of Swiss chocolate making and enjoy various chocolate tastings.",
+            "location": "Chocolate Factories, Gruyères, Switzerland",
+            "longitude": 7.0830,
+            "latitude": 46.5850
+        },
+        {
+            "name": "Gruyères Castle",
+            "description": "Stroll through the medieval Gruyères Castle, offering scenic views of the town and an insight into the region's history.",
+            "location": "Gruyères Castle, Gruyères, Switzerland",
+            "longitude": 7.0810,
+            "latitude": 46.5840
+        },
+        {
+            "name": "Local Restaurants",
+            "description": "Dine at local restaurants in Gruyères to experience traditional Swiss dishes, incorporating the renowned cheese and chocolate.",
+            "location": "Restaurants, Gruyères, Switzerland",
+            "longitude": 7.0825,
+            "latitude": 46.5835
+        }
+    ]
+},
+
+
+{
+    "name": "Visiting the Château de Chillon, Montreux",
+    "category": "Culture",
+    "score": 3,
+    "description": "Explore the historic Château de Chillon on the shores of Lake Geneva near Montreux.",
+    "city": "Montreux",
+    "longitude": 6.9083,
+    "latitude": 46.4312,
+    "cost": "$$",
+    "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+    "best_time_to_go_description": "The best time to visit the Château de Chillon is during the spring to early autumn months, when the weather is pleasant for exploring the castle and enjoying the views of Lake Geneva.",
+    "worst_time_to_go": ["November", "December", "January", "February", "March"],
+    "worst_time_to_go_description": "The colder months can be less ideal due to chilly weather, although the castle's interior remains accessible and can be a cozy retreat.",
+    "suggested_venues": [
+        {
+            "name": "Château de Chillon",
+            "description": "Tour the Château de Chillon, a medieval fortress with rich history, stunning architecture, and picturesque views over Lake Geneva.",
+            "location": "Château de Chillon, Montreux, Switzerland",
+            "longitude": 6.9090,
+            "latitude": 46.4315
+        },
+        {
+            "name": "Castle Gardens",
+            "description": "Walk through the castle's gardens, offering a peaceful setting and beautiful views of the surrounding lake and mountains.",
+            "location": "Castle Gardens, Château de Chillon, Switzerland",
+            "longitude": 6.9075,
+            "latitude": 46.4305
+        },
+        {
+            "name": "Castle Exhibitions",
+            "description": "Explore various exhibitions inside the castle, showcasing its history, art, and the life of its former inhabitants.",
+            "location": "Château de Chillon, Montreux, Switzerland",
+            "longitude": 6.9085,
+            "latitude": 46.4310
+        },
+        {
+            "name": "Montreux Lakeside",
+            "description": "Enjoy a stroll along the Montreux lakeside, known for its beautiful promenade, sculptures, and views of the Alps.",
+            "location": "Montreux Lakeside, Switzerland",
+            "longitude": 6.9100,
+            "latitude": 46.4320
+        }
+    ]
+},
+
+
+{
+    "name": "Hiking in the Swiss National Park",
+    "category": "Adventure",
+    "score": 2,
+    "description": "Discover the stunning landscapes and wildlife of the Swiss National Park in the Engadin Valley.",
+    "city": "Engadin",
+    "longitude": 10.1386,
+    "latitude": 46.6973,
+    "cost": "$",
+    "best_time_to_go": ["June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time to hike in the Swiss National Park is during the summer months, when the trails are most accessible, and the weather is suitable for exploring the park's natural beauty.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April", "May"],
+    "worst_time_to_go_description": "The off-season months can be challenging for hiking due to snow-covered trails and colder temperatures, limiting access to many parts of the park.",
+    "suggested_venues": [
+        {
+            "name": "Hiking Trails",
+            "description": "Explore the park's diverse hiking trails, ranging from easy walks to challenging treks, showcasing the park's alpine landscapes and wildlife.",
+            "location": "Swiss National Park, Engadin Valley, Switzerland",
+            "longitude": 10.1400,
+            "latitude": 46.6980
+        },
+        {
+            "name": "Wildlife Watching",
+            "description": "Engage in wildlife watching opportunities, with chances to see species such as ibex, chamois, marmots, and diverse birdlife.",
+            "location": "Swiss National Park, Engadin Valley, Switzerland",
+            "longitude": 10.1370,
+            "latitude": 46.6960
+        },
+        {
+            "name": "Visitor Center",
+            "description": "Visit the park's visitor center to learn about the area's ecology, geology, and history before starting your hike.",
+            "location": "Visitor Center, Swiss National Park, Switzerland",
+            "longitude": 10.1390,
+            "latitude": 46.6990
+        },
+        {
+            "name": "Guided Tours",
+            "description": "Join guided tours for an in-depth exploration of the park, led by experts who can provide insights into the park's environment and conservation efforts.",
+            "location": "Guided Tour Starting Points, Swiss National Park, Switzerland",
+            "longitude": 10.1380,
+            "latitude": 46.6970
+        }
+    ]
+},
+
+
+{
+    "name": "Exploring Lucerne and the Chapel Bridge",
+    "category": "Culture",
+    "score": 2,
+    "description": "Visit the picturesque city of Lucerne and walk across the famous Chapel Bridge.",
+    "city": "Lucerne",
+    "longitude": 8.3093,
+    "latitude": 47.0502,
+    "cost": "$$",
+    "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+    "best_time_to_go_description": "The best time to explore Lucerne and the Chapel Bridge is during the spring to early autumn months, when the weather is pleasant for walking tours and sightseeing around the city.",
+    "worst_time_to_go": ["November", "December", "January", "February", "March"],
+    "worst_time_to_go_description": "The winter months can be less ideal due to colder weather, although Lucerne's charm is still present with winter lights and festive decorations.",
+    "suggested_venues": [
+        {
+            "name": "Chapel Bridge (Kapellbrücke)",
+            "description": "Walk across the Chapel Bridge, a historic wooden bridge known for its interior paintings and iconic water tower.",
+            "location": "Chapel Bridge, Lucerne, Switzerland",
+            "longitude": 8.3080,
+            "latitude": 47.0505
+        },
+        {
+            "name": "Old Town Exploration",
+            "description": "Explore Lucerne's Old Town, featuring well-preserved medieval architecture, colorful buildings, and charming streets.",
+            "location": "Old Town, Lucerne, Switzerland",
+            "longitude": 8.3100,
+            "latitude": 47.0500
+        },
+        {
+            "name": "Lake Lucerne Cruise",
+            "description": "Enjoy a scenic cruise on Lake Lucerne, offering stunning views of the surrounding mountains and the city.",
+            "location": "Lake Lucerne, Switzerland",
+            "longitude": 8.3090,
+            "latitude": 47.0490
+        },
+        {
+            "name": "Lion Monument",
+            "description": "Visit the Lion Monument, a notable sculpture carved into a rock face, commemorating Swiss Guards who were killed during the French Revolution.",
+            "location": "Lion Monument, Lucerne, Switzerland",
+            "longitude": 8.3075,
+            "latitude": 47.0507
+        }
+    ]
+},
+
+
+{
+    "name": "Skiing in St. Moritz",
+    "category": "Adventure",
+    "score": 1,
+    "description": "Enjoy world-class skiing and the glamorous lifestyle in the luxurious resort town of St. Moritz.",
+    "city": "St. Moritz",
+    "longitude": 9.8372,
+    "latitude": 46.4983,
+    "cost": "$$$$",
+    "best_time_to_go": ["December", "January", "February", "March", "April"],
+    "best_time_to_go_description": "The ideal time for skiing in St. Moritz is during the winter months, when the town is covered in snow and the ski resorts are fully operational, offering excellent skiing conditions.",
+    "worst_time_to_go": ["May", "June", "July", "August", "September", "October", "November"],
+    "worst_time_to_go_description": "The off-season months are not suitable for skiing as the snow has typically melted and the ski resorts are closed.",
+    "suggested_venues": [
+        {
+            "name": "St. Moritz Ski Resorts",
+            "description": "Experience the slopes at St. Moritz's ski resorts, known for their extensive ski runs, modern facilities, and breathtaking alpine views.",
+            "location": "Ski Resorts, St. Moritz, Switzerland",
+            "longitude": 9.8400,
+            "latitude": 46.4970
+        },
+        {
+            "name": "Apres-Ski Scene",
+            "description": "Indulge in St. Moritz's vibrant apres-ski scene, featuring luxurious bars, restaurants, and clubs for relaxation and entertainment after skiing.",
+            "location": "Apres-Ski Venues, St. Moritz, Switzerland",
+            "longitude": 9.8350,
+            "latitude": 46.4990
+        },
+        {
+            "name": "Ski Schools",
+            "description": "Join a ski school in St. Moritz for lessons, catering to skiers of all skill levels from beginners to advanced.",
+            "location": "Ski Schools, St. Moritz, Switzerland",
+            "longitude": 9.8360,
+            "latitude": 46.4980
+        },
+        {
+            "name": "Equipment Rentals",
+            "description": "Rent high-quality skiing equipment from the numerous rental shops in St. Moritz, catering to all your skiing needs.",
+            "location": "Equipment Rental Shops, St. Moritz, Switzerland",
+            "longitude": 9.8380,
+            "latitude": 46.4975
+        }
+    ]
+},
+
+
+{
+    "name": "Relaxing at the Thermal Baths in Bad Ragaz",
+    "category": "Leisure",
+    "score": 1,
+    "description": "Unwind in the therapeutic thermal baths of Bad Ragaz, nestled in the picturesque Heidiland region.",
+    "city": "Bad Ragaz",
+    "longitude": 9.5015,
+    "latitude": 47.0135,
+    "cost": "$$",
+    "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "best_time_to_go_description": "The thermal baths in Bad Ragaz can be enjoyed year-round, providing a relaxing experience regardless of the season, with the warm waters offering comfort especially in colder months.",
+    "worst_time_to_go": [],
+    "worst_time_to_go_description": "There is no specific worst time to visit the thermal baths in Bad Ragaz, as they offer a pleasant and rejuvenating experience throughout the year.",
+    "suggested_venues": [
+        {
+            "name": "Thermal Baths",
+            "description": "Experience the healing properties of the thermal baths, known for their mineral-rich waters and relaxing atmosphere.",
+            "location": "Thermal Baths, Bad Ragaz, Switzerland",
+            "longitude": 9.5020,
+            "latitude": 47.0140
+        },
+        {
+            "name": "Spa Treatments",
+            "description": "Indulge in various spa treatments available at Bad Ragaz, including massages, facials, and wellness therapies.",
+            "location": "Spa Centers, Bad Ragaz, Switzerland",
+            "longitude": 9.5000,
+            "latitude": 47.0130
+        },
+        {
+            "name": "Sauna World",
+            "description": "Enjoy the Sauna World facilities, offering different types of saunas, steam baths, and relaxation areas.",
+            "location": "Sauna World, Bad Ragaz, Switzerland",
+            "longitude": 9.5010,
+            "latitude": 47.0120
+        },
+        {
+            "name": "Local Cuisine",
+            "description": "Dine at local restaurants in Bad Ragaz, where you can savor traditional Swiss dishes and regional specialties.",
+            "location": "Restaurants, Bad Ragaz, Switzerland",
+            "longitude": 9.5030,
+            "latitude": 47.0145
+        }
+    ]
+}
 ]

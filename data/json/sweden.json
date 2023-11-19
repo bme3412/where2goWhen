@@ -7,8 +7,44 @@
         "city": "Stockholm",
         "longitude": 18.0686,
         "latitude": 59.3293,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "The Vasa Museum can be visited year-round, as it offers indoor exhibitions, making it a great destination in any weather or season.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time to visit the Vasa Museum, as its indoor setting provides a comfortable and informative experience throughout the year.",
+        "suggested_venues": [
+            {
+                "name": "Vasa Ship Exhibit",
+                "description": "View the Vasa Ship, the centerpiece of the museum, which sank on its maiden voyage in 1628 and was salvaged in 1961.",
+                "location": "Vasa Museum, Stockholm, Sweden",
+                "longitude": 18.0910,
+                "latitude": 59.3275
+            },
+            {
+                "name": "Maritime Exhibitions",
+                "description": "Explore various exhibitions in the museum that detail the ship's history, its salvage, and maritime life in the 17th century.",
+                "location": "Vasa Museum, Stockholm, Sweden",
+                "longitude": 18.0920,
+                "latitude": 59.3280
+            },
+            {
+                "name": "Museum Guided Tours",
+                "description": "Join guided tours for a more in-depth understanding of the Vasa's history and the efforts taken to preserve this maritime treasure.",
+                "location": "Vasa Museum, Stockholm, Sweden",
+                "longitude": 18.0930,
+                "latitude": 59.3290
+            },
+            {
+                "name": "Museum Gift Shop",
+                "description": "Visit the museum's gift shop to find unique souvenirs related to the Vasa and maritime history.",
+                "location": "Vasa Museum Gift Shop, Stockholm, Sweden",
+                "longitude": 18.0940,
+                "latitude": 59.3300
+            }
+        ]
     },
+
+
     {
         "name": "Northern Lights Viewing in Abisko",
         "category": "Adventure",
@@ -17,8 +53,44 @@
         "city": "Abisko",
         "longitude": 18.8167,
         "latitude": 68.35,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["September", "October", "November", "December", "January", "February", "March", "April"],
+        "best_time_to_go_description": "The ideal time for Northern Lights viewing in Abisko is during the darker months, from early autumn to late spring, when the nights are long and dark, providing better chances to witness the auroras.",
+        "worst_time_to_go": ["May", "June", "July", "August"],
+        "worst_time_to_go_description": "The summer months are not suitable for Northern Lights viewing due to the Midnight Sun, which results in almost 24 hours of daylight.",
+        "suggested_venues": [
+            {
+                "name": "Aurora Sky Station",
+                "description": "Visit the Aurora Sky Station, known for its excellent location for Northern Lights viewing, offering guided tours and observation decks.",
+                "location": "Aurora Sky Station, Abisko, Sweden",
+                "longitude": 18.8200,
+                "latitude": 68.3560
+            },
+            {
+                "name": "Night Photography Tours",
+                "description": "Join a night photography tour to capture the stunning Northern Lights, guided by expert photographers who know the best viewing spots.",
+                "location": "Abisko, Sweden",
+                "longitude": 18.8170,
+                "latitude": 68.3510
+            },
+            {
+                "name": "National Park Trails",
+                "description": "Explore the trails in Abisko National Park during the day, enjoying the serene Arctic landscapes and local wildlife.",
+                "location": "Abisko National Park, Sweden",
+                "longitude": 18.8150,
+                "latitude": 68.3480
+            },
+            {
+                "name": "Sami Cultural Experience",
+                "description": "Experience the local Sami culture, learning about their traditions, reindeer herding, and enjoying traditional Sami meals.",
+                "location": "Abisko, Sweden",
+                "longitude": 18.8140,
+                "latitude": 68.3520
+            }
+        ]
     },
+
+
     {
         "name": "Exploring the Archipelago of Gothenburg",
         "category": "Leisure",
@@ -27,8 +99,44 @@
         "city": "Gothenburg",
         "longitude": 11.9746,
         "latitude": 57.7089,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to explore the Gothenburg Archipelago is during the late spring to early autumn months, when the weather is warmer and more conducive to outdoor activities and boat trips.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The off-season months can be less ideal for exploring the archipelago due to colder weather and fewer boat services.",
+        "suggested_venues": [
+            {
+                "name": "Boat Tours",
+                "description": "Take a boat tour around the archipelago, offering a chance to see the islands and their natural beauty from the water.",
+                "location": "Gothenburg Archipelago, Sweden",
+                "longitude": 11.9750,
+                "latitude": 57.7090
+            },
+            {
+                "name": "Fishing Villages",
+                "description": "Visit the quaint fishing villages on the islands, where you can enjoy fresh seafood and learn about local life.",
+                "location": "Fishing Villages, Gothenburg Archipelago, Sweden",
+                "longitude": 11.9740,
+                "latitude": 57.7080
+            },
+            {
+                "name": "Hiking and Biking Trails",
+                "description": "Explore the islands' hiking and biking trails, offering scenic routes through forests and along coastlines.",
+                "location": "Trails, Gothenburg Archipelago, Sweden",
+                "longitude": 11.9760,
+                "latitude": 57.7100
+            },
+            {
+                "name": "Beach Relaxation",
+                "description": "Relax on the beaches of the archipelago, enjoying the serene environment and beautiful sea views.",
+                "location": "Beaches, Gothenburg Archipelago, Sweden",
+                "longitude": 11.9730,
+                "latitude": 57.7070
+            }
+        ]
     },
+
+
     {
         "name": "Skiing in Åre",
         "category": "Adventure",
@@ -37,8 +145,44 @@
         "city": "Åre",
         "longitude": 13.081,
         "latitude": 63.3983,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["December", "January", "February", "March", "April"],
+        "best_time_to_go_description": "The best time for skiing in Åre is during the winter months, from December to April, when the area is covered in snow and the ski resorts are fully operational.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October", "November"],
+        "worst_time_to_go_description": "The off-season months are not suitable for skiing as the snow has typically melted and the ski resorts are closed.",
+        "suggested_venues": [
+            {
+                "name": "Åre Ski Resort",
+                "description": "Experience the slopes at Åre Ski Resort, offering a variety of runs for all skill levels, from beginners to advanced skiers.",
+                "location": "Åre Ski Resort, Åre, Sweden",
+                "longitude": 13.0800,
+                "latitude": 63.4000
+            },
+            {
+                "name": "Apres-Ski Entertainment",
+                "description": "Enjoy the vibrant apres-ski scene in Åre, with a selection of bars, restaurants, and clubs for relaxation and entertainment after a day on the slopes.",
+                "location": "Apres-Ski Venues, Åre, Sweden",
+                "longitude": 13.0820,
+                "latitude": 63.3960
+            },
+            {
+                "name": "Ski Schools",
+                "description": "Join a ski school for lessons, whether you're a beginner looking to learn the basics or an experienced skier wanting to improve your skills.",
+                "location": "Ski Schools, Åre, Sweden",
+                "longitude": 13.0815,
+                "latitude": 63.3975
+            },
+            {
+                "name": "Equipment Rentals",
+                "description": "Rent skiing equipment from one of the many rental shops in Åre, offering high-quality gear for all your skiing needs.",
+                "location": "Equipment Rental Shops, Åre, Sweden",
+                "longitude": 13.0795,
+                "latitude": 63.3990
+            }
+        ]
     },
+
+
     {
         "name": "Fika and Swedish Pastry Tasting in Malmö",
         "category": "Gastronomy",
@@ -47,8 +191,44 @@
         "city": "Malmö",
         "longitude": 13.0038,
         "latitude": 55.605,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        "best_time_to_go_description": "Fika can be enjoyed year-round in Malmö, as it's a cherished daily ritual in Swedish culture, perfect for any season, whether indoors during winter or at outdoor cafés in summer.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There is no specific worst time for a fika experience in Malmö, as the city's cafés offer warm, welcoming environments throughout the year.",
+        "suggested_venues": [
+            {
+                "name": "Local Cafés",
+                "description": "Visit local cafés in Malmö known for their fika culture, offering a variety of Swedish pastries like cinnamon buns and cardamom rolls.",
+                "location": "Various Cafés, Malmö, Sweden",
+                "longitude": 13.0040,
+                "latitude": 55.6060
+            },
+            {
+                "name": "Konditori",
+                "description": "Explore traditional Swedish konditori (pastry shops), where you can enjoy freshly baked goods in a classic setting.",
+                "location": "Konditori, Malmö, Sweden",
+                "longitude": 13.0030,
+                "latitude": 55.6040
+            },
+            {
+                "name": "Outdoor Fika Spots",
+                "description": "Enjoy fika at one of the many outdoor spots during the warmer months, where you can soak in the city atmosphere and people-watch.",
+                "location": "Outdoor Fika Spots, Malmö, Sweden",
+                "longitude": 13.0050,
+                "latitude": 55.6055
+            },
+            {
+                "name": "Bakery Tours",
+                "description": "Join a bakery tour to see how traditional Swedish pastries are made and sample a variety of baked goods.",
+                "location": "Bakeries, Malmö, Sweden",
+                "longitude": 13.0025,
+                "latitude": 55.6045
+            }
+        ]
     },
+
+
     {
         "name": "Exploring the Medieval Town of Visby",
         "category": "Culture",
@@ -57,8 +237,44 @@
         "city": "Visby",
         "longitude": 18.2948,
         "latitude": 57.6348,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Visby is during the late spring to early autumn months, when the weather is pleasant for exploring the historic town and its outdoor attractions.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The off-season months can be less ideal due to colder weather, which might affect the enjoyment of outdoor exploration and sightseeing.",
+        "suggested_venues": [
+            {
+                "name": "Visby City Wall",
+                "description": "Explore the Visby City Wall, an impressive medieval fortification surrounding the town, offering great views and a sense of history.",
+                "location": "Visby City Wall, Visby, Sweden",
+                "longitude": 18.2950,
+                "latitude": 57.6350
+            },
+            {
+                "name": "Historic Churches",
+                "description": "Visit the numerous historic churches in Visby, showcasing various architectural styles from the medieval period.",
+                "location": "Historic Churches, Visby, Sweden",
+                "longitude": 18.2940,
+                "latitude": 57.6340
+            },
+            {
+                "name": "Gotland Museum",
+                "description": "Discover the Gotland Museum, which provides insights into the island's history and culture, from the Viking Age to the present.",
+                "location": "Gotland Museum, Visby, Sweden",
+                "longitude": 18.2960,
+                "latitude": 57.6360
+            },
+            {
+                "name": "Botanical Garden",
+                "description": "Relax in the Botanical Garden of Visby, known for its beautiful flowers and tranquil atmosphere.",
+                "location": "Botanical Garden, Visby, Sweden",
+                "longitude": 18.2930,
+                "latitude": 57.6330
+            }
+        ]
     },
+
+
     {
         "name": "Boat Tour in the Stockholm Archipelago",
         "category": "Leisure",
@@ -67,8 +283,44 @@
         "city": "Stockholm",
         "longitude": 18.0686,
         "latitude": 59.3293,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The ideal time for a boat tour in the Stockholm Archipelago is during the late spring to early autumn months, when the weather is suitable for boating and island exploration.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The off-season months can be less suitable for boat tours due to colder weather and rougher sea conditions.",
+        "suggested_venues": [
+            {
+                "name": "Archipelago Boat Tours",
+                "description": "Join guided boat tours to explore various islands of the archipelago, each offering unique landscapes and attractions.",
+                "location": "Stockholm Archipelago, Sweden",
+                "longitude": 18.0700,
+                "latitude": 59.3300
+            },
+            {
+                "name": "Vaxholm",
+                "description": "Visit Vaxholm, a picturesque island known as the gateway to the archipelago, featuring charming houses and a historic fortress.",
+                "location": "Vaxholm, Stockholm Archipelago, Sweden",
+                "longitude": 18.3330,
+                "latitude": 59.4030
+            },
+            {
+                "name": "Fjäderholmarna",
+                "description": "Explore Fjäderholmarna, the closest archipelago island to Stockholm, ideal for a short trip with scenic views and artisan shops.",
+                "location": "Fjäderholmarna, Stockholm Archipelago, Sweden",
+                "longitude": 18.1120,
+                "latitude": 59.3160
+            },
+            {
+                "name": "Grinda",
+                "description": "Discover Grinda, an island with beautiful nature reserves, walking trails, and lovely beaches for swimming and relaxation.",
+                "location": "Grinda, Stockholm Archipelago, Sweden",
+                "longitude": 18.6230,
+                "latitude": 59.4080
+            }
+        ]
     },
+
+
     {
         "name": "Hiking in Sarek National Park",
         "category": "Adventure",
@@ -77,8 +329,44 @@
         "city": "Sarek",
         "longitude": 17.8004,
         "latitude": 67.3596,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The ideal time for hiking in Sarek National Park is during the summer months, when the weather is more stable, and the days are longer, providing ample daylight for hiking and exploration.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April", "May"],
+        "worst_time_to_go_description": "The off-season months are challenging for hiking due to harsh weather conditions, including heavy snowfall and extremely low temperatures, making the trails less accessible.",
+        "suggested_venues": [
+            {
+                "name": "Mountaineering Routes",
+                "description": "Explore various mountaineering routes in the park, offering challenging climbs and stunning views of the surrounding landscape.",
+                "location": "Mountaineering Routes, Sarek National Park, Sweden",
+                "longitude": 17.8010,
+                "latitude": 67.3600
+            },
+            {
+                "name": "Wildlife Watching",
+                "description": "Engage in wildlife watching opportunities in the park, home to species such as reindeer, moose, and the occasional lynx or wolverine.",
+                "location": "Wildlife Areas, Sarek National Park, Sweden",
+                "longitude": 17.8000,
+                "latitude": 67.3590
+            },
+            {
+                "name": "Rapadalen Valley",
+                "description": "Hike through the Rapadalen Valley, known for its unique landscape formations and diverse ecosystems.",
+                "location": "Rapadalen Valley, Sarek National Park, Sweden",
+                "longitude": 17.7990,
+                "latitude": 67.3610
+            },
+            {
+                "name": "Guided Tours",
+                "description": "Join guided tours for a safer and more informed hiking experience, led by experts familiar with the park's terrain and conditions.",
+                "location": "Guided Tour Start Points, Sarek National Park, Sweden",
+                "longitude": 17.8005,
+                "latitude": 67.3580
+            }
+        ]
     },
+
+
     {
         "name": "Cultural Tour of Uppsala",
         "category": "Culture",
@@ -87,8 +375,44 @@
         "city": "Uppsala",
         "longitude": 17.6389,
         "latitude": 59.8586,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Uppsala for a cultural tour is during the late spring to early autumn months, offering pleasant weather for walking around the city and visiting its historical sites.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The colder months can be less ideal for outdoor exploration due to chilly weather, though the city's cultural attractions remain open and can be enjoyed year-round.",
+        "suggested_venues": [
+            {
+                "name": "Uppsala University",
+                "description": "Visit Uppsala University, the oldest university in Scandinavia, known for its beautiful library and historic buildings.",
+                "location": "Uppsala University, Uppsala, Sweden",
+                "longitude": 17.6360,
+                "latitude": 59.8570
+            },
+            {
+                "name": "Uppsala Cathedral",
+                "description": "Explore Uppsala Cathedral, a significant religious and historical site in Sweden, with stunning Gothic architecture.",
+                "location": "Uppsala Cathedral, Uppsala, Sweden",
+                "longitude": 17.6350,
+                "latitude": 59.8580
+            },
+            {
+                "name": "Gustavianum Museum",
+                "description": "Discover the Gustavianum Museum, showcasing the university's collections and the history of Uppsala.",
+                "location": "Gustavianum Museum, Uppsala, Sweden",
+                "longitude": 17.6390,
+                "latitude": 59.8575
+            },
+            {
+                "name": "Botanical Gardens",
+                "description": "Relax in the Botanical Gardens of Uppsala, a peaceful and beautiful spot for nature lovers.",
+                "location": "Botanical Gardens, Uppsala, Sweden",
+                "longitude": 17.6400,
+                "latitude": 59.8590
+            }
+        ]
     },
+
+
     {
         "name": "Exploring the Icehotel in Jukkasjärvi",
         "category": "Leisure",
@@ -97,6 +421,40 @@
         "city": "Jukkasjärvi",
         "longitude": 20.6028,
         "latitude": 67.8557,
-        "cost": "$$$"
-    }
+        "cost": "$$$",
+        "best_time_to_go": ["December", "January", "February", "March", "April"],
+        "best_time_to_go_description": "The best time to visit the Icehotel is during the winter months, when the structure is fully formed and the surrounding landscape is covered in snow, offering the full Arctic experience.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October", "November"],
+        "worst_time_to_go_description": "The off-season months are less ideal for visiting the Icehotel, as the hotel melts and is not available for guests or tours.",
+        "suggested_venues": [
+            {
+                "name": "Icehotel Tour",
+                "description": "Take a guided tour of the Icehotel, exploring its intricately designed rooms, ice sculptures, and unique art installations.",
+                "location": "Icehotel, Jukkasjärvi, Sweden",
+                "longitude": 20.6030,
+                "latitude": 67.8560
+            },
+            {
+                "name": "Icebar Experience",
+                "description": "Enjoy a drink at the Icebar, where the glasses and the bar itself are made entirely of ice.",
+                "location": "Icebar, Icehotel, Jukkasjärvi, Sweden",
+                "longitude": 20.6025,
+                "latitude": 67.8555
+            },
+            {
+                "name": "Overnight Stay",
+                "description": "Experience staying overnight in one of the ice rooms or suites, offering a unique and memorable accommodation experience.",
+                "location": "Icehotel, Jukkasjärvi, Sweden",
+                "longitude": 20.6040,
+                "latitude": 67.8565
+            },
+            {
+                "name": "Northern Lights Excursions",
+                "description": "Participate in Northern Lights excursions organized by the Icehotel, providing opportunities to witness the magnificent auroras.",
+                "location": "Icehotel, Jukkasjärvi, Sweden",
+                "longitude": 20.6010,
+                "latitude": 67.8540
+            }
+        ]
+    }    
 ]
