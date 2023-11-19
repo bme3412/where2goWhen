@@ -393,6 +393,25 @@
         >
           Germany
         </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Netherlands','Europe')"
+          style="
+            background-image: url('assets/images/flags/netherlands_flag.png');
+          "
+        >
+          Netherlands
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Portugal','Europe')"
+          style="background-image: url('assets/images/flags/portugal_flag.png')"
+        >
+          Portugal
+        </button>
+
         <button
           class="country-button"
           onclick="toggleCountry('Albania','Europe')"
@@ -415,6 +434,14 @@
           style="background-image: url('assets/images/flags/armenia_flag.png')"
         >
           Armenia
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Austria','Europe')"
+          style="background-image: url('assets/images/flags/austria_flag.png')"
+        >
+          Austria
         </button>
 
         <button
@@ -461,6 +488,14 @@
 
         <button
           class="country-button"
+          onclick="toggleCountry('Croatia','Europe')"
+          style="background-image: url('assets/images/flags/croatia_flag.png')"
+        >
+          Croatia
+        </button>
+
+        <button
+          class="country-button"
           onclick="toggleCountry('Cyprus','Europe')"
           style="background-image: url('assets/images/flags/cyprus_flag.png')"
         >
@@ -475,14 +510,6 @@
           "
         >
           Czech Republic
-        </button>
-
-        <button
-          class="country-button"
-          onclick="toggleCountry('Croatia','Europe')"
-          style="background-image: url('assets/images/flags/croatia_flag.png')"
-        >
-          Croatia
         </button>
 
         <button
@@ -586,14 +613,14 @@
         </button>
 
         <button
-        class="country-button"
-        onclick="toggleCountry('Lithuania','Europe')"
-        style="
-          background-image: url('assets/images/flags/lithuania_flag.png');
-        "
-      >
-        Lithuania
-      </button>
+          class="country-button"
+          onclick="toggleCountry('Lithuania','Europe')"
+          style="
+            background-image: url('assets/images/flags/lithuania_flag.png');
+          "
+        >
+          Lithuania
+        </button>
 
         <button
           class="country-button"
@@ -651,6 +678,14 @@
 
         <button
           class="country-button"
+          onclick="toggleCountry('Norway','Europe')"
+          style="background-image: url('assets/images/flags/norway_flag.png')"
+        >
+          Norway
+        </button>
+
+        <button
+          class="country-button"
           onclick="toggleCountry('Poland','Europe')"
           style="background-image: url('assets/images/flags/poland_flag.png')"
         >
@@ -663,50 +698,6 @@
           style="background-image: url('assets/images/flags/romania_flag.png')"
         >
           Romania
-        </button>
-
-        <button
-          class="country-button"
-          onclick="toggleCountry('Netherlands','Europe')"
-          style="
-            background-image: url('assets/images/flags/netherlands_flag.png');
-          "
-        >
-          Netherlands
-        </button>
-
-        <button
-          class="country-button"
-          onclick="toggleCountry('Norway','Europe')"
-          style="background-image: url('assets/images/flags/norway_flag.png')"
-        >
-          Norway
-        </button>
-
-        <button
-          class="country-button"
-          onclick="toggleCountry('Portugal','Europe')"
-          style="background-image: url('assets/images/flags/portugal_flag.png')"
-        >
-          Portugal
-        </button>
-
-        <button
-          class="country-button"
-          onclick="toggleCountry('Sweden','Europe')"
-          style="background-image: url('assets/images/flags/sweden_flag.png')"
-        >
-          Sweden
-        </button>
-
-        <button
-          class="country-button"
-          onclick="toggleCountry('Switzerland','Europe')"
-          style="
-            background-image: url('assets/images/flags/switzerland_flag.png');
-          "
-        >
-          Switzerland
         </button>
 
         <button
@@ -745,6 +736,24 @@
 
         <button
           class="country-button"
+          onclick="toggleCountry('Sweden','Europe')"
+          style="background-image: url('assets/images/flags/sweden_flag.png')"
+        >
+          Sweden
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Switzerland','Europe')"
+          style="
+            background-image: url('assets/images/flags/switzerland_flag.png');
+          "
+        >
+          Switzerland
+        </button>
+
+        <button
+          class="country-button"
           onclick="toggleCountry('Turkey','Europe')"
           style="background-image: url('assets/images/flags/turkey_flag.png')"
         >
@@ -763,14 +772,6 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Ukraine','Europe')"
-          style="background-image: url('assets/images/flags/ukraine_flag.png')"
-        >
-          Ukraine
-        </button>
-
-        <button
-          class="country-button"
           onclick="toggleCountry('Vatican','Europe')"
           style="background-image: url('assets/images/flags/vatican_flag.png')"
         >
@@ -779,6 +780,7 @@
 
         <!-- Add more buttons as needed -->
       </div>
+
       <!-- Latin America button -->
       <button
         class="continent-button"
@@ -790,24 +792,82 @@
         Latin America
       </button>
 
-      <div id="LatinAmerica-country-buttons" style="display: none">
+      <!-- Latin America country buttons, initially hidden -->
+      <div
+        id="LatinAmerica-country-buttons"
+        class="country-buttons"
+        style="display: block; overflow-y: auto; max-height: 300px"
+      >
         <!-- Add buttons for Latin American countries here -->
         <button
           class="country-button"
-          onclick="toggleCountry('Brazil')"
-          style="background-image: url('assets/images/flags/brazil_flag.png')"
-        >
-          Brazil
-        </button>
-        <button
-          class="country-button"
-          onclick="toggleCountry('Argentina')"
+          onclick="toggleCountry('Argentina','LatinAmerica')"
           style="
             background-image: url('assets/images/flags/argentina_flag.png');
           "
         >
           Argentina
         </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Bolivia','LatinAmerica')"
+          style="
+            background-image: url('assets/images/flags/bolivia_flag.png');
+          "
+        >
+          Bolivia
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Brazil','Latin_America')"
+          style="background-image: url('assets/images/flags/brazil_flag.png')"
+        >
+          Brazil
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Chile','Latin_America')"
+          style="background-image: url('assets/images/flags/chile_flag.png')"
+        >
+          Chile
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Colombia','Latin_America')"
+          style="background-image: url('assets/images/flags/colombia_flag.png')"
+        >
+          Colombia
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Ecuador','Latin_America')"
+          style="background-image: url('assets/images/flags/ecuador_flag.png')"
+        >
+          Ecuador
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Guyana','Latin_America')"
+          style="background-image: url('assets/images/flags/guyana_flag.png')"
+        >
+          Guyana
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Paraguay','Latin_America')"
+          style="background-image: url('assets/images/flags/paraguay_flag.png')"
+        >
+          Paraguay
+        </button>
+        
+
         <button
           class="country-button"
           onclick="toggleCountry('Peru')"
@@ -815,7 +875,32 @@
         >
           Peru
         </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Suriname','Latin_America')"
+          style="background-image: url('assets/images/flags/suriname_flag.png')"
+        >
+          Suriname
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Uruguay','Latin_America')"
+          style="background-image: url('assets/images/flags/uruguay_flag.png')"
+        >
+          Uruguay
+        </button>
+
+        <button
+          class="country-button"
+          onclick="toggleCountry('Venezuela','Latin_America')"
+          style="background-image: url('assets/images/flags/venezuela_flag.png')"
+        >
+          Venezuela
+        </button>
       </div>
+
       <!-- Pacific button -->
       <button
         class="continent-button"
@@ -953,13 +1038,25 @@
           style="display: none"
         ></div>
         <div id="Turkey" class="country-container" style="display: none"></div>
-        <div id="Ukraine" class="country-container" style="display: none"></div>
+
         <div
           id="UnitedKingdom"
           class="country-container"
           style="display: none"
         ></div>
         <div id="Vatican" class="country-container" style="display: none"></div>
+        <div id="Argentina" class="country-container" style="display: none"></div>
+        <div id="Bolivia" class="country-container" style="display: none"></div>
+        <div id="Brazil" class="country-container" style="display: none"></div>
+        <div id="Chile" class="country-container" style="display: none"></div>
+        <div id="Colombia" class="country-container" style="display: none"></div>
+        <div id="Ecuador" class="country-container" style="display: none"></div>
+        <div id="Guyana" class="country-container" style="display: none"></div>
+        <div id="Paraguay" class="country-container" style="display: none"></div>
+        <div id="Peru" class="country-container" style="display: none"></div>
+        <div id="Suriname" class="country-container" style="display: none"></div>
+        <div id="Uruguay" class="country-container" style="display: none"></div>
+        <div id="Venezuela" class="country-container" style="display: none"></div>
       </div>
 
       <div id="map" style="height: 400px; width: 50%"></div>
