@@ -7,8 +7,44 @@
         "city": "London",
         "longitude": -0.1269,
         "latitude": 51.5194,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["January", "February", "November", "December"],
+        "best_time_to_go_description": "The winter months are less crowded, offering a more peaceful experience. The museum's indoor setting makes it a great year-round destination.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "Summer brings larger crowds, making it more difficult to navigate the museum and view popular exhibits.",
+        "suggested_venues": [
+            {
+                "name": "Rosetta Stone",
+                "description": "View the famous Rosetta Stone, a key to deciphering Egyptian hieroglyphs, housed in the museum's Egyptian collection.",
+                "location": "British Museum, London, UK",
+                "longitude": -0.1270,
+                "latitude": 51.5193
+            },
+            {
+                "name": "Elgin Marbles",
+                "description": "Explore the Elgin Marbles, a collection of classical Greek marble sculptures that once adorned the Parthenon in Athens.",
+                "location": "British Museum, London, UK",
+                "longitude": -0.1271,
+                "latitude": 51.5195
+            },
+            {
+                "name": "Sutton Hoo Exhibition",
+                "description": "Discover the Sutton Hoo Exhibition, showcasing one of the greatest treasures ever found in the UK, including an Anglo-Saxon ship burial.",
+                "location": "British Museum, London, UK",
+                "longitude": -0.1272,
+                "latitude": 51.5196
+            },
+            {
+                "name": "Assyrian Lion Hunt Reliefs",
+                "description": "Admire the Assyrian Lion Hunt reliefs, which depict the royal lion hunts of Assyrian kings, renowned for their artistic detail.",
+                "location": "British Museum, London, UK",
+                "longitude": -0.1273,
+                "latitude": 51.5197
+            }
+        ]
     },
+
+
     {
         "name": "Explore Edinburgh Castle",
         "category": "History",
@@ -17,8 +53,44 @@
         "city": "Edinburgh",
         "longitude": -3.2000,
         "latitude": 55.9486,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "September", "October"],
+        "best_time_to_go_description": "These months offer a balance of pleasant weather and fewer tourists, making it ideal for exploring the castle and its surroundings.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "Summer months can be quite crowded due to tourist season and local festivals, which might affect the visiting experience.",
+        "suggested_venues": [
+            {
+                "name": "Crown Jewels Exhibition",
+                "description": "View the Scottish Crown Jewels, including the famous Stone of Destiny, an ancient symbol of Scotland’s monarchy.",
+                "location": "Edinburgh Castle, Edinburgh, UK",
+                "longitude": -3.1999,
+                "latitude": 55.9485
+            },
+            {
+                "name": "Mons Meg",
+                "description": "See Mons Meg, one of the world's oldest cannons, which dates back to the 15th century and was a gift to King James II.",
+                "location": "Edinburgh Castle, Edinburgh, UK",
+                "longitude": -3.2001,
+                "latitude": 55.9487
+            },
+            {
+                "name": "St Margaret’s Chapel",
+                "description": "Visit St Margaret’s Chapel, the oldest surviving building in Edinburgh, offering a glimpse into medieval religious life.",
+                "location": "Edinburgh Castle, Edinburgh, UK",
+                "longitude": -3.2002,
+                "latitude": 55.9488
+            },
+            {
+                "name": "National War Museum",
+                "description": "Explore the National War Museum within the castle, showcasing Scotland’s military history from the 17th century to the present.",
+                "location": "Edinburgh Castle, Edinburgh, UK",
+                "longitude": -3.2003,
+                "latitude": 55.9489
+            }
+        ]
     },
+
+
     {
         "name": "Stonehenge Experience",
         "category": "History",
@@ -27,8 +99,44 @@
         "city": "Wiltshire",
         "longitude": -1.8262,
         "latitude": 51.1789,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "September", "October"],
+        "best_time_to_go_description": "The mild weather in spring and autumn makes it a comfortable time for visiting, with fewer crowds compared to the peak summer months.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter months can be very cold and have shorter daylight hours, which might affect the visiting experience.",
+        "suggested_venues": [
+            {
+                "name": "Stone Circle",
+                "description": "Explore the iconic stone circle and immerse yourself in the mystery and history of this ancient wonder.",
+                "location": "Stonehenge, Wiltshire, UK",
+                "longitude": -1.8263,
+                "latitude": 51.1790
+            },
+            {
+                "name": "Visitor Centre",
+                "description": "Visit the world-class visitor centre to discover more about Stonehenge through its exhibitions, including ancient objects and archaeological findings.",
+                "location": "Stonehenge, Wiltshire, UK",
+                "longitude": -1.8261,
+                "latitude": 51.1788
+            },
+            {
+                "name": "Neolithic Houses",
+                "description": "See the reconstructed Neolithic houses, offering insights into the lives of the people who built Stonehenge.",
+                "location": "Stonehenge, Wiltshire, UK",
+                "longitude": -1.8264,
+                "latitude": 51.1791
+            },
+            {
+                "name": "Audio Guide Tour",
+                "description": "Take an audio guide tour to learn about the many theories surrounding Stonehenge, from its construction to its purpose.",
+                "location": "Stonehenge, Wiltshire, UK",
+                "longitude": -1.8265,
+                "latitude": 51.1792
+            }
+        ]
     },
+
+
     {
         "name": "Lake District National Park Hiking",
         "category": "Nature",
@@ -37,8 +145,44 @@
         "city": "Lake District",
         "longitude": -3.0738,
         "latitude": 54.4609,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "These months offer milder weather and fewer crowds, providing an ideal setting for hiking and enjoying the natural beauty.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can bring challenging weather conditions, including snow and rain, making hiking trails less accessible and more dangerous.",
+        "suggested_venues": [
+            {
+                "name": "Scafell Pike",
+                "description": "Challenge yourself with a hike up Scafell Pike, the highest mountain in England and a popular destination for hikers.",
+                "location": "Lake District National Park, UK",
+                "longitude": -3.2116,
+                "latitude": 54.4542
+            },
+            {
+                "name": "Windermere Lake",
+                "description": "Enjoy scenic walks around Windermere, the largest natural lake in England, offering beautiful views and tranquil paths.",
+                "location": "Lake District National Park, UK",
+                "longitude": -2.9400,
+                "latitude": 54.3803
+            },
+            {
+                "name": "Derwentwater",
+                "description": "Explore the area around Derwentwater, known for its stunning scenery and association with Beatrix Potter and William Wordsworth.",
+                "location": "Lake District National Park, UK",
+                "longitude": -3.1347,
+                "latitude": 54.5762
+            },
+            {
+                "name": "Grasmere",
+                "description": "Visit Grasmere, famous for its literary history and charming village, surrounded by beautiful trails and landscapes.",
+                "location": "Lake District National Park, UK",
+                "longitude": -3.0275,
+                "latitude": 54.4597
+            }
+        ]
     },
+
+
     {
         "name": "Tour the Tower of London",
         "category": "History",
@@ -47,8 +191,44 @@
         "city": "London",
         "longitude": -0.0761,
         "latitude": 51.5081,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["January", "February", "November", "December"],
+        "best_time_to_go_description": "Visiting in the quieter winter months allows for a more intimate experience without the peak season crowds.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "Summer months can be very crowded, making it difficult to fully enjoy the tours and exhibits.",
+        "suggested_venues": [
+            {
+                "name": "The Crown Jewels",
+                "description": "View the magnificent Crown Jewels, a collection of royal regalia and symbols of the British monarchy.",
+                "location": "Tower of London, London, UK",
+                "longitude": -0.0762,
+                "latitude": 51.5080
+            },
+            {
+                "name": "White Tower",
+                "description": "Explore the White Tower, a historic building famous for its architecture and role in British history.",
+                "location": "Tower of London, London, UK",
+                "longitude": -0.0760,
+                "latitude": 51.5082
+            },
+            {
+                "name": "Medieval Palace",
+                "description": "Discover the Medieval Palace, offering a glimpse into the lives of past kings and queens who resided in the Tower.",
+                "location": "Tower of London, London, UK",
+                "longitude": -0.0763,
+                "latitude": 51.5083
+            },
+            {
+                "name": "Yeoman Warder Tour",
+                "description": "Join the famous Yeoman Warder (Beefeater) tour to hear fascinating stories about the Tower's history and its infamous prisoners.",
+                "location": "Tower of London, London, UK",
+                "longitude": -0.0759,
+                "latitude": 51.5079
+            }
+        ]
     },
+
+
     {
         "name": "Giant's Causeway Visit",
         "category": "Nature",
@@ -57,8 +237,44 @@
         "city": "Antrim",
         "longitude": -6.5146,
         "latitude": 55.2408,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "Spring and early autumn are ideal for visiting, offering mild weather and fewer tourists for a more serene experience.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter months can be very cold and wet, potentially impacting the accessibility and enjoyment of the outdoor site.",
+        "suggested_venues": [
+            {
+                "name": "Basalt Columns",
+                "description": "Explore the famous basalt columns, formed by volcanic activity, and marvel at this natural wonder.",
+                "location": "Giant's Causeway, Antrim, Northern Ireland",
+                "longitude": -6.5147,
+                "latitude": 55.2409
+            },
+            {
+                "name": "Causeway Visitor Centre",
+                "description": "Visit the visitor centre to learn about the geology, mythology, and history of the Giant's Causeway.",
+                "location": "Giant's Causeway, Antrim, Northern Ireland",
+                "longitude": -6.5145,
+                "latitude": 55.2407
+            },
+            {
+                "name": "Clifftop Experience Walk",
+                "description": "Take a guided clifftop walk for breathtaking views of the Causeway coastline and the surrounding landscape.",
+                "location": "Giant's Causeway, Antrim, Northern Ireland",
+                "longitude": -6.5148,
+                "latitude": 55.2410
+            },
+            {
+                "name": "Shepherd's Steps",
+                "description": "Climb the Shepherd's Steps to get a panoramic view of the Giant's Causeway and the North Atlantic Ocean.",
+                "location": "Giant's Causeway, Antrim, Northern Ireland",
+                "longitude": -6.5144,
+                "latitude": 55.2406
+            }
+        ]
     },
+
+
     {
         "name": "Stratford-upon-Avon Shakespeare Tour",
         "category": "Culture",
@@ -67,8 +283,44 @@
         "city": "Stratford-upon-Avon",
         "longitude": -1.7073,
         "latitude": 52.1917,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "Visiting in the late spring or early autumn allows for comfortable weather and smaller crowds, ideal for exploring the historic sites.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "These peak tourist months can see larger crowds, particularly at key Shakespearean sites, which might affect the quality of your visit.",
+        "suggested_venues": [
+            {
+                "name": "Shakespeare's Birthplace",
+                "description": "Explore the house where William Shakespeare was born and raised, and delve into his early life.",
+                "location": "Stratford-upon-Avon, UK",
+                "longitude": -1.7075,
+                "latitude": 52.1919
+            },
+            {
+                "name": "Royal Shakespeare Theatre",
+                "description": "Visit this iconic theatre to see a Shakespeare play or to simply enjoy the building's history and architecture.",
+                "location": "Stratford-upon-Avon, UK",
+                "longitude": -1.7071,
+                "latitude": 52.1915
+            },
+            {
+                "name": "Anne Hathaway's Cottage",
+                "description": "Tour the charming cottage where Shakespeare's wife, Anne Hathaway, lived before their marriage.",
+                "location": "Stratford-upon-Avon, UK",
+                "longitude": -1.7074,
+                "latitude": 52.1918
+            },
+            {
+                "name": "Holy Trinity Church",
+                "description": "Visit the church where Shakespeare was baptized and buried, featuring a bust believed to be a true likeness of the playwright.",
+                "location": "Stratford-upon-Avon, UK",
+                "longitude": -1.7072,
+                "latitude": 52.1916
+            }
+        ]
     },
+
+
     {
         "name": "Bath Roman Baths and City Tour",
         "category": "History",
@@ -77,8 +329,44 @@
         "city": "Bath",
         "longitude": -2.3590,
         "latitude": 51.3813,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "Visiting in the late spring or early autumn offers pleasant weather and fewer tourists, allowing for a more relaxed exploration of the city and its historical sites.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "Summer months can be crowded with tourists, which may impact the ability to fully enjoy the Baths and other attractions.",
+        "suggested_venues": [
+            {
+                "name": "Roman Baths",
+                "description": "Explore the well-preserved Roman Baths complex, one of the greatest religious spas of the ancient world.",
+                "location": "Bath, UK",
+                "longitude": -2.3591,
+                "latitude": 51.3814
+            },
+            {
+                "name": "Bath Abbey",
+                "description": "Visit the historic Bath Abbey, a stunning example of Gothic architecture and the site of the coronation of the first king of England.",
+                "location": "Bath, UK",
+                "longitude": -2.3589,
+                "latitude": 51.3812
+            },
+            {
+                "name": "Pulteney Bridge",
+                "description": "See Pulteney Bridge, renowned for its shops built across its full span on both sides, a rare feature among bridges.",
+                "location": "Bath, UK",
+                "longitude": -2.3588,
+                "latitude": 51.3811
+            },
+            {
+                "name": "Royal Crescent",
+                "description": "Stroll along the Royal Crescent, a row of 30 terraced houses laid out in a sweeping crescent, one of the greatest examples of Georgian architecture.",
+                "location": "Bath, UK",
+                "longitude": -2.3592,
+                "latitude": 51.3815
+            }
+        ]
     },
+
+
     {
         "name": "York Minster and Medieval Streets",
         "category": "History",
@@ -87,8 +375,44 @@
         "city": "York",
         "longitude": -1.0808,
         "latitude": 53.9623,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["March", "April", "September", "October"],
+        "best_time_to_go_description": "The spring and autumn months offer mild weather and fewer crowds, allowing for a more enjoyable and leisurely exploration of the cathedral and streets.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be quite cold in York, which might make walking through the medieval streets less comfortable.",
+        "suggested_venues": [
+            {
+                "name": "York Minster",
+                "description": "Visit the magnificent York Minster, known for its stunning gothic architecture, stained glass windows, and historical significance.",
+                "location": "York, UK",
+                "longitude": -1.0809,
+                "latitude": 53.9624
+            },
+            {
+                "name": "The Shambles",
+                "description": "Stroll through The Shambles, an old street with overhanging timber-framed buildings, some dating back to the 14th century.",
+                "location": "York, UK",
+                "longitude": -1.0807,
+                "latitude": 53.9622
+            },
+            {
+                "name": "York City Walls",
+                "description": "Walk along the historic York City Walls, the longest medieval town walls in England, offering scenic views of the city.",
+                "location": "York, UK",
+                "longitude": -1.0810,
+                "latitude": 53.9625
+            },
+            {
+                "name": "Clifford's Tower",
+                "description": "Explore Clifford's Tower, the remains of York Castle and a symbol of power during the medieval times.",
+                "location": "York, UK",
+                "longitude": -1.0811,
+                "latitude": 53.9626
+            }
+        ]
     },
+
+
     {
         "name": "Snowdonia National Park Adventure",
         "category": "Nature",
@@ -97,6 +421,40 @@
         "city": "Snowdonia",
         "longitude": -4.0767,
         "latitude": 52.9180,
-        "cost": "$"
-    }
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "These months offer ideal hiking weather with less rain and mild temperatures, perfect for exploring the park's natural beauty.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter can be harsh in the park, with snow and cold temperatures making hiking and outdoor activities challenging.",
+        "suggested_venues": [
+            {
+                "name": "Mount Snowdon",
+                "description": "Hike up Mount Snowdon, the highest mountain in Wales, offering stunning views from the summit.",
+                "location": "Snowdonia National Park, Wales, UK",
+                "longitude": -4.0777,
+                "latitude": 52.9181
+            },
+            {
+                "name": "Betws-y-Coed",
+                "description": "Visit the picturesque village of Betws-y-Coed, surrounded by dense woodland and magnificent natural scenery.",
+                "location": "Snowdonia National Park, Wales, UK",
+                "longitude": -4.0766,
+                "latitude": 52.9179
+            },
+            {
+                "name": "Swallow Falls",
+                "description": "See Swallow Falls, one of the most beautiful waterfalls in Wales, located near Betws-y-Coed.",
+                "location": "Snowdonia National Park, Wales, UK",
+                "longitude": -4.0768,
+                "latitude": 52.9182
+            },
+            {
+                "name": "Zip World Adventure",
+                "description": "Experience the thrill of Zip World, home to the fastest zip line in the world and a range of adventure activities.",
+                "location": "Snowdonia National Park, Wales, UK",
+                "longitude": -4.0765,
+                "latitude": 52.9178
+            }
+        ]
+    }    
 ]
