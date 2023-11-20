@@ -7,7 +7,34 @@
         "city": "Vienna",
         "longitude": 16.3119,
         "latitude": 48.1845,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Schönbrunn Palace is during the spring months of April to June and the early autumn months of September and October. These times offer mild weather and the palace gardens are in full bloom, enhancing the beauty of the visit.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months from December to February can be cold and less pleasant for exploring the outdoor aspects of the palace and its gardens.",
+        "suggested_venues": [
+            {
+                "name": "Palace Tours",
+                "description": "Guided tours of Schönbrunn Palace, offering insights into the history, architecture, and the lives of its former royal residents.",
+                "location": "Schönbrunn Palace, Vienna, Austria",
+                "longitude": 16.3120,
+                "latitude": 48.1850
+            },
+            {
+                "name": "Palace Gardens",
+                "description": "Extensive gardens surrounding the palace, featuring beautifully landscaped lawns, fountains, and the Gloriette with panoramic views of Vienna.",
+                "location": "Palace Gardens, Schönbrunn Palace, Vienna, Austria",
+                "longitude": 16.3100,
+                "latitude": 48.1840
+            },
+            {
+                "name": "Schönbrunn Zoo",
+                "description": "The world's oldest continuously operating zoo, located on the palace grounds, home to a variety of animals and unique historical enclosures.",
+                "location": "Schönbrunn Zoo, Vienna, Austria",
+                "longitude": 16.3050,
+                "latitude": 48.1820
+            }
+        ]
     },
     {
         "name": "Skiing in Tyrol",
@@ -17,8 +44,37 @@
         "city": "Innsbruck",
         "longitude": 11.4041,
         "latitude": 47.2692,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["December", "January", "February", "March"],
+        "best_time_to_go_description": "The ideal time for skiing in Tyrol is during the winter months from December to March, when the region is blanketed in snow, offering excellent conditions for skiing and other winter sports.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "The summer months from June to August are not suitable for skiing as the snow has typically melted and ski resorts are closed.",
+        "suggested_venues": [
+            {
+                "name": "Nordkette Ski Resort",
+                "description": "A popular ski resort in Tyrol, accessible from Innsbruck, known for its challenging slopes and spectacular mountain views.",
+                "location": "Nordkette Ski Resort, near Innsbruck, Austria",
+                "longitude": 11.3830,
+                "latitude": 47.3120
+            },
+            {
+                "name": "Stubai Glacier",
+                "description": "One of the largest glacier ski resorts in Austria, offering a variety of slopes for all skill levels and a longer skiing season.",
+                "location": "Stubai Glacier, near Innsbruck, Austria",
+                "longitude": 11.1040,
+                "latitude": 47.1090
+            },
+            {
+                "name": "Ski School and Rental Shops",
+                "description": "Facilities offering ski lessons for beginners and equipment rentals for all levels of skiers.",
+                "location": "Ski Schools and Rental Shops, Innsbruck, Austria",
+                "longitude": 11.4000,
+                "latitude": 47.2650
+            }
+        ]
     },
+
+
     {
         "name": "Exploring Salzburg's Old Town",
         "category": "Culture",
@@ -27,8 +83,36 @@
         "city": "Salzburg",
         "longitude": 13.0430,
         "latitude": 47.8095,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The ideal time to explore Salzburg's Old Town is during the spring and early autumn months of April to June and September to October. These periods offer pleasant weather and fewer crowds, making it more enjoyable to wander through the historic streets and visit cultural sites.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months can be cold and less comfortable for walking tours, although the Christmas season does offer unique festive attractions.",
+        "suggested_venues": [
+            {
+                "name": "Mozart's Birthplace",
+                "description": "The house where Wolfgang Amadeus Mozart was born, now a museum showcasing his life and works.",
+                "location": "Mozart's Birthplace, Salzburg, Austria",
+                "longitude": 13.0450,
+                "latitude": 47.8100
+            },
+            {
+                "name": "Hohensalzburg Fortress",
+                "description": "A historic fortress overlooking the city, offering panoramic views and a glimpse into Salzburg's past.",
+                "location": "Hohensalzburg Fortress, Salzburg, Austria",
+                "longitude": 13.0460,
+                "latitude": 47.7950
+            },
+            {
+                "name": "Getreidegasse",
+                "description": "A bustling shopping street in the Old Town, known for its traditional signs and charming architecture.",
+                "location": "Getreidegasse, Salzburg, Austria",
+                "longitude": 13.0420,
+                "latitude": 47.8000
+            }
+        ]
     },
+
     {
         "name": "Touring the Vienna State Opera",
         "category": "Culture",
@@ -37,8 +121,37 @@
         "city": "Vienna",
         "longitude": 16.3721,
         "latitude": 48.2031,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "September", "October", "November"],
+        "best_time_to_go_description": "The best time to visit the Vienna State Opera is during the spring and autumn months, from April to June and September to November. These periods offer mild weather and a full schedule of opera performances and guided tours.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The summer months of July and August are often the opera's off-season, with fewer performances and tours available.",
+        "suggested_venues": [
+            {
+                "name": "Vienna State Opera House",
+                "description": "The main attraction, offering guided tours that include access to the auditorium, backstage areas, and the exquisite foyer.",
+                "location": "Vienna State Opera, Vienna, Austria",
+                "longitude": 16.3725,
+                "latitude": 48.2035
+            },
+            {
+                "name": "Opera Museum",
+                "description": "A museum within the opera house, showcasing the history and art of the Vienna State Opera and its productions.",
+                "location": "Opera Museum, Vienna State Opera, Vienna, Austria",
+                "longitude": 16.3723,
+                "latitude": 48.2033
+            },
+            {
+                "name": "Nearby Cafes",
+                "description": "Cafes in the vicinity of the opera house, perfect for discussing the tour over a traditional Viennese coffee.",
+                "location": "Cafes near Vienna State Opera, Vienna, Austria",
+                "longitude": 16.3710,
+                "latitude": 48.2020
+            }
+        ]
     },
+
+
     {
         "name": "Hiking in the Austrian Alps",
         "category": "Nature",
@@ -47,8 +160,37 @@
         "city": "Zell am See",
         "longitude": 12.7969,
         "latitude": 47.3235,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The ideal time for hiking in the Austrian Alps is during the summer months from June to September, when the weather is warm, the trails are accessible, and the alpine meadows are in full bloom.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months from December to February are less suitable for hiking due to heavy snowfall, cold temperatures, and trails being used primarily for winter sports.",
+        "suggested_venues": [
+            {
+                "name": "Hohe Tauern National Park",
+                "description": "A national park in the Alps offering a range of hiking trails through stunning mountainous landscapes and diverse flora and fauna.",
+                "location": "Hohe Tauern National Park, near Zell am See, Austria",
+                "longitude": 12.8000,
+                "latitude": 47.3200
+            },
+            {
+                "name": "Kaprun High Mountain Reservoirs",
+                "description": "A hiking destination featuring impressive reservoirs, panoramic views, and engineering marvels amidst the mountains.",
+                "location": "Kaprun High Mountain Reservoirs, near Zell am See, Austria",
+                "longitude": 12.7600,
+                "latitude": 47.2500
+            },
+            {
+                "name": "Krimml Waterfalls",
+                "description": "The highest waterfalls in Austria, providing a breathtaking backdrop for hiking and nature photography.",
+                "location": "Krimml Waterfalls, near Zell am See, Austria",
+                "longitude": 12.1700,
+                "latitude": 47.2200
+            }
+        ]
     },
+
+
     {
         "name": "Exploring Hallstatt",
         "category": "Leisure",
@@ -57,8 +199,37 @@
         "city": "Hallstatt",
         "longitude": 13.6493,
         "latitude": 47.5622,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The best time to visit Hallstatt is during the spring and early autumn months of April to June and September to October. These periods offer pleasant weather and fewer tourists, allowing for a more tranquil exploration of the village.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak tourist season in July and August can be overcrowded, which may detract from the peaceful and picturesque experience of Hallstatt.",
+        "suggested_venues": [
+            {
+                "name": "Hallstatt Lakefront",
+                "description": "The scenic lakefront area, offering beautiful views of the lake and the surrounding mountains, perfect for leisurely walks and photography.",
+                "location": "Hallstatt Lakefront, Hallstatt, Austria",
+                "longitude": 13.6500,
+                "latitude": 47.5600
+            },
+            {
+                "name": "Hallstatt Salt Mine",
+                "description": "A historic salt mine near the village, providing unique underground tours and insights into the town's ancient salt mining history.",
+                "location": "Hallstatt Salt Mine, Hallstatt, Austria",
+                "longitude": 13.6550,
+                "latitude": 47.5600
+            },
+            {
+                "name": "Market Square",
+                "description": "The charming central square of Hallstatt, lined with cafes, shops, and traditional buildings, reflecting the village's heritage.",
+                "location": "Market Square, Hallstatt, Austria",
+                "longitude": 13.6480,
+                "latitude": 47.5620
+            }
+        ]
     },
+
+
     {
         "name": "Wine Tasting in Wachau Valley",
         "category": "Gastronomy",
@@ -67,8 +238,37 @@
         "city": "Krems",
         "longitude": 15.5988,
         "latitude": 48.4092,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The optimal time for a wine tasting in the Wachau Valley is during the spring months of April to June and the harvest season in September and October. These periods offer pleasant weather and the chance to experience the vineyards at their most active.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "The winter months from November to February are less ideal for visiting vineyards as the region is quieter, and many wineries may have reduced hours or tours.",
+        "suggested_venues": [
+            {
+                "name": "Wachau Vineyards",
+                "description": "Scenic vineyards along the Danube River, offering guided tours and tastings of local wine varieties like Grüner Veltliner and Riesling.",
+                "location": "Wachau Vineyards, near Krems, Austria",
+                "longitude": 15.6000,
+                "latitude": 48.4100
+            },
+            {
+                "name": "Local Wine Taverns",
+                "description": "Traditional taverns in the Wachau Valley, serving a selection of regional wines and local delicacies.",
+                "location": "Wine Taverns, Wachau Valley, Austria",
+                "longitude": 15.5970,
+                "latitude": 48.4080
+            },
+            {
+                "name": "Danube River Cruise",
+                "description": "A river cruise along the Danube, offering stunning views of the Wachau Valley's vineyards and historic sites.",
+                "location": "Danube River Cruises, near Krems, Austria",
+                "longitude": 15.6050,
+                "latitude": 48.4120
+            }
+        ]
     },
+
+
     {
         "name": "Visiting the Hofburg Imperial Palace",
         "category": "History",
@@ -77,8 +277,37 @@
         "city": "Vienna",
         "longitude": 16.3656,
         "latitude": 48.2077,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The best time to visit the Hofburg Imperial Palace is during the spring and early autumn months of April to June and September to October. These periods offer comfortable weather for exploring the extensive palace grounds and are less crowded than the peak tourist season.",
+        "worst_time_to_go": ["July", "August"],
+        "worst_time_to_go_description": "The peak tourist months of July and August can be crowded, which may affect the quality of the visit due to longer wait times and busier tour groups.",
+        "suggested_venues": [
+            {
+                "name": "Imperial Apartments",
+                "description": "The living quarters of the Habsburg rulers, showcasing their luxurious lifestyle and the history of their reign.",
+                "location": "Imperial Apartments, Hofburg Imperial Palace, Vienna, Austria",
+                "longitude": 16.3660,
+                "latitude": 48.2080
+            },
+            {
+                "name": "Sisi Museum",
+                "description": "A museum dedicated to Empress Elisabeth (Sisi), offering a personal look into her life and times.",
+                "location": "Sisi Museum, Hofburg Imperial Palace, Vienna, Austria",
+                "longitude": 16.3662,
+                "latitude": 48.2078
+            },
+            {
+                "name": "Spanish Riding School",
+                "description": "A famed equestrian school located within the palace, known for its performances of classical dressage.",
+                "location": "Spanish Riding School, Hofburg Imperial Palace, Vienna, Austria",
+                "longitude": 16.3668,
+                "latitude": 48.2076
+            }
+        ]
     },
+
+
     {
         "name": "Cycling around Lake Constance",
         "category": "Adventure",
@@ -87,8 +316,37 @@
         "city": "Bregenz",
         "longitude": 9.7489,
         "latitude": 47.5031,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The ideal time for cycling around Lake Constance is from May to September, when the weather is warm and conducive to outdoor activities, and the landscape is at its most vibrant.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "The winter months from November to February can be cold and uncomfortable for cycling, with shorter days and the potential for icy or wet conditions.",
+        "suggested_venues": [
+            {
+                "name": "Lake Constance Bike Path",
+                "description": "A well-marked bike path that circumnavigates the lake, offering diverse scenery and access to lakeside towns.",
+                "location": "Lake Constance Bike Path, near Bregenz, Austria",
+                "longitude": 9.7500,
+                "latitude": 47.5000
+            },
+            {
+                "name": "Lindau",
+                "description": "A picturesque island town on the lake, ideal for a stopover with its historical buildings and harbor views.",
+                "location": "Lindau, Germany",
+                "longitude": 9.6830,
+                "latitude": 47.5450
+            },
+            {
+                "name": "Meersburg",
+                "description": "A charming medieval town along the route, known for its old castle and vineyards.",
+                "location": "Meersburg, Germany",
+                "longitude": 9.2720,
+                "latitude": 47.6950
+            }
+        ]
     },
+
+
     {
         "name": "Attending the Salzburg Festival",
         "category": "Culture",
@@ -97,6 +355,33 @@
         "city": "Salzburg",
         "longitude": 13.0550,
         "latitude": 47.8021,
-        "cost": "$$$"
-    }
+        "cost": "$$$",
+        "best_time_to_go": ["July", "August"],
+        "best_time_to_go_description": "The Salzburg Festival is held annually in July and August, making these months the ideal time to experience the event's rich program of opera, theater, and classical music performances.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "The winter months are off-season for the festival, with no performances scheduled during this time.",
+        "suggested_venues": [
+            {
+                "name": "Festspielhaus",
+                "description": "The main venue for the festival's larger productions, known for its excellent acoustics and impressive architecture.",
+                "location": "Festspielhaus, Salzburg, Austria",
+                "longitude": 13.0570,
+                "latitude": 47.8030
+            },
+            {
+                "name": "Mozarteum",
+                "description": "A prestigious concert hall that hosts various festival concerts, especially those related to Mozart.",
+                "location": "Mozarteum, Salzburg, Austria",
+                "longitude": 13.0500,
+                "latitude": 47.8060
+            },
+            {
+                "name": "Mirabell Gardens",
+                "description": "A historic location that often features outdoor performances and events related to the festival.",
+                "location": "Mirabell Gardens, Salzburg, Austria",
+                "longitude": 13.0460,
+                "latitude": 47.8050
+            }
+        ]
+    }    
 ]

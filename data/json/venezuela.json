@@ -1,102 +1,389 @@
-[
-    {
-        "name": "Angel Falls Adventure",
-        "category": "Nature/Adventure",
-        "score": 5,
-        "description": "Embark on an adventure to Angel Falls, the world's highest uninterrupted waterfall, located in the heart of Canaima National Park.",
-        "city": "Canaima",
-        "longitude": -62.5342,
-        "latitude": 5.9681,
-        "cost": "$$$"
-    },
-    {
-        "name": "Explore Los Roques Archipelago",
-        "category": "Nature/Adventure",
-        "score": 5,
-        "description": "Discover the pristine beauty of Los Roques Archipelago, a national park known for its crystal-clear waters, coral reefs, and diverse marine life.",
-        "city": "Los Roques",
-        "longitude": -66.8543,
-        "latitude": 11.8842,
-        "cost": "$$$"
-    },
-    {
-        "name": "Roraima Trekking Expedition",
-        "category": "Adventure/Nature",
-        "score": 5,
-        "description": "Embark on a challenging trek to Roraima, a flat-topped mountain in the Gran Sabana region, and explore its unique landscapes and ecosystems.",
-        "city": "Gran Sabana",
-        "longitude": -61.7362,
-        "latitude": 5.1129,
-        "cost": "$$$"
-    },
-    {
-        "name": "Visit the Historic City of Coro",
-        "category": "Culture/History",
-        "score": 4,
-        "description": "Explore the historic city of Coro, a UNESCO World Heritage site, known for its colonial architecture, museums, and cultural heritage.",
-        "city": "Coro",
-        "longitude": -69.6853,
-        "latitude": 11.4069,
-        "cost": "$$"
-    },
-    {
-        "name": "Canaima Lagoon Boat Tour",
-        "category": "Nature/Adventure",
-        "score": 4,
-        "description": "Take a boat tour on Canaima Lagoon, surrounded by stunning tepui formations, and visit the iconic Ucaima Falls.",
-        "city": "Canaima",
-        "longitude": -62.5342,
-        "latitude": 5.6226,
-        "cost": "$$$"
-    },
-    {
-        "name": "Merida's Andean Adventures",
-        "category": "Adventure/Nature",
-        "score": 4,
-        "description": "Explore the Andean landscapes of Merida, offering opportunities for trekking, paragliding, and enjoying the natural beauty of the region.",
-        "city": "Merida",
-        "longitude": -71.1433,
-        "latitude": 8.5919,
-        "cost": "$$"
-    },
-    {
-        "name": "Morrocoy National Park Beaches",
-        "category": "Nature/Relaxation",
-        "score": 4,
-        "description": "Relax on the pristine beaches of Morrocoy National Park, an archipelago with calm turquoise waters and white sandy shores.",
-        "city": "Morrocoy",
-        "longitude": -68.3156,
-        "latitude": 10.9287,
-        "cost": "$$"
-    },
-    {
-        "name": "Orinoco Delta Exploration",
-        "category": "Nature/Wildlife",
-        "score": 4,
-        "description": "Explore the rich biodiversity of the Orinoco Delta, home to diverse wildlife and indigenous communities, with canoe tours and wildlife watching.",
-        "city": "Orinoco Delta",
-        "longitude": -62.2664,
-        "latitude": 8.3270,
-        "cost": "$$$"
-    },
-    {
-        "name": "Médanos de Coro Sand Dunes",
-        "category": "Nature/Adventure",
-        "score": 4,
-        "description": "Visit the Médanos de Coro, a unique desert landscape with vast sand dunes perfect for sandboarding and photography.",
-        "city": "Coro",
-        "longitude": -69.6516,
-        "latitude": 11.4111,
-        "cost": "$$"
-    },
-    {
-        "name": "Caracas City Tour",
-        "category": "Culture/History",
-        "score": 3,
-        "description": "Take a city tour of Caracas, the capital of Venezuela, and explore its museums, historic sites, and cultural attractions.",
-        "city": "Caracas",
-        "longitude": -66.8792,
-        "latitude": 10.4910,
-        "cost": "$$"
-    }
+[{
+    "name": "Angel Falls Adventure",
+    "category": "Nature/Adventure",
+    "score": 5,
+    "description": "Embark on an adventure to Angel Falls, the world's highest uninterrupted waterfall, located in the heart of Canaima National Park.",
+    "city": "Canaima",
+    "longitude": -62.5342,
+    "latitude": 5.9681,
+    "cost": "$$$",
+    "best_time_to_go": ["June", "July", "August", "September"],
+    "best_time_to_go_description": "The ideal time to visit Angel Falls is during the wet season from June to September, when the waterfalls are at their most spectacular due to the increased water flow.",
+    "worst_time_to_go": ["December", "January", "February", "March"],
+    "worst_time_to_go_description": "The dry season from December to March can see reduced water flow at Angel Falls, which might diminish the falls' majesty and the overall experience.",
+    "suggested_venues": [
+        {
+            "name": "Angel Falls Viewpoints",
+            "description": "Strategic points around Angel Falls offering the best views of the waterfall and the surrounding landscape.",
+            "location": "Viewpoints, Angel Falls, Canaima National Park, Venezuela",
+            "longitude": -62.5362,
+            "latitude": 5.9700
+        },
+        {
+            "name": "Canaima Lagoon",
+            "description": "A picturesque lagoon near Angel Falls, offering boat tours and stunning scenery.",
+            "location": "Canaima Lagoon, Canaima National Park, Venezuela",
+            "longitude": -62.5450,
+            "latitude": 5.9750
+        },
+        {
+            "name": "Trekking Paths",
+            "description": "Various trekking routes leading to Angel Falls, providing adventurous journeys through the park's unique ecosystem.",
+            "location": "Trekking Paths, Canaima National Park, Venezuela",
+            "longitude": -62.5400,
+            "latitude": 5.9730
+        }
+    ]
+},
+
+
+{
+    "name": "Explore Los Roques Archipelago",
+    "category": "Nature/Adventure",
+    "score": 5,
+    "description": "Discover the pristine beauty of Los Roques Archipelago, a national park known for its crystal-clear waters, coral reefs, and diverse marine life.",
+    "city": "Los Roques",
+    "longitude": -66.8543,
+    "latitude": 11.8842,
+    "cost": "$$$",
+    "best_time_to_go": ["January", "February", "March", "April"],
+    "best_time_to_go_description": "The best time to visit Los Roques Archipelago is during the dry season from January to April, when the weather is typically sunny and dry, ideal for snorkeling, swimming, and exploring the islands.",
+    "worst_time_to_go": ["July", "August", "September", "October"],
+    "worst_time_to_go_description": "The rainy season from July to October can bring occasional showers and storms, potentially affecting outdoor activities and water clarity for snorkeling and diving.",
+    "suggested_venues": [
+        {
+            "name": "Gran Roque",
+            "description": "The main island of the archipelago, serving as the gateway for visitors and offering beautiful beaches and local charm.",
+            "location": "Gran Roque, Los Roques Archipelago, Venezuela",
+            "longitude": -66.8560,
+            "latitude": 11.8860
+        },
+        {
+            "name": "Francisqui and Madrisqui",
+            "description": "Nearby islands known for their stunning beaches, clear waters, and excellent spots for snorkeling and relaxation.",
+            "location": "Francisqui and Madrisqui, Los Roques Archipelago, Venezuela",
+            "longitude": -66.8500,
+            "latitude": 11.8800
+        },
+        {
+            "name": "Cayo de Agua",
+            "description": "A remote and picturesque island in the archipelago, famous for its breathtaking views and serene atmosphere.",
+            "location": "Cayo de Agua, Los Roques Archipelago, Venezuela",
+            "longitude": -66.8600,
+            "latitude": 11.8900
+        }
+    ]
+},
+
+
+{
+    "name": "Roraima Trekking Expedition",
+    "category": "Adventure/Nature",
+    "score": 5,
+    "description": "Embark on a challenging trek to Roraima, a flat-topped mountain in the Gran Sabana region, and explore its unique landscapes and ecosystems.",
+    "city": "Gran Sabana",
+    "longitude": -61.7362,
+    "latitude": 5.1129,
+    "cost": "$$$",
+    "best_time_to_go": ["October", "November", "December", "January"],
+    "best_time_to_go_description": "The best time for a trekking expedition to Roraima is during the drier months from October to January, when the trails are more accessible, and the weather is more favorable for hiking and camping.",
+    "worst_time_to_go": ["May", "June", "July", "August"],
+    "worst_time_to_go_description": "The rainy season from May to August can make the trek to Roraima more challenging due to slippery trails, increased river levels, and potential for heavy rainfall.",
+    "suggested_venues": [
+        {
+            "name": "Roraima's Summit",
+            "description": "The plateau at the top of Roraima, offering otherworldly landscapes, unique rock formations, and endemic flora and fauna.",
+            "location": "Summit of Roraima, Gran Sabana, Venezuela",
+            "longitude": -61.7380,
+            "latitude": 5.1150
+        },
+        {
+            "name": "Base Camp",
+            "description": "The starting point for the trek, where hikers prepare and acclimatize before the ascent.",
+            "location": "Base Camp, near Roraima, Gran Sabana, Venezuela",
+            "longitude": -61.7340,
+            "latitude": 5.1100
+        },
+        {
+            "name": "Trekking Routes",
+            "description": "Designated paths leading to Roraima, traversing through diverse ecosystems and offering stunning views.",
+            "location": "Trekking Routes, Gran Sabana, Venezuela",
+            "longitude": -61.7320,
+            "latitude": 5.1090
+        }
+    ]
+},
+
+
+{
+    "name": "Visit the Historic City of Coro",
+    "category": "Culture/History",
+    "score": 4,
+    "description": "Explore the historic city of Coro, a UNESCO World Heritage site, known for its colonial architecture, museums, and cultural heritage.",
+    "city": "Coro",
+    "longitude": -69.6853,
+    "latitude": 11.4069,
+    "cost": "$$",
+    "best_time_to_go": ["November", "December", "January", "February"],
+    "best_time_to_go_description": "The best time to visit Coro is during the cooler, drier months from November to February. This period offers comfortable weather for exploring the historic streets and architectural landmarks.",
+    "worst_time_to_go": ["June", "July", "August"],
+    "worst_time_to_go_description": "The rainy season from June to August can bring occasional showers that might hinder outdoor exploration of the city's historical sites.",
+    "suggested_venues": [
+        {
+            "name": "Colonial Center of Coro",
+            "description": "The heart of the city, featuring well-preserved colonial buildings, plazas, and historical landmarks.",
+            "location": "Colonial Center, Coro, Venezuela",
+            "longitude": -69.6870,
+            "latitude": 11.4080
+        },
+        {
+            "name": "Coro Cathedral",
+            "description": "A significant historical cathedral in Coro, showcasing colonial architecture and religious art.",
+            "location": "Coro Cathedral, Coro, Venezuela",
+            "longitude": -69.6840,
+            "latitude": 11.4050
+        },
+        {
+            "name": "Museo de Arte de Coro",
+            "description": "A museum offering insights into local art and culture, housed in a beautiful colonial building.",
+            "location": "Museo de Arte de Coro, Coro, Venezuela",
+            "longitude": -69.6860,
+            "latitude": 11.4070
+        }
+    ]
+},
+
+
+{
+    "name": "Canaima Lagoon Boat Tour",
+    "category": "Nature/Adventure",
+    "score": 4,
+    "description": "Take a boat tour on Canaima Lagoon, surrounded by stunning tepui formations, and visit the iconic Ucaima Falls.",
+    "city": "Canaima",
+    "longitude": -62.5342,
+    "latitude": 5.6226,
+    "cost": "$$$",
+    "best_time_to_go": ["June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for a boat tour on Canaima Lagoon is during the wet season from June to September, when the water levels are higher, enhancing the beauty of the waterfalls and allowing for better navigation of the lagoon.",
+    "worst_time_to_go": ["December", "January", "February", "March"],
+    "worst_time_to_go_description": "The dry season from December to March can result in lower water levels in the lagoon, which may affect the boat tour routes and the overall experience.",
+    "suggested_venues": [
+        {
+            "name": "Canaima Lagoon",
+            "description": "The main area for boat tours, offering breathtaking views of the waterfalls and the unique tepui landscapes.",
+            "location": "Canaima Lagoon, Canaima National Park, Venezuela",
+            "longitude": -62.5360,
+            "latitude": 5.6200
+        },
+        {
+            "name": "Ucaima Falls",
+            "description": "One of the most iconic waterfalls in Canaima National Park, accessible via boat tours on the lagoon.",
+            "location": "Ucaima Falls, Canaima National Park, Venezuela",
+            "longitude": -62.5320,
+            "latitude": 5.6240
+        },
+        {
+            "name": "Tepui Viewpoints",
+            "description": "Various viewpoints during the boat tour, offering unique perspectives of the tepui formations and surrounding nature.",
+            "location": "Viewpoints, Canaima Lagoon, Venezuela",
+            "longitude": -62.5380,
+            "latitude": 5.6260
+        }
+    ]
+},
+
+
+{
+    "name": "Merida's Andean Adventures",
+    "category": "Adventure/Nature",
+    "score": 4,
+    "description": "Explore the Andean landscapes of Merida, offering opportunities for trekking, paragliding, and enjoying the natural beauty of the region.",
+    "city": "Merida",
+    "longitude": -71.1433,
+    "latitude": 8.5919,
+    "cost": "$$",
+    "best_time_to_go": ["December", "January", "February", "March"],
+    "best_time_to_go_description": "The best time to engage in outdoor adventures in Merida is during the dry season from December to March, when the weather is more stable and conducive to activities like trekking and paragliding.",
+    "worst_time_to_go": ["June", "July", "August", "September"],
+    "worst_time_to_go_description": "The rainy season from June to September can hinder outdoor activities due to frequent rains and reduced visibility, especially for paragliding.",
+    "suggested_venues": [
+        {
+            "name": "Sierra Nevada National Park",
+            "description": "A prime location for trekking, offering stunning views of the Andean mountains and diverse ecosystems.",
+            "location": "Sierra Nevada National Park, near Merida, Venezuela",
+            "longitude": -71.1450,
+            "latitude": 8.5930
+        },
+        {
+            "name": "Paragliding Launch Sites",
+            "description": "Popular spots for paragliding, providing breathtaking aerial views of Merida's Andean landscapes.",
+            "location": "Paragliding Sites, Merida, Venezuela",
+            "longitude": -71.1400,
+            "latitude": 8.5900
+        },
+        {
+            "name": "Andean Trails",
+            "description": "Various hiking trails in the region, suitable for all levels of experience and offering scenic vistas and encounters with local wildlife.",
+            "location": "Hiking Trails, Merida, Venezuela",
+            "longitude": -71.1420,
+            "latitude": 8.5920
+        }
+    ]
+},
+
+
+{
+    "name": "Morrocoy National Park Beaches",
+    "category": "Nature/Relaxation",
+    "score": 4,
+    "description": "Relax on the pristine beaches of Morrocoy National Park, an archipelago with calm turquoise waters and white sandy shores.",
+    "city": "Morrocoy",
+    "longitude": -68.3156,
+    "latitude": 10.9287,
+    "cost": "$$",
+    "best_time_to_go": ["December", "January", "February", "March"],
+    "best_time_to_go_description": "The best time to visit the beaches of Morrocoy National Park is during the dry season from December to March. This period typically offers clear skies, calm seas, and ideal conditions for beach activities and water sports.",
+    "worst_time_to_go": ["June", "July", "August", "September"],
+    "worst_time_to_go_description": "The rainy season from June to September can bring occasional rain showers and storms, potentially affecting beach activities and the clarity of the water for snorkeling and swimming.",
+    "suggested_venues": [
+        {
+            "name": "Cayo Sombrero",
+            "description": "One of the most popular islands in the park, known for its beautiful beaches, clear waters, and coral reefs.",
+            "location": "Cayo Sombrero, Morrocoy National Park, Venezuela",
+            "longitude": -68.3200,
+            "latitude": 10.9300
+        },
+        {
+            "name": "Playa Mero",
+            "description": "A serene beach offering a more secluded experience, ideal for relaxation and sunbathing.",
+            "location": "Playa Mero, Morrocoy National Park, Venezuela",
+            "longitude": -68.3100,
+            "latitude": 10.9270
+        },
+        {
+            "name": "Boat Tours",
+            "description": "Boat tours around the archipelago, allowing visitors to explore various islands and snorkeling spots.",
+            "location": "Boat Tour Departures, Morrocoy National Park, Venezuela",
+            "longitude": -68.3180,
+            "latitude": 10.9290
+        }
+    ]
+},
+
+
+{
+    "name": "Orinoco Delta Exploration",
+    "category": "Nature/Wildlife",
+    "score": 4,
+    "description": "Explore the rich biodiversity of the Orinoco Delta, home to diverse wildlife and indigenous communities, with canoe tours and wildlife watching.",
+    "city": "Orinoco Delta",
+    "longitude": -62.2664,
+    "latitude": 8.3270,
+    "cost": "$$$",
+    "best_time_to_go": ["October", "November", "December", "January"],
+    "best_time_to_go_description": "The best time to explore the Orinoco Delta is during the dry season from October to January. This period offers lower water levels, making it easier to spot wildlife and navigate the waterways with canoe tours.",
+    "worst_time_to_go": ["May", "June", "July", "August"],
+    "worst_time_to_go_description": "The rainy season from May to August can lead to high water levels in the delta, which may restrict access to certain areas and make wildlife watching more challenging.",
+    "suggested_venues": [
+        {
+            "name": "Canoe Tours",
+            "description": "Guided canoe tours through the delta's waterways, offering close encounters with the region's flora and fauna.",
+            "location": "Canoe Tour Starting Points, Orinoco Delta, Venezuela",
+            "longitude": -62.2650,
+            "latitude": 8.3250
+        },
+        {
+            "name": "Wildlife Watching Spots",
+            "description": "Areas within the delta known for abundant wildlife, including birds, monkeys, and river dolphins.",
+            "location": "Wildlife Watching Spots, Orinoco Delta, Venezuela",
+            "longitude": -62.2700,
+            "latitude": 8.3300
+        },
+        {
+            "name": "Indigenous Warao Communities",
+            "description": "Visits to local Warao communities, offering insights into the traditional lifestyle and culture of the delta's inhabitants.",
+            "location": "Warao Communities, Orinoco Delta, Venezuela",
+            "longitude": -62.2600,
+            "latitude": 8.3200
+        }
+    ]
+},
+
+
+{
+    "name": "Médanos de Coro Sand Dunes",
+    "category": "Nature/Adventure",
+    "score": 4,
+    "description": "Visit the Médanos de Coro, a unique desert landscape with vast sand dunes perfect for sandboarding and photography.",
+    "city": "Coro",
+    "longitude": -69.6516,
+    "latitude": 11.4111,
+    "cost": "$$",
+    "best_time_to_go": ["February", "March", "April", "May"],
+    "best_time_to_go_description": "The ideal time to visit the Médanos de Coro is during the dry season from February to May, when the weather is more suitable for outdoor activities like sandboarding and less likely to be interrupted by rain.",
+    "worst_time_to_go": ["August", "September", "October", "November"],
+    "worst_time_to_go_description": "The rainy season from August to November can make the dunes less accessible and reduce the enjoyment of outdoor activities due to wet weather and potential mud.",
+    "suggested_venues": [
+        {
+            "name": "Main Dune Area",
+            "description": "The central part of the dunes, offering the best conditions for sandboarding and spectacular views for photography.",
+            "location": "Main Dune Area, Médanos de Coro, Venezuela",
+            "longitude": -69.6500,
+            "latitude": 11.4100
+        },
+        {
+            "name": "Sunset Spots",
+            "description": "Popular locations within the dunes for watching the sunset, providing stunning desert landscapes.",
+            "location": "Sunset Spots, Médanos de Coro, Venezuela",
+            "longitude": -69.6530,
+            "latitude": 11.4120
+        },
+        {
+            "name": "Photography Points",
+            "description": "Areas offering the most picturesque views of the dunes, ideal for capturing the unique beauty of the desert.",
+            "location": "Photography Points, Médanos de Coro, Venezuela",
+            "longitude": -69.6520,
+            "latitude": 11.4090
+        }
+    ]
+},
+
+
+{
+    "name": "Caracas City Tour",
+    "category": "Culture/History",
+    "score": 3,
+    "description": "Take a city tour of Caracas, the capital of Venezuela, and explore its museums, historic sites, and cultural attractions.",
+    "city": "Caracas",
+    "longitude": -66.8792,
+    "latitude": 10.4910,
+    "cost": "$$",
+    "best_time_to_go": ["November", "December", "January", "February"],
+    "best_time_to_go_description": "The ideal time to visit Caracas for a city tour is during the drier months from November to February. This period typically offers pleasant weather for walking tours and exploring outdoor attractions.",
+    "worst_time_to_go": ["June", "July", "August"],
+    "worst_time_to_go_description": "The rainy season from June to August can bring occasional downpours, which may affect the enjoyment of outdoor sightseeing and walking tours.",
+    "suggested_venues": [
+        {
+            "name": "Plaza Bolívar",
+            "description": "A central and historical square in Caracas, surrounded by significant buildings and offering a glimpse into the city's history.",
+            "location": "Plaza Bolívar, Caracas, Venezuela",
+            "longitude": -66.8780,
+            "latitude": 10.4900
+        },
+        {
+            "name": "Museo de Bellas Artes",
+            "description": "A renowned art museum in Caracas, showcasing a diverse collection of Venezuelan and international art.",
+            "location": "Museo de Bellas Artes, Caracas, Venezuela",
+            "longitude": -66.8800,
+            "latitude": 10.4920
+        },
+        {
+            "name": "El Hatillo",
+            "description": "A charming colonial neighborhood known for its colorful architecture, artisanal shops, and cultural events.",
+            "location": "El Hatillo, Caracas, Venezuela",
+            "longitude": -66.8830,
+            "latitude": 10.4890
+        }
+    ]
+}
 ]
