@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Discovering Montevideo's Ciudad Vieja",
+        "category": "Culture/History",
+        "score": 4,
+        "description": "Explore the historic Ciudad Vieja (Old Town) of Montevideo, filled with colonial architecture, museums, and vibrant street art.",
+        "city": "Montevideo",
+        "longitude": -56.2000,
+        "latitude": -34.9074,
+        "cost": "$$"
+    },
+    {
+        "name": "Punta del Este Beaches",
+        "category": "Nature/Relaxation",
+        "score": 4,
+        "description": "Relax on the beautiful beaches of Punta del Este, known for their golden sands, clear waters, and lively beach culture.",
+        "city": "Punta del Este",
+        "longitude": -54.9496,
+        "latitude": -34.9532,
+        "cost": "$$"
+    },
+    {
+        "name": "Colonia del Sacramento's Historic District",
+        "category": "Culture/History",
+        "score": 4,
+        "description": "Step back in time in Colonia del Sacramento's historic district, a UNESCO World Heritage site, with cobblestone streets and colonial architecture.",
+        "city": "Colonia del Sacramento",
+        "longitude": -57.8400,
+        "latitude": -34.4794,
+        "cost": "$$"
+    },
+    {
+        "name": "Trekking in Cabo Polonio",
+        "category": "Nature/Adventure",
+        "score": 4,
+        "description": "Go trekking in Cabo Polonio, a remote and off-the-grid coastal village surrounded by sand dunes and a rugged natural landscape.",
+        "city": "Cabo Polonio",
+        "longitude": -54.1760,
+        "latitude": -34.4030,
+        "cost": "$$"
+    },
+    {
+        "name": "Wine Tasting in Carmelo",
+        "category": "Food/Drink",
+        "score": 3,
+        "description": "Indulge in wine tasting in Carmelo, Uruguay's wine region, and visit wineries to sample some of the country's finest wines.",
+        "city": "Carmelo",
+        "longitude": -58.2883,
+        "latitude": -33.9902,
+        "cost": "$$$"
+    },
+    {
+        "name": "Uruguay's Estancias",
+        "category": "Nature/Culture",
+        "score": 4,
+        "description": "Stay at an estancia (rural estate) in the countryside to experience Uruguayan gaucho culture, horseback riding, and traditional hospitality.",
+        "city": "Various",
+        "longitude": -56.5089,
+        "latitude": -32.7982,
+        "cost": "$$$"
+    },
+    {
+        "name": "Cerro Largo Nature Reserves",
+        "category": "Nature/Adventure",
+        "score": 3,
+        "description": "Explore the nature reserves in the Cerro Largo department, offering hiking, birdwatching, and opportunities to connect with nature.",
+        "city": "Cerro Largo",
+        "longitude": -54.2628,
+        "latitude": -32.3381,
+        "cost": "$$"
+    },
+    {
+        "name": "Paddleboarding in Laguna Garzón",
+        "category": "Adventure/Nature",
+        "score": 3,
+        "description": "Enjoy paddleboarding in Laguna Garzón, a scenic coastal lagoon known for its tranquil waters and beautiful surroundings.",
+        "city": "Laguna Garzón",
+        "longitude": -54.8465,
+        "latitude": -34.7922,
+        "cost": "$$"
+    },
+    {
+        "name": "Chasing Waterfalls in Quebrada de los Cuervos",
+        "category": "Nature/Adventure",
+        "score": 4,
+        "description": "Hike and chase waterfalls in Quebrada de los Cuervos, a picturesque natural reserve with canyons, cliffs, and lush greenery.",
+        "city": "Treinta y Tres",
+        "longitude": -54.3753,
+        "latitude": -32.8589,
+        "cost": "$$"
+    },
+    {
+        "name": "Visit Punta Ballena and Casapueblo",
+        "category": "Culture/History",
+        "score": 4,
+        "description": "Visit Punta Ballena and the iconic Casapueblo, a unique building and art gallery created by artist Carlos Páez Vilaró.",
+        "city": "Punta Ballena",
+        "longitude": -55.0898,
+        "latitude": -34.8901,
+        "cost": "$$"
+    }
+]

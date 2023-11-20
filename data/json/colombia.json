@@ -1,0 +1,390 @@
+[
+    {
+        "name": "Exploring the Lost City (Ciudad Perdida)",
+        "category": "Adventure/History",
+        "score": 5,
+        "description": "Embark on a multi-day trek through the lush jungle to reach the ancient ruins of the Lost City, a hidden archaeological gem.",
+        "city": "Santa Marta",
+        "longitude": -74.2063,
+        "latitude": 11.0110,
+        "cost": "$$$",
+        "best_time_to_go": ["December", "January", "February", "March", "April"],
+        "best_time_to_go_description": "The best time to trek to Ciudad Perdida is during the dry season from December to April. During these months, the weather is more stable with fewer rain showers, making the trekking conditions more favorable.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October", "November"],
+        "worst_time_to_go_description": "The wet season from May to November can make the trek to Ciudad Perdida more challenging due to heavy rains, slippery trails, and increased mosquito activity.",
+        "suggested_venues": [
+            {
+                "name": "Ciudad Perdida Trailhead",
+                "description": "The starting point of the trek to the Lost City, where adventurers can prepare for the journey ahead.",
+                "location": "Ciudad Perdida Trailhead, near Santa Marta, Colombia",
+                "longitude": -73.9300,
+                "latitude": 10.8000
+            },
+            {
+                "name": "Buritaca River",
+                "description": "A beautiful river that runs along part of the trekking route, offering refreshing stops and scenic views.",
+                "location": "Buritaca River, near Ciudad Perdida, Colombia",
+                "longitude": -73.9170,
+                "latitude": 10.8330
+            },
+            {
+                "name": "Ciudad Perdida (Lost City) Ruins",
+                "description": "The archaeological highlight of the trek, featuring terraces, plazas, and stone structures built by the ancient Tayrona civilization.",
+                "location": "Ciudad Perdida, Colombia",
+                "longitude": -73.9220,
+                "latitude": 10.8220
+            }
+        ]
+    },
+
+
+    {
+        "name": "Visiting Cartagena's Old Town",
+        "category": "Culture/History",
+        "score": 5,
+        "description": "Wander the charming streets of Cartagena's Old Town, a UNESCO World Heritage site, filled with colonial architecture and vibrant plazas.",
+        "city": "Cartagena",
+        "longitude": -75.5544,
+        "latitude": 10.3910,
+        "cost": "$$",
+        "best_time_to_go": ["January", "February", "March", "November", "December"],
+        "best_time_to_go_description": "The ideal time to visit Cartagena's Old Town is during the dry season, particularly from January to March and in November and December. These months offer pleasant weather with minimal rainfall, perfect for exploring the outdoor attractions and walking through the historic streets.",
+        "worst_time_to_go": ["June", "July", "August", "September"],
+        "worst_time_to_go_description": "The rainy season from June to September can make exploring the Old Town less comfortable due to frequent showers and high humidity, which might affect outdoor sightseeing.",
+        "suggested_venues": [
+            {
+                "name": "Castillo de San Felipe de Barajas",
+                "description": "A historic fortress offering panoramic views of the city and a deep dive into Cartagena’s colonial past.",
+                "location": "Castillo de San Felipe de Barajas, Cartagena, Colombia",
+                "longitude": -75.5475,
+                "latitude": 10.4231
+            },
+            {
+                "name": "Plaza Santo Domingo",
+                "description": "A bustling square in the heart of the Old Town, surrounded by colonial buildings, lively cafes, and street performers.",
+                "location": "Plaza Santo Domingo, Cartagena, Colombia",
+                "longitude": -75.5550,
+                "latitude": 10.4264
+            },
+            {
+                "name": "The Walls of Cartagena",
+                "description": "Iconic defensive walls that encircle the Old Town, offering a historic walk with views of the Caribbean Sea.",
+                "location": "The Walls of Cartagena, Colombia",
+                "longitude": -75.5560,
+                "latitude": 10.4269
+            }
+        ]
+    },
+
+
+    {
+        "name": "Hiking in Cocora Valley",
+        "category": "Nature/Adventure",
+        "score": 4,
+        "description": "Explore the enchanting Cocora Valley, known for its towering wax palm trees, and hike through stunning cloud forests.",
+        "city": "Salento",
+        "longitude": -75.5926,
+        "latitude": 4.6374,
+        "cost": "$$",
+        "best_time_to_go": ["December", "January", "February", "March"],
+        "best_time_to_go_description": "The ideal time to hike in Cocora Valley is during the dry season, from December to March. During these months, the weather is more stable with less rainfall, providing clearer trails and better visibility for enjoying the natural beauty of the valley.",
+        "worst_time_to_go": ["April", "May", "October", "November"],
+        "worst_time_to_go_description": "The rainy season in April, May, October, and November can make the trails in Cocora Valley muddy and slippery, potentially hampering hiking and outdoor activities.",
+        "suggested_venues": [
+            {
+                "name": "Cocora Valley Trailhead",
+                "description": "The starting point for various hiking trails in the valley, offering breathtaking views of the wax palms and cloud forest.",
+                "location": "Cocora Valley Trailhead, near Salento, Colombia",
+                "longitude": -75.5700,
+                "latitude": 4.6330
+            },
+            {
+                "name": "Acaime Hummingbird Sanctuary",
+                "description": "A nature reserve along the hiking trails, known for its variety of hummingbird species and serene natural setting.",
+                "location": "Acaime Hummingbird Sanctuary, Cocora Valley, Colombia",
+                "longitude": -75.5820,
+                "latitude": 4.6420
+            },
+            {
+                "name": "Mirador de Cocora",
+                "description": "A viewpoint offering panoramic views of the Cocora Valley and its iconic wax palms, ideal for photography.",
+                "location": "Mirador de Cocora, Cocora Valley, Colombia",
+                "longitude": -75.5667,
+                "latitude": 4.6300
+            }
+        ]
+    },
+
+
+    {
+        "name": "Discovering the Salt Cathedral of Zipaquirá",
+        "category": "Culture/History",
+        "score": 4,
+        "description": "Visit the Salt Cathedral of Zipaquirá, an underground masterpiece carved into a salt mine, featuring stunning architecture and art.",
+        "city": "Zipaquirá",
+        "longitude": -74.0059,
+        "latitude": 5.0214,
+        "cost": "$$",
+        "best_time_to_go": ["January", "February", "March", "July", "August", "December"],
+        "best_time_to_go_description": "The best time to visit the Salt Cathedral of Zipaquirá is during the drier months of January, February, March, July, August, and December. Although the cathedral is underground, pleasant weather can enhance the overall experience of visiting Zipaquirá and its surroundings.",
+        "worst_time_to_go": ["April", "May", "October", "November"],
+        "worst_time_to_go_description": "The wetter months of April, May, October, and November can make travel to and around Zipaquirá less comfortable, although the Salt Cathedral itself is unaffected by the weather being an underground site.",
+        "suggested_venues": [
+            {
+                "name": "Main Chamber of the Salt Cathedral",
+                "description": "The heart of the cathedral, showcasing impressive religious sculptures and lighting effects within the salt mine.",
+                "location": "Salt Cathedral of Zipaquirá, Colombia",
+                "longitude": -74.0070,
+                "latitude": 5.0190
+            },
+            {
+                "name": "Salt Park",
+                "description": "A park surrounding the cathedral, offering additional attractions related to salt mining and cultural exhibitions.",
+                "location": "Salt Park, Zipaquirá, Colombia",
+                "longitude": -74.0060,
+                "latitude": 5.0200
+            },
+            {
+                "name": "Zipaquirá Town Center",
+                "description": "Explore the colonial charm of Zipaquirá's town center, with its quaint streets and local eateries, providing a glimpse into local life.",
+                "location": "Zipaquirá Town Center, Colombia",
+                "longitude": -74.0040,
+                "latitude": 5.0283
+            }
+        ]
+    },
+
+
+    {
+        "name": "Amazon Rainforest Wildlife Adventure",
+        "category": "Nature/Wildlife",
+        "score": 5,
+        "description": "Experience the incredible biodiversity of the Amazon Rainforest and embark on wildlife excursions in the heart of the jungle.",
+        "city": "Leticia",
+        "longitude": -69.9358,
+        "latitude": -4.2032,
+        "cost": "$$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a wildlife adventure in the Amazon Rainforest near Leticia is during the dry season from June to September. This period typically has less rainfall, making wildlife spotting easier as animals congregate around water sources, and the jungle is more accessible.",
+        "worst_time_to_go": ["December", "January", "February", "March"],
+        "worst_time_to_go_description": "The rainy season from December to March can make navigating the Amazon Rainforest more challenging due to flooding and heavy rains, which might hinder mobility and wildlife viewing opportunities.",
+        "suggested_venues": [
+            {
+                "name": "Amacayacu National Park",
+                "description": "A biodiverse national park in the Amazon, offering guided jungle walks and river excursions to spot a wide variety of wildlife.",
+                "location": "Amacayacu National Park, near Leticia, Colombia",
+                "longitude": -70.2483,
+                "latitude": -3.7633
+            },
+            {
+                "name": "Monkey Island",
+                "description": "A unique island sanctuary dedicated to protecting and rehabilitating Amazonian monkeys, allowing for close encounters with these primates.",
+                "location": "Monkey Island, near Leticia, Colombia",
+                "longitude": -69.9400,
+                "latitude": -4.2100
+            },
+            {
+                "name": "Tanimboca Nature Reserve",
+                "description": "A reserve offering canopy tours, zip-lining, and night jungle treks, providing an immersive experience in the Amazon Rainforest.",
+                "location": "Tanimboca Nature Reserve, near Leticia, Colombia",
+                "longitude": -69.9064,
+                "latitude": -4.1864
+            }
+        ]
+    },
+
+
+    {
+        "name": "Coffee Farm Tour in the Coffee Triangle",
+        "category": "Food/Culture",
+        "score": 4,
+        "description": "Take a coffee farm tour in the Coffee Triangle region, learn about coffee production, and savor some of the world's best coffee.",
+        "city": "Manizales",
+        "longitude": -75.5161,
+        "latitude": 5.0687,
+        "cost": "$$",
+        "best_time_to_go": ["December", "January", "February", "March"],
+        "best_time_to_go_description": "The best time to visit coffee farms in the Coffee Triangle is during the dry season, from December to March. This period often coincides with coffee harvesting, offering visitors a chance to observe and participate in the coffee-making process.",
+        "worst_time_to_go": ["April", "May", "October", "November"],
+        "worst_time_to_go_description": "The rainy season in April, May, October, and November can hamper coffee farm tours with wet conditions and less accessibility to the fields.",
+        "suggested_venues": [
+            {
+                "name": "Hacienda Venecia Coffee Farm",
+                "description": "A renowned coffee estate offering in-depth tours of its plantation and processing facilities, complete with coffee tastings.",
+                "location": "Hacienda Venecia, Manizales, Colombia",
+                "longitude": -75.6056,
+                "latitude": 5.0261
+            },
+            {
+                "name": "Finca El Ocaso Salento",
+                "description": "A picturesque coffee farm located in Salento, offering guided tours that delve into sustainable coffee farming practices.",
+                "location": "Finca El Ocaso Salento, near Manizales, Colombia",
+                "longitude": -75.5718,
+                "latitude": 4.6378
+            },
+            {
+                "name": "Recuca Coffee Tour",
+                "description": "An interactive coffee tour that not only educates visitors about coffee production but also immerses them in the cultural aspects of coffee farming.",
+                "location": "Recuca, near Manizales, Colombia",
+                "longitude": -75.6178,
+                "latitude": 4.5489
+            }
+        ]
+    },
+
+
+    {
+        "name": "Relaxing on San Andrés Island",
+        "category": "Nature/Beach",
+        "score": 3,
+        "description": "Unwind on the pristine beaches of San Andrés Island, known for its turquoise waters and coral reefs.",
+        "city": "San Andrés",
+        "longitude": -81.7009,
+        "latitude": 12.5567,
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit San Andrés Island for beach activities is from June to October. These months typically have pleasant weather, warm sea temperatures, and are ideal for swimming, snorkeling, and relaxing on the beach.",
+        "worst_time_to_go": ["November", "December", "January", "February"],
+        "worst_time_to_go_description": "The rainy season from November to February can bring unpredictable weather with occasional showers and strong winds, which might disrupt beach activities.",
+        "suggested_venues": [
+            {
+                "name": "Playa San Luis",
+                "description": "A popular beach on the island with clear waters and white sands, perfect for a day of relaxation and water activities.",
+                "location": "Playa San Luis, San Andrés Island, Colombia",
+                "longitude": -81.7000,
+                "latitude": 12.5400
+            },
+            {
+                "name": "La Piscinita",
+                "description": "A natural pool with calm and clear waters, great for snorkeling and spotting a variety of marine life.",
+                "location": "La Piscinita, San Andrés Island, Colombia",
+                "longitude": -81.7000,
+                "latitude": 12.5500
+            },
+            {
+                "name": "Johnny Cay",
+                "description": "A small coral islet off the coast of San Andrés, known for its beautiful beaches, palm trees, and vibrant marine life.",
+                "location": "Johnny Cay, San Andrés Island, Colombia",
+                "longitude": -81.7100,
+                "latitude": 12.5800
+            }
+        ]
+    },
+
+
+    {
+        "name": "Exploring Medellín's Botanical Garden",
+        "category": "Nature/Culture",
+        "score": 3,
+        "description": "Visit the beautiful Botanical Garden in Medellín, a green oasis in the city filled with exotic plants and gardens.",
+        "city": "Medellín",
+        "longitude": -75.5796,
+        "latitude": 6.2661,
+        "cost": "$",
+        "best_time_to_go": ["December", "January", "February", "March"],
+        "best_time_to_go_description": "The best time to visit Medellín's Botanical Garden is during the dry season from December to March. During this period, the weather is more favorable for walking around the garden and enjoying the lush plant life in comfortable conditions.",
+        "worst_time_to_go": ["April", "May", "October", "November"],
+        "worst_time_to_go_description": "The wetter months of April, May, October, and November can bring frequent rain showers, which might make it less pleasant to stroll through the outdoor areas of the Botanical Garden.",
+        "suggested_venues": [
+            {
+                "name": "Orchidarium",
+                "description": "A highlight of the garden, featuring a collection of beautiful and rare orchids displayed in a modern structure.",
+                "location": "Orchidarium, Medellín Botanical Garden, Colombia",
+                "longitude": -75.5772,
+                "latitude": 6.2654
+            },
+            {
+                "name": "Butterfly House",
+                "description": "An enclosure within the garden where visitors can see a variety of butterflies in a naturalistic habitat.",
+                "location": "Butterfly House, Medellín Botanical Garden, Colombia",
+                "longitude": -75.5780,
+                "latitude": 6.2656
+            },
+            {
+                "name": "Lake and Turtle Area",
+                "description": "A serene lake area where visitors can relax and observe turtles and other aquatic wildlife.",
+                "location": "Lake, Medellín Botanical Garden, Colombia",
+                "longitude": -75.5786,
+                "latitude": 6.2664
+            }
+        ]
+    },
+
+
+    {
+        "name": "Paragliding in the Chicamocha Canyon",
+        "category": "Adventure/Nature",
+        "score": 4,
+        "description": "Soar over the breathtaking Chicamocha Canyon in a thrilling paragliding adventure with panoramic views.",
+        "city": "Bucaramanga",
+        "longitude": -73.2327,
+        "latitude": 6.5613,
+        "cost": "$$$",
+        "best_time_to_go": ["December", "January", "February", "March"],
+        "best_time_to_go_description": "The ideal time for paragliding in the Chicamocha Canyon is from December to March, when the weather conditions are most stable. Clear skies and optimal wind conditions during these months provide the best experience for paragliding.",
+        "worst_time_to_go": ["April", "May", "October", "November"],
+        "worst_time_to_go_description": "The rainy season, particularly in April, May, October, and November, can bring unpredictable weather with the potential for strong winds and reduced visibility, which can be unsafe for paragliding.",
+        "suggested_venues": [
+            {
+                "name": "Chicamocha National Park",
+                "description": "A natural park offering not only paragliding but also stunning landscapes, hiking trails, and cultural attractions.",
+                "location": "Chicamocha National Park, near Bucaramanga, Colombia",
+                "longitude": -73.1445,
+                "latitude": 6.8330
+            },
+            {
+                "name": "Paragliding Launch Site",
+                "description": "The takeoff point for paragliding, providing breathtaking views of the canyon before the flight.",
+                "location": "Paragliding Launch Site, near Chicamocha Canyon, Colombia",
+                "longitude": -73.1900,
+                "latitude": 6.8000
+            },
+            {
+                "name": "Curití",
+                "description": "A nearby traditional town, great for experiencing local culture and crafts after a day of adventure.",
+                "location": "Curití, near Chicamocha Canyon, Colombia",
+                "longitude": -73.0833,
+                "latitude": 6.6500
+            }
+        ]
+    },
+
+
+    {
+        "name": "Visiting Villa de Leyva's Colonial Charm",
+        "category": "Culture/History",
+        "score": 4,
+        "description": "Explore the well-preserved colonial town of Villa de Leyva, known for its cobblestone streets and historic architecture.",
+        "city": "Villa de Leyva",
+        "longitude": -73.5257,
+        "latitude": 5.6332,
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "December"],
+        "best_time_to_go_description": "The best time to visit Villa de Leyva is during the dry months of June, July, August, and December, which offer pleasant weather ideal for exploring the town's outdoor attractions and enjoying its colonial ambiance.",
+        "worst_time_to_go": ["April", "May", "September", "October", "November"],
+        "worst_time_to_go_description": "The rainy season, typically in April, May, September, October, and November, can make walking through the cobblestone streets less comfortable and hinder the enjoyment of outdoor sightseeing.",
+        "suggested_venues": [
+            {
+                "name": "Plaza Mayor",
+                "description": "One of the largest town squares in the Americas, surrounded by colonial buildings and a popular spot for cultural events.",
+                "location": "Plaza Mayor, Villa de Leyva, Colombia",
+                "longitude": -73.5241,
+                "latitude": 5.6319
+            },
+            {
+                "name": "Casa Terracota",
+                "description": "A unique architectural structure near Villa de Leyva, known as the world's largest piece of pottery, offering an artistic and cultural experience.",
+                "location": "Casa Terracota, Villa de Leyva, Colombia",
+                "longitude": -73.5380,
+                "latitude": 5.6400
+            },
+            {
+                "name": "El Fósil",
+                "description": "A museum showcasing a well-preserved fossil of a Kronosaurus, offering insights into the region's prehistoric past.",
+                "location": "El Fósil, Villa de Leyva, Colombia",
+                "longitude": -73.5070,
+                "latitude": 5.6180
+            }
+        ]
+    }    
+]

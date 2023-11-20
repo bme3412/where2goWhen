@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Brownsberg Nature Park",
+        "category": "Nature/Adventure",
+        "score": 4,
+        "description": "Explore Brownsberg Nature Park, a pristine rainforest reserve with hiking trails, waterfalls, and the opportunity to spot diverse wildlife.",
+        "city": "Brownsberg",
+        "longitude": -55.1684,
+        "latitude": 4.3190,
+        "cost": "$$"
+    },
+    {
+        "name": "Galibi Nature Reserve",
+        "category": "Nature/Wildlife",
+        "score": 4,
+        "description": "Visit the Galibi Nature Reserve to witness the nesting of sea turtles, including giant leatherbacks, and experience indigenous culture.",
+        "city": "Albina",
+        "longitude": -54.0893,
+        "latitude": 5.9085,
+        "cost": "$$"
+    },
+    {
+        "name": "Paramaribo's Historic District",
+        "category": "Culture/History",
+        "score": 4,
+        "description": "Explore the historic district of Paramaribo, a UNESCO World Heritage site, with its colonial architecture and vibrant street life.",
+        "city": "Paramaribo",
+        "longitude": -55.1677,
+        "latitude": 5.8660,
+        "cost": "$"
+    },
+    {
+        "name": "Central Suriname Nature Reserve",
+        "category": "Nature/Adventure",
+        "score": 5,
+        "description": "Embark on an adventure in the Central Suriname Nature Reserve, one of the world's largest pristine tropical rainforests, offering hiking and wildlife encounters.",
+        "city": "Kwamalasamutu",
+        "longitude": -56.2917,
+        "latitude": 3.8419,
+        "cost": "$$$"
+    },
+    {
+        "name": "Brokopondo Reservoir Boat Tour",
+        "category": "Nature/Adventure",
+        "score": 4,
+        "description": "Take a boat tour on the Brokopondo Reservoir, created by the Afobaka Dam, and enjoy scenic views, fishing, and water-based activities.",
+        "city": "Brokopondo",
+        "longitude": -55.1667,
+        "latitude": 5.0667,
+        "cost": "$$"
+    },
+    {
+        "name": "Maroon Village Experience",
+        "category": "Culture/History",
+        "score": 4,
+        "description": "Immerse yourself in the culture of Maroon villages, such as Danpaati, and learn about the history, traditions, and music of the Maroon people.",
+        "city": "Various",
+        "longitude": -55.2110,
+        "latitude": 5.8893,
+        "cost": "$$"
+    },
+    {
+        "name": "Tafelberg Mountain Trek",
+        "category": "Adventure/Nature",
+        "score": 5,
+        "description": "Embark on a challenging trek to Tafelberg Mountain, a flat-topped plateau with stunning views, unique flora, and diverse ecosystems.",
+        "city": "Tafelberg",
+        "longitude": -56.1250,
+        "latitude": 3.9381,
+        "cost": "$$$"
+    },
+    {
+        "name": "Galibi-Matiwai Indigenous Experience",
+        "category": "Culture/Nature",
+        "score": 4,
+        "description": "Experience indigenous culture in Galibi-Matiwai, interact with local communities, and enjoy river excursions and nature walks.",
+        "city": "Albina",
+        "longitude": -54.0825,
+        "latitude": 5.9102,
+        "cost": "$$"
+    },
+    {
+        "name": "Warappa Creek Bike Tour",
+        "category": "Adventure/Nature",
+        "score": 3,
+        "description": "Take a bike tour along the scenic Warappa Creek, passing through old plantations, picturesque landscapes, and historical sites.",
+        "city": "Nieuw Nickerie",
+        "longitude": -56.9781,
+        "latitude": 5.9511,
+        "cost": "$$"
+    },
+    {
+        "name": "Blanche Marie Waterfalls",
+        "category": "Nature/Adventure",
+        "score": 4,
+        "description": "Discover the remote Blanche Marie Waterfalls, located in the western rainforest, and enjoy the beauty of cascading water and lush surroundings.",
+        "city": "Apura",
+        "longitude": -58.9956,
+        "latitude": 4.9381,
+        "cost": "$$$"
+    }
+]

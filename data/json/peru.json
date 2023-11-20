@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Machu Picchu Exploration",
+        "category": "History/Adventure",
+        "score": 5,
+        "description": "Embark on a journey to Machu Picchu, the iconic Inca citadel, and hike the Inca Trail or take the train to witness this archaeological wonder.",
+        "city": "Aguas Calientes",
+        "longitude": -72.5721,
+        "latitude": -13.1631,
+        "cost": "$$$"
+    },
+    {
+        "name": "Amazon Rainforest Adventure",
+        "category": "Nature/Adventure",
+        "score": 5,
+        "description": "Experience the wonders of the Amazon Rainforest in Peru. Take guided jungle expeditions, spot wildlife, and learn about the rich biodiversity.",
+        "city": "Iquitos",
+        "longitude": -73.2472,
+        "latitude": -3.7490,
+        "cost": "$$$"
+    },
+    {
+        "name": "Lake Titicaca Discovery",
+        "category": "Nature/Culture",
+        "score": 4,
+        "description": "Explore Lake Titicaca, the world's highest navigable lake. Visit the Uros floating islands and Taquile Island to learn about the indigenous cultures.",
+        "city": "Puno",
+        "longitude": -70.0392,
+        "latitude": -15.9250,
+        "cost": "$$"
+    },
+    {
+        "name": "Colca Canyon Trek",
+        "category": "Adventure/Nature",
+        "score": 4,
+        "description": "Trek through Colca Canyon, one of the world's deepest canyons, and witness the majestic Andean condor in flight.",
+        "city": "Arequipa",
+        "longitude": -71.5374,
+        "latitude": -15.6331,
+        "cost": "$$"
+    },
+    {
+        "name": "Nazca Lines Flight",
+        "category": "History/Adventure",
+        "score": 4,
+        "description": "Take a flight over the enigmatic Nazca Lines, massive geoglyphs etched into the desert floor, and unravel their mysteries.",
+        "city": "Nazca",
+        "longitude": -74.9480,
+        "latitude": -14.8359,
+        "cost": "$$$"
+    },
+    {
+        "name": "Cusco City and Sacsayhuamán Ruins",
+        "category": "History/Culture",
+        "score": 4,
+        "description": "Explore the historic city of Cusco, visit ancient temples, and marvel at the massive stone ruins of Sacsayhuamán overlooking the city.",
+        "city": "Cusco",
+        "longitude": -71.9781,
+        "latitude": -13.5319,
+        "cost": "$$"
+    },
+    {
+        "name": "Inca Trail to Machu Picchu",
+        "category": "Adventure/Nature",
+        "score": 5,
+        "description": "Embark on the famous Inca Trail trek, a multi-day adventure through stunning landscapes, ancient ruins, and diverse ecosystems.",
+        "city": "Various",
+        "longitude": -72.5450,
+        "latitude": -13.2296,
+        "cost": "$$$"
+    },
+    {
+        "name": "Ballestas Islands Wildlife Tour",
+        "category": "Nature/Wildlife",
+        "score": 4,
+        "description": "Take a boat tour to the Ballestas Islands, often referred to as the 'Poor Man's Galápagos,' and observe sea lions, penguins, and seabirds.",
+        "city": "Paracas",
+        "longitude": -76.2211,
+        "latitude": -13.7228,
+        "cost": "$$"
+    },
+    {
+        "name": "Arequipa's Santa Catalina Monastery",
+        "category": "Culture/History",
+        "score": 3,
+        "description": "Visit the Santa Catalina Monastery in Arequipa, a stunning colonial-era convent filled with vibrant colors and historical significance.",
+        "city": "Arequipa",
+        "longitude": -71.5374,
+        "latitude": -16.4090,
+        "cost": "$$"
+    },
+    {
+        "name": "Trek to Rainbow Mountain (Vinicunca)",
+        "category": "Adventure/Nature",
+        "score": 4,
+        "description": "Embark on a challenging trek to Rainbow Mountain, famous for its colorful stripes of mineral deposits and high-altitude landscapes.",
+        "city": "Cusco",
+        "longitude": -71.1450,
+        "latitude": -13.8636,
+        "cost": "$$"
+    }
+]

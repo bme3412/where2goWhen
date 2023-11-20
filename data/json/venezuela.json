@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Angel Falls Adventure",
+        "category": "Nature/Adventure",
+        "score": 5,
+        "description": "Embark on an adventure to Angel Falls, the world's highest uninterrupted waterfall, located in the heart of Canaima National Park.",
+        "city": "Canaima",
+        "longitude": -62.5342,
+        "latitude": 5.9681,
+        "cost": "$$$"
+    },
+    {
+        "name": "Explore Los Roques Archipelago",
+        "category": "Nature/Adventure",
+        "score": 5,
+        "description": "Discover the pristine beauty of Los Roques Archipelago, a national park known for its crystal-clear waters, coral reefs, and diverse marine life.",
+        "city": "Los Roques",
+        "longitude": -66.8543,
+        "latitude": 11.8842,
+        "cost": "$$$"
+    },
+    {
+        "name": "Roraima Trekking Expedition",
+        "category": "Adventure/Nature",
+        "score": 5,
+        "description": "Embark on a challenging trek to Roraima, a flat-topped mountain in the Gran Sabana region, and explore its unique landscapes and ecosystems.",
+        "city": "Gran Sabana",
+        "longitude": -61.7362,
+        "latitude": 5.1129,
+        "cost": "$$$"
+    },
+    {
+        "name": "Visit the Historic City of Coro",
+        "category": "Culture/History",
+        "score": 4,
+        "description": "Explore the historic city of Coro, a UNESCO World Heritage site, known for its colonial architecture, museums, and cultural heritage.",
+        "city": "Coro",
+        "longitude": -69.6853,
+        "latitude": 11.4069,
+        "cost": "$$"
+    },
+    {
+        "name": "Canaima Lagoon Boat Tour",
+        "category": "Nature/Adventure",
+        "score": 4,
+        "description": "Take a boat tour on Canaima Lagoon, surrounded by stunning tepui formations, and visit the iconic Ucaima Falls.",
+        "city": "Canaima",
+        "longitude": -62.5342,
+        "latitude": 5.6226,
+        "cost": "$$$"
+    },
+    {
+        "name": "Merida's Andean Adventures",
+        "category": "Adventure/Nature",
+        "score": 4,
+        "description": "Explore the Andean landscapes of Merida, offering opportunities for trekking, paragliding, and enjoying the natural beauty of the region.",
+        "city": "Merida",
+        "longitude": -71.1433,
+        "latitude": 8.5919,
+        "cost": "$$"
+    },
+    {
+        "name": "Morrocoy National Park Beaches",
+        "category": "Nature/Relaxation",
+        "score": 4,
+        "description": "Relax on the pristine beaches of Morrocoy National Park, an archipelago with calm turquoise waters and white sandy shores.",
+        "city": "Morrocoy",
+        "longitude": -68.3156,
+        "latitude": 10.9287,
+        "cost": "$$"
+    },
+    {
+        "name": "Orinoco Delta Exploration",
+        "category": "Nature/Wildlife",
+        "score": 4,
+        "description": "Explore the rich biodiversity of the Orinoco Delta, home to diverse wildlife and indigenous communities, with canoe tours and wildlife watching.",
+        "city": "Orinoco Delta",
+        "longitude": -62.2664,
+        "latitude": 8.3270,
+        "cost": "$$$"
+    },
+    {
+        "name": "Médanos de Coro Sand Dunes",
+        "category": "Nature/Adventure",
+        "score": 4,
+        "description": "Visit the Médanos de Coro, a unique desert landscape with vast sand dunes perfect for sandboarding and photography.",
+        "city": "Coro",
+        "longitude": -69.6516,
+        "latitude": 11.4111,
+        "cost": "$$"
+    },
+    {
+        "name": "Caracas City Tour",
+        "category": "Culture/History",
+        "score": 3,
+        "description": "Take a city tour of Caracas, the capital of Venezuela, and explore its museums, historic sites, and cultural attractions.",
+        "city": "Caracas",
+        "longitude": -66.8792,
+        "latitude": 10.4910,
+        "cost": "$$"
+    }
+]

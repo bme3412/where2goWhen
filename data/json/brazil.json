@@ -1,0 +1,458 @@
+[
+    {
+        "name": "Exploring the Amazon Rainforest",
+        "category": "Nature/Wildlife",
+        "score": 5,
+        "description": "Embark on an adventure in the Amazon Rainforest, home to diverse wildlife and unique ecosystems.",
+        "city": "Manaus",
+        "longitude": -60.0248,
+        "latitude": -3.4653,
+        "cost": "$$$",
+        "best_time_to_go": ["June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit the Amazon Rainforest is during the dry season from June to October, when wildlife is more visible and the weather is more conducive to exploration.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March", "April", "May"],
+        "worst_time_to_go_description": "The rainy season from November to May can be challenging for exploration due to heavy rains, flooding, and limited accessibility.",
+        "suggested_venues": [
+            {
+                "name": "Meeting of Waters",
+                "description": "See the Meeting of Waters, where the dark Rio Negro and the pale Amazon River converge, creating a stunning natural phenomenon.",
+                "location": "Meeting of Waters, Manaus, Brazil",
+                "longitude": -60.0400,
+                "latitude": -3.2500
+            },
+            {
+                "name": "Amazon Rainforest Lodge",
+                "description": "Stay at an Amazon Rainforest Lodge, offering immersive jungle experiences and guided wildlife tours.",
+                "location": "Amazon Rainforest Lodge, near Manaus, Brazil",
+                "longitude": -60.1000,
+                "latitude": -3.1000
+            },
+            {
+                "name": "Janauari Ecological Park",
+                "description": "Explore the Janauari Ecological Park, a unique area with floating ecosystems and rich biodiversity.",
+                "location": "Janauari Ecological Park, near Manaus, Brazil",
+                "longitude": -60.2000,
+                "latitude": -3.3000
+            },
+            {
+                "name": "Anavilhanas Archipelago",
+                "description": "Visit the Anavilhanas Archipelago, a vast riverine archipelago in the Rio Negro with numerous islands, channels, and lakes to explore.",
+                "location": "Anavilhanas Archipelago, near Manaus, Brazil",
+                "longitude": -60.7500,
+                "latitude": -2.5000
+            }
+        ]
+    },
+
+    {
+        "name": "Carnival in Rio de Janeiro",
+        "category": "Culture/Festival",
+        "score": 5,
+        "description": "Experience the vibrant and world-famous Carnival in Rio de Janeiro, a dazzling spectacle of music, dance, and costumes.",
+        "city": "Rio de Janeiro",
+        "longitude": -43.1729,
+        "latitude": -22.9068,
+        "cost": "$$",
+        "best_time_to_go": ["February", "March"],
+        "best_time_to_go_description": "The best time to experience Carnival in Rio is typically in February or March, depending on the year, as it coincides with the days leading up to Lent.",
+        "worst_time_to_go": ["Rest of the year"],
+        "worst_time_to_go_description": "Carnival is a specific seasonal festival, so visiting outside of the February/March period means missing out on this unique event.",
+        "suggested_venues": [
+            {
+                "name": "Sambadrome Marquês de Sapucaí",
+                "description": "Witness the main parades at the Sambadrome, where samba schools compete in one of the most vibrant displays of Brazilian culture.",
+                "location": "Sambadrome Marquês de Sapucaí, Rio de Janeiro, Brazil",
+                "longitude": -43.1964,
+                "latitude": -22.9110
+            },
+            {
+                "name": "Copacabana Beach",
+                "description": "Join the Carnival street parties at Copacabana Beach, a hub of festive activities and live music performances.",
+                "location": "Copacabana Beach, Rio de Janeiro, Brazil",
+                "longitude": -43.1822,
+                "latitude": -22.9711
+            },
+            {
+                "name": "Ipanema",
+                "description": "Explore the neighborhood of Ipanema for its vibrant street parties and parades, a quintessential Rio Carnival experience.",
+                "location": "Ipanema, Rio de Janeiro, Brazil",
+                "longitude": -43.2065,
+                "latitude": -22.9838
+            },
+            {
+                "name": "Rio Carnival Balls",
+                "description": "Attend one of the many glamorous Carnival balls held in the city, famous for their elaborate costumes and lively atmosphere.",
+                "location": "Various locations in Rio de Janeiro, Brazil",
+                "longitude": -43.1729,
+                "latitude": -22.9068
+            }
+        ]
+    },
+
+
+    {
+        "name": "Visiting Christ the Redeemer",
+        "category": "Culture/History",
+        "score": 4,
+        "description": "Marvel at the iconic Christ the Redeemer statue atop Corcovado Mountain, offering panoramic views of Rio de Janeiro.",
+        "city": "Rio de Janeiro",
+        "longitude": -43.2105,
+        "latitude": -22.9519,
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October", "November"],
+        "best_time_to_go_description": "The best time to visit Christ the Redeemer is during Rio's shoulder months of April, May, September, October, and November, when the weather is pleasant and the site is less crowded.",
+        "worst_time_to_go": ["December", "January", "February", "March"],
+        "worst_time_to_go_description": "Avoid the peak tourist season and hot summer months from December to March, when the site can be extremely crowded and the heat can be intense.",
+        "suggested_venues": [
+            {
+                "name": "Corcovado Train",
+                "description": "Take the scenic Corcovado Train, a traditional and environmentally friendly way to ascend the mountain to the Christ the Redeemer statue.",
+                "location": "Corcovado Train, Rio de Janeiro, Brazil",
+                "longitude": -43.2219,
+                "latitude": -22.9483
+            },
+            {
+                "name": "Mirante Dona Marta",
+                "description": "Stop by Mirante Dona Marta, a viewpoint offering spectacular views of Rio, including the Christ the Redeemer statue from a distance.",
+                "location": "Mirante Dona Marta, Rio de Janeiro, Brazil",
+                "longitude": -43.2095,
+                "latitude": -22.9408
+            },
+            {
+                "name": "Tijuca National Park",
+                "description": "Explore Tijuca National Park, the world’s largest urban rainforest, surrounding the Christ the Redeemer statue.",
+                "location": "Tijuca National Park, Rio de Janeiro, Brazil",
+                "longitude": -43.2844,
+                "latitude": -22.9596
+            },
+            {
+                "name": "Helicopter Tour",
+                "description": "Experience a breathtaking helicopter tour for a unique aerial view of the Christ the Redeemer statue and surrounding landscapes.",
+                "location": "Helicopter tour services, Rio de Janeiro, Brazil",
+                "longitude": -43.2105,
+                "latitude": -22.9519
+            }
+        ]
+    },
+
+
+    {
+        "name": "Exploring Iguazu Falls",
+        "category": "Nature/Adventure",
+        "score": 5,
+        "description": "Witness the awe-inspiring Iguazu Falls, a massive waterfall system shared between Brazil and Argentina.",
+        "city": "Foz do Iguaçu",
+        "longitude": -54.4409,
+        "latitude": -25.6953,
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Iguazu Falls is from May to September when the rainfall is lower, making the falls less misty and more visible, and the weather is more pleasant for exploring.",
+        "worst_time_to_go": ["December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The rainy season from December to April can lead to heavy flows that create a lot of mist and may obscure the views of the falls. Also, this period is typically more crowded.",
+        "suggested_venues": [
+            {
+                "name": "Devil's Throat",
+                "description": "Visit the Devil's Throat, the largest and most majestic of Iguazu's falls, offering an unforgettable experience.",
+                "location": "Devil's Throat, Iguazu Falls, Argentina/Brazil",
+                "longitude": -54.4432,
+                "latitude": -25.6958
+            },
+            {
+                "name": "Iguazu Falls Boat Tour",
+                "description": "Take an exhilarating boat tour to get up close to the falls, feeling the spray and hearing the roar of the water.",
+                "location": "Iguazu Falls Boat Tour, Foz do Iguaçu, Brazil",
+                "longitude": -54.4413,
+                "latitude": -25.6961
+            },
+            {
+                "name": "Parque das Aves",
+                "description": "Explore Parque das Aves, a bird park near the falls, where you can see a variety of exotic birds in a natural setting.",
+                "location": "Parque das Aves, Foz do Iguaçu, Brazil",
+                "longitude": -54.4358,
+                "latitude": -25.6907
+            },
+            {
+                "name": "Helicopter Ride Over the Falls",
+                "description": "Experience a unique perspective of Iguazu Falls with a helicopter ride, offering breathtaking aerial views of the entire waterfall system.",
+                "location": "Helicopter Ride, Foz do Iguaçu, Brazil",
+                "longitude": -54.4409,
+                "latitude": -25.6953
+            }
+        ]
+    },
+
+
+    {
+        "name": "Samba Dancing in Salvador",
+        "category": "Culture/Festival",
+        "score": 4,
+        "description": "Join the rhythmic beats of samba dancing in Salvador during its lively Carnival and street parties.",
+        "city": "Salvador",
+        "longitude": -38.5023,
+        "latitude": -12.9716,
+        "cost": "$",
+        "best_time_to_go": ["February", "March"],
+        "best_time_to_go_description": "The best time to experience samba dancing in Salvador is during the Carnival season, typically in February or March, when the city comes alive with music, dance, and festivities.",
+        "worst_time_to_go": ["Rest of the year"],
+        "worst_time_to_go_description": "Outside of the Carnival season, the vibrant street parties and samba dancing events are significantly less frequent.",
+        "suggested_venues": [
+            {
+                "name": "Pelourinho",
+                "description": "Explore Pelourinho, the historic heart of Salvador, known for its colorful colonial architecture and vibrant samba street parties.",
+                "location": "Pelourinho, Salvador, Brazil",
+                "longitude": -38.5079,
+                "latitude": -12.9747
+            },
+            {
+                "name": "Rio Vermelho",
+                "description": "Visit Rio Vermelho, a bohemian neighborhood famous for its lively night scene and samba clubs.",
+                "location": "Rio Vermelho, Salvador, Brazil",
+                "longitude": -38.4813,
+                "latitude": -13.0165
+            },
+            {
+                "name": "Carnival Circuits",
+                "description": "Join the Carnival circuits, where samba schools parade through the streets, showcasing elaborate floats and costumes.",
+                "location": "Carnival circuits, Salvador, Brazil",
+                "longitude": -38.5023,
+                "latitude": -12.9716
+            },
+            {
+                "name": "Traditional Samba Schools",
+                "description": "Experience the authentic Brazilian samba at one of Salvador's traditional samba schools, where you can watch or join in the dancing.",
+                "location": "Various locations in Salvador, Brazil",
+                "longitude": -38.5023,
+                "latitude": -12.9716
+            }
+        ]
+    },
+
+
+    {
+        "name": "Relaxing on Copacabana Beach",
+        "category": "Nature/Beach",
+        "score": 3,
+        "description": "Unwind on the world-famous Copacabana Beach, known for its stunning shoreline and vibrant atmosphere.",
+        "city": "Rio de Janeiro",
+        "longitude": -43.1850,
+        "latitude": -22.9676,
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to relax on Copacabana Beach is during the Brazilian winter and early spring months of May to September, when the weather is milder and the beach is less crowded.",
+        "worst_time_to_go": ["December", "January", "February", "March"],
+        "worst_time_to_go_description": "The peak summer months from December to March are often extremely crowded and hot, making it less comfortable to relax on the beach.",
+        "suggested_venues": [
+            {
+                "name": "Copacabana Fort",
+                "description": "Visit the historical Copacabana Fort, located at the end of the beach, offering stunning views and a cultural experience.",
+                "location": "Copacabana Fort, Rio de Janeiro, Brazil",
+                "longitude": -43.1910,
+                "latitude": -22.9868
+            },
+            {
+                "name": "Copacabana Boardwalk",
+                "description": "Stroll along the iconic Copacabana Boardwalk, famous for its Portuguese pavement design and vibrant atmosphere.",
+                "location": "Copacabana Boardwalk, Rio de Janeiro, Brazil",
+                "longitude": -43.1850,
+                "latitude": -22.9676
+            },
+            {
+                "name": "Beach Volleyball Courts",
+                "description": "Enjoy the beach volleyball courts along Copacabana Beach, a popular spot for both locals and tourists to engage in sport and fun.",
+                "location": "Beach Volleyball Courts, Copacabana Beach, Rio de Janeiro, Brazil",
+                "longitude": -43.1830,
+                "latitude": -22.9690
+            },
+            {
+                "name": "Beachfront Bars and Restaurants",
+                "description": "Explore the numerous beachfront bars and restaurants along Copacabana Beach, offering delicious local cuisine and refreshing drinks.",
+                "location": "Various locations along Copacabana Beach, Rio de Janeiro, Brazil",
+                "longitude": -43.1850,
+                "latitude": -22.9676
+            }
+        ]
+    },
+
+
+    {
+        "name": "Jungle Trekking in Pantanal",
+        "category": "Adventure/Wildlife",
+        "score": 4,
+        "description": "Explore the vast wetlands of Pantanal, a biodiversity hotspot, and spot exotic wildlife on a jungle trek.",
+        "city": "Cuiabá",
+        "longitude": -56.0477,
+        "latitude": -15.5567,
+        "cost": "$$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to go jungle trekking in Pantanal is during the dry season from April to September when wildlife is more visible and the weather is favorable for exploration.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The wet season from October to March can make trekking difficult due to flooding and the increased presence of mosquitoes.",
+        "suggested_venues": [
+            {
+                "name": "Transpantaneira Highway",
+                "description": "Start your adventure on the Transpantaneira Highway, a dirt road that offers remarkable opportunities to see wildlife in their natural habitat.",
+                "location": "Transpantaneira Highway, near Cuiabá, Brazil",
+                "longitude": -56.1000,
+                "latitude": -16.5000
+            },
+            {
+                "name": "Pantanal Wildlife Tours",
+                "description": "Join a guided wildlife tour in the Pantanal to spot jaguars, caimans, capybaras, and a variety of bird species.",
+                "location": "Pantanal Wildlife Tours, near Cuiabá, Brazil",
+                "longitude": -56.0477,
+                "latitude": -15.5567
+            },
+            {
+                "name": "Pousada Ecologica",
+                "description": "Stay at Pousada Ecologica, an eco-lodge offering immersive jungle experiences and guided treks in the Pantanal.",
+                "location": "Pousada Ecologica, Pantanal, Brazil",
+                "longitude": -56.3000,
+                "latitude": -15.6000
+            },
+            {
+                "name": "Pantanal Nature Reserve",
+                "description": "Explore the Pantanal Nature Reserve, a protected area that provides a safe habitat for numerous species and a fantastic trekking experience.",
+                "location": "Pantanal Nature Reserve, near Cuiabá, Brazil",
+                "longitude": -56.4000,
+                "latitude": -16.0000
+            }
+        ]
+    },
+
+    {
+        "name": "Discovering the Historic Streets of Ouro Preto",
+        "category": "History/Culture",
+        "score": 4,
+        "description": "Step back in time while strolling through the well-preserved colonial streets of Ouro Preto.",
+        "city": "Ouro Preto",
+        "longitude": -43.5081,
+        "latitude": -20.3852,
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Ouro Preto is from April to September when the weather is cooler and more comfortable for exploring the city's hilly terrain and historic sites.",
+        "worst_time_to_go": ["December", "January", "February", "March"],
+        "worst_time_to_go_description": "The summer months from December to March can be quite rainy in Ouro Preto, which might hinder the exploration of its streets and historical landmarks.",
+        "suggested_venues": [
+            {
+                "name": "Museu da Inconfidência",
+                "description": "Visit the Museu da Inconfidência, a museum dedicated to the history of the Inconfidência Mineira independence movement, housed in a historic building.",
+                "location": "Museu da Inconfidência, Ouro Preto, Brazil",
+                "longitude": -43.5070,
+                "latitude": -20.3850
+            },
+            {
+                "name": "Igreja de São Francisco de Assis",
+                "description": "Explore the Igreja de São Francisco de Assis, a prime example of Baroque architecture with intricate carvings and gold-leaf interiors.",
+                "location": "Igreja de São Francisco de Assis, Ouro Preto, Brazil",
+                "longitude": -43.5062,
+                "latitude": -20.3842
+            },
+            {
+                "name": "Praça Tiradentes",
+                "description": "Stroll around Praça Tiradentes, the main square of Ouro Preto, surrounded by historical buildings and a vibrant atmosphere.",
+                "location": "Praça Tiradentes, Ouro Preto, Brazil",
+                "longitude": -43.5077,
+                "latitude": -20.3859
+            },
+            {
+                "name": "Minas de Ouro Tour",
+                "description": "Join a tour of the local gold mines that shaped the history and economy of Ouro Preto during the colonial era.",
+                "location": "Gold Mines, Ouro Preto, Brazil",
+                "longitude": -43.5000,
+                "latitude": -20.3800
+            }
+        ]
+    },
+
+
+    {
+        "name": "Hiking in Chapada Diamantina",
+        "category": "Adventure/Nature",
+        "score": 4,
+        "description": "Embark on challenging hikes in the stunning Chapada Diamantina National Park, known for its rugged landscapes.",
+        "city": "Lençóis",
+        "longitude": -41.3903,
+        "latitude": -12.5655,
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to hike in Chapada Diamantina is during the dry season from April to September, when the weather is milder and the trails are more accessible.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The rainy season from October to March can make hiking trails slippery and some waterfalls and rivers too dangerous to navigate.",
+        "suggested_venues": [
+            {
+                "name": "Cachoeira da Fumaça",
+                "description": "Visit Cachoeira da Fumaça, one of Brazil's highest waterfalls, offering breathtaking views and a rewarding hike.",
+                "location": "Cachoeira da Fumaça, Chapada Diamantina, Brazil",
+                "longitude": -41.3800,
+                "latitude": -12.5500
+            },
+            {
+                "name": "Poço Azul",
+                "description": "Explore Poço Azul, a stunning underground pool where visitors can swim in crystal-clear waters.",
+                "location": "Poço Azul, Chapada Diamantina, Brazil",
+                "longitude": -41.5000,
+                "latitude": -12.6000
+            },
+            {
+                "name": "Morro do Pai Inácio",
+                "description": "Hike up Morro do Pai Inácio for panoramic views of the national park's vast tablelands and valleys.",
+                "location": "Morro do Pai Inácio, Chapada Diamantina, Brazil",
+                "longitude": -41.4000,
+                "latitude": -12.5200
+            },
+            {
+                "name": "Gruta da Pratinha",
+                "description": "Discover Gruta da Pratinha, a cave with a beautiful natural pool, perfect for a refreshing swim after a hike.",
+                "location": "Gruta da Pratinha, Chapada Diamantina, Brazil",
+                "longitude": -41.4200,
+                "latitude": -12.5400
+            }
+        ]
+    },
+
+
+    {
+        "name": "Sunset at Sugarloaf Mountain",
+        "category": "Nature/Adventure",
+        "score": 3,
+        "description": "Catch a breathtaking sunset from the summit of Sugarloaf Mountain, offering panoramic views of Rio de Janeiro.",
+        "city": "Rio de Janeiro",
+        "longitude": -43.1550,
+        "latitude": -22.9481,
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to witness a sunset at Sugarloaf Mountain is during the months of April to September when the skies are clearer and the weather is more pleasant.",
+        "worst_time_to_go": ["December", "January", "February", "March"],
+        "worst_time_to_go_description": "The summer months can be quite crowded and have more frequent rain, possibly obscuring the sunset views.",
+        "suggested_venues": [
+            {
+                "name": "Sugarloaf Cable Car",
+                "description": "Take the Sugarloaf Cable Car for a scenic ride up the mountain, offering stunning views of the city and coastline.",
+                "location": "Sugarloaf Cable Car, Rio de Janeiro, Brazil",
+                "longitude": -43.1620,
+                "latitude": -22.9486
+            },
+            {
+                "name": "Morro da Urca",
+                "description": "Stop at Morro da Urca, the first hill on the way to Sugarloaf, which offers beautiful views and a less crowded experience.",
+                "location": "Morro da Urca, Rio de Janeiro, Brazil",
+                "longitude": -43.1580,
+                "latitude": -22.9510
+            },
+            {
+                "name": "Red Beach (Praia Vermelha)",
+                "description": "Visit Red Beach (Praia Vermelha) at the base of Sugarloaf Mountain, a charming and quiet beach with a unique view of the mountain.",
+                "location": "Red Beach, Rio de Janeiro, Brazil",
+                "longitude": -43.1565,
+                "latitude": -22.9494
+            },
+            {
+                "name": "Cláudio Coutinho Trail",
+                "description": "Walk the Cláudio Coutinho Trail, a peaceful path at the base of Sugarloaf Mountain that offers great views and a chance to connect with nature.",
+                "location": "Cláudio Coutinho Trail, Rio de Janeiro, Brazil",
+                "longitude": -43.1540,
+                "latitude": -22.9500
+            }
+        ]
+    }    
+]

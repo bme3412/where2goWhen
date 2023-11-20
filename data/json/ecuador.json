@@ -1,0 +1,386 @@
+[
+    {
+        "name": "Exploring the Galápagos Islands",
+        "category": "Nature/Wildlife",
+        "score": 5,
+        "description": "Discover the unique and diverse wildlife of the Galápagos Islands through guided tours and snorkeling adventures.",
+        "city": "Various Islands",
+        "longitude": -90.3695,
+        "latitude": -0.7437,
+        "cost": "$$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit the Galápagos Islands is from June to September when the weather is cooler and dryer, which is ideal for wildlife viewing and outdoor activities like hiking and snorkeling.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "While the Galápagos Islands can be visited year-round, the warmer months of December to February can be less comfortable due to higher temperatures and increased rainfall.",
+        "suggested_venues": [
+            {
+                "name": "Charles Darwin Research Station",
+                "description": "A research facility on Santa Cruz Island dedicated to the study of Galápagos wildlife, particularly the conservation of giant tortoises.",
+                "location": "Charles Darwin Research Station, Santa Cruz Island, Galápagos",
+                "longitude": -90.3103,
+                "latitude": -0.7407
+            },
+            {
+                "name": "Kicker Rock",
+                "description": "An iconic rock formation off San Cristóbal Island, known for snorkeling and diving with a chance to see sharks, rays, and other marine life.",
+                "location": "Kicker Rock, San Cristóbal Island, Galápagos",
+                "longitude": -89.6280,
+                "latitude": -0.9130
+            },
+            {
+                "name": "Gardner Bay",
+                "description": "A beach on Española Island famous for its white sandy beaches, sea lions, and excellent snorkeling opportunities.",
+                "location": "Gardner Bay, Española Island, Galápagos",
+                "longitude": -89.6489,
+                "latitude": -1.2133
+            }
+        ]
+    },
+
+
+    {
+        "name": "Hiking in Cotopaxi National Park",
+        "category": "Nature/Adventure",
+        "score": 4,
+        "description": "Embark on a hiking adventure in Cotopaxi National Park, home to the Cotopaxi volcano and stunning Andean landscapes.",
+        "city": "Latacunga",
+        "longitude": -78.6336,
+        "latitude": -0.6802,
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The optimal time for hiking in Cotopaxi National Park is during the dry season from June to September. During these months, clear skies and reduced rainfall provide better conditions for hiking and clearer views of the Cotopaxi volcano.",
+        "worst_time_to_go": ["February", "March", "April"],
+        "worst_time_to_go_description": "The wet season, particularly from February to April, can bring heavy rains, making trails muddy and hiking more challenging, with reduced visibility of the surrounding landscapes.",
+        "suggested_venues": [
+            {
+                "name": "Cotopaxi Volcano",
+                "description": "The centerpiece of the park, this active volcano offers challenging hiking trails and breathtaking views from its slopes.",
+                "location": "Cotopaxi Volcano, Cotopaxi National Park, Ecuador",
+                "longitude": -78.4368,
+                "latitude": -0.6830
+            },
+            {
+                "name": "Laguna Limpiopungo",
+                "description": "A scenic high-altitude lagoon in the park, offering picturesque views and opportunities for bird watching.",
+                "location": "Laguna Limpiopungo, Cotopaxi National Park, Ecuador",
+                "longitude": -78.4972,
+                "latitude": -0.6708
+            },
+            {
+                "name": "Rumiñahui Volcano",
+                "description": "Another volcanic peak in the park, offering less crowded hiking trails and a unique perspective of the Andean landscape.",
+                "location": "Rumiñahui Volcano, Cotopaxi National Park, Ecuador",
+                "longitude": -78.5647,
+                "latitude": -0.6500
+            }
+        ]
+    },
+
+    {
+        "name": "Visiting the Middle of the World Monument",
+        "category": "Culture/History",
+        "score": 3,
+        "description": "Stand at the equator line and visit the Middle of the World Monument and museum, showcasing Ecuador's geographic significance.",
+        "city": "Quito",
+        "longitude": -78.4678,
+        "latitude": -0.0024,
+        "cost": "$",
+        "best_time_to_go": ["June", "July", "August", "December", "January"],
+        "best_time_to_go_description": "The best time to visit the Middle of the World Monument is during the drier months of June, July, August, December, and January. These months typically offer clear skies and pleasant weather, enhancing the experience of outdoor exploration and photography at the equatorial line.",
+        "worst_time_to_go": ["February", "March", "April"],
+        "worst_time_to_go_description": "The rainy season from February to April can bring occasional showers, which might disrupt outdoor activities and sightseeing at the monument.",
+        "suggested_venues": [
+            {
+                "name": "Middle of the World Monument (Monumento a la Mitad del Mundo)",
+                "description": "A prominent monument marking the equatorial line, with an adjacent museum exploring the history and significance of the equator.",
+                "location": "Middle of the World Monument, Quito, Ecuador",
+                "longitude": -78.4555,
+                "latitude": -0.0005
+            },
+            {
+                "name": "Intiñan Solar Museum",
+                "description": "A museum located near the official GPS-determined equator line, featuring interactive exhibits and cultural displays.",
+                "location": "Intiñan Solar Museum, near Quito, Ecuador",
+                "longitude": -78.4557,
+                "latitude": -0.0023
+            },
+            {
+                "name": "Pululahua Geobotanical Reserve",
+                "description": "A nearby natural reserve offering spectacular views of a volcanic crater and unique flora and fauna.",
+                "location": "Pululahua Geobotanical Reserve, near Quito, Ecuador",
+                "longitude": -78.4677,
+                "latitude": -0.0227
+            }
+        ]
+    },
+
+
+    {
+        "name": "Amazon Rainforest Adventure",
+        "category": "Nature/Adventure",
+        "score": 4,
+        "description": "Experience the incredible biodiversity of the Amazon Rainforest and take part in jungle expeditions and wildlife spotting.",
+        "city": "Tena",
+        "longitude": -77.6123,
+        "latitude": -1.0406,
+        "cost": "$$$",
+        "best_time_to_go": ["June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time for an Amazon Rainforest adventure in Tena is during the less rainy months of June to October. These months typically have fewer rain showers and clearer trails, making wildlife spotting and jungle expeditions more enjoyable.",
+        "worst_time_to_go": ["December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The rainy season from December to April in the Amazon can result in heavy rains, leading to flooded trails and rivers, which can hinder exploration and wildlife viewing.",
+        "suggested_venues": [
+            {
+                "name": "Jatunyacu River",
+                "description": "A popular spot for river rafting and kayaking, offering thrilling rides through the Amazon rainforest.",
+                "location": "Jatunyacu River, near Tena, Ecuador",
+                "longitude": -77.8000,
+                "latitude": -1.0333
+            },
+            {
+                "name": "Yasuni National Park",
+                "description": "One of the most biodiverse places on earth, ideal for wildlife watching and exploring the unique flora and fauna of the Amazon.",
+                "location": "Yasuni National Park, near Tena, Ecuador",
+                "longitude": -76.4000,
+                "latitude": -0.8333
+            },
+            {
+                "name": "AmaZOOnico Wildlife Rescue Center",
+                "description": "A rescue center dedicated to rehabilitating Amazon wildlife, offering guided tours and close encounters with a variety of animals.",
+                "location": "AmaZOOnico Wildlife Rescue Center, near Tena, Ecuador",
+                "longitude": -77.5833,
+                "latitude": -1.0667
+            }
+        ]
+    },
+
+    {
+        "name": "Exploring the Colonial Streets of Cuenca",
+        "category": "Culture/History",
+        "score": 4,
+        "description": "Stroll through the well-preserved colonial streets of Cuenca, a UNESCO World Heritage site, known for its architecture and culture.",
+        "city": "Cuenca",
+        "longitude": -79.0074,
+        "latitude": -2.9006,
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "December"],
+        "best_time_to_go_description": "The best time to visit Cuenca is during the drier months of June, July, August, and December. These months typically offer pleasant weather, making it ideal for exploring the city's historic streets and outdoor attractions.",
+        "worst_time_to_go": ["January", "February", "March", "April"],
+        "worst_time_to_go_description": "The rainy season from January to April can make exploring the outdoor attractions of Cuenca less comfortable due to wet conditions and occasional heavy showers.",
+        "suggested_venues": [
+            {
+                "name": "Cathedral of the Immaculate Conception",
+                "description": "A stunning example of Cuenca's colonial architecture, known for its beautiful blue domes and intricate interior.",
+                "location": "Cathedral of the Immaculate Conception, Cuenca, Ecuador",
+                "longitude": -79.0030,
+                "latitude": -2.8973
+            },
+            {
+                "name": "Plaza Abdon Calderon",
+                "description": "The main square in Cuenca, surrounded by historic buildings and a hub of cultural activities.",
+                "location": "Plaza Abdon Calderon, Cuenca, Ecuador",
+                "longitude": -79.0047,
+                "latitude": -2.8964
+            },
+            {
+                "name": "Barranco del Rio Tomebamba",
+                "description": "A picturesque area along the river, offering scenic views and a chance to see Cuenca's traditional houses perched on the cliffside.",
+                "location": "Barranco del Rio Tomebamba, Cuenca, Ecuador",
+                "longitude": -79.0092,
+                "latitude": -2.9010
+            }
+        ]
+    },
+
+    {
+        "name": "Rafting in the Pastaza River",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Experience exhilarating white-water rafting adventures in the Pastaza River amidst lush rainforest scenery.",
+        "city": "Baños",
+        "longitude": -78.4245,
+        "latitude": -1.3947,
+        "cost": "$$",
+        "best_time_to_go": ["December", "January", "February", "March"],
+        "best_time_to_go_description": "The optimal time for rafting on the Pastaza River is during the rainy season from December to March. This period typically brings higher water levels, providing more challenging and exciting rafting conditions.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "The dry season from June to August can result in lower water levels in the Pastaza River, which may lead to less thrilling rafting experiences.",
+        "suggested_venues": [
+            {
+                "name": "Rafting Launch Site",
+                "description": "The starting point for rafting trips on the Pastaza River, where adventurers gear up and receive safety briefings.",
+                "location": "Rafting Launch Site, Pastaza River, near Baños, Ecuador",
+                "longitude": -78.4350,
+                "latitude": -1.4000
+            },
+            {
+                "name": "Pailón del Diablo Waterfall",
+                "description": "A stunning nearby waterfall offering a scenic backdrop and additional adventure activities.",
+                "location": "Pailón del Diablo Waterfall, near Baños, Ecuador",
+                "longitude": -78.4247,
+                "latitude": -1.3950
+            },
+            {
+                "name": "Baños de Agua Santa",
+                "description": "A town known for its thermal baths and outdoor activities, providing a perfect place to relax after a day of rafting.",
+                "location": "Baños de Agua Santa, Ecuador",
+                "longitude": -78.4268,
+                "latitude": -1.3963
+            }
+        ]
+    },
+
+
+    {
+        "name": "Visiting Ingapirca Archaeological Site",
+        "category": "History/Culture",
+        "score": 3,
+        "description": "Explore the Inca ruins at Ingapirca, the largest archaeological site in Ecuador, with a mix of Inca and Cañari influences.",
+        "city": "Cañar",
+        "longitude": -78.9847,
+        "latitude": -2.5792,
+        "cost": "$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Ingapirca Archaeological Site is during the dry season from June to September. During these months, the weather is more favorable for outdoor exploration of the ruins with less chance of rain.",
+        "worst_time_to_go": ["January", "February", "March", "April"],
+        "worst_time_to_go_description": "The rainy season from January to April can make exploring the outdoor archaeological site less comfortable due to wet conditions and potential for heavy showers.",
+        "suggested_venues": [
+            {
+                "name": "Ingapirca Main Complex",
+                "description": "The heart of the archaeological site, featuring the Temple of the Sun and other significant Inca and Cañari structures.",
+                "location": "Ingapirca Main Complex, Cañar, Ecuador",
+                "longitude": -78.9883,
+                "latitude": -2.5489
+            },
+            {
+                "name": "Ingapirca Museum",
+                "description": "A museum near the ruins offering insights into the history and culture of the people who lived in Ingapirca.",
+                "location": "Ingapirca Museum, Cañar, Ecuador",
+                "longitude": -78.9870,
+                "latitude": -2.5470
+            },
+            {
+                "name": "Cañar Market",
+                "description": "A local market in the nearby town of Cañar, where visitors can experience the contemporary culture and crafts of the region.",
+                "location": "Cañar Market, Cañar, Ecuador",
+                "longitude": -78.9321,
+                "latitude": -2.5564
+            }
+        ]
+    },
+
+    {
+        "name": "Relaxing in the Thermal Springs of Papallacta",
+        "category": "Nature/Relaxation",
+        "score": 3,
+        "description": "Unwind in the natural thermal springs of Papallacta, nestled in the Andes, offering relaxation with stunning mountain views.",
+        "city": "Papallacta",
+        "longitude": -77.6225,
+        "latitude": -0.3100,
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time to visit the thermal springs of Papallacta is during the drier months from June to October. During this period, visitors can enjoy the hot springs with less likelihood of rain, complemented by clear views of the Andean landscape.",
+        "worst_time_to_go": ["February", "March", "April"],
+        "worst_time_to_go_description": "The rainy season, particularly from February to April, can see frequent rain showers, which might dampen the outdoor hot springs experience, despite the waters being naturally heated.",
+        "suggested_venues": [
+            {
+                "name": "Termas de Papallacta",
+                "description": "A well-known thermal spring resort in Papallacta, offering a range of thermal pools with varying temperatures, spa services, and accommodations.",
+                "location": "Termas de Papallacta, Papallacta, Ecuador",
+                "longitude": -77.6190,
+                "latitude": -0.3661
+            },
+            {
+                "name": "Papallacta Lake",
+                "description": "A scenic lake near the thermal springs, offering peaceful surroundings and opportunities for nature walks.",
+                "location": "Papallacta Lake, near Papallacta, Ecuador",
+                "longitude": -77.6317,
+                "latitude": -0.3417
+            },
+            {
+                "name": "Cayambe Coca Ecological Reserve",
+                "description": "A nearby nature reserve with diverse ecosystems, perfect for hiking and wildlife spotting in a beautiful Andean setting.",
+                "location": "Cayambe Coca Ecological Reserve, near Papallacta, Ecuador",
+                "longitude": -77.6333,
+                "latitude": -0.3000
+            }
+        ]
+    },
+
+
+    {
+        "name": "Visiting the El Panecillo Statue",
+        "category": "Culture/History",
+        "score": 3,
+        "description": "Admire the iconic El Panecillo Statue overlooking Quito, representing the Virgin of Quito and offering panoramic views of the city.",
+        "city": "Quito",
+        "longitude": -78.4636,
+        "latitude": -0.2300,
+        "cost": "$",
+        "best_time_to_go": ["June", "July", "August", "December", "January"],
+        "best_time_to_go_description": "The ideal time to visit the El Panecillo Statue is during the dry months of June, July, August, December, and January. These months typically feature clear skies, providing the best visibility for panoramic views of Quito from the statue.",
+        "worst_time_to_go": ["February", "March", "April"],
+        "worst_time_to_go_description": "The rainy season, particularly in February, March, and April, can bring cloudy skies and reduced visibility, affecting the panoramic views from El Panecillo.",
+        "suggested_venues": [
+            {
+                "name": "El Panecillo",
+                "description": "A hill offering a strategic viewpoint of Quito, crowned by the impressive statue of the Virgin of Quito.",
+                "location": "El Panecillo, Quito, Ecuador",
+                "longitude": -78.5185,
+                "latitude": -0.2295
+            },
+            {
+                "name": "La Ronda Street",
+                "description": "A historic street near El Panecillo, known for its colonial architecture, artisan shops, and traditional food.",
+                "location": "La Ronda Street, Quito, Ecuador",
+                "longitude": -78.5150,
+                "latitude": -0.2200
+            },
+            {
+                "name": "Basilica del Voto Nacional",
+                "description": "A majestic basilica close to El Panecillo, known for its intricate Gothic architecture and stunning city views from its towers.",
+                "location": "Basilica del Voto Nacional, Quito, Ecuador",
+                "longitude": -78.5060,
+                "latitude": -0.2150
+            }
+        ]
+    },
+
+
+    {
+        "name": "Birdwatching in Mindo Cloud Forest",
+        "category": "Nature/Wildlife",
+        "score": 4,
+        "description": "Explore the lush Mindo Cloud Forest, a paradise for birdwatchers, with a chance to spot colorful and exotic bird species.",
+        "city": "Mindo",
+        "longitude": -78.7755,
+        "latitude": 0.0523,
+        "cost": "$$",
+        "best_time_to_go": ["December", "January", "February", "March"],
+        "best_time_to_go_description": "The ideal time for birdwatching in the Mindo Cloud Forest is during the drier months of December to March. These months typically provide clearer weather, enhancing the opportunity to observe a wide variety of bird species in their natural habitat.",
+        "worst_time_to_go": ["April", "May", "June"],
+        "worst_time_to_go_description": "The rainy season from April to June can make birdwatching more challenging due to frequent rain showers, which can disrupt bird activity and visibility.",
+        "suggested_venues": [
+            {
+                "name": "Mindo Cloud Forest Reserve",
+                "description": "A protected area within the cloud forest, offering guided birdwatching tours and trails through diverse ecosystems.",
+                "location": "Mindo Cloud Forest Reserve, Mindo, Ecuador",
+                "longitude": -78.7812,
+                "latitude": 0.0500
+            },
+            {
+                "name": "Mindo Butterfly Farm",
+                "description": "In addition to birds, this farm offers the chance to see a variety of butterfly species in a lush, tropical setting.",
+                "location": "Mindo Butterfly Farm, Mindo, Ecuador",
+                "longitude": -78.7666,
+                "latitude": 0.0566
+            },
+            {
+                "name": "Nambillo Waterfall",
+                "description": "A scenic waterfall in the forest, which provides a peaceful spot for nature walks and wildlife observation.",
+                "location": "Nambillo Waterfall, Mindo, Ecuador",
+                "longitude": -78.7594,
+                "latitude": 0.0200
+            }
+        ]
+    }    
+]
