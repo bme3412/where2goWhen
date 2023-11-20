@@ -282,6 +282,7 @@
         transform: translateY(-2px);
       }
 
+      /* Continent button style */
       .continent-button {
         display: block;
         width: 100%;
@@ -292,19 +293,50 @@
           linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
         background-size: cover;
         color: white;
-        border: none;
+        border: 3px solid black; /* Thick black outline */
+        border-radius: 25px; /* Rounded corners */
         text-align: center;
         cursor: pointer;
-        border-radius: 5px;
         font-size: 20px;
         font-weight: 700;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
           1px 1px 0 #000; /* Creating an outline effect */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        position: relative; /* Add relative positioning for the arrow */
       }
 
+      /* Continent button hover effect */
       .continent-button:hover {
         background-color: #3e8e41; /* This will affect the color overlay on hover */
+      }
+
+      /* Add smaller right-pointing arrow on the right side of continent buttons */
+      .continent-button::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent; /* Adjust the arrow size */
+        border-right: 0;
+        border-top: 6px solid transparent;
+        border-bottom: 6px solid transparent;
+        border-left-color: #3498db; /* Black color for the arrow */
+      }
+      /* Add tall black arrow on the gray tab */
+      .continent-button::before::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 20px solid #000; /* Black color for the arrow */
       }
     </style>
   </head>
@@ -812,9 +844,7 @@
         <button
           class="country-button"
           onclick="toggleCountry('Bolivia','LatinAmerica')"
-          style="
-            background-image: url('assets/images/flags/bolivia_flag.png');
-          "
+          style="background-image: url('assets/images/flags/bolivia_flag.png')"
         >
           Bolivia
         </button>
@@ -866,7 +896,6 @@
         >
           Paraguay
         </button>
-        
 
         <button
           class="country-button"
@@ -895,7 +924,9 @@
         <button
           class="country-button"
           onclick="toggleCountry('Venezuela','Latin_America')"
-          style="background-image: url('assets/images/flags/venezuela_flag.png')"
+          style="
+            background-image: url('assets/images/flags/venezuela_flag.png');
+          "
         >
           Venezuela
         </button>
@@ -1045,18 +1076,38 @@
           style="display: none"
         ></div>
         <div id="Vatican" class="country-container" style="display: none"></div>
-        <div id="Argentina" class="country-container" style="display: none"></div>
+        <div
+          id="Argentina"
+          class="country-container"
+          style="display: none"
+        ></div>
         <div id="Bolivia" class="country-container" style="display: none"></div>
         <div id="Brazil" class="country-container" style="display: none"></div>
         <div id="Chile" class="country-container" style="display: none"></div>
-        <div id="Colombia" class="country-container" style="display: none"></div>
+        <div
+          id="Colombia"
+          class="country-container"
+          style="display: none"
+        ></div>
         <div id="Ecuador" class="country-container" style="display: none"></div>
         <div id="Guyana" class="country-container" style="display: none"></div>
-        <div id="Paraguay" class="country-container" style="display: none"></div>
+        <div
+          id="Paraguay"
+          class="country-container"
+          style="display: none"
+        ></div>
         <div id="Peru" class="country-container" style="display: none"></div>
-        <div id="Suriname" class="country-container" style="display: none"></div>
+        <div
+          id="Suriname"
+          class="country-container"
+          style="display: none"
+        ></div>
         <div id="Uruguay" class="country-container" style="display: none"></div>
-        <div id="Venezuela" class="country-container" style="display: none"></div>
+        <div
+          id="Venezuela"
+          class="country-container"
+          style="display: none"
+        ></div>
       </div>
 
       <div id="map" style="height: 400px; width: 50%"></div>
