@@ -1124,73 +1124,301 @@
       }
 
       function toggleContinent(continent) {
-        // Hide all country-specific data
-        var countryContainers = document.querySelectorAll(".country-container");
-        countryContainers.forEach(function (container) {
+        // Hide all continent containers
+        var containers = document.querySelectorAll(".continent-container");
+        containers.forEach(function (container) {
           container.style.display = "none";
         });
-        // Get the continent container and country buttons container
-        var continentContainer = document.getElementById(continent);
-        var continentCountryButtons = document.getElementById(
-          continent + "-country-buttons"
-        );
 
-        // Check if the clicked continent's container is already displayed
-        if (continentContainer.style.display === "flex") {
-          // If displayed, hide it along with its country buttons
-          continentContainer.style.display = "none";
-          continentContainer.innerHTML = ""; // Clear existing content
-          if (continentCountryButtons) {
-            continentCountryButtons.style.display = "none";
-          }
-        } else {
-          // Hide all other continent containers
-          var continentContainers = document.querySelectorAll(
-            ".continent-container"
-          );
-          continentContainers.forEach(function (container) {
-            container.style.display = "none";
-            container.innerHTML = ""; // Clear existing content
-          });
-          // Display the clicked continent's container and its country buttons
-          continentContainer.style.display = "flex";
+        var selectedContainer = document.getElementById(continent);
+        selectedContainer.innerHTML = ""; // Clear existing content
+        selectedContainer.style.display = "flex"; // Display as flex to align items horizontally
 
-          if (continentCountryButtons) {
-            continentCountryButtons.style.display = "block"; // Or 'flex', depending on your layout
-          }
-          // Fetch and display continent-specific data
-          fetchBucketList(continent.toLowerCase().replace(/\s/g, "_")) // Adjust for filenames like 'latin_america'
-            .then((bucketList) => {
-              bucketList.forEach((item, index) => {
-                // Logic to create buttons and dropdown content for each item
+        // Fetch bucket list for the continent and populate map
+        fetchBucketList(continent)
+          .then((bucketList) => {
+            bucketList.sort((a, b) => b.score - a.score);
+            const numItems = bucketList.length;
+
+            bucketList.forEach((item, index) => {
+              // Logic to create buttons and dropdown content for each item
+              let button = document.createElement("button");
+              button.className = `bucket-list-button ${
+                item.category.toLowerCase() || "default-category"
+              }`;
+              button.style.width = "450px"; // Set button width
+              let continentImage = `assets/images/bucketlist/${continent.toLowerCase()}.png`;
+              button.style.backgroundImage = `url('${continentImage}')`;
+              button.style.backgroundSize = `cover`;
+              button.style.backgroundPosition = `0% ${index * 10}%`;
+              button.textContent = item.name; // Set the text content
+
+              let dropdownContent = document.createElement("div");
+              dropdownContent.className = "dropdown-content";
+              dropdownContent.style.display = "none";
+              // Initially hidden
+              dropdownContent.style.width = "450px"; // Set dropdown content width
+
+              // Container for Description
+              let descriptionContainer = document.createElement("div");
+              descriptionContainer.className = "description-container";
+
+              // Set softer and harmonious colors based on the category
+              const categoryColorMap = {
+                Adventure: "#FFCCBC", // Light Coral for Adventure
+                Culture: "#FFF9C4", // Lemon Chiffon for Culture
+                Food: "#C8E6C9", // Honeydew for Food
+                Relaxation: "#BBDEFB", // Light Blue for Relaxation
+                Nature: "#FFE0B2", // Peach for Nature
+                Gastronomy: "#D1C4E9", // Thistle for Gastronomy
+                Leisure: "#B3E5FC", // Light Sky Blue for Leisure
+                History: "#F8BBD0", // Light Pink for History
+                // Add or modify categories and colors as needed
+              };
+              let categoryColor = categoryColorMap[item.category] || "#f9f9f9"; // Default color if category not found
+
+              // Apply styles to the description container
+              descriptionContainer.style.padding = "15px";
+              descriptionContainer.style.marginTop = "5px";
+              descriptionContainer.style.background = categoryColor; // Set the background color based on category
+              descriptionContainer.style.border = "1px solid #ddd";
+              descriptionContainer.style.borderRadius = "4px";
+              descriptionContainer.style.boxShadow =
+                "0 2px 5px rgba(0,0,0,0.2)";
+              descriptionContainer.style.maxHeight = "150px";
+              descriptionContainer.style.overflowY = "auto";
+              descriptionContainer.style.position = "relative"; // Position relative to place cost absolutely
+              descriptionContainer.innerHTML = `<p><b>${item.name}</b> - ${item.description}</p>`;
+
+              // Create a span for the cost and position it in the lower right-hand corner
+              let costSpan = document.createElement("span");
+              costSpan.style.position = "absolute";
+              costSpan.style.bottom = "5px";
+              costSpan.style.right = "15px";
+              costSpan.style.fontWeight = "bold";
+              costSpan.textContent = item.cost;
+
+              // Append the description container to the dropdown content
+              dropdownContent.appendChild(descriptionContainer);
+
+              // Create two containers for month buttons, one for each row
+              let monthButtonContainerRow1 = document.createElement("div");
+              let monthButtonContainerRow2 = document.createElement("div");
+
+              [monthButtonContainerRow1, monthButtonContainerRow2].forEach(
+                (container) => {
+                  container.style.display = "flex";
+                  container.style.justifyContent = "start";
+                  container.style.marginBottom = "20px";
+                }
+              );
+
+              // Create a container for month buttons
+              let monthButtonContainer = document.createElement("div");
+              monthButtonContainer.style.display = "flex";
+              monthButtonContainer.style.flexWrap = "wrap";
+              monthButtonContainer.style.justifyContent = "start";
+              monthButtonContainer.style.alignItems = "center";
+              monthButtonContainer.style.marginTop = "10px";
+              monthButtonContainer.style.marginBottom = "10px";
+
+              // Function to create a month button
+              const createMonthButton = (
+                month,
+                isBestTime,
+                isWorstTime,
+                isSecondRow
+              ) => {
                 let button = document.createElement("button");
-                button.className = `bucket-list-button ${
-                  item.category.toLowerCase() || "default-category"
-                }`;
-                button.textContent = item.name;
+                button.textContent = month;
+                button.style.marginRight = "5px";
+                button.style.marginBottom = isSecondRow ? "3px" : "5px"; // Reduced margin for second row
+                button.style.padding = "3px 6px";
+                button.style.fontSize = "12px";
+                button.style.border = "none";
+                button.style.borderRadius = "4px";
+                button.style.cursor = "pointer";
 
-                let dropdownContent = document.createElement("div");
-                dropdownContent.className = "dropdown-content";
-                dropdownContent.style.display = "none";
-                dropdownContent.innerHTML = `<p>${item.description}</p>`;
+                if (isBestTime) {
+                  button.style.background = "#4CAF50"; // Green background
+                } else if (isWorstTime) {
+                  button.style.background = "#F44336"; // Red background
+                } else {
+                  button.style.background = "#FFFFFF"; // White background for neutral
+                  button.style.color = "#000000"; // Black text for visibility
+                }
 
-                button.onclick = () => {
-                  let isVisible = dropdownContent.style.display === "flex";
-                  dropdownContent.style.display = isVisible ? "none" : "flex";
-                  // Add any additional logic as needed, e.g., zoom to location
-                };
+                return button;
+              };
 
-                continentContainer.appendChild(button);
-                continentContainer.appendChild(dropdownContent);
+              const months = [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December",
+              ];
+
+              // Create buttons for each month and append to the appropriate row container
+              months.forEach((month, index) => {
+                const isBestTime = item.best_time_to_go.includes(month);
+                const isWorstTime = item.worst_time_to_go.includes(month);
+                const isSecondRow = index >= 6;
+
+                let button = createMonthButton(
+                  month,
+                  isBestTime,
+                  isWorstTime,
+                  isSecondRow
+                );
+
+                if (!isSecondRow) {
+                  monthButtonContainerRow1.appendChild(button);
+                } else {
+                  monthButtonContainerRow2.appendChild(button);
+                }
               });
 
-              // Optional: add any additional logic to plot points on a map, etc.
-              // plotPointsOnMap(bucketList);
-            })
-            .catch((error) => {
-              console.error("Error fetching bucket list: ", error);
+              let spacer = document.createElement("div");
+              spacer.style.height = "20px"; // Adjust the value as needed
+              dropdownContent.appendChild(spacer); // Adding the spacer before the month buttons
+              dropdownContent.appendChild(monthButtonContainerRow1);
+              dropdownContent.appendChild(monthButtonContainerRow2);
+
+              // Append the cost span to the description container
+              descriptionContainer.appendChild(costSpan);
+
+              // Create a container for the time to go buttons
+              let timeToGoButtonsContainer = document.createElement("div");
+              timeToGoButtonsContainer.style.display = "flex";
+              timeToGoButtonsContainer.style.justifyContent = "start";
+              timeToGoButtonsContainer.style.marginTop = "10px";
+
+              // Function to create a description button with a specific color
+              const createDescriptionButton = (text, description, bgColor) => {
+                let button = document.createElement("button");
+                button.textContent = text;
+                button.style.marginRight = "10px";
+                button.style.padding = "5px 10px";
+                button.style.border = "none";
+                button.style.borderRadius = "4px";
+                button.style.cursor = "pointer";
+                button.style.background = bgColor; // Set background color
+                button.onclick = () => {
+                  if (
+                    timeDescriptionContainer.textContent === description &&
+                    timeDescriptionContainer.style.display === "block"
+                  ) {
+                    timeDescriptionContainer.style.display = "none"; // Hide the container if it's already showing this description
+                  } else {
+                    timeDescriptionContainer.textContent = description; // Set the content
+                    timeDescriptionContainer.style.display = "block"; // Show the container
+                  }
+                };
+                return button;
+              };
+
+              // Best time to go button with green background
+              let bestTimeButton = createDescriptionButton(
+                "Best Time to Go ➕", // Heavy Plus Sign in a circle
+                item.best_time_to_go_description,
+                "#4CAF50" // Green color
+              );
+
+              // Worst time to go button with red background
+              let worstTimeButton = createDescriptionButton(
+                "Worst Time to Go ➖", // Heavy Minus Sign in a circle
+                item.worst_time_to_go_description,
+                "#F44336" // Red color
+              );
+
+              // Append the buttons to their container
+              timeToGoButtonsContainer.appendChild(bestTimeButton);
+              timeToGoButtonsContainer.appendChild(worstTimeButton);
+
+              // Append the buttons container to the dropdown content
+              dropdownContent.appendChild(timeToGoButtonsContainer);
+
+              // Create a container for time descriptions
+              let timeDescriptionContainer = document.createElement("div");
+              timeDescriptionContainer.style.display = "none"; // Initially hidden
+              timeDescriptionContainer.style.padding = "10px";
+              timeDescriptionContainer.style.marginTop = "20px";
+              timeDescriptionContainer.style.background = "#ECEFF1"; // Light grey background
+              timeDescriptionContainer.style.borderRadius = "4px";
+
+              // Append the time description container to the dropdown content
+              dropdownContent.appendChild(timeDescriptionContainer);
+
+              // Adding suggested venues
+              if (item.suggested_venues) {
+                let venuesContainer = document.createElement("div");
+                venuesContainer.className = "venues-container";
+                venuesContainer.innerHTML = "<h3>Suggested Venues</h3>";
+                venuesContainer.style.backgroundColor = "#f8f8f8";
+                venuesContainer.style.padding = "15px";
+                venuesContainer.style.borderRadius = "5px";
+                venuesContainer.style.boxShadow = "0 4px 6px rgba(0,0,0,0.15)";
+                venuesContainer.style.marginTop = "10px";
+
+                let venuesList = document.createElement("ul");
+                venuesList.className = "venues-list";
+                venuesList.style.listStyle = "none";
+                venuesList.style.padding = "0";
+                item.suggested_venues.forEach((venue) => {
+                  let venueItem = document.createElement("li");
+                  venueItem.className = "venue-item";
+                  venueItem.style.padding = "10px";
+                  venueItem.style.borderBottom = "1px solid #eee";
+                  venueItem.style.cursor = "pointer";
+                  venueItem.style.transition =
+                    "background-color 0.3s, color 0.3s"; // Smooth transition for hover effect
+                  venueItem.innerHTML = `<b style="color: #333; font-size: 16px;">${venue.name}</b><br>
+                                     <i style="color: #555;">${venue.description}</i><br>
+                                     <i style="color: #777;">📍 ${venue.location}</i>`;
+
+                  // Adding hover effect
+                  venueItem.addEventListener("mouseover", function () {
+                    this.style.backgroundColor = "#e0e0e0"; // Change color on hover
+                    this.style.color = "#000"; // Change text color on hover
+                  });
+
+                  venueItem.addEventListener("mouseout", function () {
+                    this.style.backgroundColor = "";
+                    this.style.color = "";
+                  });
+
+                  venuesList.appendChild(venueItem);
+                });
+                venuesContainer.appendChild(venuesList);
+                dropdownContent.appendChild(venuesContainer);
+              }
+
+              // Event listener to toggle the dropdown content and zoom to location
+              button.onclick = () => {
+                let isVisible = dropdownContent.style.display === "flex";
+                dropdownContent.style.display = isVisible ? "none" : "flex";
+
+                // Call the function to re-center and zoom the map
+                zoomToLocation(item);
+              };
+
+              selectedContainer.appendChild(button);
+              selectedContainer.appendChild(dropdownContent);
             });
-        }
+            // plotPointsOnMap(bucketList);
+            plotPointsOnMap(bucketList);
+          })
+          .catch((error) => {
+            console.error("Error fetching bucket list: ", error);
+          });
       }
 
       // Modified function to fetch data for a country or continent
@@ -1211,6 +1439,7 @@
             return []; // Return an empty array in case of an error
           });
       }
+
       function toggleCountry(country, continent) {
         // Hide all country containers
         var containers = document.querySelectorAll(".country-container");
@@ -1480,8 +1709,8 @@
                   venueItem.style.transition =
                     "background-color 0.3s, color 0.3s"; // Smooth transition for hover effect
                   venueItem.innerHTML = `<b style="color: #333; font-size: 16px;">${venue.name}</b><br>
-                           <i style="color: #555;">${venue.description}</i><br>
-                           <i style="color: #777;">📍 ${venue.location}</i>`;
+                                     <i style="color: #555;">${venue.description}</i><br>
+                                     <i style="color: #777;">📍 ${venue.location}</i>`;
 
                   // Adding hover effect
                   venueItem.addEventListener("mouseover", function () {
