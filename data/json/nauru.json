@@ -1,0 +1,390 @@
+[
+    {
+        "name": "Anibare Bay Beach Relaxation",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Enjoy the serene and beautiful Anibare Bay, known for its clear waters and perfect for swimming and relaxation.",
+        "city": "Anibare",
+        "longitude": 166.9167,
+        "latitude": -0.5167,
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for Anibare Bay Beach Relaxation is during the months of April to September when the weather is generally pleasant, and the clear waters are perfect for swimming and relaxation.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "Consider avoiding the months from October to March when there may be less ideal weather conditions for beach relaxation.",
+        "suggested_venues": [
+            {
+                "name": "Beachside Relaxation",
+                "description": "Relax on the beautiful shores of Anibare Bay, where you can unwind, swim in the clear waters, and soak up the tranquil beach atmosphere.",
+                "location": "Anibare",
+                "longitude": 166.9167,
+                "latitude": -0.5167
+            },
+            {
+                "name": "Scenic Views",
+                "description": "Take in the scenic views of Anibare Bay and its surroundings, capturing the natural beauty of this serene beach location.",
+                "location": "Anibare",
+                "longitude": 166.9167,
+                "latitude": -0.5167
+            },
+            {
+                "name": "Water Activities",
+                "description": "Engage in water activities such as swimming, snorkeling, or paddleboarding in the clear and inviting waters of Anibare Bay.",
+                "location": "Anibare",
+                "longitude": 166.9167,
+                "latitude": -0.5167
+            }
+        ]
+    },
+
+
+    {
+        "name": "Buada Lagoon Picnic",
+        "category": "Nature",
+        "score": 4,
+        "description": "Spend a day at Buada Lagoon, a freshwater oasis perfect for picnicking and enjoying the lush surroundings.",
+        "city": "Buada",
+        "longitude": 166.9361,
+        "latitude": -0.5467,
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a Buada Lagoon Picnic is during the months of April to September when the weather is generally pleasant, and the lush surroundings are at their best.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "Consider avoiding the months from October to March when there may be less ideal weather conditions for picnicking at Buada Lagoon.",
+        "suggested_venues": [
+            {
+                "name": "Picnic by the Lagoon",
+                "description": "Enjoy a relaxing picnic by the pristine waters of Buada Lagoon, surrounded by lush greenery and a peaceful atmosphere.",
+                "location": "Buada",
+                "longitude": 166.9361,
+                "latitude": -0.5467
+            },
+            {
+                "name": "Nature Walks",
+                "description": "Take leisurely nature walks around Buada Lagoon, exploring the natural beauty of this freshwater oasis and its diverse flora and fauna.",
+                "location": "Buada",
+                "longitude": 166.9361,
+                "latitude": -0.5467
+            },
+            {
+                "name": "Wildlife Observation",
+                "description": "Observe the local wildlife that inhabits the Buada Lagoon area, including birds and other creatures that call this oasis home.",
+                "location": "Buada",
+                "longitude": 166.9361,
+                "latitude": -0.5467
+            }
+        ]
+    },
+
+    {
+        "name": "Command Ridge Historical Tour",
+        "category": "History",
+        "score": 4,
+        "description": "Explore Command Ridge, the highest point in Nauru, offering panoramic views and remnants from World War II.",
+        "city": "Yaren",
+        "longitude": 166.9333,
+        "latitude": -0.5466,
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a Command Ridge Historical Tour is during the months of April to September when the weather is generally pleasant for exploring historical sites and enjoying panoramic views.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "Consider avoiding the months from October to March when there may be less ideal weather conditions for the tour.",
+        "suggested_venues": [
+            {
+                "name": "Panoramic Views",
+                "description": "Reach the summit of Command Ridge to enjoy panoramic views of Nauru's landscape, coastline, and surrounding areas.",
+                "location": "Yaren",
+                "longitude": 166.9333,
+                "latitude": -0.5466
+            },
+            {
+                "name": "Historical Remnants",
+                "description": "Explore remnants from World War II on Command Ridge, including bunkers and structures that offer insights into the island's wartime history.",
+                "location": "Yaren",
+                "longitude": 166.9333,
+                "latitude": -0.5466
+            },
+            {
+                "name": "Guided Tours",
+                "description": "Join guided tours of Command Ridge to learn about its historical significance and the events that took place during World War II.",
+                "location": "Yaren",
+                "longitude": 166.9333,
+                "latitude": -0.5466
+            }
+        ]
+    },
+
+
+    {
+        "name": "Moqua Well Cave Adventure",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Venture into Moqua Well, a hidden cave with a freshwater pool, located in the center of Nauru.",
+        "city": "Yaren",
+        "longitude": 166.9191,
+        "latitude": -0.5500,
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a Moqua Well Cave Adventure is during the months of April to September when the weather is generally suitable for exploration, and the freshwater pool is inviting.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "Consider avoiding the months from October to March when there may be less ideal weather conditions for the adventure.",
+        "suggested_venues": [
+            {
+                "name": "Cave Exploration",
+                "description": "Venture into Moqua Well, a hidden cave in the center of Nauru, and discover its unique features, including the freshwater pool.",
+                "location": "Yaren",
+                "longitude": 166.9191,
+                "latitude": -0.5500
+            },
+            {
+                "name": "Freshwater Pool",
+                "description": "Take a refreshing dip in the freshwater pool inside Moqua Well Cave, enjoying the natural beauty of this hidden gem.",
+                "location": "Yaren",
+                "longitude": 166.9191,
+                "latitude": -0.5500
+            },
+            {
+                "name": "Guided Adventures",
+                "description": "Join guided adventures to explore Moqua Well Cave safely and learn about its geological and ecological significance.",
+                "location": "Yaren",
+                "longitude": 166.9191,
+                "latitude": -0.5500
+            }
+        ]
+    },
+
+
+    {
+        "name": "Nauru Reef Snorkeling",
+        "category": "Nature",
+        "score": 5,
+        "description": "Snorkel in the pristine waters of Nauru's reef, exploring the vibrant marine life and coral formations.",
+        "city": "Yaren",
+        "longitude": 166.9205,
+        "latitude": -0.5477,
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for Nauru Reef Snorkeling is during the months of April to September when the waters are calm, and marine life is most active for snorkeling.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "Consider avoiding the months from October to March when weather conditions may be less favorable for snorkeling.",
+        "suggested_venues": [
+            {
+                "name": "Reef Exploration",
+                "description": "Embark on a snorkeling adventure in Nauru's reef, where you can explore vibrant coral formations and encounter diverse marine species.",
+                "location": "Yaren",
+                "longitude": 166.9205,
+                "latitude": -0.5477
+            },
+            {
+                "name": "Marine Life Observation",
+                "description": "Observe the colorful marine life that inhabits Nauru's reef, including fish, coral, and other underwater creatures in their natural habitat.",
+                "location": "Yaren",
+                "longitude": 166.9205,
+                "latitude": -0.5477
+            },
+            {
+                "name": "Snorkeling Tours",
+                "description": "Join snorkeling tours in Nauru to ensure a safe and enjoyable experience, with guides who can point out the best spots for exploration.",
+                "location": "Yaren",
+                "longitude": 166.9205,
+                "latitude": -0.5477
+            }
+        ]
+    },
+
+
+    {
+        "name": "Central Plateau Walking Tour",
+        "category": "Nature",
+        "score": 3,
+        "description": "Take a walking tour of the Central Plateau, witnessing the unique landscape of Nauru's phosphate mining areas.",
+        "city": "Yaren",
+        "longitude": 166.9306,
+        "latitude": -0.5217,
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a Central Plateau Walking Tour is during the months of April to September when the weather is generally suitable for outdoor exploration.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "Consider avoiding the months from October to March when there may be less ideal weather conditions for the tour.",
+        "suggested_venues": [
+            {
+                "name": "Phosphate Mining Areas",
+                "description": "Explore the unique landscape of Nauru's Central Plateau, which includes phosphate mining areas and their distinctive geological features.",
+                "location": "Yaren",
+                "longitude": 166.9306,
+                "latitude": -0.5217
+            },
+            {
+                "name": "Historical Insights",
+                "description": "Learn about the history and significance of phosphate mining on Nauru, gaining insights into the island's economic past.",
+                "location": "Yaren",
+                "longitude": 166.9306,
+                "latitude": -0.5217
+            },
+            {
+                "name": "Guided Tours",
+                "description": "Join guided walking tours of the Central Plateau to discover the unique landscapes and hear stories about Nauru's mining history.",
+                "location": "Yaren",
+                "longitude": 166.9306,
+                "latitude": -0.5217
+            }
+        ]
+    },
+
+
+    {
+        "name": "Menen Hotel Cultural Evening",
+        "category": "Culture",
+        "score": 3,
+        "description": "Experience a cultural evening at Menen Hotel, featuring traditional Nauruan dance, music, and cuisine.",
+        "city": "Meneng",
+        "longitude": 166.9388,
+        "latitude": -0.5508,
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a Menen Hotel Cultural Evening is during the months of April to September when the weather is generally pleasant for outdoor cultural experiences.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "Consider avoiding the months from October to March when there may be less ideal weather conditions for outdoor cultural events.",
+        "suggested_venues": [
+            {
+                "name": "Cultural Performances",
+                "description": "Enjoy traditional Nauruan dance and music performances at Menen Hotel, immersing yourself in the local culture and traditions.",
+                "location": "Meneng",
+                "longitude": 166.9388,
+                "latitude": -0.5508
+            },
+            {
+                "name": "Cuisine Tasting",
+                "description": "Savor Nauruan cuisine during the cultural evening, trying local dishes and flavors that represent the island's culinary heritage.",
+                "location": "Meneng",
+                "longitude": 166.9388,
+                "latitude": -0.5508
+            },
+            {
+                "name": "Cultural Insights",
+                "description": "Learn about the rich cultural heritage of Nauru through storytelling and presentations at Menen Hotel's cultural evening.",
+                "location": "Meneng",
+                "longitude": 166.9388,
+                "latitude": -0.5508
+            }
+        ]
+    },
+
+
+    {
+        "name": "Japanese Guns Historic Site Visit",
+        "category": "History",
+        "score": 4,
+        "description": "Visit the historic Japanese guns from World War II, a reminder of Nauru's strategic importance during the war.",
+        "city": "Yaren",
+        "longitude": 166.9350,
+        "latitude": -0.5476,
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a Japanese Guns Historic Site Visit is during the months of April to September when the weather is generally suitable for outdoor exploration and historical tours.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "Consider avoiding the months from October to March when there may be less ideal weather conditions for the visit.",
+        "suggested_venues": [
+            {
+                "name": "Historical Guns",
+                "description": "Explore the historic Japanese guns from World War II, which serve as a reminder of Nauru's strategic importance during the war.",
+                "location": "Yaren",
+                "longitude": 166.9350,
+                "latitude": -0.5476
+            },
+            {
+                "name": "War History",
+                "description": "Learn about the wartime history of Nauru and the role these guns played in the island's defense during World War II.",
+                "location": "Yaren",
+                "longitude": 166.9350,
+                "latitude": -0.5476
+            },
+            {
+                "name": "Guided Tours",
+                "description": "Join guided tours of the Japanese Guns Historic Site to gain insights into the historical significance of this location.",
+                "location": "Yaren",
+                "longitude": 166.9350,
+                "latitude": -0.5476
+            }
+        ]
+    },
+
+
+    {
+        "name": "Kayaking in Anibare Bay",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Kayak in the tranquil waters of Anibare Bay, enjoying the scenic coastline and peaceful environment.",
+        "city": "Anibare",
+        "longitude": 166.9167,
+        "latitude": -0.5167,
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for kayaking in Anibare Bay is during the months of April to September when the weather is generally pleasant, and the bay offers a tranquil and scenic environment.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "Consider avoiding the months from October to March when weather conditions may be less ideal for kayaking.",
+        "suggested_venues": [
+            {
+                "name": "Scenic Kayaking",
+                "description": "Explore the scenic coastline of Anibare Bay by kayaking in its tranquil waters, taking in the beautiful surroundings.",
+                "location": "Anibare",
+                "longitude": 166.9167,
+                "latitude": -0.5167
+            },
+            {
+                "name": "Peaceful Environment",
+                "description": "Enjoy the peaceful and serene environment of Anibare Bay as you paddle through its calm waters and take in the natural beauty.",
+                "location": "Anibare",
+                "longitude": 166.9167,
+                "latitude": -0.5167
+            },
+            {
+                "name": "Kayak Rentals",
+                "description": "Rent kayaks from local providers in Anibare to embark on your kayaking adventure and explore the bay at your own pace.",
+                "location": "Anibare",
+                "longitude": 166.9167,
+                "latitude": -0.5167
+            }
+        ]
+    },
+
+
+    {
+        "name": "Ronave Village Cultural Interaction",
+        "category": "Culture",
+        "score": 4,
+        "description": "Engage with the local community in Ronave Village, learning about Nauruan traditions, crafts, and daily life.",
+        "city": "Ronave",
+        "longitude": 166.9333,
+        "latitude": -0.5333,
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a cultural interaction in Ronave Village is during the months of April to September when the weather is generally suitable for outdoor activities and cultural experiences.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "Consider avoiding the months from October to March when there may be less ideal weather conditions for cultural interactions.",
+        "suggested_venues": [
+            {
+                "name": "Community Engagement",
+                "description": "Engage with the local community in Ronave Village, where you can learn about Nauruan traditions, crafts, and daily life.",
+                "location": "Ronave",
+                "longitude": 166.9333,
+                "latitude": -0.5333
+            },
+            {
+                "name": "Traditional Workshops",
+                "description": "Participate in traditional workshops and activities organized by the community to immerse yourself in Nauruan culture.",
+                "location": "Ronave",
+                "longitude": 166.9333,
+                "latitude": -0.5333
+            },
+            {
+                "name": "Cultural Demonstrations",
+                "description": "Witness cultural demonstrations and performances that showcase the rich heritage of Ronave Village and Nauru as a whole.",
+                "location": "Ronave",
+                "longitude": 166.9333,
+                "latitude": -0.5333
+            }
+        ]
+    }
+    
+]

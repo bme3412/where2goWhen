@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Kokoda Track Trekking",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Trek the historic Kokoda Track, a challenging and emotionally significant trail that traces the footsteps of World War II soldiers.",
+        "city": "Kokoda",
+        "longitude": 147.7368,
+        "latitude": -8.8775,
+        "cost": "$$$"
+    },
+    {
+        "name": "Mount Wilhelm Hiking",
+        "category": "Nature",
+        "score": 5,
+        "description": "Ascend Mount Wilhelm, Papua New Guinea's highest peak, offering breathtaking views and diverse ecological zones.",
+        "city": "Mount Wilhelm",
+        "longitude": 145.0333,
+        "latitude": -5.8,
+        "cost": "$$$"
+    },
+    {
+        "name": "Tufi Fjords Diving",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Dive in the stunning Tufi Fjords, renowned for their pristine coral reefs, diverse marine life, and World War II wrecks.",
+        "city": "Tufi",
+        "longitude": 149.3167,
+        "latitude": -9.0833,
+        "cost": "$$$"
+    },
+    {
+        "name": "Sepik River Cultural Experience",
+        "category": "Culture",
+        "score": 4,
+        "description": "Explore the Sepik River, experiencing the traditional lifestyle, art, and culture of the river communities.",
+        "city": "Sepik River",
+        "longitude": 143.6472,
+        "latitude": -4.25,
+        "cost": "$$"
+    },
+    {
+        "name": "Goroka Show Cultural Festival",
+        "category": "Culture",
+        "score": 5,
+        "description": "Attend the Goroka Show, a colorful cultural festival showcasing the diverse ethnic groups, dance, and music of Papua New Guinea.",
+        "city": "Goroka",
+        "longitude": 145.3855,
+        "latitude": -6.0834,
+        "cost": "$$"
+    },
+    {
+        "name": "Madang Lagoon Snorkeling",
+        "category": "Nature",
+        "score": 4,
+        "description": "Snorkel in the Madang Lagoon, home to vibrant coral gardens and a variety of tropical fish species.",
+        "city": "Madang",
+        "longitude": 145.7966,
+        "latitude": -5.2246,
+        "cost": "$$"
+    },
+    {
+        "name": "Rabaul Volcano Adventure",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Explore the volcanic region of Rabaul, witnessing active volcanoes and the remnants of the town's historical eruptions.",
+        "city": "Rabaul",
+        "longitude": 152.1434,
+        "latitude": -4.1960,
+        "cost": "$$$"
+    },
+    {
+        "name": "Kavieng Surfing Experience",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Surf the uncrowded waves of Kavieng, offering some of the best surfing experiences in Papua New Guinea.",
+        "city": "Kavieng",
+        "longitude": 150.7967,
+        "latitude": -2.5794,
+        "cost": "$$"
+    },
+    {
+        "name": "Baining Fire Dance Ceremony",
+        "category": "Culture",
+        "score": 4,
+        "description": "Witness the Baining Fire Dance, a unique and mesmerizing cultural ceremony performed by the Baining people.",
+        "city": "East New Britain",
+        "longitude": 151.2845,
+        "latitude": -4.3431,
+        "cost": "$$"
+    },
+    {
+        "name": "Port Moresby Nature Park Visit",
+        "category": "Nature",
+        "score": 3,
+        "description": "Discover the flora and fauna of Papua New Guinea at Port Moresby Nature Park, a haven for native plant and animal species.",
+        "city": "Port Moresby",
+        "longitude": 147.1782,
+        "latitude": -9.4438,
+        "cost": "$"
+    }
+]

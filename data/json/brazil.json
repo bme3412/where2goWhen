@@ -1,7 +1,7 @@
 [
     {
         "name": "Exploring the Amazon Rainforest",
-        "category": "Nature/Wildlife",
+        "category": "Nature",
         "score": 5,
         "description": "Embark on an adventure in the Amazon Rainforest, home to diverse wildlife and unique ecosystems.",
         "city": "Manaus",
@@ -46,7 +46,7 @@
 
     {
         "name": "Carnival in Rio de Janeiro",
-        "category": "Culture/Festival",
+        "category": "Culture",
         "score": 5,
         "description": "Experience the vibrant and world-famous Carnival in Rio de Janeiro, a dazzling spectacle of music, dance, and costumes.",
         "city": "Rio de Janeiro",
@@ -92,7 +92,7 @@
 
     {
         "name": "Visiting Christ the Redeemer",
-        "category": "Culture/History",
+        "category": "Culture",
         "score": 4,
         "description": "Marvel at the iconic Christ the Redeemer statue atop Corcovado Mountain, offering panoramic views of Rio de Janeiro.",
         "city": "Rio de Janeiro",
@@ -138,7 +138,7 @@
 
     {
         "name": "Exploring Iguazu Falls",
-        "category": "Nature/Adventure",
+        "category": "Nature",
         "score": 5,
         "description": "Witness the awe-inspiring Iguazu Falls, a massive waterfall system shared between Brazil and Argentina.",
         "city": "Foz do Iguaçu",
@@ -184,7 +184,7 @@
 
     {
         "name": "Samba Dancing in Salvador",
-        "category": "Culture/Festival",
+        "category": "Culture",
         "score": 4,
         "description": "Join the rhythmic beats of samba dancing in Salvador during its lively Carnival and street parties.",
         "city": "Salvador",
@@ -230,7 +230,7 @@
 
     {
         "name": "Relaxing on Copacabana Beach",
-        "category": "Nature/Beach",
+        "category": "Nature",
         "score": 3,
         "description": "Unwind on the world-famous Copacabana Beach, known for its stunning shoreline and vibrant atmosphere.",
         "city": "Rio de Janeiro",
@@ -276,7 +276,7 @@
 
     {
         "name": "Jungle Trekking in Pantanal",
-        "category": "Adventure/Wildlife",
+        "category": "Adventure",
         "score": 4,
         "description": "Explore the vast wetlands of Pantanal, a biodiversity hotspot, and spot exotic wildlife on a jungle trek.",
         "city": "Cuiabá",
@@ -321,7 +321,7 @@
 
     {
         "name": "Discovering the Historic Streets of Ouro Preto",
-        "category": "History/Culture",
+        "category": "History",
         "score": 4,
         "description": "Step back in time while strolling through the well-preserved colonial streets of Ouro Preto.",
         "city": "Ouro Preto",
@@ -367,7 +367,7 @@
 
     {
         "name": "Hiking in Chapada Diamantina",
-        "category": "Adventure/Nature",
+        "category": "Adventure",
         "score": 4,
         "description": "Embark on challenging hikes in the stunning Chapada Diamantina National Park, known for its rugged landscapes.",
         "city": "Lençóis",
@@ -413,7 +413,7 @@
 
     {
         "name": "Sunset at Sugarloaf Mountain",
-        "category": "Nature/Adventure",
+        "category": "Nature",
         "score": 3,
         "description": "Catch a breathtaking sunset from the summit of Sugarloaf Mountain, offering panoramic views of Rio de Janeiro.",
         "city": "Rio de Janeiro",

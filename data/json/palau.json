@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Jellyfish Lake Snorkeling",
+        "category": "Nature",
+        "score": 5,
+        "description": "Snorkel in the unique Jellyfish Lake, famous for its millions of harmless jellyfish, offering a surreal and unforgettable experience.",
+        "city": "Eil Malk Island",
+        "longitude": 134.4522,
+        "latitude": 7.145,
+        "cost": "$$$"
+    },
+    {
+        "name": "Rock Islands Kayaking and Exploring",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Kayak around the stunning Rock Islands, known for their mushroom-shaped islets, pristine beaches, and hidden lagoons.",
+        "city": "Rock Islands",
+        "longitude": 134.3606,
+        "latitude": 7.1364,
+        "cost": "$$$"
+    },
+    {
+        "name": "Peleliu World War II Historical Tour",
+        "category": "History",
+        "score": 4,
+        "description": "Explore the historical sites of Peleliu Island, a major battleground in World War II, including war relics and memorials.",
+        "city": "Peleliu",
+        "longitude": 134.2483,
+        "latitude": 7.0147,
+        "cost": "$$"
+    },
+    {
+        "name": "Ngardmau Waterfall Hike",
+        "category": "Nature",
+        "score": 4,
+        "description": "Hike to the majestic Ngardmau Waterfall, the largest waterfall in Palau, set in a lush tropical forest.",
+        "city": "Ngardmau",
+        "longitude": 134.5500,
+        "latitude": 7.6000,
+        "cost": "$$"
+    },
+    {
+        "name": "Koror Cultural and Historical Tour",
+        "category": "Culture",
+        "score": 4,
+        "description": "Discover the culture and history of Koror, visiting the Belau National Museum, local markets, and historical landmarks.",
+        "city": "Koror",
+        "longitude": 134.4792,
+        "latitude": 7.3419,
+        "cost": "$$"
+    },
+    {
+        "name": "German Channel Manta Ray Encounter",
+        "category": "Nature",
+        "score": 5,
+        "description": "Dive or snorkel at the German Channel, a famous site for manta ray encounters, offering an unforgettable underwater experience.",
+        "city": "German Channel",
+        "longitude": 134.4572,
+        "latitude": 7.1586,
+        "cost": "$$$"
+    },
+    {
+        "name": "Ulong Island Historical Expedition",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Explore Ulong Island, known for its historical significance, stunning beaches, and as a location for the 'Survivor' TV series.",
+        "city": "Ulong Island",
+        "longitude": 134.6167,
+        "latitude": 7.0833,
+        "cost": "$$$"
+    },
+    {
+        "name": "Big Drop-off Wall Diving",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Dive at the Big Drop-off, one of Palau's most famous dive sites, featuring a sheer wall teeming with marine life.",
+        "city": "Ngemelis Island",
+        "longitude": 134.5067,
+        "latitude": 7.1386,
+        "cost": "$$$"
+    },
+    {
+        "name": "Badrulchau Stone Monoliths Visit",
+        "category": "History",
+        "score": 3,
+        "description": "Visit the mysterious Badrulchau Stone Monoliths in Babeldaob, an intriguing archaeological site with ancient basalt monoliths.",
+        "city": "Babeldaob",
+        "longitude": 134.6344,
+        "latitude": 7.5278,
+        "cost": "$$"
+    },
+    {
+        "name": "Milky Way Lagoon Mud Bath",
+        "category": "Relaxation",
+        "score": 4,
+        "description": "Experience a natural mud bath in the Milky Way Lagoon, known for its therapeutic properties and stunning turquoise waters.",
+        "city": "Rock Islands",
+        "longitude": 134.3606,
+        "latitude": 7.1364,
+        "cost": "$$"
+    }
+]

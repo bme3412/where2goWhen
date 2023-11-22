@@ -1,0 +1,390 @@
+[
+    {
+        "name": "Nan Madol Ruins Exploration",
+        "category": "History",
+        "score": 5,
+        "description": "Visit the ancient city of Nan Madol in Pohnpei, a marvel of engineering with its artificial islands and labyrinth of canals and ruins.",
+        "city": "Pohnpei",
+        "longitude": 158.2374,
+        "latitude": 6.8413,
+        "cost": "$$",
+        "best_time_to_go": ["December", "January", "February", "March", "April", "May"],
+        "best_time_to_go_description": "The best time for a Nan Madol Ruins Exploration is during the months of December to May when the weather is generally dry and ideal for historical exploration.",
+        "worst_time_to_go": ["June", "July", "August", "September", "October", "November"],
+        "worst_time_to_go_description": "Consider avoiding the months from June to November, which can bring rain and less favorable conditions for exploring the ruins.",
+        "suggested_venues": [
+            {
+                "name": "Nan Madol Complex",
+                "description": "Explore the fascinating Nan Madol complex, which consists of artificial islands, canals, and ancient ruins that provide insights into Pohnpei's history.",
+                "location": "Pohnpei",
+                "longitude": 158.2374,
+                "latitude": 6.8413
+            },
+            {
+                "name": "Guided Tours",
+                "description": "Take guided tours of Nan Madol to learn about the engineering marvels and cultural significance of this historic site.",
+                "location": "Pohnpei",
+                "longitude": 158.2374,
+                "latitude": 6.8413
+            },
+            {
+                "name": "Museum Visits",
+                "description": "Visit local museums in Pohnpei to further enhance your understanding of Nan Madol's history and cultural importance.",
+                "location": "Pohnpei",
+                "longitude": 158.2374,
+                "latitude": 6.8413
+            }
+        ]
+    },
+
+
+    {
+        "name": "Yap Traditional Villages Tour",
+        "category": "Culture",
+        "score": 4,
+        "description": "Explore the traditional villages of Yap to experience the unique culture, stone money, and traditional navigational techniques of the island.",
+        "city": "Yap",
+        "longitude": 138.1292,
+        "latitude": 9.5144,
+        "cost": "$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June"],
+        "best_time_to_go_description": "The best time for a Yap Traditional Villages Tour is during the months of January to June when the weather is favorable for cultural exploration and outdoor activities.",
+        "worst_time_to_go": ["July", "August", "September", "October", "November", "December"],
+        "worst_time_to_go_description": "Consider avoiding the months from July to December when there may be more rainfall and less ideal conditions for touring the villages.",
+        "suggested_venues": [
+            {
+                "name": "Traditional Village Visits",
+                "description": "Visit traditional villages on Yap and interact with locals to learn about their customs, traditions, and the use of stone money.",
+                "location": "Yap",
+                "longitude": 138.1292,
+                "latitude": 9.5144
+            },
+            {
+                "name": "Stone Money Exchange",
+                "description": "Witness the unique stone money exchange ceremonies, which are an integral part of Yapese culture and traditions.",
+                "location": "Yap",
+                "longitude": 138.1292,
+                "latitude": 9.5144
+            },
+            {
+                "name": "Traditional Navigation Demonstrations",
+                "description": "Experience demonstrations of traditional navigational techniques used by Yapese sailors for generations.",
+                "location": "Yap",
+                "longitude": 138.1292,
+                "latitude": 9.5144
+            }
+        ]
+    },
+
+
+    {
+        "name": "Chuuk (Truk) Lagoon Diving",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Dive into the famous Chuuk Lagoon, a world-renowned wreck diving site with numerous sunken ships from World War II.",
+        "city": "Chuuk",
+        "longitude": 151.8578,
+        "latitude": 7.1383,
+        "cost": "$$$",
+        "best_time_to_go": ["January", "February", "March", "April", "November", "December"],
+        "best_time_to_go_description": "The best time for Chuuk (Truk) Lagoon Diving is during the months of January to April and November to December when the waters are calm, and visibility is excellent for wreck diving.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go_description": "Consider avoiding the months from May to October when weather conditions may be less favorable for diving.",
+        "suggested_venues": [
+            {
+                "name": "Wreck Diving",
+                "description": "Explore the sunken ships and underwater wrecks in Chuuk Lagoon, which offer a unique and historical diving experience.",
+                "location": "Chuuk",
+                "longitude": 151.8578,
+                "latitude": 7.1383
+            },
+            {
+                "name": "Dive Tours",
+                "description": "Participate in guided dive tours and expeditions in Chuuk Lagoon, led by experienced divers who know the best dive sites.",
+                "location": "Chuuk",
+                "longitude": 151.8578,
+                "latitude": 7.1383
+            },
+            {
+                "name": "Marine Life Observation",
+                "description": "While diving in Chuuk Lagoon, observe the diverse marine life that has made the sunken wrecks their home over the years.",
+                "location": "Chuuk",
+                "longitude": 151.8578,
+                "latitude": 7.1383
+            }
+        ]
+    },
+
+
+    {
+        "name": "Kosrae Island Nature Trek",
+        "category": "Nature",
+        "score": 4,
+        "description": "Trek through the lush rainforests of Kosrae, exploring its rich flora and fauna, and discover hidden waterfalls and serene natural pools.",
+        "city": "Kosrae",
+        "longitude": 162.9816,
+        "latitude": 5.3166,
+        "cost": "$$",
+        "best_time_to_go": ["January", "February", "March", "April", "May", "June"],
+        "best_time_to_go_description": "The best time for a Kosrae Island Nature Trek is during the months of January to June when the weather is favorable for outdoor trekking and exploring the rainforests.",
+        "worst_time_to_go": ["July", "August", "September", "October", "November", "December"],
+        "worst_time_to_go_description": "Consider avoiding the months from July to December when there may be more rainfall and less ideal conditions for trekking.",
+        "suggested_venues": [
+            {
+                "name": "Rainforest Trekking",
+                "description": "Embark on guided rainforest treks on Kosrae Island, where you can witness the lush flora, diverse fauna, and stunning natural landscapes.",
+                "location": "Kosrae",
+                "longitude": 162.9816,
+                "latitude": 5.3166
+            },
+            {
+                "name": "Waterfall Exploration",
+                "description": "Discover hidden waterfalls and serene natural pools during your nature trek on Kosrae, offering opportunities for relaxation and swimming.",
+                "location": "Kosrae",
+                "longitude": 162.9816,
+                "latitude": 5.3166
+            },
+            {
+                "name": "Bird Watching",
+                "description": "Engage in bird watching activities in the rainforests of Kosrae to spot various bird species native to the island.",
+                "location": "Kosrae",
+                "longitude": 162.9816,
+                "latitude": 5.3166
+            }
+        ]
+    },
+
+
+    {
+        "name": "Manta Ray Sanctuary Snorkeling in Yap",
+        "category": "Nature",
+        "score": 5,
+        "description": "Snorkel in Yap's Manta Ray Sanctuary, where you can swim alongside these majestic creatures in their natural habitat.",
+        "city": "Yap",
+        "longitude": 138.1292,
+        "latitude": 9.5144,
+        "cost": "$$",
+        "best_time_to_go": ["December", "January", "February", "March", "April", "May"],
+        "best_time_to_go_description": "The best time for Manta Ray Sanctuary Snorkeling in Yap is during the months of December to May when the waters are conducive for snorkeling, and manta rays are often spotted.",
+        "worst_time_to_go": ["June", "July", "August", "September", "October", "November"],
+        "worst_time_to_go_description": "Consider avoiding the months from June to November when weather conditions may be less favorable for snorkeling and spotting manta rays.",
+        "suggested_venues": [
+            {
+                "name": "Manta Ray Snorkeling",
+                "description": "Experience the thrill of snorkeling alongside majestic manta rays in Yap's Manta Ray Sanctuary, a unique and unforgettable adventure.",
+                "location": "Yap",
+                "longitude": 138.1292,
+                "latitude": 9.5144
+            },
+            {
+                "name": "Guided Snorkeling Tours",
+                "description": "Join guided snorkeling tours led by experienced guides who will take you to the best spots for encountering manta rays and other marine life.",
+                "location": "Yap",
+                "longitude": 138.1292,
+                "latitude": 9.5144
+            },
+            {
+                "name": "Marine Conservation Awareness",
+                "description": "Learn about marine conservation efforts and the importance of protecting manta rays and their natural habitat during your snorkeling experience.",
+                "location": "Yap",
+                "longitude": 138.1292,
+                "latitude": 9.5144
+            }
+        ]
+    },
+
+
+    {
+        "name": "Pohnpei Surfing Adventure",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Catch some waves in Pohnpei, known for its world-class surfing spots with challenging breaks for experienced surfers.",
+        "city": "Pohnpei",
+        "longitude": 158.2150,
+        "latitude": 6.8541,
+        "cost": "$$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a Pohnpei Surfing Adventure is during the months of April to September when the surfing conditions are ideal with consistent waves.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "Consider avoiding the months from October to March when the surfing conditions may be less favorable due to weather patterns.",
+        "suggested_venues": [
+            {
+                "name": "Surfing Spots",
+                "description": "Explore world-class surfing spots in Pohnpei, offering challenging breaks and excellent waves for experienced surfers.",
+                "location": "Pohnpei",
+                "longitude": 158.2150,
+                "latitude": 6.8541
+            },
+            {
+                "name": "Surfing Lessons",
+                "description": "Take surfing lessons from local instructors to improve your skills or learn to surf if you're a beginner.",
+                "location": "Pohnpei",
+                "longitude": 158.2150,
+                "latitude": 6.8541
+            },
+            {
+                "name": "Surfing Competitions",
+                "description": "Participate in or watch surfing competitions that occasionally take place in Pohnpei, showcasing the talent of local and international surfers.",
+                "location": "Pohnpei",
+                "longitude": 158.2150,
+                "latitude": 6.8541
+            }
+        ]
+    },
+
+
+    {
+        "name": "Kolonia Town Cultural Experience",
+        "category": "Culture",
+        "score": 3,
+        "description": "Visit Kolonia in Pohnpei to learn about Micronesian history and culture, and explore local markets and historical landmarks.",
+        "city": "Kolonia",
+        "longitude": 158.2083,
+        "latitude": 6.9639,
+        "cost": "$",
+        "best_time_to_go": ["January", "February", "March", "April", "November", "December"],
+        "best_time_to_go_description": "The best time for a Kolonia Town Cultural Experience is during the months of January to April and November to December when the weather is generally pleasant for exploring cultural sites and markets.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go_description": "Consider avoiding the months from May to October when there may be more rainfall and less ideal conditions for outdoor cultural activities.",
+        "suggested_venues": [
+            {
+                "name": "Historical Landmarks",
+                "description": "Explore historical landmarks in Kolonia to gain insights into Micronesian history, including old churches and government buildings.",
+                "location": "Kolonia",
+                "longitude": 158.2083,
+                "latitude": 6.9639
+            },
+            {
+                "name": "Local Markets",
+                "description": "Visit local markets in Kolonia to experience the vibrant culture, sample local cuisine, and shop for traditional crafts and souvenirs.",
+                "location": "Kolonia",
+                "longitude": 158.2083,
+                "latitude": 6.9639
+            },
+            {
+                "name": "Cultural Performances",
+                "description": "Attend cultural performances and events in Kolonia to witness traditional dances, music, and other aspects of Micronesian culture.",
+                "location": "Kolonia",
+                "longitude": 158.2083,
+                "latitude": 6.9639
+            }
+        ]
+    },
+
+
+    {
+        "name": "Sokehs Rock Hike",
+        "category": "Nature",
+        "score": 4,
+        "description": "Hike up Sokehs Rock in Pohnpei, a challenging trail leading to breathtaking views over the island and the Pacific Ocean.",
+        "city": "Pohnpei",
+        "longitude": 158.2068,
+        "latitude": 6.9628,
+        "cost": "$",
+        "best_time_to_go": ["January", "February", "March", "April", "November", "December"],
+        "best_time_to_go_description": "The best time for a Sokehs Rock Hike is during the months of January to April and November to December when the weather is generally favorable for hiking, and the views are stunning.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go_description": "Consider avoiding the months from May to October when there may be more rainfall and less ideal conditions for hiking.",
+        "suggested_venues": [
+            {
+                "name": "Hiking Trail",
+                "description": "Embark on a challenging hike up Sokehs Rock in Pohnpei, following the designated trail that leads to panoramic views of the island and the Pacific Ocean.",
+                "location": "Pohnpei",
+                "longitude": 158.2068,
+                "latitude": 6.9628
+            },
+            {
+                "name": "Scenic Overlook",
+                "description": "Reach the scenic overlook at the summit of Sokehs Rock, where you can take in breathtaking vistas and capture memorable photos.",
+                "location": "Pohnpei",
+                "longitude": 158.2068,
+                "latitude": 6.9628
+            },
+            {
+                "name": "Nature Photography",
+                "description": "Capture the natural beauty of Pohnpei and its surroundings with photography opportunities during the Sokehs Rock Hike.",
+                "location": "Pohnpei",
+                "longitude": 158.2068,
+                "latitude": 6.9628
+            }
+        ]
+    },    
+
+
+    {
+        "name": "Lelu Island Historical Exploration",
+        "category": "History",
+        "score": 4,
+        "description": "Explore the ruins of Lelu Island in Kosrae, an archaeological site with remains of ancient walls, tombs, and ceremonial platforms.",
+        "city": "Kosrae",
+        "longitude": 163.0000,
+        "latitude": 5.3333,
+        "cost": "$$",
+        "best_time_to_go": ["January", "February", "March", "April", "November", "December"],
+        "best_time_to_go_description": "The best time for a Lelu Island Historical Exploration is during the months of January to April and November to December when the weather is generally pleasant for exploring historical sites.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go_description": "Consider avoiding the months from May to October when there may be more rainfall and less ideal conditions for historical exploration.",
+        "suggested_venues": [
+            {
+                "name": "Archaeological Site",
+                "description": "Visit the archaeological site on Lelu Island in Kosrae to explore the remains of ancient walls, tombs, and ceremonial platforms, providing insights into the island's history.",
+                "location": "Kosrae",
+                "longitude": 163.0000,
+                "latitude": 5.3333
+            },
+            {
+                "name": "Guided Tours",
+                "description": "Take guided tours of Lelu Island's historical sites to learn about the significance of the ruins and their cultural importance.",
+                "location": "Kosrae",
+                "longitude": 163.0000,
+                "latitude": 5.3333
+            },
+            {
+                "name": "Cultural Interpretation",
+                "description": "Engage in cultural interpretation activities on Lelu Island to gain a deeper understanding of the ancient civilizations that once thrived there.",
+                "location": "Kosrae",
+                "longitude": 163.0000,
+                "latitude": 5.3333
+            }
+        ]
+    },
+
+
+    {
+        "name": "Ant Atoll Marine Sanctuary Excursion",
+        "category": "Nature",
+        "score": 5,
+        "description": "Visit Ant Atoll near Pohnpei, a protected marine sanctuary with vibrant coral reefs and diverse marine life, perfect for snorkeling and diving.",
+        "city": "Pohnpei",
+        "longitude": 158.4,
+        "latitude": 6.9667,
+        "cost": "$$$",
+        "best_time_to_go": ["December", "January", "February", "March", "April", "May"],
+        "best_time_to_go_description": "The best time for an Ant Atoll Marine Sanctuary Excursion is during the months of December to May when the waters are calm, and marine life is most active for snorkeling and diving.",
+        "worst_time_to_go": ["June", "July", "August", "September", "October", "November"],
+        "worst_time_to_go_description": "Consider avoiding the months from June to November when weather conditions may be less favorable for marine activities.",
+        "suggested_venues": [
+            {
+                "name": "Snorkeling Adventures",
+                "description": "Embark on snorkeling adventures in Ant Atoll Marine Sanctuary, where you can explore vibrant coral reefs and encounter diverse marine species.",
+                "location": "Pohnpei",
+                "longitude": 158.4,
+                "latitude": 6.9667
+            },
+            {
+                "name": "Diving Expeditions",
+                "description": "Join diving expeditions to discover the underwater beauty of Ant Atoll, with opportunities to explore deeper dive sites and marine ecosystems.",
+                "location": "Pohnpei",
+                "longitude": 158.4,
+                "latitude": 6.9667
+            },
+            {
+                "name": "Marine Conservation Awareness",
+                "description": "Learn about marine conservation efforts in Ant Atoll and the importance of preserving this protected marine sanctuary during your excursion.",
+                "location": "Pohnpei",
+                "longitude": 158.4,
+                "latitude": 6.9667
+            }
+        ]
+    }    
+]

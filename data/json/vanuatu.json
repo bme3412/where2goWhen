@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Tanna Island Volcano Adventure",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Visit the active Mount Yasur Volcano on Tanna Island, offering a spectacular display of volcanic activity and an unforgettable experience.",
+        "city": "Tanna",
+        "longitude": 169.4469,
+        "latitude": -19.5176,
+        "cost": "$$$"
+    },
+    {
+        "name": "Port Vila Market Tour",
+        "category": "Culture",
+        "score": 4,
+        "description": "Explore the colorful market of Port Vila, bustling with fresh produce, local crafts, and a vibrant atmosphere showcasing Vanuatu's culture.",
+        "city": "Port Vila",
+        "longitude": 168.3167,
+        "latitude": -17.7333,
+        "cost": "$"
+    },
+    {
+        "name": "Mele Cascades Waterfall",
+        "category": "Nature",
+        "score": 4,
+        "description": "Swim in the stunning Mele Cascades, a series of waterfalls and natural pools surrounded by lush tropical vegetation.",
+        "city": "Port Vila",
+        "longitude": 168.3,
+        "latitude": -17.75,
+        "cost": "$$"
+    },
+    {
+        "name": "Espiritu Santo Blue Hole Adventure",
+        "category": "Nature",
+        "score": 5,
+        "description": "Explore the enchanting blue holes of Espiritu Santo, known for their crystal-clear freshwater and magical blue color.",
+        "city": "Espiritu Santo",
+        "longitude": 167.0486,
+        "latitude": -15.3767,
+        "cost": "$$"
+    },
+    {
+        "name": "Pentecost Island Land Diving",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Witness the traditional land diving (Naghol) on Pentecost Island, a ritual bungee jump using vines and wooden towers.",
+        "city": "Pentecost",
+        "longitude": 168.1167,
+        "latitude": -15.8,
+        "cost": "$$$"
+    },
+    {
+        "name": "Champagne Beach Relaxation",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Relax on the powdery white sands of Champagne Beach, one of Vanuatu's most beautiful beaches, with crystal-clear waters.",
+        "city": "Espiritu Santo",
+        "longitude": 167.0833,
+        "latitude": -15.1,
+        "cost": "$"
+    },
+    {
+        "name": "Vanuatu Cultural Centre Visit",
+        "category": "Culture",
+        "score": 4,
+        "description": "Discover Vanuatu's rich history and culture at the Vanuatu Cultural Centre in Port Vila, featuring artifacts, art, and cultural exhibits.",
+        "city": "Port Vila",
+        "longitude": 168.3210,
+        "latitude": -17.7415,
+        "cost": "$"
+    },
+    {
+        "name": "Coongoola Cruise Day Trip",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Embark on the Coongoola Cruise, a day trip exploring Vanuatu's stunning coastline, snorkeling spots, and secluded beaches.",
+        "city": "Port Vila",
+        "longitude": 168.3196,
+        "latitude": -17.7404,
+        "cost": "$$$"
+    },
+    {
+        "name": "Millenium Cave Trek",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Experience the adventurous trek to Millennium Cave, Vanuatu's largest cave, involving jungle treks, river crossings, and cave exploration.",
+        "city": "Luganville",
+        "longitude": 167.1619,
+        "latitude": -15.5333,
+        "cost": "$$"
+    },
+    {
+        "name": "Hideaway Island Marine Reserve",
+        "category": "Nature",
+        "score": 4,
+        "description": "Snorkel or dive in the Hideaway Island Marine Reserve, home to a diverse range of marine life and the unique underwater post office.",
+        "city": "Port Vila",
+        "longitude": 168.3134,
+        "latitude": -17.7406,
+        "cost": "$$"
+    }
+]

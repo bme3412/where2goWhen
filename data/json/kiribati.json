@@ -1,0 +1,389 @@
+[
+    {
+        "name": "Tarawa Atoll Historical Tour",
+        "category": "History",
+        "score": 4,
+        "description": "Explore the historical sites of Tarawa Atoll, the site of a major World War II battle, with visits to war memorials and relics.",
+        "city": "Tarawa",
+        "longitude": 173.0000,
+        "latitude": 1.4167,
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Tarawa for a historical tour is during the dry season, offering more comfortable weather for exploring outdoor historical sites.",
+        "worst_time_to_go": ["November", "December", "January"],
+        "worst_time_to_go_description": "The rainy season can bring heavy showers and high humidity, which may hinder outdoor exploration and access to some historical sites.",
+        "suggested_venues": [
+            {
+                "name": "Betio Beachhead",
+                "description": "A significant World War II site on Tarawa, where intense battles took place, now marked with memorials and remnants of the conflict.",
+                "location": "Betio, Tarawa, Kiribati",
+                "longitude": 172.9333,
+                "latitude": 1.3500
+            },
+            {
+                "name": "Red Beach",
+                "description": "Another key World War II battleground on Tarawa, known for its historical importance and as a site for reflection.",
+                "location": "Red Beach, Tarawa, Kiribati",
+                "longitude": 173.0167,
+                "latitude": 1.4167
+            },
+            {
+                "name": "Tarawa War Cemetery",
+                "description": "A cemetery and memorial site for soldiers who lost their lives during the Battle of Tarawa, offering a solemn and respectful place to pay homage.",
+                "location": "Tarawa War Cemetery, Tarawa, Kiribati",
+                "longitude": 173.0056,
+                "latitude": 1.4583
+            }
+        ]
+    },
+
+
+    {
+        "name": "Kiritimati (Christmas Island) Nature Exploration",
+        "category": "Nature",
+        "score": 5,
+        "description": "Discover the unique ecology of Kiritimati, the world's largest coral atoll, known for its birdlife and diverse marine ecosystems.",
+        "city": "Kiritimati",
+        "longitude": -157.4714,
+        "latitude": 1.9833,
+        "cost": "$$$",
+        "best_time_to_go": ["April", "May", "June", "October", "November"],
+        "best_time_to_go_description": "The optimal time for nature exploration on Kiritimati is during the months with minimal rainfall and mild weather, enhancing the outdoor experience and wildlife viewing opportunities.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The rainy season can bring unpredictable weather and might affect access to some natural areas and wildlife viewing.",
+        "suggested_venues": [
+            {
+                "name": "The Lagoons of Kiritimati",
+                "description": "A series of lagoons offering rich marine biodiversity, ideal for snorkeling and observing a variety of fish and coral species.",
+                "location": "Kiritimati Lagoons, Kiritimati, Kiribati",
+                "longitude": -157.4933,
+                "latitude": 2.0167
+            },
+            {
+                "name": "Bird Watching Areas",
+                "description": "Kiritimati is a haven for birdwatchers, with numerous species of seabirds and native birds thriving in its unique ecosystem.",
+                "location": "Various locations, Kiritimati, Kiribati",
+                "longitude": -157.4714,
+                "latitude": 1.9833
+            },
+            {
+                "name": "Bonefish Flats",
+                "description": "Renowned for its excellent fly-fishing opportunities, the bonefish flats are a must-visit for anglers and nature enthusiasts.",
+                "location": "Bonefish Flats, Kiritimati, Kiribati",
+                "longitude": -157.4500,
+                "latitude": 2.0000
+            }
+        ]
+    },
+
+
+    {
+        "name": "Tabuaeran (Fanning Island) Cultural Visit",
+        "category": "Culture",
+        "score": 4,
+        "description": "Experience the traditional culture of Tabuaeran, with its Polynesian heritage, local crafts, and welcoming community.",
+        "city": "Tabuaeran",
+        "longitude": -159.3667,
+        "latitude": 3.85,
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "October", "November"],
+        "best_time_to_go_description": "The best time to visit Tabuaeran for a cultural experience is during the drier months, offering more comfortable weather for community interactions and outdoor cultural activities.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The rainy season can bring heavy showers and high humidity, which may affect the comfort of outdoor cultural activities and community visits.",
+        "suggested_venues": [
+            {
+                "name": "Local Village Tours",
+                "description": "Guided tours of the local villages, offering insights into the daily lives, traditions, and customs of the Tabuaeran community.",
+                "location": "Various villages, Tabuaeran, Kiribati",
+                "longitude": -159.3667,
+                "latitude": 3.85
+            },
+            {
+                "name": "Handicraft Markets",
+                "description": "Markets where local artisans display and sell their crafts, including woven baskets, carvings, and traditional jewelry.",
+                "location": "Handicraft Markets, Tabuaeran, Kiribati",
+                "longitude": -159.3667,
+                "latitude": 3.85
+            },
+            {
+                "name": "Cultural Performances",
+                "description": "Enjoy traditional Polynesian dances and music performances, showcasing the rich cultural heritage of Tabuaeran.",
+                "location": "Performance venues, Tabuaeran, Kiribati",
+                "longitude": -159.3667,
+                "latitude": 3.85
+            }
+        ]
+    },
+
+
+    {
+        "name": "Millennium Island (Caroline Island) Adventure",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Travel to Millennium Island, one of the world's most remote and unspoiled islands, known for its pristine beaches and unique dateline location.",
+        "city": "Millennium Island",
+        "longitude": -150.2170,
+        "latitude": -9.9500,
+        "cost": "$$$$",
+        "best_time_to_go": ["April", "May", "June", "October", "November"],
+        "best_time_to_go_description": "The optimal time for an adventure to Millennium Island is during the drier months, offering favorable weather for exploring the island's natural beauty and outdoor activities.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The rainy season can bring unpredictable weather, which might hinder travel to and exploration of this remote island.",
+        "suggested_venues": [
+            {
+                "name": "Beach Exploration",
+                "description": "Millennium Island boasts untouched beaches, ideal for relaxation, swimming, and enjoying the serenity of a remote island.",
+                "location": "Various beaches, Millennium Island, Kiribati",
+                "longitude": -150.2170,
+                "latitude": -9.9500
+            },
+            {
+                "name": "Nature Trails",
+                "description": "The island offers several trails, allowing visitors to explore its lush vegetation and diverse birdlife.",
+                "location": "Nature Trails, Millennium Island, Kiribati",
+                "longitude": -150.2170,
+                "latitude": -9.9500
+            },
+            {
+                "name": "Dateline Marker",
+                "description": "Visit the unique marker that signifies the island's location on the international dateline, a rare geographical feature.",
+                "location": "Dateline Marker, Millennium Island, Kiribati",
+                "longitude": -150.2170,
+                "latitude": -9.9500
+            }
+        ]
+    },
+
+
+    {
+        "name": "Abaiang Atoll Lagoon Activities",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Enjoy the serene lagoon of Abaiang Atoll, perfect for snorkeling, swimming, and experiencing the tranquil island life.",
+        "city": "Abaiang",
+        "longitude": 172.9000,
+        "latitude": 1.8000,
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "October", "November"],
+        "best_time_to_go_description": "The best time for lagoon activities in Abaiang Atoll is during the drier months, offering ideal conditions for snorkeling, swimming, and relaxing by the lagoon.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The rainy season may bring less favorable conditions for water-based activities and hinder the enjoyment of the lagoon's tranquility.",
+        "suggested_venues": [
+            {
+                "name": "Snorkeling Spots",
+                "description": "Explore the vibrant underwater life in the lagoon's clear waters, home to colorful coral reefs and a variety of marine species.",
+                "location": "Various snorkeling spots, Abaiang Atoll, Kiribati",
+                "longitude": 172.9000,
+                "latitude": 1.8000
+            },
+            {
+                "name": "Local Village Visits",
+                "description": "Experience the local culture and hospitality by visiting the traditional villages on the atoll.",
+                "location": "Various villages, Abaiang Atoll, Kiribati",
+                "longitude": 172.9000,
+                "latitude": 1.8000
+            },
+            {
+                "name": "Kayaking and Canoeing",
+                "description": "Paddle around the calm waters of the lagoon, a relaxing way to explore the atoll’s natural beauty.",
+                "location": "Kayaking and Canoeing areas, Abaiang Atoll, Kiribati",
+                "longitude": 172.9000,
+                "latitude": 1.8000
+            }
+        ]
+    },
+
+
+    {
+        "name": "Butaritari Island Cultural Immersion",
+        "category": "Culture",
+        "score": 3,
+        "description": "Immerse yourself in the local culture of Butaritari Island, known for its lush vegetation, traditional dance, and handicrafts.",
+        "city": "Butaritari",
+        "longitude": 172.7667,
+        "latitude": 3.0833,
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "October", "November"],
+        "best_time_to_go_description": "The optimal time for a cultural immersion on Butaritari Island is during the drier months, offering comfortable weather for engaging in outdoor cultural activities and village visits.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The rainy season may bring heavy showers and high humidity, which can affect the comfort and accessibility of cultural experiences.",
+        "suggested_venues": [
+            {
+                "name": "Traditional Dance Performances",
+                "description": "Experience the vibrant traditional dances of Butaritari, reflecting the island's rich cultural heritage.",
+                "location": "Performance venues, Butaritari, Kiribati",
+                "longitude": 172.7667,
+                "latitude": 3.0833
+            },
+            {
+                "name": "Local Handicraft Workshops",
+                "description": "Visit workshops where local artisans create unique handicrafts, offering a glimpse into the island's artistic traditions.",
+                "location": "Handicraft workshops, Butaritari, Kiribati",
+                "longitude": 172.7667,
+                "latitude": 3.0833
+            },
+            {
+                "name": "Village Tours",
+                "description": "Explore the traditional villages of Butaritari, interacting with the local community and learning about their way of life.",
+                "location": "Various villages, Butaritari, Kiribati",
+                "longitude": 172.7667,
+                "latitude": 3.0833
+            }
+        ]
+    },
+
+
+    {
+        "name": "Marakei Island Birdwatching",
+        "category": "Nature",
+        "score": 4,
+        "description": "Visit Marakei Island for exceptional birdwatching opportunities, home to a variety of native and migratory bird species.",
+        "city": "Marakei",
+        "longitude": 173.2667,
+        "latitude": 2.0000,
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "October", "November"],
+        "best_time_to_go_description": "The ideal time for birdwatching on Marakei Island is during the drier months, which offer more favorable conditions for spotting a variety of bird species.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The rainy season might hinder birdwatching activities due to less favorable weather conditions and accessibility issues.",
+        "suggested_venues": [
+            {
+                "name": "Marakei Lagoon",
+                "description": "The lagoon area is a great spot for observing waterbirds and other marine avian species in their natural habitat.",
+                "location": "Marakei Lagoon, Marakei, Kiribati",
+                "longitude": 173.2667,
+                "latitude": 2.0000
+            },
+            {
+                "name": "Island Forest Trails",
+                "description": "Explore the island's forested areas, which are habitats for various endemic and migratory birds.",
+                "location": "Forest Trails, Marakei, Kiribati",
+                "longitude": 173.2667,
+                "latitude": 2.0000
+            },
+            {
+                "name": "Coastal Mangroves",
+                "description": "The mangrove areas around Marakei are excellent for spotting unique bird species that thrive in these ecosystems.",
+                "location": "Coastal Mangroves, Marakei, Kiribati",
+                "longitude": 173.2667,
+                "latitude": 2.0000
+            }
+        ]
+    },
+
+
+    {
+        "name": "Nonouti Atoll Fishing Expedition",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Join a fishing expedition around Nonouti Atoll, offering some of the best deep-sea fishing experiences in the Pacific.",
+        "city": "Nonouti",
+        "longitude": 174.3667,
+        "latitude": -0.6833,
+        "cost": "$$$",
+        "best_time_to_go": ["April", "May", "June", "October", "November"],
+        "best_time_to_go_description": "The ideal time for a fishing expedition in Nonouti Atoll is during the months with minimal rainfall and calm sea conditions, enhancing the fishing experience.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The rainy season may bring rough sea conditions and reduced fishing opportunities.",
+        "suggested_venues": [
+            {
+                "name": "Deep-sea Fishing Areas",
+                "description": "Nonouti Atoll's surrounding waters are rich in diverse fish species, making it a prime location for deep-sea fishing enthusiasts.",
+                "location": "Deep-sea Fishing Areas, Nonouti Atoll, Kiribati",
+                "longitude": 174.3667,
+                "latitude": -0.6833
+            },
+            {
+                "name": "Local Fishing Charters",
+                "description": "Hire a local fishing charter to guide you to the best fishing spots and provide insights into effective fishing techniques.",
+                "location": "Local Fishing Charters, Nonouti Atoll, Kiribati",
+                "longitude": 174.3667,
+                "latitude": -0.6833
+            },
+            {
+                "name": "Coastal Reefs",
+                "description": "The atoll's coastal reefs offer opportunities for more relaxed fishing experiences, suitable for anglers of all skill levels.",
+                "location": "Coastal Reefs, Nonouti Atoll, Kiribati",
+                "longitude": 174.3667,
+                "latitude": -0.6833
+            }
+        ]
+    },
+
+
+    {
+        "name": "Makin Atoll Relaxation Retreat",
+        "category": "Relaxation",
+        "score": 3,
+        "description": "Relax on the beautiful, untouched beaches of Makin Atoll, a perfect getaway for tranquility and peace.",
+        "city": "Makin",
+        "longitude": 173.0167,
+        "latitude": 3.3833,
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "June", "October", "November"],
+        "best_time_to_go_description": "The ideal time for a relaxation retreat on Makin Atoll is during the drier months, offering pleasant weather and calm seas for beach relaxation and swimming.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The rainy season might bring less favorable conditions for beach activities and outdoor relaxation.",
+        "suggested_venues": [
+            {
+                "name": "Makin Beaches",
+                "description": "Explore the pristine beaches of Makin, known for their white sand, clear waters, and serene atmosphere.",
+                "location": "Various beaches, Makin Atoll, Kiribati",
+                "longitude": 173.0167,
+                "latitude": 3.3833
+            },
+            {
+                "name": "Local Village Visits",
+                "description": "Experience the laid-back lifestyle of the local villages on Makin, offering a glimpse into the peaceful island culture.",
+                "location": "Various villages, Makin Atoll, Kiribati",
+                "longitude": 173.0167,
+                "latitude": 3.3833
+            },
+            {
+                "name": "Snorkeling Spots",
+                "description": "The clear waters around Makin are ideal for snorkeling, offering a chance to explore the vibrant underwater life.",
+                "location": "Snorkeling spots, Makin Atoll, Kiribati",
+                "longitude": 173.0167,
+                "latitude": 3.3833
+            }
+        ]
+    },
+
+    {
+        "name": "Gilbert Islands Cultural Festival",
+        "category": "Culture",
+        "score": 5,
+        "description": "Attend a cultural festival in the Gilbert Islands, showcasing traditional Kiribati dance, music, and crafts.",
+        "city": "Gilbert Islands",
+        "longitude": 172.8167,
+        "latitude": 1.4167,
+        "cost": "$$",
+        "best_time_to_go": ["August", "September"],
+        "best_time_to_go_description": "The best time to experience the Gilbert Islands Cultural Festival is during the months of August and September when the festival takes place.",
+        "worst_time_to_go": ["January", "February"],
+        "worst_time_to_go_description": "Avoid visiting in January and February as the festival may not be active during these months.",
+        "suggested_venues": [
+            {
+                "name": "Festival Grounds",
+                "description": "The primary venue for the Gilbert Islands Cultural Festival, where you can enjoy traditional performances and explore Kiribati culture.",
+                "location": "Gilbert Islands",
+                "longitude": 172.8167,
+                "latitude": 1.4167
+            },
+            {
+                "name": "Crafts Market",
+                "description": "Browse through a vibrant crafts market at the festival, where you can purchase traditional Kiribati crafts as souvenirs.",
+                "location": "Gilbert Islands",
+                "longitude": 172.8167,
+                "latitude": 1.4167
+            },
+            {
+                "name": "Food Stalls",
+                "description": "Savor delicious Kiribati cuisine at the festival's food stalls, offering a variety of local dishes.",
+                "location": "Gilbert Islands",
+                "longitude": 172.8167,
+                "latitude": 1.4167
+            }
+        ]
+    }    
+]

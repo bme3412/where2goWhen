@@ -1,0 +1,102 @@
+[
+    {
+        "name": "To Sua Ocean Trench Swim",
+        "category": "Nature",
+        "score": 5,
+        "description": "Swim in the stunning To Sua Ocean Trench, a natural swimming hole surrounded by lush gardens and connected to the ocean through an underwater cave.",
+        "city": "Lotofaga",
+        "longitude": -171.7386,
+        "latitude": -14.0531,
+        "cost": "$$"
+    },
+    {
+        "name": "Alofaaga Blowholes Visit",
+        "category": "Nature",
+        "score": 4,
+        "description": "Witness the powerful Alofaaga Blowholes on Savai'i, where ocean waves force water through volcanic rock formations, creating spectacular plumes.",
+        "city": "Savai'i",
+        "longitude": -172.6667,
+        "latitude": -13.6198,
+        "cost": "$"
+    },
+    {
+        "name": "Falealupo Rainforest Preserve Exploration",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Explore the Falealupo Rainforest Preserve in Savai'i, including a canopy walkway offering views of the lush rainforest and its diverse wildlife.",
+        "city": "Savai'i",
+        "longitude": -172.8000,
+        "latitude": -13.4833,
+        "cost": "$$"
+    },
+    {
+        "name": "Papaseea Sliding Rocks Adventure",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Slide down the smooth, natural water slides at Papaseea Sliding Rocks, a fun and refreshing experience near Apia.",
+        "city": "Apia",
+        "longitude": -171.7833,
+        "latitude": -13.8333,
+        "cost": "$"
+    },
+    {
+        "name": "Piula Cave Pool Relaxation",
+        "category": "Relaxation",
+        "score": 4,
+        "description": "Relax in the crystal-clear waters of the Piula Cave Pool, a freshwater pool located in a cave beneath a historic church.",
+        "city": "Upolu",
+        "longitude": -171.7386,
+        "latitude": -13.9500,
+        "cost": "$"
+    },
+    {
+        "name": "Tafua Peninsula Rainforest Hike",
+        "category": "Nature",
+        "score": 4,
+        "description": "Hike through the Tafua Peninsula Rainforest in Savai'i, known for its volcanic crater and abundant birdlife.",
+        "city": "Savai'i",
+        "longitude": -172.6386,
+        "latitude": -13.6403,
+        "cost": "$"
+    },
+    {
+        "name": "Robert Louis Stevenson Museum Tour",
+        "category": "Culture",
+        "score": 3,
+        "description": "Visit the Robert Louis Stevenson Museum in Apia, the former home of the famous author, set in beautiful gardens.",
+        "city": "Apia",
+        "longitude": -171.7521,
+        "latitude": -13.8506,
+        "cost": "$"
+    },
+    {
+        "name": "Manono Island Cultural Experience",
+        "category": "Culture",
+        "score": 4,
+        "description": "Visit the small, serene Manono Island to experience traditional Samoan village life and customs.",
+        "city": "Manono Island",
+        "longitude": -171.9333,
+        "latitude": -13.8000,
+        "cost": "$$"
+    },
+    {
+        "name": "Lalomanu Beach Relaxation",
+        "category": "Leisure",
+        "score": 5,
+        "description": "Spend a day at Lalomanu Beach, one of Samoa's most beautiful beaches, known for its white sand and clear waters.",
+        "city": "Upolu",
+        "longitude": -171.5889,
+        "latitude": -14.0089,
+        "cost": "$"
+    },
+    {
+        "name": "Samoa Cultural Village Visit",
+        "category": "Culture",
+        "score": 4,
+        "description": "Explore the Samoa Cultural Village in Apia to learn about Samoan traditions, including crafts, cooking, and tattooing.",
+        "city": "Apia",
+        "longitude": -171.7694,
+        "latitude": -13.8318,
+        "cost": "$"
+    }
+]

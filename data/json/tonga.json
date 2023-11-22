@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Swim with Humpback Whales",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Experience the unforgettable adventure of swimming with humpback whales in the warm waters of Tonga, one of the few places in the world where this is possible.",
+        "city": "Vava'u",
+        "longitude": -174.0083,
+        "latitude": -18.6466,
+        "cost": "$$$"
+    },
+    {
+        "name": "Tongatapu Island Tour",
+        "category": "Culture",
+        "score": 4,
+        "description": "Explore Tongatapu, Tonga's main island, known for its historical sites, including the Ha'amonga 'a Maui Trilithon, royal tombs, and beautiful beaches.",
+        "city": "Tongatapu",
+        "longitude": -175.1982,
+        "latitude": -21.1789,
+        "cost": "$$"
+    },
+    {
+        "name": "Eua National Park Hiking",
+        "category": "Nature",
+        "score": 4,
+        "description": "Hike in 'Eua National Park, offering some of Tonga's most stunning and rugged landscapes, rich in birdlife and tropical rainforests.",
+        "city": "'Eua",
+        "longitude": -174.9386,
+        "latitude": -21.3783,
+        "cost": "$"
+    },
+    {
+        "name": "Ha'apai Islands Kayaking",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Kayak in the serene waters of the Ha'apai Islands, exploring its secluded beaches, clear lagoons, and vibrant coral reefs.",
+        "city": "Ha'apai",
+        "longitude": -174.3000,
+        "latitude": -19.8000,
+        "cost": "$$"
+    },
+    {
+        "name": "Anahulu Cave Exploration",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Explore the Anahulu Cave, the largest cave system in Tonga, known for its impressive limestone formations and underground freshwater pool.",
+        "city": "Haveluliku",
+        "longitude": -175.0,
+        "latitude": -21.15,
+        "cost": "$"
+    },
+    {
+        "name": "Nuku'alofa Cultural Experience",
+        "category": "Culture",
+        "score": 3,
+        "description": "Discover the vibrant culture of Nuku'alofa, Tonga's capital, with visits to the Royal Palace, local markets, and cultural centers.",
+        "city": "Nuku'alofa",
+        "longitude": -175.2049,
+        "latitude": -21.1394,
+        "cost": "$"
+    },
+    {
+        "name": "Mapu'a 'a Vaea Blowholes",
+        "category": "Nature",
+        "score": 4,
+        "description": "Witness the spectacular Mapu'a 'a Vaea Blowholes on Tongatapu, where the ocean waves create impressive natural fountains through rock formations.",
+        "city": "Tongatapu",
+        "longitude": -175.25,
+        "latitude": -21.2,
+        "cost": "$"
+    },
+    {
+        "name": "Talamahu Market Shopping",
+        "category": "Shopping",
+        "score": 3,
+        "description": "Visit the Talamahu Market in Nuku'alofa, the main marketplace in Tonga, for local produce, crafts, and a taste of the local lifestyle.",
+        "city": "Nuku'alofa",
+        "longitude": -175.2167,
+        "latitude": -21.1333,
+        "cost": "$"
+    },
+    {
+        "name": "Fafa Island Day Trip",
+        "category": "Relaxation",
+        "score": 4,
+        "description": "Take a day trip to Fafa Island, a small coral island surrounded by white sandy beaches and crystal-clear waters, perfect for relaxation and snorkeling.",
+        "city": "Fafa Island",
+        "longitude": -175.2,
+        "latitude": -21.1,
+        "cost": "$$$"
+    },
+    {
+        "name": "Royal Tombs Visit",
+        "category": "History",
+        "score": 3,
+        "description": "Explore the Royal Tombs (Langi) in Lapaha, an important historical site in Tonga, where ancient Tongan kings were buried.",
+        "city": "Lapaha",
+        "longitude": -175.3,
+        "latitude": -21.2,
+        "cost": "$"
+    }
+]

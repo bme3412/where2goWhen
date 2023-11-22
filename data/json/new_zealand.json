@@ -1,0 +1,380 @@
+[
+    {
+        "name": "Milford Sound Cruise",
+        "category": "Nature",
+        "score": 5,
+        "description": "Embark on a scenic cruise in Milford Sound, part of Fiordland National Park, known for its majestic cliffs and waterfalls.",
+        "city": "Milford Sound",
+        "longitude": 167.8974,
+        "latitude": -44.6717,
+        "cost": "$$",
+        "best_time_to_go": ["December", "January", "February", "March"],
+        "best_time_to_go_description": "The best time for a Milford Sound Cruise is during the Southern Hemisphere's summer months, from December to March, when the weather is more favorable for cruising and enjoying the natural beauty of the area.",
+        "worst_time_to_go": ["April", "May", "June", "July", "August", "September", "October", "November"],
+        "worst_time_to_go_description": "Consider avoiding the winter months from April to November when the weather in Milford Sound can be cold and less suitable for cruising.",
+        "suggested_venues": [
+            {
+                "name": "Scenic Cruise",
+                "description": "Experience the breathtaking beauty of Milford Sound's majestic cliffs and stunning waterfalls on a scenic cruise.",
+                "location": "Milford Sound",
+                "longitude": 167.8974,
+                "latitude": -44.6717
+            },
+            {
+                "name": "Fiordland National Park",
+                "description": "Explore the pristine wilderness of Fiordland National Park, home to a diverse range of flora and fauna.",
+                "location": "Milford Sound",
+                "longitude": 167.8974,
+                "latitude": -44.6717
+            },
+            {
+                "name": "Wildlife Observation",
+                "description": "Keep an eye out for the local wildlife, including dolphins, seals, and various bird species, while on your Milford Sound Cruise.",
+                "location": "Milford Sound",
+                "longitude": 167.8974,
+                "latitude": -44.6717
+            }
+        ]
+    },
+
+
+    {
+        "name": "Hobbiton Movie Set Tour",
+        "category": "Entertainment",
+        "score": 5,
+        "description": "Visit the Hobbiton Movie Set from 'The Lord of the Rings' and 'The Hobbit' film trilogies in a fascinating tour of the Shire.",
+        "city": "Matamata",
+        "longitude": 175.6826,
+        "latitude": -37.8725,
+        "cost": "$$",
+        "best_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "best_time_to_go_description": "The best time for a Hobbiton Movie Set Tour is during the Southern Hemisphere's spring, summer, and early autumn months, from October to April, when the weather is more pleasant and conducive to outdoor tours.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September"],
+        "worst_time_to_go_description": "Consider avoiding the winter months from May to September when the weather in Matamata can be colder and less suitable for outdoor tours.",
+        "suggested_venues": [
+            {
+                "name": "Shire Tour",
+                "description": "Explore the charming Shire and visit iconic Hobbit holes and locations from 'The Lord of the Rings' and 'The Hobbit' film trilogies.",
+                "location": "Matamata",
+                "longitude": 175.6826,
+                "latitude": -37.8725
+            },
+            {
+                "name": "Film Set Insights",
+                "description": "Learn about the filmmaking process and behind-the-scenes stories of 'The Lord of the Rings' and 'The Hobbit' during the tour.",
+                "location": "Matamata",
+                "longitude": 175.6826,
+                "latitude": -37.8725
+            },
+            {
+                "name": "Themed Souvenirs",
+                "description": "Shop for themed souvenirs and collectibles at the Hobbiton Movie Set's gift shop to commemorate your visit.",
+                "location": "Matamata",
+                "longitude": 175.6826,
+                "latitude": -37.8725
+            }
+        ]
+    },
+
+    {
+        "name": "Franz Josef Glacier Hike",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Experience a guided hike on Franz Josef Glacier, one of the most accessible glaciers in the world, set in a stunning rainforest environment.",
+        "city": "Franz Josef",
+        "longitude": 170.1836,
+        "latitude": -43.385,
+        "cost": "$$$",
+        "best_time_to_go": ["November", "December", "January", "February", "March", "April"],
+        "best_time_to_go_description": "The best time for a Franz Josef Glacier Hike is during the Southern Hemisphere's summer and early autumn months, from November to April, when the glacier's accessibility and weather conditions are favorable for hiking.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go_description": "Consider avoiding the winter months from May to October when hiking conditions on the glacier may be less ideal due to cold temperatures and ice hazards.",
+        "suggested_venues": [
+            {
+                "name": "Glacier Hike",
+                "description": "Embark on a guided hike on Franz Josef Glacier, exploring its unique ice formations and stunning glacial landscapes.",
+                "location": "Franz Josef",
+                "longitude": 170.1836,
+                "latitude": -43.385
+            },
+            {
+                "name": "Rainforest Surroundings",
+                "description": "Enjoy the lush rainforest environment surrounding Franz Josef Glacier, adding to the scenic beauty of your hiking experience.",
+                "location": "Franz Josef",
+                "longitude": 170.1836,
+                "latitude": -43.385
+            },
+            {
+                "name": "Professional Guides",
+                "description": "Benefit from the expertise of professional guides who will lead your glacier hike and provide insights into the glacier's natural history.",
+                "location": "Franz Josef",
+                "longitude": 170.1836,
+                "latitude": -43.385
+            }
+        ]
+    },
+
+    {
+        "name": "Bay of Islands Sailing Adventure",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Sail around the Bay of Islands, an area known for its stunning natural beauty, wildlife, and historical significance.",
+        "city": "Bay of Islands",
+        "longitude": 174.1233,
+        "latitude": -35.1844,
+        "cost": "$$$",
+        "best_time_to_go": ["December", "January", "February", "March", "April"],
+        "best_time_to_go_description": "The best time for a Bay of Islands Sailing Adventure is during the Southern Hemisphere's summer and early autumn months, from December to April, when the weather is more favorable for sailing, and you can enjoy the natural beauty and wildlife of the area.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October", "November"],
+        "worst_time_to_go_description": "Consider avoiding the winter and spring months from May to November when the weather in the Bay of Islands may be cooler and less suitable for sailing.",
+        "suggested_venues": [
+            {
+                "name": "Sailing Excursion",
+                "description": "Embark on a sailing adventure in the Bay of Islands, where you can explore its stunning natural beauty, wildlife, and historical sites.",
+                "location": "Bay of Islands",
+                "longitude": 174.1233,
+                "latitude": -35.1844
+            },
+            {
+                "name": "Wildlife Watching",
+                "description": "Witness the diverse marine and bird life of the Bay of Islands, including dolphins, seals, and various seabird species during your sailing trip.",
+                "location": "Bay of Islands",
+                "longitude": 174.1233,
+                "latitude": -35.1844
+            },
+            {
+                "name": "Historical Sites",
+                "description": "Learn about the historical significance of the Bay of Islands as you sail past landmarks and sites of cultural and historical importance.",
+                "location": "Bay of Islands",
+                "longitude": 174.1233,
+                "latitude": -35.1844
+            }
+        ]
+    },
+    {
+        "name": "Rotorua Geothermal Parks",
+        "category": "Nature",
+        "score": 5,
+        "description": "Explore the geothermal wonders of Rotorua, including geysers, hot springs, and mud pools, offering a glimpse into Earth's natural forces.",
+        "city": "Rotorua",
+        "longitude": 176.2497,
+        "latitude": -38.1368,
+        "cost": "$$",
+        "best_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "best_time_to_go_description": "The best time to explore Rotorua's Geothermal Parks is during the Southern Hemisphere's spring, summer, and early autumn months, from October to April when the weather is more pleasant for outdoor activities and geothermal sightseeing.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September"],
+        "worst_time_to_go_description": "Consider avoiding the winter months from May to September when the weather in Rotorua can be cooler, and outdoor exploration may be less enjoyable.",
+        "suggested_venues": [
+            {
+                "name": "Te Puia",
+                "description": "Visit Te Puia, a renowned geothermal park in Rotorua, featuring impressive geysers, hot springs, and traditional Maori cultural experiences.",
+                "location": "Rotorua",
+                "longitude": 176.2497,
+                "latitude": -38.1368
+            },
+            {
+                "name": "Wai-O-Tapu Thermal Wonderland",
+                "description": "Explore the vibrant and colorful geothermal landscape of Wai-O-Tapu Thermal Wonderland, known for its unique geothermal features.",
+                "location": "Rotorua",
+                "longitude": 176.2497,
+                "latitude": -38.1368
+            },
+            {
+                "name": "Whakarewarewa Thermal Village",
+                "description": "Discover the living Maori village of Whakarewarewa, where residents utilize natural geothermal resources for cooking and bathing.",
+                "location": "Rotorua",
+                "longitude": 176.2497,
+                "latitude": -38.1368
+            }
+        ]
+    },
+
+    {
+        "name": "Queenstown Adventure Sports",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Experience a range of adventure sports in Queenstown, known as the 'Adventure Capital of the World', including bungee jumping, skydiving, and jet boating.",
+        "city": "Queenstown",
+        "longitude": 168.6626,
+        "latitude": -45.0311,
+        "cost": "$$$",
+        "best_time_to_go": ["November", "December", "January", "February", "March"],
+        "best_time_to_go_description": "The best time for Queenstown Adventure Sports is during the Southern Hemisphere's summer months, from November to March, when the weather is ideal for outdoor adventure activities.",
+        "worst_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go_description": "Consider avoiding the winter months from April to October when some adventure sports activities may be limited due to colder weather and snow.",
+        "suggested_venues": [
+            {
+                "name": "Bungee Jumping",
+                "description": "Take a thrilling bungee jump from iconic locations like the Kawarau Bridge or the Nevis Highwire Platform in Queenstown.",
+                "location": "Queenstown",
+                "longitude": 168.6626,
+                "latitude": -45.0311
+            },
+            {
+                "name": "Skydiving",
+                "description": "Experience the exhilaration of skydiving in Queenstown, enjoying stunning aerial views of the remarkable landscapes.",
+                "location": "Queenstown",
+                "longitude": 168.6626,
+                "latitude": -45.0311
+            },
+            {
+                "name": "Jet Boating",
+                "description": "Hop on a jet boat adventure on the Shotover River or Lake Wakatipu for high-speed thrills and scenic beauty.",
+                "location": "Queenstown",
+                "longitude": 168.6626,
+                "latitude": -45.0311
+            }
+        ]
+    },
+
+    {
+        "name": "Abel Tasman National Park Kayaking",
+        "category": "Nature",
+        "score": 4,
+        "description": "Kayak in the crystal-clear waters of Abel Tasman National Park, exploring its beautiful beaches and native wildlife.",
+        "city": "Abel Tasman",
+        "longitude": 173.0111,
+        "latitude": -40.8333,
+        "cost": "$$",
+        "best_time_to_go": ["December", "January", "February", "March", "April"],
+        "best_time_to_go_description": "The best time for Abel Tasman National Park Kayaking is during the Southern Hemisphere's summer months, from December to April, when the weather is more favorable for kayaking, and you can enjoy the pristine beaches and wildlife of the park.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October", "November"],
+        "worst_time_to_go_description": "Consider avoiding the winter and early spring months from May to November when the weather may be cooler and less suitable for kayaking.",
+        "suggested_venues": [
+            {
+                "name": "Kayaking Tours",
+                "description": "Join guided kayaking tours in Abel Tasman National Park, where experienced guides will lead you to the park's most scenic spots and provide insights into the local wildlife.",
+                "location": "Abel Tasman",
+                "longitude": 173.0111,
+                "latitude": -40.8333
+            },
+            {
+                "name": "Beach Exploration",
+                "description": "Take breaks on the park's beautiful beaches during your kayaking adventure, and enjoy the tranquil surroundings and pristine coastline.",
+                "location": "Abel Tasman",
+                "longitude": 173.0111,
+                "latitude": -40.8333
+            },
+            {
+                "name": "Wildlife Watching",
+                "description": "Spot native wildlife such as seals, dolphins, and a variety of bird species while kayaking in Abel Tasman National Park.",
+                "location": "Abel Tasman",
+                "longitude": 173.0111,
+                "latitude": -40.8333
+            }
+        ]
+    },
+    {
+        "name": "Waitomo Glowworm Caves Tour",
+        "category": "Nature",
+        "score": 4,
+        "description": "Visit the Waitomo Glowworm Caves and witness the magical glow of thousands of luminescent worms lighting up the cave ceilings.",
+        "city": "Waitomo",
+        "longitude": 175.0988,
+        "latitude": -38.2615,
+        "cost": "$$",
+        "best_time_to_go": ["November", "December", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The Waitomo Glowworm Caves can be visited year-round, making it suitable for exploration during any season. The glowworms' bioluminescent display is a unique and enchanting experience that can be enjoyed throughout the year.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There isn't a specific worst time to go to the Waitomo Glowworm Caves as they remain a fascinating attraction regardless of the season.",
+        "suggested_venues": [
+            {
+                "name": "Glowworm Cave Tour",
+                "description": "Embark on a guided tour of the Waitomo Glowworm Caves, where you can witness the mesmerizing glow of the luminescent worms and learn about their unique habitat.",
+                "location": "Waitomo",
+                "longitude": 175.0988,
+                "latitude": -38.2615
+            },
+            {
+                "name": "Boat Ride",
+                "description": "Take a boat ride through the cave's underground river, providing you with an up-close view of the glowworms' magical illumination.",
+                "location": "Waitomo",
+                "longitude": 175.0988,
+                "latitude": -38.2615
+            },
+            {
+                "name": "Cave Exploration",
+                "description": "Explore the fascinating limestone formations and caverns of the Waitomo Glowworm Caves while admiring the natural beauty of this subterranean world.",
+                "location": "Waitomo",
+                "longitude": 175.0988,
+                "latitude": -38.2615
+            }
+        ]
+    },
+
+    {
+        "name": "Aoraki/Mount Cook National Park Hike",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Hike in Aoraki/Mount Cook National Park, home to New Zealand's highest mountain and stunning alpine scenery.",
+        "city": "Mount Cook",
+        "longitude": 170.1418,
+        "latitude": -43.5941,
+        "cost": "$$",
+        "best_time_to_go": ["November", "December", "January", "February", "March"],
+        "best_time_to_go_description": "The best time for hiking in Aoraki/Mount Cook National Park is during the Southern Hemisphere's summer months, from November to March, when the weather is more favorable for outdoor activities, and the alpine scenery is at its most stunning.",
+        "worst_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go_description": "Consider avoiding the winter and early spring months from April to October when the weather in the national park can be quite cold and less suitable for hiking.",
+        "suggested_venues": [
+            {
+                "name": "Hooker Valley Track",
+                "description": "Embark on the Hooker Valley Track, a popular hiking trail that offers breathtaking views of Aoraki/Mount Cook and the surrounding alpine landscape.",
+                "location": "Mount Cook",
+                "longitude": 170.1418,
+                "latitude": -43.5941
+            },
+            {
+                "name": "Müller Hut Track",
+                "description": "Challenge yourself with the Müller Hut Track, a more advanced hike that rewards you with panoramic vistas and the opportunity to stay in a mountain hut.",
+                "location": "Mount Cook",
+                "longitude": 170.1418,
+                "latitude": -43.5941
+            },
+            {
+                "name": "Tasman Glacier View Track",
+                "description": "Take the Tasman Glacier View Track to witness the impressive Tasman Glacier and its terminal lake, surrounded by the grandeur of the national park.",
+                "location": "Mount Cook",
+                "longitude": 170.1418,
+                "latitude": -43.5941
+            }
+        ]
+    },
+
+    {
+        "name": "Waiheke Island Wine Tasting",
+        "category": "Gastronomy",
+        "score": 4,
+        "description": "Enjoy a wine-tasting tour on Waiheke Island, renowned for its world-class vineyards and stunning coastal views.",
+        "city": "Waiheke Island",
+        "longitude": 175.0202,
+        "latitude": -36.7957,
+        "cost": "$$",
+        "best_time_to_go": ["November", "December", "January", "February", "March", "April"],
+        "best_time_to_go_description": "The best time for wine tasting on Waiheke Island is during the Southern Hemisphere's summer and early autumn months, from November to April, when the vineyards are lush, and you can enjoy pleasant weather and stunning coastal views.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go_description": "Consider avoiding the winter and early spring months from May to October, as the weather may be cooler and less conducive to outdoor wine tasting.",
+        "suggested_venues": [
+            {
+                "name": "Mudbrick Vineyard & Restaurant",
+                "description": "Visit Mudbrick Vineyard & Restaurant, a renowned winery on Waiheke Island, where you can sample their fine wines and savor delicious cuisine with coastal views.",
+                "location": "Waiheke Island",
+                "longitude": 175.0202,
+                "latitude": -36.7957
+            },
+            {
+                "name": "Te Motu Vineyard",
+                "description": "Experience the wines of Te Motu Vineyard, another top winery on the island known for its red wines, and enjoy a relaxed wine tasting experience.",
+                "location": "Waiheke Island",
+                "longitude": 175.0202,
+                "latitude": -36.7957
+            },
+            {
+                "name": "Cable Bay Vineyards",
+                "description": "Explore Cable Bay Vineyards, where you can indulge in a selection of wines while taking in panoramic views of the island's coastal beauty.",
+                "location": "Waiheke Island",
+                "longitude": 175.0202,
+                "latitude": -36.7957
+            }
+        ]
+    }    
+]

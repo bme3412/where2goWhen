@@ -7,8 +7,37 @@
         "city": "Arizona",
         "longitude": -112.1401,
         "latitude": 36.0544,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "September", "October", "November"],
+        "best_time_to_go_description": "The best time to visit the Grand Canyon is during the spring and fall, when the weather is mild and the park is less crowded, offering ideal conditions for hiking and sightseeing.",
+        "worst_time_to_go": ["June", "July", "August", "December", "January", "February"],
+        "worst_time_to_go_description": "Summer months can be extremely hot, especially in the inner canyon, and winter months can have snow and icy conditions, making some trails and roads inaccessible.",
+        "suggested_venues": [
+            {
+                "name": "South Rim",
+                "description": "The most popular section of the Grand Canyon, known for its accessible viewpoints and visitor facilities.",
+                "location": "South Rim, Grand Canyon, Arizona",
+                "longitude": -112.1401,
+                "latitude": 36.0544
+            },
+            {
+                "name": "Bright Angel Trail",
+                "description": "A challenging and scenic hiking trail that descends into the canyon, offering spectacular views.",
+                "location": "Bright Angel Trail, Grand Canyon, Arizona",
+                "longitude": -112.1475,
+                "latitude": 36.0570
+            },
+            {
+                "name": "North Rim",
+                "description": "Less crowded than the South Rim, offering unique viewpoints and a different perspective of the canyon.",
+                "location": "North Rim, Grand Canyon, Arizona",
+                "longitude": -112.0567,
+                "latitude": 36.1972
+            }
+        ]
+    },    
+
+
     {
         "name": "Witnessing the Northern Lights in Alaska",
         "category": "Nature",
@@ -17,8 +46,37 @@
         "city": "Fairbanks",
         "longitude": -147.7164,
         "latitude": 64.8378,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["September", "October", "November", "December", "January", "February", "March"],
+        "best_time_to_go_description": "The ideal time to view the Northern Lights in Alaska is during the long, dark nights of late autumn, winter, and early spring, when the skies are clear and the auroral activity is at its peak.",
+        "worst_time_to_go": ["April", "May", "June", "July", "August"],
+        "worst_time_to_go_description": "The summer months have almost continuous daylight in Alaska, making it impossible to see the Northern Lights.",
+        "suggested_venues": [
+            {
+                "name": "Chena Hot Springs",
+                "description": "A resort outside Fairbanks known for its thermal hot springs, where you can relax and watch the Northern Lights.",
+                "location": "Chena Hot Springs, Fairbanks, Alaska",
+                "longitude": -146.0555,
+                "latitude": 65.0531
+            },
+            {
+                "name": "Murphy Dome",
+                "description": "One of the highest points near Fairbanks, offering a wide, unobstructed view of the sky, perfect for aurora viewing.",
+                "location": "Murphy Dome, Fairbanks, Alaska",
+                "longitude": -148.2519,
+                "latitude": 64.9508
+            },
+            {
+                "name": "Denali National Park",
+                "description": "A breathtaking national park offering clear dark skies for viewing the Northern Lights, along with stunning natural scenery.",
+                "location": "Denali National Park, Alaska",
+                "longitude": -150.2876,
+                "latitude": 63.3333
+            }
+        ]
     },
+
+
     {
         "name": "Experiencing Niagara Falls",
         "category": "Nature",
@@ -27,76 +85,304 @@
         "city": "Ontario/New York",
         "longitude": -79.0849,
         "latitude": 43.0962,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Niagara Falls is during the summer months when the weather is warm and all attractions are open, including boat tours to the base of the falls.",
+        "worst_time_to_go": ["December", "January", "February", "March"],
+        "worst_time_to_go_description": "The winter months can be extremely cold, and some attractions, including boat tours, may be closed due to ice.",
+        "suggested_venues": [
+            {
+                "name": "Maid of the Mist",
+                "description": "A boat tour that takes visitors close to the base of the falls, offering a unique perspective and experience.",
+                "location": "Maid of the Mist, Niagara Falls, Ontario/New York",
+                "longitude": -79.0642,
+                "latitude": 43.0799
+            },
+            {
+                "name": "Cave of the Winds",
+                "description": "An attraction that allows visitors to walk along a series of decks at the base of the Bridal Veil Falls, part of Niagara Falls.",
+                "location": "Cave of the Winds, Niagara Falls, New York",
+                "longitude": -79.0717,
+                "latitude": 43.0815
+            },
+            {
+                "name": "Skylon Tower",
+                "description": "Offering panoramic views of the falls and the surrounding area from an observation deck and revolving restaurant.",
+                "location": "Skylon Tower, Niagara Falls, Ontario",
+                "longitude": -79.0786,
+                "latitude": 43.0848
+            }
+        ]
     },
+
+
     {
         "name": "Surfing in Hawaii",
-        "category": "Adventure/Nature",
+        "category": "Adventure",
         "score": 4,
         "description": "Catch the waves on Hawaii's famous beaches, known for some of the best surfing spots in the world.",
         "city": "Honolulu",
         "longitude": -157.8583,
         "latitude": 21.3069,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["November", "December", "January", "February", "March"],
+        "best_time_to_go_description": "The best time for surfing in Hawaii is during the winter months, from November to March, when the waves are at their peak, attracting surfers from around the world.",
+        "worst_time_to_go": ["June", "July", "August", "September", "October"],
+        "worst_time_to_go_description": "The summer months typically have smaller waves, making it less ideal for experienced surfers seeking big swells, though it can be good for beginners.",
+        "suggested_venues": [
+            {
+                "name": "North Shore",
+                "description": "Famous for its large winter waves, the North Shore is a prime destination for experienced surfers.",
+                "location": "North Shore, Oahu, Hawaii",
+                "longitude": -158.0314,
+                "latitude": 21.6389
+            },
+            {
+                "name": "Waikiki Beach",
+                "description": "Known for its long, rolling break, Waikiki Beach is ideal for beginners and offers a classic Hawaiian surfing experience.",
+                "location": "Waikiki Beach, Honolulu, Hawaii",
+                "longitude": -157.8378,
+                "latitude": 21.2769
+            },
+            {
+                "name": "Pipeline",
+                "description": "One of the most famous surf spots in the world, known for its powerful waves and barreling tubes.",
+                "location": "Banzai Pipeline, North Shore, Oahu, Hawaii",
+                "longitude": -158.0586,
+                "latitude": 21.6658
+            }
+        ]
     },
+
     {
         "name": "Exploring Yellowstone National Park",
-        "category": "Nature/Wildlife",
+        "category": "Nature",
         "score": 5,
         "description": "Visit Yellowstone, America's first national park, known for its wildlife and unique geothermal features.",
         "city": "Wyoming",
         "longitude": -110.5885,
         "latitude": 44.4280,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "September", "October"],
+        "best_time_to_go_description": "The best times to visit Yellowstone are during the late spring and early fall, when the weather is mild, the park is less crowded, and wildlife is more active.",
+        "worst_time_to_go": ["December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The winter and early spring months can be extremely cold, with many roads and facilities closed due to snow.",
+        "suggested_venues": [
+            {
+                "name": "Old Faithful",
+                "description": "The most famous geyser in the park, known for its regular eruptions that are a must-see for any visitor.",
+                "location": "Old Faithful, Yellowstone National Park, Wyoming",
+                "longitude": -110.8303,
+                "latitude": 44.4605
+            },
+            {
+                "name": "Grand Prismatic Spring",
+                "description": "The largest hot spring in the United States, renowned for its striking colors and immense size.",
+                "location": "Grand Prismatic Spring, Yellowstone National Park, Wyoming",
+                "longitude": -110.8405,
+                "latitude": 44.5251
+            },
+            {
+                "name": "Yellowstone Lake",
+                "description": "The largest high-elevation lake in North America, offering beautiful views and opportunities for boating and fishing.",
+                "location": "Yellowstone Lake, Yellowstone National Park, Wyoming",
+                "longitude": -110.3669,
+                "latitude": 44.3963
+            }
+        ]
     },
+
+
     {
         "name": "Hiking in Banff National Park",
-        "category": "Adventure/Nature",
+        "category": "Adventure",
         "score": 4,
         "description": "Explore the stunning beauty of Banff National Park with its mountains, glaciers, and lakes.",
         "city": "Alberta",
         "longitude": -115.5788,
         "latitude": 51.1784,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to hike in Banff National Park is during the summer and early fall when the weather is warmer and the trails are most accessible.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April", "May"],
+        "worst_time_to_go_description": "Winter and early spring bring cold temperatures and snow, making hiking challenging and limiting access to many trails.",
+        "suggested_venues": [
+            {
+                "name": "Lake Louise",
+                "description": "Known for its turquoise waters and stunning mountain backdrop, Lake Louise offers various hiking trails and canoeing opportunities.",
+                "location": "Lake Louise, Banff National Park, Alberta, Canada",
+                "longitude": -116.2160,
+                "latitude": 51.4170
+            },
+            {
+                "name": "Moraine Lake",
+                "description": "A glacially fed lake surrounded by mountains, Moraine Lake is a popular spot for hiking and photography.",
+                "location": "Moraine Lake, Banff National Park, Alberta, Canada",
+                "longitude": -116.1860,
+                "latitude": 51.3217
+            },
+            {
+                "name": "Johnston Canyon",
+                "description": "A scenic canyon with easy-to-walk trails leading to beautiful waterfalls and blue pools.",
+                "location": "Johnston Canyon, Banff National Park, Alberta, Canada",
+                "longitude": -115.8246,
+                "latitude": 51.2451
+            }
+        ]
     },
+
     {
         "name": "Visiting the Mayan Ruins in Mexico",
-        "category": "History/Culture",
+        "category": "History",
         "score": 4,
         "description": "Explore the ancient Mayan ruins, a testament to a sophisticated civilization and its architectural prowess.",
         "city": "Yucatan",
         "longitude": -89.0000,
         "latitude": 20.0000,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["November", "December", "January", "February", "March"],
+        "best_time_to_go_description": "The best time to visit the Mayan ruins in Yucatan is during the cooler and drier months from November to March, providing comfortable conditions for exploration.",
+        "worst_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go_description": "The rainy season from April to October can bring heavy showers and hot, humid weather, which might hinder the experience of visiting the ruins.",
+        "suggested_venues": [
+            {
+                "name": "Chichen Itza",
+                "description": "One of the most famous Mayan archaeological sites, known for the iconic El Castillo pyramid.",
+                "location": "Chichen Itza, Yucatan, Mexico",
+                "longitude": -88.5686,
+                "latitude": 20.6843
+            },
+            {
+                "name": "Tulum",
+                "description": "An ancient Mayan city located on the coast, offering a unique combination of ruins and beautiful beaches.",
+                "location": "Tulum, Yucatan, Mexico",
+                "longitude": -87.4653,
+                "latitude": 20.2114
+            },
+            {
+                "name": "Coba",
+                "description": "An ancient Mayan city surrounded by jungle, known for its large network of stone causeways and the Nohoch Mul pyramid.",
+                "location": "Coba, Yucatan, Mexico",
+                "longitude": -87.7361,
+                "latitude": 20.4947
+            }
+        ]
     },
+
+
     {
         "name": "Exploring the Canadian Rocky Mountains",
-        "category": "Nature/Adventure",
+        "category": "Nature",
         "score": 5,
         "description": "Discover the breathtaking landscapes of the Canadian Rockies, ideal for hiking, wildlife viewing, and photography.",
         "city": "British Columbia",
         "longitude": -116.1836,
         "latitude": 51.4170,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to explore the Canadian Rockies is during the summer and early fall, when the weather is mild and the trails are accessible, offering optimal conditions for outdoor activities.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April", "May"],
+        "worst_time_to_go_description": "The winter and early spring months can bring heavy snow and colder temperatures, making some areas difficult to access and limiting hiking opportunities.",
+        "suggested_venues": [
+            {
+                "name": "Banff National Park",
+                "description": "Known for its stunning mountainous terrain, alpine landscapes, and pristine lakes, Banff is a must-visit destination in the Rockies.",
+                "location": "Banff National Park, Alberta, Canada",
+                "longitude": -115.5788,
+                "latitude": 51.1784
+            },
+            {
+                "name": "Jasper National Park",
+                "description": "Offers a more serene and less crowded experience compared to Banff, with equally impressive natural beauty and wildlife.",
+                "location": "Jasper National Park, Alberta, Canada",
+                "longitude": -118.0800,
+                "latitude": 52.8734
+            },
+            {
+                "name": "Lake Louise",
+                "description": "A glacier-fed lake surrounded by high peaks, offering picturesque scenery and a variety of hiking trails.",
+                "location": "Lake Louise, Alberta, Canada",
+                "longitude": -116.2160,
+                "latitude": 51.4170
+            }
+        ]
     },
+
+
     {
         "name": "Scuba Diving in the Caribbean",
-        "category": "Adventure/Nature",
+        "category": "Adventure",
         "score": 4,
         "description": "Dive into the clear waters of the Caribbean, home to vibrant coral reefs and diverse marine life.",
         "city": "Bahamas",
         "longitude": -77.3963,
         "latitude": 25.0343,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["December", "January", "February", "March", "April", "May"],
+        "best_time_to_go_description": "The best time for scuba diving in the Caribbean is during the winter and early spring months, when the weather is dry and the water clarity is at its best.",
+        "worst_time_to_go": ["June", "July", "August", "September", "October", "November"],
+        "worst_time_to_go_description": "The hurricane season from June to November can bring unpredictable weather and rougher sea conditions, potentially impacting diving trips.",
+        "suggested_venues": [
+            {
+                "name": "Andros Barrier Reef",
+                "description": "One of the world's largest coral reefs, offering a diverse underwater landscape and abundant marine life.",
+                "location": "Andros Barrier Reef, Bahamas",
+                "longitude": -77.8963,
+                "latitude": 24.7000
+            },
+            {
+                "name": "Exuma Cays Land and Sea Park",
+                "description": "A protected area known for its clear waters, vibrant coral reefs, and diverse species of fish.",
+                "location": "Exuma Cays Land and Sea Park, Bahamas",
+                "longitude": -76.5000,
+                "latitude": 24.3000
+            },
+            {
+                "name": "Blue Hole",
+                "description": "A famous dive site offering a unique underwater cave and tunnel system to explore.",
+                "location": "Blue Hole, Bahamas",
+                "longitude": -77.7700,
+                "latitude": 25.0330
+            }
+        ]
     },
+
+
     {
         "name": "Visiting the Statue of Liberty in New York",
-        "category": "History/Culture",
+        "category": "Culture",
         "score": 3,
         "description": "See the iconic Statue of Liberty, a symbol of freedom and democracy, located in New York Harbor.",
         "city": "New York",
         "longitude": -74.0445,
         "latitude": 40.6892,
-        "cost": "$"
-    }
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best time to visit the Statue of Liberty is during the spring and fall when the weather is mild and the tourist crowds are smaller.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "Summer months can be very crowded, with long wait times for ferries and tours.",
+        "suggested_venues": [
+            {
+                "name": "Liberty Island",
+                "description": "The island where the Statue of Liberty stands, offering close-up views and a museum about the statue's history.",
+                "location": "Liberty Island, New York Harbor, New York",
+                "longitude": -74.0467,
+                "latitude": 40.6893
+            },
+            {
+                "name": "Ellis Island",
+                "description": "Part of the Statue of Liberty National Monument, this island features a museum dedicated to the history of American immigration.",
+                "location": "Ellis Island, New York Harbor, New York",
+                "longitude": -74.0395,
+                "latitude": 40.6995
+            },
+            {
+                "name": "Battery Park",
+                "description": "A public park at the southern tip of Manhattan, serving as a departure point for ferries to the Statue of Liberty and Ellis Island.",
+                "location": "Battery Park, New York, New York",
+                "longitude": -74.0169,
+                "latitude": 40.7033
+            }
+        ]
+    }    
 ]

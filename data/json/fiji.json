@@ -1,0 +1,381 @@
+[
+    {
+        "name": "Coral Coast Scenic Drive",
+        "category": "Nature",
+        "score": 4,
+        "description": "Drive along Fiji's famous Coral Coast, known for its stunning beaches, coral reefs, and picturesque villages.",
+        "city": "Coral Coast",
+        "longitude": 177.7136,
+        "latitude": -18.1748,
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for the Coral Coast Scenic Drive is during the Fijian winter, when the weather is cooler, drier, and ideal for enjoying outdoor activities and beach visits.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The summer months coincide with the wet season, which can bring heavy rainfall and potentially hinder the driving experience.",
+        "suggested_venues": [
+            {
+                "name": "Sigatoka Sand Dunes",
+                "description": "A unique natural attraction on the Coral Coast, offering impressive sand dunes and archaeological sites.",
+                "location": "Sigatoka Sand Dunes, Coral Coast, Fiji",
+                "longitude": 177.5026,
+                "latitude": -18.1658
+            },
+            {
+                "name": "Kula Wild Adventure Park",
+                "description": "A conservation park that provides an opportunity to see Fiji's native wildlife and enjoy ecological tours.",
+                "location": "Kula Wild Adventure Park, Coral Coast, Fiji",
+                "longitude": 177.7136,
+                "latitude": -18.2104
+            },
+            {
+                "name": "Natadola Beach",
+                "description": "Widely regarded as one of Fiji's best beaches, known for its soft white sand, clear waters, and excellent swimming conditions.",
+                "location": "Natadola Beach, Coral Coast, Fiji",
+                "longitude": 177.3736,
+                "latitude": -18.1148
+            }
+        ]
+    },
+
+    {
+        "name": "Mamanuca Islands Snorkeling",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Snorkel in the crystal-clear waters of the Mamanuca Islands, a group of small islands famous for their vibrant coral reefs and diverse marine life.",
+        "city": "Mamanuca Islands",
+        "longitude": 177.1083,
+        "latitude": -17.6717,
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to go snorkeling in the Mamanuca Islands is during the Fijian winter, when the weather is dry, the water visibility is high, and the marine life is abundant.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The summer months are the wet season in Fiji, which can lead to reduced water visibility and potentially rough sea conditions for snorkeling.",
+        "suggested_venues": [
+            {
+                "name": "Castaway Island",
+                "description": "A picturesque island known for its beautiful beaches and excellent snorkeling spots, with a variety of colorful coral and fish.",
+                "location": "Castaway Island, Mamanuca Islands, Fiji",
+                "longitude": 177.0720,
+                "latitude": -17.6733
+            },
+            {
+                "name": "Monuriki",
+                "description": "An uninhabited island made famous as the filming location for 'Cast Away', offering pristine natural beauty and exceptional snorkeling conditions.",
+                "location": "Monuriki, Mamanuca Islands, Fiji",
+                "longitude": 177.1883,
+                "latitude": -17.6094
+            },
+            {
+                "name": "Malolo Lailai",
+                "description": "The largest of the Mamanuca Islands, known for its luxury resorts, white sandy beaches, and excellent snorkeling and diving opportunities.",
+                "location": "Malolo Lailai, Mamanuca Islands, Fiji",
+                "longitude": 177.1961,
+                "latitude": -17.7775
+            }
+        ]
+    },
+
+    {
+        "name": "Sigatoka Sand Dunes National Park",
+        "category": "Nature",
+        "score": 4,
+        "description": "Explore the Sigatoka Sand Dunes National Park, featuring unique sand dunes that are an important archaeological site.",
+        "city": "Sigatoka",
+        "longitude": 177.5026,
+        "latitude": -18.1503,
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August"],
+        "best_time_to_go_description": "The best time to visit Sigatoka Sand Dunes National Park is during the cooler months, which offer comfortable conditions for hiking and exploring the dunes.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The summer months can be extremely hot and humid, making outdoor activities like hiking through the dunes challenging.",
+        "suggested_venues": [
+            {
+                "name": "Sigatoka River Safari",
+                "description": "An adventurous river safari offering a unique perspective of Fiji's interior, combining nature and cultural experiences.",
+                "location": "Sigatoka River, Sigatoka, Fiji",
+                "longitude": 177.4963,
+                "latitude": -18.1581
+            },
+            {
+                "name": "Kula Wild Adventure Park",
+                "description": "A conservation park near Sigatoka, known for its efforts in wildlife preservation and offering interactive experiences with native Fijian animals.",
+                "location": "Kula Wild Adventure Park, Sigatoka, Fiji",
+                "longitude": 177.7136,
+                "latitude": -18.2104
+            },
+            {
+                "name": "Tavuni Hill Fort",
+                "description": "A historical site close to Sigatoka, offering insights into Fiji's pre-colonial history and stunning views of the surrounding area.",
+                "location": "Tavuni Hill Fort, Sigatoka, Fiji",
+                "longitude": 177.5282,
+                "latitude": -18.1383
+            }
+        ]
+    },
+
+    {
+        "name": "Taveuni Island Waterfall Hike",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Hike to the spectacular waterfalls on Taveuni Island, known as the 'Garden Island' for its lush rainforests and abundant flora.",
+        "city": "Taveuni",
+        "longitude": -179.9755,
+        "latitude": -16.8333,
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The ideal time to hike to the waterfalls on Taveuni Island is during the Fijian winter, when the weather is cooler and less rainy, making hiking conditions more pleasant.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The summer months, coinciding with the wet season, can make trails slippery and hiking more challenging due to heavy rains.",
+        "suggested_venues": [
+            {
+                "name": "Bouma National Heritage Park",
+                "description": "A park encompassing a large portion of Taveuni Island, known for its scenic trails leading to the Tavoro Waterfalls and offering rich biodiversity.",
+                "location": "Bouma National Heritage Park, Taveuni, Fiji",
+                "longitude": -179.9876,
+                "latitude": -16.8419
+            },
+            {
+                "name": "Lavena Coastal Walk",
+                "description": "A popular hiking trail in Taveuni that offers a mix of beach, jungle, and village scenery, leading to beautiful waterfalls.",
+                "location": "Lavena Coastal Walk, Taveuni, Fiji",
+                "longitude": -179.9775,
+                "latitude": -16.8500
+            },
+            {
+                "name": "Waitabu Marine Park",
+                "description": "A marine protected area near Taveuni known for its snorkeling and marine life, showcasing the island's diverse aquatic ecosystems.",
+                "location": "Waitabu Marine Park, Taveuni, Fiji",
+                "longitude": -179.9584,
+                "latitude": -16.8167
+            }
+        ]
+    },
+
+    {
+        "name": "Suva City Cultural Tour",
+        "category": "Culture",
+        "score": 4,
+        "description": "Discover the cultural heritage of Suva, Fiji's capital, by visiting its museums, markets, and historical buildings.",
+        "city": "Suva",
+        "longitude": 178.4419,
+        "latitude": -18.1416,
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to experience Suva's cultural attractions is during the cooler and drier months, offering comfortable conditions for city exploration and outdoor activities.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The wet season can bring heavy rainfall, potentially affecting outdoor sightseeing and travel within the city.",
+        "suggested_venues": [
+            {
+                "name": "Fiji Museum",
+                "description": "Located in the heart of Suva, the museum offers a deep insight into Fiji's history and culture, with extensive collections of Fijian artifacts.",
+                "location": "Fiji Museum, Suva, Fiji",
+                "longitude": 178.4244,
+                "latitude": -18.1539
+            },
+            {
+                "name": "Suva Municipal Market",
+                "description": "A vibrant market in Suva known for its fresh produce, local handicrafts, and a glimpse into the everyday life of Fijians.",
+                "location": "Suva Municipal Market, Suva, Fiji",
+                "longitude": 178.4272,
+                "latitude": -18.1411
+            },
+            {
+                "name": "Thurston Gardens",
+                "description": "A botanical garden adjacent to the Fiji Museum, showcasing a variety of local and exotic plants in a peaceful setting.",
+                "location": "Thurston Gardens, Suva, Fiji",
+                "longitude": 178.4250,
+                "latitude": -18.1533
+            }
+        ]
+    },
+
+    {
+        "name": "Sawa-i-Lau Caves Exploration",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Explore the mystical Sawa-i-Lau Caves, limestone caves known for their crystal-clear waters and sacred significance in Fijian culture.",
+        "city": "Sawa-i-Lau",
+        "longitude": 177.0435,
+        "latitude": -16.8167,
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for exploring the Sawa-i-Lau Caves is during the Fijian winter, offering drier conditions and more comfortable temperatures for cave exploration.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The wet season can make access to the caves difficult due to heavy rains and potentially higher water levels inside the caves.",
+        "suggested_venues": [
+            {
+                "name": "Yasawa Island Resort",
+                "description": "A luxurious resort near the Sawa-i-Lau Caves, offering easy access to the caves and a range of other activities in the Yasawa Islands.",
+                "location": "Yasawa Island Resort, Sawa-i-Lau, Fiji",
+                "longitude": 177.0703,
+                "latitude": -16.7583
+            },
+            {
+                "name": "Blue Lagoon Beach",
+                "description": "A picturesque beach in the Yasawa Islands, famous for its crystal-clear waters and perfect for relaxation and snorkeling.",
+                "location": "Blue Lagoon Beach, Yasawa Islands, Fiji",
+                "longitude": 177.3685,
+                "latitude": -16.8417
+            },
+            {
+                "name": "Nacula Island",
+                "description": "An island in the Yasawa group known for its natural beauty, traditional Fijian villages, and excellent opportunities for cultural immersion.",
+                "location": "Nacula Island, Yasawa Islands, Fiji",
+                "longitude": 177.3844,
+                "latitude": -16.8667
+            }
+        ]
+    },
+
+    {
+        "name": "Kula Wild Adventure Park",
+        "category": "Family",
+        "score": 3,
+        "description": "Visit the Kula Wild Adventure Park, a conservation park where you can interact with Fiji's unique wildlife and enjoy nature walks.",
+        "city": "Sigatoka",
+        "longitude": 177.5026,
+        "latitude": -18.1503,
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The ideal time to visit Kula Wild Adventure Park is during Fiji's cooler and drier months, providing pleasant conditions for outdoor activities and wildlife viewing.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The wet season can bring heavy rainfall, potentially impacting outdoor activities and the enjoyment of the park.",
+        "suggested_venues": [
+            {
+                "name": "Sigatoka Sand Dunes National Park",
+                "description": "A nearby national park offering unique sand dunes and an important archaeological site, perfect for nature exploration.",
+                "location": "Sigatoka Sand Dunes National Park, Sigatoka, Fiji",
+                "longitude": 177.5026,
+                "latitude": -18.1658
+            },
+            {
+                "name": "Sigatoka River Safari",
+                "description": "An adventurous river safari in the area, combining nature and cultural experiences along the Sigatoka River.",
+                "location": "Sigatoka River, Sigatoka, Fiji",
+                "longitude": 177.4963,
+                "latitude": -18.1581
+            },
+            {
+                "name": "Natadola Beach",
+                "description": "A beautiful beach close to Sigatoka, known for its soft white sand and clear waters, ideal for relaxation and swimming.",
+                "location": "Natadola Beach, Sigatoka, Fiji",
+                "longitude": 177.3736,
+                "latitude": -18.1148
+            }
+        ]
+    },
+
+    {
+        "name": "Nadi Therapeutic Mud Pools and Hot Springs",
+        "category": "Relaxation",
+        "score": 4,
+        "description": "Relax in the therapeutic mud pools and hot springs near Nadi, offering a unique spa experience amidst natural surroundings.",
+        "city": "Nadi",
+        "longitude": 177.431,
+        "latitude": -17.7765,
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit the mud pools and hot springs is during Fiji's cooler and drier months, providing a comfortable climate for relaxation and outdoor spa activities.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The wet season can bring heavy rainfall, which may affect the accessibility and enjoyment of the outdoor spa facilities.",
+        "suggested_venues": [
+            {
+                "name": "Garden of the Sleeping Giant",
+                "description": "A nearby botanical garden featuring a magnificent collection of orchids and lush greenery, ideal for a peaceful stroll after visiting the mud pools.",
+                "location": "Garden of the Sleeping Giant, Nadi, Fiji",
+                "longitude": 177.4422,
+                "latitude": -17.7486
+            },
+            {
+                "name": "Sabeto Hot Springs",
+                "description": "Another popular hot springs area near Nadi, known for its therapeutic properties and serene environment.",
+                "location": "Sabeto Hot Springs, Nadi, Fiji",
+                "longitude": 177.4399,
+                "latitude": -17.7600
+            },
+            {
+                "name": "Denarau Island",
+                "description": "A luxury resort area close to Nadi, offering pristine beaches, golf courses, and a range of dining and shopping options.",
+                "location": "Denarau Island, Nadi, Fiji",
+                "longitude": 177.3727,
+                "latitude": -17.7723
+            }
+        ]
+    },
+
+    {
+        "name": "Lavena Coastal Walk",
+        "category": "Nature",
+        "score": 4,
+        "description": "Enjoy the Lavena Coastal Walk on Taveuni Island, a scenic hike along the coast with opportunities to swim in natural pools and view waterfalls.",
+        "city": "Taveuni",
+        "longitude": -179.9755,
+        "latitude": -16.8333,
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The ideal time for the Lavena Coastal Walk is during the Fijian winter, when the weather is cooler and drier, making the hike more comfortable and enjoyable.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The summer months, coinciding with the wet season, can make the trail slippery and the hike more challenging due to heavy rains.",
+        "suggested_venues": [
+            {
+                "name": "Bouma National Heritage Park",
+                "description": "A nearby park offering a variety of hiking trails, including the Tavoro Waterfalls, showcasing Taveuni's rich biodiversity and natural beauty.",
+                "location": "Bouma National Heritage Park, Taveuni, Fiji",
+                "longitude": -179.9876,
+                "latitude": -16.8419
+            },
+            {
+                "name": "Waitabu Marine Park",
+                "description": "A marine park close to the Lavena Coastal Walk, known for its snorkeling opportunities and showcasing the island's marine life.",
+                "location": "Waitabu Marine Park, Taveuni, Fiji",
+                "longitude": -179.9584,
+                "latitude": -16.8167
+            },
+            {
+                "name": "Des Voeux Peak",
+                "description": "A hiking destination on Taveuni Island offering panoramic views of the island and surrounding ocean, ideal for adventurous hikers.",
+                "location": "Des Voeux Peak, Taveuni, Fiji",
+                "longitude": -179.9583,
+                "latitude": -16.8333
+            }
+        ]
+    },
+    
+    {
+        "name": "Beqa Lagoon Shark Diving",
+        "category": "Adventure",
+        "score": 5,
+        "description": "Experience the thrill of shark diving in Beqa Lagoon, home to a variety of shark species and vibrant coral reefs.",
+        "city": "Beqa Lagoon",
+        "longitude": 178.2034,
+        "latitude": -18.3833,
+        "cost": "$$$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The best time for shark diving in Beqa Lagoon is during the Fijian dry season, offering better visibility and calmer waters for a safer and more enjoyable diving experience.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The wet season can bring reduced visibility and rougher sea conditions, potentially impacting the quality of the diving experience.",
+        "suggested_venues": [
+            {
+                "name": "Beqa Island",
+                "description": "An island near the lagoon, offering a serene environment and additional opportunities for diving and exploring Fiji’s underwater world.",
+                "location": "Beqa Island, Fiji",
+                "longitude": 178.2186,
+                "latitude": -18.4000
+            },
+            {
+                "name": "Pacific Harbour",
+                "description": "A coastal town known as the adventure capital of Fiji, offering a range of water sports, cultural activities, and access to Beqa Lagoon.",
+                "location": "Pacific Harbour, Fiji",
+                "longitude": 178.0698,
+                "latitude": -18.2612
+            },
+            {
+                "name": "Navua River",
+                "description": "A river offering scenic boat tours and river rafting, providing a unique perspective of Fiji’s lush landscapes and traditional villages.",
+                "location": "Navua River, Fiji",
+                "longitude": 178.0833,
+                "latitude": -18.2333
+            }
+        ]
+    }    
+]

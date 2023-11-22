@@ -1,102 +1,387 @@
 [
     {
         "name": "Climbing Mount Kilimanjaro",
-        "category": "Adventure/Nature",
+        "category": "Adventure",
         "score": 5,
         "description": "Trek to the summit of Mount Kilimanjaro, Africa's highest peak, offering breathtaking views and a sense of achievement.",
         "city": "Kilimanjaro Region",
         "longitude": 37.3556,
         "latitude": -3.0674,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["January", "February", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to climb Mount Kilimanjaro is during the dry seasons, from January to February and July to September. These months offer the most favorable weather conditions for trekking, with clearer skies and minimal rainfall.",
+        "worst_time_to_go": ["March", "April", "May"],
+        "worst_time_to_go_description": "The long rainy season from March to May can make climbing conditions more challenging due to slippery trails, reduced visibility, and a higher chance of encountering rain and cloud cover.",
+        "suggested_venues": [
+            {
+                "name": "Marangu Route",
+                "description": "Known as the 'Coca-Cola' route, this is one of the most popular paths to the summit, offering hut accommodations and a relatively gradual ascent.",
+                "location": "Marangu Route, Mount Kilimanjaro, Tanzania",
+                "longitude": 37.5200,
+                "latitude": -3.1600
+            },
+            {
+                "name": "Machame Route",
+                "description": "A more challenging but scenic route, known as the 'Whiskey' route, offering stunning views and diverse landscapes.",
+                "location": "Machame Route, Mount Kilimanjaro, Tanzania",
+                "longitude": 37.2500,
+                "latitude": -3.1000
+            },
+            {
+                "name": "Summit Day",
+                "description": "The final push to the summit, Uhuru Peak, providing climbers with a sense of achievement and panoramic views.",
+                "location": "Uhuru Peak, Mount Kilimanjaro, Tanzania",
+                "longitude": 37.3550,
+                "latitude": -3.0750
+            }
+        ]
     },
+
+
     {
         "name": "Exploring the Pyramids of Giza",
-        "category": "History/Culture",
+        "category": "History",
         "score": 5,
         "description": "Visit the Great Pyramids of Giza, one of the most famous archaeological sites in the world and a testament to ancient Egyptian civilization.",
         "city": "Cairo",
         "longitude": 31.1342,
         "latitude": 29.9792,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "best_time_to_go_description": "The best time to visit the Pyramids of Giza is from October to March when the weather is cooler and more comfortable for exploration.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "The summer months from June to August are extremely hot, making it challenging to explore the pyramids comfortably during the day.",
+        "suggested_venues": [
+            {
+                "name": "Great Pyramid of Khufu",
+                "description": "The largest of the three pyramids and one of the Seven Wonders of the Ancient World, offering an insight into ancient architectural brilliance.",
+                "location": "Great Pyramid of Khufu, Giza, Egypt",
+                "longitude": 31.1344,
+                "latitude": 29.9793
+            },
+            {
+                "name": "Sphinx of Giza",
+                "description": "An iconic limestone statue with the body of a lion and the head of a king or god, symbolizing wisdom and strength.",
+                "location": "Sphinx of Giza, Giza, Egypt",
+                "longitude": 31.1378,
+                "latitude": 29.9753
+            },
+            {
+                "name": "Solar Boat Museum",
+                "description": "A museum displaying the reconstructed Khufu solar ship, an intact full-size vessel from Ancient Egypt.",
+                "location": "Solar Boat Museum, Giza, Egypt",
+                "longitude": 31.1330,
+                "latitude": 29.9760
+            }
+        ]
     },
+
     {
         "name": "Safari in the Serengeti",
-        "category": "Wildlife/Nature",
+        "category": "Nature",
         "score": 5,
         "description": "Embark on a safari in the Serengeti, Tanzania, to witness the incredible wildlife, including the Great Migration.",
         "city": "Serengeti",
         "longitude": 34.8342,
         "latitude": -2.3333,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit the Serengeti for the Great Migration is from June to September, when large herds of wildebeest and zebras are on the move, offering spectacular wildlife viewing opportunities.",
+        "worst_time_to_go": ["April", "May"],
+        "worst_time_to_go_description": "The rainy season in April and May can make some roads impassable and may limit wildlife viewing opportunities due to thick vegetation and scattered animal movements.",
+        "suggested_venues": [
+            {
+                "name": "Central Serengeti",
+                "description": "The heart of the park, known for its diverse habitats and year-round wildlife, including big cats.",
+                "location": "Central Serengeti, Tanzania",
+                "longitude": 34.8342,
+                "latitude": -2.5000
+            },
+            {
+                "name": "Northern Serengeti",
+                "description": "Best for witnessing the dramatic river crossings during the migration in the drier months.",
+                "location": "Northern Serengeti, Tanzania",
+                "longitude": 34.8500,
+                "latitude": -1.5000
+            },
+            {
+                "name": "Ngorongoro Crater",
+                "description": "A nearby conservation area offering a unique safari experience with a high density of wildlife in the crater.",
+                "location": "Ngorongoro Crater, Tanzania",
+                "longitude": 35.5000,
+                "latitude": -3.2000
+            }
+        ]
     },
+
     {
         "name": "Visiting Victoria Falls",
-        "category": "Nature/Adventure",
+        "category": "Nature",
         "score": 5,
         "description": "Experience the awe-inspiring Victoria Falls, one of the largest and most famous waterfalls in the world.",
         "city": "Livingstone",
         "longitude": 25.8500,
         "latitude": -17.9333,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July"],
+        "best_time_to_go_description": "The best time to visit Victoria Falls is from May to July, when the rainy season has ended, and the falls are at their fullest, offering spectacular views.",
+        "worst_time_to_go": ["October", "November"],
+        "worst_time_to_go_description": "The water levels are at their lowest from October to November, which may diminish the visual impact of the falls.",
+        "suggested_venues": [
+            {
+                "name": "Devil's Pool",
+                "description": "A natural pool at the edge of the falls, offering a unique and thrilling swimming experience during the dry season.",
+                "location": "Devil's Pool, Victoria Falls, Zambia",
+                "longitude": 25.8570,
+                "latitude": -17.9250
+            },
+            {
+                "name": "Victoria Falls Bridge",
+                "description": "A historic bridge offering breathtaking views of the gorge and falls, and opportunities for bungee jumping and zip-lining.",
+                "location": "Victoria Falls Bridge, Zambia/Zimbabwe border",
+                "longitude": 25.8600,
+                "latitude": -17.9310
+            },
+            {
+                "name": "Zambezi River Cruise",
+                "description": "A relaxing cruise on the Zambezi River, providing a different perspective of the falls and opportunities to spot wildlife.",
+                "location": "Zambezi River, near Victoria Falls",
+                "longitude": 25.8300,
+                "latitude": -17.9100
+            }
+        ]
     },
+
     {
         "name": "Exploring Marrakech",
-        "category": "Culture/History",
+        "category": "Culture",
         "score": 4,
         "description": "Discover the vibrant city of Marrakech, Morocco, with its historic medina, bustling souks, and rich culture.",
         "city": "Marrakech",
         "longitude": -7.9811,
         "latitude": 31.6295,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "October", "November"],
+        "best_time_to_go_description": "The ideal times to visit Marrakech are during the spring months of March to May and the autumn months of October to November, when the weather is pleasantly warm and suitable for exploring.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "The summer months can be extremely hot, making it less comfortable for exploring the city, especially during midday.",
+        "suggested_venues": [
+            {
+                "name": "Jemaa el-Fnaa",
+                "description": "The famous central square and marketplace in Marrakech, bustling with street performers, food stalls, and local crafts.",
+                "location": "Jemaa el-Fnaa, Marrakech, Morocco",
+                "longitude": -7.9833,
+                "latitude": 31.6250
+            },
+            {
+                "name": "Majorelle Garden",
+                "description": "A beautiful garden featuring exotic plants and the striking blue Villa Majorelle, now a museum dedicated to Berber culture.",
+                "location": "Majorelle Garden, Marrakech, Morocco",
+                "longitude": -8.0083,
+                "latitude": 31.6478
+            },
+            {
+                "name": "Bahia Palace",
+                "description": "A 19th-century palace with stunning architecture, intricate tile work, and beautiful gardens.",
+                "location": "Bahia Palace, Marrakech, Morocco",
+                "longitude": -7.9892,
+                "latitude": 31.6167
+            }
+        ]
     },
+
+
     {
         "name": "Diving in the Red Sea",
-        "category": "Adventure/Nature",
+        "category": "Nature",
         "score": 4,
         "description": "Dive into the crystal-clear waters of the Red Sea, famous for its colorful coral reefs and diverse marine life.",
         "city": "Sharm El Sheikh",
         "longitude": 34.3176,
         "latitude": 27.9158,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "September", "October", "November"],
+        "best_time_to_go_description": "The best times to dive in the Red Sea are during the spring (April to June) and autumn (September to November) months, offering ideal water temperatures and visibility.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "The winter months can bring cooler water temperatures, which might be less comfortable for some divers.",
+        "suggested_venues": [
+            {
+                "name": "Ras Mohammed National Park",
+                "description": "A renowned diving spot known for its stunning coral walls and abundant marine life.",
+                "location": "Ras Mohammed National Park, near Sharm El Sheikh, Egypt",
+                "longitude": 34.2500,
+                "latitude": 27.8167
+            },
+            {
+                "name": "Thistlegorm Wreck",
+                "description": "A famous World War II shipwreck, offering an exciting diving experience exploring historical artifacts and marine life.",
+                "location": "Thistlegorm Wreck, Red Sea, Egypt",
+                "longitude": 34.1542,
+                "latitude": 27.8317
+            },
+            {
+                "name": "Jackson Reef",
+                "description": "Part of the Tiran Island coral reefs, known for its beautiful coral formations and diverse fish species.",
+                "location": "Jackson Reef, Red Sea, Egypt",
+                "longitude": 34.4500,
+                "latitude": 27.9000
+            }
+        ]
     },
+
+
     {
         "name": "Exploring the Okavango Delta",
-        "category": "Nature/Wildlife",
+        "category": "Nature",
         "score": 5,
         "description": "Experience the unique ecosystem of the Okavango Delta in Botswana, a UNESCO World Heritage site rich in wildlife.",
         "city": "Maun",
         "longitude": 23.4167,
         "latitude": -19.5833,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to explore the Okavango Delta is during the dry season from May to September, when wildlife congregates around the water sources, making it easier to spot animals.",
+        "worst_time_to_go": ["January", "February", "March"],
+        "worst_time_to_go_description": "The wet season from January to March can make some areas of the delta inaccessible due to flooding and muddy conditions.",
+        "suggested_venues": [
+            {
+                "name": "Moremi Game Reserve",
+                "description": "A renowned wildlife sanctuary within the delta, offering spectacular game viewing and birdwatching opportunities.",
+                "location": "Moremi Game Reserve, Okavango Delta, Botswana",
+                "longitude": 23.6700,
+                "latitude": -19.3000
+            },
+            {
+                "name": "Chief's Island",
+                "description": "The largest island in the delta, known for its excellent wildlife viewing, including the Big Five.",
+                "location": "Chief's Island, Okavango Delta, Botswana",
+                "longitude": 23.0000,
+                "latitude": -19.2500
+            },
+            {
+                "name": "Mokoro Excursions",
+                "description": "Traditional canoe trips through the delta's waterways, offering a serene and intimate way to experience the natural beauty and wildlife.",
+                "location": "Okavango Delta, Botswana",
+                "longitude": 23.5000,
+                "latitude": -19.5000
+            }
+        ]
     },
+
+
     {
         "name": "Cape Town and Table Mountain",
-        "category": "Nature/Culture",
+        "category": "Culture",
         "score": 4,
         "description": "Visit Cape Town, South Africa, and take a cable car to the top of Table Mountain for spectacular views of the city and coast.",
         "city": "Cape Town",
         "longitude": 18.4241,
         "latitude": -33.9249,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "September", "October", "November"],
+        "best_time_to_go_description": "The best time to visit Cape Town for good weather and fewer crowds is during the shoulder seasons of March to May and September to November.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "The winter months of June to August can be rainy and windy, which might affect the visibility and accessibility of Table Mountain.",
+        "suggested_venues": [
+            {
+                "name": "Table Mountain Aerial Cableway",
+                "description": "A cable car ride to the top of Table Mountain, offering panoramic views of Cape Town and its surroundings.",
+                "location": "Table Mountain Aerial Cableway, Cape Town, South Africa",
+                "longitude": 18.4029,
+                "latitude": -33.9399
+            },
+            {
+                "name": "Kirstenbosch National Botanical Garden",
+                "description": "A world-renowned botanical garden at the foot of Table Mountain, showcasing South Africa's diverse flora.",
+                "location": "Kirstenbosch National Botanical Garden, Cape Town, South Africa",
+                "longitude": 18.4327,
+                "latitude": -33.9885
+            },
+            {
+                "name": "Robben Island",
+                "description": "A significant historical site, formerly a prison, where Nelson Mandela was incarcerated, now a museum offering guided tours.",
+                "location": "Robben Island, Cape Town, South Africa",
+                "longitude": 18.3662,
+                "latitude": -33.8076
+            }
+        ]
     },
+
+
     {
         "name": "Trekking in the Atlas Mountains",
-        "category": "Adventure/Nature",
+        "category": "Adventure",
         "score": 4,
         "description": "Trek through the stunning landscapes of the Atlas Mountains in Morocco, offering challenging trails and cultural encounters.",
         "city": "Marrakech",
         "longitude": -7.9811,
         "latitude": 31.6295,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "September", "October"],
+        "best_time_to_go_description": "The ideal months for trekking in the Atlas Mountains are in the spring (April to June) and autumn (September to October), when the weather is mild and the landscapes are at their most vibrant.",
+        "worst_time_to_go": ["December", "January", "February"],
+        "worst_time_to_go_description": "Winter months can be quite cold and snowy, especially at higher altitudes, making trekking conditions more challenging.",
+        "suggested_venues": [
+            {
+                "name": "Toubkal National Park",
+                "description": "Home to Mount Toubkal, the highest peak in North Africa, offering challenging hikes and breathtaking views.",
+                "location": "Toubkal National Park, Atlas Mountains, Morocco",
+                "longitude": -7.9150,
+                "latitude": 31.0597
+            },
+            {
+                "name": "Berber Villages",
+                "description": "Experience the unique culture and hospitality of the Berber people in their mountain villages.",
+                "location": "Atlas Mountains, Morocco",
+                "longitude": -7.9811,
+                "latitude": 31.6295
+            },
+            {
+                "name": "Ourika Valley",
+                "description": "A beautiful valley with lush landscapes, traditional villages, and opportunities for lighter walks and cultural experiences.",
+                "location": "Ourika Valley, Atlas Mountains, Morocco",
+                "longitude": -7.9586,
+                "latitude": 31.3583
+            }
+        ]
     },
+
+
     {
         "name": "Exploring the Ancient City of Carthage",
-        "category": "History/Culture",
+        "category": "History",
         "score": 3,
         "description": "Discover the ruins of Carthage in Tunisia, once a powerful city-state and a center of the ancient Mediterranean world.",
         "city": "Tunis",
         "longitude": 10.3236,
         "latitude": 36.8570,
-        "cost": "$"
-    }
+        "cost": "$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The ideal times to visit Carthage are during the spring and fall when the weather is mild and comfortable for outdoor exploration.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "The summer months can be extremely hot, making it less comfortable to explore the extensive outdoor ruins.",
+        "suggested_venues": [
+            {
+                "name": "Carthage National Museum",
+                "description": "A museum offering insights into the rich history and culture of Carthage with extensive artifacts and exhibits.",
+                "location": "Carthage National Museum, Tunis, Tunisia",
+                "longitude": 10.3278,
+                "latitude": 36.8511
+            },
+            {
+                "name": "Roman Theatre of Carthage",
+                "description": "An ancient Roman amphitheater, showcasing the architectural prowess of the Romans in Carthage.",
+                "location": "Roman Theatre of Carthage, Tunis, Tunisia",
+                "longitude": 10.3227,
+                "latitude": 36.8533
+            },
+            {
+                "name": "Byrsa Hill",
+                "description": "A historical site offering panoramic views of the surrounding areas and a glimpse into the layers of Carthage's past.",
+                "location": "Byrsa Hill, Tunis, Tunisia",
+                "longitude": 10.3256,
+                "latitude": 36.8525
+            }
+        ]
+    }    
 ]

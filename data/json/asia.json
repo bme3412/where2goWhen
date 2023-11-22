@@ -1,102 +1,390 @@
 [
     {
         "name": "Visiting the Great Wall of China",
-        "category": "History/Culture",
+        "category": "Culture",
         "score": 5,
         "description": "Walk along the Great Wall of China, an iconic symbol of ancient Chinese history and an architectural marvel.",
         "city": "Beijing",
         "longitude": 116.5704,
         "latitude": 40.4319,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "September", "October"],
+        "best_time_to_go_description": "The best time to visit the Great Wall is during spring and autumn, offering pleasant weather and less crowded experiences.",
+        "worst_time_to_go": ["June", "July", "August", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "Summer months are hot and crowded, while winter can be very cold, making it less comfortable to explore the Wall.",
+        "suggested_venues": [
+            {
+                "name": "Badaling",
+                "description": "The most visited section of the Wall, known for its well-preserved structure and accessibility from Beijing.",
+                "location": "Badaling, Great Wall of China",
+                "longitude": 116.5704,
+                "latitude": 40.3592
+            },
+            {
+                "name": "Mutianyu",
+                "description": "A less crowded section of the Wall, offering stunning views and a more authentic experience.",
+                "location": "Mutianyu, Great Wall of China",
+                "longitude": 116.5642,
+                "latitude": 40.4319
+            },
+            {
+                "name": "Jinshanling",
+                "description": "Known for its rugged terrain and original features, offering a more challenging hike and picturesque views.",
+                "location": "Jinshanling, Great Wall of China",
+                "longitude": 117.2397,
+                "latitude": 40.6769
+            }
+        ]
     },
+
+
     {
         "name": "Exploring the Taj Mahal",
-        "category": "Culture/History",
+        "category": "Culture",
         "score": 5,
         "description": "Visit the Taj Mahal in India, a UNESCO World Heritage site and a monument of love, known for its stunning architecture.",
         "city": "Agra",
         "longitude": 78.0421,
         "latitude": 27.1751,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["October", "November", "February", "March"],
+        "best_time_to_go_description": "The best time to visit the Taj Mahal is from October to March, when the weather is cooler and more comfortable for sightseeing.",
+        "worst_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "worst_time_to_go_description": "The summer months from April to September are extremely hot in Agra, making it challenging to enjoy outdoor activities.",
+        "suggested_venues": [
+            {
+                "name": "Agra Fort",
+                "description": "An impressive Mughal fort in Agra, offering a rich history and a fantastic view of the Taj Mahal.",
+                "location": "Agra Fort, Agra, India",
+                "longitude": 78.0424,
+                "latitude": 27.1795
+            },
+            {
+                "name": "Mehtab Bagh",
+                "description": "A charming garden located north of the Taj Mahal, offering a peaceful setting and a unique view of the mausoleum.",
+                "location": "Mehtab Bagh, Agra, India",
+                "longitude": 78.0349,
+                "latitude": 27.1714
+            },
+            {
+                "name": "Itimad-ud-Daulah",
+                "description": "Often referred to as the 'Baby Taj', this mausoleum predates the Taj Mahal and is known for its detailed inlay work.",
+                "location": "Itimad-ud-Daulah, Agra, India",
+                "longitude": 78.0448,
+                "latitude": 27.2114
+            }
+        ]
     },
+
+
     {
         "name": "Trekking to Mount Everest Base Camp",
-        "category": "Adventure/Nature",
+        "category": "Adventure",
         "score": 5,
         "description": "Embark on a trek to Everest Base Camp in Nepal for breathtaking views and a once-in-a-lifetime adventure.",
         "city": "Solukhumbu",
         "longitude": 86.9226,
         "latitude": 27.9881,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["April", "May", "October", "November"],
+        "best_time_to_go_description": "The ideal months to trek to Everest Base Camp are during the pre-monsoon season of April and May, and the post-monsoon season of October and November, offering clear skies and safer trekking conditions.",
+        "worst_time_to_go": ["June", "July", "August", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The monsoon season from June to August brings heavy rains and potential landslides, while winter months are extremely cold and challenging for trekking.",
+        "suggested_venues": [
+            {
+                "name": "Namche Bazaar",
+                "description": "A bustling Sherpa town that serves as a key stopover for acclimatization and supplies on the way to Everest Base Camp.",
+                "location": "Namche Bazaar, Solukhumbu, Nepal",
+                "longitude": 86.7070,
+                "latitude": 27.8043
+            },
+            {
+                "name": "Tengboche Monastery",
+                "description": "A historic and spiritual site offering panoramic views of the Himalayas and a serene environment.",
+                "location": "Tengboche, Solukhumbu, Nepal",
+                "longitude": 86.8314,
+                "latitude": 27.8352
+            },
+            {
+                "name": "Kala Patthar",
+                "description": "A notable landmark on the trek to Everest Base Camp, known for providing the most accessible close-up views of Mount Everest.",
+                "location": "Kala Patthar, Solukhumbu, Nepal",
+                "longitude": 86.8148,
+                "latitude": 27.9926
+            }
+        ]
     },
+
+
     {
         "name": "Diving in the Maldives",
-        "category": "Adventure/Nature",
+        "category": "Adventure",
         "score": 4,
         "description": "Experience the underwater world of the Maldives, known for its vibrant coral reefs and diverse marine life.",
         "city": "Malé",
         "longitude": 73.5093,
         "latitude": 4.1755,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["January", "February", "March", "April", "November", "December"],
+        "best_time_to_go_description": "The best time for diving in the Maldives is during the dry season from January to April, and the early and late monsoon months of November and December, offering clear waters and optimal diving conditions.",
+        "worst_time_to_go": ["May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go_description": "The monsoon season from May to October brings rough seas and reduced visibility, making diving conditions less ideal.",
+        "suggested_venues": [
+            {
+                "name": "Banana Reef",
+                "description": "One of the first diving spots discovered in the Maldives, renowned for its stunning coral formations and abundant fish life.",
+                "location": "Banana Reef, North Malé Atoll, Maldives",
+                "longitude": 73.5460,
+                "latitude": 4.2375
+            },
+            {
+                "name": "Manta Point",
+                "description": "A popular dive site for witnessing manta rays, particularly during the monsoon season when they come to feed on plankton.",
+                "location": "Manta Point, North Malé Atoll, Maldives",
+                "longitude": 73.5650,
+                "latitude": 4.2500
+            },
+            {
+                "name": "Maaya Thila",
+                "description": "An underwater island famous for its night diving and the variety of marine life, including sharks, rays, and colorful fish.",
+                "location": "Maaya Thila, Ari Atoll, Maldives",
+                "longitude": 72.9306,
+                "latitude": 3.9733
+            }
+        ]
     },
+
+
     {
         "name": "Experiencing Tokyo's Culture and Technology",
-        "category": "Culture/Technology",
+        "category": "Culture",
         "score": 4,
         "description": "Immerse yourself in the unique blend of traditional culture and cutting-edge technology in Tokyo, Japan.",
         "city": "Tokyo",
         "longitude": 139.6917,
         "latitude": 35.6895,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "October", "November"],
+        "best_time_to_go_description": "The best times to visit Tokyo are spring (March and April) for the cherry blossoms and autumn (October and November) for pleasant weather and colorful foliage.",
+        "worst_time_to_go": ["June", "July", "August"],
+        "worst_time_to_go_description": "Summer months in Tokyo can be very hot and humid, making it less comfortable for exploring the city, especially in July and August.",
+        "suggested_venues": [
+            {
+                "name": "Akihabara",
+                "description": "Famed for its electronics stores, otaku culture, and maid cafes, offering a glimpse into Japan's technological and pop culture.",
+                "location": "Akihabara, Tokyo, Japan",
+                "longitude": 139.7713,
+                "latitude": 35.7023
+            },
+            {
+                "name": "Asakusa",
+                "description": "A district known for the Senso-ji Temple, traditional Nakamise shopping street, and rich cultural experiences.",
+                "location": "Asakusa, Tokyo, Japan",
+                "longitude": 139.7967,
+                "latitude": 35.7148
+            },
+            {
+                "name": "Odaiba",
+                "description": "A popular entertainment and shopping area on a man-made island, showcasing modern architecture and innovative attractions.",
+                "location": "Odaiba, Tokyo, Japan",
+                "longitude": 139.7792,
+                "latitude": 35.6197
+            }
+        ]
     },
+
+
     {
         "name": "Visiting Angkor Wat",
-        "category": "History/Culture",
+        "category": "Culture",
         "score": 5,
         "description": "Explore Angkor Wat in Cambodia, the largest religious monument in the world and a testament to Khmer architectural skill.",
         "city": "Siem Reap",
         "longitude": 103.867,
         "latitude": 13.4125,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["November", "December", "January", "February", "March"],
+        "best_time_to_go_description": "The ideal time to visit Angkor Wat is during the dry season from November to March, when the weather is cooler and more comfortable for exploring.",
+        "worst_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
+        "worst_time_to_go_description": "The rainy season from April to October can lead to hot, humid, and wet conditions, which may hinder outdoor exploration.",
+        "suggested_venues": [
+            {
+                "name": "Bayon Temple",
+                "description": "Known for its massive stone faces, this temple at the center of Angkor Thom is a marvel of Khmer architecture.",
+                "location": "Bayon Temple, Angkor Thom, Siem Reap, Cambodia",
+                "longitude": 103.8662,
+                "latitude": 13.4412
+            },
+            {
+                "name": "Ta Prohm",
+                "description": "Famous for the large trees growing out of its ruins, Ta Prohm offers a unique blend of nature and architecture.",
+                "location": "Ta Prohm, Angkor, Siem Reap, Cambodia",
+                "longitude": 103.8892,
+                "latitude": 13.4348
+            },
+            {
+                "name": "Banteay Srei",
+                "description": "Often referred to as the 'Lady Temple', this 10th-century temple is renowned for its intricate red sandstone carvings.",
+                "location": "Banteay Srei, Siem Reap, Cambodia",
+                "longitude": 104.0099,
+                "latitude": 13.5986
+            }
+        ]
     },
+
+
     {
         "name": "Floating in the Dead Sea",
-        "category": "Nature/Wellness",
+        "category": "Nature",
         "score": 4,
         "description": "Experience the unique sensation of floating effortlessly in the Dead Sea, known for its high salt content and therapeutic properties.",
         "city": "Dead Sea Region",
         "longitude": 35.5500,
         "latitude": 31.5000,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "September", "October", "November"],
+        "best_time_to_go_description": "The best time to visit the Dead Sea is during spring and autumn when the climate is mild, making it pleasant for floating and relaxation.",
+        "worst_time_to_go": ["June", "July", "August", "December", "January", "February"],
+        "worst_time_to_go_description": "Summer months can be extremely hot, while winter can be quite cold, impacting the outdoor experience at the Dead Sea.",
+        "suggested_venues": [
+            {
+                "name": "Ein Bokek",
+                "description": "A popular resort area on the Israeli side of the Dead Sea, known for its hotels, beaches, and mineral spas.",
+                "location": "Ein Bokek, Dead Sea, Israel",
+                "longitude": 35.3653,
+                "latitude": 31.2005
+            },
+            {
+                "name": "Masada National Park",
+                "description": "An ancient fortress near the Dead Sea offering breathtaking views and a historical experience.",
+                "location": "Masada National Park, Dead Sea Region, Israel",
+                "longitude": 35.3535,
+                "latitude": 31.3156
+            },
+            {
+                "name": "Dead Sea Museum",
+                "description": "A museum dedicated to the natural history and archaeological heritage of the Dead Sea region.",
+                "location": "Dead Sea Museum, Dead Sea Region, Israel",
+                "longitude": 35.5736,
+                "latitude": 31.5590
+            }
+        ]
     },
+
+
     {
         "name": "Exploring the Bali Islands",
-        "category": "Culture/Nature",
+        "category": "Culture",
         "score": 4,
         "description": "Discover the beauty of Bali, Indonesia, with its stunning beaches, cultural heritage, and lush landscapes.",
         "city": "Denpasar",
         "longitude": 115.2167,
         "latitude": -8.6563,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["April", "May", "June", "September"],
+        "best_time_to_go_description": "The best time to visit Bali is during the dry season, particularly from April to June and September, when the weather is pleasant for outdoor activities and cultural explorations.",
+        "worst_time_to_go": ["January", "February", "March", "July", "August", "October", "November", "December"],
+        "worst_time_to_go_description": "The rainy season from January to March and late October to December can bring heavy showers, while July and August are often overcrowded with tourists.",
+        "suggested_venues": [
+            {
+                "name": "Ubud",
+                "description": "Known as the cultural heart of Bali, Ubud is famous for its art galleries, rice terraces, and traditional dance performances.",
+                "location": "Ubud, Bali, Indonesia",
+                "longitude": 115.2633,
+                "latitude": -8.5069
+            },
+            {
+                "name": "Uluwatu Temple",
+                "description": "A stunning Hindu temple perched on a cliff overlooking the sea, known for its sunset views and Kecak dance performances.",
+                "location": "Uluwatu Temple, Bali, Indonesia",
+                "longitude": 115.0848,
+                "latitude": -8.8159
+            },
+            {
+                "name": "Nusa Penida",
+                "description": "An island off the coast of Bali, offering dramatic landscapes, beautiful beaches, and excellent snorkeling opportunities.",
+                "location": "Nusa Penida, Bali, Indonesia",
+                "longitude": 115.5852,
+                "latitude": -8.7278
+            }
+        ]
     },
+
+
     {
         "name": "Discovering the Historic City of Petra",
-        "category": "History/Adventure",
+        "category": "History",
         "score": 5,
         "description": "Visit the ancient city of Petra in Jordan, carved out of red sandstone cliffs and known for its archaeological significance.",
         "city": "Petra",
         "longitude": 35.4444,
         "latitude": 30.3286,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["March", "April", "May", "September", "October", "November"],
+        "best_time_to_go_description": "The ideal time to visit Petra is during spring and autumn, when the weather is mild and suitable for exploring the archaeological sites.",
+        "worst_time_to_go": ["June", "July", "August", "December", "January", "February"],
+        "worst_time_to_go_description": "The summer months can be extremely hot, while winter can be cold and occasionally snowy, making it challenging to navigate the site.",
+        "suggested_venues": [
+            {
+                "name": "The Siq",
+                "description": "A narrow gorge leading to Petra, lined with cliffs, that ends at the iconic Treasury (Al-Khazneh).",
+                "location": "The Siq, Petra, Jordan",
+                "longitude": 35.4500,
+                "latitude": 30.3222
+            },
+            {
+                "name": "Monastery (Ad Deir)",
+                "description": "An impressive monument carved out of rock, similar to the Treasury but located at a higher elevation.",
+                "location": "Monastery, Petra, Jordan",
+                "longitude": 35.4375,
+                "latitude": 30.3422
+            },
+            {
+                "name": "High Place of Sacrifice",
+                "description": "An ancient sacrificial altar offering panoramic views of the Petra valley.",
+                "location": "High Place of Sacrifice, Petra, Jordan",
+                "longitude": 35.4347,
+                "latitude": 30.3285
+            }
+        ]
     },
+
+
     {
         "name": "Cruising on the Ha Long Bay",
-        "category": "Nature/Relaxation",
+        "category": "Nature",
         "score": 4,
         "description": "Take a cruise through Vietnam's Ha Long Bay, renowned for its emerald waters and thousands of towering limestone islands.",
         "city": "Quảng Ninh",
         "longitude": 107.1839,
         "latitude": 20.9101,
-        "cost": "$$"
-    }
+        "cost": "$$",
+        "best_time_to_go": ["October", "November", "December", "March", "April", "May"],
+        "best_time_to_go_description": "The best time to cruise Ha Long Bay is during the spring and autumn months, offering pleasant weather and less fog for clearer views of the stunning landscapes.",
+        "worst_time_to_go": ["June", "July", "August", "September", "January", "February"],
+        "worst_time_to_go_description": "Summer months bring heavy rains and potential typhoons, while winter can be quite cold and foggy, reducing visibility.",
+        "suggested_venues": [
+            {
+                "name": "Sung Sot Cave",
+                "description": "One of the largest and most impressive caves in Ha Long Bay, known for its stunning stalactites and stalagmites.",
+                "location": "Sung Sot Cave, Ha Long Bay, Vietnam",
+                "longitude": 107.2154,
+                "latitude": 20.7254
+            },
+            {
+                "name": "Ti Top Island",
+                "description": "A small island with a beautiful beach and a viewpoint that offers panoramic views of Ha Long Bay.",
+                "location": "Ti Top Island, Ha Long Bay, Vietnam",
+                "longitude": 107.2016,
+                "latitude": 20.8009
+            },
+            {
+                "name": "Fishing Village",
+                "description": "Visit a traditional floating fishing village to experience the local lifestyle and culture in Ha Long Bay.",
+                "location": "Floating Fishing Village, Ha Long Bay, Vietnam",
+                "longitude": 107.2203,
+                "latitude": 20.8571
+            }
+        ]
+    }    
 ]

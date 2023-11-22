@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Funafuti Conservation Area Visit",
+        "category": "Nature",
+        "score": 5,
+        "description": "Explore the Funafuti Conservation Area, known for its pristine atolls, lagoons, and rich marine life, perfect for snorkeling and diving.",
+        "city": "Funafuti",
+        "longitude": 179.1940,
+        "latitude": -8.5243,
+        "cost": "$$"
+    },
+    {
+        "name": "Nanumea Atoll Exploration",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Visit Nanumea Atoll, the northernmost atoll, known for its traditional Polynesian culture, beautiful beaches, and WWII history.",
+        "city": "Nanumea",
+        "longitude": 176.3186,
+        "latitude": -5.6667,
+        "cost": "$$$"
+    },
+    {
+        "name": "Vaitupu Island Cultural Experience",
+        "category": "Culture",
+        "score": 4,
+        "description": "Immerse yourself in the local culture on Vaitupu Island, experiencing traditional dances, crafts, and village life.",
+        "city": "Vaitupu",
+        "longitude": 178.6938,
+        "latitude": -7.4774,
+        "cost": "$"
+    },
+    {
+        "name": "Fongafale Islet Biking Tour",
+        "category": "Leisure",
+        "score": 3,
+        "description": "Bike around Fongafale Islet, the largest islet of Funafuti, enjoying scenic views, local villages, and the laid-back island atmosphere.",
+        "city": "Fongafale",
+        "longitude": 179.1956,
+        "latitude": -8.5201,
+        "cost": "$"
+    },
+    {
+        "name": "Tepuka Island Day Trip",
+        "category": "Nature",
+        "score": 4,
+        "description": "Take a day trip to Tepuka Island, a small uninhabited islet, ideal for snorkeling, birdwatching, and experiencing untouched nature.",
+        "city": "Tepuka",
+        "longitude": 179.28,
+        "latitude": -8.6,
+        "cost": "$$"
+    },
+    {
+        "name": "Nukufetau Atoll Lagoon Adventure",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Explore the beautiful lagoon of Nukufetau Atoll, offering crystal-clear waters and vibrant coral reefs for snorkeling and swimming.",
+        "city": "Nukufetau",
+        "longitude": 178.3833,
+        "latitude": -7.9,
+        "cost": "$$$"
+    },
+    {
+        "name": "Nui Island Traditional Weaving",
+        "category": "Culture",
+        "score": 3,
+        "description": "Learn about traditional weaving techniques on Nui Island, known for its skilled artisans and unique handicrafts.",
+        "city": "Nui",
+        "longitude": 177.35,
+        "latitude": -7.2167,
+        "cost": "$"
+    },
+    {
+        "name": "Philatelic Bureau Visit",
+        "category": "Shopping",
+        "score": 3,
+        "description": "Visit the Tuvalu Philatelic Bureau in Funafuti, a popular spot for collectors, offering unique stamps depicting local culture and wildlife.",
+        "city": "Funafuti",
+        "longitude": 179.1983,
+        "latitude": -8.5211,
+        "cost": "$"
+    },
+    {
+        "name": "Funafala Island Picnic",
+        "category": "Leisure",
+        "score": 4,
+        "description": "Enjoy a relaxing picnic on Funafala Island, part of the Funafuti atoll, offering serene beaches and a peaceful escape.",
+        "city": "Funafala",
+        "longitude": 179.12,
+        "latitude": -8.53,
+        "cost": "$"
+    },
+    {
+        "name": "Te Namo Lagoon Fishing",
+        "category": "Adventure",
+        "score": 4,
+        "description": "Experience traditional fishing in Te Namo Lagoon, an essential part of Tuvaluan life and a way to explore the rich marine biodiversity.",
+        "city": "Funafuti",
+        "longitude": 179.2,
+        "latitude": -8.55,
+        "cost": "$$"
+    }
+]
