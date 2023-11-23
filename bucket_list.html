@@ -977,7 +977,9 @@
         <button
           class="country-button"
           onclick="toggleCountry('Marshall_Islands','Pacific')"
-          style="background-image: url('assets/images/flags/marshall_islands_flag.png')"
+          style="
+            background-image: url('assets/images/flags/marshall_islands_flag.png');
+          "
         >
           Marshall Islands
         </button>
@@ -985,7 +987,9 @@
         <button
           class="country-button"
           onclick="toggleCountry('Micronesia','Pacific')"
-          style="background-image: url('assets/images/flags/micronesa_flag.png')"
+          style="
+            background-image: url('assets/images/flags/micronesia_flag.png');
+          "
         >
           Micronesia
         </button>
@@ -1001,7 +1005,9 @@
         <button
           class="country-button"
           onclick="toggleCountry('New_Zealand','Pacific')"
-          style="background-image: url('assets/images/flags/new_zealand_flag.png')"
+          style="
+            background-image: url('assets/images/flags/new_zealand_flag.png');
+          "
         >
           New Zealand
         </button>
@@ -1016,8 +1022,10 @@
 
         <button
           class="country-button"
-          onclick="toggleCountry('Papa_New_Guineau','Pacific')"
-          style="background-image: url('assets/images/flags/papa_new_guineau_flag.png')"
+          onclick="toggleCountry('papa_new_guineau','Pacific')"
+          style="
+            background-image: url('assets/images/flags/papa_new_guineau_flag.png');
+          "
         >
           Papa New Guineau
         </button>
@@ -1033,7 +1041,9 @@
         <button
           class="country-button"
           onclick="toggleCountry('Solomon_Islands','Pacific')"
-          style="background-image: url('assets/images/flags/solomon_islands_flag.png')"
+          style="
+            background-image: url('assets/images/flags/solomon_islands_flag.png');
+          "
         >
           Solomon Islands
         </button>
@@ -1041,9 +1051,7 @@
         <button
           class="country-button"
           onclick="toggleCountry('Tonga','Pacific')"
-          style="
-            background-image: url('assets/images/flags/tonga_flag.png');
-          "
+          style="background-image: url('assets/images/flags/tonga_flag.png')"
         >
           Tonga
         </button>
@@ -1051,24 +1059,19 @@
         <button
           class="country-button"
           onclick="toggleCountry('Tuvalu','Pacific')"
-          style="
-            background-image: url('assets/images/flags/tuvalu_flag.png');
-          "
+          style="background-image: url('assets/images/flags/tuvalu_flag.png')"
         >
           Tuvalu
         </button>
 
         <button
           class="country-button"
-          onclick="toggleCountry('Vanatu','Pacific')"
-          style="
-            background-image: url('assets/images/flags/vanatu_flag.png');
-          "
+          onclick="toggleCountry('Vanuatu','Pacific')"
+          style="background-image: url('assets/images/flags/vanuatu_flag.png')"
         >
-          Vanatu
+          Vanuatu
         </button>
       </div>
-
     </div>
 
     <!-- Main content area where the country's bucket list and map will be displayed -->
@@ -1244,18 +1247,42 @@
           style="display: none"
         ></div>
         <div id="Fiji" class="country-container" style="display: none"></div>
-        <div id="Kiribati" class="country-container" style="display: none"></div>
+        <div
+          id="Kiribati"
+          class="country-container"
+          style="display: none"
+        ></div>
 
-        <div id="Marshall_Islands" class="country-container" style="display: none"></div>
-        <div id="Micronesia" class="country-container" style="display: none"></div>
+        <div
+          id="Marshall_Islands"
+          class="country-container"
+          style="display: none"
+        ></div>
+        <div
+          id="Micronesia"
+          class="country-container"
+          style="display: none"
+        ></div>
 
         <div id="Nauru" class="country-container" style="display: none"></div>
-        <div id="New_Zealand" class="country-container" style="display: none"></div>
+        <div
+          id="New_Zealand"
+          class="country-container"
+          style="display: none"
+        ></div>
 
         <div id="Palau" class="country-container" style="display: none"></div>
-        <div id="Papau_New_Guineai" class="country-container" style="display: none"></div>
+        <div
+          id="papa_new_guineau"
+          class="country-container"
+          style="display: none"
+        ></div>
         <div id="Samoa" class="country-container" style="display: none"></div>
-        <div id="Solomon_Islands" class="country-container" style="display: none"></div>
+        <div
+          id="Solomon_Islands"
+          class="country-container"
+          style="display: none"
+        ></div>
 
         <div id="Tonga" class="country-container" style="display: none"></div>
         <div id="Tuvalu" class="country-container" style="display: none"></div>
@@ -1663,6 +1690,22 @@
                 item.category.toLowerCase() || "default-category"
               }`;
               button.style.width = "450px"; // Set button width
+              button.style.padding = "10px 20px";
+              button.style.margin = "5px 0";
+              button.style.border = "none";
+              button.style.borderRadius = "5px";
+              button.style.cursor = "pointer";
+              button.style.transition = "all 0.3s";
+              button.style.background = "#FFFFFF";
+              button.style.color = "#0000FF";
+              button.style.fontSize = "16px";
+              button.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.15)";
+
+              button.onmouseover = () =>
+                (button.style.backgroundColor = "#F5F5F5");
+              button.onmouseout = () =>
+                (button.style.backgroundColor = "#FFFFFF");
+
               let countryImage = `assets/images/bucketlist/${country.toLowerCase()}.png`;
               button.style.backgroundImage = `url('${countryImage}')`;
               button.style.backgroundSize = `cover`;
@@ -1672,8 +1715,18 @@
               // Create a container for the dropdown content
               let dropdownContent = document.createElement("div");
               dropdownContent.className = "dropdown-content";
-              dropdownContent.style.display = "none"; // Initially hidden
-              dropdownContent.style.width = "450px"; // Set dropdown content width
+              dropdownContent.style.display = "none";
+              dropdownContent.style.width = "450px";
+              dropdownContent.style.marginTop = "5px";
+              dropdownContent.style.padding = "15px";
+              dropdownContent.style.background = "#FAFAFA";
+              dropdownContent.style.border = "1px solid #E0E0E0";
+              dropdownContent.style.borderRadius = "5px";
+              dropdownContent.style.boxShadow = "0 2px 5px rgba(0, 0, 0, 0.2)";
+
+              // Append button and dropdown content
+              selectedContainer.appendChild(button);
+              selectedContainer.appendChild(dropdownContent);
 
               // Container for Description
               let descriptionContainer = document.createElement("div");
