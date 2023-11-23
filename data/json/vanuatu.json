@@ -7,8 +7,37 @@
         "city": "Tanna",
         "longitude": 169.4469,
         "latitude": -19.5176,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["Year-round"],
+        "best_time_to_go_description": "You can embark on a Tanna Island Volcano Adventure year-round, ensuring you have the opportunity to witness the volcanic activity whenever you visit.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There are no specific worst times to visit Mount Yasur Volcano on Tanna Island, as it provides a captivating experience throughout the year.",
+        "suggested_venues": [
+            {
+                "name": "Mount Yasur Volcano",
+                "description": "Experience the raw power of nature at Mount Yasur, where you can witness lava eruptions and feel the Earth's forces in action.",
+                "location": "Mount Yasur, Tanna Island, Vanuatu",
+                "longitude": 169.4469,
+                "latitude": -19.5176
+            },
+            {
+                "name": "Volcanic Tours",
+                "description": "Join guided volcanic tours that take you to the best vantage points to observe Mount Yasur's volcanic activity while ensuring safety and enjoyment.",
+                "location": "Tanna Island, Vanuatu",
+                "longitude": 169.4469,
+                "latitude": -19.5176
+            },
+            {
+                "name": "Cultural Insights",
+                "description": "Immerse yourself in the local culture of Tanna Island while experiencing the awe-inspiring beauty and power of Mount Yasur Volcano.",
+                "location": "Tanna Island, Vanuatu",
+                "longitude": 169.4469,
+                "latitude": -19.5176
+            }
+        ]
     },
+
+
     {
         "name": "Port Vila Market Tour",
         "category": "Culture",
@@ -17,8 +46,37 @@
         "city": "Port Vila",
         "longitude": 168.3167,
         "latitude": -17.7333,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["Year-round"],
+        "best_time_to_go_description": "You can enjoy the Port Vila Market year-round, immersing yourself in the vibrant culture and sampling fresh produce and crafts whenever you visit.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There are no specific worst times to visit the Port Vila Market, as it offers its colorful and bustling atmosphere throughout the year.",
+        "suggested_venues": [
+            {
+                "name": "Port Vila Market",
+                "description": "Stroll through the bustling Port Vila Market, where you can explore a wide variety of fresh produce, local crafts, and immerse yourself in the local culture.",
+                "location": "Port Vila, Vanuatu",
+                "longitude": 168.3167,
+                "latitude": -17.7333
+            },
+            {
+                "name": "Cultural Discoveries",
+                "description": "While at the market, take the opportunity to engage with local vendors, learn about Vanuatu's traditions, and sample authentic cuisine.",
+                "location": "Port Vila, Vanuatu",
+                "longitude": 168.3167,
+                "latitude": -17.7333
+            },
+            {
+                "name": "Local Souvenirs",
+                "description": "Browse the stalls for unique Vanuatu souvenirs, such as handicrafts, artwork, and traditional artifacts, to take home as mementos of your visit.",
+                "location": "Port Vila, Vanuatu",
+                "longitude": 168.3167,
+                "latitude": -17.7333
+            }
+        ]
     },
+
+
     {
         "name": "Mele Cascades Waterfall",
         "category": "Nature",
@@ -27,8 +85,37 @@
         "city": "Port Vila",
         "longitude": 168.3,
         "latitude": -17.75,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["Year-round"],
+        "best_time_to_go_description": "The Mele Cascades Waterfall is a year-round attraction, allowing you to enjoy its natural beauty and refreshing pools at any time.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There are no specific worst times to visit Mele Cascades, as it maintains its beauty and accessibility throughout the year.",
+        "suggested_venues": [
+            {
+                "name": "Mele Cascades",
+                "description": "Explore the beautiful Mele Cascades, where you can take a refreshing swim in the natural pools and admire the lush tropical surroundings.",
+                "location": "Port Vila, Vanuatu",
+                "longitude": 168.3,
+                "latitude": -17.75
+            },
+            {
+                "name": "Nature Walks",
+                "description": "Take a leisurely nature walk through the lush vegetation surrounding the waterfalls, enjoying the sights and sounds of the tropical rainforest.",
+                "location": "Port Vila, Vanuatu",
+                "longitude": 168.3,
+                "latitude": -17.75
+            },
+            {
+                "name": "Picnic Areas",
+                "description": "Plan a picnic by the cascades, and savor a meal in the midst of nature while taking in the breathtaking views of the waterfalls.",
+                "location": "Port Vila, Vanuatu",
+                "longitude": 168.3,
+                "latitude": -17.75
+            }
+        ]
     },
+
+
     {
         "name": "Espiritu Santo Blue Hole Adventure",
         "category": "Nature",
@@ -37,8 +124,37 @@
         "city": "Espiritu Santo",
         "longitude": 167.0486,
         "latitude": -15.3767,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["Year-round"],
+        "best_time_to_go_description": "The Espiritu Santo Blue Holes are a year-round attraction, offering their mesmerizing beauty and clear waters for exploration throughout the year.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There are no specific worst times to visit the Espiritu Santo Blue Holes, as they maintain their allure and accessibility year-round.",
+        "suggested_venues": [
+            {
+                "name": "Blue Holes of Espiritu Santo",
+                "description": "Discover the magical blue holes of Espiritu Santo, where you can swim in crystal-clear freshwater pools, surrounded by lush tropical vegetation.",
+                "location": "Espiritu Santo, Vanuatu",
+                "longitude": 167.0486,
+                "latitude": -15.3767
+            },
+            {
+                "name": "Snorkeling",
+                "description": "Embark on a snorkeling adventure in the blue holes to witness the vibrant underwater world, including fish and unique aquatic life.",
+                "location": "Espiritu Santo, Vanuatu",
+                "longitude": 167.0486,
+                "latitude": -15.3767
+            },
+            {
+                "name": "Nature Photography",
+                "description": "Capture the stunning natural beauty of Espiritu Santo's blue holes through photography, with their magical blue waters and lush surroundings.",
+                "location": "Espiritu Santo, Vanuatu",
+                "longitude": 167.0486,
+                "latitude": -15.3767
+            }
+        ]
     },
+
+
     {
         "name": "Pentecost Island Land Diving",
         "category": "Adventure",
@@ -47,8 +163,37 @@
         "city": "Pentecost",
         "longitude": 168.1167,
         "latitude": -15.8,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["April", "May", "June"],
+        "best_time_to_go_description": "The best time to witness the land diving on Pentecost Island is during the months of April, May, and June when the ritual is traditionally performed.",
+        "worst_time_to_go": ["July", "August", "September", "October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The land diving ritual is not performed during the wet season, which includes the months of July through March.",
+        "suggested_venues": [
+            {
+                "name": "Naghol Land Diving Site",
+                "description": "Experience the awe-inspiring land diving ritual at the Naghol Land Diving Site on Pentecost Island, where local divers perform this traditional ritual using vines and wooden towers.",
+                "location": "Pentecost Island, Vanuatu",
+                "longitude": 168.1167,
+                "latitude": -15.8
+            },
+            {
+                "name": "Cultural Immersion",
+                "description": "Immerse yourself in the local culture of Pentecost Island, interact with the community, and learn about the significance of the land diving ritual.",
+                "location": "Pentecost Island, Vanuatu",
+                "longitude": 168.1167,
+                "latitude": -15.8
+            },
+            {
+                "name": "Adventure Photography",
+                "description": "Capture the breathtaking moments of land diving with your camera, documenting this unique and thrilling cultural experience.",
+                "location": "Pentecost Island, Vanuatu",
+                "longitude": 168.1167,
+                "latitude": -15.8
+            }
+        ]
     },
+
+
     {
         "name": "Champagne Beach Relaxation",
         "category": "Leisure",
@@ -57,8 +202,37 @@
         "city": "Espiritu Santo",
         "longitude": 167.0833,
         "latitude": -15.1,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Champagne Beach is during the dry season, which typically falls between May and September, offering pleasant weather and ideal beach conditions.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The wet season, from October to April, may bring occasional rainfall and less favorable beach conditions, so it's less ideal for relaxation.",
+        "suggested_activities": [
+            {
+                "name": "Beach Picnics",
+                "description": "Enjoy a leisurely picnic on the pristine sands of Champagne Beach while taking in the breathtaking ocean views.",
+                "location": "Champagne Beach, Espiritu Santo, Vanuatu",
+                "longitude": 167.0833,
+                "latitude": -15.1
+            },
+            {
+                "name": "Snorkeling",
+                "description": "Explore the underwater world with snorkeling opportunities in the clear waters of Champagne Beach, where you can discover vibrant coral reefs and marine life.",
+                "location": "Champagne Beach, Espiritu Santo, Vanuatu",
+                "longitude": 167.0833,
+                "latitude": -15.1
+            },
+            {
+                "name": "Sunbathing",
+                "description": "Bask in the sun on the soft, white sands of Champagne Beach and work on your tan in a tranquil tropical paradise.",
+                "location": "Champagne Beach, Espiritu Santo, Vanuatu",
+                "longitude": 167.0833,
+                "latitude": -15.1
+            }
+        ]
     },
+
+
     {
         "name": "Vanuatu Cultural Centre Visit",
         "category": "Culture",
@@ -67,8 +241,24 @@
         "city": "Port Vila",
         "longitude": 168.3210,
         "latitude": -17.7415,
-        "cost": "$"
+        "cost": "$",
+        "opening_hours": "9:00 AM - 4:30 PM (Monday to Friday)",
+        "closing_days": ["Saturday", "Sunday"],
+        "recommended_duration": "2-3 hours",
+        "what_to_expect": "The Vanuatu Cultural Centre is a treasure trove of Vanuatu's cultural heritage, offering a fascinating journey through its history and traditions. Visitors can explore various exhibits, including traditional artifacts, artwork, and displays of local customs and practices.",
+        "highlights": [
+            "Traditional Artifacts: View a collection of traditional tools, instruments, and objects used by the people of Vanuatu in their daily lives.",
+            "Cultural Performances: Occasionally, the center hosts live cultural performances and demonstrations, providing a firsthand experience of Vanuatu's vibrant traditions.",
+            "Local Art: Admire the work of local artists and craftsmen, with opportunities to purchase unique souvenirs and artworks.",
+            "Educational Experience: The Vanuatu Cultural Centre offers an educational and enriching experience, providing insights into the diverse cultures of Vanuatu's islands."
+        ],
+        "tips": [
+            "Check the center's schedule for any special cultural performances or events during your visit.",
+            "Respect the cultural exhibits and artifacts, and ask for permission before taking photographs.",
+            "Plan to spend at least 2-3 hours at the center to fully explore the exhibits and appreciate the cultural richness of Vanuatu."
+        ]
     },
+
     {
         "name": "Coongoola Cruise Day Trip",
         "category": "Leisure",
@@ -77,18 +267,63 @@
         "city": "Port Vila",
         "longitude": 168.3196,
         "latitude": -17.7404,
-        "cost": "$$$"
+        "cost": "$$$",
+        "duration": "Full day (approximately 6-7 hours)",
+        "included_activities": [
+            "Scenic Coastal Cruise: Enjoy a leisurely cruise along Vanuatu's picturesque coastline, with opportunities to take in the beautiful scenery and relax on the boat's deck.",
+            "Snorkeling: Dive into the clear waters at carefully selected snorkeling spots to discover Vanuatu's vibrant marine life and coral reefs.",
+            "Beach Combing: Visit secluded beaches where you can relax, swim, or explore the shoreline for shells and treasures.",
+            "Delicious Lunch: A delicious lunch is typically provided on the cruise, featuring local cuisine and refreshments."
+        ],
+        "what_to_bring": [
+            "Swimwear and snorkeling gear (if you have your own)",
+            "Sunscreen, sunglasses, and a hat to protect yourself from the sun",
+            "Towel and a change of clothes",
+            "Camera or smartphone for capturing the scenic views and underwater beauty",
+            "Cash for any optional activities or souvenirs"
+        ],
+        "tips": [
+            "Confirm the departure schedule and availability in advance, as the Coongoola Cruise may have limited spots and specific departure times.",
+            "Listen to the crew's safety instructions and guidelines for snorkeling to ensure a safe and enjoyable experience.",
+            "Respect the natural environment and marine life during your snorkeling activities, and avoid touching or damaging coral reefs."
+        ]
     },
+
+
     {
-        "name": "Millenium Cave Trek",
+        "name": "Millennium Cave Trek",
         "category": "Adventure",
         "score": 5,
         "description": "Experience the adventurous trek to Millennium Cave, Vanuatu's largest cave, involving jungle treks, river crossings, and cave exploration.",
         "city": "Luganville",
         "longitude": 167.1619,
         "latitude": -15.5333,
-        "cost": "$$"
+        "cost": "$$",
+        "duration": "Full day adventure (approximately 6-8 hours)",
+        "included_activities": [
+            "Jungle Trek: Embark on a thrilling jungle trek through lush rainforests, crossing streams and rugged terrain to reach the Millennium Cave.",
+            "River Crossings: Navigate through river crossings, adding an exciting element to your adventure as you wade through the pristine waters.",
+            "Cave Exploration: Explore the vast Millennium Cave, known for its impressive stalactites, stalagmites, and underground chambers.",
+            "Local Guides: Knowledgeable local guides will lead your trek, providing insights into the cave's history, local flora, and fauna.",
+            "Lunch: Enjoy a delicious lunch amidst the natural beauty of Vanuatu's wilderness."
+        ],
+        "what_to_bring": [
+            "Sturdy, comfortable hiking shoes or boots with good grip",
+            "Lightweight, moisture-wicking clothing suitable for trekking",
+            "Swimwear for river crossings and cave exploration",
+            "Sunscreen, sunglasses, and a hat to protect from the sun",
+            "Insect repellent to ward off any jungle insects",
+            "A small backpack to carry essentials"
+        ],
+        "tips": [
+            "Ensure you are in good physical condition and prepared for a challenging trek, as the journey involves rugged terrain and river crossings.",
+            "Listen to your local guides and follow their instructions for a safe and enjoyable experience.",
+            "Respect the natural environment and caves by not touching or damaging any formations.",
+            "Carry some cash for any optional purchases or tips for your guides."
+        ]
     },
+
+
     {
         "name": "Hideaway Island Marine Reserve",
         "category": "Nature",
@@ -97,6 +332,26 @@
         "city": "Port Vila",
         "longitude": 168.3134,
         "latitude": -17.7406,
-        "cost": "$$"
-    }
+        "cost": "$$",
+        "activities": [
+            "Snorkeling: Explore the crystal-clear waters of the marine reserve and witness the vibrant coral gardens and colorful fish species.",
+            "Scuba Diving: Dive into the depths of the reserve to discover a world of marine biodiversity, including corals, reef fish, and more.",
+            "Underwater Post Office: Send a unique postcard from the world's only underwater post office, creating a memorable souvenir of your visit.",
+            "Marine Life Observation: Observe a diverse range of marine life, including turtles, rays, and various fish species in their natural habitat.",
+            "Beach Relaxation: Enjoy the pristine white sandy beach on Hideaway Island, perfect for sunbathing and relaxation."
+        ],
+        "what_to_bring": [
+            "Swimwear and snorkeling gear (if you have your own)",
+            "Scuba diving equipment (if you're a certified diver)",
+            "Sunscreen, sunglasses, and a hat to protect from the sun",
+            "Underwater camera or waterproof phone case to capture the unique post office experience",
+            "Cash for any optional purchases or souvenirs"
+        ],
+        "tips": [
+            "Check the weather conditions before your visit for the best snorkeling and diving experience.",
+            "Respect the marine environment by not touching or damaging coral reefs and marine life.",
+            "Follow the guidelines provided by the staff to ensure safety during your underwater post office experience.",
+            "Plan your visit during weekdays to avoid large crowds, if possible."
+        ]
+    }    
 ]

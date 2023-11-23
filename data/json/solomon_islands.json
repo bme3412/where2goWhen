@@ -7,96 +7,369 @@
         "city": "Marovo Lagoon",
         "longitude": 158.85,
         "latitude": -8.5,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for Marovo Lagoon snorkeling and diving is during the dry season, from May to September, when the water is typically clear and visibility is excellent.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rainfall and reduced visibility underwater, impacting the diving and snorkeling experience.",
+        "suggested_venues": [
+            {
+                "name": "Marine Life Exploration",
+                "description": "Explore the rich marine life of Marovo Lagoon, including colorful coral reefs, diverse fish species, and the chance to encounter larger marine creatures.",
+                "location": "Marovo Lagoon, Solomon Islands",
+                "longitude": 158.85,
+                "latitude": -8.5
+            },
+            {
+                "name": "Dive Sites",
+                "description": "Dive at various sites within Marovo Lagoon, each offering unique underwater landscapes and marine biodiversity for divers of all levels.",
+                "location": "Marovo Lagoon, Solomon Islands",
+                "longitude": 158.85,
+                "latitude": -8.5
+            },
+            {
+                "name": "Snorkeling Adventures",
+                "description": "Embark on snorkeling adventures to witness the vibrant coral gardens and schools of tropical fish that inhabit the lagoon's pristine waters.",
+                "location": "Marovo Lagoon, Solomon Islands",
+                "longitude": 158.85,
+                "latitude": -8.5
+            }
+        ]
     },
+
     {
-        "name": "Kennedy Island Day Trip",
-        "category": "History",
-        "score": 4,
-        "description": "Visit Kennedy Island, named after John F. Kennedy, and explore its historical significance during World War II, with opportunities for snorkeling.",
-        "city": "Kennedy Island",
-        "longitude": 157.8761,
-        "latitude": -8.4292,
-        "cost": "$$"
-    },
-    {
-        "name": "Honiara Cultural Tour",
-        "category": "Culture",
-        "score": 4,
-        "description": "Explore Honiara, the capital city, visiting cultural sites like the Solomon Islands National Museum, local markets, and World War II relics.",
-        "city": "Honiara",
-        "longitude": 159.9729,
-        "latitude": -9.4456,
-        "cost": "$"
-    },
-    {
-        "name": "Gizo Island Market Visit",
-        "category": "Culture",
-        "score": 3,
-        "description": "Stroll through the vibrant Gizo Island market, a hub for local crafts, fresh produce, and a glimpse into the everyday life of Solomon Islanders.",
-        "city": "Gizo",
-        "longitude": 156.8419,
-        "latitude": -8.103,
-        "cost": "$"
-    },
-    {
-        "name": "Rennell Island Lake Tegano Visit",
-        "category": "Nature",
-        "score": 4,
-        "description": "Explore Lake Tegano on Rennell Island, a UNESCO World Heritage site known for its unique biodiversity and stunning freshwater lake.",
-        "city": "Rennell Island",
-        "longitude": 160.1833,
-        "latitude": -11.6667,
-        "cost": "$$$"
-    },
-    {
-        "name": "Mataniko Falls Adventure Hike",
-        "category": "Adventure",
-        "score": 4,
-        "description": "Hike to the spectacular Mataniko Falls, a hidden gem near Honiara, offering a scenic hike through the jungle and a refreshing swim.",
-        "city": "Honiara",
-        "longitude": 160.0,
-        "latitude": -9.4333,
-        "cost": "$$"
-    },
-    {
-        "name": "Skull Island Historic Visit",
-        "category": "History",
-        "score": 4,
-        "description": "Visit Skull Island, known for its eerie history and collection of ancient human skulls, offering a glimpse into the Solomon Islands' past.",
-        "city": "Skull Island",
-        "longitude": 157.9381,
-        "latitude": -8.4855,
-        "cost": "$$"
-    },
-    {
-        "name": "Malaita Island Kastom Village Tour",
-        "category": "Culture",
-        "score": 4,
-        "description": "Experience traditional life in a Kastom Village on Malaita Island, learning about local customs, crafts, and way of life.",
-        "city": "Malaita",
-        "longitude": 160.7667,
-        "latitude": -9.1667,
-        "cost": "$"
-    },
-    {
-        "name": "Florida Islands Kayaking",
-        "category": "Leisure",
-        "score": 4,
-        "description": "Kayak around the serene Florida Islands, exploring its secluded beaches, traditional villages, and vibrant coral reefs.",
-        "city": "Florida Islands",
-        "longitude": 160.15,
-        "latitude": -9.5,
-        "cost": "$$"
-    },
-    {
-        "name": "Tulagi Island World War II Tour",
-        "category": "History",
-        "score": 4,
-        "description": "Explore Tulagi Island's World War II history, visiting remnants from the war and learning about the island's strategic importance.",
-        "city": "Tulagi",
-        "longitude": 160.1467,
-        "latitude": -9.1031,
-        "cost": "$$"
-    }
+    "name": "Kennedy Island Day Trip",
+    "category": "History",
+    "score": 4,
+    "description": "Visit Kennedy Island, named after John F. Kennedy, and explore its historical significance during World War II, with opportunities for snorkeling.",
+    "city": "Kennedy Island",
+    "longitude": 157.8761,
+    "latitude": -8.4292,
+    "cost": "$$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for a Kennedy Island Day Trip is during the dry season, from May to September, when the weather is generally favorable for outdoor activities and snorkeling.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rainfall and less favorable snorkeling conditions, impacting the trip experience.",
+    "suggested_venues": [
+        {
+            "name": "Historical Significance",
+            "description": "Explore the historical significance of Kennedy Island, which was named after John F. Kennedy and played a role in World War II history.",
+            "location": "Kennedy Island, Solomon Islands",
+            "longitude": 157.8761,
+            "latitude": -8.4292
+        },
+        {
+            "name": "Snorkeling Adventures",
+            "description": "Take advantage of snorkeling opportunities around Kennedy Island to discover the underwater beauty and marine life of the surrounding waters.",
+            "location": "Kennedy Island, Solomon Islands",
+            "longitude": 157.8761,
+            "latitude": -8.4292
+        },
+        {
+            "name": "Scenic Views",
+            "description": "Enjoy scenic views from Kennedy Island, including the crystal-clear waters and lush tropical surroundings that make it a memorable day trip destination.",
+            "location": "Kennedy Island, Solomon Islands",
+            "longitude": 157.8761,
+            "latitude": -8.4292
+        }
+    ]
+},
+{
+    "name": "Honiara Cultural Tour",
+    "category": "Culture",
+    "score": 4,
+    "description": "Explore Honiara, the capital city, visiting cultural sites like the Solomon Islands National Museum, local markets, and World War II relics.",
+    "city": "Honiara",
+    "longitude": 159.9729,
+    "latitude": -9.4456,
+    "cost": "$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for a Honiara Cultural Tour is during the dry season, from May to September, when the weather is generally pleasant and suitable for exploring cultural sites.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rainfall, which can affect outdoor activities and sightseeing.",
+    "suggested_venues": [
+        {
+            "name": "Solomon Islands National Museum",
+            "description": "Visit the Solomon Islands National Museum to learn about the rich cultural heritage and history of the Solomon Islands through exhibits and artifacts.",
+            "location": "Honiara, Solomon Islands",
+            "longitude": 159.9729,
+            "latitude": -9.4456
+        },
+        {
+            "name": "Local Markets",
+            "description": "Explore local markets in Honiara, where you can experience the vibrant atmosphere, shop for traditional crafts, and interact with local vendors.",
+            "location": "Honiara, Solomon Islands",
+            "longitude": 159.9729,
+            "latitude": -9.4456
+        },
+        {
+            "name": "World War II Relics",
+            "description": "Discover World War II relics and historical sites in Honiara, reflecting the city's role in the Pacific War history.",
+            "location": "Honiara, Solomon Islands",
+            "longitude": 159.9729,
+            "latitude": -9.4456
+        }
+    ]
+},
+
+{
+    "name": "Gizo Island Market Visit",
+    "category": "Culture",
+    "score": 3,
+    "description": "Stroll through the vibrant Gizo Island market, a hub for local crafts, fresh produce, and a glimpse into the everyday life of Solomon Islanders.",
+    "city": "Gizo",
+    "longitude": 156.8419,
+    "latitude": -8.103,
+    "cost": "$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for a Gizo Island Market Visit is during the dry season, from May to September, when the weather is generally favorable for outdoor market exploration.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rainfall, which can affect the market experience and accessibility.",
+    "suggested_venues": [
+        {
+            "name": "Gizo Island Market",
+            "description": "Explore the lively Gizo Island Market, where you can find a variety of local crafts, fresh produce, and interact with friendly Solomon Islanders.",
+            "location": "Gizo, Solomon Islands",
+            "longitude": 156.8419,
+            "latitude": -8.103
+        },
+        {
+            "name": "Local Artisans",
+            "description": "Meet local artisans and vendors at the market, who offer handmade crafts, traditional artwork, and a taste of the local culture.",
+            "location": "Gizo, Solomon Islands",
+            "longitude": 156.8419,
+            "latitude": -8.103
+        },
+        {
+            "name": "Culinary Delights",
+            "description": "Sample local cuisine and fresh produce from the market, providing an opportunity to savor traditional Solomon Islands flavors.",
+            "location": "Gizo, Solomon Islands",
+            "longitude": 156.8419,
+            "latitude": -8.103
+        }
+    ]
+},
+{
+    "name": "Rennell Island Lake Tegano Visit",
+    "category": "Nature",
+    "score": 4,
+    "description": "Explore Lake Tegano on Rennell Island, a UNESCO World Heritage site known for its unique biodiversity and stunning freshwater lake.",
+    "city": "Rennell Island",
+    "longitude": 160.1833,
+    "latitude": -11.6667,
+    "cost": "$$$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time to visit Lake Tegano on Rennell Island is during the dry season, from May to September, when the weather is typically more stable, and outdoor exploration is enjoyable.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there can be heavy rainfall and potential accessibility challenges, making it less ideal for a visit.",
+    "suggested_venues": [
+        {
+            "name": "Lake Tegano",
+            "description": "Discover the natural beauty of Lake Tegano, a UNESCO World Heritage site with a diverse ecosystem, including unique bird species and lush surroundings.",
+            "location": "Lake Tegano, Rennell Island, Solomon Islands",
+            "longitude": 160.1833,
+            "latitude": -11.6667
+        },
+        {
+            "name": "Birdwatching",
+            "description": "Engage in birdwatching activities around Lake Tegano, where you can spot rare and endemic bird species in their natural habitat.",
+            "location": "Lake Tegano, Rennell Island, Solomon Islands",
+            "longitude": 160.1833,
+            "latitude": -11.6667
+        },
+        {
+            "name": "Hiking Trails",
+            "description": "Explore hiking trails that lead you through the scenic landscapes surrounding Lake Tegano, offering opportunities for nature enthusiasts.",
+            "location": "Lake Tegano, Rennell Island, Solomon Islands",
+            "longitude": 160.1833,
+            "latitude": -11.6667
+        }
+    ]
+},
+
+{
+    "name": "Mataniko Falls Adventure Hike",
+    "category": "Adventure",
+    "score": 4,
+    "description": "Hike to the spectacular Mataniko Falls, a hidden gem near Honiara, offering a scenic hike through the jungle and a refreshing swim.",
+    "city": "Honiara",
+    "longitude": 160.0,
+    "latitude": -9.4333,
+    "cost": "$$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for a Mataniko Falls Adventure Hike is during the dry season, from May to September, when the weather is more favorable for outdoor activities and the waterfall is at its most impressive flow.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, heavy rainfall can make the hike challenging and the waterfall less accessible due to swollen rivers.",
+    "suggested_venues": [
+        {
+            "name": "Mataniko Falls",
+            "description": "Experience the beauty of Mataniko Falls, a hidden gem near Honiara, where you can hike through lush jungle surroundings and take a refreshing swim in the pristine waters.",
+            "location": "Mataniko Falls, Honiara, Solomon Islands",
+            "longitude": 160.0,
+            "latitude": -9.4333
+        },
+        {
+            "name": "Scenic Jungle Hike",
+            "description": "Embark on a scenic jungle hike to reach Mataniko Falls, enjoying the sights and sounds of the rainforest along the way.",
+            "location": "Mataniko Falls, Honiara, Solomon Islands",
+            "longitude": 160.0,
+            "latitude": -9.4333
+        },
+        {
+            "name": "Swimming at the Falls",
+            "description": "Cool off with a refreshing swim at Mataniko Falls, making it a perfect reward after your adventure hike in the jungle.",
+            "location": "Mataniko Falls, Honiara, Solomon Islands",
+            "longitude": 160.0,
+            "latitude": -9.4333
+        }
+    ]
+},
+{
+    "name": "Skull Island Historic Visit",
+    "category": "History",
+    "score": 4,
+    "description": "Visit Skull Island, known for its eerie history and collection of ancient human skulls, offering a glimpse into the Solomon Islands' past.",
+    "city": "Skull Island",
+    "longitude": 157.9381,
+    "latitude": -8.4855,
+    "cost": "$$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for a Skull Island Historic Visit is during the dry season, from May to September, when the weather is generally more suitable for outdoor exploration and historical tours.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rainfall, making the visit to Skull Island less comfortable and accessible.",
+    "suggested_venues": [
+        {
+            "name": "Historical Exploration",
+            "description": "Explore the historical significance of Skull Island, where you can learn about its eerie past and the collection of ancient human skulls that provide insight into the region's history.",
+            "location": "Skull Island, Solomon Islands",
+            "longitude": 157.9381,
+            "latitude": -8.4855
+        },
+        {
+            "name": "Cultural Insights",
+            "description": "Gain cultural insights into the Solomon Islands' past and traditions by visiting Skull Island and engaging with local guides who share stories and knowledge.",
+            "location": "Skull Island, Solomon Islands",
+            "longitude": 157.9381,
+            "latitude": -8.4855
+        },
+        {
+            "name": "Scenic Views",
+            "description": "Enjoy scenic views from Skull Island, which is surrounded by natural beauty and offers unique perspectives of the Solomon Islands' coastal landscapes.",
+            "location": "Skull Island, Solomon Islands",
+            "longitude": 157.9381,
+            "latitude": -8.4855
+        }
+    ]
+},
+{
+    "name": "Malaita Island Kastom Village Tour",
+    "category": "Culture",
+    "score": 4,
+    "description": "Experience traditional life in a Kastom Village on Malaita Island, learning about local customs, crafts, and way of life.",
+    "city": "Malaita",
+    "longitude": 160.7667,
+    "latitude": -9.1667,
+    "cost": "$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for a Malaita Island Kastom Village Tour is during the dry season, from May to September, when the weather is generally more favorable for outdoor cultural experiences and village visits.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rainfall, which can impact the tour experience and accessibility to Kastom Villages.",
+    "suggested_venues": [
+        {
+            "name": "Kastom Village Immersion",
+            "description": "Immerse yourself in the traditional life of a Kastom Village on Malaita Island, where you can interact with locals, learn about their customs, and experience their way of life.",
+            "location": "Malaita Island, Solomon Islands",
+            "longitude": 160.7667,
+            "latitude": -9.1667
+        },
+        {
+            "name": "Cultural Workshops",
+            "description": "Participate in cultural workshops within the Kastom Village, where you can engage in traditional crafts, dances, and other aspects of local culture.",
+            "location": "Malaita Island, Solomon Islands",
+            "longitude": 160.7667,
+            "latitude": -9.1667
+        },
+        {
+            "name": "Local Cuisine Tasting",
+            "description": "Taste traditional Solomon Islands cuisine during your village tour, savoring the flavors of the region's unique dishes and culinary traditions.",
+            "location": "Malaita Island, Solomon Islands",
+            "longitude": 160.7667,
+            "latitude": -9.1667
+        }
+    ]
+},
+{
+    "name": "Florida Islands Kayaking",
+    "category": "Leisure",
+    "score": 4,
+    "description": "Kayak around the serene Florida Islands, exploring its secluded beaches, traditional villages, and vibrant coral reefs.",
+    "city": "Florida Islands",
+    "longitude": 160.15,
+    "latitude": -9.5,
+    "cost": "$$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for Florida Islands Kayaking is during the dry season, from May to September, when the weather is generally favorable, and the waters are calm, making it ideal for kayaking and exploring the islands.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rainfall and rougher seas, which can affect kayaking and outdoor activities.",
+    "suggested_venues": [
+        {
+            "name": "Kayak Exploration",
+            "description": "Embark on a kayak exploration adventure in the Florida Islands, where you can paddle to secluded beaches, visit traditional villages, and discover vibrant coral reefs.",
+            "location": "Florida Islands, Solomon Islands",
+            "longitude": 160.15,
+            "latitude": -9.5
+        },
+        {
+            "name": "Secluded Beaches",
+            "description": "Discover hidden and serene beaches as you kayak around the Florida Islands, providing opportunities for relaxation and beachcombing.",
+            "location": "Florida Islands, Solomon Islands",
+            "longitude": 160.15,
+            "latitude": -9.5
+        },
+        {
+            "name": "Coral Reef Snorkeling",
+            "description": "Combine your kayaking adventure with snorkeling to explore the vibrant coral reefs surrounding the Florida Islands and encounter diverse marine life.",
+            "location": "Florida Islands, Solomon Islands",
+            "longitude": 160.15,
+            "latitude": -9.5
+        }
+    ]
+},
+{
+    "name": "Tulagi Island World War II Tour",
+    "category": "History",
+    "score": 4,
+    "description": "Explore Tulagi Island's World War II history, visiting remnants from the war and learning about the island's strategic importance.",
+    "city": "Tulagi",
+    "longitude": 160.1467,
+    "latitude": -9.1031,
+    "cost": "$$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for a Tulagi Island World War II Tour is during the dry season, from May to September, when the weather is generally more pleasant for outdoor exploration, and the historical sites are easily accessible.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rainfall, which can affect the tour experience and site accessibility.",
+    "suggested_venues": [
+        {
+            "name": "World War II Remnants",
+            "description": "Visit remnants from World War II on Tulagi Island, including bunkers, memorials, and historical sites that provide insights into the island's wartime history.",
+            "location": "Tulagi Island, Solomon Islands",
+            "longitude": 160.1467,
+            "latitude": -9.1031
+        },
+        {
+            "name": "Historical Guided Tours",
+            "description": "Take guided tours to learn about the strategic importance of Tulagi Island during World War II and hear stories about the events that took place here.",
+            "location": "Tulagi Island, Solomon Islands",
+            "longitude": 160.1467,
+            "latitude": -9.1031
+        },
+        {
+            "name": "Museum Visits",
+            "description": "Explore museums on Tulagi Island that house artifacts, photographs, and documents related to the World War II history of the Solomon Islands.",
+            "location": "Tulagi Island, Solomon Islands",
+            "longitude": 160.1467,
+            "latitude": -9.1031
+        }
+    ]
+}
 ]

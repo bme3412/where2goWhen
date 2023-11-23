@@ -7,7 +7,34 @@
         "city": "Kokoda",
         "longitude": 147.7368,
         "latitude": -8.8775,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to trek the Kokoda Track is during the dry season, from April to September, when the weather is more favorable and the trail is less muddy.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March"],
+        "worst_time_to_go_description": "The wet season, from October to March, can bring heavy rains and difficult trail conditions, making it less suitable for trekking.",
+        "suggested_venues": [
+            {
+                "name": "Kokoda Track Trailhead",
+                "description": "Begin your adventurous journey at the Kokoda Track trailhead, where you'll embark on a challenging and historic trek.",
+                "location": "Kokoda Track Trailhead, Kokoda, Papua New Guinea",
+                "longitude": 147.7368,
+                "latitude": -8.8775
+            },
+            {
+                "name": "Local Guided Tours",
+                "description": "Consider hiring local guides who are experienced in leading treks along the Kokoda Track, providing you with valuable insights and support.",
+                "location": "Local Tour Operators, Kokoda, Papua New Guinea",
+                "longitude": 147.7368,
+                "latitude": -8.8775
+            },
+            {
+                "name": "Historical Sites",
+                "description": "Along the Kokoda Track, you'll encounter various World War II historical sites, offering a poignant and educational aspect to your trek.",
+                "location": "Historical Sites, Kokoda Track, Papua New Guinea",
+                "longitude": 147.7368,
+                "latitude": -8.8775
+            }
+        ]
     },
     {
         "name": "Mount Wilhelm Hiking",
@@ -17,8 +44,37 @@
         "city": "Mount Wilhelm",
         "longitude": 145.0333,
         "latitude": -5.8,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for Mount Wilhelm hiking is during the dry season, from May to September, when the weather is more favorable and the trails are less slippery.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The wet season, from October to April, can bring heavy rains and difficult trail conditions, making it less suitable for hiking.",
+        "suggested_venues": [
+            {
+                "name": "Mount Wilhelm Base Camp",
+                "description": "Begin your hiking adventure at the Mount Wilhelm Base Camp, where you can prepare and acclimatize before ascending the peak.",
+                "location": "Mount Wilhelm Base Camp, Mount Wilhelm, Papua New Guinea",
+                "longitude": 145.0333,
+                "latitude": -5.8
+            },
+            {
+                "name": "Scenic Vantage Points",
+                "description": "Experience breathtaking views of the surrounding landscape from various scenic vantage points along the hiking trail.",
+                "location": "Scenic Vantage Points, Mount Wilhelm, Papua New Guinea",
+                "longitude": 145.0333,
+                "latitude": -5.8
+            },
+            {
+                "name": "Local Guides",
+                "description": "Consider hiring local guides who are familiar with the area and can enhance your hiking experience with their knowledge and expertise.",
+                "location": "Local Guides, Mount Wilhelm, Papua New Guinea",
+                "longitude": 145.0333,
+                "latitude": -5.8
+            }
+        ]
     },
+
+
     {
         "name": "Tufi Fjords Diving",
         "category": "Adventure",
@@ -27,8 +83,37 @@
         "city": "Tufi",
         "longitude": 149.3167,
         "latitude": -9.0833,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for Tufi Fjords diving is during the dry season, from May to September, when underwater visibility is excellent, and the weather is more predictable.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The wet season, from October to April, can bring occasional heavy rains and reduced visibility underwater, making it less ideal for diving.",
+        "suggested_venues": [
+            {
+                "name": "Tufi Dive Resort",
+                "description": "Stay at the Tufi Dive Resort, which offers easy access to the fjords and a range of diving services, including guided dives and equipment rental.",
+                "location": "Tufi Dive Resort, Tufi, Papua New Guinea",
+                "longitude": 149.3167,
+                "latitude": -9.0833
+            },
+            {
+                "name": "Coral Reef Dives",
+                "description": "Explore the pristine coral reefs of the Tufi Fjords, where you can encounter colorful marine life, including tropical fish, coral species, and more.",
+                "location": "Coral Reef Dives, Tufi Fjords, Papua New Guinea",
+                "longitude": 149.3167,
+                "latitude": -9.0833
+            },
+            {
+                "name": "World War II Wreck Dives",
+                "description": "Delve into history by going on World War II wreck dives in the Tufi Fjords, where you can explore sunken relics from the past.",
+                "location": "World War II Wreck Dives, Tufi Fjords, Papua New Guinea",
+                "longitude": 149.3167,
+                "latitude": -9.0833
+            }
+        ]
     },
+
+
     {
         "name": "Sepik River Cultural Experience",
         "category": "Culture",
@@ -37,8 +122,37 @@
         "city": "Sepik River",
         "longitude": 143.6472,
         "latitude": -4.25,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to experience the Sepik River culture is during the dry season, from June to September, when river travel is more convenient, and local festivals often take place.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April", "May"],
+        "worst_time_to_go_description": "The wet season, from October to May, can lead to flooded areas and limited access to river communities, making it less favorable for cultural exploration.",
+        "suggested_venues": [
+            {
+                "name": "Sepik River Villages",
+                "description": "Visit various Sepik River villages to interact with the local communities, witness traditional art and crafts, and immerse yourself in their way of life.",
+                "location": "Sepik River Villages, Sepik River, Papua New Guinea",
+                "longitude": 143.6472,
+                "latitude": -4.25
+            },
+            {
+                "name": "Cultural Festivals",
+                "description": "Participate in or attend cultural festivals that often occur during the dry season, showcasing traditional dances, ceremonies, and rituals.",
+                "location": "Various Locations along Sepik River, Papua New Guinea",
+                "longitude": 143.6472,
+                "latitude": -4.25
+            },
+            {
+                "name": "Artisan Workshops",
+                "description": "Engage in artisan workshops to learn about and create traditional Sepik River art and crafts, including woodcarvings and masks.",
+                "location": "Artisan Workshops, Sepik River, Papua New Guinea",
+                "longitude": 143.6472,
+                "latitude": -4.25
+            }
+        ]
     },
+
+
     {
         "name": "Goroka Show Cultural Festival",
         "category": "Culture",
@@ -47,8 +161,37 @@
         "city": "Goroka",
         "longitude": 145.3855,
         "latitude": -6.0834,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["September"],
+        "best_time_to_go_description": "The best time to attend the Goroka Show is in September when the festival takes place, bringing together various cultural groups in a vibrant celebration.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April", "May", "June", "July", "August"],
+        "worst_time_to_go_description": "The Goroka Show is a seasonal event, and outside of September, it may not be available. It's recommended to plan your visit during the festival month.",
+        "suggested_venues": [
+            {
+                "name": "Goroka Showgrounds",
+                "description": "Experience the Goroka Show at the Goroka Showgrounds, where you can witness traditional dances, music performances, and cultural exhibitions.",
+                "location": "Goroka Showgrounds, Goroka, Papua New Guinea",
+                "longitude": 145.3855,
+                "latitude": -6.0834
+            },
+            {
+                "name": "Ethnic Group Displays",
+                "description": "Explore displays and exhibitions by various ethnic groups, showcasing their unique traditions, costumes, and crafts during the festival.",
+                "location": "Ethnic Group Displays Area, Goroka Show, Papua New Guinea",
+                "longitude": 145.3855,
+                "latitude": -6.0834
+            },
+            {
+                "name": "Local Cuisine Stalls",
+                "description": "Indulge in traditional Papua New Guinean cuisine at local food stalls, offering a taste of the diverse culinary heritage of the region.",
+                "location": "Local Cuisine Stalls, Goroka Show, Papua New Guinea",
+                "longitude": 145.3855,
+                "latitude": -6.0834
+            }
+        ]
     },
+
+
     {
         "name": "Madang Lagoon Snorkeling",
         "category": "Nature",
@@ -57,8 +200,37 @@
         "city": "Madang",
         "longitude": 145.7966,
         "latitude": -5.2246,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for Madang Lagoon snorkeling is during the dry season, from May to September, when underwater visibility is excellent, and marine life is more active.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The wet season, from October to April, may bring occasional heavy rains and reduced underwater visibility, making it less ideal for snorkeling.",
+        "suggested_venues": [
+            {
+                "name": "Madang Lagoon Dive Centers",
+                "description": "Explore the Madang Lagoon's underwater wonders with the assistance of local dive centers that offer guided snorkeling tours and equipment rental.",
+                "location": "Madang Lagoon Dive Centers, Madang, Papua New Guinea",
+                "longitude": 145.7966,
+                "latitude": -5.2246
+            },
+            {
+                "name": "Coral Garden Sites",
+                "description": "Discover vibrant coral gardens within the Madang Lagoon, where you can encounter a diverse array of coral species and marine creatures.",
+                "location": "Coral Garden Sites, Madang Lagoon, Papua New Guinea",
+                "longitude": 145.7966,
+                "latitude": -5.2246
+            },
+            {
+                "name": "Tropical Fish Viewing",
+                "description": "Enjoy watching and interacting with a variety of colorful tropical fish species that inhabit the crystal-clear waters of Madang Lagoon.",
+                "location": "Tropical Fish Viewing Areas, Madang Lagoon, Papua New Guinea",
+                "longitude": 145.7966,
+                "latitude": -5.2246
+            }
+        ]
     },
+
+
     {
         "name": "Rabaul Volcano Adventure",
         "category": "Adventure",
@@ -67,8 +239,37 @@
         "city": "Rabaul",
         "longitude": 152.1434,
         "latitude": -4.1960,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a Rabaul volcano adventure is during the dry season, from May to September, when volcanic activity is more predictable, and hiking conditions are better.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The wet season, from October to April, can bring heavy rainfall and may limit access to volcanic sites, making it less suitable for exploration.",
+        "suggested_venues": [
+            {
+                "name": "Volcano Tours",
+                "description": "Join guided volcano tours that offer safe and informative experiences, taking you close to the active volcanic areas of Rabaul.",
+                "location": "Volcano Tour Operators, Rabaul, Papua New Guinea",
+                "longitude": 152.1434,
+                "latitude": -4.1960
+            },
+            {
+                "name": "Volcanic Crater Excursions",
+                "description": "Explore the volcanic craters and lava fields, witnessing the powerful forces of nature and the unique landscapes they create.",
+                "location": "Volcanic Crater Sites, Rabaul, Papua New Guinea",
+                "longitude": 152.1434,
+                "latitude": -4.1960
+            },
+            {
+                "name": "Historical Eruption Sites",
+                "description": "Visit historical eruption sites in Rabaul to learn about the town's volcanic history and the resilience of its inhabitants.",
+                "location": "Historical Eruption Sites, Rabaul, Papua New Guinea",
+                "longitude": 152.1434,
+                "latitude": -4.1960
+            }
+        ]
     },
+
+
     {
         "name": "Kavieng Surfing Experience",
         "category": "Leisure",
@@ -77,8 +278,37 @@
         "city": "Kavieng",
         "longitude": 150.7967,
         "latitude": -2.5794,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time for a Kavieng surfing experience is during the dry season, from May to October, when the surf conditions are optimal with consistent waves and pleasant weather.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The wet season, from November to April, can bring unpredictable weather patterns and occasional rough seas, making it less ideal for surfing.",
+        "suggested_venues": [
+            {
+                "name": "Surf Breaks",
+                "description": "Explore various surf breaks along the coast of Kavieng, catering to surfers of all skill levels, from beginners to advanced riders.",
+                "location": "Surf Breaks, Kavieng, Papua New Guinea",
+                "longitude": 150.7967,
+                "latitude": -2.5794
+            },
+            {
+                "name": "Local Surf Schools",
+                "description": "Consider taking lessons from local surf schools and instructors who can help you improve your skills and safely enjoy the waves.",
+                "location": "Local Surf Schools, Kavieng, Papua New Guinea",
+                "longitude": 150.7967,
+                "latitude": -2.5794
+            },
+            {
+                "name": "Beachside Cafes",
+                "description": "After a day of surfing, relax at beachside cafes in Kavieng, where you can enjoy local cuisine and the laid-back coastal atmosphere.",
+                "location": "Beachside Cafes, Kavieng, Papua New Guinea",
+                "longitude": 150.7967,
+                "latitude": -2.5794
+            }
+        ]
     },
+
+
     {
         "name": "Baining Fire Dance Ceremony",
         "category": "Culture",
@@ -87,8 +317,37 @@
         "city": "East New Britain",
         "longitude": 151.2845,
         "latitude": -4.3431,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["July", "August"],
+        "best_time_to_go_description": "The best time to witness the Baining Fire Dance is during July and August when the Baining people traditionally perform this mesmerizing ceremony.",
+        "worst_time_to_go": ["September", "October", "November", "December", "January", "February", "March", "April", "May", "June"],
+        "worst_time_to_go_description": "The Baining Fire Dance is typically not performed during the wet season, from September to May, so it's best to plan your visit during July and August.",
+        "suggested_venues": [
+            {
+                "name": "Baining Village",
+                "description": "Experience the Baining Fire Dance in the traditional setting of a Baining village, where you can immerse yourself in their culture and customs.",
+                "location": "Baining Village, East New Britain, Papua New Guinea",
+                "longitude": 151.2845,
+                "latitude": -4.3431
+            },
+            {
+                "name": "Cultural Performances",
+                "description": "In addition to the Fire Dance, you may also have the opportunity to enjoy other cultural performances and rituals of the Baining people.",
+                "location": "Baining Village, East New Britain, Papua New Guinea",
+                "longitude": 151.2845,
+                "latitude": -4.3431
+            },
+            {
+                "name": "Local Art and Crafts",
+                "description": "Explore and purchase traditional Baining art and crafts, which can serve as meaningful souvenirs from your cultural experience.",
+                "location": "Baining Village, East New Britain, Papua New Guinea",
+                "longitude": 151.2845,
+                "latitude": -4.3431
+            }
+        ]
     },
+
+
     {
         "name": "Port Moresby Nature Park Visit",
         "category": "Nature",
@@ -97,6 +356,33 @@
         "city": "Port Moresby",
         "longitude": 147.1782,
         "latitude": -9.4438,
-        "cost": "$"
-    }
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit Port Moresby Nature Park is during the dry season, from May to September, when the weather is more pleasant for outdoor exploration.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The wet season, from October to April, may bring heavy rainfall, which can affect the outdoor experience at the park.",
+        "suggested_venues": [
+            {
+                "name": "Nature Park Exhibits",
+                "description": "Explore the diverse exhibits at Port Moresby Nature Park, featuring native flora and fauna, including birds, reptiles, and plant species.",
+                "location": "Port Moresby Nature Park, Port Moresby, Papua New Guinea",
+                "longitude": 147.1782,
+                "latitude": -9.4438
+            },
+            {
+                "name": "Bird Watching",
+                "description": "Enjoy bird watching at the park, where you can spot various bird species native to Papua New Guinea in their natural habitat.",
+                "location": "Port Moresby Nature Park, Port Moresby, Papua New Guinea",
+                "longitude": 147.1782,
+                "latitude": -9.4438
+            },
+            {
+                "name": "Botanical Gardens",
+                "description": "Stroll through the botanical gardens within the park to admire the rich diversity of plant life from the region.",
+                "location": "Port Moresby Nature Park, Port Moresby, Papua New Guinea",
+                "longitude": 147.1782,
+                "latitude": -9.4438
+            }
+        ]
+    }    
 ]

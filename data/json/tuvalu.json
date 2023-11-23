@@ -7,8 +7,37 @@
         "city": "Funafuti",
         "longitude": 179.1940,
         "latitude": -8.5243,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit the Funafuti Conservation Area is during the dry season, from May to September, when the weather is more stable, and underwater visibility for snorkeling and diving is excellent.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional rain and less favorable sea conditions, which can affect the quality of underwater activities.",
+        "suggested_venues": [
+            {
+                "name": "Snorkeling and Diving",
+                "description": "Experience the vibrant underwater world of the Funafuti Conservation Area by snorkeling and diving in its pristine atolls and lagoons, where you can encounter diverse marine life and colorful coral reefs.",
+                "location": "Funafuti, Tuvalu",
+                "longitude": 179.1940,
+                "latitude": -8.5243
+            },
+            {
+                "name": "Marine Conservation",
+                "description": "Learn about marine conservation efforts in the area and the importance of protecting this ecological treasure during your visit to the Funafuti Conservation Area.",
+                "location": "Funafuti, Tuvalu",
+                "longitude": 179.1940,
+                "latitude": -8.5243
+            },
+            {
+                "name": "Island Exploration",
+                "description": "In addition to underwater activities, explore the picturesque islands and landscapes within the Funafuti Conservation Area, offering opportunities for relaxation and natural beauty appreciation.",
+                "location": "Funafuti, Tuvalu",
+                "longitude": 179.1940,
+                "latitude": -8.5243
+            }
+        ]
     },
+
+
     {
         "name": "Nanumea Atoll Exploration",
         "category": "Adventure",
@@ -17,8 +46,37 @@
         "city": "Nanumea",
         "longitude": 176.3186,
         "latitude": -5.6667,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to explore Nanumea Atoll is during the dry season, from May to September, when the weather is more predictable, and you can fully enjoy the beaches and outdoor activities.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional rainfall and less ideal beach conditions, affecting outdoor adventures.",
+        "suggested_venues": [
+            {
+                "name": "Beach Activities",
+                "description": "Spend your time on Nanumea Atoll's beautiful beaches, where you can relax, swim, sunbathe, and engage in beachcombing and water sports.",
+                "location": "Nanumea, Tuvalu",
+                "longitude": 176.3186,
+                "latitude": -5.6667
+            },
+            {
+                "name": "Cultural Immersion",
+                "description": "Immerse yourself in the traditional Polynesian culture of Nanumea, interacting with locals, experiencing their customs, and learning about the atoll's heritage.",
+                "location": "Nanumea, Tuvalu",
+                "longitude": 176.3186,
+                "latitude": -5.6667
+            },
+            {
+                "name": "WWII History",
+                "description": "Explore the WWII history of Nanumea Atoll, including any historical sites or remnants that may provide insights into the atoll's wartime past.",
+                "location": "Nanumea, Tuvalu",
+                "longitude": 176.3186,
+                "latitude": -5.6667
+            }
+        ]
     },
+
+
     {
         "name": "Vaitupu Island Cultural Experience",
         "category": "Culture",
@@ -27,8 +85,37 @@
         "city": "Vaitupu",
         "longitude": 178.6938,
         "latitude": -7.4774,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to immerse yourself in the local culture on Vaitupu Island is during the dry season, from May to September, when the weather is more favorable for outdoor cultural activities.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional rainfall and less ideal conditions for outdoor cultural experiences.",
+        "suggested_venues": [
+            {
+                "name": "Traditional Dances",
+                "description": "Witness traditional dances performed by the locals on Vaitupu Island, where you can enjoy the rhythmic and vibrant expressions of Tuvaluan culture.",
+                "location": "Vaitupu, Tuvalu",
+                "longitude": 178.6938,
+                "latitude": -7.4774
+            },
+            {
+                "name": "Craft Workshops",
+                "description": "Participate in craft workshops to learn about and create traditional Tuvaluan crafts, providing an opportunity for hands-on cultural experiences.",
+                "location": "Vaitupu, Tuvalu",
+                "longitude": 178.6938,
+                "latitude": -7.4774
+            },
+            {
+                "name": "Village Life",
+                "description": "Engage with the friendly locals and experience the daily life in Tuvaluan villages on Vaitupu Island, gaining insights into their customs, traditions, and hospitality.",
+                "location": "Vaitupu, Tuvalu",
+                "longitude": 178.6938,
+                "latitude": -7.4774
+            }
+        ]
     },
+
+
     {
         "name": "Fongafale Islet Biking Tour",
         "category": "Leisure",
@@ -37,8 +124,36 @@
         "city": "Fongafale",
         "longitude": 179.1956,
         "latitude": -8.5201,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to enjoy a biking tour on Fongafale Islet is during the dry season, from May to September, when the weather is more favorable for outdoor activities and exploring the islet.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional rainfall and less ideal conditions for biking, but it can still be an enjoyable experience.",
+        "suggested_venues": [
+            {
+                "name": "Scenic Views",
+                "description": "Enjoy scenic views of the beautiful coastline, turquoise waters, and lush landscapes as you bike around Fongafale Islet, capturing the essence of Funafuti's natural beauty.",
+                "location": "Fongafale, Funafuti, Tuvalu",
+                "longitude": 179.1956,
+                "latitude": -8.5201
+            },
+            {
+                "name": "Local Villages",
+                "description": "Explore the local villages on Fongafale Islet, interact with the friendly Tuvaluan residents, and get a glimpse into their daily life and culture.",
+                "location": "Fongafale, Funafuti, Tuvalu",
+                "longitude": 179.1956,
+                "latitude": -8.5201
+            },
+            {
+                "name": "Laid-Back Atmosphere",
+                "description": "Experience the laid-back island atmosphere of Fongafale Islet, where you can pedal at your own pace, unwind, and immerse yourself in the tranquil surroundings.",
+                "location": "Fongafale, Funafuti, Tuvalu",
+                "longitude": 179.1956,
+                "latitude": -8.5201
+            }
+        ]
     },
+
     {
         "name": "Tepuka Island Day Trip",
         "category": "Nature",
@@ -47,8 +162,37 @@
         "city": "Tepuka",
         "longitude": 179.28,
         "latitude": -8.6,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to embark on a day trip to Tepuka Island is during the dry season, from May to September, when the weather is more favorable for outdoor activities, snorkeling, and birdwatching.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional rainfall and less ideal conditions for outdoor excursions to Tepuka Island, but it can still be a rewarding experience.",
+        "suggested_venues": [
+            {
+                "name": "Snorkeling Paradise",
+                "description": "Explore the vibrant underwater world surrounding Tepuka Island, where you can snorkel amidst colorful coral reefs and encounter a variety of marine life.",
+                "location": "Tepuka Island, Tuvalu",
+                "longitude": 179.28,
+                "latitude": -8.6
+            },
+            {
+                "name": "Birdwatching",
+                "description": "Discover the rich birdlife on Tepuka Island, a haven for birdwatchers, and observe native and migratory bird species in their natural habitat.",
+                "location": "Tepuka Island, Tuvalu",
+                "longitude": 179.28,
+                "latitude": -8.6
+            },
+            {
+                "name": "Untouched Nature",
+                "description": "Experience the untouched beauty of Tepuka Island, with its pristine beaches, lush vegetation, and serene atmosphere, making it an ideal escape from the hustle and bustle.",
+                "location": "Tepuka Island, Tuvalu",
+                "longitude": 179.28,
+                "latitude": -8.6
+            }
+        ]
     },
+
+
     {
         "name": "Nukufetau Atoll Lagoon Adventure",
         "category": "Adventure",
@@ -57,8 +201,37 @@
         "city": "Nukufetau",
         "longitude": 178.3833,
         "latitude": -7.9,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a lagoon adventure in Nukufetau Atoll is during the dry season, from May to September, when the weather is generally favorable, and the waters are calm and clear for snorkeling and swimming.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional rainfall and less predictable weather conditions, which can affect water visibility and the overall experience.",
+        "suggested_venues": [
+            {
+                "name": "Crystal-Clear Waters",
+                "description": "Immerse yourself in the crystal-clear waters of Nukufetau Atoll's lagoon, where you can see the vibrant marine life and coral reefs beneath the surface.",
+                "location": "Nukufetau Atoll, Tuvalu",
+                "longitude": 178.3833,
+                "latitude": -7.9
+            },
+            {
+                "name": "Snorkeling Paradise",
+                "description": "Discover the underwater wonders of the atoll, with snorkeling opportunities to observe colorful coral gardens and a variety of fish species.",
+                "location": "Nukufetau Atoll, Tuvalu",
+                "longitude": 178.3833,
+                "latitude": -7.9
+            },
+            {
+                "name": "Swimming and Relaxation",
+                "description": "Enjoy swimming in the lagoon's tranquil waters and relax on the sandy shores of Nukufetau Atoll, making it a perfect escape for water enthusiasts.",
+                "location": "Nukufetau Atoll, Tuvalu",
+                "longitude": 178.3833,
+                "latitude": -7.9
+            }
+        ]
     },
+
+
     {
         "name": "Nui Island Traditional Weaving",
         "category": "Culture",
@@ -67,8 +240,36 @@
         "city": "Nui",
         "longitude": 177.35,
         "latitude": -7.2167,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to immerse yourself in traditional weaving on Nui Island is during the dry season, from May to September, when the weather is pleasant and outdoor activities are more enjoyable.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The wet season, from October to April, may bring occasional rainfall and less favorable conditions for outdoor cultural experiences.",
+        "suggested_venues": [
+            {
+                "name": "Artisan Workshops",
+                "description": "Visit artisan workshops on Nui Island, where skilled craftsmen and women showcase traditional weaving techniques and create unique handicrafts.",
+                "location": "Nui Island, Tuvalu",
+                "longitude": 177.35,
+                "latitude": -7.2167
+            },
+            {
+                "name": "Weaving Demonstrations",
+                "description": "Attend weaving demonstrations and workshops to learn the art of traditional weaving from local experts, gaining insights into Tuvaluan culture.",
+                "location": "Nui Island, Tuvalu",
+                "longitude": 177.35,
+                "latitude": -7.2167
+            },
+            {
+                "name": "Handcrafted Souvenirs",
+                "description": "Explore a wide range of handcrafted souvenirs, including woven items, mats, and baskets, which make for meaningful mementos of your cultural experience on Nui Island.",
+                "location": "Nui Island, Tuvalu",
+                "longitude": 177.35,
+                "latitude": -7.2167
+            }
+        ]
     },
+
     {
         "name": "Philatelic Bureau Visit",
         "category": "Shopping",
@@ -77,8 +278,37 @@
         "city": "Funafuti",
         "longitude": 179.1983,
         "latitude": -8.5211,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["Year-round"],
+        "best_time_to_go_description": "You can visit the Tuvalu Philatelic Bureau year-round to explore its unique stamp collections, making it a convenient activity for collectors and enthusiasts.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There are no specific worst times to visit the Philatelic Bureau, as it remains open year-round for stamp enthusiasts.",
+        "suggested_venues": [
+            {
+                "name": "Stamp Collections",
+                "description": "Browse through a wide range of stamp collections at the Tuvalu Philatelic Bureau, featuring stamps that depict local culture, wildlife, and more.",
+                "location": "Funafuti, Tuvalu",
+                "longitude": 179.1983,
+                "latitude": -8.5211
+            },
+            {
+                "name": "Collector's Paradise",
+                "description": "The Philatelic Bureau is a collector's paradise, with opportunities to find unique and rare stamps that showcase the beauty and heritage of Tuvalu.",
+                "location": "Funafuti, Tuvalu",
+                "longitude": 179.1983,
+                "latitude": -8.5211
+            },
+            {
+                "name": "Local Stamp Artistry",
+                "description": "Discover the artistry behind Tuvalu's stamp designs, which often feature intricate illustrations and vibrant colors representing the country's rich culture.",
+                "location": "Funafuti, Tuvalu",
+                "longitude": 179.1983,
+                "latitude": -8.5211
+            }
+        ]
     },
+
+
     {
         "name": "Funafala Island Picnic",
         "category": "Leisure",
@@ -87,8 +317,37 @@
         "city": "Funafala",
         "longitude": 179.12,
         "latitude": -8.53,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["Year-round"],
+        "best_time_to_go_description": "You can enjoy a picnic on Funafala Island year-round, making it a flexible and accessible leisure activity throughout the year.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There are no specific worst times to visit Funafala Island for a picnic, as it remains a pleasant and serene destination year-round.",
+        "suggested_venues": [
+            {
+                "name": "Scenic Beaches",
+                "description": "Discover the picturesque beaches of Funafala Island, perfect for a tranquil picnic with stunning ocean views and soft sands.",
+                "location": "Funafala Island, Funafuti Atoll, Tuvalu",
+                "longitude": 179.12,
+                "latitude": -8.53
+            },
+            {
+                "name": "Natural Beauty",
+                "description": "Immerse yourself in the natural beauty of Funafala Island, where you can relax, unwind, and connect with the peaceful surroundings.",
+                "location": "Funafala Island, Funafuti Atoll, Tuvalu",
+                "longitude": 179.12,
+                "latitude": -8.53
+            },
+            {
+                "name": "Picnic Delights",
+                "description": "Bring your favorite picnic treats and enjoy a delightful meal in the tranquil setting of Funafala Island, making it a memorable and leisurely experience.",
+                "location": "Funafala Island, Funafuti Atoll, Tuvalu",
+                "longitude": 179.12,
+                "latitude": -8.53
+            }
+        ]
     },
+
+
     {
         "name": "Te Namo Lagoon Fishing",
         "category": "Adventure",
@@ -97,6 +356,33 @@
         "city": "Funafuti",
         "longitude": 179.2,
         "latitude": -8.55,
-        "cost": "$$"
-    }
+        "cost": "$$",
+        "best_time_to_go": ["Year-round"],
+        "best_time_to_go_description": "You can enjoy traditional fishing in Te Namo Lagoon year-round, making it a flexible adventure activity suitable for all seasons.",
+        "worst_time_to_go": [],
+        "worst_time_to_go_description": "There are no specific worst times to go fishing in Te Namo Lagoon, as it offers opportunities for exploration and traditional fishing throughout the year.",
+        "suggested_venues": [
+            {
+                "name": "Marine Biodiversity",
+                "description": "Explore the diverse marine biodiversity of Te Namo Lagoon while traditional fishing, witnessing the underwater world and local fishing techniques.",
+                "location": "Te Namo Lagoon, Funafuti, Tuvalu",
+                "longitude": 179.2,
+                "latitude": -8.55
+            },
+            {
+                "name": "Cultural Experience",
+                "description": "Engage in a cultural experience as you participate in traditional fishing methods, learning about Tuvaluan life and its deep connection to the ocean.",
+                "location": "Te Namo Lagoon, Funafuti, Tuvalu",
+                "longitude": 179.2,
+                "latitude": -8.55
+            },
+            {
+                "name": "Local Expertise",
+                "description": "Join local fishermen who are experts in traditional fishing, gaining insights into their skills and knowledge passed down through generations.",
+                "location": "Te Namo Lagoon, Funafuti, Tuvalu",
+                "longitude": 179.2,
+                "latitude": -8.55
+            }
+        ]
+    }    
 ]

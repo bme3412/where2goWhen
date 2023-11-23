@@ -7,96 +7,368 @@
         "city": "Vava'u",
         "longitude": -174.0083,
         "latitude": -18.6466,
-        "cost": "$$$"
+        "cost": "$$$",
+        "best_time_to_go": ["July", "August", "September", "October"],
+        "best_time_to_go_description": "The best time for a Humpback Whale Swim adventure in Vava'u, Tonga, is during the whale season, from July to October when humpback whales migrate to these waters. This is the prime time to witness and swim with these majestic creatures.",
+        "worst_time_to_go": ["November", "December", "January", "February", "March", "April", "May", "June"],
+        "worst_time_to_go_description": "Outside of the whale season, from November to June, humpback whales are not present in the area, making it unsuitable for this adventure.",
+        "suggested_venues": [
+            {
+                "name": "Whale Watching Tours",
+                "description": "Book a guided whale watching tour in Vava'u, Tonga, where experienced guides will take you on a boat to spot humpback whales and arrange safe and respectful swim encounters.",
+                "location": "Vava'u, Tonga",
+                "longitude": -174.0083,
+                "latitude": -18.6466
+            },
+            {
+                "name": "Swimming Excursions",
+                "description": "Participate in swimming excursions that offer the chance to get up close and personal with humpback whales in their natural habitat, creating a once-in-a-lifetime experience.",
+                "location": "Vava'u, Tonga",
+                "longitude": -174.0083,
+                "latitude": -18.6466
+            },
+            {
+                "name": "Photography and Filming",
+                "description": "Capture the incredible moments of swimming with humpback whales through underwater photography and filming, preserving your memories of this unique adventure.",
+                "location": "Vava'u, Tonga",
+                "longitude": -174.0083,
+                "latitude": -18.6466
+            }
+        ]
     },
+
     {
-        "name": "Tongatapu Island Tour",
-        "category": "Culture",
-        "score": 4,
-        "description": "Explore Tongatapu, Tonga's main island, known for its historical sites, including the Ha'amonga 'a Maui Trilithon, royal tombs, and beautiful beaches.",
-        "city": "Tongatapu",
-        "longitude": -175.1982,
-        "latitude": -21.1789,
-        "cost": "$$"
-    },
-    {
-        "name": "Eua National Park Hiking",
-        "category": "Nature",
-        "score": 4,
-        "description": "Hike in 'Eua National Park, offering some of Tonga's most stunning and rugged landscapes, rich in birdlife and tropical rainforests.",
-        "city": "'Eua",
-        "longitude": -174.9386,
-        "latitude": -21.3783,
-        "cost": "$"
-    },
-    {
-        "name": "Ha'apai Islands Kayaking",
-        "category": "Leisure",
-        "score": 4,
-        "description": "Kayak in the serene waters of the Ha'apai Islands, exploring its secluded beaches, clear lagoons, and vibrant coral reefs.",
-        "city": "Ha'apai",
-        "longitude": -174.3000,
-        "latitude": -19.8000,
-        "cost": "$$"
-    },
-    {
-        "name": "Anahulu Cave Exploration",
-        "category": "Adventure",
-        "score": 4,
-        "description": "Explore the Anahulu Cave, the largest cave system in Tonga, known for its impressive limestone formations and underground freshwater pool.",
-        "city": "Haveluliku",
-        "longitude": -175.0,
-        "latitude": -21.15,
-        "cost": "$"
-    },
-    {
-        "name": "Nuku'alofa Cultural Experience",
-        "category": "Culture",
-        "score": 3,
-        "description": "Discover the vibrant culture of Nuku'alofa, Tonga's capital, with visits to the Royal Palace, local markets, and cultural centers.",
-        "city": "Nuku'alofa",
-        "longitude": -175.2049,
-        "latitude": -21.1394,
-        "cost": "$"
-    },
-    {
-        "name": "Mapu'a 'a Vaea Blowholes",
-        "category": "Nature",
-        "score": 4,
-        "description": "Witness the spectacular Mapu'a 'a Vaea Blowholes on Tongatapu, where the ocean waves create impressive natural fountains through rock formations.",
-        "city": "Tongatapu",
-        "longitude": -175.25,
-        "latitude": -21.2,
-        "cost": "$"
-    },
-    {
-        "name": "Talamahu Market Shopping",
-        "category": "Shopping",
-        "score": 3,
-        "description": "Visit the Talamahu Market in Nuku'alofa, the main marketplace in Tonga, for local produce, crafts, and a taste of the local lifestyle.",
-        "city": "Nuku'alofa",
-        "longitude": -175.2167,
-        "latitude": -21.1333,
-        "cost": "$"
-    },
-    {
-        "name": "Fafa Island Day Trip",
-        "category": "Relaxation",
-        "score": 4,
-        "description": "Take a day trip to Fafa Island, a small coral island surrounded by white sandy beaches and crystal-clear waters, perfect for relaxation and snorkeling.",
-        "city": "Fafa Island",
-        "longitude": -175.2,
-        "latitude": -21.1,
-        "cost": "$$$"
-    },
-    {
-        "name": "Royal Tombs Visit",
-        "category": "History",
-        "score": 3,
-        "description": "Explore the Royal Tombs (Langi) in Lapaha, an important historical site in Tonga, where ancient Tongan kings were buried.",
-        "city": "Lapaha",
-        "longitude": -175.3,
-        "latitude": -21.2,
-        "cost": "$"
-    }
+    "name": "Tongatapu Island Tour",
+    "category": "Culture",
+    "score": 4,
+    "description": "Explore Tongatapu, Tonga's main island, known for its historical sites, including the Ha'amonga 'a Maui Trilithon, royal tombs, and beautiful beaches.",
+    "city": "Tongatapu",
+    "longitude": -175.1982,
+    "latitude": -21.1789,
+    "cost": "$$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for a Tongatapu Island Tour is during the dry season, from May to September, when the weather is generally more pleasant for outdoor exploration and beach visits.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rainfall, which can impact the tour experience and site accessibility.",
+    "suggested_venues": [
+        {
+            "name": "Historical Sites",
+            "description": "Visit historical sites on Tongatapu Island, including the Ha'amonga 'a Maui Trilithon and royal tombs, to learn about the rich cultural heritage of Tonga.",
+            "location": "Tongatapu, Tonga",
+            "longitude": -175.1982,
+            "latitude": -21.1789
+        },
+        {
+            "name": "Beach Exploration",
+            "description": "Explore the beautiful beaches of Tongatapu, where you can relax, swim, and enjoy the stunning coastal landscapes of the island.",
+            "location": "Tongatapu, Tonga",
+            "longitude": -175.1982,
+            "latitude": -21.1789
+        },
+        {
+            "name": "Cultural Experiences",
+            "description": "Engage in cultural experiences on Tongatapu Island, such as traditional dance performances and local crafts, to immerse yourself in Tonga's culture.",
+            "location": "Tongatapu, Tonga",
+            "longitude": -175.1982,
+            "latitude": -21.1789
+        }
+    ]
+},
+{
+    "name": "Eua National Park Hiking",
+    "category": "Nature",
+    "score": 4,
+    "description": "Hike in 'Eua National Park, offering some of Tonga's most stunning and rugged landscapes, rich in birdlife and tropical rainforests.",
+    "city": "'Eua",
+    "longitude": -174.9386,
+    "latitude": -21.3783,
+    "cost": "$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for hiking in 'Eua National Park is during the dry season, from May to September, when the weather is generally more favorable, and the trails are in better condition for hiking.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there may be heavy rainfall, which can make hiking trails slippery and less enjoyable.",
+    "suggested_venues": [
+        {
+            "name": "'Eua National Park Trails",
+            "description": "Explore the hiking trails within 'Eua National Park, where you can witness stunning landscapes, lush rainforests, and diverse birdlife.",
+            "location": "'Eua, Tonga",
+            "longitude": -174.9386,
+            "latitude": -21.3783
+        },
+        {
+            "name": "Birdwatching",
+            "description": " 'Eua National Park is a paradise for birdwatchers, offering opportunities to spot a variety of bird species in their natural habitat.",
+            "location": "'Eua, Tonga",
+            "longitude": -174.9386,
+            "latitude": -21.3783
+        },
+        {
+            "name": "Picnic and Relaxation",
+            "description": "Enjoy a picnic amidst the natural beauty of 'Eua National Park, where you can relax and unwind surrounded by pristine landscapes.",
+            "location": "'Eua, Tonga",
+            "longitude": -174.9386,
+            "latitude": -21.3783
+        }
+    ]
+},
+{
+    "name": "Ha'apai Islands Kayaking",
+    "category": "Leisure",
+    "score": 4,
+    "description": "Kayak in the serene waters of the Ha'apai Islands, exploring its secluded beaches, clear lagoons, and vibrant coral reefs.",
+    "city": "Ha'apai",
+    "longitude": -174.3000,
+    "latitude": -19.8000,
+    "cost": "$$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for kayaking in the Ha'apai Islands is during the dry season, from May to September, when the weather is generally more favorable, and the waters are calm and suitable for kayaking and exploring the islands.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rainfall and rougher seas, which can affect kayaking and water-based activities.",
+    "suggested_venues": [
+        {
+            "name": "Kayak Adventures",
+            "description": "Embark on kayak adventures in the Ha'apai Islands, where you can paddle to secluded beaches, clear lagoons, and vibrant coral reefs, creating memorable experiences.",
+            "location": "Ha'apai, Tonga",
+            "longitude": -174.3000,
+            "latitude": -19.8000
+        },
+        {
+            "name": "Beach Exploration",
+            "description": "Explore the pristine and secluded beaches of the Ha'apai Islands as you kayak along the coastline, offering opportunities for relaxation and beachcombing.",
+            "location": "Ha'apai, Tonga",
+            "longitude": -174.3000,
+            "latitude": -19.8000
+        },
+        {
+            "name": "Coral Reef Snorkeling",
+            "description": "Combine your kayaking adventure with snorkeling to discover the vibrant coral reefs surrounding the Ha'apai Islands, teeming with marine life.",
+            "location": "Ha'apai, Tonga",
+            "longitude": -174.3000,
+            "latitude": -19.8000
+        }
+    ]
+},
+{
+    "name": "Anahulu Cave Exploration",
+    "category": "Adventure",
+    "score": 4,
+    "description": "Explore the Anahulu Cave, the largest cave system in Tonga, known for its impressive limestone formations and underground freshwater pool.",
+    "city": "Haveluliku",
+    "longitude": -175.0,
+    "latitude": -21.15,
+    "cost": "$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for Anahulu Cave Exploration is during the dry season, from May to September, when the weather is generally more favorable, and the cave is accessible for exploration.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rainfall, which can impact the accessibility and safety of exploring the cave.",
+    "suggested_venues": [
+        {
+            "name": "Cave Exploration",
+            "description": "Embark on a guided cave exploration adventure in Anahulu Cave, where you can witness impressive limestone formations and the underground freshwater pool.",
+            "location": "Haveluliku, Tonga",
+            "longitude": -175.0,
+            "latitude": -21.15
+        },
+        {
+            "name": "Limestone Formations",
+            "description": "Marvel at the stunning limestone formations within Anahulu Cave, including stalactites and stalagmites that have formed over thousands of years.",
+            "location": "Haveluliku, Tonga",
+            "longitude": -175.0,
+            "latitude": -21.15
+        },
+        {
+            "name": "Swimming in the Underground Pool",
+            "description": "Take a refreshing swim in the underground freshwater pool of Anahulu Cave, a unique and memorable experience during your exploration.",
+            "location": "Haveluliku, Tonga",
+            "longitude": -175.0,
+            "latitude": -21.15
+        }
+    ]
+},
+{
+    "name": "Nuku'alofa Cultural Experience",
+    "category": "Culture",
+    "score": 3,
+    "description": "Discover the vibrant culture of Nuku'alofa, Tonga's capital, with visits to the Royal Palace, local markets, and cultural centers.",
+    "city": "Nuku'alofa",
+    "longitude": -175.2049,
+    "latitude": -21.1394,
+    "cost": "$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for a Nuku'alofa Cultural Experience is during the dry season, from May to September, when the weather is generally more pleasant for outdoor exploration and cultural activities.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rainfall, which can impact outdoor activities and sightseeing.",
+    "suggested_venues": [
+        {
+            "name": "Royal Palace",
+            "description": "Visit the Royal Palace in Nuku'alofa, a historic and culturally significant landmark that offers insights into Tonga's monarchy and history.",
+            "location": "Nuku'alofa, Tonga",
+            "longitude": -175.2049,
+            "latitude": -21.1394
+        },
+        {
+            "name": "Local Markets",
+            "description": "Explore the vibrant local markets in Nuku'alofa, where you can shop for handicrafts, fresh produce, and experience the local way of life.",
+            "location": "Nuku'alofa, Tonga",
+            "longitude": -175.2049,
+            "latitude": -21.1394
+        },
+        {
+            "name": "Cultural Centers",
+            "description": "Visit cultural centers in Nuku'alofa to learn about Tonga's traditions, music, dance, and craftsmanship, enriching your cultural experience.",
+            "location": "Nuku'alofa, Tonga",
+            "longitude": -175.2049,
+            "latitude": -21.1394
+        }
+    ]
+},
+{
+    "name": "Mapu'a 'a Vaea Blowholes",
+    "category": "Nature",
+    "score": 4,
+    "description": "Witness the spectacular Mapu'a 'a Vaea Blowholes on Tongatapu, where the ocean waves create impressive natural fountains through rock formations.",
+    "city": "Tongatapu",
+    "longitude": -175.25,
+    "latitude": -21.2,
+    "cost": "$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time to witness the Mapu'a 'a Vaea Blowholes is during the dry season, from May to September, when the ocean waves are more active, creating impressive natural fountains through the rock formations.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, the ocean waves may be less active, and the blowholes might not be as spectacular as during the dry season.",
+    "suggested_venues": [
+        {
+            "name": "Blowhole Viewing",
+            "description": "Enjoy the mesmerizing sight of the Mapu'a 'a Vaea Blowholes as you watch the ocean waves create natural fountains through the unique rock formations.",
+            "location": "Tongatapu, Tonga",
+            "longitude": -175.25,
+            "latitude": -21.2
+        },
+        {
+            "name": "Scenic Coastal Walk",
+            "description": "Take a scenic coastal walk near the Mapu'a 'a Vaea Blowholes to explore the beautiful coastline and enjoy breathtaking views of the ocean.",
+            "location": "Tongatapu, Tonga",
+            "longitude": -175.25,
+            "latitude": -21.2
+        },
+        {
+            "name": "Photography Opportunity",
+            "description": "Capture the natural beauty of the Mapu'a 'a Vaea Blowholes with your camera, creating lasting memories of this unique natural phenomenon.",
+            "location": "Tongatapu, Tonga",
+            "longitude": -175.25,
+            "latitude": -21.2
+        }
+    ]
+},
+{
+    "name": "Talamahu Market Shopping",
+    "category": "Shopping",
+    "score": 3,
+    "description": "Visit the Talamahu Market in Nuku'alofa, the main marketplace in Tonga, for local produce, crafts, and a taste of the local lifestyle.",
+    "city": "Nuku'alofa",
+    "longitude": -175.2167,
+    "latitude": -21.1333,
+    "cost": "$",
+    "best_time_to_go": ["Monday", "Wednesday", "Friday", "Saturday"],
+    "best_time_to_go_description": "The Talamahu Market is most lively and bustling on Monday, Wednesday, Friday, and Saturday when local vendors offer fresh produce, crafts, and a vibrant atmosphere.",
+    "worst_time_to_go": ["Sunday", "Tuesday", "Thursday"],
+    "worst_time_to_go_description": "The Talamahu Market is less active on Sunday, Tuesday, and Thursday, with fewer vendors and a quieter atmosphere.",
+    "suggested_venues": [
+        {
+            "name": "Local Produce",
+            "description": "Explore the stalls offering fresh local produce at the Talamahu Market, where you can find fruits, vegetables, and other culinary delights.",
+            "location": "Nuku'alofa, Tonga",
+            "longitude": -175.2167,
+            "latitude": -21.1333
+        },
+        {
+            "name": "Crafts and Souvenirs",
+            "description": "Shop for Tongan crafts and souvenirs at the market, including traditional handicrafts, clothing, and unique items to take home as mementos.",
+            "location": "Nuku'alofa, Tonga",
+            "longitude": -175.2167,
+            "latitude": -21.1333
+        },
+        {
+            "name": "Local Cuisine",
+            "description": "Taste the flavors of Tonga by sampling local dishes and snacks available at the market, giving you a delicious insight into Tongan cuisine.",
+            "location": "Nuku'alofa, Tonga",
+            "longitude": -175.2167,
+            "latitude": -21.1333
+        }
+    ]
+},
+{
+    "name": "Fafa Island Day Trip",
+    "category": "Relaxation",
+    "score": 4,
+    "description": "Take a day trip to Fafa Island, a small coral island surrounded by white sandy beaches and crystal-clear waters, perfect for relaxation and snorkeling.",
+    "city": "Fafa Island",
+    "longitude": -175.2,
+    "latitude": -21.1,
+    "cost": "$$$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time for a day trip to Fafa Island is during the dry season, from May to September, when the weather is generally more stable, and you can fully enjoy the island's beauty and snorkeling opportunities.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional rain and rough seas, which can affect the experience and accessibility of Fafa Island.",
+    "suggested_venues": [
+        {
+            "name": "White Sandy Beaches",
+            "description": "Relax on the pristine white sandy beaches of Fafa Island, where you can soak up the sun and enjoy the tranquil atmosphere.",
+            "location": "Fafa Island, Tonga",
+            "longitude": -175.2,
+            "latitude": -21.1
+        },
+        {
+            "name": "Snorkeling",
+            "description": "Explore the underwater wonders around Fafa Island by snorkeling in its crystal-clear waters, discovering colorful coral reefs and marine life.",
+            "location": "Fafa Island, Tonga",
+            "longitude": -175.2,
+            "latitude": -21.1
+        },
+        {
+            "name": "Picnic and Relaxation",
+            "description": "Pack a picnic and unwind in the serene surroundings of Fafa Island, a perfect spot for a peaceful day trip and a break from the hustle and bustle.",
+            "location": "Fafa Island, Tonga",
+            "longitude": -175.2,
+            "latitude": -21.1
+        }
+    ]
+},
+{
+    "name": "Royal Tombs Visit",
+    "category": "History",
+    "score": 3,
+    "description": "Explore the Royal Tombs (Langi) in Lapaha, an important historical site in Tonga, where ancient Tongan kings were buried.",
+    "city": "Lapaha",
+    "longitude": -175.3,
+    "latitude": -21.2,
+    "cost": "$",
+    "best_time_to_go": ["May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time to explore the Royal Tombs in Lapaha is during the dry season, from May to September, when the weather is more favorable for outdoor visits and historical exploration.",
+    "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+    "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional rain and muddy conditions, which can affect the quality of the visit.",
+    "suggested_venues": [
+        {
+            "name": "Royal Tombs (Langi)",
+            "description": "Visit the Royal Tombs in Lapaha, where you can explore the historical site and learn about the ancient Tongan kings who were buried there, gaining insights into Tonga's rich history.",
+            "location": "Lapaha, Tonga",
+            "longitude": -175.3,
+            "latitude": -21.2
+        },
+        {
+            "name": "Guided Tours",
+            "description": "Consider joining guided tours of the Royal Tombs, where knowledgeable guides can provide in-depth information and historical context during your visit.",
+            "location": "Lapaha, Tonga",
+            "longitude": -175.3,
+            "latitude": -21.2
+        },
+        {
+            "name": "Cultural Learning",
+            "description": "Immerse yourself in Tongan culture and history as you explore the Royal Tombs and gain a deeper appreciation for the significance of this historical site.",
+            "location": "Lapaha, Tonga",
+            "longitude": -175.3,
+            "latitude": -21.2
+        }
+    ]
+}
+
 ]

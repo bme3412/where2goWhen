@@ -7,8 +7,37 @@
         "city": "Lotofaga",
         "longitude": -171.7386,
         "latitude": -14.0531,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to swim in the To Sua Ocean Trench is during the dry season, from May to September, when the weather is more stable, and the water conditions are ideal.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The wet season, from October to April, can bring heavy rainfall, which may affect the accessibility and safety of the trench for swimming.",
+        "suggested_venues": [
+            {
+                "name": "To Sua Ocean Trench",
+                "description": "Experience the breathtaking beauty of the To Sua Ocean Trench, with its crystal-clear waters, lush gardens, and unique underwater cave connection to the ocean.",
+                "location": "To Sua Ocean Trench, Lotofaga, Samoa",
+                "longitude": -171.7386,
+                "latitude": -14.0531
+            },
+            {
+                "name": "Lush Garden Surroundings",
+                "description": "Relax in the serene and lush garden surroundings of the trench, offering a tranquil and picturesque setting for your swim.",
+                "location": "To Sua Ocean Trench, Lotofaga, Samoa",
+                "longitude": -171.7386,
+                "latitude": -14.0531
+            },
+            {
+                "name": "Underwater Cave Exploration",
+                "description": "Explore the underwater cave that connects the trench to the ocean, providing an exciting opportunity for underwater adventure.",
+                "location": "To Sua Ocean Trench, Lotofaga, Samoa",
+                "longitude": -171.7386,
+                "latitude": -14.0531
+            }
+        ]
     },
+
+
     {
         "name": "Alofaaga Blowholes Visit",
         "category": "Nature",
@@ -17,8 +46,37 @@
         "city": "Savai'i",
         "longitude": -172.6667,
         "latitude": -13.6198,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to witness the Alofaaga Blowholes is during the dry season, from May to September, when ocean waves are more consistent and the blowholes are at their most spectacular.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, the blowholes may be less active due to calmer ocean conditions, so it's recommended to visit during the dry season.",
+        "suggested_venues": [
+            {
+                "name": "Alofaaga Blowholes",
+                "description": "Experience the awe-inspiring Alofaaga Blowholes, where you can witness the natural spectacle as powerful ocean waves create spectacular plumes of water through volcanic rock formations.",
+                "location": "Alofaaga Blowholes, Savai'i, Samoa",
+                "longitude": -172.6667,
+                "latitude": -13.6198
+            },
+            {
+                "name": "Viewing Platforms",
+                "description": "Visit designated viewing platforms near the blowholes for a safe and up-close view of the powerful natural phenomenon.",
+                "location": "Alofaaga Blowholes Viewing Platforms, Savai'i, Samoa",
+                "longitude": -172.6667,
+                "latitude": -13.6198
+            },
+            {
+                "name": "Local Guides",
+                "description": "Consider hiring local guides who can provide insights into the blowholes, their significance, and the best times to witness their impressive displays.",
+                "location": "Alofaaga Blowholes, Savai'i, Samoa",
+                "longitude": -172.6667,
+                "latitude": -13.6198
+            }
+        ]
     },
+
+
     {
         "name": "Falealupo Rainforest Preserve Exploration",
         "category": "Adventure",
@@ -27,8 +85,36 @@
         "city": "Savai'i",
         "longitude": -172.8000,
         "latitude": -13.4833,
-        "cost": "$$"
-    },
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to explore the Falealupo Rainforest Preserve is during the dry season, from May to September, when the weather is more favorable for outdoor adventures.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "The wet season, from October to April, may bring heavy rainfall and muddy trails, making it less suitable for rainforest exploration.",
+        "suggested_venues": [
+            {
+                "name": "Canopy Walkway",
+                "description": "Experience the rainforest from a unique perspective by walking on the canopy walkway, which offers stunning views of the lush vegetation and wildlife below.",
+                "location": "Falealupo Rainforest Canopy Walkway, Savai'i, Samoa",
+                "longitude": -172.8000,
+                "latitude": -13.4833
+            },
+            {
+                "name": "Guided Tours",
+                "description": "Consider joining guided tours of the Falealupo Rainforest Preserve to learn about the rainforest's ecology and spot its diverse flora and fauna.",
+                "location": "Falealupo Rainforest Preserve, Savai'i, Samoa",
+                "longitude": -172.8000,
+                "latitude": -13.4833
+            },
+            {
+                "name": "Bird Watching",
+                "description": "The rainforest is a prime spot for bird watching, so bring your binoculars and look out for colorful and unique bird species in their natural habitat.",
+                "location": "Falealupo Rainforest Preserve, Savai'i, Samoa",
+                "longitude": -172.8000,
+                "latitude": -13.4833
+            }
+        ]
+    },    
+
     {
         "name": "Papaseea Sliding Rocks Adventure",
         "category": "Leisure",
@@ -37,8 +123,36 @@
         "city": "Apia",
         "longitude": -171.7833,
         "latitude": -13.8333,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a Papaseea Sliding Rocks adventure is during the dry season, from May to September, when the water levels are typically ideal for sliding.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, there may be higher water levels, and the rocks may be less suitable for sliding due to safety concerns.",
+        "suggested_venues": [
+            {
+                "name": "Natural Water Slides",
+                "description": "Enjoy the thrill of sliding down the smooth, natural water slides formed by the rocks at Papaseea Sliding Rocks, providing a refreshing and fun experience.",
+                "location": "Papaseea Sliding Rocks, Apia, Samoa",
+                "longitude": -171.7833,
+                "latitude": -13.8333
+            },
+            {
+                "name": "Swimming Pools",
+                "description": "Besides sliding, you can also swim in the natural pools created by the flowing water, offering a cool and relaxing way to unwind.",
+                "location": "Papaseea Sliding Rocks, Apia, Samoa",
+                "longitude": -171.7833,
+                "latitude": -13.8333
+            },
+            {
+                "name": "Picnic Areas",
+                "description": "Make a day of it by bringing a picnic and enjoying the scenic surroundings and lush greenery near Papaseea Sliding Rocks.",
+                "location": "Papaseea Sliding Rocks, Apia, Samoa",
+                "longitude": -171.7833,
+                "latitude": -13.8333
+            }
+        ]
     },
+
     {
         "name": "Piula Cave Pool Relaxation",
         "category": "Relaxation",
@@ -47,8 +161,36 @@
         "city": "Upolu",
         "longitude": -171.7386,
         "latitude": -13.9500,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a Piula Cave Pool relaxation experience is during the dry season, from May to September, when the weather is more stable for outdoor activities.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, there may be higher chances of rain, which can affect the accessibility and water quality of the cave pool.",
+        "suggested_venues": [
+            {
+                "name": "Piula Cave Pool",
+                "description": "Immerse yourself in the serene beauty of the Piula Cave Pool, where you can relax in crystal-clear freshwater within a cave beneath a historic church.",
+                "location": "Piula Cave Pool, Upolu, Samoa",
+                "longitude": -171.7386,
+                "latitude": -13.9500
+            },
+            {
+                "name": "Historic Church Visit",
+                "description": "Take the opportunity to visit the historic church located above the cave pool, which adds to the cultural and scenic charm of the site.",
+                "location": "Piula Cave Pool, Upolu, Samoa",
+                "longitude": -171.7386,
+                "latitude": -13.9500
+            },
+            {
+                "name": "Picnic Areas",
+                "description": "Enjoy a leisurely picnic in the shaded areas surrounding the Piula Cave Pool, making it a perfect spot for a relaxing day outdoors.",
+                "location": "Piula Cave Pool, Upolu, Samoa",
+                "longitude": -171.7386,
+                "latitude": -13.9500
+            }
+        ]
     },
+
     {
         "name": "Tafua Peninsula Rainforest Hike",
         "category": "Nature",
@@ -57,8 +199,37 @@
         "city": "Savai'i",
         "longitude": -172.6386,
         "latitude": -13.6403,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a Tafua Peninsula Rainforest hike is during the dry season, from May to September, when the weather is more favorable for outdoor activities.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, there may be heavy rainfall, muddy trails, and potentially challenging hiking conditions in the rainforest.",
+        "suggested_venues": [
+            {
+                "name": "Volcanic Crater",
+                "description": "Explore the volcanic crater within the Tafua Peninsula Rainforest, which adds a unique geological element to your hiking adventure.",
+                "location": "Tafua Peninsula Rainforest, Savai'i, Samoa",
+                "longitude": -172.6386,
+                "latitude": -13.6403
+            },
+            {
+                "name": "Bird Watching",
+                "description": "Keep an eye out for the abundant birdlife in the rainforest, including colorful and unique bird species that inhabit this lush ecosystem.",
+                "location": "Tafua Peninsula Rainforest, Savai'i, Samoa",
+                "longitude": -172.6386,
+                "latitude": -13.6403
+            },
+            {
+                "name": "Scenic Overlook",
+                "description": "Reach a scenic overlook point during your hike, offering panoramic views of the rainforest and surrounding natural beauty.",
+                "location": "Tafua Peninsula Rainforest, Savai'i, Samoa",
+                "longitude": -172.6386,
+                "latitude": -13.6403
+            }
+        ]
     },
+
+
     {
         "name": "Robert Louis Stevenson Museum Tour",
         "category": "Culture",
@@ -67,8 +238,37 @@
         "city": "Apia",
         "longitude": -171.7521,
         "latitude": -13.8506,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time to visit the Robert Louis Stevenson Museum is during the dry season, from May to September, when the weather is more favorable for outdoor activities and touring.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, there may be higher chances of rain, which can affect the outdoor experience and accessibility to the museum.",
+        "suggested_venues": [
+            {
+                "name": "Robert Louis Stevenson Museum",
+                "description": "Explore the Robert Louis Stevenson Museum, the former home of the famous author, and discover his life and work while enjoying the beautiful surrounding gardens.",
+                "location": "Robert Louis Stevenson Museum, Apia, Samoa",
+                "longitude": -171.7521,
+                "latitude": -13.8506
+            },
+            {
+                "name": "Historical Exhibits",
+                "description": "Inside the museum, you'll find historical exhibits and artifacts related to Robert Louis Stevenson's life and literary contributions.",
+                "location": "Robert Louis Stevenson Museum, Apia, Samoa",
+                "longitude": -171.7521,
+                "latitude": -13.8506
+            },
+            {
+                "name": "Gardens and Grounds",
+                "description": "Take a leisurely stroll through the beautiful gardens and grounds surrounding the museum, offering a peaceful and scenic experience.",
+                "location": "Robert Louis Stevenson Museum, Apia, Samoa",
+                "longitude": -171.7521,
+                "latitude": -13.8506
+            }
+        ]
     },
+
+
     {
         "name": "Manono Island Cultural Experience",
         "category": "Culture",
@@ -77,8 +277,37 @@
         "city": "Manono Island",
         "longitude": -171.9333,
         "latitude": -13.8000,
-        "cost": "$$"
+        "cost": "$$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a Manono Island Cultural Experience is during the dry season, from May to September, when the weather is more conducive to outdoor activities and cultural exploration.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rainfall, which can affect travel to and from the island and outdoor experiences.",
+        "suggested_venues": [
+            {
+                "name": "Traditional Samoan Village",
+                "description": "Immerse yourself in traditional Samoan village life by visiting local communities on Manono Island and experiencing their customs and way of life.",
+                "location": "Manono Island, Samoa",
+                "longitude": -171.9333,
+                "latitude": -13.8000
+            },
+            {
+                "name": "Cultural Performances",
+                "description": "Witness cultural performances and ceremonies that showcase Samoan traditions, including dance, music, and storytelling.",
+                "location": "Manono Island, Samoa",
+                "longitude": -171.9333,
+                "latitude": -13.8000
+            },
+            {
+                "name": "Local Crafts and Souvenirs",
+                "description": "Support local artisans by exploring and purchasing traditional Samoan crafts and souvenirs, providing a meaningful memento of your cultural experience.",
+                "location": "Manono Island, Samoa",
+                "longitude": -171.9333,
+                "latitude": -13.8000
+            }
+        ]
     },
+
+
     {
         "name": "Lalomanu Beach Relaxation",
         "category": "Leisure",
@@ -87,8 +316,37 @@
         "city": "Upolu",
         "longitude": -171.5889,
         "latitude": -14.0089,
-        "cost": "$"
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for Lalomanu Beach relaxation is during the dry season, from May to September, when the weather is ideal for beach activities and the waters are clear and calm.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rain and rougher sea conditions, making it less suitable for beach relaxation.",
+        "suggested_venues": [
+            {
+                "name": "Lalomanu Beach",
+                "description": "Enjoy the pristine beauty of Lalomanu Beach, with its soft white sand and crystal-clear waters, perfect for swimming, sunbathing, and beachcombing.",
+                "location": "Lalomanu Beach, Upolu, Samoa",
+                "longitude": -171.5889,
+                "latitude": -14.0089
+            },
+            {
+                "name": "Water Activities",
+                "description": "Participate in various water activities at Lalomanu Beach, including snorkeling, paddleboarding, and kayaking to explore the underwater world.",
+                "location": "Lalomanu Beach, Upolu, Samoa",
+                "longitude": -171.5889,
+                "latitude": -14.0089
+            },
+            {
+                "name": "Beachfront Dining",
+                "description": "Indulge in delicious Samoan cuisine at beachfront restaurants and enjoy meals with breathtaking views of the ocean and sunset.",
+                "location": "Lalomanu Beach, Upolu, Samoa",
+                "longitude": -171.5889,
+                "latitude": -14.0089
+            }
+        ]
     },
+
+
     {
         "name": "Samoa Cultural Village Visit",
         "category": "Culture",
@@ -97,6 +355,33 @@
         "city": "Apia",
         "longitude": -171.7694,
         "latitude": -13.8318,
-        "cost": "$"
-    }
+        "cost": "$",
+        "best_time_to_go": ["May", "June", "July", "August", "September"],
+        "best_time_to_go_description": "The best time for a Samoa Cultural Village Visit is during the dry season, from May to September, when the weather is more conducive to outdoor cultural experiences.",
+        "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
+        "worst_time_to_go_description": "During the wet season, from October to April, there may be occasional heavy rainfall, which can affect outdoor activities and accessibility to the village.",
+        "suggested_venues": [
+            {
+                "name": "Samoa Cultural Village",
+                "description": "Immerse yourself in Samoan culture by visiting the Samoa Cultural Village in Apia, where you can learn about traditional crafts, cooking, and tattooing.",
+                "location": "Samoa Cultural Village, Apia, Samoa",
+                "longitude": -171.7694,
+                "latitude": -13.8318
+            },
+            {
+                "name": "Cultural Workshops",
+                "description": "Participate in cultural workshops and demonstrations to gain hands-on experience in traditional Samoan activities, such as crafting and cooking.",
+                "location": "Samoa Cultural Village, Apia, Samoa",
+                "longitude": -171.7694,
+                "latitude": -13.8318
+            },
+            {
+                "name": "Artisan Souvenirs",
+                "description": "Browse and purchase unique Samoan artisan souvenirs, including handicrafts and artwork, as a memento of your cultural exploration.",
+                "location": "Samoa Cultural Village, Apia, Samoa",
+                "longitude": -171.7694,
+                "latitude": -13.8318
+            }
+        ]
+    }    
 ]
