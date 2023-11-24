@@ -1605,7 +1605,7 @@
                   if (item.suggested_venues) {
                     let venuesContainer = document.createElement("div");
                     venuesContainer.className = "venues-container";
-                    venuesContainer.innerHTML = "<h3>Suggested Venues</h3>";
+                    venuesContainer.innerHTML = "<h3>Click for more detail</h3>";
                     venuesContainer.style.backgroundColor = "#f8f8f8";
                     venuesContainer.style.padding = "15px";
                     venuesContainer.style.borderRadius = "5px";
@@ -1625,9 +1625,9 @@
                       venueItem.style.cursor = "pointer";
                       venueItem.style.transition =
                         "background-color 0.3s, color 0.3s"; // Smooth transition for hover effect
-                      venueItem.innerHTML = `<b style="color: #333; font-size: 16px;">${venue.name}</b><br>
-                                             <i style="color: #555;">${venue.description}</i><br>
-                                             <i style="color: #777;">📍 ${venue.location}</i>`;
+                      venueItem.innerHTML = `<b style="color: #333; font-size: 16px;">${venue.name} &#128247;</b><br>
+                           <i style="color: #555;">${venue.description}</i><br>
+                           <i style="color: #777;">📍 ${venue.location}</i>`;
 
                       // Adding hover effect
                       venueItem.addEventListener("mouseover", function () {
