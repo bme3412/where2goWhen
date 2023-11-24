@@ -1294,6 +1294,39 @@
     </div>
 
     <script>
+      // Create a modal element
+      let modal = document.createElement("div");
+      modal.style.display = "none";
+      modal.style.position = "fixed";
+      modal.style.left = "0";
+      modal.style.top = "0";
+      modal.style.width = "100%";
+      modal.style.height = "100%";
+      modal.style.backgroundColor = "rgba(0,0,0,0.5)";
+      modal.style.zIndex = "1000";
+      modal.style.justifyContent = "center";
+      modal.style.alignItems = "center";
+
+      let modalContent = document.createElement("img");
+      modalContent.style.maxWidth = "80%";
+      modalContent.style.maxHeight = "80%";
+      modal.appendChild(modalContent);
+
+      document.body.appendChild(modal);
+
+      // Function to show image in modal
+      function showModal(imageUrl) {
+        modalContent.src = imageUrl;
+        modal.style.display = "flex";
+      }
+
+      // Close modal on click outside of the image
+      modal.addEventListener("click", function (event) {
+        if (event.target === modal) {
+          modal.style.display = "none";
+        }
+      });
+
       // Function to dynamically load the Google Maps script
       function loadGoogleMapsApi(apiKey) {
         var script = document.createElement("script");
@@ -1605,6 +1638,11 @@
                       venueItem.addEventListener("mouseout", function () {
                         this.style.backgroundColor = "";
                         this.style.color = "";
+                      });
+
+                      // Add click event to show modal with image
+                      venueItem.addEventListener("click", function () {
+                        showModal(venue.imageUrl); // Use the imageUrl property from the venue object
                       });
 
                       venuesList.appendChild(venueItem);
@@ -1963,6 +2001,13 @@
                     this.style.backgroundColor = "";
                     this.style.color = "";
                   });
+
+                  // Create a closure to bind the correct imageUrl to each event listener
+                  (function (venueImageUrl) {
+                    venueItem.addEventListener("click", function () {
+                      showModal(venueImageUrl);
+                    });
+                  })(venue.imageUrl);
 
                   venuesList.appendChild(venueItem);
                 });
