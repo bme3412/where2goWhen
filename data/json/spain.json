@@ -15,22 +15,26 @@
                 {
                     "name": "Casa de la Memoria",
                     "description": "An intimate venue known for its authentic Flamenco shows, capturing the essence of traditional Andalusian culture.",
-                    "location": "Calle Cuna, 6, 41004 Sevilla, Spain"
+                    "location": "Calle Cuna, 6, 41004 Sevilla, Spain",
+                    "imageUrl":"assets/images/venues/spain/casamemoria.png"
                 },
                 {
                     "name": "Tablao Flamenco El Arenal",
                     "description": "A famous Flamenco tablao offering passionate and professional performances in a classic setting.",
-                    "location": "Calle Rodo, 7, 41001 Sevilla, Spain"
+                    "location": "Calle Rodo, 7, 41001 Sevilla, Spain",
+                    "imageUrl":"assets/images/venues/spain/tablaoflamenco.png"
                 },
                 {
                     "name": "La Casa del Flamenco",
                     "description": "Situated in the historic Santa Cruz neighborhood, this venue provides an authentic Flamenco experience in a charming courtyard.",
-                    "location": "Ximénez de Enciso, 28, 41004 Sevilla, Spain"
+                    "location": "Ximénez de Enciso, 28, 41004 Sevilla, Spain",
+                    "imageUrl":"assets/images/venues/spain/casaflamenco.png"
                 },
                 {
                     "name": "Tablao Flamenco Los Gallos",
                     "description": "One of the oldest Flamenco tablaos in Seville, known for its high-quality performances and intimate atmosphere.",
-                    "location": "Plaza de Santa Cruz, 11, 41004 Sevilla, Spain"
+                    "location": "Plaza de Santa Cruz, 11, 41004 Sevilla, Spain",
+                    "imageUrl":"assets/images/venues/spain/flamencogallos.png"
                 }
             ]
         }, 
@@ -52,22 +56,26 @@
                 {
                     "name": "Arzak",
                     "description": "A legendary restaurant offering innovative Basque cuisine, Arzak is renowned for its creative dishes and exceptional service.",
-                    "location": "Av. Alcalde José Elosegi, 273, 20015 Donostia, San Sebastián, Spain"
+                    "location": "Av. Alcalde José Elosegi, 273, 20015 Donostia, San Sebastián, Spain",
+                    "imageUrl":"assets/images/venues/spain/arzak.png"
                 },
                 {
                     "name": "Mugaritz",
                     "description": "Known for its avant-garde approach to cooking, Mugaritz provides a unique and memorable culinary experience.",
-                    "location": "Aldura Gunea Aldea, 20, 20100 Errenteria, Gipuzkoa, Spain"
+                    "location": "Aldura Gunea Aldea, 20, 20100 Errenteria, Gipuzkoa, Spain",
+                    "imageUrl":"assets/images/venues/spain/mugaritz.png"
                 },
                 {
                     "name": "Akelarre",
                     "description": "Situated with a breathtaking view of the sea, Akelarre serves exquisite dishes that blend traditional Basque flavors with modern techniques.",
-                    "location": "Paseo Padre Orcolaga, 56, 20008 Donostia, San Sebastián, Spain"
+                    "location": "Paseo Padre Orcolaga, 56, 20008 Donostia, San Sebastián, Spain",
+                    "imageUrl":"assets/images/venues/spain/akelarre.png"
                 },
                 {
                     "name": "Martín Berasategui",
                     "description": "This restaurant, led by the celebrated chef Martín Berasategui, is a must-visit for food enthusiasts seeking innovative gastronomic creations.",
-                    "location": "Loidi Kalea, 4, 20160 Lasarte-Oria, Gipuzkoa, Spain"
+                    "location": "Loidi Kalea, 4, 20160 Lasarte-Oria, Gipuzkoa, Spain",
+                    "imageUrl":"assets/images/venues/spain/berasategui.png"
                 }
             ]
         },        
@@ -89,22 +97,26 @@
                 {
                     "name": "Nasrid Palaces",
                     "description": "A stunning example of Moorish architecture, these palaces are the highlight of the Alhambra, with their intricate decorations and historical significance.",
-                    "location": "Calle Real de la Alhambra, s/n, 18009 Granada, Spain"
+                    "location": "Calle Real de la Alhambra, s/n, 18009 Granada, Spain",
+                    "imageUrl":"assets/images/venues/spain/nasrid.png"
                 },
                 {
                     "name": "Generalife",
                     "description": "The summer palace and gardens of the Nasrid rulers, offering serene landscapes and beautiful views of the Alhambra.",
-                    "location": "Calle Real de la Alhambra, s/n, 18009 Granada, Spain"
+                    "location": "Calle Real de la Alhambra, s/n, 18009 Granada, Spain",
+                    "imageUrl":"assets/images/venues/spain/generalife.png"
                 },
                 {
                     "name": "Alcazaba",
                     "description": "The oldest part of the Alhambra, this fortress offers panoramic views of Granada and a glimpse into the military history of the complex.",
-                    "location": "Calle Real de la Alhambra, s/n, 18009 Granada, Spain"
+                    "location": "Calle Real de la Alhambra, s/n, 18009 Granada, Spain",
+                    "imageUrl":"assets/images/venues/spain/alcazaba.png"
                 },
                 {
                     "name": "Palace of Charles V",
                     "description": "A Renaissance building within the Alhambra complex, known for its impressive circular courtyard and architecture contrasting with the Moorish style.",
-                    "location": "Calle Real de la Alhambra, s/n, 18009 Granada, Spain"
+                    "location": "Calle Real de la Alhambra, s/n, 18009 Granada, Spain",
+                    "imageUrl":"assets/images/venues/spain/charlesv.png"
                 }
             ]
         },        
@@ -126,22 +138,26 @@
                 {
                     "name": "Cala d'Or",
                     "description": "A beautiful cove with crystal clear waters, perfect for anchoring a sailboat and enjoying the serene environment.",
-                    "location": "Cala d'Or, 07660 Santanyí, Mallorca, Spain"
+                    "location": "Cala d'Or, 07660 Santanyí, Mallorca, Spain",
+                    "imageUrl":"assets/images/venues/spain/calador.png"
                 },
                 {
                     "name": "Formentera",
                     "description": "The smallest of the Balearic Islands, known for its pristine beaches and laid-back atmosphere, ideal for a peaceful sailing day trip.",
-                    "location": "Formentera, Balearic Islands, Spain"
+                    "location": "Formentera, Balearic Islands, Spain",
+                    "imageUrl":"assets/images/venues/spain/formentera.png"
                 },
                 {
                     "name": "Cala Saona",
                     "description": "A secluded cove on Formentera, offering stunning sunsets and perfect conditions for swimming and snorkeling.",
-                    "location": "Cala Saona, Formentera, Balearic Islands, Spain"
+                    "location": "Cala Saona, Formentera, Balearic Islands, Spain",
+                    "imageUrl":"assets/images/venues/spain/calasaona.png"
                 },
                 {
                     "name": "Cabrera National Park",
                     "description": "A protected marine park south of Mallorca, offering rich marine life and unspoiled natural beauty, a must-visit for sailing enthusiasts.",
-                    "location": "Cabrera Archipelago, Balearic Islands, Spain"
+                    "location": "Cabrera Archipelago, Balearic Islands, Spain",
+                    "imageUrl":"assets/images/venues/spain/cabrera.png"
                 }
             ]
         },        
@@ -163,22 +179,26 @@
                 {
                     "name": "La Escuela de Arroces y Paella Valenciana",
                     "description": "A renowned cooking school specializing in traditional Valencian rice dishes, particularly paella.",
-                    "location": "Avenida de los Naranjos, 1, 46011 Valencia, Spain"
+                    "location": "Avenida de los Naranjos, 1, 46011 Valencia, Spain",
+                    "imageUrl":"assets/images/venues/spain/arroces.png"
                 },
                 {
                     "name": "Mercado Central de Valencia",
                     "description": "One of the oldest running food markets in Europe, perfect for sourcing fresh ingredients and experiencing local food culture.",
-                    "location": "Plaça de la Ciutat de Bruges, s/n, 46001 Valencia, Spain"
+                    "location": "Plaça de la Ciutat de Bruges, s/n, 46001 Valencia, Spain",
+                    "imageUrl":"assets/images/venues/spain/mercadocentral.png"
                 },
                 {
                     "name": "Food & Fun Culinary School",
                     "description": "A culinary school offering a variety of cooking workshops, including paella making, in a fun and interactive setting.",
-                    "location": "Carrer dels Juristes, 12, 46001 Valencia, Spain"
+                    "location": "Carrer dels Juristes, 12, 46001 Valencia, Spain",
+                    "imageUrl":"assets/images/venues/spain/foodfun.png"
                 },
                 {
                     "name": "Valencia Club Cocina",
                     "description": "Offers a range of cooking classes, including traditional Spanish and Valencian dishes, in a modern and well-equipped kitchen.",
-                    "location": "Carrer del Mestre Gozalbo, 23, 46005 Valencia, Spain"
+                    "location": "Carrer del Mestre Gozalbo, 23, 46005 Valencia, Spain",
+                    "imageUrl":"assets/images/venues/spain/clubcocina.png"
                 }
             ]
         },
@@ -200,22 +220,26 @@
                 {
                     "name": "Reina Sofia Museum",
                     "description": "A museum of modern and contemporary art, home to Picasso's famous 'Guernica' and other significant works of 20th-century Spanish art.",
-                    "location": "Calle de Santa Isabel, 52, 28012 Madrid, Spain"
+                    "location": "Calle de Santa Isabel, 52, 28012 Madrid, Spain",
+                    "imageUrl":"assets/images/venues/spain/reinasofia.png"
                 },
                 {
                     "name": "Thyssen-Bornemisza Museum",
                     "description": "An art museum with an extensive collection that fills the historical gaps in its counterparts' collections, featuring works from the 13th century to the late 20th century.",
-                    "location": "Paseo del Prado, 8, 28014 Madrid, Spain"
+                    "location": "Paseo del Prado, 8, 28014 Madrid, Spain",
+                    "imageUrl":"assets/images/venues/spain/thyssen.png"
                 },
                 {
                     "name": "Royal Palace of Madrid",
                     "description": "The official residence of the Spanish Royal Family, offering tours of its lavishly decorated rooms and beautiful gardens.",
-                    "location": "Calle de Bailén, s/n, 28071 Madrid, Spain"
+                    "location": "Calle de Bailén, s/n, 28071 Madrid, Spain",
+                    "imageUrl":"assets/images/venues/spain/royalpalace.png"
                 },
                 {
                     "name": "El Retiro Park",
                     "description": "A large and popular park in Madrid, ideal for a relaxing walk or a picnic after a museum visit.",
-                    "location": "Plaza de la Independencia, 7, 28001 Madrid, Spain"
+                    "location": "Plaza de la Independencia, 7, 28001 Madrid, Spain",
+                    "imageUrl":"assets/images/venues/spain/elretiro.png"
                 }
             ]
         },
@@ -237,22 +261,26 @@
                 {
                     "name": "Bodegas Marqués de Riscal",
                     "description": "One of the oldest and most prestigious wineries in La Rioja, known for its modern architecture and high-quality wines.",
-                    "location": "Calle Torrea, 1, 01340 Elciego, Álava, Spain"
+                    "location": "Calle Torrea, 1, 01340 Elciego, Álava, Spain",
+                    "imageUrl":"assets/images/venues/spain/riscal.png"
                 },
                 {
                     "name": "Bodegas López de Heredia Viña Tondonia",
                     "description": "A traditional winery offering guided tours and tastings of its acclaimed aged wines, renowned for their elegance and complexity.",
-                    "location": "Avda. de Vizcaya, 3, 26200 Haro, La Rioja, Spain"
+                    "location": "Avda. de Vizcaya, 3, 26200 Haro, La Rioja, Spain",
+                    "imageUrl":"assets/images/venues/spain/tondonia.png"
                 },
                 {
                     "name": "Bodegas Ysios",
                     "description": "A modern winery famous for its stunning architecture and premium wines, providing a unique wine tasting experience.",
-                    "location": "Camino de la Hoya, s/n, 01300 Guardia, Álava, Spain"
+                    "location": "Camino de la Hoya, s/n, 01300 Guardia, Álava, Spain",
+                    "imageUrl":"assets/images/venues/spain/ysios.png"
                 },
                 {
                     "name": "Bodegas Vivanco",
                     "description": "Known for its museum of wine culture, this winery offers an immersive experience into the history and production of Rioja wines.",
-                    "location": "Carretera Nacional 232, 26330 Briones, La Rioja, Spain"
+                    "location": "Carretera Nacional 232, 26330 Briones, La Rioja, Spain",
+                    "imageUrl":"assets/images/venues/spain/vivanco.png"
                 }
             ]
         },
@@ -274,22 +302,26 @@
                 {
                     "name": "Playa de la Malagueta",
                     "description": "A popular urban beach in Málaga, known for its lively atmosphere and proximity to city amenities.",
-                    "location": "Paseo Pablo Picasso, 29016 Málaga, Spain"
+                    "location": "Paseo Pablo Picasso, 29016 Málaga, Spain",
+                    "imageUrl":"assets/images/venues/spain/malagueta.png"
                 },
                 {
                     "name": "Playa de Burriana",
                     "description": "A beautiful beach in Nerja, offering clear waters and a variety of water sports activities.",
-                    "location": "Playa Burriana, 29780 Nerja, Málaga, Spain"
+                    "location": "Playa Burriana, 29780 Nerja, Málaga, Spain",
+                    "imageUrl":"assets/images/venues/spain/burriana.png"
                 },
                 {
                     "name": "Playa de Cabopino",
                     "description": "A quieter beach near Marbella, known for its natural dunes and pristine conditions.",
-                    "location": "Urbanización Cabopino, 29604 Marbella, Málaga, Spain"
+                    "location": "Urbanización Cabopino, 29604 Marbella, Málaga, Spain",
+                    "imageUrl":"assets/images/venues/spain/cabopino.png"
                 },
                 {
                     "name": "Playa del Cristo",
                     "description": "A small cove in Estepona, perfect for families and known for its calm waters and scenic surroundings.",
-                    "location": "Av. del Carmen, 99, 29680 Estepona, Málaga, Spain"
+                    "location": "Av. del Carmen, 99, 29680 Estepona, Málaga, Spain",
+                    "imageUrl":"assets/images/venues/spain/cristo.png"
                 }
             ]
         },
@@ -311,22 +343,26 @@
                 {
                     "name": "Toledo Cathedral",
                     "description": "A magnificent example of Spanish Gothic architecture, the cathedral is a must-visit for its rich history and stunning art.",
-                    "location": "Calle Cardenal Cisneros, 1, 45002 Toledo, Spain"
+                    "location": "Calle Cardenal Cisneros, 1, 45002 Toledo, Spain",
+                    "imageUrl":"assets/images/venues/spain/toledocathedral.png"
                 },
                 {
                     "name": "Alcázar of Toledo",
                     "description": "A historic fortress located at the highest point of Toledo, offering panoramic views of the city and a rich history.",
-                    "location": "Calle de la Union, s/n, 45001 Toledo, Spain"
+                    "location": "Calle de la Union, s/n, 45001 Toledo, Spain",
+                    "imageUrl":"assets/images/venues/spain/alcazar.png"
                 },
                 {
                     "name": "Monastery of San Juan de los Reyes",
                     "description": "A beautiful monastery known for its ornate cloisters and significant role in the history of Toledo.",
-                    "location": "Calle Reyes Católicos, 17, 45002 Toledo, Spain"
+                    "location": "Calle Reyes Católicos, 17, 45002 Toledo, Spain",
+                    "imageUrl":"assets/images/venues/spain/monasterytoledo.png"
                 },
                 {
                     "name": "El Greco Museum",
                     "description": "Dedicated to the life and works of the painter El Greco, this museum is situated in a beautifully preserved historic house.",
-                    "location": "Paseo del Tránsito, s/n, 45002 Toledo, Spain"
+                    "location": "Paseo del Tránsito, s/n, 45002 Toledo, Spain",
+                    "imageUrl":"assets/images/venues/spain/elgrecomuseum.png"
                 }
             ]
         },        
@@ -348,22 +384,26 @@
                 {
                     "name": "Lagos de Covadonga",
                     "description": "A series of glacial lakes located in the Picos de Europa, offering picturesque hiking trails and breathtaking views.",
-                    "location": "33589 Cangas de Onís, Asturias, Spain"
+                    "location": "33589 Cangas de Onís, Asturias, Spain",
+                    "imageUrl":"assets/images/venues/spain/lagos.png"
                 },
                 {
                     "name": "Ruta del Cares",
                     "description": "A famous hiking trail in the heart of the Picos de Europa, known for its dramatic cliffs and stunning river gorges.",
-                    "location": "Picos de Europa National Park, Asturias, Spain"
+                    "location": "Picos de Europa National Park, Asturias, Spain",
+                    "imageUrl":"assets/images/venues/spain/rutacares.png"
                 },
                 {
                     "name": "Fuente Dé Cable Car",
                     "description": "Provides access to high mountain routes in the Picos de Europa, offering spectacular views and a starting point for various hikes.",
-                    "location": "Carretera Fuente Dé, s/n, 39588 Camaleño, Cantabria, Spain"
+                    "location": "Carretera Fuente Dé, s/n, 39588 Camaleño, Cantabria, Spain",
+                    "imageUrl":"assets/images/venues/spain/fuentecablecar.png"
                 },
                 {
                     "name": "Naranjo de Bulnes",
                     "description": "A renowned peak in the Picos de Europa, popular among hikers and climbers for its challenging routes and iconic shape.",
-                    "location": "Picos de Europa National Park, Asturias, Spain"
+                    "location": "Picos de Europa National Park, Asturias, Spain",
+                    "imageUrl":"assets/images/venues/spain/naranjo.png"
                 }
             ]
         }        

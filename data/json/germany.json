@@ -16,22 +16,26 @@
             {
                 "name": "Hofbräuhaus München",
                 "description": "One of Munich's oldest beer halls, famous for its lively atmosphere and traditional Bavarian beer.",
-                "location": "Platzl 9, 80331 München, Germany"
+                "location": "Platzl 9, 80331 München, Germany",
+                "imageUrl":"assets/images/venues/germany/hofbrau.png"
             },
             {
                 "name": "Augustiner Bräustuben",
                 "description": "A popular local brewery offering a range of classic Bavarian beers and hearty cuisine.",
-                "location": "Landsberger Str. 19, 80339 München, Germany"
+                "location": "Landsberger Str. 19, 80339 München, Germany",
+                "imageUrl":"assets/images/venues/germany/augustiner.png"
             },
             {
                 "name": "Paulaner Bräuhaus",
                 "description": "A brewery known for its authentic Paulaner beer and traditional Bavarian dishes.",
-                "location": "Kapuzinerpl. 5, 80337 München, Germany"
+                "location": "Kapuzinerpl. 5, 80337 München, Germany",
+                "imageUrl":"assets/images/venues/germany/paulaner.png"
             },
             {
                 "name": "Viktualienmarkt Beer Garden",
                 "description": "A bustling outdoor beer garden located in Munich's famous food market, offering a variety of beers and local snacks.",
-                "location": "Viktualienmarkt 3, 80331 München, Germany"
+                "location": "Viktualienmarkt 3, 80331 München, Germany",
+                "imageUrl":"assets/images/venues/germany/viktual.png"
             }
         ]
     },
@@ -53,22 +57,26 @@
         {
             "name": "Neuschwanstein Castle",
             "description": "A nineteenth-century Romanesque Revival palace, known for inspiring Disney's Sleeping Beauty Castle, set against a backdrop of breathtaking mountain scenery.",
-            "location": "Neuschwansteinstraße 20, 87645 Schwangau, Germany"
+            "location": "Neuschwansteinstraße 20, 87645 Schwangau, Germany",
+            "imageUrl":"assets/images/venues/germany/neuschwanstein.png"
         },
         {
             "name": "Hohenschwangau Castle",
             "description": "Located near Neuschwanstein, this castle was the childhood residence of King Ludwig II and offers beautiful views of the surrounding area.",
-            "location": "Alpseestraße 30, 87645 Schwangau, Germany"
+            "location": "Alpseestraße 30, 87645 Schwangau, Germany",
+            "imageUrl":"assets/images/venues/germany/hohenschwangau.png"
         },
         {
             "name": "Linderhof Palace",
             "description": "A smaller but equally beautiful palace built by King Ludwig II, known for its lavish interior and beautifully landscaped gardens.",
-            "location": "Linderhof 12, 82488 Ettal, Germany"
+            "location": "Linderhof 12, 82488 Ettal, Germany",
+            "imageUrl":"assets/images/venues/germany/linderhof.png"
         },
         {
             "name": "Herrenchiemsee Palace",
             "description": "A complex of royal buildings on the Herreninsel, an island in the Chiemsee, modeled after the Palace of Versailles and another of Ludwig II's incredible constructions.",
-            "location": "83209 Herreninsel, Germany"
+            "location": "83209 Herreninsel, Germany",
+            "imageUrl":"assets/images/venues/germany/herrenchiemsee.png"
         }
     ]},
 
@@ -89,22 +97,26 @@
             {
                 "name": "Lorelei Rock",
                 "description": "A famous steep rock on the bank of the Rhine, known for its associated folklore and offering stunning views of the surrounding valley.",
-                "location": "56346 Sankt Goarshausen, Germany"
+                "location": "56346 Sankt Goarshausen, Germany",
+                "imageUrl":"assets/images/venues/germany/lorelei.png"
             },
             {
                 "name": "Marksburg Castle",
                 "description": "A well-preserved medieval castle overlooking the Rhine, offering guided tours and panoramic views.",
-                "location": "Marksburg, 56338 Braubach, Germany"
+                "location": "Marksburg, 56338 Braubach, Germany",
+                "imageUrl":"assets/images/venues/germany/marksburg.png"
             },
             {
                 "name": "Rüdesheim am Rhein",
                 "description": "A picturesque winemaking town along the Rhine, known for its charming streets, wine taverns, and Rheingau wines.",
-                "location": "65385 Rüdesheim am Rhein, Germany"
+                "location": "65385 Rüdesheim am Rhein, Germany",
+                "imageUrl":"assets/images/venues/germany/rudesheim.png"
             },
             {
                 "name": "Koblenz",
                 "description": "A historic city located at the confluence of the Rhine and Moselle rivers, offering a rich cultural heritage and beautiful river promenades.",
-                "location": "56068 Koblenz, Germany"
+                "location": "56068 Koblenz, Germany",
+                "imageUrl":"assets/images/venues/germany/koblenz.png"
             }
         ]
     },
@@ -126,22 +138,26 @@
             {
                 "name": "Triberg Waterfalls",
                 "description": "One of Germany's highest waterfalls, located in the heart of the Black Forest, offering stunning views and picturesque hiking trails.",
-                "location": "Schönwälder Str. 2, 78098 Triberg, Germany"
+                "location": "Schönwälder Str. 2, 78098 Triberg, Germany",
+                "imageUrl":"assets/images/venues/germany/triberg.png"
             },
             {
                 "name": "Mummelsee",
                 "description": "A serene lake surrounded by forest trails, ideal for a peaceful hike and enjoying the natural beauty of the region.",
-                "location": "Schwarzwaldhochstraße, 77889 Seebach, Germany"
+                "location": "Schwarzwaldhochstraße, 77889 Seebach, Germany",
+                "imageUrl":"assets/images/venues/germany/mummelsee.png"
             },
             {
                 "name": "Schluchsee",
                 "description": "A large lake in the Black Forest, perfect for scenic walks and enjoying water-based activities.",
-                "location": "Schluchsee, 79859, Germany"
+                "location": "Schluchsee, 79859, Germany",
+                "imageUrl":"assets/images/venues/germany/schluchsee.png"
             },
             {
                 "name": "Feldberg",
                 "description": "The highest mountain in the Black Forest, offering extensive hiking trails and panoramic views of the surrounding area.",
-                "location": "Feldberg, 79868 Feldberg, Germany"
+                "location": "Feldberg, 79868 Feldberg, Germany",
+                "imageUrl":"assets/images/venues/germany/feldberg.png"
             }
         ]
     },
@@ -163,22 +179,26 @@
             {
                 "name": "East Side Gallery",
                 "description": "A 1.3 km-long section of the Berlin Wall, famous for its series of murals painted by international artists.",
-                "location": "Mühlenstraße, 10243 Berlin, Germany"
+                "location": "Mühlenstraße, 10243 Berlin, Germany",
+                "imageUrl":"assets/images/venues/germany/eastside.png"
             },
             {
                 "name": "Checkpoint Charlie",
                 "description": "The most famous crossing point between East and West Berlin during the Cold War, now a historical site with a museum.",
-                "location": "Friedrichstraße 43-45, 10969 Berlin, Germany"
+                "location": "Friedrichstraße 43-45, 10969 Berlin, Germany",
+                "imageUrl":"assets/images/venues/germany/checkpointcharlie.png"
             },
             {
                 "name": "Berlin Wall Memorial",
                 "description": "An open-air exhibit along Bernauer Straße that includes remnants of the wall, an observation tower, and informative displays.",
-                "location": "Bernauer Str. 111, 13355 Berlin, Germany"
+                "location": "Bernauer Str. 111, 13355 Berlin, Germany",
+                "imageUrl":"assets/images/venues/germany/wallmemorial.png"
             },
             {
                 "name": "Topography of Terror",
                 "description": "An indoor and outdoor museum located on the site of the former Gestapo and SS headquarters, providing a detailed history of the Nazi regime.",
-                "location": "Niederkirchnerstraße 8, 10963 Berlin, Germany"
+                "location": "Niederkirchnerstraße 8, 10963 Berlin, Germany",
+                "imageUrl":"assets/images/venues/germany/topography.png"
             }
         ]
     },
@@ -200,22 +220,26 @@
             {
                 "name": "Elbphilharmonie Hamburg",
                 "description": "A modern concert hall known for its striking architecture and exceptional acoustics, hosting a range of classical music performances.",
-                "location": "Platz der Deutschen Einheit 1, 20457 Hamburg, Germany"
+                "location": "Platz der Deutschen Einheit 1, 20457 Hamburg, Germany",
+                "imageUrl":"assets/images/venues/germany/elbphilharmonie.png"
             },
             {
                 "name": "Laeiszhalle",
                 "description": "One of Hamburg's oldest concert halls, offering a rich program of classical music in a historic and elegant setting.",
-                "location": "Johannes-Brahms-Platz, 20355 Hamburg, Germany"
+                "location": "Johannes-Brahms-Platz, 20355 Hamburg, Germany",
+                "imageUrl":"assets/images/venues/germany/laeiszhalle.png"
             },
             {
                 "name": "Staatsoper Hamburg",
                 "description": "Hamburg's state opera house, featuring opera performances as well as classical concerts by its resident orchestra.",
-                "location": "Große Theaterstraße 25, 20354 Hamburg, Germany"
+                "location": "Große Theaterstraße 25, 20354 Hamburg, Germany",
+                "imageUrl":"assets/images/venues/germany/staatsoper.png"
             },
             {
                 "name": "Hamburg Symphony Orchestra",
                 "description": "An acclaimed orchestra performing at various venues in Hamburg, known for its diverse repertoire and dynamic performances.",
-                "location": "Various locations in Hamburg, Germany"
+                "location": "Various locations in Hamburg, Germany",
+                "imageUrl":"assets/images/venues/germany/hamburgsymphony.png"
             }
         ]
     },    
@@ -237,22 +261,26 @@
             {
                 "name": "Christkindlesmarkt",
                 "description": "The main attraction, featuring hundreds of stalls selling traditional German Christmas items, from ornaments to gingerbread.",
-                "location": "Hauptmarkt, 90403 Nürnberg, Germany"
+                "location": "Hauptmarkt, 90403 Nürnberg, Germany",
+                "imageUrl":"assets/images/venues/germany/christkindlesmarkt.png"
             },
             {
                 "name": "Children's Christmas Market",
                 "description": "Part of the Christkindlesmarkt, this area is specially designed for children with festive rides and activities.",
-                "location": "Hans-Sachs-Platz, 90403 Nürnberg, Germany"
+                "location": "Hans-Sachs-Platz, 90403 Nürnberg, Germany",
+                "imageUrl":"assets/images/venues/germany/childrenchristmas.png"
             },
             {
                 "name": "Nuremberg Toy Museum",
                 "description": "A museum showcasing the history of toys, which is especially magical during the Christmas season.",
-                "location": "Karlstraße 13-15, 90403 Nürnberg, Germany"
+                "location": "Karlstraße 13-15, 90403 Nürnberg, Germany",
+                "imageUrl":"assets/images/venues/germany/nurembergtoy.png"
             },
             {
                 "name": "Nuremberg Castle",
                 "description": "An iconic historical landmark of the city, offering a beautiful view of the Christmas market and city lights.",
-                "location": "Burg 13, 90403 Nürnberg, Germany"
+                "location": "Burg 13, 90403 Nürnberg, Germany",
+                "imageUrl":"assets/images/venues/germany/nurembergcastle.png"
             }
         ]
     },
@@ -274,22 +302,26 @@
         {
             "name": "Jasmund National Park",
             "description": "Home to the famous chalk cliffs of Rügen, this national park offers stunning natural scenery and hiking trails.",
-            "location": "Nationalpark-Zentrum KÖNIGSSTUHL, 18546 Sassnitz, Germany"
+            "location": "Nationalpark-Zentrum KÖNIGSSTUHL, 18546 Sassnitz, Germany",
+            "imageUrl":"assets/images/venues/germany/jasmund.png"
         },
         {
             "name": "Binz Beach",
             "description": "A popular beach resort on Rügen, known for its white sandy beaches and charming promenade.",
-            "location": "18609 Binz, Germany"
+            "location": "18609 Binz, Germany",
+            "imageUrl":"assets/images/venues/germany/binz.png"
         },
         {
             "name": "Kap Arkona",
             "description": "A notable cape on the island, offering beautiful coastal views, lighthouses, and historical remnants.",
-            "location": "18556 Putgarten, Germany"
+            "location": "18556 Putgarten, Germany",
+            "imageUrl":"assets/images/venues/germany/kaparkona.png"
         },
         {
             "name": "Granitz Hunting Lodge",
             "description": "A historic castle located in the southeast of Rügen, surrounded by a vast forest and offering panoramic views from its central tower.",
-            "location": "18528 Binz, Germany"
+            "location": "18528 Binz, Germany",
+            "imageUrl":"assets/images/venues/germany/granitzlodge.png"
         }
     ]
 },
@@ -311,22 +343,26 @@
         {
             "name": "Mercedes-Benz Museum",
             "description": "An architectural landmark featuring a comprehensive collection of Mercedes-Benz cars, showcasing the brand's history and innovations.",
-            "location": "Mercedesstraße 100, 70372 Stuttgart, Germany"
+            "location": "Mercedesstraße 100, 70372 Stuttgart, Germany",
+            "imageUrl":"assets/images/venues/germany/mercedes.png"
         },
         {
             "name": "Porsche Museum",
             "description": "A modern museum dedicated to the history of Porsche, with a wide range of vehicles from the iconic sports car manufacturer on display.",
-            "location": "Porscheplatz 1, 70435 Stuttgart, Germany"
+            "location": "Porscheplatz 1, 70435 Stuttgart, Germany",
+            "imageUrl":"assets/images/venues/germany/porsche.png"
         },
         {
             "name": "Solitude Palace",
             "description": "A historical building near Stuttgart, offering a peaceful contrast to the high-tech world of cars, with beautiful architecture and gardens.",
-            "location": "Solitude 1, 70197 Stuttgart, Germany"
+            "location": "Solitude 1, 70197 Stuttgart, Germany",
+            "imageUrl":"assets/images/venues/germany/solitudepalace.png"
         },
         {
             "name": "Stuttgart City Center",
             "description": "Explore the heart of Stuttgart, with its many shops, restaurants, and cultural sites, providing a full urban experience.",
-            "location": "Königstraße, 70173 Stuttgart, Germany"
+            "location": "Königstraße, 70173 Stuttgart, Germany",
+            "imageUrl":"assets/images/venues/germany/stuttgartcitycenter.png"
         }
     ]
 },
@@ -348,22 +384,26 @@
         {
             "name": "Mainau Island",
             "description": "A unique floral paradise situated on Lake Constance, known for its beautiful gardens, butterfly house, and baroque palace.",
-            "location": "Insel Mainau, 78465 Konstanz, Germany"
+            "location": "Insel Mainau, 78465 Konstanz, Germany",
+            "imageUrl":"assets/images/venues/germany/mainau.png"
         },
         {
             "name": "Meersburg",
             "description": "A historic town on the shores of Lake Constance, known for its medieval castle and charming old town.",
-            "location": "Meersburg, Germany"
+            "location": "Meersburg, Germany",
+            "imageUrl":"assets/images/venues/germany/meersburg.png"
         },
         {
             "name": "Pfahlbaumuseum Unteruhldingen",
             "description": "An open-air museum featuring reconstructed stilt houses and exhibits on life in the region during the Stone and Bronze Ages.",
-            "location": "Strandpromenade 6, 88690 Uhldingen-Mühlhofen, Germany"
+            "location": "Strandpromenade 6, 88690 Uhldingen-Mühlhofen, Germany",
+            "imageUrl":"assets/images/venues/germany/pfahlbaumuseum.png"
         },
         {
             "name": "Zeppelin Museum Friedrichshafen",
             "description": "A museum dedicated to the history of airship travel, located in Friedrichshafen, a city on the shores of Lake Constance.",
-            "location": "Seestraße 22, 88045 Friedrichshafen, Germany"
+            "location": "Seestraße 22, 88045 Friedrichshafen, Germany",
+            "imageUrl":"assets/images/venues/germany/zeppelin.png"
         }
     ]
 }
