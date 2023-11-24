@@ -14,22 +14,26 @@
         {
             "name": "Pizzeria da Michele",
             "description": "A historic pizzeria known for its traditional Neapolitan pizzas, offering a simple menu with classic flavors.",
-            "location": "Via Cesare Sersale, 1, 80139 Napoli NA, Italy"
+            "location": "Via Cesare Sersale, 1, 80139 Napoli NA, Italy",
+            "imageUrl":"assets/images/venues/italy/pizza_michele.png"
         },
         {
             "name": "Sorbillo",
             "description": "Renowned for its authentic Neapolitan pizzas made with high-quality ingredients, a must-visit for pizza enthusiasts.",
-            "location": "Via dei Tribunali, 32, 80138 Napoli NA, Italy"
+            "location": "Via dei Tribunali, 32, 80138 Napoli NA, Italy",
+            "imageUrl":"assets/images/venues/italy/sorbillo.png"
         },
         {
             "name": "Pizzeria Starita",
             "description": "A legendary pizzeria with a wide variety of pizzas, known for its traditional cooking methods and charming ambiance.",
-            "location": "Via Materdei, 27/28, 80136 Napoli NA, Italy"
+            "location": "Via Materdei, 27/28, 80136 Napoli NA, Italy",
+            "imageUrl":"assets/images/venues/italy/pizza_starita.png"
         },
         {
             "name": "Pizzeria Di Matteo",
             "description": "Famous for its delicious and affordable pizzas, this pizzeria is a favorite among locals and tourists alike.",
-            "location": "Via dei Tribunali, 94, 80138 Napoli NA, Italy"
+            "location": "Via dei Tribunali, 94, 80138 Napoli NA, Italy",
+            "imageUrl":"assets/images/venues/italy/pizza_matteo.png"
         }
     ]
     },
@@ -50,22 +54,26 @@
             {
                 "name": "Traghetto di Santa Sofia",
                 "description": "A traditional gondola service offering scenic rides across the Grand Canal, providing a unique view of the city.",
-                "location": "Calle del Traghetto Vecchio, 30121 Venezia VE, Italy"
+                "location": "Calle del Traghetto Vecchio, 30121 Venezia VE, Italy",
+                "imageUrl":"assets/images/venues/italy/gondola_traghetto.png"
             },
             {
                 "name": "Ponte di Rialto Gondola Stop",
                 "description": "Located near the famous Rialto Bridge, this stop offers picturesque gondola rides along the Grand Canal and smaller canals.",
-                "location": "Sestiere San Polo, 30125 Venezia VE, Italy"
+                "location": "Sestiere San Polo, 30125 Venezia VE, Italy",
+                "imageUrl":"assets/images/venues/italy/gondola_rialto.png"
             },
             {
                 "name": "Gondola Service near St. Mark's Square",
                 "description": "Offering romantic gondola rides near St. Mark's Square, allowing visitors to explore the historic heart of Venice.",
-                "location": "Piazza San Marco, 30124 Venezia VE, Italy"
+                "location": "Piazza San Marco, 30124 Venezia VE, Italy",
+                "imageUrl":"assets/images/venues/italy/gondola_stmarks.png"
             },
             {
                 "name": "Dorsoduro Gondola Service",
                 "description": "This service offers a quieter gondola experience away from the main tourist areas, showcasing the beauty of the Dorsoduro district.",
-                "location": "Dorsoduro, 30123 Venezia VE, Italy"
+                "location": "Dorsoduro, 30123 Venezia VE, Italy",
+                "imageUrl":"assets/images/venues/italy/gondola_dorsoduro.png"
             }
         ]
     },
@@ -86,22 +94,26 @@
             {
                 "name": "The Roman Forum",
                 "description": "Adjacent to the Colosseum, the Forum offers a glimpse into ancient Roman life, featuring ruins of important governmental buildings.",
-                "location": "Via della Salara Vecchia, 5/6, 00186 Roma RM, Italy"
+                "location": "Via della Salara Vecchia, 5/6, 00186 Roma RM, Italy",
+                "imageUrl":"assets/images/venues/italy/rome_forum.png"
             },
             {
                 "name": "Palatine Hill",
                 "description": "One of Rome's most ancient parts, offering panoramic views of the Colosseum and the Roman Forum.",
-                "location": "Via San Gregorio, 30, 00184 Roma RM, Italy"
+                "location": "Via San Gregorio, 30, 00184 Roma RM, Italy",
+                "imageUrl":"assets/images/venues/italy/palatine_hill.png"
             },
             {
                 "name": "Arch of Constantine",
                 "description": "A triumphal arch situated between the Colosseum and Palatine Hill, commemorating Emperor Constantine's victory.",
-                "location": "Via di San Gregorio, 00186 Roma RM, Italy"
+                "location": "Via di San Gregorio, 00186 Roma RM, Italy",
+                "imageUrl":"assets/images/venues/italy/arch_constantine.png"
             },
             {
                 "name": "Colosseum Underground and Arena Floor",
                 "description": "Special tours that offer an in-depth exploration of the Colosseum, including its underground chambers and arena floor.",
-                "location": "Piazza del Colosseo, 1, 00184 Roma RM, Italy"
+                "location": "Piazza del Colosseo, 1, 00184 Roma RM, Italy",
+                "imageUrl":"assets/images/venues/italy/arena_floor.png"
             }
         ]
     },    
@@ -122,22 +134,26 @@
             {
                 "name": "Sentiero Azzurro",
                 "description": "The most famous hiking trail connecting all five villages, offering breathtaking views of the sea and vineyards.",
-                "location": "Cinque Terre, 19017 SP, Italy"
+                "location": "Cinque Terre, 19017 SP, Italy",
+                "imageUrl":"assets/images/venues/italy/sentiero_azzuro.png"
             },
             {
                 "name": "Vernazza to Monterosso Trail",
                 "description": "A popular section of the Sentiero Azzurro, known for its scenic vistas and picturesque Vernazza village.",
-                "location": "Vernazza, 19018 SP, Italy"
+                "location": "Vernazza, 19018 SP, Italy",
+                "imageUrl":"assets/images/venues/italy/monterosso.png"
             },
             {
                 "name": "Corniglia to Vernazza",
                 "description": "This trail segment is less crowded and offers stunning views of the coastline and terraced vineyards.",
-                "location": "Corniglia, 19018 SP, Italy"
+                "location": "Corniglia, 19018 SP, Italy",
+                "imageUrl":"assets/images/venues/italy/corniglia.png"
             },
             {
                 "name": "Riomaggiore to Manarola via Via dell'Amore",
                 "description": "A famous, relatively easy walk known as the 'Path of Love', offering romantic views of the coastline.",
-                "location": "Riomaggiore, 19017 SP, Italy"
+                "location": "Riomaggiore, 19017 SP, Italy",
+                "imageUrl":"assets/images/venues/italy/riomaggiore.png"
             }
         ]
     },    
@@ -158,22 +174,26 @@
             {
                 "name": "Castello Banfi",
                 "description": "A renowned wine estate in the Brunello region of Tuscany, offering tastings and tours of its extensive vineyards and cellars.",
-                "location": "Castello di Poggio alle Mura, 53024 Montalcino SI, Italy"
+                "location": "Castello di Poggio alle Mura, 53024 Montalcino SI, Italy",
+                "imageUrl":"assets/images/venues/italy/banfi.png"
             },
             {
                 "name": "Antinori nel Chianti Classico",
                 "description": "A modern winery in the Chianti Classico region, known for its innovative architecture and high-quality wines.",
-                "location": "Via Cassia per Siena, 133, 50026 Bargino FI, Italy"
+                "location": "Via Cassia per Siena, 133, 50026 Bargino FI, Italy",
+                "imageUrl":"assets/images/venues/italy/chianti.png"
             },
             {
                 "name": "Tenuta San Guido",
                 "description": "Famed for its Sassicaia wine, this estate offers a unique opportunity to explore the birthplace of one of Italy's most prestigious wines.",
-                "location": "Via Bolgherese, 189, 57022 Bolgheri LI, Italy"
+                "location": "Via Bolgherese, 189, 57022 Bolgheri LI, Italy",
+                "imageUrl":"assets/images/venues/italy/sanguido.png"
             },
             {
                 "name": "Fattoria di Montemaggio",
                 "description": "A boutique winery offering personalized tours and tastings, famous for its organic Chianti and excellent views of the Tuscan hills.",
-                "location": "Località Montemaggio, 53011 Radda in Chianti SI, Italy"
+                "location": "Località Montemaggio, 53011 Radda in Chianti SI, Italy",
+                "imageUrl":"assets/images/venues/italy/montemaggio.png"
             }
         ]
     },    
@@ -194,22 +214,26 @@
             {
                 "name": "Palazzo Vecchio",
                 "description": "A historic fortress-palace with rich art and history, offering a glimpse into Florence's past.",
-                "location": "Piazza della Signoria, 50122 Firenze FI, Italy"
+                "location": "Piazza della Signoria, 50122 Firenze FI, Italy",
+                "imageUrl":"assets/images/venues/italy/palazza_vecchio.png"
             },
             {
                 "name": "Accademia Gallery",
                 "description": "Famous for housing Michelangelo's David, this gallery offers a collection of Renaissance art.",
-                "location": "Via Ricasoli, 58/60, 50122 Firenze FI, Italy"
+                "location": "Via Ricasoli, 58/60, 50122 Firenze FI, Italy",
+                "imageUrl":"assets/images/venues/italy/academia_gallery.png"
             },
             {
                 "name": "Pitti Palace",
                 "description": "A grand Renaissance palace home to several important museums and galleries, showcasing art, costumes, and jewelry.",
-                "location": "Piazza de' Pitti, 1, 50125 Firenze FI, Italy"
+                "location": "Piazza de' Pitti, 1, 50125 Firenze FI, Italy",
+                "imageUrl":"assets/images/venues/italy/pitti_palace.png"
             },
             {
                 "name": "Bargello Museum",
                 "description": "A national museum with a vast collection of Gothic and Renaissance sculptures, including works by Donatello and Michelangelo.",
-                "location": "Via del Proconsolo, 4, 50122 Firenze FI, Italy"
+                "location": "Via del Proconsolo, 4, 50122 Firenze FI, Italy",
+                "imageUrl":"assets/images/venues/italy/bargello.png"
             }
         ]
     },

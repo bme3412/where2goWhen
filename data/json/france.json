@@ -2,12 +2,15 @@
     {
         "name": "Sipping Champagne in the Champagne Region",
         "category": "Gastronomy",
-        "score": 5,
+        "score": 2,
+        "country_rank":8,
         "description": "Experience the exclusivity of tasting authentic Champagne in the picturesque region where it is produced.",
         "city": "Reims",
         "longitude": 4.0347,
         "latitude": 49.2583,
         "cost": "$$$",
+        "length_of_activity": "half day",
+        "optimal_time_of_day": "late morning to afternoon",
         "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
         "best_time_to_go_description": "The ideal months to visit the Champagne region are from April to October, offering pleasant weather for vineyard tours and outdoor tastings, with the grape harvest usually occurring in September.",
         "worst_time_to_go": ["November", "December", "January", "February", "March"],
@@ -16,34 +19,42 @@
             {
                 "name": "Moët & Chandon",
                 "description": "Renowned for its Impérial champagne, this historic maison offers guided tours and tastings.",
-                "location": "20 Avenue de Champagne, 51200 Épernay, France"
+                "location": "20 Avenue de Champagne, 51200 Épernay, France",
+                "imageUrl":"assets/images/venues/france/moet_chandon.png"
             },
             {
                 "name": "Veuve Clicquot",
                 "description": "Famous for its premium labels, it provides cellar tours and a glimpse into the champagne-making process.",
-                "location": "1 Rue Albert Thomas, 51100 Reims, France"
+                "location": "1 Rue Albert Thomas, 51100 Reims, France",
+                "imageUrl":"assets/images/venues/france/veuve.png"
             },
             {
                 "name": "Taittinger",
                 "description": "A family-run house known for its Chardonnay dominant blends, offering insightful cellar tours.",
-                "location": "9 Place Saint-Nicaise, 51100 Reims, France"
+                "location": "9 Place Saint-Nicaise, 51100 Reims, France",
+                "imageUrl":"assets/images/venues/france/taittinger.png"
             },
             {
                 "name": "Dom Pérignon",
                 "description": "Prestigious label, offering exclusive tastings and tours by appointment, known for its vintage champagnes.",
-                "location": "Hautvillers, 51160, France"
+                "location": "Hautvillers, 51160, France",
+                "imageUrl":"assets/images/venues/france/perignon.png"
             }
         ]
     },    
+
     {
         "name": "Dining at a Michelin Star Restaurant in Paris",
         "category": "Gastronomy",
-        "score": 5,
+        "score": 3,
+        "country_rank":4,
         "description": "Indulge in an unparalleled culinary experience at one of Paris's many Michelin-starred restaurants.",
         "city": "Paris",
         "longitude": 2.3522,
         "latitude": 48.8566,
         "cost": "$$$$",
+        "length_of_activity": "2-3 hours",
+        "optimal_time_of_day": "evening",
         "best_time_to_go": ["May", "June", "July", "August", "September", "October"],
         "best_time_to_go_description": "The best time to enjoy Paris's Michelin-starred restaurants is from late spring to early autumn, with pleasant weather complementing the dining experience and fresher ingredients available for the seasonal menus.",
         "worst_time_to_go": ["November", "December", "January", "February", "March", "April"],
@@ -54,40 +65,48 @@
                 "description": "Located in the Eiffel Tower, it offers haute cuisine with an exceptional view of Paris.",
                 "location": "Eiffel Tower, Avenue Gustave Eiffel, 75007 Paris, France",
                 "longitude": 2.2945,
-                "latitude": 48.8584
+                "latitude": 48.8584,
+                "imageUrl":"assets/images/venues/france/jules_verne.png"
             },
             {
                 "name": "L'Astrance",
                 "description": "A small, intimate venue known for its innovative and artistic culinary creations.",
                 "location": "4 Rue Beethoven, 75016 Paris, France",
                 "longitude": 2.2800,
-                "latitude": 48.8554
+                "latitude": 48.8554,
+                "imageUrl":"assets/images/venues/france/lastrance.png"
             },
             {
                 "name": "Arpège",
                 "description": "Famed for its vegetable-focused menu, this restaurant offers a unique twist on French cuisine.",
                 "location": "84 Rue de Varenne, 75007 Paris, France",
                 "longitude": 2.3162,
-                "latitude": 48.8553
+                "latitude": 48.8553,
+                "imageUrl":"assets/images/venues/france/arpege.png"
             },
             {
                 "name": "Le Cinq",
                 "description": "Elegant dining in the Four Seasons Hotel George V, known for its classic French dishes and extensive wine list.",
                 "location": "31 Avenue George V, 75008 Paris, France",
                 "longitude": 2.3008,
-                "latitude": 48.8686
+                "latitude": 48.8686,
+                "imageUrl":"assets/images/venues/france/lecinq.png"
             }
         ]
     },    
+
     {
         "name": "Exploring the Palace of Versailles",
         "category": "Culture",
-        "score": 4,
+        "score": 3,
+        "country_rank":2,
         "description": "Walk through the opulent halls of the Palace of Versailles, which was once the centre of political power in France.",
         "city": "Versailles",
         "longitude": 2.1204,
         "latitude": 48.8046,
         "cost": "$$",
+        "length_of_activity": "half to full day",
+        "optimal_time_of_day": "morning to early afternoon",
         "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
         "best_time_to_go_description": "The ideal time to visit the Palace of Versailles is from April to October when the weather is pleasant, and the gardens are in full bloom, enhancing the overall experience of the historical site.",
         "worst_time_to_go": ["November", "December", "January", "February", "March"],
@@ -98,40 +117,48 @@
                 "description": "The most famous room in the palace, featuring 17 mirrored arches reflecting 17 windows overlooking the gardens.",
                 "location": "Palace of Versailles, Place d'Armes, 78000 Versailles, France",
                 "longitude": 2.1229,
-                "latitude": 48.8048
+                "latitude": 48.8048,
+                "imageUrl":"assets/images/venues/france/hallofmirrors.png"
             },
             {
                 "name": "Gardens of Versailles",
                 "description": "Sprawling over 800 hectares, these meticulously designed gardens are a masterpiece of French landscaping.",
                 "location": "Palace of Versailles, Place d'Armes, 78000 Versailles, France",
                 "longitude": 2.1204,
-                "latitude": 48.8046
+                "latitude": 48.8046,
+                "imageUrl":"assets/images/venues/france/versailles_gardens.png"
             },
             {
                 "name": "The Grand Trianon",
                 "description": "A smaller palace on the grounds of Versailles, known for its pink marble and French Neoclassical architecture.",
                 "location": "The Grand Trianon, Place d'Armes, 78000 Versailles, France",
                 "longitude": 2.1074,
-                "latitude": 48.8185
+                "latitude": 48.8185,
+                "imageUrl":"assets/images/venues/france/versailles_trianon.png"
             },
             {
                 "name": "The Queen's Hamlet",
                 "description": "A rustic retreat built for Marie Antoinette, featuring a charming village with gardens and farm buildings.",
                 "location": "The Queen's Hamlet, Place d'Armes, 78000 Versailles, France",
                 "longitude": 2.1104,
-                "latitude": 48.8123
+                "latitude": 48.8123,
+                "imageUrl":"assets/images/venues/france/versailles_queens_hamlet.png"
             }
         ]
-    },    
+    },
+
     {
         "name": "Skiing in the French Alps",
         "category": "Adventure",
-        "score": 4,
+        "score": 3,
+        "country_rank":6,
         "description": "Hit the slopes in the world-renowned ski resorts of the French Alps, offering some of the best skiing experiences on the planet.",
         "city": "Chamonix",
         "longitude": 6.8694,
         "latitude": 45.9237,
         "cost": "$$$",
+        "length_of_activity": "full day",
+        "optimal_time_of_day": "morning to afternoon",
         "best_time_to_go": ["December", "January", "February", "March", "April"],
         "best_time_to_go_description": "The prime months for skiing in the French Alps are December through April, when snow conditions are optimal, and all facilities and ski runs are fully operational.",
         "worst_time_to_go": ["May", "June", "July", "August", "September", "October", "November"],
@@ -166,16 +193,20 @@
                 "latitude": 45.3979
             }
         ]
-    },    
+    },   
+
     {
         "name": "Attending a Cooking Class in Lyon",
         "category": "Gastronomy",
-        "score": 3,
+        "score": 2,
+        "country_rank":10,
         "description": "Learn the art of French cooking in Lyon, considered the gastronomic capital of France.",
         "city": "Lyon",
         "longitude": 4.8357,
         "latitude": 45.7640,
         "cost": "$$",
+        "length_of_activity": "half day",
+        "optimal_time_of_day": "morning to early afternoon",
         "best_time_to_go": ["March", "April", "May", "June", "September", "October", "November"],
         "best_time_to_go_description": "The ideal months for attending a cooking class in Lyon are from early spring to late autumn, offering pleasant weather and an abundance of fresh, seasonal ingredients for culinary exploration.",
         "worst_time_to_go": ["July", "August", "December", "January", "February"],
@@ -210,16 +241,20 @@
                 "latitude": 45.7578
             }
         ]
-    },    
+    },   
+
     {
         "name": "Visiting the Louvre Museum",
         "category": "Culture",
         "score": 3,
+        "country_rank":1,
         "description": "See the Mona Lisa and thousands of other masterpieces at the world's most visited museum.",
         "city": "Paris",
         "longitude": 2.3364,
         "latitude": 48.8606,
         "cost": "$",
+        "length_of_activity": "half to full day",
+        "optimal_time_of_day": "early morning or late afternoon",
         "best_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
         "best_time_to_go_description": "The best time to visit the Louvre is during the fall and winter months when there are fewer tourists, making for a more pleasant and less crowded experience.",
         "worst_time_to_go": ["May", "June", "July", "August", "September"],
@@ -230,40 +265,48 @@
                 "description": "Home to the Mona Lisa and many other famous works, the Denon Wing is a must-see for first-time visitors.",
                 "location": "Louvre Museum, Rue de Rivoli, 75001 Paris, France",
                 "longitude": 2.3370,
-                "latitude": 48.8606
+                "latitude": 48.8606,
+                "imageUrl":"assets/images/venues/france/louvre_denon.png"
             },
             {
                 "name": "Richelieu Wing",
                 "description": "This wing showcases decorative arts, sculptures, and French paintings, offering a diverse array of art.",
                 "location": "Louvre Museum, Rue de Rivoli, 75001 Paris, France",
                 "longitude": 2.3380,
-                "latitude": 48.8610
+                "latitude": 48.8610,
+                "imageUrl":"assets/images/venues/france/louvre_richelieu.png"
             },
             {
                 "name": "Sully Wing",
                 "description": "Famous for Egyptian antiquities and medieval collections, the Sully Wing is a highlight for history enthusiasts.",
                 "location": "Louvre Museum, Rue de Rivoli, 75001 Paris, France",
                 "longitude": 2.3360,
-                "latitude": 48.8600
+                "latitude": 48.8600,
+                "imageUrl":"assets/images/venues/france/louvre_sully.png"
             },
             {
                 "name": "Temporary Exhibitions",
                 "description": "The Louvre frequently hosts temporary exhibitions, offering unique and rare insights into various art forms and histories.",
                 "location": "Louvre Museum, Rue de Rivoli, 75001 Paris, France",
                 "longitude": 2.3364,
-                "latitude": 48.8606
+                "latitude": 48.8606,
+                "imageUrl":"assets/images/venues/france/louvre_temp.png"
             }
         ]
-    },    
+    },   
+     
     {
         "name": "Wine Tasting in Bordeaux",
         "category": "Gastronomy",
-        "score": 3,
+        "score": 2,
+        "country_rank":7,
         "description": "Enjoy a variety of wine tasting tours in the Bordeaux region, famous for its vineyards and fine wines.",
         "city": "Bordeaux",
         "longitude": -0.5792,
         "latitude": 44.8378,
         "cost": "$$",
+        "length_of_activity": "half to full day",
+        "optimal_time_of_day": "late morning to afternoon",
         "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
         "best_time_to_go_description": "The optimal months for wine tasting in Bordeaux are from April to October, coinciding with the vineyard’s growing and harvest seasons, offering an immersive experience in the winemaking process.",
         "worst_time_to_go": ["November", "December", "January", "February", "March"],
@@ -298,16 +341,20 @@
                 "latitude": 45.1944
             }
         ]
-    },    
+    },
+
     {
         "name": "Sunbathing in Nice on the French Riviera",
         "category": "Leisure",
-        "score": 2,
+        "score": 1,
+        "country_rank":9,
         "description": "Relax on the beautiful beaches of Nice or stroll along the Promenade des Anglais.",
         "city": "Nice",
         "longitude": 7.2620,
         "latitude": 43.7102,
         "cost": "$$",
+        "length_of_activity": "a few hours to a full day",
+        "optimal_time_of_day": "late morning to afternoon",
         "best_time_to_go": ["June", "July", "August", "September"],
         "best_time_to_go_description": "The best time for sunbathing in Nice is during the summer months, when the weather is warm and sunny, making it ideal for beach activities and enjoying the Mediterranean Sea.",
         "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April", "May"],
@@ -318,40 +365,48 @@
                 "description": "A legendary waterfront promenade along the Mediterranean, perfect for strolls and beachside relaxation.",
                 "location": "Promenade des Anglais, 06000 Nice, France",
                 "longitude": 7.2600,
-                "latitude": 43.6950
+                "latitude": 43.6950,
+                "imageUrl":"assets/images/venues/france/promenade_anglais.png"
             },
             {
                 "name": "Blue Beach",
                 "description": "A popular private beach with sun loungers, umbrellas, and a restaurant offering Mediterranean cuisine.",
                 "location": "32 Promenade des Anglais, 06000 Nice, France",
                 "longitude": 7.2651,
-                "latitude": 43.6973
+                "latitude": 43.6973,
+                "imageUrl":"assets/images/venues/france/blue_beach.png"
             },
             {
                 "name": "Castel Plage",
                 "description": "Located at the foot of Castle Hill, this beach offers a more secluded spot with restaurant facilities.",
                 "location": "8 Quai des États-Unis, 06300 Nice, France",
                 "longitude": 7.2791,
-                "latitude": 43.6955
+                "latitude": 43.6955,
+                "imageUrl":"assets/images/venues/france/castel_plage.png"
             },
             {
                 "name": "Ruhl Plage",
                 "description": "One of the oldest private beaches in Nice, known for its vibrant atmosphere and excellent service.",
                 "location": "1 Promenade des Anglais, 06000 Nice, France",
                 "longitude": 7.2617,
-                "latitude": 43.6958
+                "latitude": 43.6958,
+                "imageUrl":"assets/images/venues/france/ruhl_plage.png"
             }
         ]
-    },    
+    }, 
+
     {
         "name": "Taking a River Cruise on the Seine",
         "category": "Leisure",
         "score": 2,
+        "country_rank":5,
         "description": "See the sights of Paris from a different perspective on a scenic river cruise.",
         "city": "Paris",
         "longitude": 2.3522,
         "latitude": 48.8566,
         "cost": "$$",
+        "length_of_activity": "1-2 hours",
+        "optimal_time_of_day": "evening",
         "best_time_to_go": ["April", "May", "June", "July", "August", "September", "October"],
         "best_time_to_go_description": "The most favorable months for a Seine river cruise are from spring to early autumn, offering pleasant weather and stunning views of Paris’s landmarks along the river.",
         "worst_time_to_go": ["November", "December", "January", "February", "March"],
@@ -386,16 +441,20 @@
                 "latitude": 48.8562
             }
         ]
-    },    
+    },   
+
     {
         "name": "Exploring Mont Saint-Michel",
         "category": "Culture",
-        "score": 1,
+        "score": 3,
+        "country_rank":3,
         "description": "Visit the iconic island commune in Normandy, a UNESCO World Heritage Site.",
         "city": "Mont Saint-Michel",
         "longitude": -1.5115,
         "latitude": 48.6355,
         "cost": "$$",
+        "length_of_activity": "half to full day",
+        "optimal_time_of_day": "morning to early afternoon",
         "best_time_to_go": ["May", "June", "July", "August", "September"],
         "best_time_to_go_description": "The best time to visit Mont Saint-Michel is during the late spring to early autumn, offering pleasant weather and lower tides that facilitate access to the island.",
         "worst_time_to_go": ["October", "November", "December", "January", "February", "March", "April"],
@@ -406,28 +465,32 @@
                 "description": "A stunning example of medieval architecture, this abbey is perched atop the island and offers breathtaking views.",
                 "location": "50170 Mont Saint-Michel, France",
                 "longitude": -1.5098,
-                "latitude": 48.6360
+                "latitude": 48.6360,
+                "imageUrl":"assets/images/venues/france/abbey_stmichel.png"
             },
             {
                 "name": "La Grande Rue",
                 "description": "The main street of the island, lined with historic buildings, shops, and eateries.",
                 "location": "Grande Rue, 50170 Mont Saint-Michel, France",
                 "longitude": -1.5105,
-                "latitude": 48.6359
+                "latitude": 48.6359,
+                "imageUrl":"assets/images/venues/france/rue_stmichel.png"
             },
             {
                 "name": "Musée Historique",
                 "description": "A museum showcasing the history of Mont Saint-Michel, including medieval armor and old prison cells.",
                 "location": "Grande Rue, 50170 Mont Saint-Michel, France",
                 "longitude": -1.5107,
-                "latitude": 48.6362
+                "latitude": 48.6362,
+                "imageUrl":"assets/images/venues/france/musee_stmichel.png"
             },
             {
                 "name": "Le Grand Degré",
                 "description": "The grand staircase leading to the abbey, offering a scenic route through the heart of Mont Saint-Michel.",
                 "location": "Le Grand Degré, 50170 Mont Saint-Michel, France",
                 "longitude": -1.5102,
-                "latitude": 48.6358
+                "latitude": 48.6358,
+                "imageUrl":"assets/images/venues/france/degre_stmichel.png"
             }
         ]
     }
