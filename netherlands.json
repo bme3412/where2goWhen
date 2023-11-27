@@ -1,0 +1,621 @@
+[
+  {
+    "name": "Touring the Canals of Amsterdam",
+    "category": "Leisure",
+    "optimal_time_of_day": "morning to afternoon",
+    "length_of_activity": "2-3 hours",
+    "country_rank": 2,
+    "score": 3,
+    "description": "Explore the iconic canals of Amsterdam by boat, experiencing the city's historic charm and architecture.",
+    "city": "Amsterdam",
+    "longitude": 4.9041,
+    "latitude": 52.3676,
+    "cost": "€€",
+    "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "The best time to tour the canals is from spring to early autumn when the weather is pleasant, perfect for enjoying the outdoor sights.",
+    "worst_time_to_go": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "worst_time_to_go_description": "The colder months might be less ideal due to chilly weather and reduced hours of daylight.",
+    "suggested_venues": [
+      {
+        "name": "Anne Frank House",
+        "description": "Visit the historic house where Anne Frank wrote her diary during WWII, now a museum.",
+        "location": "Prinsengracht 263-267, 1016 GV Amsterdam, Netherlands",
+        "longitude": 4.8836,
+        "latitude": 52.3752,
+        "best_time_of_day_to_go": "Early morning or late afternoon",
+        "imageUrl": "assets/images/venues/netherlands/annefrankhouse.png"
+      },
+      {
+        "name": "Rijksmuseum",
+        "description": "Explore this Dutch national museum dedicated to arts and history in Amsterdam.",
+        "location": "Museumstraat 1, 1071 XX Amsterdam, Netherlands",
+        "longitude": 4.8852,
+        "latitude": 52.36,
+        "best_time_of_day_to_go": "Midday to early evening",
+        "imageUrl": "assets/images/venues/netherlands/rijksmuseum.png"
+      },
+      {
+        "name": "Van Gogh Museum",
+        "description": "A museum dedicated to the works of Vincent van Gogh and his contemporaries.",
+        "location": "Museumplein 6, 1071 DJ Amsterdam, Netherlands",
+        "longitude": 4.8811,
+        "latitude": 52.3584,
+        "best_time_of_day_to_go": "Late morning to mid-afternoon",
+        "imageUrl": "assets/images/venues/netherlands/vangoghmuseum.png"
+      },
+      {
+        "name": "Amsterdam Canal Cruise",
+        "description": "A guided boat tour through Amsterdam's canals, showcasing the city's historical sites.",
+        "location": "Various locations along the canals",
+        "longitude": 4.9041,
+        "latitude": 52.3676,
+        "best_time_of_day_to_go": "Late afternoon to early evening",
+        "imageUrl": "assets/images/venues/netherlands/canalcruise.png"
+      }
+    ]
+  },
+
+  {
+    "name": "Visiting the Keukenhof Gardens",
+    "category": "Leisure",
+    "optimal_time_of_day": "morning to early afternoon",
+    "length_of_activity": "3-4 hours",
+    "country_rank": 1,
+    "score": 3,
+    "description": "Witness the stunning beauty of Keukenhof, one of the world's largest flower gardens, especially famous for its tulips.",
+    "city": "Lisse",
+    "longitude": 4.5464,
+    "latitude": 52.2725,
+    "cost": "€€",
+    "best_time_to_go": ["March", "April", "May"],
+    "best_time_to_go_description": "Spring, particularly from late March to May, is the ideal time to visit Keukenhof when the tulips are in full bloom, offering a mesmerizing display of colors.",
+    "worst_time_to_go": [
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February"
+    ],
+    "worst_time_to_go_description": "Keukenhof is usually closed outside the spring months, making visits in late autumn and winter not possible.",
+    "suggested_venues": [
+      {
+        "name": "The Oranje Nassau Pavilion",
+        "description": "Showcases flower shows and floral arrangements, offering a vivid display of various flower species.",
+        "location": "Keukenhof Park, Lisse, Netherlands",
+        "longitude": 4.5472,
+        "latitude": 52.272,
+        "best_time_of_day_to_go": "Morning",
+        "imageUrl": "assets/images/venues/netherlands/oranjenassau.png"
+      },
+      {
+        "name": "Windmill at Keukenhof",
+        "description": "Historic windmill offering panoramic views of the gardens and surrounding flower fields.",
+        "location": "Keukenhof Park, Lisse, Netherlands",
+        "longitude": 4.5477,
+        "latitude": 52.2728,
+        "best_time_of_day_to_go": "Early afternoon",
+        "imageUrl": "assets/images/venues/netherlands/keukenhofwindmill.png"
+      },
+      {
+        "name": "Tulipomania Exhibition",
+        "description": "An exhibition dedicated to the history of the tulip in the Netherlands.",
+        "location": "Juliana Pavilion, Keukenhof Park, Lisse, Netherlands",
+        "longitude": 4.5468,
+        "latitude": 52.2719,
+        "best_time_of_day_to_go": "Late afternoon",
+        "imageUrl": "assets/images/venues/netherlands/tulipomania.png"
+      },
+      {
+        "name": "Boat Tour Around Keukenhof",
+        "description": "A tranquil boat tour through the waterways surrounding the tulip fields near Keukenhof.",
+        "location": "Keukenhof Park, Lisse, Netherlands",
+        "longitude": 4.5483,
+        "latitude": 52.2731,
+        "best_time_of_day_to_go": "Midday to early evening",
+        "imageUrl": "assets/images/venues/netherlands/keukenhofboat.png"
+      }
+    ]
+  },
+
+  {
+    "name": "Exploring the Van Gogh Museum",
+    "category": "Culture",
+    "optimal_time_of_day": "morning to afternoon",
+    "length_of_activity": "2-3 hours",
+    "country_rank": 3,
+    "score": 3,
+    "description": "Discover the largest collection of Vincent van Gogh's artworks in Amsterdam's renowned Van Gogh Museum.",
+    "city": "Amsterdam",
+    "longitude": 4.8815,
+    "latitude": 52.3586,
+    "cost": "€€",
+    "best_time_to_go": ["April", "May", "June", "September", "October"],
+    "best_time_to_go_description": "The best times to visit are in the late spring and early autumn, when the weather is pleasant and the tourist crowds are typically smaller.",
+    "worst_time_to_go": ["July", "August"],
+    "worst_time_to_go_description": "Peak tourist season in summer can lead to overcrowding and longer wait times.",
+    "suggested_venues": [
+      {
+        "name": "The Sunflowers Room",
+        "description": "A gallery dedicated to Van Gogh's famous Sunflowers series, displaying various versions of this iconic painting.",
+        "location": "Van Gogh Museum, Amsterdam, Netherlands",
+        "longitude": 4.8816,
+        "latitude": 52.3587,
+        "best_time_of_day_to_go": "Early morning",
+        "imageUrl": "assets/images/venues/netherlands/sunflowerroom.png"
+      },
+      {
+        "name": "The Bedroom Exhibit",
+        "description": "Explore Van Gogh's Bedroom in Arles painting and learn about its historical and artistic context.",
+        "location": "Van Gogh Museum, Amsterdam, Netherlands",
+        "longitude": 4.8814,
+        "latitude": 52.3585,
+        "best_time_of_day_to_go": "Mid-morning",
+        "imageUrl": "assets/images/venues/netherlands/bedroomexhibit.png"
+      },
+      {
+        "name": "Self-Portraits Collection",
+        "description": "A collection showcasing Van Gogh's self-portraits, offering insights into his evolving style and state of mind.",
+        "location": "Van Gogh Museum, Amsterdam, Netherlands",
+        "longitude": 4.8813,
+        "latitude": 52.3584,
+        "best_time_of_day_to_go": "Early afternoon",
+        "imageUrl": "assets/images/venues/netherlands/selfportraits.png"
+      },
+      {
+        "name": "The Irises and Roses Display",
+        "description": "View the vibrant Irises and Roses paintings, which highlight Van Gogh's use of color and emotion.",
+        "location": "Van Gogh Museum, Amsterdam, Netherlands",
+        "longitude": 4.8812,
+        "latitude": 52.3583,
+        "best_time_of_day_to_go": "Late afternoon",
+        "imageUrl": "assets/images/venues/netherlands/irisrose.png"
+      }
+    ]
+  },
+
+  {
+    "name": "Cycling through the Dutch Countryside",
+    "category": "Adventure",
+    "optimal_time_of_day": "morning to afternoon",
+    "length_of_activity": "half day",
+    "country_rank": 4,
+    "score": 2,
+    "description": "Experience the Netherlands like a local by cycling through picturesque villages and lush countryside.",
+    "city": "Various",
+    "longitude": 5.2913,
+    "latitude": 52.1326,
+    "cost": "€",
+    "best_time_to_go": ["April", "May", "June", "July", "August", "September"],
+    "best_time_to_go_description": "Spring to early autumn is ideal for cycling, with pleasant weather and nature in full bloom, especially in the tulip season in April and May.",
+    "worst_time_to_go": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "worst_time_to_go_description": "The colder months can be challenging for outdoor cycling due to rain, wind, and lower temperatures.",
+    "suggested_venues": [
+      {
+        "name": "Keukenhof and Surrounding Tulip Fields",
+        "description": "Ride through the colorful tulip fields near Keukenhof, one of the most beautiful spring gardens in the world.",
+        "location": "Lisse, Netherlands",
+        "longitude": 4.5464,
+        "latitude": 52.2725,
+        "best_time_of_day_to_go": "Morning",
+        "imageUrl": "assets/images/venues/netherlands/keukenhoftulips.png"
+      },
+      {
+        "name": "Giethoorn",
+        "description": "Cycle around this picturesque village known as the 'Dutch Venice', famous for its canals and charming thatched cottages.",
+        "location": "Giethoorn, Netherlands",
+        "longitude": 6.0774,
+        "latitude": 52.7206,
+        "best_time_of_day_to_go": "Mid-morning to early afternoon",
+        "imageUrl": "assets/images/venues/netherlands/giethoorn.png"
+      },
+      {
+        "name": "The Windmills of Kinderdijk",
+        "description": "Explore the iconic windmills of Kinderdijk, a UNESCO World Heritage Site, set in a unique polder landscape.",
+        "location": "Kinderdijk, Netherlands",
+        "longitude": 4.6397,
+        "latitude": 51.8835,
+        "best_time_of_day_to_go": "Afternoon",
+        "imageUrl": "assets/images/venues/netherlands/kinderdijk.png"
+      },
+      {
+        "name": "The Hoge Veluwe National Park",
+        "description": "Discover the natural beauty of Hoge Veluwe, offering diverse landscapes perfect for cycling enthusiasts.",
+        "location": "Hoge Veluwe National Park, Netherlands",
+        "longitude": 5.8309,
+        "latitude": 52.0767,
+        "best_time_of_day_to_go": "Late afternoon",
+        "imageUrl": "assets/images/venues/netherlands/hogeveluwe.png"
+      }
+    ]
+  },
+
+  {
+    "name": "Visiting the Anne Frank House",
+    "category": "Culture",
+    "optimal_time_of_day": "morning to afternoon",
+    "length_of_activity": "2-3 hours",
+    "country_rank": 5,
+    "score": 2,
+    "description": "Learn about the history of World War II and Anne Frank's life at the Anne Frank House in Amsterdam.",
+    "city": "Amsterdam",
+    "longitude": 4.9106,
+    "latitude": 52.3752,
+    "cost": "€€",
+    "best_time_to_go": ["April", "May", "September", "October"],
+    "best_time_to_go_description": "The ideal time to visit is in the late spring and early autumn months, avoiding the peak tourist season while enjoying milder weather.",
+    "worst_time_to_go": ["June", "July", "August"],
+    "worst_time_to_go_description": "Summer months are often crowded, leading to longer waiting times and a more rushed experience.",
+    "suggested_venues": [
+      {
+        "name": "The Secret Annex",
+        "description": "Tour the hidden rooms where Anne Frank and her family lived in hiding and where she wrote her famous diary.",
+        "location": "Anne Frank House, Prinsengracht 263-267, Amsterdam",
+        "longitude": 4.9107,
+        "latitude": 52.3753,
+        "best_time_of_day_to_go": "Early morning or late afternoon",
+        "imageUrl": "assets/images/venues/netherlands/secretannex.png"
+      },
+      {
+        "name": "The Diary Room",
+        "description": "View Anne Frank's original diary and other writings, preserved in a specially designed exhibit.",
+        "location": "Anne Frank House, Prinsengracht 263-267, Amsterdam",
+        "longitude": 4.9105,
+        "latitude": 52.3751,
+        "best_time_of_day_to_go": "Mid-morning",
+        "imageUrl": "assets/images/venues/netherlands/diaryroom.png"
+      },
+      {
+        "name": "The Exhibition Room",
+        "description": "Explore various exhibitions that delve into the context of the Holocaust, World War II, and the story of Anne Frank.",
+        "location": "Anne Frank House, Prinsengracht 263-267, Amsterdam",
+        "longitude": 4.9108,
+        "latitude": 52.3754,
+        "best_time_of_day_to_go": "Early afternoon",
+        "imageUrl": "assets/images/venues/netherlands/exhibitionroom.png"
+      },
+      {
+        "name": "The Museum Café",
+        "description": "Reflect on your visit with a quiet moment at the museum café overlooking the Prinsengracht canal.",
+        "location": "Anne Frank House, Prinsengracht 263-267, Amsterdam",
+        "longitude": 4.9104,
+        "latitude": 52.375,
+        "best_time_of_day_to_go": "Late afternoon",
+        "imageUrl": "assets/images/venues/netherlands/museumcafe.png"
+      }
+    ]
+  },
+
+  {
+    "name": "Cheese Tasting in Gouda",
+    "category": "Gastronomy",
+    "optimal_time_of_day": "morning to afternoon",
+    "length_of_activity": "2-3 hours",
+    "country_rank": 6,
+    "score": 2,
+    "description": "Sample the famous Gouda cheese and visit the traditional cheese market in the town of Gouda.",
+    "city": "Gouda",
+    "longitude": 4.7105,
+    "latitude": 52.0116,
+    "cost": "€",
+    "best_time_to_go": ["April", "May", "June", "July", "August"],
+    "best_time_to_go_description": "Spring and summer are ideal for visiting Gouda, especially on market days when you can experience the traditional cheese trading.",
+    "worst_time_to_go": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "worst_time_to_go_description": "The colder months see fewer activities, and the cheese market is not operational.",
+    "suggested_venues": [
+      {
+        "name": "Gouda Cheese Market",
+        "description": "Experience the traditional cheese market held in the town square, a spectacle of cheese trading and local culture.",
+        "location": "Market Square, Gouda, Netherlands",
+        "longitude": 4.7118,
+        "latitude": 52.0121,
+        "best_time_of_day_to_go": "Morning",
+        "imageUrl": "assets/images/venues/netherlands/goudacheesemarket.png"
+      },
+      {
+        "name": "De Goudse Waag",
+        "description": "Visit this historic building that now houses the Cheese and Crafts Museum, offering insights into cheese-making history.",
+        "location": "De Goudse Waag, Markt 35, Gouda, Netherlands",
+        "longitude": 4.7103,
+        "latitude": 52.0115,
+        "best_time_of_day_to_go": "Mid-morning to early afternoon",
+        "imageUrl": "assets/images/venues/netherlands/degoudsewaag.png"
+      },
+      {
+        "name": "Local Cheese Farms",
+        "description": "Tour surrounding farms to see Gouda cheese-making in action and taste different varieties right at the source.",
+        "location": "Various locations around Gouda, Netherlands",
+        "longitude": 4.71,
+        "latitude": 52.012,
+        "best_time_of_day_to_go": "Afternoon",
+        "imageUrl": "assets/images/venues/netherlands/localcheese.png"
+      },
+      {
+        "name": "Cheese Tasting Shops",
+        "description": "Explore local cheese shops in Gouda to sample and buy various types of Gouda cheese.",
+        "location": "Gouda city center, Netherlands",
+        "longitude": 4.709,
+        "latitude": 52.011,
+        "best_time_of_day_to_go": "Late afternoon to early evening",
+        "imageUrl": "assets/images/venues/netherlands/cheeseshops.png"
+      }
+    ]
+  },
+
+  {
+    "name": "Exploring the Historic City of Utrecht",
+    "category": "Culture",
+    "optimal_time_of_day": "morning to afternoon",
+    "length_of_activity": "3-4 hours",
+    "country_rank": 7,
+    "score": 2,
+    "description": "Discover the medieval architecture and vibrant cultural scene of Utrecht, including its iconic Dom Tower.",
+    "city": "Utrecht",
+    "longitude": 5.1214,
+    "latitude": 52.0907,
+    "cost": "€€",
+    "best_time_to_go": ["April", "May", "June", "September", "October"],
+    "best_time_to_go_description": "Late spring and early autumn are great for exploring Utrecht, offering pleasant weather and less crowded streets.",
+    "worst_time_to_go": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "worst_time_to_go_description": "The winter months can be quite cold and damp, making outdoor exploration less enjoyable.",
+    "suggested_venues": [
+      {
+        "name": "Dom Tower",
+        "description": "Climb the iconic Dom Tower for a panoramic view of the city and to learn about its rich history.",
+        "location": "Domplein, 3512 JC Utrecht, Netherlands",
+        "longitude": 5.1216,
+        "latitude": 52.0908,
+        "best_time_of_day_to_go": "Morning",
+        "imageUrl": "assets/images/venues/netherlands/domtower.png"
+      },
+      {
+        "name": "Museum Speelklok",
+        "description": "Visit this unique museum featuring a collection of automatically playing musical instruments.",
+        "location": "Steenweg 6, 3511 JP Utrecht, Netherlands",
+        "longitude": 5.1211,
+        "latitude": 52.0905,
+        "best_time_of_day_to_go": "Mid-morning to early afternoon",
+        "imageUrl": "assets/images/venues/netherlands/speelklok.png"
+      },
+      {
+        "name": "The Oudegracht Canal",
+        "description": "Stroll along or take a boat tour of the Oudegracht, Utrecht's famous ancient canal lined with historic buildings.",
+        "location": "Oudegracht, Utrecht, Netherlands",
+        "longitude": 5.1212,
+        "latitude": 52.0909,
+        "best_time_of_day_to_go": "Afternoon",
+        "imageUrl": "assets/images/venues/netherlands/oudegracht.png"
+      },
+      {
+        "name": "Botanic Gardens",
+        "description": "Explore the beautiful Botanic Gardens of Utrecht University, known for their diverse plant collections.",
+        "location": "Budapestlaan 17, 3584 CD Utrecht, Netherlands",
+        "longitude": 5.1674,
+        "latitude": 52.0843,
+        "best_time_of_day_to_go": "Late afternoon",
+        "imageUrl": "assets/images/venues/netherlands/botanicgardens.png"
+      }
+    ]
+  },
+
+  {
+    "name": "Visiting the Windmills of Kinderdijk",
+    "category": "Culture",
+    "optimal_time_of_day": "morning to afternoon",
+    "length_of_activity": "3-4 hours",
+    "country_rank": 8,
+    "score": 2,
+    "description": "See the iconic Dutch windmills at Kinderdijk, a UNESCO World Heritage Site representing Netherlands' water management history.",
+    "city": "Kinderdijk",
+    "longitude": 4.6473,
+    "latitude": 51.8835,
+    "cost": "€",
+    "best_time_to_go": ["April", "May", "June", "September"],
+    "best_time_to_go_description": "Spring and early autumn are ideal for visiting Kinderdijk, offering pleasant weather and fewer tourists compared to the summer months.",
+    "worst_time_to_go": [
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "worst_time_to_go_description": "The colder and wetter months can hinder outdoor exploration and enjoyment of the site.",
+    "suggested_venues": [
+      {
+        "name": "Windmill Tour",
+        "description": "Tour inside one of the working windmills to learn about the historical water management system.",
+        "location": "Nederwaard 1, 2961 AS Kinderdijk, Netherlands",
+        "longitude": 4.6491,
+        "latitude": 51.883,
+        "best_time_of_day_to_go": "Morning",
+        "imageUrl": "assets/images/venues/netherlands/windmilltour.png"
+      },
+      {
+        "name": "Boat Ride Along the Windmills",
+        "description": "Take a boat trip to view the windmills from the water, offering a different perspective of this impressive site.",
+        "location": "Kinderdijk, Netherlands",
+        "longitude": 4.6478,
+        "latitude": 51.8841,
+        "best_time_of_day_to_go": "Mid-morning to early afternoon",
+        "imageUrl": "assets/images/venues/netherlands/boatridewindmills.png"
+      },
+      {
+        "name": "Kinderdijk Visitors Center",
+        "description": "Start your visit at the Visitors Center to get insights into the area's history and significance.",
+        "location": "Nederwaard 5, 2961 AS Kinderdijk, Netherlands",
+        "longitude": 4.6459,
+        "latitude": 51.8829,
+        "best_time_of_day_to_go": "Early afternoon",
+        "imageUrl": "assets/images/venues/netherlands/visitorcenter.png"
+      },
+      {
+        "name": "Walking Trails",
+        "description": "Explore the surrounding natural beauty and get up close to the windmills by walking the designated trails.",
+        "location": "Kinderdijk, Netherlands",
+        "longitude": 4.648,
+        "latitude": 51.8837,
+        "best_time_of_day_to_go": "Late afternoon",
+        "imageUrl": "assets/images/venues/netherlands/walkingtrails.png"
+      }
+    ]
+  },
+
+  {
+    "name": "Walking through the Fields of Tulips in Flevoland",
+    "category": "Leisure",
+    "optimal_time_of_day": "morning to afternoon",
+    "length_of_activity": "2-3 hours",
+    "country_rank": 9,
+    "score": 2,
+    "description": "Stroll through the colorful tulip fields in Flevoland during spring, a beautiful and iconic Dutch experience.",
+    "city": "Flevoland",
+    "longitude": 5.4767,
+    "latitude": 52.5279,
+    "cost": "€",
+    "best_time_to_go": ["April", "May"],
+    "best_time_to_go_description": "The tulip season in April and May is the perfect time to witness the vibrant bloom of tulips in the fields of Flevoland.",
+    "worst_time_to_go": [
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "worst_time_to_go_description": "Outside of the spring months, the tulip fields are not in bloom, significantly reducing the visual appeal.",
+    "suggested_venues": [
+      {
+        "name": "Noordoostpolder Tulip Fields",
+        "description": "The Noordoostpolder area hosts some of the most extensive tulip fields, offering breathtaking views of the colorful blooms.",
+        "location": "Noordoostpolder, Flevoland, Netherlands",
+        "longitude": 5.6402,
+        "latitude": 52.7108,
+        "best_time_of_day_to_go": "Morning",
+        "imageUrl": "assets/images/venues/netherlands/noordoostpolde.png"
+      },
+      {
+        "name": "Tulip Route Flevoland",
+        "description": "Follow the Tulip Route to explore various tulip fields and related activities in the region.",
+        "location": "Various locations in Flevoland, Netherlands",
+        "longitude": 5.5,
+        "latitude": 52.55,
+        "best_time_of_day_to_go": "Mid-morning to early afternoon",
+        "imageUrl": "assets/images/venues/netherlands/tulipflevoland.png"
+      },
+      {
+        "name": "The Tulip Information Centre",
+        "description": "Visit the centre to learn about tulip farming and the history of tulips in the Netherlands.",
+        "location": "Creilerpad 14, 8312 PS Creil, Netherlands",
+        "longitude": 5.67,
+        "latitude": 52.765,
+        "best_time_of_day_to_go": "Early afternoon",
+        "imageUrl": "assets/images/venues/netherlands/tulipinfocenter.png"
+      },
+      {
+        "name": "Tulip Festival",
+        "description": "Participate in the annual Tulip Festival held in Flevoland, celebrating the tulip season with various events.",
+        "location": "Flevoland, Netherlands",
+        "longitude": 5.47,
+        "latitude": 52.52,
+        "best_time_of_day_to_go": "Late afternoon",
+        "imageUrl": "assets/images/venues/netherlands/tulipfestival.png"
+      }
+    ]
+  },
+
+  {
+    "name": "Exploring the Delft Blue Pottery Factory",
+    "category": "Culture",
+    "optimal_time_of_day": "morning to afternoon",
+    "length_of_activity": "2-3 hours",
+    "country_rank": 10,
+    "score": 2,
+    "description": "Learn about the traditional Dutch Delftware at the famous Delft Blue Pottery Factory in Delft.",
+    "city": "Delft",
+    "longitude": 4.3571,
+    "latitude": 52.0116,
+    "cost": "€",
+    "best_time_to_go": ["April", "May", "June", "September", "October"],
+    "best_time_to_go_description": "Late spring and early autumn are ideal for visiting, offering pleasant weather and fewer tourists.",
+    "worst_time_to_go": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "worst_time_to_go_description": "The winter months can be quite cold and less ideal for exploring the city of Delft.",
+    "suggested_venues": [
+      {
+        "name": "Royal Delft Experience",
+        "description": "A guided tour through the Royal Delft factory, showcasing the history and craftsmanship of Delft Blue pottery.",
+        "location": "Rotterdamseweg 196, 2628 AR Delft, Netherlands",
+        "longitude": 4.355,
+        "latitude": 52.0097,
+        "best_time_of_day_to_go": "Morning",
+        "imageUrl": "assets/images/venues/netherlands/royaldelft.png"
+      },
+      {
+        "name": "Paint Your Own Delftware",
+        "description": "Participate in a workshop where you can paint your own Delftware under the guidance of skilled artisans.",
+        "location": "Delft Blue Factory, Delft, Netherlands",
+        "longitude": 4.3582,
+        "latitude": 52.0122,
+        "best_time_of_day_to_go": "Mid-morning to early afternoon",
+        "imageUrl": "assets/images/venues/netherlands/paintdelftware.png"
+      },
+      {
+        "name": "Delft Blue Pottery Museum",
+        "description": "Explore the museum displaying a wide range of historical and modern Delft Blue ceramics.",
+        "location": "Delft Blue Factory, Delft, Netherlands",
+        "longitude": 4.3575,
+        "latitude": 52.0118,
+        "best_time_of_day_to_go": "Early afternoon",
+        "imageUrl": "assets/images/venues/netherlands/delftpotterymuseum.png"
+      },
+      {
+        "name": "Factory Store Visit",
+        "description": "Browse the factory store which offers a variety of authentic Delft Blue pottery for sale.",
+        "location": "Delft Blue Factory, Delft, Netherlands",
+        "longitude": 4.3573,
+        "latitude": 52.0117,
+        "best_time_of_day_to_go": "Late afternoon",
+        "imageUrl": "assets/images/venues/netherlands/factorystorevisit.png"
+      }
+    ]
+  }
+]
