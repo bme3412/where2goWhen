@@ -107,22 +107,26 @@
       {
         "name": "Ksamil Beach",
         "description": "The main beach of Ksamil, known for its soft sand, clear waters, and proximity to local amenities and restaurants.",
-        "location": "Ksamil, Vlorë County, Albania"
+        "location": "Ksamil, Vlorë County, Albania",
+        "imageUrl":"assets/images/venues/albania/ksamilbeach.png"
       },
       {
         "name": "Ksamil Islands",
         "description": "A group of small islands just off the coast, easily accessible by boat, offering secluded beaches and beautiful natural settings.",
-        "location": "Ksamil, Vlorë County, Albania"
+        "location": "Ksamil, Vlorë County, Albania",
+        "imageUrl":"assets/images/venues/albania/ksamilislands.png"
       },
       {
         "name": "Butrint National Park",
         "description": "Nearby national park offering a mix of archaeological sites and natural beauty, perfect for a day trip from Ksamil.",
-        "location": "Butrint, Vlorë County, Albania"
+        "location": "Butrint, Vlorë County, Albania",
+        "imageUrl":"assets/images/venues/albania/butrintpark.png"
       },
       {
         "name": "Mirror Beach",
         "description": "A picturesque and somewhat more secluded beach near Ksamil, known for its clear waters and scenic surroundings.",
-        "location": "Ksamil, Vlorë County, Albania"
+        "location": "Ksamil, Vlorë County, Albania",
+        "imageUrl":"assets/images/venues/albania/mirrorbeach.png"
       }
     ]
   },
@@ -147,22 +151,26 @@
       {
         "name": "Skanderbeg Square",
         "description": "The main square in Tirana, surrounded by important landmarks and a great starting point for exploring the city.",
-        "location": "Skanderbeg Square, Tirana, Albania"
+        "location": "Skanderbeg Square, Tirana, Albania",
+        "imageUrl":"assets/images/venues/albania/skanderbeg.png"
       },
       {
         "name": "Et'hem Bey Mosque",
         "description": "A historic mosque located in Skanderbeg Square, known for its beautiful frescoes and architecture.",
-        "location": "Sheshi Skënderbej, Tirana, Albania"
+        "location": "Sheshi Skënderbej, Tirana, Albania",
+        "imageUrl":"assets/images/venues/albania/ethembey.png"
       },
       {
         "name": "Bunk'Art",
         "description": "A unique museum housed in a former bunker, offering insights into Albania's communist history.",
-        "location": "Rruga Fadil Deliu, Tirana, Albania"
+        "location": "Rruga Fadil Deliu, Tirana, Albania",
+        "imageUrl":"assets/images/venues/albania/bunkart.png"
       },
       {
         "name": "Dajti Ekspres Cable Car",
         "description": "A cable car ride that offers panoramic views of Tirana and the surrounding landscape.",
-        "location": "Rruga Murat Toptani, Tirana, Albania"
+        "location": "Rruga Murat Toptani, Tirana, Albania",
+        "imageUrl":"assets/images/venues/albania/dajticablecar.png"
       }
     ]
   },
@@ -186,22 +194,26 @@
       {
         "name": "Osumi Canyon",
         "description": "The primary location for rafting, offering a unique adventure through its stunning geological formations and diverse wildlife.",
-        "location": "Near Çorovodë, Skrapar County, Albania"
+        "location": "Near Çorovodë, Skrapar County, Albania",
+        "imageUrl":"assets/images/venues/albania/osumi.png"
       },
       {
         "name": "Berat",
         "description": "A nearby city known as the 'City of a Thousand Windows', offering rich history, beautiful architecture, and a glimpse into traditional Albanian culture.",
-        "location": "Berat, Albania"
+        "location": "Berat, Albania",
+        "imageUrl":"assets/images/venues/albania/berat.png"
       },
       {
         "name": "Bogove Waterfall",
         "description": "A beautiful natural waterfall close to the Osumi Canyons, perfect for a relaxing visit after a day of rafting.",
-        "location": "Near Bogove, Skrapar County, Albania"
+        "location": "Near Bogove, Skrapar County, Albania",
+        "imageUrl":"assets/images/venues/albania/bogove.png"
       },
       {
         "name": "Tomorr Mountain",
         "description": "A significant mountain in Albanian folklore, offering hiking trails and panoramic views of the region.",
-        "location": "Tomorr National Park, Berat County, Albania"
+        "location": "Tomorr National Park, Berat County, Albania",
+        "imageUrl":"assets/images/venues/albania/tomorr.png"
       }
     ]
   },
@@ -225,22 +237,26 @@
       {
         "name": "Gjirokastër Old Town",
         "description": "Explore the charming streets of Gjirokastër's old town, a UNESCO World Heritage Site, known for its well-preserved Ottoman-style architecture.",
-        "location": "Gjirokastër, Albania"
+        "location": "Gjirokastër, Albania",
+        "imageUrl":"assets/images/venues/albania/gjirokaster.png"
       },
       {
         "name": "Ethnographic Museum",
         "description": "Located in Gjirokastër, this museum offers insights into traditional Albanian life and culture.",
-        "location": "Rruga Jorgji Meksi, Gjirokastër, Albania"
+        "location": "Rruga Jorgji Meksi, Gjirokastër, Albania",
+        "imageUrl":"assets/images/venues/albania/ethnographicmuseum.png"
       },
       {
         "name": "Skenduli House",
         "description": "A beautifully preserved Ottoman house in Gjirokastër, offering a glimpse into the past with its original furnishings and architecture.",
-        "location": "Rruga Sokaku i Te Mareve, Gjirokastër, Albania"
+        "location": "Rruga Sokaku i Te Mareve, Gjirokastër, Albania",
+        "imageUrl":"assets/images/venues/albania/skendulihouse.png"
       },
       {
         "name": "Zekate House",
         "description": "Another exemplary Ottoman-era house in Gjirokastër, known for its architecture and stunning views of the city.",
-        "location": "Gjirokastër, Albania"
+        "location": "Gjirokastër, Albania",
+        "imageUrl":"assets/images/venues/albania/zekatehouse.png"
       }
     ]
   },
@@ -265,22 +281,26 @@
       {
         "name": "Çobo Winery",
         "description": "A family-owned winery near Berat, offering tours and tastings of their locally produced wines in a scenic setting.",
-        "location": "Rruga Berat - Çobo, Ura Vajgurore, Berat, Albania"
+        "location": "Rruga Berat - Çobo, Ura Vajgurore, Berat, Albania",
+        "imageUrl":"assets/images/venues/albania/cobowine.png"
       },
       {
         "name": "Nurellari Winery",
         "description": "A boutique winery known for its high-quality wines and beautiful vineyard, located in the heart of the Berat region.",
-        "location": "Lagje Kondas, Berat, Albania"
+        "location": "Lagje Kondas, Berat, Albania",
+        "imageUrl":"assets/images/venues/albania/nurellariwine.png"
       },
       {
         "name": "Berat Castle",
         "description": "While not a winery, this historic castle offers stunning views of the surrounding vineyards and is a must-visit landmark in the area.",
-        "location": "Berat Castle, Berat, Albania"
+        "location": "Berat Castle, Berat, Albania",
+        "imageUrl":"assets/images/venues/albania/beratcastle.png"
       },
       {
         "name": "Berat Old Town",
         "description": "Explore the historic streets of Berat's Old Town, known for its traditional architecture and charming atmosphere, with several local wine bars and restaurants.",
-        "location": "Mangalem, Berat, Albania"
+        "location": "Mangalem, Berat, Albania",
+        "imageUrl":"assets/images/venues/albania/beratoldtown.png"
       }
     ]
   },
@@ -305,22 +325,26 @@
       {
         "name": "Lëkurësi Castle",
         "description": "The main attraction, offering panoramic views of Saranda, the Ionian Sea, and the surrounding area, especially stunning at sunset.",
-        "location": "Lëkurësi, Saranda, Albania"
+        "location": "Lëkurësi, Saranda, Albania",
+        "imageUrl":"assets/images/venues/albania/lekuresi.png"
       },
       {
         "name": "Butrint National Park",
         "description": "A UNESCO World Heritage site near Saranda, featuring ancient ruins set in a beautiful natural landscape.",
-        "location": "Butrint, Vlorë County, Albania"
+        "location": "Butrint, Vlorë County, Albania",
+        "imageUrl":"assets/images/venues/albania/butrintpark.png"
       },
       {
         "name": "Ksamil Beach",
         "description": "A beautiful beach area close to Saranda, known for its clear waters and scenic islands.",
-        "location": "Ksamil, Vlorë County, Albania"
+        "location": "Ksamil, Vlorë County, Albania",
+        "imageUrl":"assets/images/venues/albania/ksamilbeach.png"
       },
       {
         "name": "Blue Eye Spring",
         "description": "A natural water spring with stunning clear blue water, located within a short drive from Saranda.",
-        "location": "Syri i Kaltër, Vlorë County, Albania"
+        "location": "Syri i Kaltër, Vlorë County, Albania",
+        "imageUrl":"assets/images/venues/albania/blueeyespring.png"
       }
     ]
   },
@@ -345,22 +369,26 @@
       {
         "name": "Blue Eye Spring",
         "description": "The main attraction, known for its mesmerizing blue waters and tranquil natural setting, perfect for nature lovers and photographers.",
-        "location": "Blue Eye Spring, Muzinë, Albania"
+        "location": "Blue Eye Spring, Muzinë, Albania",
+        "imageUrl":"assets/images/venues/albania/blueeyespring.png"
       },
       {
         "name": "Saranda",
         "description": "A nearby coastal town, offering beautiful beaches, a vibrant atmosphere, and various dining and accommodation options.",
-        "location": "Saranda, Vlorë County, Albania"
+        "location": "Saranda, Vlorë County, Albania",
+        "imageUrl":"assets/images/venues/albania/saranda.png"
       },
       {
         "name": "Ksamil Beach",
         "description": "A stunning beach area near Saranda, known for its crystal-clear waters and beautiful islands.",
-        "location": "Ksamil, Vlorë County, Albania"
+        "location": "Ksamil, Vlorë County, Albania",
+        "imageUrl":"assets/images/venues/albania/ksamilbeach.png"
       },
       {
         "name": "Butrint National Park",
         "description": "A UNESCO World Heritage site, featuring ancient ruins and diverse wildlife, located a short distance from the Blue Eye Spring.",
-        "location": "Butrint, Vlorë County, Albania"
+        "location": "Butrint, Vlorë County, Albania",
+        "imageUrl":"assets/images/venues/albania/butrintpark.png"
       }
     ]
   },
@@ -385,22 +413,26 @@
       {
         "name": "Krujë Castle",
         "description": "The main attraction, featuring the National Skanderbeg Museum and offering panoramic views of the surrounding landscape.",
-        "location": "Krujë Castle, Krujë, Albania"
+        "location": "Krujë Castle, Krujë, Albania",
+        "imageUrl":"assets/images/venues/albania/kruje.png"
       },
       {
         "name": "Old Bazaar",
         "description": "A historic market near the castle, offering traditional Albanian crafts, souvenirs, and a glimpse into local culture.",
-        "location": "Rruga e Arberit, Krujë, Albania"
+        "location": "Rruga e Arberit, Krujë, Albania",
+        "imageUrl":"assets/images/venues/albania/oldbazaar.png"
       },
       {
         "name": "Ethnographic Museum",
         "description": "Located in Krujë, this museum showcases traditional Albanian life and culture through well-preserved artifacts and exhibits.",
-        "location": "Rruga Idriz Dollaku, Krujë, Albania"
+        "location": "Rruga Idriz Dollaku, Krujë, Albania",
+        "imageUrl":"assets/images/venues/albania/ethnographicmuseum.png"
       },
       {
         "name": "Sari Salltëk Tekke",
         "description": "A historical religious site near Krujë Castle, offering insight into the Bektashi Order and stunning views of the region.",
-        "location": "Near Krujë Castle, Krujë, Albania"
+        "location": "Near Krujë Castle, Krujë, Albania",
+        "imageUrl":"assets/images/venues/albania/sarisalltek.png"
       }
     ]
   }

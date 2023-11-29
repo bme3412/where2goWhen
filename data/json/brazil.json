@@ -18,28 +18,32 @@
                 "description": "See the Meeting of Waters, where the dark Rio Negro and the pale Amazon River converge, creating a stunning natural phenomenon.",
                 "location": "Meeting of Waters, Manaus, Brazil",
                 "longitude": -60.0400,
-                "latitude": -3.2500
+                "latitude": -3.2500,
+                "imageUrl":"assets/images/venues/brazil/meetingofwaters.png"
             },
             {
                 "name": "Amazon Rainforest Lodge",
                 "description": "Stay at an Amazon Rainforest Lodge, offering immersive jungle experiences and guided wildlife tours.",
                 "location": "Amazon Rainforest Lodge, near Manaus, Brazil",
                 "longitude": -60.1000,
-                "latitude": -3.1000
+                "latitude": -3.1000,
+                "imageUrl":"assets/images/venues/brazil/amazonlodge.png"
             },
             {
                 "name": "Janauari Ecological Park",
                 "description": "Explore the Janauari Ecological Park, a unique area with floating ecosystems and rich biodiversity.",
                 "location": "Janauari Ecological Park, near Manaus, Brazil",
                 "longitude": -60.2000,
-                "latitude": -3.3000
+                "latitude": -3.3000,
+                "imageUrl":"assets/images/venues/brazil/janauaripark.png"
             },
             {
                 "name": "Anavilhanas Archipelago",
                 "description": "Visit the Anavilhanas Archipelago, a vast riverine archipelago in the Rio Negro with numerous islands, channels, and lakes to explore.",
                 "location": "Anavilhanas Archipelago, near Manaus, Brazil",
                 "longitude": -60.7500,
-                "latitude": -2.5000
+                "latitude": -2.5000,
+                "imageUrl":"assets/images/venues/brazil/anavilhanas.png"
             }
         ]
     },
@@ -63,28 +67,32 @@
                 "description": "Witness the main parades at the Sambadrome, where samba schools compete in one of the most vibrant displays of Brazilian culture.",
                 "location": "Sambadrome Marquês de Sapucaí, Rio de Janeiro, Brazil",
                 "longitude": -43.1964,
-                "latitude": -22.9110
+                "latitude": -22.9110,
+                "imageUrl":"assets/images/venues/brazil/sambadrome.png"
             },
             {
                 "name": "Copacabana Beach",
                 "description": "Join the Carnival street parties at Copacabana Beach, a hub of festive activities and live music performances.",
                 "location": "Copacabana Beach, Rio de Janeiro, Brazil",
                 "longitude": -43.1822,
-                "latitude": -22.9711
+                "latitude": -22.9711,
+                "imageUrl":"assets/images/venues/brazil/copacabana.png"
             },
             {
                 "name": "Ipanema",
                 "description": "Explore the neighborhood of Ipanema for its vibrant street parties and parades, a quintessential Rio Carnival experience.",
                 "location": "Ipanema, Rio de Janeiro, Brazil",
                 "longitude": -43.2065,
-                "latitude": -22.9838
+                "latitude": -22.9838,
+                "imageUrl":"assets/images/venues/brazil/ipanema.png"
             },
             {
                 "name": "Rio Carnival Balls",
                 "description": "Attend one of the many glamorous Carnival balls held in the city, famous for their elaborate costumes and lively atmosphere.",
                 "location": "Various locations in Rio de Janeiro, Brazil",
                 "longitude": -43.1729,
-                "latitude": -22.9068
+                "latitude": -22.9068,
+                "imageUrl":"assets/images/venues/brazil/rioballs.png"
             }
         ]
     },
