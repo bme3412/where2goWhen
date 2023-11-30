@@ -1,7 +1,7 @@
 [
     {
         "name": "Exploring the Atacama Desert",
-        "category": "Nature/Adventure",
+        "category": "Nature",
         "score": 5,
         "description": "Discover the otherworldly landscapes of the Atacama Desert, known for its salt flats, geysers, and stargazing opportunities.",
         "city": "San Pedro de Atacama",
@@ -16,24 +16,27 @@
             {
                 "name": "Valle de la Luna",
                 "description": "A surreal landscape resembling the moon's surface, offering breathtaking views of rock formations and dunes. Ideal for hiking and watching sunsets.",
-                "location": "Valle de la Luna, Atacama Desert, Chile"
+                "location": "Valle de la Luna, Atacama Desert, Chile",
+                "imageUrl":"assets/images/venues/chile/luna.png"
             },
             {
                 "name": "El Tatio Geysers",
                 "description": "One of the highest-elevation geyser fields in the world. Best visited at dawn when the geysers are most active, creating a spectacular natural show.",
-                "location": "El Tatio, Atacama Desert, Chile"
+                "location": "El Tatio, Atacama Desert, Chile",
+                "imageUrl":"assets/images/venues/chile/tatiogeysers.png"
             },
             {
                 "name": "Salar de Atacama",
                 "description": "The largest salt flat in Chile, known for its vast white landscapes and home to flamingos and other wildlife. Offers unique photography opportunities.",
-                "location": "Salar de Atacama, Atacama Desert, Chile"
+                "location": "Salar de Atacama, Atacama Desert, Chile",
+                "imageUrl":"assets/images/venues/chile/salaratacama.png"
             }
         ]
     },
 
     {
         "name": "Hiking in Torres del Paine National Park",
-        "category": "Nature/Adventure",
+        "category": "Nature",
         "score": 5,
         "description": "Embark on a trekking adventure in the stunning Torres del Paine National Park, famous for its rugged beauty and iconic granite peaks.",
         "city": "Puerto Natales",
@@ -48,17 +51,20 @@
             {
                 "name": "The W Trek",
                 "description": "A popular multi-day trek covering the park's major highlights, including the Grey Glacier, French Valley, and the Base of the Towers.",
-                "location": "Torres del Paine National Park, Chile"
+                "location": "Torres del Paine National Park, Chile",
+                "imageUrl":"assets/images/venues/chile/wtrek.png"
             },
             {
                 "name": "The O Circuit",
                 "description": "An extended version of the W Trek, this challenging route offers a complete circuit around the Paine Massif with stunning views and diverse landscapes.",
-                "location": "Torres del Paine National Park, Chile"
+                "location": "Torres del Paine National Park, Chile",
+                "imageUrl":"assets/images/venues/chile/ocircuit.png"
             },
             {
                 "name": "Base of the Towers Trail",
                 "description": "A day hike leading to the iconic base of the three towers, offering breathtaking views and photo opportunities of the park's most famous landmarks.",
-                "location": "Torres del Paine National Park, Chile"
+                "location": "Torres del Paine National Park, Chile",
+                "imageUrl":"assets/images/venues/chile/towerstrail.png"
             }
         ]
     },
@@ -66,7 +72,7 @@
 
     {
         "name": "Cruising through Patagonian Fjords",
-        "category": "Nature/Adventure",
+        "category": "Adventure",
         "score": 5,
         "description": "Take a cruise through the mesmerizing Patagonian fjords, surrounded by glaciers, mountains, and pristine waters.",
         "city": "Punta Arenas",
@@ -83,21 +89,24 @@
                 "description": "Famous for its historical significance and stunning natural beauty, offering views of sea lions, penguins, and glaciers.",
                 "location": "Beagle Channel, Chile",
                 "longitude": -68.1833,
-                "latitude": -55.0000
+                "latitude": -55.0000,
+                "imageUrl":"assets/images/venues/chile/beaglechannel.png"
             },
             {
                 "name": "Cape Horn",
                 "description": "Known as the southernmost point of South America, Cape Horn is a legendary maritime landmark with dramatic ocean vistas.",
                 "location": "Cape Horn, Chile",
                 "longitude": -67.2636,
-                "latitude": -55.9833
+                "latitude": -55.9833,
+                "imageUrl":"assets/images/venues/chile/capehorn.png"
             },
             {
                 "name": "Glacier Alley",
                 "description": "A passage along the fjords featuring several impressive glaciers descending from the Darwin Mountain Range, each named after a European country.",
                 "location": "Glacier Alley, Chile",
                 "longitude": -70.9167,
-                "latitude": -54.0833
+                "latitude": -54.0833,
+                "imageUrl":"assets/images/venues/chile/glacieralley.png"
             }
         ]
     },
@@ -105,7 +114,7 @@
 
     {
         "name": "Wine Tasting in the Colchagua Valley",
-        "category": "Food/Wine",
+        "category": "Food",
         "score": 4,
         "description": "Indulge in wine tasting at the vineyards of the Colchagua Valley, renowned for its fine Chilean wines.",
         "city": "Santa Cruz",
@@ -122,21 +131,24 @@
                 "description": "Known for its innovative winemaking techniques and premium wines, Viña Montes offers guided tours and tastings in a beautiful setting.",
                 "location": "Viña Montes, Colchagua Valley, Chile",
                 "longitude": -71.4939,
-                "latitude": -34.6431
+                "latitude": -34.6431,
+                "imageUrl":"assets/images/venues/chile/vinamontes.png"
             },
             {
                 "name": "Casa Lapostolle",
                 "description": "Famous for its high-quality wines and stunning architecture, Casa Lapostolle provides a luxurious wine-tasting experience.",
                 "location": "Casa Lapostolle, Colchagua Valley, Chile",
                 "longitude": -71.3172,
-                "latitude": -34.6504
+                "latitude": -34.6504,
+                "imageUrl":"assets/images/venues/chile/lapostolle.png"
             },
             {
                 "name": "Clos Apalta",
                 "description": "Esteemed for its iconic wines, Clos Apalta offers an intimate and exclusive wine tasting tour, showcasing its unique terroir and winemaking process.",
                 "location": "Clos Apalta, Colchagua Valley, Chile",
                 "longitude": -71.2828,
-                "latitude": -34.6333
+                "latitude": -34.6333,
+                "imageUrl":"assets/images/venues/chile/apalta.png"
             }
         ]
     },
@@ -144,7 +156,7 @@
 
     {
         "name": "Visiting Easter Island (Rapa Nui)",
-        "category": "Culture/History",
+        "category": "Culture",
         "score": 5,
         "description": "Explore the mysterious Moai statues and immerse yourself in the culture and history of Easter Island.",
         "city": "Hanga Roa",
@@ -161,21 +173,24 @@
                 "description": "The quarry site for the Moai statues, offering a unique glimpse into how these colossal figures were carved and transported.",
                 "location": "Rano Raraku, Easter Island",
                 "longitude": -109.2898,
-                "latitude": -27.1243
+                "latitude": -27.1243,
+                "imageUrl":"assets/images/venues/chile/ranoraraku.png"
             },
             {
                 "name": "Ahu Tongariki",
                 "description": "The largest ceremonial platform on Easter Island, featuring 15 restored Moai statues in a breathtaking row against the ocean backdrop.",
                 "location": "Ahu Tongariki, Easter Island",
                 "longitude": -109.2896,
-                "latitude": -27.1211
+                "latitude": -27.1211,
+                "imageUrl":"assets/images/venues/chile/ahutongariki.png"
             },
             {
                 "name": "Orongo",
                 "description": "A historic stone village and ceremonial center on the rim of the Rano Kau crater, known for its petroglyphs and Birdman cult stories.",
                 "location": "Orongo, Easter Island",
                 "longitude": -109.4442,
-                "latitude": -27.1867
+                "latitude": -27.1867,
+                "imageUrl":"assets/images/venues/chile/orongo.png"
             }
         ]
     },
@@ -200,14 +215,16 @@
                 "description": "A popular spot for outdoor activities, Cajon del Maipo offers exciting rafting experiences with stunning views of the Andean mountains.",
                 "location": "Cajon del Maipo, near Santiago, Chile",
                 "longitude": -70.3525,
-                "latitude": -33.6410
+                "latitude": -33.6410,
+                "imageUrl":"assets/images/venues/chile/cajonmaipo.png"
             },
             {
                 "name": "Embalse el Yeso",
                 "description": "Though primarily known for its scenic reservoir, the area around Embalse el Yeso provides excellent rafting opportunities in the upper parts of the Maipo River.",
                 "location": "Embalse el Yeso, Maipo River, Chile",
                 "longitude": -70.2436,
-                "latitude": -33.7333
+                "latitude": -33.7333,
+                "imageUrl":"assets/images/venues/chile/embalse.png"
             },
             {
                 "name": "San Alfonso",
@@ -215,6 +232,7 @@
                 "location": "San Alfonso, Maipo River, Chile",
                 "longitude": -70.4733,
                 "latitude": -33.6811
+                ,"imageUrl":"assets/images/venues/chile/sanalfonso.png"
             }
         ]
     },
@@ -222,7 +240,7 @@
 
     {
         "name": "Exploring Chiloé Island",
-        "category": "Nature/Culture",
+        "category": "Culture",
         "score": 4,
         "description": "Discover the unique culture, wooden churches, and beautiful landscapes of Chiloé Island in southern Chile.",
         "city": "Castro",
@@ -239,21 +257,24 @@
                 "description": "A series of UNESCO World Heritage Sites, these unique wooden churches represent the fusion of European and indigenous cultural traditions.",
                 "location": "Various locations, Chiloé Island, Chile",
                 "longitude": -73.1322,
-                "latitude": -42.4851
+                "latitude": -42.4851,
+                "imageUrl":"assets/images/venues/chile/churchchiloe.png"
             },
             {
                 "name": "Parque Nacional Chiloé",
                 "description": "A national park offering lush forests, diverse wildlife, and beautiful coastal scenery, ideal for hiking and nature walks.",
                 "location": "Parque Nacional Chiloé, Chile",
                 "longitude": -73.7650,
-                "latitude": -42.6333
+                "latitude": -42.6333,
+                "imageUrl":"assets/images/venues/chile/parquenacional.png"
             },
             {
                 "name": "Palafitos de Castro",
                 "description": "Iconic colorful stilt houses lining the waterfront in Castro, offering a glimpse into the traditional architectural style of the island.",
                 "location": "Palafitos de Castro, Chiloé Island, Chile",
                 "longitude": -73.1325,
-                "latitude": -42.4808
+                "latitude": -42.4808,
+                "imageUrl":"assets/images/venues/chile/palafitos.png"
             }
         ]
     },
@@ -278,21 +299,24 @@
                 "description": "A popular observatory offering guided night tours to observe the stars, planets, and galaxies through telescopes.",
                 "location": "Mamalluca Observatory, Vicuña, Chile",
                 "longitude": -70.7399,
-                "latitude": -30.0319
+                "latitude": -30.0319,
+                "imageUrl":"assets/images/venues/chile/mamalluca.png"
             },
             {
                 "name": "Cerro Tololo Inter-American Observatory",
                 "description": "Home to one of the largest telescopes in the Southern Hemisphere, this observatory provides spectacular views of the night sky.",
                 "location": "Cerro Tololo, Elqui Valley, Chile",
                 "longitude": -70.8040,
-                "latitude": -30.1696
+                "latitude": -30.1696,
+                "imageUrl":"assets/images/venues/chile/cerrotololo.png"
             },
             {
                 "name": "Pangue Observatory",
                 "description": "An observatory set in a remote location, perfect for an intimate stargazing experience with minimal light pollution.",
                 "location": "Pangue Observatory, Elqui Valley, Chile",
                 "longitude": -70.7367,
-                "latitude": -30.1575
+                "latitude": -30.1575,
+                "imageUrl":"assets/images/venues/chile/pangue.png"
             }
         ]
     },
@@ -317,14 +341,16 @@
                 "description": "One of the largest ski resorts in South America, offering a wide range of slopes for all levels and stunning mountain views.",
                 "location": "Valle Nevado, near Santiago, Chile",
                 "longitude": -70.1974,
-                "latitude": -33.3564
+                "latitude": -33.3564,
+                "imageUrl":"assets/images/venues/chile/vallenevado.png"
             },
             {
                 "name": "Portillo Ski Resort",
                 "description": "A world-renowned ski resort known for its unique terrain and beautiful setting near the Laguna del Inca.",
                 "location": "Portillo, near Santiago, Chile",
                 "longitude": -70.1283,
-                "latitude": -32.8583
+                "latitude": -32.8583,
+                "imageUrl":"assets/images/venues/chile/portillo.png"
             },
             {
                 "name": "El Colorado Ski Resort",
@@ -332,13 +358,14 @@
                 "location": "El Colorado, near Santiago, Chile",
                 "longitude": -70.2456,
                 "latitude": -33.3500
+                ,"imageUrl":"assets/images/venues/chile/colorado.png"
             }
         ]
     },
 
     {
         "name": "Exploring Valparaíso's Colorful Streets",
-        "category": "Culture/Art",
+        "category": "Culture",
         "score": 4,
         "description": "Wander through the vibrant and artistic streets of Valparaíso, known for its colorful murals and bohemian atmosphere.",
         "city": "Valparaíso",
@@ -355,21 +382,24 @@
                 "description": "These adjoining hills are famous for their colorful buildings, street art, and stunning views of the city and sea.",
                 "location": "Cerro Concepción and Cerro Alegre, Valparaíso, Chile",
                 "longitude": -71.6259,
-                "latitude": -33.0456
+                "latitude": -33.0456,
+                "imageUrl":"assets/images/venues/chile/cerroalegre.png"
             },
             {
                 "name": "Museo a Cielo Abierto",
                 "description": "An open-air museum featuring large-scale murals by various artists, showcasing the cultural and artistic heritage of Valparaíso.",
                 "location": "Museo a Cielo Abierto, Valparaíso, Chile",
                 "longitude": -71.6163,
-                "latitude": -33.0522
+                "latitude": -33.0522,
+                "imageUrl":"assets/images/venues/chile/cieloabierto.png"
             },
             {
                 "name": "Paseo Gervasoni",
                 "description": "A picturesque walkway offering a collection of street art, artisanal shops, and cafes with a view of the bay.",
                 "location": "Paseo Gervasoni, Valparaíso, Chile",
                 "longitude": -71.6252,
-                "latitude": -33.0425
+                "latitude": -33.0425,
+                "imageUrl":"assets/images/venues/chile/paseogervasoni.png"
             }
         ]
     }    

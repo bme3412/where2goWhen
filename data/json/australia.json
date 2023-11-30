@@ -1,7 +1,7 @@
 [
     {
         "name": "Sydney Opera House Tour",
-        "category": "Cultural",
+        "category": "Culture",
         "score": 5,
         "description": "Explore the iconic Sydney Opera House, a masterpiece of modern architecture and a symbol of Australia.",
         "city": "Sydney",
@@ -18,21 +18,24 @@
                 "description": "A stunning natural harbor known for its spectacular beauty, offering views of the Sydney Opera House and the Sydney Harbour Bridge.",
                 "location": "Sydney Harbour, Sydney, Australia",
                 "longitude": 151.2108,
-                "latitude": -33.8523
+                "latitude": -33.8523,
+                "imageUrl": "assets/images/venues/australia/sydneyharbour.png"
             },
             {
                 "name": "Royal Botanic Garden",
                 "description": "A major botanical garden located near the Sydney Opera House, offering a tranquil escape with beautiful plant collections and views.",
                 "location": "Royal Botanic Garden, Sydney, Australia",
                 "longitude": 151.2165,
-                "latitude": -33.8642
+                "latitude": -33.8642,
+                "imageUrl": "assets/images/venues/australia/royalbotanic.png"
             },
             {
                 "name": "The Rocks",
                 "description": "A historic area with cobblestone streets near the Sydney Opera House, known for its unique heritage buildings, markets, and cafes.",
                 "location": "The Rocks, Sydney, Australia",
                 "longitude": 151.2070,
-                "latitude": -33.8595
+                "latitude": -33.8595,
+                "imageUrl": "assets/images/venues/australia/therocks.png"
             }
         ]
     },    
@@ -57,21 +60,24 @@
                 "description": "A scenic boardwalk in Cairns offering a variety of recreational activities, dining options, and beautiful views of the Coral Sea.",
                 "location": "Cairns Esplanade, Cairns, Queensland, Australia",
                 "longitude": 145.7740,
-                "latitude": -16.9203
+                "latitude": -16.9203,
+                "imageUrl": "assets/images/venues/australia/cairnsesplanade.png"
             },
             {
                 "name": "Fitzroy Island",
                 "description": "A tropical paradise near Cairns, known for its pristine beaches and excellent snorkeling opportunities in the Great Barrier Reef.",
                 "location": "Fitzroy Island, Queensland, Australia",
                 "longitude": 145.9890,
-                "latitude": -16.9318
+                "latitude": -16.9318,
+                "imageUrl": "assets/images/venues/australia/fitzroy.png"
             },
             {
                 "name": "Green Island",
                 "description": "A beautiful coral cay in the Great Barrier Reef, offering unique snorkeling experiences along with a range of other water activities.",
                 "location": "Green Island, Queensland, Australia",
                 "longitude": 145.9689,
-                "latitude": -16.7594
+                "latitude": -16.7594,
+                "imageUrl": "assets/images/venues/australia/greenisland.png"
             }
         ]
     },
@@ -96,21 +102,24 @@
                 "description": "The national park surrounding Uluru, offering a range of walking trails, cultural tours, and stunning views of the rock formations.",
                 "location": "Uluru-Kata Tjuta National Park, Northern Territory, Australia",
                 "longitude": 131.0296,
-                "latitude": -25.3526
+                "latitude": -25.3526,
+                "imageUrl": "assets/images/venues/australia/ulurukata.png"
             },
             {
                 "name": "Kata Tjuta (The Olgas)",
                 "description": "A group of large, domed rock formations located west of Uluru, offering unique landscapes and walking trails.",
                 "location": "Kata Tjuta, Northern Territory, Australia",
                 "longitude": 130.7357,
-                "latitude": -25.3001
+                "latitude": -25.3001,
+                "imageUrl": "assets/images/venues/australia/katatjuta.png"
             },
             {
                 "name": "Kings Canyon",
                 "description": "A majestic canyon with ancient sandstone walls, located within Watarrka National Park, offering scenic walks and breathtaking views.",
                 "location": "Kings Canyon, Northern Territory, Australia",
                 "longitude": 131.8375,
-                "latitude": -24.2562
+                "latitude": -24.2562,
+                "imageUrl": "assets/images/venues/australia/kingscanyon.png"
             }
         ]
     },
@@ -118,7 +127,7 @@
 
     {
         "name": "Kangaroo Island Wildlife Tour",
-        "category": "Wildlife",
+        "category": "Nature",
         "score": 4,
         "description": "Discover the unique wildlife of Kangaroo Island, including kangaroos, koalas, and a variety of bird species.",
         "city": "Kangaroo Island",
@@ -135,21 +144,24 @@
                 "description": "A national park known for its remarkable rock formations, like Remarkable Rocks and Admirals Arch, offering opportunities to see diverse wildlife in their natural habitat.",
                 "location": "Flinders Chase National Park, Kangaroo Island, South Australia",
                 "longitude": 136.5805,
-                "latitude": -35.7754
+                "latitude": -35.7754,
+                "imageUrl": "assets/images/venues/australia/flinderschase.png"
             },
             {
                 "name": "Seal Bay Conservation Park",
                 "description": "A protected area on the south coast of Kangaroo Island, famous for its colony of Australian sea lions that can be observed up close.",
                 "location": "Seal Bay Conservation Park, Kangaroo Island, South Australia",
                 "longitude": 137.2702,
-                "latitude": -35.9371
+                "latitude": -35.9371,
+                "imageUrl": "assets/images/venues/australia/sealbay.png"
             },
             {
                 "name": "Kangaroo Island Wildlife Park",
                 "description": "A wildlife park that offers a chance to interact with Australian animals, including feeding kangaroos and holding koalas.",
                 "location": "Kangaroo Island Wildlife Park, Kangaroo Island, South Australia",
                 "longitude": 137.5102,
-                "latitude": -35.6532
+                "latitude": -35.6532,
+                "imageUrl": "assets/images/venues/australia/kangarooisland.png"
             }
         ]
     },    
@@ -174,21 +186,24 @@
                 "description": "Australia's oldest and most visited art museum, showcasing a diverse array of international and Australian art.",
                 "location": "National Gallery of Victoria, Melbourne, Victoria, Australia",
                 "longitude": 144.9694,
-                "latitude": -37.8226
+                "latitude": -37.8226,
+                "imageUrl": "assets/images/venues/australia/galleryvictoria.png"
             },
             {
                 "name": "Hosier Lane",
                 "description": "A famous laneway in Melbourne, renowned for its vibrant street art and urban culture.",
                 "location": "Hosier Lane, Melbourne, Victoria, Australia",
                 "longitude": 144.9690,
-                "latitude": -37.8167
+                "latitude": -37.8167,
+                "imageUrl": "assets/images/venues/australia/hosierlane.png"
             },
             {
                 "name": "Melbourne Museum",
                 "description": "A modern museum offering a rich insight into Australia's history and culture, with interactive exhibits and diverse collections.",
                 "location": "Melbourne Museum, Melbourne, Victoria, Australia",
                 "longitude": 144.9710,
-                "latitude": -37.8030
+                "latitude": -37.8030,
+                "imageUrl": "assets/images/venues/australia/melbournemuseum.png"
             }
         ]
     },
@@ -212,21 +227,24 @@
                 "description": "A part of the Tasmanian Wilderness World Heritage Area, known for its stunning landscapes, diverse wildlife, and excellent hiking trails.",
                 "location": "Cradle Mountain-Lake St Clair National Park, Tasmania, Australia",
                 "longitude": 145.9443,
-                "latitude": -41.6841
+                "latitude": -41.6841,
+                "imageUrl": "assets/images/venues/australia/cradle.png"
             },
             {
                 "name": "Freycinet National Park",
                 "description": "Home to the famous Wineglass Bay, Freycinet National Park offers spectacular coastal scenery, granite peaks, and abundant birdlife.",
                 "location": "Freycinet National Park, Tasmania, Australia",
                 "longitude": 148.3032,
-                "latitude": -42.1255
+                "latitude": -42.1255,
+                "imageUrl": "assets/images/venues/australia/freycinet.png"
             },
             {
                 "name": "Tarkine Rainforest",
                 "description": "The Tarkine is the largest temperate rainforest in Australia, offering a unique wilderness experience with its rich biodiversity and ancient landscapes.",
                 "location": "Tarkine Rainforest, Tasmania, Australia",
                 "longitude": 144.7438,
-                "latitude": -41.2354
+                "latitude": -41.2354,
+                "imageUrl": "assets/images/venues/australia/tarkine.png"
             }
         ]
     },
@@ -251,21 +269,24 @@
                 "description": "A bustling area on the Gold Coast known for its iconic skyline, vibrant nightlife, and popular surfing beach.",
                 "location": "Surfers Paradise, Gold Coast, Queensland, Australia",
                 "longitude": 153.4290,
-                "latitude": -28.0027
+                "latitude": -28.0027,
+                "imageUrl": "assets/images/venues/australia/surfersparadise.png"
             },
             {
                 "name": "Burleigh Heads Beach",
                 "description": "Famous for its excellent surfing conditions and beautiful natural setting, Burleigh Heads Beach is a favorite among locals and tourists alike.",
                 "location": "Burleigh Heads Beach, Gold Coast, Queensland, Australia",
                 "longitude": 153.4490,
-                "latitude": -28.0880
+                "latitude": -28.0880,
+                "imageUrl": "assets/images/venues/australia/burleighheads.png"
             },
             {
                 "name": "Coolangatta Beach",
                 "description": "Located at the southern end of the Gold Coast, Coolangatta Beach is known for its relaxed atmosphere and great surfing spots.",
                 "location": "Coolangatta Beach, Gold Coast, Queensland, Australia",
                 "longitude": 153.5400,
-                "latitude": -28.1667
+                "latitude": -28.1667,
+                "imageUrl": "assets/images/venues/australia/coolangatta.png"
             }
         ]
     },
@@ -289,28 +310,31 @@
                 "description": "A stunning area within the Daintree Rainforest, where the forest meets the Great Barrier Reef, offering beautiful beaches and lush rainforest scenery.",
                 "location": "Cape Tribulation, Daintree, Queensland, Australia",
                 "longitude": 145.4653,
-                "latitude": -16.0889
+                "latitude": -16.0889,
+                "imageUrl": "assets/images/venues/australia/capetribulation.png"
             },
             {
                 "name": "Mossman Gorge",
                 "description": "Part of the Daintree National Park, Mossman Gorge offers crystal clear waters, stunning rainforest walks, and opportunities to learn about Indigenous culture.",
                 "location": "Mossman Gorge, Daintree, Queensland, Australia",
                 "longitude": 145.3711,
-                "latitude": -16.4649
+                "latitude": -16.4649,
+                "imageUrl": "assets/images/venues/australia/mossmangorge.png"
             },
             {
                 "name": "Daintree River Cruise",
                 "description": "A river cruise offering a chance to see the diverse wildlife of the Daintree Rainforest, including crocodiles, birds, and unique plant life.",
                 "location": "Daintree River, Daintree, Queensland, Australia",
                 "longitude": 145.4175,
-                "latitude": -16.2500
+                "latitude": -16.2500,
+                "imageUrl": "assets/images/venues/australia/daintreecruise.png"
             }
         ]
     },
 
     {
         "name": "Barossa Valley Wine Tasting",
-        "category": "Gastronomy",
+        "category": "Food",
         "score": 5,
         "description": "Indulge in wine tasting in the Barossa Valley, one of Australia's oldest and finest wine-producing regions.",
         "city": "Barossa Valley",
@@ -327,21 +351,24 @@
                 "description": "One of the most famous wineries in the Barossa Valley, offering a range of wine tasting experiences and beautiful vineyard views.",
                 "location": "Jacob's Creek, Barossa Valley, South Australia, Australia",
                 "longitude": 138.9613,
-                "latitude": -34.5846
+                "latitude": -34.5846,
+                "imageUrl": "assets/images/venues/australia/jacobscreek.png"
             },
             {
                 "name": "Seppeltsfield Winery",
                 "description": "A historic winery known for its rich heritage, offering a unique chance to taste century-old wines.",
                 "location": "Seppeltsfield Winery, Barossa Valley, South Australia, Australia",
                 "longitude": 138.9194,
-                "latitude": -34.4724
+                "latitude": -34.4724,
+                "imageUrl": "assets/images/venues/australia/seppeltsfield.png"
             },
             {
                 "name": "Yalumba",
                 "description": "Australia's oldest family-owned winery, offering a range of premium wines and a picturesque setting.",
                 "location": "Yalumba, Barossa Valley, South Australia, Australia",
                 "longitude": 139.0101,
-                "latitude": -34.4938
+                "latitude": -34.4938,
+                "imageUrl": "assets/images/venues/australia/yalumba.png"
             }
         ]
     },
@@ -365,21 +392,24 @@
                 "description": "One of the largest inner-city parks in the world, offering stunning views of Perth's skyline and the Swan River, with a variety of botanical collections.",
                 "location": "Kings Park and Botanic Garden, Perth, Western Australia, Australia",
                 "longitude": 115.8405,
-                "latitude": -31.9605
+                "latitude": -31.9605,
+                "imageUrl": "assets/images/venues/australia/kingspark.png"
             },
             {
                 "name": "Fremantle Markets",
                 "description": "A bustling market in Fremantle, known for its fresh produce, unique arts and crafts, and lively atmosphere.",
                 "location": "Fremantle Markets, Fremantle, Western Australia, Australia",
                 "longitude": 115.7496,
-                "latitude": -32.0569
+                "latitude": -32.0569,
+                "imageUrl": "assets/images/venues/australia/fremantlemarkets.png"
             },
             {
                 "name": "Fremantle Prison",
                 "description": "A historic former prison offering tours that delve into its fascinating history and heritage.",
                 "location": "Fremantle Prison, Fremantle, Western Australia, Australia",
                 "longitude": 115.7512,
-                "latitude": -32.0564
+                "latitude": -32.0564,
+                "imageUrl": "assets/images/venues/australia/fremantleprison.png"
             }
         ]
     }    

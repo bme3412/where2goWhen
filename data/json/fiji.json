@@ -18,21 +18,24 @@
                 "description": "A unique natural attraction on the Coral Coast, offering impressive sand dunes and archaeological sites.",
                 "location": "Sigatoka Sand Dunes, Coral Coast, Fiji",
                 "longitude": 177.5026,
-                "latitude": -18.1658
+                "latitude": -18.1658,
+                "imageUrl": "assets/images/venues/fiji/sigatoka.png"
             },
             {
                 "name": "Kula Wild Adventure Park",
                 "description": "A conservation park that provides an opportunity to see Fiji's native wildlife and enjoy ecological tours.",
                 "location": "Kula Wild Adventure Park, Coral Coast, Fiji",
                 "longitude": 177.7136,
-                "latitude": -18.2104
+                "latitude": -18.2104,
+                "imageUrl": "assets/images/venues/fiji/kulawild.png"
             },
             {
                 "name": "Natadola Beach",
                 "description": "Widely regarded as one of Fiji's best beaches, known for its soft white sand, clear waters, and excellent swimming conditions.",
                 "location": "Natadola Beach, Coral Coast, Fiji",
                 "longitude": 177.3736,
-                "latitude": -18.1148
+                "latitude": -18.1148,
+                "imageUrl": "assets/images/venues/fiji/natadola.png"
             }
         ]
     },
@@ -56,21 +59,24 @@
                 "description": "A picturesque island known for its beautiful beaches and excellent snorkeling spots, with a variety of colorful coral and fish.",
                 "location": "Castaway Island, Mamanuca Islands, Fiji",
                 "longitude": 177.0720,
-                "latitude": -17.6733
+                "latitude": -17.6733,
+                "imageUrl": "assets/images/venues/fiji/castaway.png"
             },
             {
                 "name": "Monuriki",
                 "description": "An uninhabited island made famous as the filming location for 'Cast Away', offering pristine natural beauty and exceptional snorkeling conditions.",
                 "location": "Monuriki, Mamanuca Islands, Fiji",
                 "longitude": 177.1883,
-                "latitude": -17.6094
+                "latitude": -17.6094,
+                "imageUrl": "assets/images/venues/fiji/monuriki.png"
             },
             {
                 "name": "Malolo Lailai",
                 "description": "The largest of the Mamanuca Islands, known for its luxury resorts, white sandy beaches, and excellent snorkeling and diving opportunities.",
                 "location": "Malolo Lailai, Mamanuca Islands, Fiji",
                 "longitude": 177.1961,
-                "latitude": -17.7775
+                "latitude": -17.7775,
+                "imageUrl": "assets/images/venues/fiji/malolo.png"
             }
         ]
     },
@@ -94,21 +100,24 @@
                 "description": "An adventurous river safari offering a unique perspective of Fiji's interior, combining nature and cultural experiences.",
                 "location": "Sigatoka River, Sigatoka, Fiji",
                 "longitude": 177.4963,
-                "latitude": -18.1581
+                "latitude": -18.1581,
+                "imageUrl": "assets/images/venues/fiji/safari.png"
             },
             {
                 "name": "Kula Wild Adventure Park",
                 "description": "A conservation park near Sigatoka, known for its efforts in wildlife preservation and offering interactive experiences with native Fijian animals.",
                 "location": "Kula Wild Adventure Park, Sigatoka, Fiji",
                 "longitude": 177.7136,
-                "latitude": -18.2104
+                "latitude": -18.2104,
+                "imageUrl": "assets/images/venues/fiji/kulawild.png"
             },
             {
                 "name": "Tavuni Hill Fort",
                 "description": "A historical site close to Sigatoka, offering insights into Fiji's pre-colonial history and stunning views of the surrounding area.",
                 "location": "Tavuni Hill Fort, Sigatoka, Fiji",
                 "longitude": 177.5282,
-                "latitude": -18.1383
+                "latitude": -18.1383,
+                "imageUrl": "assets/images/venues/fiji/tavuni.png"
             }
         ]
     },
@@ -132,21 +141,24 @@
                 "description": "A park encompassing a large portion of Taveuni Island, known for its scenic trails leading to the Tavoro Waterfalls and offering rich biodiversity.",
                 "location": "Bouma National Heritage Park, Taveuni, Fiji",
                 "longitude": -179.9876,
-                "latitude": -16.8419
+                "latitude": -16.8419,
+                "imageUrl": "assets/images/venues/fiji/bouma.png"
             },
             {
                 "name": "Lavena Coastal Walk",
                 "description": "A popular hiking trail in Taveuni that offers a mix of beach, jungle, and village scenery, leading to beautiful waterfalls.",
                 "location": "Lavena Coastal Walk, Taveuni, Fiji",
                 "longitude": -179.9775,
-                "latitude": -16.8500
+                "latitude": -16.8500,
+                "imageUrl": "assets/images/venues/fiji/lavena.png"
             },
             {
                 "name": "Waitabu Marine Park",
                 "description": "A marine protected area near Taveuni known for its snorkeling and marine life, showcasing the island's diverse aquatic ecosystems.",
                 "location": "Waitabu Marine Park, Taveuni, Fiji",
                 "longitude": -179.9584,
-                "latitude": -16.8167
+                "latitude": -16.8167,
+                "imageUrl": "assets/images/venues/fiji/waitabu.png"
             }
         ]
     },
@@ -170,21 +182,24 @@
                 "description": "Located in the heart of Suva, the museum offers a deep insight into Fiji's history and culture, with extensive collections of Fijian artifacts.",
                 "location": "Fiji Museum, Suva, Fiji",
                 "longitude": 178.4244,
-                "latitude": -18.1539
+                "latitude": -18.1539,
+                "imageUrl": "assets/images/venues/fiji/fijimuseum.png"
             },
             {
                 "name": "Suva Municipal Market",
                 "description": "A vibrant market in Suva known for its fresh produce, local handicrafts, and a glimpse into the everyday life of Fijians.",
                 "location": "Suva Municipal Market, Suva, Fiji",
                 "longitude": 178.4272,
-                "latitude": -18.1411
+                "latitude": -18.1411,
+                "imageUrl": "assets/images/venues/fiji/suvamunicipal.png"
             },
             {
                 "name": "Thurston Gardens",
                 "description": "A botanical garden adjacent to the Fiji Museum, showcasing a variety of local and exotic plants in a peaceful setting.",
                 "location": "Thurston Gardens, Suva, Fiji",
                 "longitude": 178.4250,
-                "latitude": -18.1533
+                "latitude": -18.1533,
+                "imageUrl": "assets/images/venues/fiji/thurstongardens.png"
             }
         ]
     },
@@ -208,21 +223,24 @@
                 "description": "A luxurious resort near the Sawa-i-Lau Caves, offering easy access to the caves and a range of other activities in the Yasawa Islands.",
                 "location": "Yasawa Island Resort, Sawa-i-Lau, Fiji",
                 "longitude": 177.0703,
-                "latitude": -16.7583
+                "latitude": -16.7583,
+                "imageUrl": "assets/images/venues/fiji/yasawa.png"
             },
             {
                 "name": "Blue Lagoon Beach",
                 "description": "A picturesque beach in the Yasawa Islands, famous for its crystal-clear waters and perfect for relaxation and snorkeling.",
                 "location": "Blue Lagoon Beach, Yasawa Islands, Fiji",
                 "longitude": 177.3685,
-                "latitude": -16.8417
+                "latitude": -16.8417,
+                "imageUrl": "assets/images/venues/fiji/bluelagoon.png"
             },
             {
                 "name": "Nacula Island",
                 "description": "An island in the Yasawa group known for its natural beauty, traditional Fijian villages, and excellent opportunities for cultural immersion.",
                 "location": "Nacula Island, Yasawa Islands, Fiji",
                 "longitude": 177.3844,
-                "latitude": -16.8667
+                "latitude": -16.8667,
+                "imageUrl": "assets/images/venues/fiji/nacula.png"
             }
         ]
     },
@@ -246,21 +264,24 @@
                 "description": "A nearby national park offering unique sand dunes and an important archaeological site, perfect for nature exploration.",
                 "location": "Sigatoka Sand Dunes National Park, Sigatoka, Fiji",
                 "longitude": 177.5026,
-                "latitude": -18.1658
+                "latitude": -18.1658,
+                "imageUrl": "assets/images/venues/fiji/sigatoka.png"
             },
             {
                 "name": "Sigatoka River Safari",
                 "description": "An adventurous river safari in the area, combining nature and cultural experiences along the Sigatoka River.",
                 "location": "Sigatoka River, Sigatoka, Fiji",
                 "longitude": 177.4963,
-                "latitude": -18.1581
+                "latitude": -18.1581,
+                "imageUrl": "assets/images/venues/fiji/safari.png"
             },
             {
                 "name": "Natadola Beach",
                 "description": "A beautiful beach close to Sigatoka, known for its soft white sand and clear waters, ideal for relaxation and swimming.",
                 "location": "Natadola Beach, Sigatoka, Fiji",
                 "longitude": 177.3736,
-                "latitude": -18.1148
+                "latitude": -18.1148,
+                "imageUrl": "assets/images/venues/fiji/natadola.png"
             }
         ]
     },
@@ -284,21 +305,24 @@
                 "description": "A nearby botanical garden featuring a magnificent collection of orchids and lush greenery, ideal for a peaceful stroll after visiting the mud pools.",
                 "location": "Garden of the Sleeping Giant, Nadi, Fiji",
                 "longitude": 177.4422,
-                "latitude": -17.7486
+                "latitude": -17.7486,
+                "imageUrl": "assets/images/venues/fiji/sleepinggiant.png"
             },
             {
                 "name": "Sabeto Hot Springs",
                 "description": "Another popular hot springs area near Nadi, known for its therapeutic properties and serene environment.",
                 "location": "Sabeto Hot Springs, Nadi, Fiji",
                 "longitude": 177.4399,
-                "latitude": -17.7600
+                "latitude": -17.7600,
+                "imageUrl": "assets/images/venues/fiji/sabeto.png"
             },
             {
                 "name": "Denarau Island",
                 "description": "A luxury resort area close to Nadi, offering pristine beaches, golf courses, and a range of dining and shopping options.",
                 "location": "Denarau Island, Nadi, Fiji",
                 "longitude": 177.3727,
-                "latitude": -17.7723
+                "latitude": -17.7723,
+                "imageUrl": "assets/images/venues/fiji/denarau.png"
             }
         ]
     },
@@ -322,21 +346,24 @@
                 "description": "A nearby park offering a variety of hiking trails, including the Tavoro Waterfalls, showcasing Taveuni's rich biodiversity and natural beauty.",
                 "location": "Bouma National Heritage Park, Taveuni, Fiji",
                 "longitude": -179.9876,
-                "latitude": -16.8419
+                "latitude": -16.8419,
+                "imageUrl": "assets/images/venues/fiji/bouma.png"
             },
             {
                 "name": "Waitabu Marine Park",
                 "description": "A marine park close to the Lavena Coastal Walk, known for its snorkeling opportunities and showcasing the island's marine life.",
                 "location": "Waitabu Marine Park, Taveuni, Fiji",
                 "longitude": -179.9584,
-                "latitude": -16.8167
+                "latitude": -16.8167,
+                "imageUrl": "assets/images/venues/fiji/waitabu.png"
             },
             {
                 "name": "Des Voeux Peak",
                 "description": "A hiking destination on Taveuni Island offering panoramic views of the island and surrounding ocean, ideal for adventurous hikers.",
                 "location": "Des Voeux Peak, Taveuni, Fiji",
                 "longitude": -179.9583,
-                "latitude": -16.8333
+                "latitude": -16.8333,
+                "imageUrl": "assets/images/venues/fiji/desvoeux.png"
             }
         ]
     },
@@ -360,21 +387,24 @@
                 "description": "An island near the lagoon, offering a serene environment and additional opportunities for diving and exploring Fiji’s underwater world.",
                 "location": "Beqa Island, Fiji",
                 "longitude": 178.2186,
-                "latitude": -18.4000
+                "latitude": -18.4000,
+                "imageUrl": "assets/images/venues/fiji/beqa.png"
             },
             {
                 "name": "Pacific Harbour",
                 "description": "A coastal town known as the adventure capital of Fiji, offering a range of water sports, cultural activities, and access to Beqa Lagoon.",
                 "location": "Pacific Harbour, Fiji",
                 "longitude": 178.0698,
-                "latitude": -18.2612
+                "latitude": -18.2612,
+                "imageUrl": "assets/images/venues/fiji/pacificharbour.png"
             },
             {
                 "name": "Navua River",
                 "description": "A river offering scenic boat tours and river rafting, providing a unique perspective of Fiji’s lush landscapes and traditional villages.",
                 "location": "Navua River, Fiji",
                 "longitude": 178.0833,
-                "latitude": -18.2333
+                "latitude": -18.2333,
+                "imageUrl": "assets/images/venues/fiji/navua.png"
             }
         ]
     }    
