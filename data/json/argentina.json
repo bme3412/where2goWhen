@@ -16,27 +16,32 @@
             {
                 "name": "Garganta del Diablo",
                 "description": "Visit the 'Devil's Throat,' the most famous and mesmerizing part of Iguazu Falls, offering a close-up view of the cascading water from elevated walkways.",
-                "location": "Puerto Iguazu, Argentina"
+                "location": "Puerto Iguazu, Argentina",
+                "imageUrl": "assets/images/venues/argentina/diablo.png"
             },
             {
                 "name": "Iguazu National Park",
                 "description": "Explore the lush rainforest and diverse wildlife in Iguazu National Park, surrounding the falls. Take guided nature walks and appreciate the unique ecosystem.",
-                "location": "Puerto Iguazu, Argentina"
+                "location": "Puerto Iguazu, Argentina",
+                "imageUrl": "assets/images/venues/argentina/iguazupark.png"
             },
             {
                 "name": "Boat Tours",
                 "description": "Experience the falls from a different perspective by taking a boat tour that gets you up close to the roaring waters and provides an exhilarating adventure.",
-                "location": "Puerto Iguazu, Argentina"
+                "location": "Puerto Iguazu, Argentina",
+                "imageUrl": "assets/images/venues/argentina/boattours.png"
             },
             {
                 "name": "Macuco Safari",
                 "description": "Embark on the Macuco Safari adventure, including a jungle hike and a thrilling boat ride to get an immersive experience of the falls and the rainforest.",
-                "location": "Puerto Iguazu, Argentina"
+                "location": "Puerto Iguazu, Argentina",
+                "imageUrl": "assets/images/venues/argentina/macucosafari.png"
             },
             {
                 "name": "Itaipu Dam",
                 "description": "Take a side trip to visit the Itaipu Dam, one of the world's largest hydroelectric power plants, and learn about its engineering marvels and impact on the region.",
-                "location": "Foz do Iguacu, Brazil (nearby)"
+                "location": "Foz do Iguacu, Brazil (nearby)",
+                "imageUrl": "assets/images/venues/argentina/itaipudam.png"
             }
         ]
     },
@@ -61,28 +66,32 @@
                 "description": "Visit Café de los Angelitos, a historic tango venue in Buenos Aires known for its live tango performances and classic ambiance.",
                 "location": "Café de los Angelitos, Buenos Aires, Argentina",
                 "longitude": -58.4155,
-                "latitude": -34.6097
+                "latitude": -34.6097,
+                "imageUrl": "assets/images/venues/argentina/angelitos.png"
             },
             {
                 "name": "El Querandí",
                 "description": "Experience the intimate setting of El Querandí, offering traditional tango shows and Argentine cuisine in a charming atmosphere.",
                 "location": "El Querandí, Buenos Aires, Argentina",
                 "longitude": -58.3779,
-                "latitude": -34.6091
+                "latitude": -34.6091,
+                "imageUrl": "assets/images/venues/argentina/querandi.png"
             },
             {
                 "name": "La Ventana Tango",
                 "description": "Enjoy the lively tango performances at La Ventana Tango, accompanied by a delicious dinner featuring Argentine flavors.",
                 "location": "La Ventana Tango, Buenos Aires, Argentina",
                 "longitude": -58.3743,
-                "latitude": -34.6142
+                "latitude": -34.6142,
+                "imageUrl": "assets/images/venues/argentina/ventana.png"
             },
             {
                 "name": "Tango Porteño",
                 "description": "Step into the glamour of Tango Porteño, a grand tango theater with captivating shows and a rich historical backdrop.",
                 "location": "Tango Porteño, Buenos Aires, Argentina",
                 "longitude": -58.3816,
-                "latitude": -34.6037
+                "latitude": -34.6037,
+                "imageUrl": "assets/images/venues/argentina/porteno.png"
             }
         ]
     },    
@@ -105,28 +114,32 @@
                 "description": "Begin your adventure at the Glacier Trek Base Camp, offering essential gear and guides for the trek.",
                 "location": "Glacier Trek Base Camp, El Calafate, Argentina",
                 "longitude": -73.0510,
-                "latitude": -50.4950
+                "latitude": -50.4950,
+                "imageUrl": "assets/images/venues/argentina/basecamp.png"
             },
             {
                 "name": "Patagonia Adventure Explorer",
                 "description": "Join Patagonia Adventure Explorer for a guided experience on the glacier, suitable for varying skill levels.",
                 "location": "Patagonia Adventure Explorer, El Calafate, Argentina",
                 "longitude": -73.0560,
-                "latitude": -50.4980
+                "latitude": -50.4980,
+                "imageUrl": "assets/images/venues/argentina/patagoniaexplorer.png"
             },
             {
                 "name": "Glacier Viewpoint",
                 "description": "Visit the Glacier Viewpoint for breathtaking views of the Perito Moreno Glacier, a perfect spot for photography.",
                 "location": "Glacier Viewpoint, El Calafate, Argentina",
                 "longitude": -73.0550,
-                "latitude": -50.4900
+                "latitude": -50.4900,
+                "imageUrl": "assets/images/venues/argentina/glacierviewpoint.png"
             },
             {
                 "name": "Ice Trek Equipment Rental",
                 "description": "Stop by Ice Trek Equipment Rental for all necessary equipment, including crampons and ice axes, for a safe glacier trek.",
                 "location": "Ice Trek Equipment Rental, El Calafate, Argentina",
                 "longitude": -73.0590,
-                "latitude": -50.4920
+                "latitude": -50.4920,
+                "imageUrl": "assets/images/venues/argentina/icetrek.png"
             }
         ]
     },
@@ -151,28 +164,32 @@
                 "description": "Visit Bodega Catena Zapata, a renowned winery known for its premium Malbec wines and unique pyramid-shaped architecture.",
                 "location": "Bodega Catena Zapata, Mendoza, Argentina",
                 "longitude": -69.0926,
-                "latitude": -33.0969
+                "latitude": -33.0969,
+                "imageUrl": "assets/images/venues/argentina/catena.png"
             },
             {
                 "name": "Bodega Lopez",
                 "description": "Explore Bodega Lopez, one of Mendoza's oldest wineries, offering a rich history and a range of classic Argentine wines.",
                 "location": "Bodega Lopez, Mendoza, Argentina",
                 "longitude": -68.8271,
-                "latitude": -33.0104
+                "latitude": -33.0104,
+                "imageUrl": "assets/images/venues/argentina/lopez.png"
             },
             {
                 "name": "Uco Valley Wine Tour",
                 "description": "Join a guided tour of the Uco Valley, a premier wine region known for its high-altitude vineyards and exceptional wines.",
                 "location": "Uco Valley, Mendoza, Argentina",
                 "longitude": -69.1569,
-                "latitude": -33.5662
+                "latitude": -33.5662,
+                "imageUrl": "assets/images/venues/argentina/ucovalley.png"
             },
             {
                 "name": "Bodega Trapiche",
                 "description": "Discover Bodega Trapiche, a leader in Argentine wine innovation, offering a modern approach to winemaking and tasting experiences.",
                 "location": "Bodega Trapiche, Mendoza, Argentina",
                 "longitude": -68.9372,
-                "latitude": -32.9733
+                "latitude": -32.9733,
+                "imageUrl": "assets/images/venues/argentina/trapiche.png"
             }
         ]
     },
@@ -197,28 +214,32 @@
                 "description": "Embark on the Circuito Chico, a famous route offering breathtaking views of lakes, mountains, and forests.",
                 "location": "Circuito Chico, San Carlos de Bariloche, Argentina",
                 "longitude": -71.4974,
-                "latitude": -41.0473
+                "latitude": -41.0473,
+                "imageUrl": "assets/images/venues/argentina/circuitochico.png"
             },
             {
                 "name": "Cerro Campanario",
                 "description": "Visit Cerro Campanario, renowned for its panoramic views that are often considered among the best in the world.",
                 "location": "Cerro Campanario, San Carlos de Bariloche, Argentina",
                 "longitude": -71.4938,
-                "latitude": -41.0753
+                "latitude": -41.0753,
+                "imageUrl": "assets/images/venues/argentina/campanario.png"
             },
             {
                 "name": "Llao Llao Peninsula",
                 "description": "Explore the Llao Llao Peninsula with its stunning landscapes, luxurious hotel, and renowned golf course.",
                 "location": "Llao Llao Peninsula, San Carlos de Bariloche, Argentina",
                 "longitude": -71.5406,
-                "latitude": -41.0756
+                "latitude": -41.0756,
+                "imageUrl": "assets/images/venues/argentina/llaollao.png"
             },
             {
                 "name": "Nahuel Huapi National Park",
                 "description": "Drive through Nahuel Huapi National Park, home to diverse wildlife, crystal-clear lakes, and lush forests.",
                 "location": "Nahuel Huapi National Park, San Carlos de Bariloche, Argentina",
                 "longitude": -71.3325,
-                "latitude": -41.0422
+                "latitude": -41.0422,
+                "imageUrl": "assets/images/venues/argentina/huapipark.png"
             }
         ]
     },
@@ -242,28 +263,32 @@
                 "description": "Witness the Hill of Seven Colors, a natural wonder known for its vibrant, multicolored rock formations.",
                 "location": "Hill of Seven Colors, Humahuaca, Argentina",
                 "longitude": -65.3500,
-                "latitude": -23.2000
+                "latitude": -23.2000,
+                "imageUrl": "assets/images/venues/argentina/sevencolors.png"
             },
             {
                 "name": "Pucará de Tilcara",
                 "description": "Explore Pucará de Tilcara, an ancient fortress offering insights into the pre-Inca cultures and stunning views of the valley.",
                 "location": "Pucará de Tilcara, Humahuaca, Argentina",
                 "longitude": -65.3505,
-                "latitude": -23.5587
+                "latitude": -23.5587,
+                "imageUrl": "assets/images/venues/argentina/pucaratilcara.png"
             },
             {
                 "name": "Uquía Church",
                 "description": "Visit Uquía Church, a colonial-era church famous for its Cuzco School paintings and historical significance.",
                 "location": "Uquía Church, Humahuaca, Argentina",
                 "longitude": -65.3487,
-                "latitude": -23.4061
+                "latitude": -23.4061,
+                "imageUrl": "assets/images/venues/argentina/uquia.png"
             },
             {
                 "name": "Hornocal Viewpoint",
                 "description": "Experience the breathtaking Hornocal Viewpoint, offering panoramic views of the 14-colored mountain range.",
                 "location": "Hornocal Viewpoint, Humahuaca, Argentina",
                 "longitude": -65.3900,
-                "latitude": -23.1900
+                "latitude": -23.1900,
+                "imageUrl": "assets/images/venues/argentina/hornocal.png"
             }
         ]
     },
@@ -287,28 +312,32 @@
                 "description": "Start your hike at Laguna Capri, a picturesque lake offering early views of the Fitz Roy massif.",
                 "location": "Laguna Capri, El Chaltén, Argentina",
                 "longitude": -72.9100,
-                "latitude": -49.3000
+                "latitude": -49.3000,
+                "imageUrl": "assets/images/venues/argentina/capri.png"
             },
             {
                 "name": "Laguna de los Tres",
                 "description": "Reach Laguna de los Tres, the closest viewpoint to Fitz Roy, known for its stunning vistas of the mountain and glacial lake.",
                 "location": "Laguna de los Tres, El Chaltén, Argentina",
                 "longitude": -72.8845,
-                "latitude": -49.2712
+                "latitude": -49.2712,
+                "imageUrl": "assets/images/venues/argentina/lostres.png"
             },
             {
                 "name": "Poincenot Campsite",
                 "description": "Consider a stay at Poincenot Campsite, a popular camping spot for hikers trekking the Fitz Roy trails.",
                 "location": "Poincenot Campsite, El Chaltén, Argentina",
                 "longitude": -72.9000,
-                "latitude": -49.2833
+                "latitude": -49.2833,
+                "imageUrl": "assets/images/venues/argentina/poincenot.png"
             },
             {
                 "name": "El Chaltén Mountain Guides",
                 "description": "For novice hikers, join a guided tour with El Chaltén Mountain Guides, offering expert insights and safety for the trek.",
                 "location": "El Chaltén Mountain Guides, El Chaltén, Argentina",
                 "longitude": -72.8867,
-                "latitude": -49.3300
+                "latitude": -49.3300,
+                "imageUrl": "assets/images/venues/argentina/chalten.png"
             }
         ]
     },
@@ -332,28 +361,32 @@
                 "description": "Visit the Salta Cathedral, a striking example of colonial architecture with its beautiful façade and richly decorated interior.",
                 "location": "Salta Cathedral, Salta, Argentina",
                 "longitude": -65.4120,
-                "latitude": -24.7835
+                "latitude": -24.7835,
+                "imageUrl": "assets/images/venues/argentina/saltacathedral.png"
             },
             {
                 "name": "MAAM - Museum of High Mountain Archaeology",
                 "description": "Explore the MAAM, a museum dedicated to preserving the archaeological heritage of the Andean region, housed in a colonial building.",
                 "location": "MAAM, Salta, Argentina",
                 "longitude": -65.4110,
-                "latitude": -24.7850
+                "latitude": -24.7850,
+                "imageUrl": "assets/images/venues/argentina/maam.png"
             },
             {
                 "name": "San Francisco Church and Convent",
                 "description": "Admire the San Francisco Church and Convent, known for its impressive tower and detailed baroque façade.",
                 "location": "San Francisco Church and Convent, Salta, Argentina",
                 "longitude": -65.4100,
-                "latitude": -24.7870
+                "latitude": -24.7870,
+                "imageUrl": "assets/images/venues/argentina/sanfranchurch.png"
             },
             {
                 "name": "Historic Town Square",
                 "description": "Stroll around the Historic Town Square, the heart of Salta, surrounded by colonial-era buildings and bustling with local culture.",
                 "location": "Historic Town Square, Salta, Argentina",
                 "longitude": -65.4090,
-                "latitude": -24.7820
+                "latitude": -24.7820,
+                "imageUrl": "assets/images/venues/argentina/townsquare.png"
             }
         ]
     },
@@ -377,35 +410,39 @@
                 "description": "Explore Lapataia Bay, the park’s most famous spot, known for its stunning coastal views and the end of the Pan-American Highway.",
                 "location": "Lapataia Bay, Tierra del Fuego National Park, Argentina",
                 "longitude": -68.5170,
-                "latitude": -54.8430
+                "latitude": -54.8430,
+                "imageUrl": "assets/images/venues/argentina/lapataia.png"
             },
             {
                 "name": "End of the World Train",
                 "description": "Take a ride on the End of the World Train, offering a unique perspective on the park’s landscape and a journey through its history.",
                 "location": "End of the World Train, Ushuaia, Argentina",
                 "longitude": -68.2915,
-                "latitude": -54.8160
+                "latitude": -54.8160,
+                "imageUrl": "assets/images/venues/argentina/endofworld.png"
             },
             {
                 "name": "Garibaldi Pass",
                 "description": "Hike up to Garibaldi Pass for breathtaking views of the lakes and forests that characterize the park.",
                 "location": "Garibaldi Pass, Tierra del Fuego National Park, Argentina",
                 "longitude": -68.5200,
-                "latitude": -54.7000
+                "latitude": -54.7000,
+                "imageUrl": "assets/images/venues/argentina/garibaldi.png"
             },
             {
                 "name": "Alakush Visitor Center",
                 "description": "Visit the Alakush Visitor Center to learn about the park’s ecology, indigenous history, and to plan your explorations.",
                 "location": "Alakush Visitor Center, Tierra del Fuego National Park, Argentina",
                 "longitude": -68.4800,
-                "latitude": -54.8700
+                "latitude": -54.8700,
+                "imageUrl": "assets/images/venues/argentina/alakush.png"
             }
         ]
     },
 
     {
         "name": "Cafayate Wine Tasting",
-        "category": "Culinary",
+        "category": "Food",
         "score": 4,
         "description": "Sample delicious wines in Cafayate, a charming town in Argentina's wine-producing region.",
         "city": "Cafayate",
@@ -422,28 +459,32 @@
                 "description": "Visit Bodega Piattelli Vineyards, known for its high-altitude vineyards and exceptional Malbec and Torrontés wines.",
                 "location": "Bodega Piattelli Vineyards, Cafayate, Argentina",
                 "longitude": -65.9780,
-                "latitude": -26.0600
+                "latitude": -26.0600,
+                "imageUrl": "assets/images/venues/argentina/piattelli.png"
             },
             {
                 "name": "El Esteco Winery",
                 "description": "Explore El Esteco Winery, a historic winery offering guided tours and tastings of premium wines in a picturesque setting.",
                 "location": "El Esteco Winery, Cafayate, Argentina",
                 "longitude": -65.9700,
-                "latitude": -26.0800
+                "latitude": -26.0800,
+                "imageUrl": "assets/images/venues/argentina/elesteco.png"
             },
             {
                 "name": "Vinas de Cafayate Wine Resort",
                 "description": "Enjoy wine tasting at Vinas de Cafayate Wine Resort, set amidst stunning vineyards with a backdrop of mountains.",
                 "location": "Vinas de Cafayate Wine Resort, Cafayate, Argentina",
                 "longitude": -65.9750,
-                "latitude": -26.0750
+                "latitude": -26.0750,
+                "imageUrl": "assets/images/venues/argentina/cafayate.png"
             },
             {
                 "name": "Museum of the Vine and Wine",
                 "description": "Visit the Museum of the Vine and Wine to learn about the history and culture of winemaking in the region.",
                 "location": "Museum of the Vine and Wine, Cafayate, Argentina",
                 "longitude": -65.9820,
-                "latitude": -26.0690
+                "latitude": -26.0690,
+                "imageUrl": "assets/images/venues/argentina/vineandwine.png"
             }
         ]
     }    

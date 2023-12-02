@@ -16,28 +16,32 @@
             {
                 "name": "Thingvellir National Park",
                 "description": "A UNESCO World Heritage Site near Reykjavik, offering dark skies and stunning natural backdrops for viewing the Northern Lights.",
-                "location": "Near Reykjavik, Iceland"
+                "location": "Near Reykjavik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/thingvellir.png"
             },
             {
                 "name": "Reykjanes Peninsula",
                 "description": "A region with minimal light pollution, offering good opportunities to see the Northern Lights along with unique geological features.",
-                "location": "Near Reykjavik, Iceland"
+                "location": "Near Reykjavik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/reykjanes.png"
             },
             {
                 "name": "Northern Lights Tours",
                 "description": "Guided tours from Reykjavik, taking visitors to the best spots for aurora viewing, depending on the weather and solar activity.",
-                "location": "Reykjavik, Iceland"
+                "location": "Reykjavik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/northernlightstours.png"
             },
             {
                 "name": "Jökulsárlón Glacier Lagoon",
                 "description": "Though farther from Reykjavik, this lagoon offers a spectacular setting for Northern Lights viewing, with floating icebergs adding to the surreal experience.",
-                "location": "Iceland"
+                "location": "Iceland",
+                "imageUrl": "assets/images/venues/iceland/jokulsarlon.png"
             }
         ]
     },    
     {
         "name": "Exploring the Blue Lagoon",
-        "category": "Wellness",
+        "category": "Nature",
         "score": 5,
         "description": "Relax in the geothermal waters of the Blue Lagoon, one of Iceland's most famous attractions.",
         "city": "Grindavík",
@@ -52,22 +56,26 @@
             {
                 "name": "Blue Lagoon Geothermal Spa",
                 "description": "Enjoy the main attraction, the large geothermal pool, known for its milky blue water rich in minerals like silica and sulfur.",
-                "location": "Grindavík, Iceland"
+                "location": "Grindavík, Iceland",
+                "imageUrl": "assets/images/venues/iceland/thermalspa.png"
             },
             {
                 "name": "Lava Restaurant",
                 "description": "A fine dining experience at the Blue Lagoon, offering views of the lagoon and a menu featuring fresh, local ingredients.",
-                "location": "Blue Lagoon, Iceland"
+                "location": "Blue Lagoon, Iceland",
+                "imageUrl": "assets/images/venues/iceland/lavarestaurant.png"
             },
             {
                 "name": "In-Water Massages",
                 "description": "Enhance your experience with a relaxing in-water massage, offered directly in the geothermal waters of the lagoon.",
-                "location": "Blue Lagoon, Iceland"
+                "location": "Blue Lagoon, Iceland",
+                "imageUrl": "assets/images/venues/iceland/watermassage.png"
             },
             {
                 "name": "Skin Care Shop",
                 "description": "The Blue Lagoon offers a range of skin care products made from the natural elements of the lagoon, ideal for souvenirs or personal use.",
-                "location": "Blue Lagoon, Iceland"
+                "location": "Blue Lagoon, Iceland",
+                "imageUrl": "assets/images/venues/iceland/skincare.png"
             }
         ]
     },
@@ -88,22 +96,26 @@
             {
                 "name": "Thingvellir National Park",
                 "description": "A UNESCO World Heritage site known for its historical significance and unique geology, where the North American and Eurasian tectonic plates meet.",
-                "location": "Thingvellir, Iceland"
+                "location": "Thingvellir, Iceland",
+                "imageUrl": "assets/images/venues/iceland/thingvellirpark.png"
             },
             {
                 "name": "Geysir Geothermal Area",
                 "description": "Home to the famous Strokkur geyser, which erupts every few minutes, and other geothermal phenomena.",
-                "location": "Near Thingvellir, Iceland"
+                "location": "Near Thingvellir, Iceland",
+                "imageUrl": "assets/images/venues/iceland/geysir.png"
             },
             {
                 "name": "Gullfoss Waterfall",
                 "description": "One of Iceland's most iconic waterfalls, Gullfoss is known for its immense power and stunning rainbows on sunny days.",
-                "location": "Near Thingvellir, Iceland"
+                "location": "Near Thingvellir, Iceland",
+                "imageUrl": "assets/images/venues/iceland/gullfoss.png"
             },
             {
                 "name": "Kerid Crater Lake",
                 "description": "A volcanic crater lake featuring strikingly blue water, often included in extended Golden Circle tours.",
-                "location": "Near Thingvellir, Iceland"
+                "location": "Near Thingvellir, Iceland",
+                "imageUrl": "assets/images/venues/iceland/kerid.png"
             }
         ]
     },    
@@ -124,22 +136,26 @@
             {
                 "name": "Glacier Hiking",
                 "description": "Guided glacier hikes on Vatnajökull, Europe's largest glacier, offering a unique and exhilarating experience.",
-                "location": "Vatnajökull National Park, Iceland"
+                "location": "Vatnajökull National Park, Iceland",
+                "imageUrl": "assets/images/venues/iceland/glacierhiking.png"
             },
             {
                 "name": "Jökulsárlón Glacier Lagoon",
                 "description": "A stunning glacier lagoon with floating icebergs, located at the edge of Vatnajökull National Park.",
-                "location": "Near Vatnajökull, Iceland"
+                "location": "Near Vatnajökull, Iceland",
+                "imageUrl": "assets/images/venues/iceland/glacierlagoon.png"
             },
             {
                 "name": "Svartifoss Waterfall",
                 "description": "A beautiful waterfall framed by black basalt columns, creating a striking natural backdrop for hikers.",
-                "location": "Vatnajökull National Park, Iceland"
+                "location": "Vatnajökull National Park, Iceland",
+                "imageUrl": "assets/images/venues/iceland/svartifoss.png"
             },
             {
                 "name": "Volcanic Landscapes",
                 "description": "Explore the park's unique volcanic terrain, including craters and lava fields, showcasing Iceland's dynamic geology.",
-                "location": "Vatnajökull National Park, Iceland"
+                "location": "Vatnajökull National Park, Iceland",
+                "imageUrl": "assets/images/venues/iceland/volcanic.png"
             }
         ]
     },
@@ -160,22 +176,26 @@
             {
                 "name": "Boat Tours",
                 "description": "Take a boat tour on the lagoon to get up close to the floating icebergs, offering a unique perspective of this glacial wonder.",
-                "location": "Jökulsárlón, Iceland"
+                "location": "Jökulsárlón, Iceland",
+                "imageUrl": "assets/images/venues/iceland/boattours.png"
             },
             {
                 "name": "Diamond Beach",
                 "description": "A nearby beach where icebergs from the lagoon wash ashore, creating a stunning scene against the black sand.",
-                "location": "Near Jökulsárlón, Iceland"
+                "location": "Near Jökulsárlón, Iceland",
+                "imageUrl": "assets/images/venues/iceland/diamondbeach.png"
             },
             {
                 "name": "Wildlife Watching",
                 "description": "The lagoon and its surroundings are great for observing local wildlife, including seals and various bird species.",
-                "location": "Jökulsárlón, Iceland"
+                "location": "Jökulsárlón, Iceland",
+                "imageUrl": "assets/images/venues/iceland/wildlifewatching.png"
             },
             {
                 "name": "Photography Opportunities",
                 "description": "Jökulsárlón offers exceptional photography opportunities, with its ever-changing landscape of ice and water.",
-                "location": "Jökulsárlón, Iceland"
+                "location": "Jökulsárlón, Iceland",
+                "imageUrl": "assets/images/venues/iceland/photo.png"
             }
         ]
     },
@@ -196,22 +216,26 @@
             {
                 "name": "Hallgrimskirkja",
                 "description": "A landmark church in Reykjavik, known for its unique architecture and panoramic views of the city from its tower.",
-                "location": "Reykjavik, Iceland"
+                "location": "Reykjavik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/hallgrimskirkja.png"
             },
             {
                 "name": "Harpa Concert Hall",
                 "description": "An architectural marvel and cultural center, hosting concerts and events, and offering beautiful views of the harbor.",
-                "location": "Reykjavik, Iceland"
+                "location": "Reykjavik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/concerthall.png"
             },
             {
                 "name": "National Museum of Iceland",
                 "description": "A museum showcasing Iceland's history from the Viking age to the present day, providing a comprehensive understanding of Icelandic culture.",
-                "location": "Reykjavik, Iceland"
+                "location": "Reykjavik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/nationalmuseum.png"
             },
             {
                 "name": "Old Harbor Area",
                 "description": "A vibrant area with cafes, shops, and galleries, offering a glimpse into Reykjavik's maritime history and contemporary culture.",
-                "location": "Reykjavik, Iceland"
+                "location": "Reykjavik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/oldharbor.png"
             }
         ]
     },
@@ -232,22 +256,26 @@
             {
                 "name": "Silfra Fissure",
                 "description": "A unique snorkeling site known for its clear waters and the opportunity to swim between the North American and Eurasian tectonic plates.",
-                "location": "Thingvellir National Park, Iceland"
+                "location": "Thingvellir National Park, Iceland",
+                "imageUrl": "assets/images/venues/iceland/silfra.png"
             },
             {
                 "name": "Guided Snorkeling Tours",
                 "description": "Organized tours provide all necessary equipment, including dry suits, and guidance for a safe and memorable snorkeling experience in Silfra.",
-                "location": "Thingvellir National Park, Iceland"
+                "location": "Thingvellir National Park, Iceland",
+                "imageUrl": "assets/images/venues/iceland/snorkelingtours.png"
             },
             {
                 "name": "Thingvellir National Park",
                 "description": "Apart from snorkeling, the park offers numerous hiking trails, historical sites, and stunning natural scenery.",
-                "location": "Thingvellir, Iceland"
+                "location": "Thingvellir, Iceland",
+                "imageUrl": "assets/images/venues/iceland/thingvellirpark.png"
             },
             {
                 "name": "Underwater Photography",
                 "description": "Silfra's clear waters offer exceptional conditions for underwater photography, capturing the fissure's unique underwater landscapes.",
-                "location": "Silfra Fissure, Thingvellir National Park, Iceland"
+                "location": "Silfra Fissure, Thingvellir National Park, Iceland",
+                "imageUrl": "assets/images/venues/iceland/underwaterphoto.png"
             }
         ]
     },
@@ -268,22 +296,26 @@
             {
                 "name": "Whale Watching Tours",
                 "description": "Join guided boat tours in Husavik, offering the chance to see various species of whales in their natural habitat.",
-                "location": "Husavik, Iceland"
+                "location": "Husavik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/whalewatching.png"
             },
             {
                 "name": "Husavik Whale Museum",
                 "description": "A museum dedicated to whale biology and conservation, providing educational insights into the species seen in Icelandic waters.",
-                "location": "Husavik, Iceland"
+                "location": "Husavik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/whalemuseum.png"
             },
             {
                 "name": "Puffin Watching",
                 "description": "In addition to whales, the area around Husavik is also a great place to spot puffins during the summer months.",
-                "location": "Near Husavik, Iceland"
+                "location": "Near Husavik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/puffinwatching.png"
             },
             {
                 "name": "Scenic Boat Trips",
                 "description": "Beyond whale watching, boat trips in the area offer stunning views of Iceland’s coastline and marine landscapes.",
-                "location": "Husavik, Iceland"
+                "location": "Husavik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/boattrips.png"
             }
         ]
     },
@@ -304,22 +336,26 @@
             {
                 "name": "Reynisfjara Beach",
                 "description": "One of the most famous black sand beaches near Vik, known for its stunning basalt columns, powerful waves, and dramatic cliffs.",
-                "location": "Near Vik, Iceland"
+                "location": "Near Vik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/reynisfjara.png"
             },
             {
                 "name": "Dyrhólaey Peninsula",
                 "description": "A nearby peninsula offering panoramic views of the black sand beaches, birdwatching opportunities, and unique rock formations.",
-                "location": "Near Vik, Iceland"
+                "location": "Near Vik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/dyrholaey.png"
             },
             {
                 "name": "Photography Opportunities",
                 "description": "The black sand beaches and surrounding landscapes provide exceptional photography opportunities, capturing the unique beauty of Iceland's coastline.",
-                "location": "Vik, Iceland"
+                "location": "Vik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/photoopps.png"
             },
             {
                 "name": "Local Hiking Trails",
                 "description": "Explore the hiking trails around Vik, which lead to breathtaking vantage points over the beaches and the Atlantic Ocean.",
-                "location": "Vik, Iceland"
+                "location": "Vik, Iceland",
+                "imageUrl": "assets/images/venues/iceland/hikingtrails.png"
             }
         ]
     },
@@ -340,22 +376,26 @@
             {
                 "name": "Látrabjarg Cliffs",
                 "description": "Europe’s largest bird cliff, a haven for birdwatchers and home to puffins, guillemots, and other seabirds.",
-                "location": "Westfjords, Iceland"
+                "location": "Westfjords, Iceland",
+                "imageUrl": "assets/images/venues/iceland/latrabjarg.png"
             },
             {
                 "name": "Dynjandi Waterfall",
                 "description": "A majestic and iconic waterfall in the Westfjords, known for its unique cascading appearance.",
-                "location": "Westfjords, Iceland"
+                "location": "Westfjords, Iceland",
+                "imageUrl": "assets/images/venues/iceland/dynjandi.png"
             },
             {
                 "name": "Rauðasandur Beach",
                 "description": "A remarkable red sand beach in the Westfjords, offering a contrast to Iceland’s typical black sand beaches.",
-                "location": "Westfjords, Iceland"
+                "location": "Westfjords, Iceland",
+                "imageUrl": "assets/images/venues/iceland/rauoasandur.png"
             },
             {
                 "name": "Hot Springs",
                 "description": "The Westfjords region is dotted with natural hot springs, providing relaxing spots to enjoy amidst the stunning landscapes.",
-                "location": "Westfjords, Iceland"
+                "location": "Westfjords, Iceland",
+                "imageUrl": "assets/images/venues/iceland/hotsprings.png"
             }
         ]
     }    

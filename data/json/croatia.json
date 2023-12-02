@@ -16,22 +16,26 @@
             {
                 "name": "Old Town Dubrovnik",
                 "description": "The historic center of Dubrovnik, enclosed within the walls, filled with medieval architecture, charming streets, and cultural landmarks.",
-                "location": "Dubrovnik, Croatia"
+                "location": "Dubrovnik, Croatia",
+                "imageUrl": "assets/images/venues/croatia/oldtowndubrovnik.png"
             },
             {
                 "name": "Lovrijenac Fortress",
                 "description": "A historic fortress outside the western wall of Dubrovnik, offering breathtaking views of the Adriatic Sea and the Old Town.",
-                "location": "Dubrovnik, Croatia"
+                "location": "Dubrovnik, Croatia",
+                "imageUrl": "assets/images/venues/croatia/lovrijenac.png"
             },
             {
                 "name": "Dubrovnik Cable Car",
                 "description": "A cable car that provides panoramic views of Dubrovnik's Old Town and the surrounding Adriatic Sea, offering a unique perspective of the city.",
-                "location": "Dubrovnik, Croatia"
+                "location": "Dubrovnik, Croatia",
+                "imageUrl": "assets/images/venues/croatia/cablecar.png"
             },
             {
                 "name": "Banje Beach",
                 "description": "A popular beach near the Old Town, perfect for relaxing and enjoying the Mediterranean atmosphere after exploring the city.",
-                "location": "Dubrovnik, Croatia"
+                "location": "Dubrovnik, Croatia",
+                "imageUrl": "assets/images/venues/croatia/banje.png"
             }
         ]
     },    
@@ -52,22 +56,26 @@
             {
                 "name": "Lower Lakes",
                 "description": "The lower section of Plitvice Lakes, known for its stunning waterfalls and serene lake scenery, easily accessible for visitors.",
-                "location": "Plitvice Lakes National Park, Croatia"
+                "location": "Plitvice Lakes National Park, Croatia",
+                "imageUrl": "assets/images/venues/croatia/lowerlakes.png"
             },
             {
                 "name": "Upper Lakes",
                 "description": "The upper part of the park, featuring a series of beautiful lakes connected by waterfalls, set amidst dense forest landscapes.",
-                "location": "Plitvice Lakes National Park, Croatia"
+                "location": "Plitvice Lakes National Park, Croatia",
+                "imageUrl": "assets/images/venues/croatia/upperlakes.png"
             },
             {
                 "name": "Great Waterfall",
                 "description": "The largest waterfall in Plitvice Lakes National Park, offering a spectacular natural display and great photo opportunities.",
-                "location": "Plitvice Lakes National Park, Croatia"
+                "location": "Plitvice Lakes National Park, Croatia",
+                "imageUrl": "assets/images/venues/croatia/waterfall.png"
             },
             {
                 "name": "Veliki Slap Viewpoint",
                 "description": "A viewpoint providing panoramic views of the park's largest waterfall and the surrounding landscape.",
-                "location": "Plitvice Lakes National Park, Croatia"
+                "location": "Plitvice Lakes National Park, Croatia",
+                "imageUrl": "assets/images/venues/croatia/velikislap.png"
             }
         ]
     },    
@@ -88,22 +96,26 @@
             {
                 "name": "Cathedral of Saint Domnius",
                 "description": "A beautiful cathedral within Diocletian's Palace, known for its ancient architecture and the bell tower offering panoramic views of Split.",
-                "location": "Split, Croatia"
+                "location": "Split, Croatia",
+                "imageUrl": "assets/images/venues/croatia/saintdomnius.png"
             },
             {
                 "name": "Peristyle of Diocletian's Palace",
                 "description": "The central square of the palace, surrounded by well-preserved Roman architecture, a perfect spot for experiencing the historical ambiance of the palace.",
-                "location": "Split, Croatia"
+                "location": "Split, Croatia",
+                "imageUrl": "assets/images/venues/croatia/peristyle.png"
             },
             {
                 "name": "Split's Riva Promenade",
                 "description": "A bustling waterfront promenade near the palace, lined with cafes and shops, perfect for a leisurely stroll or dining with views of the Adriatic Sea.",
-                "location": "Split, Croatia"
+                "location": "Split, Croatia",
+                "imageUrl": "assets/images/venues/croatia/splitriva.png"
             },
             {
                 "name": "Jupiter's Temple",
                 "description": "An ancient Roman temple dedicated to the god Jupiter, located within the palace complex, showcasing Roman religious architecture.",
-                "location": "Split, Croatia"
+                "location": "Split, Croatia",
+                "imageUrl": "assets/images/venues/croatia/jupitertemple.png"
             }
         ]
     },    
@@ -124,22 +136,26 @@
             {
                 "name": "Hvar Island",
                 "description": "A popular destination known for its vibrant nightlife, historic sites, and beautiful beaches, a must-visit while sailing the Dalmatian Coast.",
-                "location": "Dalmatian Coast, Croatia"
+                "location": "Dalmatian Coast, Croatia",
+                "imageUrl": "assets/images/venues/croatia/hvar.png"
             },
             {
                 "name": "Korčula Island",
                 "description": "An island famous for its dense forests, traditional wine-making, and the charming old town of Korčula, offering a mix of nature and culture.",
-                "location": "Dalmatian Coast, Croatia"
+                "location": "Dalmatian Coast, Croatia",
+                "imageUrl": "assets/images/venues/croatia/korcula.png"
             },
             {
                 "name": "Blue Cave of Biševo",
                 "description": "A natural sea cave known for its mesmerizing blue light, accessible by boat and a popular spot for visitors sailing in the area.",
-                "location": "Near Vis Island, Dalmatian Coast, Croatia"
+                "location": "Near Vis Island, Dalmatian Coast, Croatia",
+                "imageUrl": "assets/images/venues/croatia/bluecave.png"
             },
             {
                 "name": "Mljet National Park",
                 "description": "A beautiful national park on Mljet Island, offering tranquil forests, saltwater lakes, and peaceful coves, ideal for nature lovers.",
-                "location": "Mljet Island, Dalmatian Coast, Croatia"
+                "location": "Mljet Island, Dalmatian Coast, Croatia",
+                "imageUrl": "assets/images/venues/croatia/mljet.png"
             }
         ]
     },    
@@ -160,22 +176,26 @@
             {
                 "name": "Dingač Vineyards",
                 "description": "Famous vineyards on the steep slopes facing the sea, known for producing the premium Dingač variety of Plavac Mali.",
-                "location": "Pelješac Peninsula, Croatia"
+                "location": "Pelješac Peninsula, Croatia",
+                "imageUrl": "assets/images/venues/croatia/dingac.png"
             },
             {
                 "name": "Grgić Winery",
                 "description": "A renowned winery offering tastings of its acclaimed wines, including excellent whites and the region's signature Plavac Mali reds.",
-                "location": "Pelješac Peninsula, Croatia"
+                "location": "Pelješac Peninsula, Croatia",
+                "imageUrl": "assets/images/venues/croatia/grgic.png"
             },
             {
                 "name": "Matusko Winery",
                 "description": "A popular winery known for its traditional winemaking methods and a wide range of wines, including some of the best Plavac Mali.",
-                "location": "Pelješac Peninsula, Croatia"
+                "location": "Pelješac Peninsula, Croatia",
+                "imageUrl": "assets/images/venues/croatia/matusko.png"
             },
             {
                 "name": "Saint Hills Winery",
                 "description": "A modern winery offering a unique wine-tasting experience, with picturesque views of the vineyards and the Adriatic Sea.",
-                "location": "Pelješac Peninsula, Croatia"
+                "location": "Pelješac Peninsula, Croatia",
+                "imageUrl": "assets/images/venues/croatia/sainthills.png"
             }
         ]
     },
@@ -196,22 +216,26 @@
             {
                 "name": "Historical and Maritime Museum of Istria",
                 "description": "Located in Pula's old town, this museum offers insights into the region's rich history and maritime heritage.",
-                "location": "Pula, Croatia"
+                "location": "Pula, Croatia",
+                "imageUrl": "assets/images/venues/croatia/istria.png"
             },
             {
                 "name": "Temple of Augustus",
                 "description": "An ancient Roman temple in Pula, dedicated to the first Roman emperor, Augustus, showcasing classical architecture.",
-                "location": "Pula, Croatia"
+                "location": "Pula, Croatia",
+                "imageUrl": "assets/images/venues/croatia/augustus.png"
             },
             {
                 "name": "Brijuni National Park",
                 "description": "A group of islands near Pula, known for their natural beauty and historical sites, including Roman villa ruins and a safari park.",
-                "location": "Near Pula, Croatia"
+                "location": "Near Pula, Croatia",
+                "imageUrl": "assets/images/venues/croatia/brijuni.png"
             },
             {
                 "name": "Arch of the Sergii",
                 "description": "An ancient Roman triumphal arch in Pula, rich in history and architectural detail, located at the entrance to the historical city center.",
-                "location": "Pula, Croatia"
+                "location": "Pula, Croatia",
+                "imageUrl": "assets/images/venues/croatia/archsergii.png"
             }
         ]
     },    
@@ -232,22 +256,26 @@
             {
                 "name": "Trogir Cathedral",
                 "description": "A stunning example of Romanesque-Gothic architecture, this cathedral is a highlight of Trogir's old town with its remarkable portal and bell tower.",
-                "location": "Trogir, Croatia"
+                "location": "Trogir, Croatia",
+                "imageUrl": "assets/images/venues/croatia/cathedral.png"
             },
             {
                 "name": "Kamerlengo Fortress",
                 "description": "An imposing medieval fortress offering panoramic views of Trogir and the surrounding sea, a must-visit for history enthusiasts.",
-                "location": "Trogir, Croatia"
+                "location": "Trogir, Croatia",
+                "imageUrl": "assets/images/venues/croatia/kamerlengo.png"
             },
             {
                 "name": "Cipiko Palace",
                 "description": "An historic palace in Trogir's old town, showcasing Gothic and Renaissance architecture and the rich history of the city.",
-                "location": "Trogir, Croatia"
+                "location": "Trogir, Croatia",
+                "imageUrl": "assets/images/venues/croatia/cipiko.png"
             },
             {
                 "name": "Trogir's Old Town",
                 "description": "The ancient heart of the city, filled with charming narrow streets, historic buildings, and lively cafes, perfect for a leisurely exploration.",
-                "location": "Trogir, Croatia"
+                "location": "Trogir, Croatia",
+                "imageUrl": "assets/images/venues/croatia/trogiroldtown.png"
             }
         ]
     },    
@@ -268,22 +296,26 @@
             {
                 "name": "Velika Paklenica Canyon",
                 "description": "The larger of the park's two canyons, offering stunning scenery and a variety of hiking trails ranging from easy walks to challenging climbs.",
-                "location": "Paklenica National Park, Croatia"
+                "location": "Paklenica National Park, Croatia",
+                "imageUrl": "assets/images/venues/croatia/velika.png"
             },
             {
                 "name": "Manita Peć Cave",
                 "description": "A fascinating cave within the park, accessible by a hiking trail and known for its impressive stalactites and stalagmites.",
-                "location": "Paklenica National Park, Croatia"
+                "location": "Paklenica National Park, Croatia",
+                "imageUrl": "assets/images/venues/croatia/manitapec.png"
             },
             {
                 "name": "Paklenica Climbing Sites",
                 "description": "Paklenica National Park is renowned for its climbing sites, attracting climbers from around the world with its diverse routes and stunning natural setting.",
-                "location": "Paklenica National Park, Croatia"
+                "location": "Paklenica National Park, Croatia",
+                "imageUrl": "assets/images/venues/croatia/paklenica.png"
             },
             {
                 "name": "Mala Paklenica Canyon",
                 "description": "The smaller canyon in the park, offering a more tranquil hiking experience through its narrow passageways and lush vegetation.",
-                "location": "Paklenica National Park, Croatia"
+                "location": "Paklenica National Park, Croatia",
+                "imageUrl": "assets/images/venues/croatia/malapaklenica.png"
             }
         ]
     },    
@@ -304,22 +336,26 @@
             {
                 "name": "Biševo Island",
                 "description": "Apart from the Blue Cave, Biševo Island offers beautiful beaches and a peaceful natural environment, ideal for a day of exploration and relaxation.",
-                "location": "Biševo, Croatia"
+                "location": "Biševo, Croatia",
+                "imageUrl": "assets/images/venues/croatia/bisevo.png"
             },
             {
                 "name": "Komiža Town",
                 "description": "A charming coastal town on nearby Vis Island, known for its fishing heritage, beautiful architecture, and serene beaches.",
-                "location": "Near Biševo, Croatia"
+                "location": "Near Biševo, Croatia",
+                "imageUrl": "assets/images/venues/croatia/komiza.png"
             },
             {
                 "name": "Stiniva Cove",
                 "description": "A stunning and secluded beach on Vis Island, known for its dramatic cliffs and clear waters, perfect for swimming and snorkeling.",
-                "location": "Near Biševo, Croatia"
+                "location": "Near Biševo, Croatia",
+                "imageUrl": "assets/images/venues/croatia/stiniva.png"
             },
             {
                 "name": "Green Cave",
                 "description": "Another natural sea cave near Biševo, where the light creates a beautiful green illumination, offering a different but equally enchanting experience.",
-                "location": "Near Biševo, Croatia"
+                "location": "Near Biševo, Croatia",
+                "imageUrl": "assets/images/venues/croatia/greencave.png"
             }
         ]
     },    
@@ -340,22 +376,26 @@
             {
                 "name": "Hvar Town",
                 "description": "The main town on the island, known for its historic architecture, vibrant squares, and bustling port area, full of restaurants and shops.",
-                "location": "Hvar, Croatia"
+                "location": "Hvar, Croatia",
+                "imageUrl": "assets/images/venues/croatia/hvartown.png"
             },
             {
                 "name": "Stari Grad",
                 "description": "One of the oldest towns in Europe, offering a mix of historical sites, charming streets, and a more relaxed atmosphere compared to Hvar Town.",
-                "location": "Hvar, Croatia"
+                "location": "Hvar, Croatia",
+                "imageUrl": "assets/images/venues/croatia/starigrad.png"
             },
             {
                 "name": "Pakleni Islands",
                 "description": "A group of small islands off the coast of Hvar, known for their crystal-clear waters, secluded beaches, and natural beauty, ideal for a day trip.",
-                "location": "Near Hvar, Croatia"
+                "location": "Near Hvar, Croatia",
+                "imageUrl": "assets/images/venues/croatia/pakleni.png"
             },
             {
                 "name": "Fortica Fortress",
                 "description": "An ancient fortress overlooking Hvar Town, offering panoramic views of the town, the sea, and the surrounding islands.",
-                "location": "Hvar, Croatia"
+                "location": "Hvar, Croatia",
+                "imageUrl": "assets/images/venues/croatia/fortica.png"
             }
         ]
     }
