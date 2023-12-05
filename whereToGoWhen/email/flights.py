@@ -9,7 +9,7 @@ import schedule, time
 
 
 params = {
-    'access_key': '2494fe0f91eb1f3d38f7ad3e6c1318ee'
+    'access_key': ''
 }
 
 api_result = requests.get('http://api.aviationstack.com/v1/flights', params)
@@ -19,7 +19,7 @@ api_response = api_result.json()
 
 def find_planes():
     params = {
-        'access_key': ''
+        'access_key': '2494fe0f91eb1f3d38f7ad3e6c1318ee'
     }
 
     api_result = requests.get(
@@ -53,7 +53,13 @@ def find_planes():
     return df_print
 
 
-def send_email(html_content):
+def send_email():
+    
+    planes = find_planes()
+    print('API called')
+    # Convert DataFrame to HTML
+    html = planes.to_html()
+
     # Gmail credentials and recipient
     sender_email = "erhardbr@gmail.com"
     receiver_email = "erhardbr@gmail.com"
@@ -61,14 +67,14 @@ def send_email(html_content):
 
     # Email content
     message = MIMEMultipart("alternative")
-    message["Subject"] = "Scheduled Email"
+    message["Subject"] = "Up in the Air"
     message["From"] = sender_email
     message["To"] = receiver_email
 
     # Email body (text and HTML)
-    text = "Hi, this is a scheduled email from Gmail."
+    text = "Check out all thm planes."
     part1 = MIMEText(text, "plain")
-    part2 = MIMEText(html_content, "html")
+    part2 = MIMEText(html, "html")
     message.attach(part1)
     message.attach(part2)
 
@@ -79,13 +85,11 @@ def send_email(html_content):
     server.quit()
     print("Email sent!")
 
-planes = find_planes()
-# Convert DataFrame to HTML
-html = planes.to_html()
 
 
-# Schedule the email (example: send on a specific date and time)
-schedule.every().day.at("22:47").do(send_email(html))  # Adjust the time as needed
+# Schedule the email to be sent every hour from 13:00 to 20:00
+for hour in range(13, 21):
+    schedule.every().day.at(f"{hour:02d}:00").do(lambda:send_email())
 
 # Keep running the scheduler
 while True:
